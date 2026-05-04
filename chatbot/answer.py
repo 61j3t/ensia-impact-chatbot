@@ -1,11 +1,13 @@
-"""End-to-end answer generation: retrieve → build context → LLM → answer.
+"""End-to-end answer generation: rewrite → retrieve → LLM → answer.
 
-Three-tier refusal based on the top-1 reranker score (calibrated by the
-k-sweep experiment in eval/reports/2026-05-04_1013_k_sweep.md):
+The LLM is the router. Every non-error path goes through one
+litellm.completion() call. The system prompt instructs it to pick one
+of: small talk, cited answer, server-adjacent redirect, or off-topic
+redirect. Whether to surface a sources block is decided by whether the
+LLM cited any [chunk_id] in its response.
 
-   score < 0.20   → hard refuse (no LLM call)
-   0.20–0.50      → soft mode: pass context + extra "verify or refuse" instruction
-   score ≥ 0.50   → normal mode: standard answer prompt
+If conversation history is supplied, a small rewriter call resolves
+follow-ups into standalone retrieval queries before embedding.
 
 Uses LiteLLM so the same code works with any provider — change
 CHATBOT_LLM_MODEL in .env to swap. Defaults to Groq llama-3.3-70b.

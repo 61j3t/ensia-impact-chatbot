@@ -309,8 +309,10 @@ eval/
 ├── golden_set.json         ← 35 hand-curated queries with expected sources (used during retriever tuning)
 ├── validation_set.json     ← 19 held-out queries used once for unbiased generalization estimate
 ├── validate_golden_set.py  ← Sanity-check that every expected source actually exists in the corpus
-├── run_eval.py             ← Runs a query set through the retriever, writes Recall@k report (--set <path>)
-├── stress_test.py          ← Robustness probe: runs 4 perturbations × all queries, reports per-perturbation recall
+├── retrieval_report.py     ← Canonical retrieval-only eval: golden + validation, recall, scores, misses
+├── run_eval.py             ← Per-set retrieval eval, useful for ad-hoc runs (--set <path>)
+├── stress_test.py          ← Robustness probe: 4 query perturbations × every query
+├── k_sweep.py              ← Sweeps k to surface recall@k curve and score distribution
 └── reports/                ← Markdown reports per run
 .env                        ← Local secrets (gitignored): GROQ_API_KEY, TELEGRAM_BOT_TOKEN, CHATBOT_LLM_MODEL
 .env.example                ← Template — copy to .env and fill in

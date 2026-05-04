@@ -30,8 +30,10 @@ ensia-impact-chatbot/
 │   ├── golden_set.json         ← 35 hand-curated test queries with expected sources
 │   ├── validation_set.json     ← 19 held-out queries (used once, no tuning)
 │   ├── validate_golden_set.py  ← Sanity-checks a query set against the corpus
-│   ├── run_eval.py             ← Runs a query set through retriever → markdown report
+│   ├── retrieval_report.py     ← Canonical retrieval eval: golden + validation in one report
+│   ├── run_eval.py             ← Per-set retrieval eval (ad-hoc)
 │   ├── stress_test.py          ← Perturbation robustness probe
+│   ├── k_sweep.py              ← Recall@k curve and score-distribution probe
 │   └── reports/                ← Markdown eval reports per run
 └── data/
     ├── result.json             ← Raw Telegram export (input)
@@ -119,6 +121,15 @@ The golden set in `eval/golden_set.json` contains 35 queries spanning:
 Each non-adversarial query specifies the exact `expected_sources` (message IDs and/or PDF files) that the retriever should surface in its top-k. This gives us **Recall@k** as a deterministic metric.
 
 Run `.venv/bin/python eval/validate_golden_set.py [path]` after modifying any query set to confirm every reference still resolves to real content. Default path is `eval/golden_set.json`; pass `eval/validation_set.json` to validate the held-out set.
+
+The canonical retrieval-only report runs both query sets through the production pipeline (BGE-M3 + reranker, top-10 → top-5) and writes one consolidated markdown:
+
+```bash
+PYTHONPATH=. .venv/bin/python eval/retrieval_report.py
+# → eval/reports/<timestamp>_retrieval.md
+```
+
+Re-run any time the retriever config changes. Latest run: **88.6% Recall (any) @5** across 44 non-adversarial queries (97% on the golden set, 71% on the held-out validation set — that gap is the overfit signal).
 
 ## Telegram bot
 
