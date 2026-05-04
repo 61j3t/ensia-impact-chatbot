@@ -75,6 +75,12 @@ _msg_id_by_pdf_name: dict[str, int] = {}    # original PDF filename → Telegram
 HISTORY_TURNS = 5
 HISTORY_TTL_HOURS = 24.0
 
+# Per-user rate limit. A user must wait this many seconds between queries,
+# measured from when they sent the last one. Cheap anti-spam — the dict
+# grows with the user count but the entries are tiny.
+USER_COOLDOWN_S = 5.0
+_last_query_time: dict[int, float] = {}
+
 
 def _build_topic_id_map() -> dict[int, int]:
     """Walk reply chains to map every content msg id → its topic-thread id.
@@ -278,6 +284,25 @@ async def _handle_query(update: Update, context: ContextTypes.DEFAULT_TYPE, quer
     user = update.effective_user
     user_id = user.id if user else 0
     username = user.username if user else None
+
+    # Per-user cooldown. Reject quickly so we don't queue up retrieval work
+    # for spammers. Counts only "real" queries — failed cooldown checks
+    # don't update the timestamp, so users can't lock themselves out by
+    # spamming faster than the cooldown.
+    now = time.monotonic()
+    last = _last_query_time.get(user_id, 0.0)
+    if now - last < USER_COOLDOWN_S:
+        wait_s = USER_COOLDOWN_S - (now - last)
+        logger.info(
+            "rate-limited @%s in chat %s (%.1fs left)",
+            username, chat_id, wait_s,
+        )
+        await update.effective_message.reply_text(
+            f"⏳ Slow down — try again in {wait_s:.0f}s."
+        )
+        return
+    _last_query_time[user_id] = now
+
     logger.info("query from @%s in chat %s: %r", username, chat_id, query[:80])
 
     # Pull recent conversation history for this (chat, user). Memory is
