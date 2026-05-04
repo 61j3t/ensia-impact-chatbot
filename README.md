@@ -138,9 +138,3 @@ Behavior:
 - **Footer**: single `⏱ Xs` total wall-clock line. Per-stage timings (`rewrite`, `retrieval`, `answer`) live in server logs.
 
 See `docs/architecture.md` for the full pipeline diagram and component details.
-
-## Next steps
-
-- End-to-end LLM-as-judge eval: extend `run_eval.py` to call `answer()` (not just `retrieve.search`) and grade each reply on faithfulness and correctness using a strong model.
-- Watchdog timeout on retrieval to bound the rare MPS-allocator hangs we still see in the tail.
-- Web UI (Streamlit / Gradio) on top of the same `answer()` API as an alternative frontend.
