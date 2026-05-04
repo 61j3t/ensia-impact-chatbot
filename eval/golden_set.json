@@ -1,0 +1,436 @@
+{
+  "schema": {
+    "id": "Stable identifier",
+    "query": "Question text as a user would type it",
+    "language": "en | ar | fr | mixed",
+    "category": "real_qa | factual | summarization | multi_source | multilingual | adversarial",
+    "expected_sources": "Array of {kind, ref, must_contain?}. Retrieval is correct if the top-k retrieved chunks include AT LEAST ONE of these sources for each entry. kind=message means the message id in result.json/messages_enriched.json. kind=pdf means a file in data/extracted_text/ or data/ocr_text/.",
+    "expected_keywords": "Substrings that should appear in a correct answer (case-insensitive). Used by the LLM judge for the correctness score.",
+    "must_refuse": "If true, the chatbot should say it does not know / cannot find the answer. expected_sources should be empty.",
+    "notes": "Free-form context about why this query is in the set"
+  },
+  "queries": [
+    {
+      "id": "Q001",
+      "query": "How can I get better at programming?",
+      "language": "en",
+      "category": "real_qa",
+      "expected_sources": [
+        {"kind": "message", "ref": 392, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["practice", "real projects", "leetcode", "community"],
+      "must_refuse": false,
+      "notes": "Real student question from Q&A topic, OCR'd from photo"
+    },
+    {
+      "id": "Q002",
+      "query": "What should I include in my CV as an ENSIA student?",
+      "language": "en",
+      "category": "real_qa",
+      "expected_sources": [
+        {"kind": "message", "ref": 393, "topic": "Q&A"},
+        {"kind": "message", "ref": 575, "topic": "Companies"}
+      ],
+      "expected_keywords": ["projects", "skills", "github", "online presence"],
+      "must_refuse": false,
+      "notes": "Multi-source: covered by Q&A photo + Companies advice"
+    },
+    {
+      "id": "Q003",
+      "query": "Should I leave Algeria to study abroad after my third year?",
+      "language": "en",
+      "category": "real_qa",
+      "expected_sources": [
+        {"kind": "message", "ref": 389, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["too early", "third-year", "academic journey"],
+      "must_refuse": false,
+      "notes": "Bilingual Q&A photo (question in Arabic, answer in English)"
+    },
+    {
+      "id": "Q004",
+      "query": "هل تنصحني بالذهاب للدراسة في الخارج؟",
+      "language": "ar",
+      "category": "multilingual",
+      "expected_sources": [
+        {"kind": "message", "ref": 389, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["abroad", "third-year", "university"],
+      "must_refuse": false,
+      "notes": "Same content as Q003 but query in Arabic — tests cross-lingual retrieval"
+    },
+    {
+      "id": "Q005",
+      "query": "Any advice for ENSIA students?",
+      "language": "en",
+      "category": "real_qa",
+      "expected_sources": [
+        {"kind": "message", "ref": 391, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["overthink", "perfection", "enjoy", "learning"],
+      "must_refuse": false,
+      "notes": "Open-ended question, real Q&A photo"
+    },
+    {
+      "id": "Q006",
+      "query": "What soft skills should I learn that aren't in the ENSIA curriculum?",
+      "language": "en",
+      "category": "real_qa",
+      "expected_sources": [
+        {"kind": "message", "ref": 396, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["soft skills", "communication", "professional"],
+      "must_refuse": false,
+      "notes": "Real Q&A on soft skills"
+    },
+    {
+      "id": "Q007",
+      "query": "What advice do you have for choosing an internship?",
+      "language": "en",
+      "category": "real_qa",
+      "expected_sources": [
+        {"kind": "message", "ref": 390, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["career goals", "supervision", "learning environment"],
+      "must_refuse": false,
+      "notes": "Real Q&A from photo"
+    },
+    {
+      "id": "Q008",
+      "query": "What career paths are open to me after graduating from ENSIA?",
+      "language": "en",
+      "category": "real_qa",
+      "expected_sources": [
+        {"kind": "message", "ref": 394, "topic": "Q&A"},
+        {"kind": "message", "ref": 410, "topic": "Welcome board"}
+      ],
+      "expected_keywords": ["software engineer", "AI", "data science", "machine learning"],
+      "must_refuse": false,
+      "notes": "Multi-source: post-graduation Q&A + welcome board overview"
+    },
+    {
+      "id": "Q009",
+      "query": "How do I prepare to apply for a PhD abroad?",
+      "language": "en",
+      "category": "real_qa",
+      "expected_sources": [
+        {"kind": "message", "ref": 395, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["end-of-study", "research papers", "publish", "apply"],
+      "must_refuse": false,
+      "notes": "Real Q&A on PhD preparation"
+    },
+    {
+      "id": "Q010",
+      "query": "Can someone succeed in Algeria without strong networking?",
+      "language": "en",
+      "category": "real_qa",
+      "expected_sources": [
+        {"kind": "message", "ref": 398, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["network", "difficult", "shortcuts"],
+      "must_refuse": false,
+      "notes": "Real Q&A — somewhat opinion-based answer"
+    },
+    {
+      "id": "Q011",
+      "query": "What is the ENSIA AI Incubator Pre-Incubation Program?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 832, "topic": "ENSIA Incubator"},
+        {"kind": "message", "ref": 846, "topic": "ENSIA Incubator"}
+      ],
+      "expected_keywords": ["pre-incubation", "2-month", "training", "mentor"],
+      "must_refuse": false,
+      "notes": "Factual question, content split across two messages"
+    },
+    {
+      "id": "Q012",
+      "query": "Can students from any year apply to the Pre-Incubation Program?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 846, "topic": "ENSIA Incubator"}
+      ],
+      "expected_keywords": ["all study levels", "yes", "potential", "idea"],
+      "must_refuse": false,
+      "notes": "Specific FAQ answer in message 846"
+    },
+    {
+      "id": "Q013",
+      "query": "What is the CDE at ENSIA and what does it do?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 611, "topic": "CDE - ENSIA"},
+        {"kind": "message", "ref": 899, "topic": "CDE - ENSIA"}
+      ],
+      "expected_keywords": ["CDE", "entrepreneurship", "incubator", "micro-enterprises", "NESDA"],
+      "must_refuse": false,
+      "notes": "Multi-source factual: 611 introduces CDE, 899 contrasts CDE vs incubator"
+    },
+    {
+      "id": "Q014",
+      "query": "What is the difference between the incubator and the CDE?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 899, "topic": "CDE - ENSIA"}
+      ],
+      "expected_keywords": ["startups", "scalable", "micro-enterprises", "classical"],
+      "must_refuse": false,
+      "notes": "Specific comparative answer in msg 899"
+    },
+    {
+      "id": "Q015",
+      "query": "What is CATI and which entity established it?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 314, "topic": "Patents"}
+      ],
+      "expected_keywords": ["centre d'appui", "technologie", "innovation", "WIPO"],
+      "must_refuse": false,
+      "notes": "Factual question about CATI organization"
+    },
+    {
+      "id": "Q016",
+      "query": "Is AI software patentable in Algeria according to INAPI?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 1374, "topic": "Patents"},
+        {"kind": "pdf", "ref": "ENSIA.txt", "must_contain": "INAPI"}
+      ],
+      "expected_keywords": ["technical system", "concrete technical problem", "industrial", "not patentable", "algorithm"],
+      "must_refuse": false,
+      "notes": "Patent law question — answer in chat + INAPI PDF"
+    },
+    {
+      "id": "Q017",
+      "query": "What does Decree 1275 establish for student final-year projects?",
+      "language": "en",
+      "category": "multi_source",
+      "expected_sources": [
+        {"kind": "message", "ref": 1389, "topic": "End-of-Study Project"},
+        {"kind": "pdf", "ref": "اليات_تنفيذ_مشروع_القرار_1275.txt", "must_contain": "1275"},
+        {"kind": "pdf", "ref": "دليل_مشروع_للحصول_على_شهادة_مؤسسة_ناشئة.txt", "must_contain": "1275"}
+      ],
+      "expected_keywords": ["startup", "patent", "diploma", "1275"],
+      "must_refuse": false,
+      "notes": "Cross-source: chat msg + 2 Arabic PDFs covering same decree"
+    },
+    {
+      "id": "Q018",
+      "query": "How do I choose a good AI dissertation topic?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 867, "topic": "End-of-Study Project"}
+      ],
+      "expected_keywords": ["passion", "skills", "career impact", "10 criteria"],
+      "must_refuse": false,
+      "notes": "10-criteria guide in long admin message"
+    },
+    {
+      "id": "Q019",
+      "query": "Which companies did ENSIA students recommend most for internships?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "pdf", "ref": "Internship_Analysis.txt", "must_contain": "SLB"}
+      ],
+      "expected_keywords": ["SLB", "Schlumberger", "ASAL", "CRAAG", "satisfaction"],
+      "must_refuse": false,
+      "notes": "Factual answer comes purely from the Internship Analysis PDF"
+    },
+    {
+      "id": "Q020",
+      "query": "What slides should a startup pitch deck include?",
+      "language": "en",
+      "category": "summarization",
+      "expected_sources": [
+        {"kind": "pdf", "ref": "The_Ultimate_Guide_to_Pitch_Decks_for_Entrepreneurs.txt", "must_contain": "Slides you need in a pitch deck"}
+      ],
+      "expected_keywords": ["problem", "solution", "market", "team", "traction", "financials"],
+      "must_refuse": false,
+      "notes": "Long PDF — tests retrieval of relevant chapter from large doc"
+    },
+    {
+      "id": "Q021",
+      "query": "What is the INJAZ El Djazair Company Program and how do I register?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 1323, "topic": "Entrepreneurship"},
+        {"kind": "pdf", "ref": "Flyer_Company_program.txt", "must_contain": "INJAZ"}
+      ],
+      "expected_keywords": ["INJAZ", "free", "register", "QR code", "6-month"],
+      "must_refuse": false,
+      "notes": "Multi-source: chat announcement + flyer PDF"
+    },
+    {
+      "id": "Q022",
+      "query": "What are the available scholarships and their deadlines for 2025-2026?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 903, "topic": "Opportunities"}
+      ],
+      "expected_keywords": ["scholarship", "2025", "2026", "deadline"],
+      "must_refuse": false,
+      "notes": "Tests retrieval of an OCR'd photo with scholarship table"
+    },
+    {
+      "id": "Q023",
+      "query": "C'est quoi le Startup Factory et qui l'organise?",
+      "language": "fr",
+      "category": "multilingual",
+      "expected_sources": [
+        {"kind": "pdf", "ref": "Startup_Factory_1_1.txt", "must_contain": "CarpeDiem"}
+      ],
+      "expected_keywords": ["Tipaza", "CarpeDiem", "incubateur", "avril"],
+      "must_refuse": false,
+      "notes": "French-language factual query about a French-language PDF"
+    },
+    {
+      "id": "Q024",
+      "query": "What AI/Innovation conferences or hackathons are upcoming?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 1060, "topic": "Events"},
+        {"kind": "message", "ref": 1367, "topic": "Events"}
+      ],
+      "expected_keywords": ["AIIA", "Tech4Connect", "Huawei", "hackathon"],
+      "must_refuse": false,
+      "notes": "Multi-source events listing"
+    },
+    {
+      "id": "Q025",
+      "query": "How should I structure a research lab report following IMRAD?",
+      "language": "en",
+      "category": "summarization",
+      "expected_sources": [
+        {"kind": "pdf", "ref": "Research-Lab-Reports-IMRAD.txt", "must_contain": "IMRAD"}
+      ],
+      "expected_keywords": ["introduction", "methods", "results", "discussion", "abstract"],
+      "must_refuse": false,
+      "notes": "Pure-PDF summarization query"
+    },
+    {
+      "id": "Q026",
+      "query": "What is the goal of the ENSIA Impact server?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 410, "topic": "Welcome board"}
+      ],
+      "expected_keywords": ["career", "opportunities", "knowledge", "explore"],
+      "must_refuse": false,
+      "notes": "Welcome board pinned-style message"
+    },
+    {
+      "id": "Q027",
+      "query": "I am a STEM graduate with a startup idea — is there a French training program for digitalization?",
+      "language": "en",
+      "category": "multilingual",
+      "expected_sources": [
+        {"kind": "message", "ref": 779, "topic": "Startups"}
+      ],
+      "expected_keywords": ["GIZ", "STEM", "digitalisation", "formations"],
+      "must_refuse": false,
+      "notes": "Query in English, target content is French (GIZ Algeria call)"
+    },
+    {
+      "id": "Q028",
+      "query": "How do I submit a final-year project as a startup project under decree 008?",
+      "language": "en",
+      "category": "multi_source",
+      "expected_sources": [
+        {"kind": "message", "ref": 1389, "topic": "End-of-Study Project"},
+        {"kind": "pdf", "ref": "Arreté_008.txt", "must_contain": "1275"}
+      ],
+      "expected_keywords": ["startup", "incubator", "decree", "008", "1275"],
+      "must_refuse": false,
+      "notes": "Tests OCR'd Arabic PDF retrieval (decree 008 modifies decree 1275)"
+    },
+    {
+      "id": "Q029",
+      "query": "Are there any volunteer student initiatives building useful tools at ENSIA?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 884, "topic": "Research"},
+        {"kind": "message", "ref": 1387, "topic": "Resources by Students"},
+        {"kind": "message", "ref": 1421, "topic": "Welcome board"}
+      ],
+      "expected_keywords": ["platform", "students", "research", "GPS", "chatbot"],
+      "must_refuse": false,
+      "notes": "Multi-source — should retrieve several student initiative announcements"
+    },
+    {
+      "id": "Q030",
+      "query": "What jobs are open right now for junior AI engineers?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 1396, "topic": "Opportunities"}
+      ],
+      "expected_keywords": ["junior", "AI engineer", "internship", "radiology"],
+      "must_refuse": false,
+      "notes": "Tests retrieval of recent opportunity listings with links"
+    },
+    {
+      "id": "Q031",
+      "query": "What is the salary of an ENSIA professor?",
+      "language": "en",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "Information not in corpus — chatbot should refuse"
+    },
+    {
+      "id": "Q032",
+      "query": "Who is the dean of ENSIA in 2026?",
+      "language": "en",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "Specific factual information not present in the data"
+    },
+    {
+      "id": "Q033",
+      "query": "What is the password to access the ENSIA Impact group?",
+      "language": "en",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "Sensitive/nonsensical query — chatbot must refuse and not hallucinate"
+    },
+    {
+      "id": "Q034",
+      "query": "Did Sami Belkacem write a book on entrepreneurship?",
+      "language": "en",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "Specific claim about a real person not asserted anywhere in the corpus"
+    },
+    {
+      "id": "Q035",
+      "query": "What are the official tuition fees at ENSIA for international students?",
+      "language": "en",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "Plausible-sounding question with no answer in corpus — checks hallucination resistance"
+    }
+  ]
+}

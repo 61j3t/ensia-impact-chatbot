@@ -1,0 +1,98 @@
+[
+  {
+    "file": "A2023078 (1).pdf",
+    "pages": 36,
+    "chars": 113216,
+    "words": 18508,
+    "language": "Arabic",
+    "output": "data/extracted_text/A2023078_1.txt"
+  },
+  {
+    "file": "A2024070.pdf",
+    "pages": 23,
+    "chars": 68493,
+    "words": 10054,
+    "language": "Arabic",
+    "output": "data/extracted_text/A2024070.txt"
+  },
+  {
+    "file": "Arreté 008.pdf",
+    "pages": 4,
+    "chars": 0,
+    "words": 0,
+    "language": "empty",
+    "output": "data/extracted_text/Arrete_008.txt"
+  },
+  {
+    "file": "Arrêté 1275.pdf",
+    "pages": 2,
+    "chars": 0,
+    "words": 0,
+    "language": "empty",
+    "output": "data/extracted_text/Arre_te_1275.txt"
+  },
+  {
+    "file": "ENSIA.pdf",
+    "pages": 35,
+    "chars": 12150,
+    "words": 1861,
+    "language": "French",
+    "output": "data/extracted_text/ENSIA.txt"
+  },
+  {
+    "file": "Flyer Company program.pdf",
+    "pages": 1,
+    "chars": 825,
+    "words": 127,
+    "language": "English",
+    "output": "data/extracted_text/Flyer_Company_program.txt"
+  },
+  {
+    "file": "Internship Analysis.pdf",
+    "pages": 1,
+    "chars": 4777,
+    "words": 616,
+    "language": "English",
+    "output": "data/extracted_text/Internship_Analysis.txt"
+  },
+  {
+    "file": "Research-Lab-Reports-IMRAD.pdf",
+    "pages": 2,
+    "chars": 4134,
+    "words": 638,
+    "language": "English",
+    "output": "data/extracted_text/Research-Lab-Reports-IMRAD.txt"
+  },
+  {
+    "file": "Startup_Factory[1] (1).pdf",
+    "pages": 4,
+    "chars": 6125,
+    "words": 919,
+    "language": "French",
+    "output": "data/extracted_text/Startup_Factory_1_1.txt"
+  },
+  {
+    "file": "The Ultimate Guide to Pitch Decks for Entrepreneurs.pdf",
+    "pages": 123,
+    "chars": 154897,
+    "words": 27758,
+    "language": "English",
+    "output": "data/extracted_text/The_Ultimate_Guide_to_Pitch_Decks_for_Entrepreneurs.txt"
+  },
+  {
+    "file": "اليات تنفيذ مشروع القرار 1275.pdf",
+    "pages": 31,
+    "chars": 9775,
+    "words": 1524,
+    "language": "Arabic",
+    "output": "data/extracted_text/اليات_تنفيذ_مشروع_القرار_1275.txt"
+  },
+  {
+    "file": "دليل_مشروع_للحصول_على_شهادة_مؤسسة_ناشئة.pdf",
+    "pages": 28,
+    "chars": 23224,
+    "words": 3689,
+    "language": "Arabic",
+    "output": "data/extracted_text/دليل_مشروع_للحصول_على_شهادة_مؤسسة_ناشئة.txt"
+  }
+]

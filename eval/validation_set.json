@@ -1,0 +1,234 @@
+{
+  "_about": "Held-out validation set — written WITHOUT iterative tuning against the retriever. Used once after each major change to estimate true generalization. Do NOT iterate on this; if you do, retire it and write a new one. Same schema as golden_set.json.",
+  "queries": [
+    {
+      "id": "V001",
+      "query": "wht is teh cde at ensia",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 611, "topic": "CDE - ENSIA"},
+        {"kind": "message", "ref": 899, "topic": "CDE - ENSIA"}
+      ],
+      "expected_keywords": ["CDE", "entrepreneurship", "incubator"],
+      "must_refuse": false,
+      "notes": "Typo robustness — same intent as Q013 but mangled spelling"
+    },
+    {
+      "id": "V002",
+      "query": "1275",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 1389, "topic": "End-of-Study Project"},
+        {"kind": "message", "ref": 814, "topic": "Startups"}
+      ],
+      "expected_keywords": ["1275", "decree", "startup"],
+      "must_refuse": false,
+      "notes": "Bare numeric keyword — does the retriever find content about decree 1275?"
+    },
+    {
+      "id": "V003",
+      "query": "internship advice",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 390, "topic": "Q&A"},
+        {"kind": "message", "ref": 575, "topic": "Companies"}
+      ],
+      "expected_keywords": ["internship", "career", "supervisor"],
+      "must_refuse": false,
+      "notes": "Very short, broad query — should match practical advice on internships"
+    },
+    {
+      "id": "V004",
+      "query": "salam where can i find the cde office",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 824, "topic": "CDE - ENSIA"}
+      ],
+      "expected_keywords": ["CDE", "office", "contact"],
+      "must_refuse": false,
+      "notes": "Informal Telegram-style greeting + concrete factual question"
+    },
+    {
+      "id": "V005",
+      "query": "What's the difference between the incubator and the CDE? Also which one helps with funding?",
+      "language": "en",
+      "category": "multi_source",
+      "expected_sources": [
+        {"kind": "message", "ref": 899, "topic": "CDE - ENSIA"}
+      ],
+      "expected_keywords": ["incubator", "CDE", "NESDA", "funding"],
+      "must_refuse": false,
+      "notes": "Compound query — two questions in one, both answered in msg 899"
+    },
+    {
+      "id": "V006",
+      "query": "How do I find AI engineering internships in Algeria?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 1396, "topic": "Opportunities"},
+        {"kind": "message", "ref": 575, "topic": "Companies"}
+      ],
+      "expected_keywords": ["AI", "internship", "engineer"],
+      "must_refuse": false,
+      "notes": "Concrete internship-search question — multiple plausible matches"
+    },
+    {
+      "id": "V007",
+      "query": "I want to register a startup, where do I begin?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 1389, "topic": "End-of-Study Project"},
+        {"kind": "message", "ref": 832, "topic": "ENSIA Incubator"},
+        {"kind": "message", "ref": 846, "topic": "ENSIA Incubator"}
+      ],
+      "expected_keywords": ["startup", "incubator", "1275"],
+      "must_refuse": false,
+      "notes": "User intent (register startup) does not name decree 1275 or incubator explicitly"
+    },
+    {
+      "id": "V008",
+      "query": "Are there any AI events this year?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 1060, "topic": "Events"},
+        {"kind": "message", "ref": 1217, "topic": "Events"},
+        {"kind": "message", "ref": 1143, "topic": "Startups"}
+      ],
+      "expected_keywords": ["AI", "hackathon", "conference", "event"],
+      "must_refuse": false,
+      "notes": "Date-implicit; corpus contains 2025-2026 events"
+    },
+    {
+      "id": "V009",
+      "query": "What is this Telegram group for?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 410, "topic": "Welcome board"}
+      ],
+      "expected_keywords": ["ENSIA Impact", "career", "opportunities"],
+      "must_refuse": false,
+      "notes": "Meta question about the corpus itself"
+    },
+    {
+      "id": "V010",
+      "query": "Should I publish a paper before applying to PhD?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 395, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["PhD", "publish", "research papers"],
+      "must_refuse": false,
+      "notes": "Specific aspect of a broader Q&A; tests partial-topic match"
+    },
+    {
+      "id": "V011",
+      "query": "What's the connection between CATI and INAPI?",
+      "language": "en",
+      "category": "multi_source",
+      "expected_sources": [
+        {"kind": "message", "ref": 314, "topic": "Patents"},
+        {"kind": "message", "ref": 1374, "topic": "Patents"}
+      ],
+      "expected_keywords": ["CATI", "INAPI", "patent", "WIPO"],
+      "must_refuse": false,
+      "notes": "Relational query about two entities — needs to surface both"
+    },
+    {
+      "id": "V012",
+      "query": "Comment soumettre un PFE comme projet startup?",
+      "language": "fr",
+      "category": "multilingual",
+      "expected_sources": [
+        {"kind": "message", "ref": 1389, "topic": "End-of-Study Project"},
+        {"kind": "pdf", "ref": "اليات_تنفيذ_مشروع_القرار_1275.txt", "must_contain": "1275"}
+      ],
+      "expected_keywords": ["startup", "1275", "PFE", "projet"],
+      "must_refuse": false,
+      "notes": "French query, primary content is English chat + Arabic PDF"
+    },
+    {
+      "id": "V013",
+      "query": "soft skills?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 396, "topic": "Q&A"}
+      ],
+      "expected_keywords": ["soft skills", "communication"],
+      "must_refuse": false,
+      "notes": "Extremely short query — tests minimal-context retrieval"
+    },
+    {
+      "id": "V014",
+      "query": "Hi, anyone here knows about the pre-incubation deadlines?",
+      "language": "en",
+      "category": "factual",
+      "expected_sources": [
+        {"kind": "message", "ref": 832, "topic": "ENSIA Incubator"},
+        {"kind": "message", "ref": 846, "topic": "ENSIA Incubator"}
+      ],
+      "expected_keywords": ["pre-incubation", "program", "deadline"],
+      "must_refuse": false,
+      "notes": "Conversational opener + specific factual ask. Note: precise deadlines may not be in corpus — measures graceful behavior on partial-info questions."
+    },
+    {
+      "id": "V015",
+      "query": "What's the WiFi password at ENSIA?",
+      "language": "en",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "Plausible-sounding question with no answer in corpus"
+    },
+    {
+      "id": "V016",
+      "query": "Is Sami Belkacem married?",
+      "language": "en",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "Personal info about a real person mentioned in the corpus — must not hallucinate"
+    },
+    {
+      "id": "V017",
+      "query": "Quel est le budget annuel de l'ENSIA?",
+      "language": "fr",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "French adversarial — no budget info in corpus"
+    },
+    {
+      "id": "V018",
+      "query": "ما هو متوسط راتب خريج ENSIA؟",
+      "language": "ar",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "Arabic adversarial — average ENSIA graduate salary, not in corpus"
+    },
+    {
+      "id": "V019",
+      "query": "What courses does the ENSIA bachelor's program include?",
+      "language": "en",
+      "category": "adversarial",
+      "expected_sources": [],
+      "expected_keywords": [],
+      "must_refuse": true,
+      "notes": "Plausible academic question — no curriculum content in corpus. Also subtle: ENSIA grants an ingénieur degree, not a bachelor's"
+    }
+  ]
+}

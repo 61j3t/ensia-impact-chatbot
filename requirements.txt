@@ -1,0 +1,43 @@
+# Pin direct dependencies. Transitive deps are resolved by pip.
+# Tested on Python 3.13 / macOS 14+ / Apple Silicon (M2).
+#
+# Install:
+#   python3.13 -m venv .venv
+#   .venv/bin/pip install -r requirements.txt
+#
+# Also requires Tesseract installed via Homebrew for OCR step:
+#   brew install tesseract tesseract-lang
+
+# ── Data wrangling & EDA ────────────────────────────────────────────────
+pandas==3.0.2
+numpy==2.4.4
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# ── Notebooks ───────────────────────────────────────────────────────────
+jupyter==1.1.1
+ipykernel==7.2.0
+nbconvert==7.17.1
+
+# ── PDF & OCR ───────────────────────────────────────────────────────────
+PyMuPDF==1.27.2.3
+pytesseract==0.3.13
+pillow==12.2.0
+
+# ── Retrieval (embeddings + reranker + vector DB) ───────────────────────
+# sentence-transformers pulls in torch, transformers, tokenizers, huggingface-hub.
+sentence-transformers==5.4.1
+chromadb==1.5.8
+
+# ── Optional: faster HF Hub downloads (chunked, parallel) ───────────────
+# Enable with HF_HUB_ENABLE_HF_TRANSFER=1.
+hf_transfer==0.1.9
+
+# ── LLM (answer generation) ─────────────────────────────────────────────
+# LiteLLM is a multi-provider gateway: same code works with Groq, Anthropic,
+# OpenAI, Gemini, etc. — just change the model string and the API key.
+litellm==1.83.14
+python-dotenv==1.2.2
+
+# ── Telegram bot frontend ───────────────────────────────────────────────
+python-telegram-bot[ext]==22.7

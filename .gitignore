@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.Python
+
+# ChromaDB persistent store (regenerable from scripts/ + data/)
+chatbot/chroma_db/
+
+# Secrets — API keys, etc.
+.env
+.env.*
+!.env.example
+
+# Per-conversation memory (regenerable, contains user content)
+data/conversations.db
+data/conversations.db-journal
+data/conversations.db-wal
+data/conversations.db-shm
+
+# Eval outputs (keep them by default — useful history — but uncomment if needed)
+# eval/reports/
+
+# OS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/

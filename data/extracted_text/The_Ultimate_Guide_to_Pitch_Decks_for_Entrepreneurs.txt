@@ -1,0 +1,3513 @@
+1
+
+2
+TABLE OF CONTENTS
+Introduction
+
+8
+Chapter 1 - A business plan or a pitch deck?
+
+10
+•	 Business plan vs Pitch decks
+•	 Use for a business plan today
+•	 The pros and cons of business plans today
+•	 Use for a pitch deck today
+•	 The pros and cons of pitch decks today
+Chapter 2 - Slides you need in a pitch deck
+
+15
+•	 The cover
+•	 The concept
+•	 The problem
+•	 The solution
+•	 Market size
+•	 Competition
+•	 Competitive advantage
+•	 Product
+•	 Customers
+•	 Traction
+•	 Business model
+•	 Financials
+•	 Other investors
+•	 Team
+•	 Advisors
+•	 Use of funds
+•	 Back cover
+Chapter 3 - How long it takes to create a pitch deck
+27
+•	 Timing is critical
+•	 How long it takes to make it
+•	 Hacks for creating a pitch deck faster
+•	 Steps to creating a winning pitch deck
+
+3
+Chapter 4 - Scenarios where a pitch deck is important
+31
+•	 Honing your startup business idea
+•	 Enrolling advisors
+•	 Recruiting cofounders
+•	 Recruiting team members
+•	 Securing early customers
+•	 In place of a business plan
+•	 Startup fundraising
+•	 The exit
+Chapter 5 - What is the best font for a pitch deck
+
+35
+•	 What is a font?
+•	 Guiding principles and best practices
+•	 Other factors to consider when designing your pitch deck
+Chapter 6 - Do’s and don’ts when creating pitch deck
+40
+•	 The power of pitch decks
+•	 The do’s of creating a winning pitch deck
+•	 The don’ts of creating a pitch deck
+Chapter 7 - Deadly signs of a bad pitch deck
+
+45
+•	 Asking for a NDA first
+•	 It is ugly
+•	 Your cover slide lacks info
+•	 There are too many slides
+•	 It looks too complicated and detailed
+•	 Not being crystal clear about the problem
+•	 Overstating big claims
+•	 Missing key data
+•	 Not acknowledging the competition
+•	 No USP
+Chapter 8 - Why the cover slide is so important in pitch
+decks
+
+49
+•	 The science of first impressions
+
+4
+•	 What should be on your pitch deck cover slide?
+•	 The cover slide and capability?
+•	 The cover slide vs Closing slide
+Chapter 9 - How to include an executive summary in a
+pitch deck
+
+53
+•	 What is an executive summary?
+•	 How to send your executive summary when pitching
+investors?
+•	 Creating an executive summary slide for your pitch deck
+Chapter 10 - How to address the problem in a pitch deck
+58
+•	 How important is the problem
+•	 Where to start addressing the problem in a pitch deck
+•	 The most important slide in your pitch deck
+•	 The story
+•	 Market slide
+•	 The solution slide
+•	 Competitive analysis
+•	 The team slide
+Chapter 11 - How to position the solution in a pitch deck 	 62
+•	 It is all about the solution
+•	 Positioning starts with your cover slide
+•	 The problem slide
+•	 Market slide
+•	 Competition slides
+•	 What is your solution?
+•	 How are you positioning it for a sale?
+•	 Go easy on the features
+•	 Business model
+•	 The team
+Chapter 12 - How to show the target customers in a pitch
+deck
+
+67
+•	 The importance of knowing and showing your target
+customers
+•	 Defining your target customers
+
+5
+Chapter 13 - How to capture the market size in a pitch
+deck
+
+72
+•	 Presenting the market size in your pitch deck
+•	 Where market size fits in your pitch deck
+•	 Capturing market size in a pitch deck
+•	 Total market size
+•	 Total addressable market
+•	 Serviceable and addressable market
+•	 Where there is no existing market
+•	 Get a second opinion
+Chapter 14 - How to show your competitor landscape in a
+pitch deck
+
+77
+•	 The importance of competition in your pitch deck
+•	 Who is your competition
+•	 Identifying the competitor landscape
+•	 How to use your competitors to your advantage
+•	 Your competitive advantage
+•	 The competitor landscape
+Chapter 15 - What is the marketing strategy in a pitch
+deck
+
+82
+•	 The importance of the advertising strategy in a pitch
+deck
+•	 The problem
+•	 The solution
+•	 Market size
+•	 Target market and target customers
+•	 Traction
+•	 The team
+•	 Business model
+•	 Is marketing a part of your fundraising ask?
+Chapter 16 - How to share your traction in a pitch deck
+86
+Top triggers for getting your startup funded
+•	 The big deal about traction
+•	 What is traction?
+•	 How to project your traction in a pitch deck?
+
+6
+•	 How much traction is enough?
+•	 Questions to expect on your traction
+•	 Ways to boost traction
+Chapter 17 - How to position the team in a pitch deck
+91
+•	 The most important slide in your pitch deck
+•	 What investors are looking for in a fundable team
+•	 Who counts as your team in your pitch deck?
+•	 When to start introducing the team in your pitch
+•	 What to include on your team slide
+•	 What if your team could be stronger?
+Chapter 18 - How to present the amount to raise in a pitch
+deck
+
+95
+•	 How much should you be raising
+•	 The ask slide
+•	 Positioning the ask
+Chapter 19 - How to nail your pitch deck narrative 	 99
+•	 A great startup is built on…
+•	 Find the best story for your pitch deck
+•	 The characters
+•	 Your why
+•	 How are you going to be the champions of this story?
+•	 Paint your vision of the future with a great pitch deck
+story
+Chapter 20 - How to present your pitch deck to investors 103
+•	 Why are you raising money?
+•	 Who are the right investors?
+•	 Making a shortlist
+•	 Polishing your pitch deck
+•	 Presenting your pitch deck
+Chapter 21 - How to send a pitch deck to friends and
+family
+
+107
+•	 Pitching friends and family
+•	 The place of the friends and family round
+
+7
+•	 Who are friends and family?
+•	 The pros and cons of raising from friends and family
+•	 Curating your pitch deck for friends and family rounds
+•	 How to share and send your pitch deck to friends and
+family
+•	 Next steps
+Chapter 22 - How to send a pitch deck to a venture capital
+firm
+
+111
+•	 Venture capital role in fundraising
+•	 Start with why
+•	 Know your who
+•	 How to send your pitch deck to venture capital firms
+•	 What is next?
+Chapter 23 - How to share a pitch deck securely
+115
+•	 Why pitch deck security is important
+•	 Who should see your pitch deck?
+•	 Who should not see your pitch deck?
+•	 Keep everything secure
+•	 Options for sharing your pitch deck securely
+Chapter 24 - What do I need other than a pitch deck? 119
+•	 What else you need to start a startup
+•	 What else you need to raise money
+Conclusion
+
+123
+
+8
+Introduction
+Pitch decks have become synonymous with startups and
+raising capital in recent years. If you are starting a new
+business of any type or are planning to pivot or grow an
+existing one, you need a pitch deck.
+There are many misconceptions about pitch decks, what
+should be in them, how they are used, and also the best
+business templates sites to find them to get started. Check out
+this guide to creating a great deck that fuels all of your goals.
+Put simply, a pitch deck is a group of slides, organized in a
+presentation. They are typically used to facilitate and support
+fundraising efforts for startups prior to going public or an exit.
+A pitch deck is used to explain your business, it’s strengths
+and the opportunity for those who get involved.
+A pitch deck is not an in depth business plan or detailed
+breakdown of everything about your business and how the
+technology works. It is a tool for simplifying the description of
+the business and a sales tool.
+Pitch decks have been most commonly created in Microsoft
+PowerPoint in the past. Yet, there are many new tools
+available. This can include new slide building and presentation
+tools and graph and financial modeling software.
+It is important not to get too complicated. A pitch deck is
+all about simplifying and streamlining. You will likely have
+multiple people collaborating on creating your pitch deck from
+inside and outside of your organization. You’ll need to be able
+to easily and efficiently share your pitch deck and multiple
+
+9
+drafts and variations with multiple people. This will include
+advisers and coaches and potential investors.
+You may find something like Google Drive ideal for optimizing
+this entire process. As well as finding a proven existing pitch
+deck template and plug in your data, instead of trying to
+reinvent the wheel.
+While you may ultimately publish your pitch deck on various
+online platforms, and directly send it out via email or other
+direct messages, as well as presenting it on screen in person,
+hosting it online can be one of the most efficient.
+This way you can give and revoke access instantly as desired,
+update your pitch deck in real time and customize it to new
+audiences, and avoid issues with large attachments, or losing
+it.
+Your pitch deck will always be evolving. You’ll need one at
+every round of fundraising. You’ll be continually updating it
+during rounds and between them. Even when it comes time to
+shop and sell your company you’ll be using some variation of
+this as a pitch book.
+Contrary to some misconceptions you aren’t going to just get
+by without a pitch deck. Neither can you just expect your
+pitch deck to do everything for you. Even if you have fabulous
+relationships with partners at VC firms who want to invest,
+they’ll need the deck to present to their partners and as part
+of their process and due diligence for their investors. In the
+reverse, you can have the best deck in the world, but still
+need to be able to present verbally and to field questions from
+investors.
+In fact, today a pitch deck can also play a significant role as
+a form of business plan and as a recruiting tool for key team
+members and advisors. You’ll even use it to communicate your
+company to outsourced workers.
+
+10
+Chapter 1
+A Business Plan or a Pitch Deck
+Which should you be focusing on first as a startup founder, a
+business plan or pitch deck?
+For decades entrepreneurs and business owners believed they
+needed to focus on building a comprehensive business plan.
+All before taking real action. There were good reasons for
+that. More recently, many entrepreneurs have gone almost
+exclusively with pitch decks in place of a traditional business
+plan.
+Which of these two approaches is best? Does it depend on the
+type of business you are starting or if you plan any fundraising
+efforts? Is a hybrid approach the wisest move? Or should you
+stay intensely focused on one before the other?
+Definitions: Business Plans Vs. Pitch Decks
+A traditional business plan is a fairly lengthy text based
+document. It lays out all of the parts of the business. From the
+corporate structure to marketing plans to startup needs and
+growth plans and financial forecasts for the next five years.
+Plus the much longer term game plan. This is typically in a
+Microsoft Word style format, and can easily run 25 pages. It
+begins with a brief executive summary. Which can be 1-3 pages
+long on its own.
+A pitch deck is a slide based presentation. Think PowerPoint
+or Google Slides formatting. Ideally your pitch deck will run
+
+11
+between 5 to 20 slides. It is a very short, simple and compact
+version of a traditional business plan. Pitch decks emerged
+specifically for pitching startups to potential investors for
+fundraising. However, they are increasingly replacing business
+plans.
+Uses For A Business Plan Today
+Are business plans still relevant today?
+Yes and no. Every business and entrepreneur should have
+a plan. We all know what failing to plan means. Yet, what
+is effective and valuable in terms of business plans may be
+changing and evolving.
+A business plan really helps you get depth and length in your
+plans. It gives more clarity than you could ever fit into a pitch
+deck. This process helps entrepreneurs really think through
+the details and big vision and long term game plan. It helps
+you get granular with marketing plans, startup costs, cash flow
+needs, and financial projections.
+It also helps to give you a framework to start building on. As
+well as really thinking through a functional business model.
+Investors, advisors and other key players may be completely
+satisfied with seeing a one page business plan, executive
+summary and bullet pointed action plan. Providing that
+accompanies a great pitch deck.
+However, there may still be some scenarios in which you will
+be asked for your business plan. This includes applying for
+some types of loans, leasing space and joining certain groups
+or applying for licenses.
+The Pros & Cons Of Business Plans Today
+The advantages:
+
+12
+●	 Being forced to think through the details
+●	 Having an in depth plan and awareness of your real
+needs
+●	 Being able to back up the hype with something tangible
+●	 Credibility with potential partners and early investors
+●	 Being prepared if you are asked for it
+●	 Having a comprehensive guide and roadmap to follow
+The cons:
+●	 Chances are no one else will ever read it
+●	 Things move so fast, most may be irrelevant in a couple
+of months
+●	 It’s a blackhole for your time, energy and momentum
+●	 Many entrepreneurs get bogged down here and miss
+their best opportunities
+●	 Additional expenses with negligible returns
+●	 Appearing like a novice to experienced investors
+Uses For A Pitch Deck Today
+A pitch deck is for more than just fundraising.
+Pitch decks are synonymous with startup fundraising. Yet,
+they shouldn’t be exclusively tied to fundraising activities or
+only when you are out there actively raising for a round.
+In fact, you’ll find pitch decks useful from before day one
+through your exit.
+These scenarios include:
+●	 Honing your initial concept and model, like with a
+business plan
+●	 Gaining initial feedback
+●	 Recruiting cofounders
+●	 Enrolling advisors
+
+13
+●	 Hiring early and key team members
+●	 Pitching investors on and offline
+●	 Securing early customers and strategic partnerships
+●	 Through multiple fundraising round
+●	 Getting to an exit
+The Pros & Cons Of Pitch Decks Today
+The advantages:
+●	 Expected when raising capital
+●	 A streamlined framework for creating a mini business
+plan
+●	 Easily and efficiently updated for multiple purposes
+and over time
+●	 Much faster to create
+●	 More likely that you will use and refer to it often
+●	 Easier to share
+●	 Enables you to get down to business faster
+The cons:
+●	 Can be an excuse not to have a real plan of model
+●	 Dangerous gaps from not thinking through the details
+●	 Not prepared when a business plan is requested
+●	 Emphasis on fluff and hype versus substance
+●	 Very short term outlook
+Summary
+There are many advantages and disadvantages of solely
+running on a traditional business plan or new modern pitch
+deck. Trying to juggle both simultaneously can further
+compound the cons, distraction and length of time before you
+really get into the game.
+Today, it seems the best prepared entrepreneurs, especially
+
+14
+when it comes to getting funded are those with a strong
+pitch deck, and at least a one page business plan, and strong
+executive summary.
+Do not dismiss the importance and value of having a real plan.
+You could be sabotaging your own mission and future. If you
+plan to stay a small local business or solopreneur forever a real
+business plan is smart. Though as the founder of a fast moving
+startup which needs funding, a pitch deck can be even more
+important. You’ll probably be moving so fast your business
+plan will never keep up.
+If you have to choose one, it should be focusing on knocking
+out a winning pitch deck. This process will also give you
+many of the answers and framework for fleshing out your
+real business plan. At least this way you’ll be poised to raise
+money, and build out your team and gain early clients in the
+meantime.
+
+15
+Chapter 2
+Slides you need in a pitch deck
+Ready to raise millions of dollars for your next startup
+fundraising round? Is your pitch deck fundable?
+You may be wondering what are the slides you need in your
+pitch deck?
+Below is an in-depth commentary on a pitch deck template
+that I put together some time ago. It includes the slides you
+need in your pitch deck and that are necessary to pass the pitch
+test with potential investors and get the money you need to
+take your business to the next level.
+Here is a quick summary of what those slides are:
+1.	 Cover
+2.	 Concept
+3.	 Problem
+4.	 Solution
+5.	 Market Size
+6.	 Competition
+7.	 Competitive Advantage
+8.	 Product
+9.	 Customers
+10.	Traction
+11.	Business Model
+12.	Financials
+13.	Other Investors
+14.	Team
+15.	Advisors
+16.	Use of Funds
+17.	Back Cover
+
+16
+Here are the slides you’ll need to pass the pitch test with
+potential investors and get the money you need to take your
+business to the next level…
+1. Cover Slide
+First impressions are everything. This is especially true when
+it comes to pitch decks and asking for investment. This is
+your most important slide. Consider that even if you have an
+existing startup and have raised before, even a 20 page pitch
+deck can be a little long for the average investor’s attention
+span. If you’re only asking for $20M, then each page is worth
+a million dollars. You cover is probably worth a lot more than
+that. If it isn’t awesome, no one is going to look at the next
+slide. Nail it and you’ll have a huge advantage over 99% of
+your competing startups.
+This slide needs to show clearly what is the company and
+perhaps insert some of the contact details of the CEO like
+email or telephone number. This way potential investors know
+where to reach you in the event there is further interest.
+Having a nice high-resolution image as the cover of the pitch
+deck definitely helps. You may use a plain logo or include as
+well an image on the background. Note that people tend to
+associate memories to images and for that reason, you want
+to have the investor remembering your pitch deck easily by
+including a powerful image.
+2. The Concept
+What is your startup idea all about? This is a good slide to
+make an impact. Think about including a powerful image and
+tagline.
+3. What’s The Problem?
+What is the big and urgent problem that your business is
+
+17
+trying to solve? What do they have to believe to buy-in to your
+mission? What storytelling examples can you give?
+The problem needs to be very clear and to the point. This is
+your chance to connect with the investor and to have them
+relate in a certain way with what you are doing.
+When an investor gets involved with your venture is either
+because of one of the following things:
+● They have experienced the same problem in the past
+● There is a clear sense of ROI down the line for them
+● Given their professional expertise they understand it
+(e.g. doctors with healthcare)
+If an investor falls inside the three buckets of interest cited
+above at the same time, that means you got your lead investor.
+This may result in you securing at least 20% of the financing of
+the entire round that you are looking to raise.
+When you are pitching in person you want to tell them the
+story of how you came across this problem. I see this often on
+the guests that I interview on the DealMakers Podcast where
+some of the most successful entrepreneurs share how they did
+it.
+4. The Solution
+How is your startup solving the big problem? What’s your
+vision and grand strategy? The tactics may change, but the
+idea should resonate as making sense.
+Keep in mind the solution needs to be just one. Not three or
+four, especially if you are an early-stage startup. The last thing
+you want is the investor thinking that you are all over the place
+without focus.
+On this slide, you want to come across as clear and as concise
+
+18
+as possible. Perhaps a good image of the product in action is
+a good combination with some text in order to make a good
+impression.
+Avoid statements referencing you being the only one doing
+this, you being the clear leader, etc. There are at least 100
+people that have come up with that idea before you and other
+companies that may be tackling that same problem with a
+different approach.
+If you are presenting in person I would recommend doing a
+demo of the product LIVE. Much more powerful than walking
+them through a slide. This way they will get it right away.
+The problem and solution are slides you need in your pitch
+deck with a proper flow. The solution needs to come after your
+problem slide with a bang.
+5. Market Size
+How big is this space? How big is projected to get? What is
+your potential share of this market. If your numbers aren’t in
+the billions you probably need to think bigger.
+The market size is critical as it will also determine the potential
+returns for the investor down the line. Probably one of the
+most important slides you need in your pitch deck. If you have
+the best product and the best time with a small market nothing
+matters. Too much risk for little reward.
+Also, it is critical here to show growth. The last thing you want
+is to have the investor thinking that your market has touched
+the peak. For this reason, you want to project how the market
+will be growing over the course of the next 5 to 10 years.
+6. The Competition
+Yes, you have competition. Even if you think you are creating a
+
+19
+new market, there are potential competitors. Be sure you have
+done your research well here, or you will fall flat on your face
+hard.
+This is one of the slides you need in your pitch showcased via
+a diagram like the one showing above. This, in essence, is a
+good idea to show the investor the competitors that you have
+executed in your space. How you compare to them and where
+you land with your value proposition. A good resource to find
+potential competitors is Crucnhbase where you can search by
+sector or even keywords related to your business.
+As shown on this slide you want to clearly differentiate
+yourself from the rest so that the person that is reviewing the
+slide gets what makes your company so unique.
+As you can find your logo needs to be on the top right-hand
+side. From a psychology perspective that is where the eye
+tends to go when looking at a new slide. You want to make
+sure that your logo stands out from other competitors.
+Perhaps another slide that you want to include is one that
+describes how much capital each competitor has already raised
+in the past and at what valuation. This could help in providing
+some perspective of how much the market is paying. This
+could play in your favor when the time comes to negotiate the
+terms of the deal or proceeding with a potential investment.
+7. Competitive Advantages
+Even Uber has serious competitors. Compare how you will
+stand out against the competition, or even become an attractive
+partner or acquisition prospect for them.
+As part of the slides you need in your pitch deck, on this slide,
+you want to talk about the advantages of your business and
+product. Some of the things you can include might be patents
+and other defensive IP, distribution channels that you have,
+
+20
+partners, etc.
+Basically what you want to communicate is why you have such
+a unique position within your industry that sets you as one of
+the leaders.
+The best way to present this is with bullet points. You can
+also display some of the logos of your partners in the event
+your advantage is on distribution channels via business
+development deals.
+8. Your Product
+What is your product or service? You may even want to add
+screenshots to show it off.
+To make it even more powerful you may want to add some
+description about the product itself and some quotes of some
+of your existing clients talking about how much they love your
+product.
+As mentioned above you could also do a demo of the product
+to everyone in the room if you are doing this in person. This
+is obviously one of the slides you need in your pitch deck but
+if you are in person you can take it away and bake it into your
+narrative.
+9. Customers
+Who are your customers exactly? Are they enterprise level, B2B
+or B2C? What is their profile? What are their use cases?
+What is the feedback you’ve already received from potential
+customers and paying users? What is the press and others
+saying about your startup?
+Here are well you could go as far as mentioning some of the
+metrics and historical data that you have been able to gather
+
+21
+from your own customers. From the slides you need in your
+pitch deck this one will give some insights to the investor on
+how well you are tracking and measuring success.
+Here are a few ideas:
+•	 How long do they stay in your platform
+•	 What are the numbers around repeating customers
+•	 What is the customer profile (age, location, etc)
+•	 Customer acquisition cost
+•	 The lifetime value of your customer
+10. Traction
+What traction have you accumulated so far? What is expected
+by investors will vary by funding round. It’s best to focus
+on fewer or one main metric to keep it simple and maintain
+momentum. It could be users, sales or profits.
+This slide is probably the most important of the slides you
+need in your pitch deck because it shows validation. When
+it comes to the traction it can be presented in different ways.
+Depending on the business traction could be in the form
+of registered users, acquisition strategy, user retention, or
+revenue growth month over month.
+From my perspective, the most powerful way to show traction
+is by showing a slide that displays how great you have been
+performing month over month in terms of revenue.
+If you can show at least over 10% growth each month that is
+a good data point to share. Accelerator like YC require 15%
+growth week over week but that may be a bit aggressive.
+If you are still pre-revenue then you want to explore another
+metric that shows progress and that would get prospect
+investors excited. Some metrics in this regard could be
+customer acquisition growth, retention, etc.
+
+22
+11. Business Model
+What is your business model? How will you acquire
+customers? How will you make money?
+Out of the slides you need in your pitch deck, in the business
+model you want to explain how you are making money from
+your operational structure. Depending on the industry in
+which you are operating you may want to go in detail into
+what are your margins and how much it costs you to acquire
+your customers.
+12. Financials
+What does your accounting look like? Are you making money?
+Are you profitable? Do you still have a sizable amount of cash
+in the bank from a recent round?
+Hands down this is the #1 most important piece of information
+from the slides you need in your pitch deck. Investors spend
+over 23% of the review time on this single slide so you want to
+clearly describe your numbers.
+Normally you want to shoot for at least 3 years of projections.
+There are some institutional investors that even ask for 5 years
+of projections.
+Even though projections are a shot in the dark when you are
+dealing with startups, they do provide a good idea of where
+the business is heading and potential outcomes. It also gives a
+good idea to the investor as to how grounded the management
+of the company is.
+This slide is more important than entrepreneurs normally
+think. When you first connect with an institutional investor
+they will ask for your pitch deck. 3 months later they will ask
+you at your next meeting where things are at and then they
+will make a decision. With this in mind, it is always a good
+
+23
+idea to be more on the conservative side and to over-deliver.
+The worst thing that can happen is for you to completely miss
+the mark and under deliver..
+Additionally, you will need to have ready your financials in
+Excel format as investors may want to see that after reviewing
+your pitch deck. For that reason, you do not need to go
+into much detail on the deck. All you need is to provide a
+summary.
+If you are an early stage startup you may get away without
+having a financial slide at all. If you do include one, expect
+investors to spend the bulk of their time on this one slide. So,
+make sure you’ve checked your math. Make your projections
+appealing, but there has to be some rationale for your big
+claims.
+13. Other Investors
+What other investors have participated in previous fundraising
+rounds or have pledged to participate or lead this round?
+From the slides you need in your pitch deck this is what I call
+the social proof slide. Here you want to add existing investors
+that could serve as social proof for prospects.
+Some of the people reviewing the presentation may already
+know one of your existing investors. For that reason, it is good
+to have them included as it ultimately increases your chances
+of getting funded. You‘d be surprised by how small the world
+is. Everyone knows each other. Especially in the venture world.
+Moreover, it is key that you don‘t place one specific amount on
+the slide. As shown on this slide you will be able to find a range.
+For example, if you place just $5M then funds that invest up to
+$3M will not look at your deal. The same would happen if you
+were to leave just the number $3M. By saying that you are only
+
+24
+raising $3M then all the funds that are only investing up north
+of $4 or $5M will not look at your opportunity.
+For the reason stated above by adding a range you get to
+include everyone and as a result, you will increase your
+chances of receiving investment as your funnel of prospects is
+much wider.
+14. The Team
+Along with your cover and financials, this is one of your three
+most important pitch deck slides. As an early stage startup
+your team is the number one thing investors are evaluating. It’s
+the make or break for investing in you. Invest in making this
+slide great.
+Instead of putting the entire team, by including your most
+junior people, I would only have on this slide the key people
+in the company. This could be the founders and other senior
+folks that are running the company with you within the
+management team.
+Startups move very fast and the junior people tend to switch
+working places too fast. Especially millennials. It is not a good
+idea to have investors review your presentation and then
+three months later have them see people changing in your
+organization. Investors could interpret that things are not
+working for the business reason why employees are leaving.
+Also, do not put the entire bios of the management team. I
+would recommend putting a few important bullets on each
+member. This could be companies they worked at before your
+startup and perhaps some impressive accomplishments (e.g.
+NYT Bestselling Author, serial entrepreneur, 3 major exits, etc).
+15. Advisors
+These are the folks you have brought on to help guide you in
+
+25
+the right direction. Make sure that you are stating clearly what
+is the expertise they are bringing to the table. This is another
+slide that provides social proof from the slides you need in
+your pitch deck.
+Your advisors will be changing as the company matures. In the
+beginning, the type of advisors you want is the celebrity type,
+the very successful people that would make you look good, etc.
+However, when you are a little bit more mature in the lifecycle
+of the company you want people that would be very much
+involved with your strategy providing guidance.
+Advisors are also a great way to receive introductions to other
+investors. They serve as well as social proof to show others that
+you have respected and accomplished individuals helping you
+out to push things forward. Essentially you are communicating
+you are not just a random person with a random idea.
+16. Use Of Funds
+What are you going to do with any money you receive in
+this round? Why is it needed? Or is this round more about
+recruiting great stakeholders to get you to the next level?
+Out of the slides you need in your pitch deck this will tell
+investors how well you have done your homework. You
+definitely want to get this slide right. Before having this slide
+created, put together an outline of your 18 to 24-month plan so
+that you have a clear understanding of how much money you
+will need to have in order to execute the strategy.
+In the event you are not clear or miss the mark on certain
+things where you should be investing company resources, you
+will end up giving a really bad signal to prospects. Investors
+could have a negative interpretation thinking that you do not
+have a good grasp of the space. Also, investors will be left
+with the impression that you don‘t know why you are raising
+money.
+
+26
+Ultimately a company without true north is very dangerous.
+What are your next milestones? How will this money help
+you achieve them? What time frame are you estimate you will
+hit them in? How much of a runway will this money give you
+before you raise again or find an exit? Any references you have
+to back up your track record of hitting previous milestones will
+help make you look great here.
+17. Back Cover & Contact Information
+From the slides you need in your pitch deck this is the part
+where you take the time to thank the investor for reviewing
+your presentation. Especially for making it this far through
+your deck.
+Repeat your contact information so that they can get in touch
+if they are interested in funding you, or at least setting up
+a meeting. Make your contact info obvious and easy. Use
+whatever channel is easiest for them, and which you’ll be on
+top of responding to fast.
+Other information that would definitely help to beef up this
+section is press mentions. Some quotes from articles in which
+you were mentioned could be nice to have here. Have such
+quotes included with the logo of the media publication in
+which you were featured.
+Summary
+Your entire business idea and future can all ride on the power
+of your pitch deck. These are the most important slides to
+include, and what to make sure you get on them.
+Don’t let this step bog you down, but for how vital success is
+here, it’s worth investing in making your slides great or getting
+some feedback from a fundraising consultant, before you blow
+any pitching opportunities.
+
+27
+Chapter 3
+How long it takes to create a
+pitch deck
+How long does it really take to create a pitch deck that will get
+your startup funded?
+You’ve only got one shot to pitch investors and wow them with
+your deck. Is your up to the job? If not, how long is it going to
+take to craft an effective one so that you can start pitching?
+Timing Is Critical
+Timing is critical for startups. That’s even truer when it comes
+to product launches and fundraising campaigns.
+You need to have a great handle on the time it will take to
+create your pitch deck and other fundraising campaign
+materials in order to survive and get funded.
+You need to know your timeline so that you can begin leading
+up to your pitch and pre-marketing any campaigns, and
+dripping the hype and PR to prime investors for them. Some
+may have to buckle up are prepare for a challening year of
+fundraising campaigning, even after they have a great deck in
+hand. Others may be under the gun to get money in ASAP and
+hit the ground running beofre they run out of time and money
+to work on this startup.
+So, how long should you plan for it to take to create a pitch
+deck? What are some of the hacks to get it done faster? What are
+some of the gotchas that could take a lot longer than you expect?
+
+28
+How Long It Takes To Make A Pitch Deck
+How long can it possibly take to throw together a handful or a
+dozen slides?
+The quick answer is that is can take as little as a few hours to
+well over a month.
+A pich deck pro armed with all the relevant data can probably
+whip up a powerful deck in less than a day of work. Though
+in most cases, from scratch to polish, startup entrepreneurs
+should plan weeks to complete a fundable deck they are
+willing to bet their business idea on.
+2 Hacks For Creating A Pitch Deck Faster
+1. Use A Proven Template
+Save reinventing the wheel and dsisruption for your product.
+Being too creative with your deck is just going to confuse
+investors and be a roadblock to successful funding. Don’t take
+the scenic route to creating a slide presentation from scratch
+either. There is too much else you need to do, and time is of
+the essence. Use a proven existing pitch deck template, and
+customize it with your data and style.
+2. Hire A Pitch Deck Pro
+You could spend months just learning about what to put in
+your deck, the slides to include, current trends on what is
+getting funded and what investors want to see, as well as
+formats. You can’t afford that. Bring in someone specifically to
+work on your deck. Someone who does this type of work for a
+living. They can do it in 100th of the time it will take you. No
+matter what they charge by the hour, it will be less than you
+will spend of your own time trying to figure it all out.
+Steps To Creating A Winning Pitch Deck
+
+29
+Recruiting & Hiring Help
+Use freelance experts to help complete a winning deck fast.
+You’ll need:
+●	 Designers
+●	 Image/video editors
+●	 Researchers
+●	 Copywriters
+●	 Strategists and funraising experts
+This process can take anywhere from 1 day to 3 weeks
+depending on how you do it. Hopefully you already have
+some good fundraising advisors you can reach out to. Then use
+platforms like UpWork to reach out to top talent in this space
+and hire fast.
+Build Your Target List Of Investors
+Look up and create a short list of potential investors that
+you will tailor this pitch deck towards. Knowing the type of
+investor and the theme of what they are investing in will make
+a lot of difference in pitching well.
+If you are behind the game on this, you may need 1-2 weeks to
+really identify, filter and create a tight list.
+Like most of the other tasks on this list, it’s not that you’ll be
+spending 80-100 hours a week on this one step, but you have
+so much else to do. If you get in a few hours today, and then
+finish next week, you are already 2 weeks in. Especially if
+you are working with assistants who may be in different time
+zones, and you are lagging a day between messages each way.
+Research
+Allow up to another 2 weeks for some serious research and
+compiling all the data you need to fill in your pitch deck.
+
+30
+This includes:
+●	 Market size
+●	 Market trends and direction
+●	 Verifying the problem
+●	 Marketing strategies
+●	 Costs and profit margins
+Images & Editing
+Between creating a logo, product screenshots, modeling
+prototypes, or images of use cases for your product and editin
+team headshots allow another 2-4 weeks.
+Developing The Copy
+The words you use in your pitch deck will make all the
+difference. Each word can add or lose another million dollars
+in your raise.
+A great copywriter who knows how to tell the right story,
+and can boil it down to one liners and bullet points can be an
+invaluable asset.
+They might be able to craft all the text you need in just one
+day, but the best writers will already be booked up for 2-4
+weeks in advance.
+Reviewing & Tweaking Your Pitch Deck
+Once you have it altogether test the feedback from advisors
+and others you trust. Allow another 1-2 weeks to compile this
+feedback and make adjustments before it is polished and ready
+to use live.
+
+31
+Chapter 4
+Scenarios where a pitch deck is
+important
+In what situations is a pitch deck a valuable asset?
+There are many situations in which you will find a pitch deck
+a great asset. Fundraising may be the most obvious. Though if
+you wait until you and your startup is ready to raise a round
+you may be seriously selling yourself and company short.
+Check out these scenarios in which being equipped with a
+pitch deck can be extremely helpful and yield great returns.
+Honing Your Startup Business Idea
+One of the best uses of a pitch deck is for yourself and in the
+initial stages of fleshing out and polishing your vision and
+business idea. Especially when you are wondering what is a
+business model.
+It’s far more effective than a napkin. It’s far faster and more
+efficient than trying to build out a voluminous business plan,
+only to end up making endless changes and creating a more
+usable pitch deck in the end anyway.
+Grab a proven pitch deck template and take some time out to
+fill it out.
+This will help you really think through your idea upfront,
+think about how you’ll explain it to others, find a viable
+business model, and identify what you need to focus your
+energy on.
+
+32
+This is also the ideal time to show your pitch deck to others
+and get some initial feedback and advice, so that you can make
+adjustments to your pitch and model before rushing in or
+blasting it out to investors.
+Enrolling Advisors
+Your pitch deck is an excellent tool for connecting with
+advisors early on. No matter how experienced you are and
+what you’ve accomplished before, there is always benefit in
+bringing in targeted advisors for a startup.
+Look for those with relevant experience, who can fill in some of
+the expertise gaps you or your founding team may be missing,
+and who know the investors you will be targeting for this
+venture and any upcoming fundraising rounds.
+Making these moves early also enables you to then add these
+advisors to your pitch deck and make it even more powerful
+for whatever you use it for next.
+Recruiting Cofounders
+Solo entrepreneurs can create fantastic businesses. Yet, it is no
+secret that investors definitely prefer funding multi-founder
+startups. You don’t want too many. That can make things a
+lot harder in other ways. However, two or three cofounders
+together can make the journey much easier and more bearable
+and enjoyable. In addition to improving your odds of getting
+funded, it dramatically increases the odds you’ll keep going
+when things are tough. It can also take the financial pressure
+off if you can bring in cofounders who will contribute capital,
+or who will at least be willing to temporarily forego a paycheck
+when needed and take stock options. Their ownership
+mindset can also make them some of your best workers and
+ambassadors. Far more so than any salary or perks can buy.
+You’ll get a lot farther with attracting and convincing
+cofounders if you have a clean, organized and well thought
+
+33
+through initial pitch deck.
+Recruiting Team Members
+You can also use your pitch deck to recruit early and key team
+members. It is going to be the company with the best team who
+wins. In fact, a strong team alone can add immense tangible
+value to your business and justify a sizable acquisition.
+Serious talent is going to be cautious about who they join.
+Especially with so many other options on the table. They want
+to know you are serious, organized and have a plan that is
+going to work. A nice clean pitch deck is the easiest and fastest
+way to demonstrate this and why they should jump on board.
+Securing Early Customers
+One of the most underutilized, but most powerful and valuable
+uses of a pitch deck is to secure early customers.
+You can approach this in several ways. You can do it
+subconsciously and subtly by approaching key decision
+makers for their advice and feedback. Seed the idea of
+becoming an early adopter. You can survey them and ask for
+their input on honing your solution for their needs.
+When this leads to pre-orders and advance contracts you are
+ensuring you have cash coming in and there is at least some
+demand. Just ensure you are bringing in actual money, not just
+getting vague nods to doing business with you in the future.
+There is a huge difference.
+Some of those who have done this successfully have even
+found these first customers become inbound investors who
+fund the development and building of the product and hiring
+the team needed. Some of these partners may even provide
+some of the other resources you need to really get live and in
+the game.
+
+34
+In Place Of A Business Plan
+Even though many hot startups seem to have proven they can
+get away without a traditional plan, there can still be a variety
+of scenarios in which a business plan is asked for.
+Some of the most common can include:
+●	 Applying for business loans
+●	 Getting commercial real estate loans
+●	 Securing leases for space and equipment
+●	 Applying for various licenses
+It’s still smart to have a business plan. At least a very strong
+executive summary, and a one page plan. However, far too
+many would be entrepreneurs end up wasting an enormous
+amount of time and energy on business plans they never really
+use. It often costs them first mover advantage, credibility,
+millions in potential capital and sometimes the entire
+opportunity.
+Startup Fundraising
+Whether you are raising a friends and family pre-seed round
+or a Series C, you don’t want to be caught without a strong
+pitch deck. It will make all the difference in getting the capital
+and investment partners your venture needs, even if you
+already have personal relationships and a strong network.
+The Exit
+When it comes to really planning and shopping for an exit
+you’ll want a pitch book and information memorandum.
+However, you can certainly begin with your updated pitch
+deck. It’s similar, and the chances are high that you may
+be running two potential processes at once. Or you may
+ultimately find your exit and acquirer while running a
+fundraising process.
+
+35
+Chapter 5
+What is the best font for a
+pitch deck?
+So much rides on the power and effectiveness of your pitch
+deck as a startup that even factors like which font you use can
+make or break you.
+Factors like font may not only directly determine whether
+your pitch deck is viewed, but how much investors think your
+startup is worth, how much capital they are willing to bet on
+you and on what terms, but if they are even able to follow
+through and send you the funds you really want and need.
+If there are four main elements of your deck (content, delivery,
+images, and text), then the font may carry 25% of the value of
+your pitch deck. If you are pushing for an aggressive Series A
+round, your font choice could be worth $25M. You don’t want
+to get bogged down in tiny details instead of just executing
+and getting things done, but with so much on the line, even the
+entire future of your venture, it is worth getting this right.
+What is the best font for your startup’s pitch deck? The font
+affects how investors view your startup and worth, and the
+capital they’ll invest.
+What Is A Font?
+A font is a style of text.
+There are probably far more styles of font that you knew
+existed. More are being created over time.
+
+36
+PC World reports that there are almost 70 font choices in
+the home and student version of Microsoft Word. While the
+professional version offers 216.
+Google Docs offers even more. According to Wikipedia, Google
+offers 1023 font choices.
+Some of the most common fonts include:
+●	 Arial
+●	 Times New Roman
+●	 Helvetica
+●	 Verdana
+Some have definitely stood the test of time and have been
+around for almost 100 years. Others are more modern and
+have become popular online. So, what is the best font for your
+startup’s pitch deck?
+Fonts: Guiding Principles & Best Practices
+The best way to think about fonts for your pitch deck is
+with the same guiding principles governing your whole
+presentation.
+That is to keep it clean and simple.
+This is the first rule and question to ask yourself and your team
+when you are considering any font for your deck. It is clean
+and simple?
+These are some of the other considerations and questions to
+ask when evaluating fonts when fundraising.
+Is It Easy To Understand?
+Your font must pass this test. If it is not easy to read potential
+investors and customers are going to have a hard time making
+
+37
+sense of it, or finding you. Some fonts may look smart as
+a logo, but the letters are too hard to make out for anyone
+outside of your company who doesn’t already know what it is
+supposed to say.
+This is a complete fail. You may have everything else perfect,
+but if they can’t email you or find you online to send you a
+check or wire you money, that is a pretty expensive blunder.
+Of course, if investors are struggling so will customers, and
+that’s already a nail in the coffin on your business. Keep that in
+mind when figuring out what is the best font for your startup’s
+pitch deck?
+Is It Commonly Used By Your Team Members?
+While there are over 1,000 fonts you can pick from or
+download and add to your favorite slide creation software, few
+may be regularly used by your team members.
+Do they have the font? Do they like working with it? Do they
+even have access to it if they are working remotely in another
+country?
+Using a more common font will help streamline everything,
+including any iterations and updates to your deck as you go.
+Branding
+Does the font match your brand? What does your chosen font
+say about your brand?
+Does it match your logo, stated customer base, and the type of
+investor who would be a part of a mission like the one you are
+on?
+It should feel elegant or sophisticated if you are in the luxury
+market. It should be clean and serious if you are in enterprise
+
+38
+technology, and so on.
+Put yourself in the investors’ shoes. What do they see? What
+is it most like for them? Does it look like a highly successful
+startup’s font? One that they are used to and want to replicate
+the success of?
+What To Avoid When Selecting A Font For Your Pitch Deck
+Avoid ‘fantasy’ style fonts. They can cheapen your brand, look
+unprofessional and are harder to read.
+The same applies to cursive, script and italic style fonts and
+serif style fonts.
+Avoid fad and trendy fonts. Hopefully you are creating a
+business that can last at least 10 years. Not one that is going to
+go bust when Google changes is algorithms again next month.
+Other Factors To Consider When Designing Your Pitch Deck
+How Many Fonts Should You Use?
+Use no more than 1-3 fonts in your pitch deck. You can
+highlight different lines of text with different font sizes, colors
+and shading, or bold text formatting instead. Yes, figuring out
+what is the best font for your startup’s pitch deck is a process
+that you want to work out carefully.
+Font Size
+Guy Kawasaki has recommended that all text should be at
+least 30 point font size in a pitch deck. Your headers and sub
+headers should be even larger.
+Colors
+Make sure your text color choices are strategic as well. Do they
+
+39
+match your brand, and the type of startup that investors will
+expect to perform well, and have the ability to deliver 100x
+returns?
+The Amount of Text Used In Your Deck
+Only use the bare minimum amount of text absolutely vital to
+getting the main points across and answering the most basic
+questions investors will have.
+
+40
+Chapter 6
+Do’s and don’ts when creating
+pitch deck
+What are the do’s and don’ts of creating a pitch deck for your
+startup?
+What should and shouldn’t you do when creating a pitch deck
+to ensure it is effective and maximizes your odds of getting the
+funding you need?
+The Power Of Pitch Decks
+Pitch decks are an incredibly important piece of the puzzle for
+startups. Yours can make all the difference in getting off the
+ground, maintaining the funds you need to keep surviving and
+thriving, and whether you can really unleash the potential this
+business idea has, or not.
+You really only get one shot at making a first impression with
+your pitch deck. If you blow it, you have probably blown
+your chance of funding from that investor. If you nail it, that
+successful connection can lead to many more pitches and
+opportunities.
+Even beyond the present fundraising round, your pitch deck
+can be very influential when it comes to recruiting the best
+advisors, partners, and key team players.
+With so much on the line, it is worth investing the time and
+energy to get it right. Let’s get started exploring the do’s and
+don’ts of creating a pitch deck for your startup.
+
+41
+The Do’s Of Creating A Winning Pitch Deck
+There are volumes of amateur and outdated advice on pitch
+decks out there today. It is a hot topic many people want to
+cash in on. Unfortunately, that can make knowing what to do
+really confusing too.
+Here are some of the most important things you do want to do
+when it comes to creating your own deck.
+Keep It Super Clean & Simple
+Simplicity is your friend and white space is your ally.
+If in doubt, leave it out. It is better to have more empty space so
+that viewers can absorb the most important points, and don’t
+gloss over or get bored before the call to action.
+Use images and graphics where it makes sense. As they say, a
+picture is worth a thousand words.
+For more information about how media works, check out this
+video that explains the key mistakes to avoid when creating
+your pitch deck.
+Focus On Your Four Most Important Slides
+There is a lot more that goes into crafting a powerful pitch deck
+than most realize. In fact, it can sometimes seem a lot harder
+to create a very simple looking deck than to just brain dump
+everything you’ve got in slide form. Between research and
+design each slide can be more demanding than you anticipate.
+So, make sure you put the most energy and thought into the
+four slides that are most pivotal and important for investors.
+These are:
+●	 Cover slide: it’s all about first impressions, and getting
+
+42
+them to keep swiping
+●	 Problem slide: demonstrate clarity on the problem, and
+how big it is
+●	 Financial slide: this is where investors will spend most
+of their time
+●	 Team slide: the team is even more important than your
+startup idea
+Show Your Traction
+Millions of people can talk a good game when it comes to
+selling and presenting. Very, very few can really execute. What
+can you prove that you can actually do?
+Show the progress you’ve been making, the milestones you’ve
+achieved and the growth you’ve maintained.
+Show What You’ll Use The Money For
+If they are interested in your startup, what will you use
+their funds for? Put yourself in the investor’s shoes. What
+is a worthy investment of their capital that will really yield
+returns? Do you still need to finance building a prototype? Do
+you need to hire experts to build this? Or is it scaling a proven
+marketing and business model? Make sure your ask lines up
+with these uses.
+Get Feedback Before Sharing
+Get third party feedback from qualified advisors before you hit
+send and bet everything on this deck.
+Let’s move on to the don’ts section of the critical do’s and
+don’ts of creating a pitch deck for your startup.
+The Don’ts Of Creating A Pitch Deck
+Knowing what to do is only half of the battle. Knowing what
+
+43
+not to do is equally, if not even more important.
+These are some of the critical don’ts when it comes to your
+pitch deck.
+Don’t Go Too Long
+Shorter is better when it comes to slide count in a pitch deck.
+You should definitely be under 20 slides. Under 12 is even
+better. You might even be able to get under 10. Going too long
+is a huge red flag, and your slide count alone can kill your
+funding chances, even before they look at a single page.
+Don’t Provide Too Much Detail
+This is not the place to take a deep dive into the details of your
+product, technology and all the features of your solution. They
+don’t need to know how it all works, and typically don’t want
+to. It will only take away from the important points and show
+you haven’t even bothered to Google what makes a good pitch
+deck.
+Don’t Put In Anything That Requires A NDA
+If you feel that you have real proprietary secrets you
+don’t want shared, just say that, and leave out the details.
+Demanding a NDA from anyone you want to see your deck
+or who can benefit from seeing it in their work is going to
+dramatically shrink the pool of those who will be interested,
+and that usually means excluding the best talent and investors
+right away.
+Don’t Try To Reinvent The Wheel
+This is not the place to reinvent, show off your innovation,
+disrupt and break things. That’s what your business does.
+Don’t try to reinvent the pitch deck. You’ll just confuse
+investors. Serve it up in the format they expect. Besides, it is far
+
+44
+more effective and efficient to use a proven pitch deck template
+anyway.
+Don’t Forget Your Contact Info
+How tragic would it be if you wow an investor with your deck
+and they want to fund you, but you didn’t make your contact
+information obvious enough so they can quickly take action?
+Keep these essential do’s and don’ts of creating a pitch deck for
+your startup in mind and you’re sure to get the funding you
+need.
+
+45
+Chapter 7
+Deadly signs of a bad pitch
+deck
+Is your pitch deck and fundraising campaign doomed to fail?
+Fundraising can be challenging at the best of times. It’s
+going to be a lot harder if your pitch deck isn’t up to the job.
+Unfortunately there are a lot of bad pitch decks that get floated
+out there every day. How do you know if yours has a chance?
+If it is displaying any of these critical red flags you need to
+go back to the drawing board before you try sharing and
+presenting it.
+Asking For A NDA First
+If you are asking potential investors, advisors, and hires to sign
+NDAs before they even see your deck you aren’t going to get
+far. At least not with anyone serious and who is good. NDAs
+at this stage are a big red flag that you are a complete novice,
+don’t have the right priorities, and your startup probably isn’t
+going anywhere. You’ll immediately be dismissed by those
+you really need to see it and get input from. If there is any real
+trade secret and secret recipe involved, then just leave those
+sensitive details out of the deck.
+It’s Ugly
+Simple and basic is one thing. That might just say you are a
+little lazy or didn’t feel it was worth investing in a good pitch
+deck and presentation. You might get away with it. Then there
+is outright ugly. If your deck is an eyesore, and others are
+
+46
+gently trying to tell you that you could improve on it, take a
+step back and put some time and money into the design.
+You might be bootstrapping and running lean, but it is worth
+every penny and minute. Consider how much your pitch deck
+is worth if you successfully raise this round and your business
+takes off. If you really believe in your startup idea, then you
+have to show it, and that you respect the time and attention of
+prospective investors.
+Your Cover Slide Lacks Key Info
+First impressions count. Experienced investors are looking
+for an interesting cover slide that includes the core basics, like
+your company name and contact information.
+There Are Too Many Slides
+Having too many slides is another deadly sign that you aren’t
+going to get funded. There is enough information out there
+telling you that shorter and sweeter is better when it comes to
+slide count in a pitch deck that there is really no good excuse
+for a lengthy deck.
+If you’ve got more than 16 or 20 slides it is an instant sign
+that you haven’t bothered to do the most basic homework,
+can’t listen and take advice, and are incapable of focusing
+and keeping it simple. If you can’t boil it down by a couple
+of slides, then investors can’t expect you’ll be able to make
+anything more complicated work or will make the effort. 8-12
+slides is plenty.
+It Looks Too Complicated & Detailed
+Simple, clean and clear is the key to a successful pitch deck
+and getting funded. If they start swiping slides and they are
+cluttered, packed with text, and busy, it is an immediate turn
+off. Investors will immediately know that you really don’t
+
+47
+understand how startups, fundraising and they work. If you
+can’t get this simple thing right, they know it is probably not
+worth looking any further or reading all that tiny messy text or
+trying to make sense of your schematics.
+Even if they do give you a chance, they are highly likely to
+quickly gloss over and either get bored, run out of time before
+reviewing the next deck in their inbox, or miss the good stuff.
+Not Being Crystal Clear & Simple About The Problem
+For startups to be successful in business and efficient enough
+to make it they have to be solving a strong problem, and they
+must have an incredible level of clarity about the problem they
+are solving.
+It’s true that your product or solution and company may be
+able to simultaneously solve many problems, bring many
+improvements to efficiency and the features can have many
+side benefits. The bottom line is that 99% of that is irrelevant
+in this context. You need to prove you are laser focused on
+solving one specific problem and doing it incredibly well.
+Overstating Big Claims
+Be optimistic, sell it, and show the big upside potential by all
+means. Investors want to be inspired and buy into big visions
+too. Just don’t get carried away. Be sure your claims and stats
+are based on real facts, and that you can back them up with
+credible references.
+Missing Key Data
+Before you even choose a pitch deck template or hit a single
+key to fill it in, you should know what investors are looking
+for and expect in a deck. You should know the questions they
+are asking and the most important data points for them to be
+able to make a decision. Those things should be your guide to
+
+48
+research and formulating the deck in the first place, nothing
+else.
+Not Acknowledging The Competition
+Knowing the right things to do to build a great product and
+business of your own is only half of the game here. Maybe
+less. At least half of it is knowing and respecting the risks
+and threats and competition. Like a legendary boxing match,
+it often isn’t the athlete that jumps in the ring and throws
+the most blows the fastest that wins the belt. It is the one
+that can take all that is thrown at them the longest, until the
+competition burns out and the perfect shot lines up.
+You do have competition. Show it. There are threats. Show that
+you know them in your SWOT analysis.
+No USP
+If you have no clear USP, you have no clear business. You need
+to pause the deck until you’ve really got something with a
+unique value proposition, or can find someone to help draw
+yours out and tell the right story around it.
+
+49
+Chapter 8
+Why the cover slide is so
+important in pitch decks
+Why is the cover slide of your pitch deck so important?
+If you see the importance, and impact it can have for good or
+bad, what should be on it, and how do you make the most of
+it?
+The Science Of First Impressions
+What you do up to getting your cover slide in front of potential
+investors for your startup is certainly vital too. You’ve got to
+make a good enough impression and be able to create enough
+urgency and interest to get them to even open up or click
+the link to your startup’s pitch deck. That includes your first
+outreach, your subject line, you email or DM body, and even
+your social profile and email address.
+Most investors are going to be looking at many, many decks
+before they even short list any of those. Even those that get a
+meeting will mostly hear “no.” We are talking about hundreds
+of noes for each yes and check they write. For active investors
+that is a whole lot of pitch decks they need to look at. In
+order for them to be efficient with their time, and get down to
+making the deals they want to, which are going to help their
+own metrics and profits, they have to be very selective with
+their time. Even decks they like may just get 2-3 minutes of
+their time. That means they are likely to toss and delete a lot of
+pitches just based on the cover slide. Make sure yours isn’t one
+of them.
+
+50
+According to the Institute for Organization Management of the
+US Chamber of Commerce, 55% of a first impression is visual.
+Next most important is the way and tone that something is
+said, at 38%. So, even when pitching in person, the visuals and
+tone is much more important than what you are saying.
+According to Forbes contributor Serenity Gibbons and The
+Association For Psychological Science, first impressions are
+formed far faster than you think. Just a 10th of a second to
+determine traits like trustworthiness, and just 50 milliseconds
+to form an opinion based on a website. That may not even be
+long enough to fully read a tagline or the rest of the content on
+your cover slide.
+So, when it comes to cover slides it is wise to think about
+the details, and psychology, and to really keep it clean and
+focused, so that investors pick up on the impression you really
+want to convey.
+What Should Be On Your Pitch Deck Cover Slide?
+Company Name
+What does your company name say about this opportunity?
+What is the first impression it will give?
+Tagline
+This is your opportunity to sum up your business in a single
+sentence. This may be the best lever you have to get them to
+open and start swiping through the rest of your deck, or drop
+it in the trash folder.
+Logo
+The font, colors and imagery all instantly convey volumes
+about your startup. It is worth thinking it through from the
+investors’ perspective. What is going to give them the first
+
+51
+impression that you are going to become their next hit startup,
+based upon what they’ve seen before in the market and their
+own portfolios?
+Contact Information
+Your name, business address, phone number, email address
+and Linkedin handle also say a lot. How can you optimism
+these factors for a superior first impression?
+The Cover Slide & Capability
+The uncomfortable truth is that ideas are cheap. They are
+infinite. The difference in a startup that can make it and
+is fundable, is that they have a strong, capable team. In
+milliseconds your cover slide demonstrates an enormous
+amount about your capability. Here are just some of those
+ways.
+Nailing The Marketing Pitch
+Make no mistake that your fundraising pitch is one of the
+greatest marketing tests of your business. It also directly shows
+how capable you are at marketing your business, brand, and
+product to consumers and partners. Presentation is important.
+So, is proving through this that you also have a great handle on
+the market, your target customers and the marketing you will
+do for acquiring customers. This shows up in your research,
+marketing plan, traction, marketing ROI and unit economics,
+as well as your fundraising ask and what you say you will do
+with the money.
+If you haven’t hired a CMO or marketing and sales talent yet,
+then this is a good time to at least bring in someone freelance
+to nail it for your pitch deck and presentation.
+
+52
+Coachability
+While there is certainly a lot of poor and misinformation out
+there online, it really doesn’t require a big investment to find
+out what really works when it comes to pitch decks and to find
+a proven template.
+Showing up with a strong cover slide that checks the boxes
+shows that you are coachable, are able to seek great advice and
+listen. That is one of the most essential traits of entrepreneurs
+that have what it takes to make it, and investors want to work
+with.
+Think about it. If you are too stubborn to do this for creating
+your pitch deck and presenting to them, how are they
+supposed to believe you’ll show up in the right way when it
+comes to everything else.
+The Cover Vs. Closing Slide
+The closing slide is your chance to leave a strong impression.
+Use it to thank them and close with those strong elements from
+your cover so that they can follow through, take action and
+contact you.
+
+53
+Chapter 9
+How to include an executive
+summary in a pitch deck
+How to include an executive summary in a pitch deck?
+Executive summaries have long been a critical part of starting
+a business and securing funding. How do they play a role in
+today’s modern fundraising efforts? Should you even have an
+executive summary slide in your pitch deck? If so, what should
+you include on it? What other alternative ways are there to
+deliver this information?
+What Is An Executive Summary?
+As the name suggests, an executive summary sums up
+your business in a much shorter brief than other long form
+documents.
+It encapsulates your ideas and business in a very fast and easy
+to digest format. It is everything in a nutshell, without any of
+the fluff.
+An executive summary is critical for presenting to those who
+are busy and pressed on time. Even more important for those
+who are used to this more traditional way of pitching and
+funding businesses.
+Often, this one document or slide will make or break
+everything. It will either get you deleted and banished, or it
+will make up investors minds to fund you, and just leave the
+details of how to structure that to be worked out.
+
+54
+They have traditionally been the document commercial
+lenders and banks have looked for. As well as more traditional
+investors. It is what they are used to, get and like. So, even if
+you are using a very modern pitch deck, don’t overlook the
+importance and value of including an executive summary in
+this process.
+Just don’t confuse short or brief with being easy. Most startup
+founders find it far harder to create something short than to
+brain dump volumes of information and fluff into lengthy
+decks and business plans with many pages. It can be harder to
+be effective and concise.
+Which is perhaps why most founders fail at fundraising. It’s
+also why you would want to carefully understand how to
+include an executive summary in a pitch deck?
+How To Send Your Executive Summary When Pitching
+Investors
+Many modern pitch decks don’t include an executive summary
+slide. Many recommendations and slide templates don’t leave
+room for one. Especially not if you are doing a slick, short and
+stylish 10 or even 12 slide pitch deck.
+It can already be a great struggle to condense everything to
+a short deck that including an executive summary slide may
+make that even far harder. Or you may feel that you really
+can’t present it well and attractively with everything boiled
+down to one slide.
+With this in mind, and to still deliver on a traditional text style
+executive summary you may want to separate this information
+from your actual slide deck. You can include a traditional
+summary as a 1 to 3 page Microsoft Word document as an
+attachment in the email you send your deck in.
+Those who want to read it can. Or you can provide a link to
+
+55
+it in a Google Drive folder that includes other accompanying
+documents, like your one page business plan, investor updates,
+and supporting data. Work out the best way to do this when
+figuring out how to include an executive summary in a pitch
+deck?
+Creating An Executive Summary Slide For Your Pitch Deck
+When you are raising Series A and later rounds and have
+much more information to share, and investor expectations of
+data are higher, then your pitch deck may be a little longer. It
+may be 16 to 20 pages to cram it all in. This can still be pretty
+lengthy and time consuming to get through for busy investors.
+When they are reviewing 100 or 200 decks before funding a
+single venture, they are super tight on time and are quick to
+dismiss any pitches that are slow and too drawn out, boring or
+uncatchy.
+You may avoid getting unfairly swiped to the trash pile by
+leading with an executive summary slide that shows all of the
+key data and highlights. If you nail this, they will dig in with
+the intent of wanting to learn more about you and wanting to
+fund you. So, how do you do it?
+You can accomplish this on one slide using eight icons and
+up to three bullets per icon. These will represent the most
+important slides and factors to investors and get their attention
+by showing you check the boxes they are looking for in an
+investment. It tells them the rest is worth reading.
+Use these sections on your summary slide.
+Context
+●	 The problem you are solving
+●	 The solution you are providing
+●	 The product you are creating or selling
+
+56
+Mission & Goals
+●	 What’s the big vision and mission
+●	 Where are you at
+●	 What is the goal
+Market Size
+●	 What is the space you are tackling
+●	 How big is the market
+●	 How much is it growing
+Competitive Analysis
+●	 Who are your main competitors
+●	 What is your competitive advantage
+●	 How much better are you
+Marketing Plan
+●	 What is the go to market plan
+●	 What are your customer acquisition costs
+●	 How is it working so far
+Financial Plan
+●	 What are your unit economics
+●	 What are your sales forecasts
+●	 What are your profit forecasts
+Timeline
+●	 When did you start
+●	 What have you achieved so far
+●	 What’s the next milestone
+The Ask
+●	 How much are you raising
+
+57
+●	 What terms are you offering
+●	 What will you use it for
+Summary
+To round off how to include an executive summary in a pitch
+deck, this section plays a very important role in funding a
+business. Nailing this can make all the difference in whether
+the rest of your deck is even seen or not. You may use a
+traditional style summary in conjunction with a modern pitch
+deck, or work it into your pitch deck to capture attention and
+interest.
+How to include an executive summary in a pitch deck?
+Learn how to craft a robust summary for starting a business,
+securing funding, and convincing investors
+
+58
+Chapter 10
+How to address the problem in
+a pitch deck
+What is the best way to show the problem your startup is
+taking on in your pitch deck?
+Your startup is all about solving this problem. Being able to
+convey it to others well may make all the difference in your
+ability to get funded or not. So, how should you address
+presenting the problem when fundraising? How do you do it
+incredibly well, and perhaps not only pick up some additional
+capital, but new ambassadors and helpers with expertise at the
+same time?
+How Important Is The Problem?
+Most entrepreneurs don’t get this. They are blind to it. The
+problem is the most important part of not only your pitch, but
+your business as well.
+If you get the problem right, everything else will fall inline.
+You’ll:
+●	 Find the right advisors
+●	 Hire the right people
+●	 Secure the best investors
+●	 Find the right solution
+●	 Design the right products
+●	 Roll out the best marketing
+●	 Stick with it when things feel rough
+
+59
+●	 See your business thrive and grow
+●	 Achieve an exit that goes on to live out the mission
+With the right handle on a strong problem you’ll start a
+business that has longevity, and can give birth to many great
+solutions and products. You’ll see results sooner, grow faster
+and get a lot more out of the funds you do have. In turn that
+will lead to more funding, and on better terms.
+This is why the problem is far more important for investors
+than your initially proposed solution. So, don’t be afraid to
+take a moment to double down and dive into the problem
+and hone it, and even spend 50% of your time in your pitch
+focusing on the problem.
+After all, if you don’t have the problem right, then the solution
+is definitely wrong.
+Where To Start Addressing The Problem In A Pitch Deck
+Addressing the problem doesn’t have to wait for your problem
+slide. It shouldn’t.
+Demonstrate clarity and focus right from the cover slide of
+your pitch deck with a strong tagline or slogan.
+This shows them you know what you are doing right upfront,
+and should earn you some extra credibility, even before they
+start swiping through your slides. First impressions count for a
+lot. Don’t blow yours.
+The Most Important Slide In Your Pitch Deck
+If the problem is the most important part of your startup and
+pitch, then the problem slide is the most important one in your
+deck.
+That doesn’t mean you make it complicated or squeeze five
+
+60
+times as much text onto this slide. In fact the opposite may be
+true. Keep it clean, simple and focused.
+Forget all of the side problems your initial solution might help
+solve, or the other benefits and features. Hone in on just one
+main problem.
+The Story
+Since your slide space is so limited, your verbal pitch and
+presentation is where you get to talk around your slides and
+bullet points and really drive it home.
+Begin with your story of how you encountered this problem.
+Images are great for conveying emotion too. Tell it in a
+personal story. One that your investor audience can relate to.
+Describe how you then intentionally invested time and energy
+in exploring and verifying this problem. How you made sure it
+was a real problem that others were struggling with too.
+Talk about how you measured it, and gauged the sense of
+urgency among potential customers. As well as tested the
+demand for and the value of a solution to this problem.
+This might sound like a lot of work, but if you don’t do all of
+this, you can’t be sure about the problem. You could waste
+years and millions of dollars going in the wrong direction. If
+you can’t be bothered to make this investment, why would
+investors bother to give you the time and capital they have
+worked so hard for?
+Market Slide
+This is where you show how big this problem is, and how
+much it is growing?
+Use big data points. Be specific about the segment of the
+
+61
+market which you really plan to appeal to and can serve.
+The Solution Slide
+Of course, no one wants to be brought a problem without a
+solution for it. So, what is your intended or existing solution
+for this problem?
+Keep it as simple as you kept your initial problem slide.
+All of the details can be shared later. You can also follow up
+with a product and business model slide which lay it out
+further.
+Competitive Analysis & Advantage
+Your competition analysis is also a critical part of addressing
+the problem in your pitch deck,and gaining backing for your
+solution.
+What other competition is out there? If there isn’t much, why
+is that? Can that be an advantage? Who may want to create a
+solution for this space? How may that lead to partnerships,
+distribution channels, or even a grand exit?
+What are existing competitors doing well or poorly? What
+is the void that they are leaving on the table? How are you
+going to do better in comparison? What is your competitive
+advantage?
+The Team Slide
+What is this best in class team that you have assembled to
+champion this problem? How are they uniquely experienced
+and skilled to do it? How committed and resilient are these
+people, to keep going in the face of adversity, even if this first
+solution attempt and product isn’t perfect or has to pivot?
+
+62
+Chapter 11
+How to position the solution
+in a pitch deck
+How to position the solution in a pitch deck for startup
+fundraising?
+Every slide matters in your pitch deck. This is even truer as
+decks get shorter and more concise. Each slide can be worth
+millions of dollars. So, how do you get the solution right when
+pitching and presenting to potential investors in your startup?
+It’s All About The Solution
+Your startup and pitch deck is really all about your solution,
+right?
+While there are many other things that investors will look
+at, evaluate you on and want to know. This business and
+fundraising campaign is really all about bringing your solution
+to life and scaling it. It’s your product that you want to put out
+into the world.
+The truth is (and experienced investors know this) that your
+product is probably going to change over time. It will probably
+change a lot. You have a lot of iterating to do to secure product
+market fit and make it scalable.
+You may have to completely pivot in response to the market.
+Your solution will have to evolve significantly over time as
+things change, if your business is going to last for the long
+term too.
+
+63
+Plus, you’ll probably be adding on more new solutions and
+features or upgrades and stand alone products as well.
+Still, if your solution doesn’t seem solid and attractive, then
+you aren’t going to get far with fundraising or customers.
+Much of it relies on positioning your solution well. So, how do
+you do it? And, how to position the solution in a pitch deck for
+startup fundraising?
+Positioning Starts With Your Cover Slide
+Your company name says what you do. That first impression
+will say a lot about your brand and value of your solution.
+The logo and design will tell them whether this is trying to
+be a luxury solution, discount solution or the hip and trendy
+option, and so on.
+The Problem Slide
+The right solution has to match the problem. This slide is
+used to establish the what and the need, as well as the pain
+level, urgency, eagerness and ability to take action to get their
+hands on a solution. It is your one chance, in just a few words
+to demonstrate your clarity on the problem and that you’ve
+verified it.
+It is vital that you just pick one problem.
+Your solution may have many positive side effects. After your
+MVP, your solution may solve several things at once, with
+additional benefits and cool features. Just, recognize that these
+are points to make another day, in another setting.
+What is the one simple problem that you are going to solve?
+
+64
+Market Size
+Your market size slide is used to show how big and
+widespread this problem is. How many people are going to
+want this solution that you are creating and you are asking
+these investors to bet on funding? How much will this pool of
+customers grow over the next 1-10 years, and beyond?
+Competition Slides
+Between your competition slide, SWOT analysis, and
+competitive advantage slides, how many others are trying to
+solve this same problem? Show who they are, which can help
+verify the problem and demonstrate the commercial potential
+and risks and opportunities.
+How are these others doing it? What are they doing well or
+not? Which may subconsciously hint at potential future exit
+plans.
+What are your competitive advantages over them? What is
+unique about your solution in comparison? Most importantly,
+how to position the solution in a pitch deck for startup
+fundraising?
+What Is Your Solution?
+On your solution slide, very simply layout what is your
+solution to this problem exactly, in just a few words. What is
+this product that specifically solves this one problem and pain
+point?
+When presenting your pitch deck online or in person, you can
+tell a story around this. One that personally resonates with
+your audience and that they can relate to. Also include images
+of how people will use it.
+How Are You Positioning It For Sale?
+
+65
+How are you pitching this solution to potential customers?
+Note that this may change overtime with the world, economy
+and marketplace.
+Does it offer business cost savings they need to survive? Does
+it offer gains and better ROI so they can grow? Is it a must have
+or luxury that will appeal to their ego? What does the pricing
+say about the positioning?
+Go Easy On The Features
+Your pitch deck and presentation is just as much a test of your
+ability to focus and keep it simple as it is about anything else.
+If you lose them with too many features and bullet points, they
+are going to be seriously worried about your ability to run a
+company, go to market, and get this done.
+Remember, one problem, one solution. Features are frills, and
+this is a no frills zone. Remember that when figuring wow to
+position the solution in a pitch deck for startup fundraising?
+Business Model
+How will you sell your solution? The method of marketing and
+selling has a big impact on positioning. Is it congruent with
+your stated positioning?
+You can imagine the creator of the Birkin bag would cringe
+and freak out and see the end of the world coming if their bags
+were being resold on Craigslist.
+What does it cost to make and sell this solution? What is the
+profit and potential return for investors? Do the unit economics
+make sense?
+The Team
+Does the team slide in your pitch deck show that you really
+
+66
+have what it takes to develop and sell this solution? Do they
+impress with the confidence they can make the best solution of
+this type in the industry?
+You may find interesting as well our free library of business
+templates. There you will find every single template you will
+need when building and scaling your business completely for
+free.
+How to position the solution in a pitch deck for startup
+fundraising? Every slide can be worth millions of dollars so
+pitch and present it for the most impact.
+
+67
+Chapter 12
+How to show the target
+customers in a pitch deck
+How to show your target customers in a pitch deck when
+fundraising for your startup?
+Demonstrating your handle on your target customers and who
+they are plays a big role in fundraising. As well of course as
+being critical to your whole business and its longevity.
+There’s a lot more to showing your target customers in your
+deck than most realize. So, how do you do it? Where does your
+target market show up in addition to the target customer slide?
+How to show your target customers in a pitch deck when
+fundraising for your startup is critical for the business and
+prove longevity to investors and acquirers.
+The Importance Of Knowing & Showing Your Target
+Customers
+The #1 Factor For Success
+Experienced investors and entrepreneurs have gained much
+more appreciation for the role of the problem in startups. You
+can’t have a good solution or strong business, without getting
+the problem right.
+However, it is only logical that you can’t get the problem
+right, if you don’t really know and have a handle on who your
+customers really are.
+
+68
+This is where it all stems from. It is the foundation. You either
+have a strong one or a flawed one.
+Founders need to be focused on this, and know that investors
+certainly will be.
+Exit Potential
+Investors will certainly be thinking about how this is going
+to lead to an exit and deliver returns for them. Who your
+customers are may indicate who could be good future
+acquirers, and how large they are. For example; are they a
+good match for Google, Salesforce or Facebook?
+This can be especially important for strategic investors who
+may see a path to partnerships and mergers one day.
+The Team
+Demonstrating you are the right team to take on this problem
+is hugely important. If you are the best team, then investors
+will be confident you will figure everything else out, even
+if that means a big pivot. If you aren’t the best team, then
+someone else will come in and dominate this space at some
+point.
+Showing your clarity on the target customers in a pitch deck
+says a lot about the strength and capability of your team.
+Use Of Funds
+Without complete clarity on your target customers you simply
+cannot use any funds you raise well. Fundraising may help
+cover up for some of these blunders, but only if investors are
+willing to gamble on you still trying to figure out this core part
+of the idea and thesis.
+Without intimately knowing and understanding your target
+
+69
+customers you cannot market accurately. You can’t build the
+right branding or solution either. That can mean millions of
+dollars and years of waste.
+Get the target market right, and everything else will take care
+of itself in logical order.
+Defining Your Target Customers
+The more deeply you can know your target customers the
+better. The better you’ll do at communicating with them,
+reaching them, marketing and focusing on the right product
+features and user experience.
+This is embodied in your ideal customer profiles and avatars.
+For internal purposes, the more detailed you are the better.
+This may include:
+●	 Job titles
+●	 Incomes
+●	 Education
+●	 Net worth
+●	 Pains and aspirations
+●	 Brand affiliations
+●	 Which communications mediums they use
+●	 What time of day or month they take certain actions
+●	 Favorite colors, fonts, and devices, etc.
+Of course, this is a lot of detail. Perhaps pages long for your
+marketing teams.
+When starting out, you probably need to be hyper micro
+focused on the best customers. It is the best way to make the
+most of your time and budget and get fast results.
+However, when it comes to building a true hypergrowth
+startup with huge potential you may eventually need to zoom
+
+70
+out as well. Your target may need to be much more broad in
+order to be inclusive of enough customers.
+Your Target Customer Slide
+Space and simplicity is your friend. You are going to need to
+simplify this to just a few bullet points to comfortably fit on
+this slide. Perhaps along with an image.
+However, showing your target customer in a pitch deck really
+starts well before you get to this slide.
+The Market Slide
+Here you’ll show the total market. The biggest it could be, if
+you could and wanted to serve them all. Next you’ll break it
+down to your TAM, and SOM. Who you can really reach and
+serve right now.
+The Problem Slide
+Through your problem slide you will demonstrate your
+understanding of the problem you are solving, through your
+customer. You’ll be crisp and clear about the problem. Though
+also drop in how you’ve verified and proven this problem with
+your target customers in a pitch deck.
+Solutions & Products Slides
+This is a great place to use images to show your product and
+solution in use in real life situations by your target customers.
+As they say, a picture is worth a 1,000 words.
+The Story
+In tandem with your static pitch deck slides, you’ll also have
+a verbal story to tell. It is powerful if you can use this story to
+depict you as a target customer, them (the investors) as a target
+
+71
+customer, and explain how you ran into the pain, and how
+they can relate.
+Before That
+It really all starts with your cover slide. The company name,
+your business address, contact information, branding, logo,
+and tagline all show the vibe you are creating, and the type of
+customer it is made for too. Make sure you’ve thought through
+this alignment in advance.
+
+72
+Chapter 13
+How to capture the market size
+in a pitch deck
+What’s the best way to capture market size in your pitch deck
+when fundraising?
+Market size is one of the most important data points in your
+pitch deck. This metric alone and how it is presented can be
+incredibly pivotal when it comes down to getting funded or
+not. Yet, this remains one number and pitch deck slide that
+even the most talented and intelligent entrepreneurs and
+startup founders struggle with. So, how do you find it out and
+capture the market size in a pitch deck the best possible way?
+Presenting Market Size In Your Pitch Deck
+One of the top three decision factors investors look at when
+considering putting capital into a startup is market size. It will
+make or break you.
+You cannot afford to underestimate the importance of this
+number. The other two main factors are most likely, the
+founding team and your startup idea. There’s only so much
+you can change about these to elements. However, there is a lot
+you can do to present market size well, and ensure it gives you
+the best chance of getting funded.
+Done well, you shouldn’t have to spend much time on talking
+around market size during your pitch presentations. Present
+the metrics as facts, and move on.
+There are three ways to present market size in your pitch deck
+
+73
+when fundraising.
+They are:
+1.	 Value theory: Predicting buyers willingness to pay
+2.	 Bottom up: Showing existing in-house data
+3.	 Top down: Based on industry research
+Use a graphic, clearly and simply laying out the three main
+metrics in market size:
+1.	 Total market size
+2.	 Total addressable market (TAM)
+3.	 Serviceable and available market (SAM)
+Where Market Size Fits In Your Pitch Deck
+In this breakdown of the 16 most important slides in your pitch
+deck, I put the market size slide very close to the beginning,
+right between The Solution and Competition.
+1.	 Cover
+2.	 Problem
+3.	 Solution
+4.	 Market Size
+5.	 Competition
+6.	 Competitive Advantage
+7.	 Product
+8.	 Traction
+9.	 Customers and Engagement
+10.	Business Model
+11.	Financials
+12.	Amount Being Raised and Other Investors
+13.	Use of Funds
+14.	Team
+15.	Advisors
+16.	Back Cover
+
+74
+Capturing Market Size In A Pitch Deck: The Musts
+There are two musts when it comes to market size and getting
+funded by serious investors.
+1. It’s got to be big enough
+Your market size should be at least $1B. Probably more. It’s
+what’s expected. Your company may never sell for that much,
+but it shows the potential. More importantly, it demonstrates
+the potential returns to investors.
+2. It has to be realistic
+Don’t be overly conservative. You’ve got to sell the dream
+and potential. For you that may be the mission and product.
+Hopefully your investors have an affinity for that too. Though
+they are coming into this presentation for the money. Still,
+if you aren’t realistic with your numbers it is an instant red
+flag that you either have no idea what you are doing, or you
+are just fluffing the numbers. You can bet that professional
+investors who have the kind of money you want have a good
+sense of when you are undercutting yourself or making things
+up.
+Keep your slide clean. Back up your figures with sources in the
+appendix.
+Total Market Size
+How big is this space?
+What is the total annual transaction volume and dollar value?
+Is your business local, regional, national, international or even
+inter-planetary?
+What is the direction and future size of this market? What is
+the projected annual growth rate?
+
+75
+Total Addressable Market
+Your TAM is a portion of the total market. There are few real
+monopolies. Your product or service probably isn’t the perfect
+fit for everyone in this market. That even applies to Apple and
+Google.
+For example, if your startup focuses on vacation homes, that
+only relates to a small portion of total annual real estate sales
+or rentals.
+Serviceable & Addressable Market
+Also sometimes used interchangeably with SOM (Serviceable
+and Obtainable Market). This is the percentage of market share
+you can realistically expect to capture.
+Most VCs believe 1-5% is a good range. Remember, you don’t
+need the whole market or even a majority market share to have
+a billion dollar company in a really big industry. In contrast, if
+this is a smaller industry, you may need a much larger market
+share to deliver the returns investors are seeking.
+Greenfields: When There Is No Existing Market
+Some startups are creating completely new industries and
+markets. Here investors will care most that you can actually
+sell your product and there are buyers.
+Show the results from customer surveys. What are they saying
+they want? Show sales. Even if it is only a handful of enterprise
+level customers, who has actually proven your theory by
+paying money for what you are offering?
+Get A Second Opinion
+It always pays to get a second opinion and another pair of
+experienced eyes on your deck, and especially this slide and
+
+76
+its relevant data. This is even more important if you are new
+to this industry. You could be missing out on a big chunk of
+potential market share of size of the market. You may not be
+thinking like those who know the industry and are most likely
+to invest.
+Consult a fundraising expert to ensure you are maximizing
+your potential and the success of your deck and pitch.
+
+77
+Chapter 14
+How to show your competitor
+landscape in a pitch deck
+How to show your competitor landscape in your pitch deck?
+Intelligently displaying your startup’s competitor landscape
+is a critical part of a successful pitch deck and fundraising
+campaign.
+So, what is the best way to show your competition, how you
+compare, and leverage them into a better business of your
+own?
+How to show your competitor landscape in a pitch deck?
+Identifying, comparing, and leveraging the competition is
+critical for effective fundraising
+The Importance Of Competition In Your Pitch Deck
+Knowing yourself in life and business is very important, but so
+is knowing your competition.
+Your pitch deck is an important document for you, your
+internal team, hires and consultants. It is often the clearest and
+most usable document for the direction of your company and
+business planning. Getting the competitive landscape right
+here can be pivotal for everything you do.
+In startup fundraising, the competition can play a much bigger
+role than most entrepreneurs can understand. Many go out of
+their way to deny and downplay competition. That is not the
+
+78
+right strategy. It will hurt your credibility and close doors.
+Instead, look at the competitive landscape in your pitch deck as
+a tool for strategically maximizing urgency, appeal, and value.
+In many cases this slide is one of the biggest tests investors will
+put you through.
+Here’s how to nail it. And, How to show your competitor
+landscape in your pitch deck?
+Who Is Your Competition?
+The number one mistake most entrepreneurs make in both
+starting a business and crafting their pitch decks is overlooking
+the competition.
+If you haven’t done your homework on fundraising and your
+space, and have completed your market research, then the
+odds of failure are overwhelming. It’s just a matter of how
+much time and money is going to be wasted before going back
+to start from scratch again.
+The second mistake in this respect is denying or believing you
+don’t have competition. The third is trying to hide or dismiss
+that competition.
+If you don’t find any active competition in the marketplace
+now, then a great starting point for any business is to go
+back and look at previous startup and business attempts
+in this space. Who else has tried it? Why did they give up?
+What wasn’t working? What did they discover that you may
+be overlooking? Talk to the founders if you can. They may
+be more generous at sharing than you expect. Finding out
+this information can go a long way to help you de-risk your
+venture and avoid the same pitfalls.
+Also, Identify Future Competitor Landscape in a Pitch Deck
+Then consider future competitors. If you do start making
+
+79
+progress, get funded and clock some traction, you can be
+others who want to get in on that money train. Perhaps some
+are already quietly working on something similar in the lab.
+Who are they? It could be other brand new startups.
+Scrappy, fast moving, bootstrapped ventures that may be
+willing to undercut you and over promise to scoop your
+market share. Or it will be very big companies who want what
+you have, and can afford to price you out, sue you out, buy
+you out, or just out market you.
+The other type of competition may be foreign competition in
+another market or region, who may want to move into your
+area.
+If there are current competitors in this space start building
+a list and database of them. Who are they? What are they
+doing well? What are they doing poorly? And, what are they
+planning? How are they different? Include this information
+when figuring out how to show your competitor landscape in
+your pitch deck?
+How To Use Your Competitors To Your Advantage In A Pitch
+Deck
+Competition can be a huge advantage when fundraising. Use
+them to frame and position your business, your investment
+opportunity, and get investors to take action.
+These are three of the top benefits of competition in your deck:
+Validation Of Your Startup Idea
+Contrary to the popular misconception, having a completely
+new and unique idea isn’t always best. In fact, if you are ahead
+of your time or it just doesn’t have any other foundation, that
+can be a big disadvantage.
+Having competitors means that other people believe in
+
+80
+this idea too. Maybe they have already proven the problem
+and demand for a solution. Or there may be big and smart
+companies and investors working on this, validating this is a
+worthy investment.
+Funding Amounts
+Competition is great for benchmarking funding asks. For
+example, you are claiming you are better and have an
+advantage over a competitor in this space, but they just raised
+a $9M Seed round from some respectable investors. Well then,
+shouldn’t your company be worth more? Shouldn’t you be
+able to justify at least a $10M or larger seed round?
+Exit Strategy & Potential
+If larger companies are entering or investing in this space,
+then that could be a sign there is a good M&A exit on the
+horizon. It may just be cheaper for them to acquire you. Or for
+a competitor to roll you up for an even larger public or private
+exit.
+Your Competitive Advantage
+Competition is fine, as long as you are clear about your
+competitive advantage. What is it that you do better? What
+is the one thing you can keep excelling at over the rest of the
+pack?
+Use your SWOT analysis for clarity on this, and for developing
+a very strong USP.
+The Competitor Landscape Slide
+In a pitch deck, the competitor landscape is typically best
+shown in an image or graph, with your company up and to the
+right.
+
+81
+Choose your points of reference to plot out how you stand out
+from your top four or five most serious competitors.
+These factors also come into play as you show alignment
+with this slide through your solution, product, marketing and
+competitive advantage slide, and even team slide.
+Keep Updating It
+Your #1 focus should be on your own business and customers,
+but keep your eye on your competition, keep updating this
+slide as you go through your rounds and plan your next
+milestones. And, when putting together a fundraising strategy,
+work out how to show your competitor landscape in your
+pitch deck?
+
+82
+Chapter 15
+What is the marketing strategy
+in a pitch deck
+What is the place of marketing strategy in your pitch deck
+when raising money for your startup?
+Pitch decks can make or break your startup, and the ability
+to get the funds you need to launch and grow. Some of the
+funds you may need so desperately may be to execute on your
+marketing strategy.
+So, what role does this factor play in your deck? What are
+some smart practices to use, and terrible blunders to avoid?
+The Importance Of the Advertising Strategy In A Pitch Deck
+Your whole pitch deck and pitch presentation is a marketing
+exercise. Perhaps one of the most important marketing efforts
+and sales pitches you will deliver in the life of your startup.
+Without a good one you may have no marketing capital at all.
+You may find it very hard to recruit great talent and advisors
+in addition to investors.
+You’ve got to do great here, and demonstrate how you are
+going to get customers and sales, so that you can deliver for
+your investors. If you can’t, how can they believe you’ll do
+good in business?
+The Problem
+The marketing strategy in a pitch deck really starts with your
+
+83
+cover slide and tagline. It becomes even more important
+on your problem slide. You have to show that you really
+understand the problem, and have chosen a good one.
+In your verbal pitch you’ll be telling a story around this
+problem. One that will personally resonate with your
+audience. One that lets them feel the pain associated with it.
+Sales and marketing is all about the problem versus the
+solution. The pain versus the pleasure you can bring. If you
+can’t nail the problem, the foundation of everything else is
+flawed.
+The Solution
+The solution slide in your pitch deck is where you start selling
+your product. If you can’t sell it to your investors, then how
+can you expect to sell it to anyone else? However, if you can
+sell it to cynical investors who are looking for reasons to poke
+holes in your idea and pitch, then selling regular customers
+may be much easier.
+Here you need to demonstrate that you can keep it simple.
+Focus on the problem and the one solution you excel at
+providing. In additional slides you may note a couple of key
+features, differentiating factors and show off prototypes or
+demos. Or at least screenshots of them.
+Market Size
+How big is the market for this product? Is it big enough to
+warrant going after, creating a business around and investing
+capital in? What data do you have on the size of the customer
+pool? Is it growing or shrinking?
+In your competition slide, you’ll show your competitive
+advantages over others in this space and how you think you
+can win market share. This is a critical facet of the marketing
+
+84
+strategy in a pitch deck.
+Target Market & Target Customers
+Who are your target customers exactly? You can’t market well,
+effectively and profitably unless you really deeply know and
+understand your customers. What is your customer avatar?
+What are some of the use cases for your product? You may
+even demonstrate this with pictures. How many of these
+customers with this profile have you spoken to already?
+Traction
+In your traction slide you are showing what you’ve achieved
+so far. This includes how many customers you’ve acquired
+and sales you’ve made. This will show that your marketing
+strategy is working, and you just need to scale it up. Or if it
+isn’t and you’ve hit a wall.
+The Team
+For investors, the ability to execute is even more important
+than your idea and product. Specifically, do you have the best
+possible team in this industry to execute a good marketing
+strategy?
+What epic marketing experience do they have? What results
+have they achieved? What are their qualifications?
+If you are weak here, then how will you give your investors
+confidence that you can not just pull this off, but are the best
+company in this space for them to bet on?
+What amazing advisers or CMO and marketing experts are
+you bringing on board to champion this all important part of
+the puzzle?
+
+85
+Business Model
+The foundation of your business model is how you will acquire
+customers. That’s an essential part of the marketing strategy
+in a pitch deck. What marketing channels and tactics have you
+tried already?
+How does your sales funnel work? How much is it costing to
+acquire new customers and sales? What are the returns on this
+marketing?
+Is Marketing A Part Of Your Fundraising Ask?
+Will at least some of the funds you are raising for being used
+for marketing? If you have no experience or tests, what will
+you try first, and why? Will you be investing in developing a
+real, custom marketing strategy? Be careful here.
+What marketing does your business rely on? Is it all reliant on
+Google search or paid ads on Facebook or using TikTok? Or is
+it enterprise sales with a very long sales cycle?
+In which case do you have the sales people with connections
+and financial runway to afford this? Are you planning a heavy
+upfront investment in marketing, like a physical store or
+inventory?
+Take a step back and look at this marketing strategy in the
+pitch deck from your investors’ perspective. Is it sustainable?
+Does it offer good unit economics? Does it give you a moat
+around your business from competitors?
+How will you control your marketing effectiveness and costs in
+the months and years ahead? What can you do that is unique,
+and has a high marketing ROI?
+What is the marketing strategy in a pitch deck designed for
+raising money for your startup? Pitch decks affect your ability
+to get the funds you need to launch and grow
+
+86
+Chapter 16
+How to share your traction in
+a pitch deck
+How to share your traction in a pitch deck? In other words,
+what is the best way to demonstrate traction in your pitch
+deck?
+Showing traction is one of the key elements in startup
+fundraising. So, what are investors looking for? What is the
+best way to display it in your deck? If you are coming up short,
+how do you boost your velocity?
+How to share your traction in a pitch deck which is one of the
+key elements in startup fundraising? Displaying your traction
+ot boosting velocity is critical
+So, what are investors looking for? What is the best way to
+display it in your deck? If you are coming up short, how do
+you boost your velocity?
+Top Triggers For Getting Your Startup Funded
+The business idea is probably actually one of the least
+impactful factors when it comes to getting your startup
+funded. Experienced repeat founders and investors know that
+these factors can really be far more indicative of future success,
+fundability at future rounds, and longevity.
+The Team
+Do you have a strong team? Not just a smart team with
+
+87
+degrees from well known universities, but team members
+who are right for this project, have good and well-rounded
+business acumen, and the serious grit it is going to take to keep
+marching through all of the daily challenges? Everything else
+may change, but if you have the right team, something will
+work out in the end.
+Focus
+IQ, deep technical experience, big vision and creativity, and
+hustle can all yield zero tangible results without focus. You
+have to be dialed in and have the blinders on to really move
+the needle and stay headed in the right direction.
+The pitch deck is a significant test of focus. 99% of
+entrepreneurs fail right here. Can you resist all the
+temptations, and produce a short, clean, simple and focused
+pitch deck? If not, they probably don’t even need to swipe to
+the traction slide, because you aren’t going to get enough.
+The Problem
+The problem you are setting out to solve is far more important
+than your intended solution and product or business model.
+Pick the right problem and demonstrate you have supreme
+clarity on it, and you’ll have a solid foundation for generating
+traction.
+Traction
+While all of the above is vitally important, traction will make
+or break you. Not just in terms of getting funding, but in
+running your business.
+The Big Deal About Traction
+What’s so important about traction? Why is it such a big deal?
+
+88
+Aside from setting the right foundation for your venture to
+grow, traction should probably be your biggest focus internally
+as well.
+Firstly, gaining traction shows proof of your concept and
+demand for a solution to the problem you are working on.
+After all, investors are pitched with all kinds of fantastic
+sounding ideas, and slick decks, and sales lines all day long,
+every day.
+The only one way to really differentiate the 90% that will never
+be more than hype and an idea, and the ones that will actually
+work is results.
+Traction shows that you are really capable of executing and
+creating meaningful progress. There’s not much that beats that.
+Your traction also indicates how fast you can grow your
+business. While growth is never a consistent straight line on its
+own, your traction can be a strong signal of the multiples that
+may be possible for investors and how fast they may expect a
+return on their investment.
+What Is Traction?
+Traction is progress and growth.
+There is more than one way to share your traction in a pitch
+deck, depending on your startup, focus and what you have to
+work with.
+Examples of this may include:
+●	 Customer acquisition
+●	 Sales volume
+●	 Revenues
+●	 Revenue per employee
+●	 Headcount
+
+89
+How To Project Your Traction In A Pitch Deck
+To share your traction in a pitch deck focus on just one metric.
+Use that to track, display, focus on growing and as the metric
+of success before the next milestone, and asking for more
+funds.
+Display this prominently on your dedicated traction slide. This
+is typically done in graph form.
+You can also drive this home by showing your growth in this
+traction metric on your timeline.
+How Much Traction Is Enough?
+How much traction is enough to show?
+Different types of investors at different stages in your startup
+will have varying expectations of speed of traction.
+In the earliest stages investors will be expecting you to show
+week over week growth. Then that may expand to month over
+month, and later, year over year.
+Eventually growth will slow once you get big. In the early days
+you may be up against other startups growing 10% or more
+per week or month, and at least 50% per year.
+Questions To Expect On Your Traction
+After presenting your pitch deck you are going to be fielding
+questions from investors. Acing these questions is going to
+greatly determine whether you get the funds or not.
+Obviously, a great, clean pitch deck is very lean, so some of
+the follow up questions you should be prepared for on your
+traction will probably include:
+
+90
+●	 How well are you retaining customers?
+●	 Sales from new versus existing customers?
+●	 Percentage of refunds given?
+●	 How are your reviews?
+●	 Forecasts for traction over the next year?
+●	 Profit margins on this traction?
+Ways To Boost Traction
+●	 Join a startup accelerator or incubator
+●	 Partner up for distribution and sales
+●	 Get scrappy with your marketing
+●	 Leverage affiliates, franchisees, or influencers
+●	 Publish more content
+●	 Make sure your team is refocused on this traction metric
+Summary
+Traction is one of the most important factors for getting
+your startup funded. It’s one tangible proof point that can
+differentiate you from all the hyped up sales pitches with no
+results. Hone in on it, and excel here to get the financial fuel
+your venture needs. Learn how to share your traction in a pitch
+deck carefully and you’re sure to acquire all the funding you
+need.
+
+91
+Chapter 17
+How to position the team in a
+pitch deck
+How you present and position your team in your pitch deck
+can make all the difference in getting your startup funded. So,
+how do you introduce your team well? Who is even on your
+‘team’ when it comes to designing your pitch deck? What do
+investors want to see? How can you fill in the gaps?
+The Most Important Slide In Your Pitch Deck
+What is the most important slide in your pitch deck?
+Some think it is the solution? Others the problem slide? The
+financials slide is a popular one with investors. The cover
+slide can be key to setting up the entire deck with a great first
+impression.
+Yet, it is the team slide which really trumps all the others in
+importance.
+Yes, you have to get the others right. Though the decision to
+fund you or not often all comes down to the team.
+You can have the right problem, solution, a great product idea
+and be in a really big market, but without a team investors
+are willing to bet on, they aren’t going to give up a dime.
+Ironically, the opposite can almost be true in some cases.
+What Investors Are Looking For In A Fundable Team
+
+92
+If the team is so important, what is it that potential investors
+really want to see?
+There are two main factors that they are looking at:
+1.	 Ability
+2.	 Commitment
+Is your team capable?
+There are two parts to this. First is if your team has the
+technical ability to solve this problem. What unique skills have
+you developed to understand and solve this problem? Maybe
+you are one of only a few engineers or scientists in the world to
+have spent years studying and working on systems like these.
+The second part is real experience, especially in a business
+context. Being able to code, design a system, or having seen
+many others do it is one thing. Having the commercial
+experience of creating a product that sells, and building a
+profitable business that can scale is a completely different
+thing. It’s apples to oranges or ice cream to cake.
+Technical genius is one thing, but it doesn’t make an actual
+business. So, you also want experience in marketing, managing
+a team, finance, and more. If you have experience in a startup
+setting, and especially have previous exits with strong
+multiples returned to investors that is a huge bonus.
+Investors are looking for the best team. That’s the one you’d
+back with your own money, right? It is the startup with the
+best team that wins. So, demonstrating that you’ve compiled
+the best team with experience in your domain can help
+overcome weaknesses in any other area.
+Being coachable is also a huge deal. Being intelligent and
+wise is important. Though being coachable can be far more
+important than what you know. There will always be things
+
+93
+you don’t know. You’ll never get it if you aren’t willing to learn
+from those who do have the experience.
+How can you prove you won’t quit?
+Everything else can look perfect, but without the grit and
+perseverance no entrepreneur or team is going to survive the
+constant barrage of daily challenges that are going to come.
+What can you demonstrate that shows you have commitment
+and resilience? What have you done in the past that shows
+you’ve got what it takes? What have you sacrificed to get here?
+What are you willing to give up to continue with this startup
+and get this funding?
+Who Counts As Your Team In Your Pitch Deck?
+You only have a limited amount of space to display your team
+on a pitch deck slide. There are also downsides to including
+too many team members. Even though they may be key team
+members, if they are just employees there is the risk they
+may not stick it out. That’s not going to look awesome, if you
+are bleeding people who you raised money based on having
+during the funding process.
+So, what we are specifically talking about here are:
+●	 Coufounders
+●	 Executives
+●	 Advisors
+When To Start Introducing The Team In Your Pitch
+The team slide typically comes in late in the pitch deck. Though
+you don’t have to wait that long to begin positioning your team.
+Begin introducing your team and positioning them with these
+qualities early on. You can do it with your verbal introduction,
+the story of your problem and solution, and so on.
+
+94
+You should also try to bring in your cofounders to any live
+pitches or on video calls.
+What To Include On Your Team Slide
+The team slide is simple. It is profile pictures of your team,
+their names and roles, and a one or two sentence bio. Just a few
+words which best sums up how they bring the above strengths
+to the table.
+You can also include links to their executive bios on your
+website (best), or links to their LinkedIn profiles for more
+depth.
+You may include a second slide for notable advisors as well.
+What If Your Team Could Be Stronger?
+If you aren’t confident that your current team checks all the
+boxes, this is the time to do something about it.
+You can:
+●	 Hire the best in the business
+●	 Bring in cofounders who are willing to bring capital
+●	 Give small amounts of equity to notable advisors to
+bring them in
+As a part of your fundraising ask you can also explain who
+you will hire to fill any of these gaps with the funds you bring
+in
+
+95
+Chapter 18
+How to present the amount to
+raise in a pitch deck
+Creating a pitch deck is really all about getting funded and
+asking for the money. There is a lot of advice available on
+pitch deck design, and many of the core slides in a deck.
+Though much less on presenting the raise and ask. So, how do
+you position your ask?
+How Much Should You Be Raising?
+Before you ask, you have to know how much to ask for. Sooner
+or later you are going to have to justify that number somehow
+too.
+From the headlines it may seem like many startups are raising
+at very arbitrary numbers. There are good reasons to round
+up. Yet, any investor who has put in the work and sacrifice and
+has had the financial wisdom to amass the amount of capital
+you are asking for is going to obviously have some financial
+smarts, and will want to do the math. If they have other
+investors or LPs they are responsible to, then they are legally
+liable for making sure the math makes sense too.
+So, what should your raise be based on?
+Reaching The Next Milestone
+Exactly what the need is will vary by your fundraising round.
+Whichever stage that is, this pitch deck is all about getting you
+to the next milestone.
+
+96
+This may be building a prototype, getting to market, scaling
+and expanding, or funding the roll up of other companies
+ahead of an exit.
+There may be hard fixed costs to get there and investments to
+be made.
+Runway
+Not only may you have to layout capital investments to get
+to the next milestone, but you will have carrying costs and
+operating expenses to keep running until you get there as
+well. This can include software, leased space, communications,
+insurances, payroll, etc.
+The average time between funding rounds has typically been
+about 12 to 18 months. In times of crisis and great financial
+uncertainty the ability to close a new round may be delayed.
+Meaning raising for a longer runway is wise. While you may
+be able to raise back to back rounds faster, it is dangerous to
+bet on it.
+Make sure you are raising enough to get through closing the
+next fundraising round, without getting so low on capital that
+your next investors can have the power to take advantage of
+you.
+Hiring
+Expanding hiring is considered a good use of funds if it is
+justified by need. After all, having the best team in your space
+is critical for winning. Sharing your hiring needs in your deck
+can also lead to introductions to top talent from your investors.
+Comps
+How much are your competitors raising at this stage in
+business? That is a good justification and benchmark to use.
+
+97
+Cushion
+Be sure to include additional funds for a cushion. Everything
+costs more than you think, and takes longer than you think. It’s
+far better to have extra, than not enough.
+The Ask Slide
+Keep your ask slide extremely simple. All you need is a few
+bullet points laying out the categories you plan to use funds
+for.
+Be wary of asking for money for marketing channels that don’t
+seem efficient, or asking for less than competitors have been
+raising at for the same rounds.
+Positioning The Ask
+Setting up the ask is done throughout your previous slides.
+The Financials Slide
+The financials slide demonstrates the potential returns on their
+investment in a simple way. Early stage startups have very
+simple, if any existing financials. So, it is about crisply laying
+out the forecast and projections for profit margins and growth.
+The Problem Slide
+The core of your business isn’t really the product or solution,
+it is the problem. If you have the right and a strong problem,
+everything will work itself out. Use your problem slide to
+show you have clarity on the problem. An urgent one, with
+demand, that you have proven exists, and you understand
+the value of in terms of what solving it is worth to your target
+customers.
+
+98
+Market Slide
+Use this slide to show just how big this market and potential
+business is. How vast can their investment grow as you expand
+into this market and the problem grows over the next decade?
+Traction Slide
+If you have proven the problem, and have created a solution
+and product, how is that showing up through actually doing
+business? This is where you give them something tangible.
+It’s real. Something that they can take to the bank, instead of
+only being an inspiring dream. How many sales have you been
+making? What about revenues and profits and unit economics?
+If they add their capital how can it simply multiply the great
+results you are getting already?
+Other Investors
+What other investors have participated in previous rounds
+that can give you credibility and make them feel smart about
+participating in? Which other investors have committed to
+participating in this round? Which investor has committed to
+leading this round and can make them feel comfortable and
+confident about jumping in too? How much are these other
+investors pledging to put in?
+Summary
+There is a lot of art to creating a successful pitch deck. When
+it comes to presenting your ask, you have to be able to back
+up the math. Your positioning of the ask should start well
+before the ask slide, and allow them to connect the dots for
+themselves.
+
+99
+Chapter 19
+How to nail your pitch deck
+narrative
+How to nail your pitch deck’s narrative?
+Having the right facts and data points is good. Everyone has
+that covered. How you present the narrative in your pitch deck
+can be far more pivotal.
+How do you nail this vital part of the mission when getting
+ready to pitch investors who can help bring your vision to
+becoming reality?
+A Great Startup Is Built On…
+What is the key to building a successful startup? Is it the
+business idea? The market size? The IP you’ve registered?
+These things can all help. Though it is really all about the
+narrative. The story that it told.
+This is true of your startup as a whole. It makes all the
+difference in individual sales and securing sizable distribution
+channels. It is true for getting the best team to buy into the
+mission. For achieving the best M&A outcomes, and certainly
+for fundraising.
+If you start digging into it you’ll quickly find that the real value
+is all found, unlocked, and created by the story. So, how do
+you unfold a great one in your pitch deck and presentation
+
+100
+so that you not only maximize all of these other parts of your
+business, but your fundraising efforts too?
+Find the Best Story for Your Pitch Deck
+You do have a story. Your startup has a story. There is a great
+one hiding in there. Use it as a starting point when thinking
+about how to nail your pitch deck’s narrative?
+However, many entrepreneurs, especially technically minded
+founders either have a hard time seeing it, are afraid to tell it,
+or they try to replace it with lots of facts and stats and technical
+specs. Because that’s how their minds work. Though it is not
+what sells a startup or an investment opportunity.
+Remember, at least for now you are pitching humans, not
+algorithms. Maybe soon, just like replicating hit songs,
+computers will be able to identify hit stories, it’s just not
+coming in time for this startup, for the next couple of funding
+rounds.
+So your story not only needs to be unique and compelling, but
+personal.
+If you can’t see it, or the story you are telling isn’t working
+as well as you hoped, then considering bringing in an expert
+storyteller who does this for a living. Have a conversation with
+them. Let them extract your best story and spin it in the best
+possible way.
+The Characters
+Who is this band of characters in your story?
+Every great story, book, movie and startup has a great cast of
+characters. Think Lord of the Rings, The Fantastic Four or the
+PayPal Mafia. Who are yours?
+Who are the heroes on the journey? Who else will be a part of
+
+101
+their journey and can also play a notable role, like the wizard
+in the Wizard of Oz? This covers your founders, advisors and
+investors.
+Then you have your customers and employees. They are
+all telling themselves a story too. They want to participate
+in a great story. Like buying the latest iPhone, even if it is
+ridiculously overpriced, unnecessary, and offers little tangible
+improvement over the current phone.
+Or buying a $500 bottle of Tesla tequila. Or being a part of a
+world changing that can stop climate change. Think about how
+you can include them when figuring out how to nail your pitch
+deck’s narrative?
+These are parts of the story that will show up on your cover
+slide, team slide, competitive advantage and product slides.
+Your team slide also describes how life has prepared you for
+this moment and to be the one to champion this problem and
+bring the solution.
+Your Why
+Your why can be the most important anchor of your story. It
+can be the most compelling part of the story that convinces
+others to come along for the ride. It also gives investors
+confidence that you will stick with this venture through all of
+the daily challenges. This is the big differentiating factor in
+startups and entrepreneurs that win. Even more so than the
+idea and product.
+This will probably show up in the problem slide. Be sure to
+explain why you are driven to solve this problem. How did
+you encounter it? What examples can you give investors of
+how they’ve encountered it and have felt this pain before.
+How Are You Going To Be The Champions Of This Story?
+
+102
+What is the solution you are bringing that will make you the
+champions of this story and give you victory over the bad
+guys? What is the superpower you are bringing to the table?
+If there are pieces missing, what are they? What will you need
+to find or navigate to complete the journey? That’s a good
+starting point when designing ideas for how to nail your pitch
+deck’s narrative?
+Paint Your Vision Of The Future with a Great Pitch Deck Story
+Where the real art of storytelling and fundraising come
+together is in forecasting your vision of the future. What
+does the future look like when your startup is really being
+successful? What does success look like for them? You have
+to sell the dream. Some of that will be data based. Yet, it also
+takes some art.
+Summary
+Being technical may be the key to many things in a startup.
+Including developing a great product and IP, maintaining
+good unit economics, and establishing a technological
+competitive advantage. Yet, it is storytelling that unveils and
+adds the most value. The best narrative wins. Not the best
+product or most qualified and capable team. If you want the
+funds and all of the advantages that come with that, get a great
+story. Just make sure you can back it up with facts too.
+How to nail your pitch deck’s narrative? Having the right facts
+and data points is good but presenting the narrative in your
+pitch deck can be far more pivotal.
+How do you nail this vital part of the mission when getting
+ready to pitch investors who can help bring your vision to
+becoming reality?
+
+103
+Chapter 20
+How to present your pitch
+deck to investors
+How do you start successfully presenting your pitch deck to
+potential investors?
+Investors play a significant role in the startup ecosystem. For
+plenty of entrepreneurs raising money from investors is what
+getting into startups is all about. In many cases raising money
+from investors is a must for getting a startup off the ground, if
+not just empowering it to reach its maximum potential.
+So, how do you go about getting in front of investors who can
+give your startup the funding it needs?
+Why Are You Raising Money?
+Before you start reaching out to investors, it is important to get
+clarity on why you are raising funds.
+Just as much as you need to be clear on your why for starting
+your business, you probably aren’t going to get the end results
+you want from raising money and pitching investors, unless
+you are clear on your why here too.
+Even if your only why is just to get as much money as possible,
+you need to be hitting the right investors at the right time, with
+the right presentation.
+If you are raising to build a prototype or hardware, there
+
+104
+will be certain investors for that. If you are raising to test and
+prove your product, then there may be other investors for that.
+If you’ve already proven product market fit, then there are
+different sets of investors who can help you scale and open
+other doors for you.
+Be sure you understand the advantages and disadvantages
+of raising at each stage, and who is the right fit, or you’ll be
+giving away significant chunks of your company and control,
+without really being able to put that money to its best use.
+Who Are The Right Investors?
+The first step to honing in on who to present your pitch deck
+to is identifying the right investors for your stage. While the
+lines can blur at the edges, these are generally the steps you
+will take through different fundraising rounds. At least unless
+you really bootstrap for an extended period, and through key
+milestones.
+Friends & Family
+To get off the ground, work through the idea and have
+something to show you’ll be starting off with raising money
+through your personal network. Family and friends, friends of
+family, and family of friends. Think old classmates, professors,
+bosses and coworkers.
+Angel Investors & Startup Accelerators
+The next step is professional angel investors, angel groups and
+startup accelerators and incubators which also provide seed
+stage funding.
+Venture Capital Firms
+Series A, B and C rounds bring the need for bigger checks to
+perfect and start scaling startups. This is the main space that
+
+105
+VCs occupy.
+Private Equity Funds & Strategic Corporate Investors
+Series D, E and F rounds have become increasingly popular
+as startups choose to stay private and grow for longer on their
+own. Often these rounds fund global expansion and the roll up
+of other companies in their space prior to going public or an
+even larger M&A deal.
+Making A Shortlist
+There should always be more to partnering with investors than
+the money. In fact, the money should probably be the last thing
+on your list.
+Even if all you want to accomplish is to raise the most possible
+money over the next couple of years, and sell your company
+for billions of dollars, you also need the best investment
+partners to help you unlock and make the next steps possible.
+So, what are the other resources you should be looking for in
+an investor?
+●	 Experienced operational advisors
+●	 Introductions to other investors
+●	 Recruiting help for key team members and executives
+●	 Distribution and supplier channels
+You’ve probably heard of other startup entrepreneurs who
+have had to present their pitch decks to hundreds of investors
+before getting a single yes. That’s a lot of time and energy. All
+of which could be spent actually building a business. You can
+dramatically reduce the odds of being told no and having to go
+through so many presentations by honing in even further.
+●	 Which investors have been investing in startups like
+yours?
+
+106
+●	 Who believes in your mission and vision?
+●	 Who has a good reputation for treating founders and
+customers well?
+●	 Which investors are working on a similar exit timeline
+as you?
+Polishing Your Pitch Deck
+The pitch deck is the core of presenting your investment
+opportunity. That is no doubt even truer today in the post
+COVID lockdown world we live in. Now that you’ve got a
+tight shortlist of investors to present to, make sure you go back
+and polish your pitch deck and be sure it is a great fit for them.
+Keep it short and simple. 10 to 16 slides is plenty. Use a proven
+existing template to work efficiently.
+In addition to your pitch deck, plan on being prepared with
+key supporting materials, including:
+●	 One page business plan
+●	 Executive summary
+●	 Your latest investor update
+Presenting Your Pitch Deck
+Often you’ll be sending your deck in advance to even get
+noticed or get a conversation with investors.
+You can do that by email attachment or sending a link to a
+shared Google Drive folder with these documents.
+When you do get to present in person, whether live in front
+of a large audience, in a private meeting, or over Googe Meet,
+you need a strong 15 to 20 minute verbal presentation to
+go with your slides. Then you need to be well prepared to
+successfully navigate a grilling in the Q&A session.
+
+107
+Chapter 21
+How to send a pitch deck to
+friends and family
+How do you send your pitch deck to friends and family?
+Friends and family will be an incredibly pivotal part of your
+journey as an entrepreneur. This is true whether you actually
+directly raise money from them or not. If you can raise from
+them, it can be some of the best capital you can bring in. Here’s
+how to approach it.
+Pitching Friends & Family
+There are three reasons to pitch and send a pitch deck to
+friends and family:
+1.	 For practice ahead of pitching angels or VCs
+2.	 For raising from from them before going onto other
+rounds
+3.	 For gaining introductions to their friends and family
+who may fund you
+Even if you don’t raise from them, this is your core support
+group. Entrepreneurship can be lonely. You are really going
+to appreciate having them in your corner on this journey.
+For them to do that it really helps for them to get what you
+are doing, get excited about it, and understand some of your
+challenges.
+Just practicing with them can really help you find holes in your
+
+108
+pitch, polish it and perfect it, before approaching the investors
+you really want.
+You may also be surprised at what introductions they can
+make for you too. The network around this group is hundreds
+and thousands of people. They may be able to open many
+doors for you, far beyond just the money.
+The Place Of The Friends & Family Round
+When it comes to the series of fundraising rounds the friends
+and family round comes first. This is typically your pre-seed
+round.
+If your family is well off, then they may have the financial
+capacity to participate in your Seed as well. The majority don’t.
+Whatever their level of participation, official or not, raising
+money from friends and family is significant to future
+investors. It shows that others believe in you, your mission and
+business. It shows that those who know you best really believe
+in you. You can imagine the opposite is true too.
+Who Are Friends & Family?
+Who counts as friends and family?
+●	 Immediate and extended family members
+●	 Coworkers and former coworkers and bosses
+●	 College classmates and professors
+●	 Strong social media connections
+●	 Friends of friends, family of friends, and friends of
+family
+The Pros & Cons Of Raising From Friends And Family
+There are both potential pros and cons to raising from friends
+and family.
+
+109
+The most obvious advantage of raising from this group is that
+it can be the fastest and easiest money you can raise. They
+should already know you, like you and trust you, and that is
+90% of the battle.
+In many cases this group may also be the most lenient when
+things aren’t going according to plan. They may be more
+patient and hands off.
+The opposite can also be true, and that can be one of the
+biggest cons of raising from this group as well. If the business
+isn’t going well then these relationships can be strained. Your
+business is important to you, but these relationships can be
+even more valuable.
+If these raises are messy, they can complicate ownership
+structures and make future raises more complicated and
+expensive than they need to be.
+Curating Your Pitch Deck For Friends & Family Rounds
+If you are serious about raising from this group of potential
+investors then it is worth curating your pitch deck for them.
+Consider what may be most important for them to learn, and
+less so. Since you already have a personal relationship with
+them, or at least a very warm introduction, this is much less
+about proving your individual capability, and even track
+record or returns, as it is telling a story that resonates with
+them personally, and selling them on the dream.
+How To Share & Send Your Pitch Deck To Friends & Family
+If this is a test run for raising from more professional investors
+then you may want to do a full trial run with how you plan
+to share your pitch deck with them. That may be via email or
+Google Drive.
+
+110
+Whenever possible you also want to be presenting this in
+person as well, just as if you were meeting with any other
+investor. You may also use a video chat service with screen
+sharing capability or this. Like Google Meet.
+If you want to raise from your friends and family network
+then it is also smart to reach out using the ways you normally
+communicate with them. Or at least through the mediums they
+use most. That may include texting, WhatsApp, or by sending
+private YouTube or Vimeo slideshow links.
+Next Steps
+After sharing and presenting, collect and evaluate all the
+feedback you get. Tweak your pitch deck and presentation as
+you see fit to optimize it for future pitches.
+If you still need to raise from other investors, then get busy
+building your target list of ideal investors. Then begin
+repeating sharing and pitching for real this time.
+Then it is about getting to work and delivering on the results
+you promised. Put that money to great use achieving the next
+milestones you vowed to conquer. Once you do that more
+capital will open up to you. Your initial investors will want to
+put in more capital, and they will tell others that you did what
+you said and were able to execute. Future investors will also
+now have references to check in within.
+
+111
+Chapter 22
+How to send your pitch deck
+to a venture capital firm
+How do you go about successfully sending your startup’s pitch
+deck to a venture capital firm?
+VCs play a big role in the startup ecosystem. For many
+entrepreneurs getting funded by them is like the holy grail. For
+some it seems to be the whole motivation for coming up with
+a startup idea in the first place. In a lot of cases venture capital
+is essential for getting a startup off the ground, if not at least
+helping it realize its full potential.
+So, how do you go about sending your pitch deck to a VC firm
+for funding?
+Venture Capital’s Role In Startup Fundraising
+VCs are probably the most visible and famous funding sources
+in this space.
+They are not the only sources of financing though. There
+is private equity and strategic corporate investors. Angel
+investors and angel groups may even be more plentiful and
+provide more overall dollar funding for startups. Then there
+are a variety of banks and commercial lenders who provide
+debt financing as well.
+Venture Capital firms usually come into the picture from
+Series A to Series C fundraising rounds. This is evolving,
+and they may invest earlier or later as well. Though the first
+
+112
+funding usually comes from friends and family or angels and
+crowdfunding. With the latest rounds coming from PE and
+strategics. Often leading to M&A deals.
+Start With Why
+Before rushing to blast out a pitch deck or present in front of
+venture capital firms, make sure you really own your why.
+Firstly, why raise money at all?
+Do you absolutely need to raise money in the form of equity
+capital to get your business off the ground? Is it really hugely
+advantageous to raise capital at this stage in business?
+It can be, but make sure you are doing it at the right time,
+for the right reasons. If you are not, then giving up large
+percentages of your company, without the most efficient uses
+of that capital can also be destructive.
+Be sure to weigh the pros and cons of bootstrapping versus
+raising, before just leaping because you think it is the status
+quo.
+If raising is the right move, then why VCs?
+Are you at the right stage for VC firms? If so, then what do
+you really want from them aside from money? Some highly
+successful repeat founders bring in VCs, even when they don’t
+need the capital. Money can actually be the worst reason to go
+fundraising. Even if you do just need the money, then what
+other benefits can you be looking for?
+Investors can add a lot of extra value, and you should
+get as much as you can for what you are giving up in
+equity and ownership rights. That may include recruiting
+help, connections, distribution channels, other investor
+introductions, advisors and board members that will give you
+
+113
+more credibility and operating strength.
+Know Your Who
+While the top 50 venture capital firms are probably responsible
+for more than 80% of all the VC dollars invested each year,
+there may be well over 1,000 firms to choose from for pitching.
+It is unfortunately not uncommon for startup entrepreneurs
+to end up pitching hundreds of investors before getting their
+first yes. Often even going to countless meetings and multiple
+meetings with some VCs before getting told no.
+If you are spending half of your time each week just on
+fundraising efforts for months or a year, you can imagine the
+huge drain, and time that could be used actually building a
+successful business.
+Taking the time in advance to do your research and make a
+much tighter short list of your ideal investors should yield a far
+more efficient fundraising experience.
+This shortlist should be composed of your ideal and best fitting
+investors. Those who have the most to offer in additional
+resources and credibility, as well as who are experts in your
+space, are actively funding your type of startup, believe in
+your vision and have alignment with your timeline.
+Once you’ve got your shortlist of VCs, be sure you polish your
+pitch deck, and curate and tailor it to fit them best.
+How To Send Your Deck To Venture Capital Firms
+Connecting With VCs
+The first step is to connect with your target VC firms and
+partners. This may include:
+
+114
+●	 Sending cold emails
+●	 Reaching out via DMs on social media networks
+●	 Asking for introductions
+●	 Using consultants and advisors with connections
+●	 Attending pitch events
+●	 Joining a startup incubator or accelerator
+●	 In person networking
+Sharing The Deck
+You are probably either going to email the pitch deck as an
+attachment, or provide a private link for access online, like in
+Google Drive.
+You’ll also accompany your pitch deck with supporting
+materials, like:
+●	 Your latest investor update
+●	 Executive summary
+●	 One page business plan
+When emailing cold connections, pay special attention to the
+from address you are emailing from, your subject line, and the
+body. You’ve got to stand out and motivate them to view it.
+What’s Next?
+Follow up. Don’t be afraid to follow up. Make sure they
+received and made time to view it. You can also use yoru
+investor updates to add that extra sense of urgency.
+Get prepared for investor meetings. Whether in person or via
+Google Meet, be ready, be in the right mindset, and be ready
+for the questions you’ll be hit with.
+
+115
+Chapter 23
+How to share a pitch deck
+securely
+To share a pitch deck securely, you must use software services
+with robust cybersecurity. This software preferably includes
+some form of encryption with end to end encryption, which is
+the safest way to protect your pitch.
+In this article, I’m going to show you why the security of your
+pitch deck is important and how to share your pitch deck
+securely. In this way, you can ensure your pitch does not fall
+into the wrong hands.
+Why Pitch Deck Security is Important
+The shadowy world of espionage and sabotage doesn’t
+belong just in the pages of a James Bond novel; for a serious
+businessperson with a real business plan, they are both real
+dangers. Whenever money is involved, especially around
+innovative products or services with unique selling points,
+stealing is sadly something we have to guard against.
+Think about putting together your beautiful idea for a new
+product/service, amassing hundreds of hours of product
+development and market research time, only to have someone
+take your idea and sell it as their own.
+Let me put this simply: This happens every day!
+There are several ways to protect yourself against this,
+including product patents and trademarks.
+
+116
+However, copyright will only protect you and your business
+to a degree. Patents stop people from copying your idea
+outright, but another company could draw influence from
+your concept and create something that is different enough.
+Your competitors’ ideas could blow you out of the water, but
+not violate copyright.
+This is especially true for large companies who can throw
+money and resources at a product in a way that most
+entrepreneurs cannot. Even if you have a head start, those with
+such resources can make it to market first.
+Pitch deck security helps to alleviate at least some of the risk.
+When you’re pitching your idea to angel investors, especially if
+you aren’t already trading, you want to limit pitch exposure so
+you can control who sees it and who does not.
+The problem is that robust security is required to do this.
+Who Should See Your Pitch Deck?
+It’s important to have a clear idea of who you want to give
+access to your ideal pitch deck. When you know this, everyone
+else outside of this group should be kept in the dark.
+There are two categories of people who you should want to
+see your pitch deck. I label these categories “investment” and
+“networking”.
+The investment category includes anyone who has the
+potential to invest in your business idea and help you take it
+forward. The networking category involves anyone who can
+get your pitch to those potential investors.
+You could send your pitch directly to an investor in the
+investment category. But, you could also send it to someone
+you know with good business contacts and they could forward
+it on for you. Obviously, there’s a bigger security risk if there is
+
+117
+a third party between you and the investor, but sometimes this
+is unavoidable.
+It’s good if you know you can trust others with your ideas and
+business concepts, but unfortunately, you must still be vigilant
+– especially if your idea is potentially worth millions!
+Who Shouldn’t See Your Pitch?
+Retrict your pitch deck to those who need to know only.
+Anyone outside of this is superfluous. Sometimes you might
+share your deck for feedback, but try to do this with trusted
+parties only.
+Most of all, do your best to ensure that competitors will not
+get their hands on your pitch deck. An existing competitor
+could potentially get your product to market before you. Or, at
+least develop some concept that solves the same problem for
+consumers, rendering your offering pointless.
+This is where learning how to share a pitch deck during the
+startup fundraising process securely comes into play. You can
+minimize all of these issues with some good security practices
+Keep Everything Secure
+
+The first thing you should do is ensure that any computer
+device (tablet, laptop, smartphone, etc.) that stores a copy
+of your pitch deck, is secure. This means good anti-virus
+software, but also a solid firewall.
+If your business has its own premises or operates on a large
+network, it needs to have good cybersecurity. If your budget
+allows for it, you can hire someone in IT with a background in
+cybersecurity to ensure your data is protected. Alternatively,
+you can buy commercial licenses for good cybersecurity
+software (McAfee, Avira, Zoho, etc.) and install it yourself.
+
+118
+If you have a much larger budget, get the assistance of
+companies like IBM that offer powerful business-wide
+cybersecurity.
+Options for Sharing Your Pitch Deck Securely
+Okay, now you have your cybersecurity sorted, let’s talk about
+how to share your pitch deck securely. There are many ways
+to do this, and they essentially come down to two approaches:
+Digital Vs. Paper.
+In the 21st century, digital tools are better than other options
+for the most part, but paper copies of your pitch deck can’t be
+hacked. They can even be printed on Security Paper. This type
+of paper cannot be easily copied. It can also be watermarked
+uniquely for each copy of your deck. That way if your deck is
+copied, you know who copied it.
+If you are going to send paper copies to potential investors,
+remember that you’ll need a trusted courier. But, you do not to
+be too disheartened if investors prefer digital copies for ease.
+If you are using a digital option, you could use a service like
+Google Docs. There, you can set the access levels for any
+document, only allowing specific people to access it. You can
+also set the security level for interaction. This means that you
+could allow a user to view a document, but not download or
+edit it.
+Alternatively, you could send your documents via end to end
+encryption. There are services like Send Safely, that allow you
+to do just that. A cheaper, though the less secure option, is to
+use a social media messaging app with end to end encryption.
+However, this seems less professional.
+Sending your pitch by email is also an option, though this is
+usually less secure.
+
+119
+Chapter 24
+What do I need other than a
+pitch deck
+What do you need besides a pitch deck to launch and fund a
+successful startup?
+A great pitch deck may be the most crucial tool in effectively
+launching, building and financing a startup business. Yet, it is
+not the only thing you need.
+Here are some of the other assets you want to have lined up as
+a founder to ensure your venture has the wings to fly and legs
+to get funded.
+What Else You Need To Start A Startup
+Having a strong pitch deck is great. It can be the key to
+opening the vault to the money you need to get going and
+grow. It can be a vital document for attracting the right hires
+and advisors. Then for keeping your entire team (and you)
+focused on the big vision and the next most important steps.
+However, no matter how incredible your deck is, it alone isn’t
+going to do everything for you.
+Business, Marketing & Cash Flow Plans
+Real business plans aren’t as trendy as they used to be. That
+doesn’t mean they aren’t an essential ingredient. In fact,
+recent high profile startup failures may suggest they are more
+important than ever.
+
+120
+I recently interviewed Joshua Motta of Coalition and
+Cloudflare on the Dealmakers Podcast. After starting multi-
+billion dollar ventures, and in spite of being a tech genius who
+was recruited by Microsoft and the CIA as a teenager, he took
+time out to create a business plan for his most recent venture.
+A long form, 70 page written plan. If it was a must for him, it
+probably has value for those with less experience too.
+Two of the other VIP documents at this stage are your
+marketing plan and budget and cash flow analysis. Without
+marketing you don’t have a business. Without knowing your
+cash flow needs and how you’ll cover them, you are almost
+guaranteed to go broke like 90% of startups who fail for
+running out of money.
+Mission, Vision & Culture
+You need a strong why and mission to stay the course and to
+bring in the best talent who will be passionate about helping
+you succeed. You also need to know and be able to paint the
+big picture vision for everyone. It will keep you going and
+focused.
+More and more hyper successful fast growth startup founders
+are realizing just how important company culture is too.
+In fact, it’s everything. So, when it comes to creating their
+second and third successful startups, or having to choose
+one important piece of advice to share with other first time
+entrepreneurs it is frequently to start with culture.
+Not just a fluffy ideal. But taking the time to be intentional and
+mindful and to write a values and culture document to hire
+and operate by. It is probably the very first thing you should
+document for your next startup company.
+Team
+Business is a team sport. That’s even truer when it comes to
+
+121
+startups. Find a great team to surround yourself with and
+build this thing together.
+This can include cofounders who help lift you up and get you
+through the tough days. It is key hires with domain experience.
+It is experienced advisors who have been there and done it
+before.
+Business Formation & Business Bank Accounts
+You can’t start to bring in cash or funding until you have a
+business bank account. So, claim your website domain, social
+handles, tax ID number and incorporate your business. Be sure
+to get a fundraising or M&A consultant who can help you best
+structure your equity and stock for raising and growing your
+business.
+Take Action
+Don’t get too lost in the weeds creating all these assets and
+documents. You aren’t going to get anywhere until you are
+actually taking bold actions.
+What Else You Need To Raise Money
+You’ll need more than just a pitch deck when it comes to
+startup fundraising too.
+You’ll need connections and a network so that you can get to
+the investors. They can be your own friends and contacts, or
+you can hack your way there by leveraging those who already
+have these relationships.
+You’ll need a sentence or two as an elevator pitch. These are
+musts for every conversation you have from here on out. You
+won’t build your network or get to present your deck without
+it.
+
+122
+If you are looking for debt financing instead of equity, then
+your executive summary will be even more important than
+your pitch deck.
+When it comes to equity fundraising you’ll need somewhere
+to host your deck in the cloud for investors, and to collaborate
+on it with your teams. You’ll need a pitch message to introduce
+your deck when you send it out. You’ll need a phone or live
+pitch script to carry you through actually presenting and
+closing investors. You’ll need an easy to use CRM for building
+an investor database, nurturing investor leads and following
+up with them.
+You have to be willing to go all in too. Don’t expect investors
+to throw you all of their money if you aren’t all in and aren’t
+willing to make sacrifices too.
+Even to get to this point you’ll need a lot of grit and resilience.
+Many of the best funded founders have had to deal with
+dozens and even hundreds of investor rejections before they
+finally got a single yes.
+Then you have to be able to back it up. It’s easy to make
+promises and claims and to attract potential customers and
+investors. Just don’t get too far ahead of yourself. It will catch
+up with you fast when they find out you’ve been fluffing the
+facts a little too much.
+
+123
+Conclusion
+Remember that ultimately fundraising is all about storytelling.
+Investors are investing for the most part in future and
+possibility. Even more in the early stage financings.
+BONUS: if you need help from A to Z with fundraising you
+may want to look into Inner Circle which is our fundraising
+program.
+In our fundraising program you will gain access to the
+following:
+●	 Monthly calls with me and Mike Seversen where we
+provide training and Q&A on everything related to
+capital raising efforts
+●	 Over 14 hours of training content on fundraising and
+financial modeling
+●	 More than 10 templates (pitch deck, due diligence
+checklist, executive summary, NDA, term sheets,
+convertible notes, etc) that you could use for your
+fundraising efforts
+●	 Access to several lists of investors that you could use
+(VCs, angel groups, angel investors, family offices, etc)
+●	 Private Facebook group where you could network with
+other founders
+●	 And many more perks!
+LEARN MORE ABOUT INNER CIRCLE

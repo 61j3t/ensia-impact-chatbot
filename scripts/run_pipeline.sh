@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+# End-to-end pipeline: raw data → enriched chat → searchable index.
+#
+# Idempotent. Re-running is safe and incremental:
+#   - PDF extraction always re-runs (fast, ~5s)
+#   - OCR is cached per-photo and per-scanned-PDF (only new ones get OCR'd)
+#   - Merge always re-runs (fast)
+#   - Index adds new chunks; full rebuild only when data is newer than index
+#
+# Use --rebuild to force re-OCR and a fresh index from scratch.
+#
+# Usage:
+#   bash scripts/run_pipeline.sh
+#   bash scripts/run_pipeline.sh --rebuild
+
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+PY=".venv/bin/python"
+[[ -x "$PY" ]] || { echo "✗ .venv not found — create one and pip install -r requirements.txt" >&2; exit 1; }
+
+REBUILD_FLAG=""
+if [[ "${1:-}" == "--rebuild" ]]; then
+    REBUILD_FLAG="--rebuild"
+fi
+
+echo "▶ 1/4  Extract text from PDFs"
+"$PY" scripts/01_extract_pdfs.py
+
+echo
+echo "▶ 2/4  OCR photo-only messages and scanned PDFs"
+"$PY" scripts/02_ocr_images.py $REBUILD_FLAG
+
+echo
+echo "▶ 3/4  Merge OCR text into chat messages"
+"$PY" scripts/03_merge_ocr.py
+
+# If the enriched chat is newer than the existing index, force a rebuild
+# so the index reflects the updated content.
+INDEX_FILE="chatbot/chroma_db/chroma.sqlite3"
+ENRICHED="data/messages_enriched.json"
+INDEX_REBUILD=""
+if [[ -n "$REBUILD_FLAG" ]]; then
+    INDEX_REBUILD="--rebuild"
+elif [[ -f "$INDEX_FILE" && "$ENRICHED" -nt "$INDEX_FILE" ]]; then
+    echo
+    echo "  (enriched data is newer than the index → forcing index rebuild)"
+    INDEX_REBUILD="--rebuild"
+fi
+
+echo
+echo "▶ 4/4  Build / refresh retrieval index"
+"$PY" -m chatbot.index $INDEX_REBUILD
+
+echo
+echo "✓ Pipeline complete. Try a query:"
+echo "    $PY -m chatbot.retrieve \"what is the CDE?\""

@@ -1,0 +1,20 @@
+{
+  "photos_ocr_count": 71,
+  "photos_total_chars": 37186,
+  "pdfs": [
+    {
+      "file": "Arreté 008.pdf",
+      "pages": 48,
+      "chars": 5804,
+      "words": 939,
+      "output": "data/ocr_text/Arreté_008.txt"
+    },
+    {
+      "file": "Arrêté 1275.pdf",
+      "pages": 20,
+      "chars": 3127,
+      "words": 521,
+      "output": "data/ocr_text/Arrêté_1275.txt"
+    }
+  ]
+}
