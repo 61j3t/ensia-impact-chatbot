@@ -400,36 +400,33 @@ def _format_reply(result: dict, elapsed_s: float) -> str:
         parts.append("\n<b>📚 Sources</b>")
         for s in sources:
             md = s["metadata"]
-            sid = html.escape(s["id"])
+            num = s.get("number")
+            tag = f"[{num}]" if num is not None else "•"
             kind = md.get("source_type")
             if kind == "chat":
                 topic = html.escape(md.get("topic") or "—")
                 date = (md.get("date") or "")[:10]
                 msg_id = md.get("message_id")
                 link = _telegram_link(msg_id) if isinstance(msg_id, int) else None
-                label_left = (
-                    f'<a href="{html.escape(link)}">{sid}</a>'
-                    if link else f"<code>{sid}</code>"
-                )
-                where = f"{topic}" + (f" · {date}" if date else "")
-                parts.append(f"• {label_left} — {where}")
+                label = f"{topic}" + (f" · {date}" if date else "")
+                if link:
+                    label = f'<a href="{html.escape(link)}">{label}</a>'
+                parts.append(f"{tag} {label}")
             elif kind == "external":
                 url = md.get("url") or ""
-                title = md.get("title") or url
+                title = html.escape(md.get("title") or url)
+                label = f"🌐 {title}"
                 if url:
-                    label_left = f'<a href="{html.escape(url)}">{sid}</a>'
-                else:
-                    label_left = f"<code>{sid}</code>"
-                parts.append(f"• {label_left} — 🌐 {html.escape(title)}")
+                    label = f'<a href="{html.escape(url)}">{label}</a>'
+                parts.append(f"{tag} {label}")
             else:  # pdf
                 pdf_name = _pretty_pdf_name(md.get("pdf_file"))
                 pdf_msg_id = _msg_id_for_pdf(pdf_name)
+                label = f"📄 {html.escape(pdf_name)}"
                 if pdf_msg_id is not None:
                     link = _telegram_link(pdf_msg_id)
-                    label_left = f'<a href="{html.escape(link)}">{sid}</a>'
-                else:
-                    label_left = f"<code>{sid}</code>"
-                parts.append(f"• {label_left} — 📄 {html.escape(pdf_name)}")
+                    label = f'<a href="{html.escape(link)}">{label}</a>'
+                parts.append(f"{tag} {label}")
 
     parts.append("\n" + timing_line)
     return "\n".join(parts)

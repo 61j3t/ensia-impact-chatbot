@@ -103,6 +103,38 @@ NEVER make up [chunk_id] citations. Only cite IDs that appear in the CONTEXT.
 # noisy/misleading.
 _CITATION_RE = re.compile(r"\[(chat_\d+|pdf_[\w\-]+_\d+|ext_[\w\-]+_\d+)\]")
 
+
+def _renumber_citations(
+    answer_text: str, sources: list[dict]
+) -> tuple[str, list[dict]]:
+    """Replace `[chunk_id]` citations with `[1]`, `[2]`, … in order of first
+    appearance. Returns (rewritten_text, ordered_cited_sources) where each
+    source has a `number` field pointing to its bracket label.
+
+    Citations that don't match any retrieved source are left untouched (the
+    LLM was told not to do that, but we don't want to silently strip them).
+    """
+    sources_by_id = {s["id"]: s for s in sources}
+    cite_to_num: dict[str, int] = {}
+
+    for m in _CITATION_RE.finditer(answer_text):
+        cid = m.group(1)
+        if cid in sources_by_id and cid not in cite_to_num:
+            cite_to_num[cid] = len(cite_to_num) + 1
+
+    def _sub(m):
+        cid = m.group(1)
+        return f"[{cite_to_num[cid]}]" if cid in cite_to_num else m.group(0)
+
+    rewritten = _CITATION_RE.sub(_sub, answer_text)
+
+    ordered: list[dict] = []
+    for cid, num in sorted(cite_to_num.items(), key=lambda kv: kv[1]):
+        entry = dict(sources_by_id[cid])
+        entry["number"] = num
+        ordered.append(entry)
+    return rewritten, ordered
+
 REWRITER_SYSTEM_PROMPT = """\
 You rewrite follow-up questions into self-contained queries for a search system.
 
@@ -299,8 +331,10 @@ def answer(
     # The LLM decides whether sources are relevant: if it cited any chunks,
     # we surface the sources block; otherwise (small talk, redirect, etc.)
     # we hide it entirely.
-    has_citations = bool(_CITATION_RE.search(answer_text))
-    surfaced_sources = sources if has_citations else []
+    # Renumber inline citations to [1], [2], … and trim the sources block
+    # to only the chunks the LLM actually cited (in citation order).
+    answer_text, surfaced_sources = _renumber_citations(answer_text, sources)
+    has_citations = bool(surfaced_sources)
 
     return {
         "query": query,
