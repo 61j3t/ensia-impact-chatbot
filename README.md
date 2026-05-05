@@ -26,6 +26,12 @@ ensia-impact-chatbot/
 │   ├── answer.py               ← End-to-end: rewrite → retrieve → LLM-as-router → citation-driven sources
 │   ├── telegram_bot.py         ← Telegram frontend (@ensia_impact_group_bot)
 │   └── chroma_db/              ← Persistent vector store (gitignored, regenerable)
+├── dashboard/                  ← Read-only Next.js 15 dashboard for users + conversations
+│   ├── app/                    ← /, /users, /conversations
+│   ├── components/             ← Nav, StatCard, QueriesChart, LanguageBars
+│   ├── lib/                    ← postgres.js client + typed query functions
+│   └── package.json
+├── docker-compose.yml          ← Postgres service (memory + user registry), localhost:5433
 ├── .env                        ← Local secrets (gitignored). Copy from .env.example.
 ├── .env.example                ← Template — keys you need to fill in
 ├── eval/
@@ -159,3 +165,16 @@ Behavior:
 - **Footer**: single `⏱ Xs` total wall-clock line. Per-stage timings (`rewrite`, `retrieval`, `answer`) live in server logs.
 
 See `docs/architecture.md` for the full pipeline diagram and component details.
+
+## Dashboard
+
+A read-only Next.js 15 app at `dashboard/` that displays everything Postgres has stored: total / active users, queries per day, languages, top users, recent activity, and a per-user transcript reader.
+
+```bash
+cd dashboard
+npm install                           # one-time
+cp .env.example .env.local            # edit DATABASE_URL if it differs from .env
+npm run dev                           # → http://localhost:3000
+```
+
+Server components query Postgres directly via [postgres.js](https://github.com/porsager/postgres) — no DB credentials reach the browser. Three routes: `/` overview, `/users`, `/conversations`. See `dashboard/README.md` for stack details.

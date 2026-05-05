@@ -22,6 +22,12 @@ data/conversations.db-shm
 # Eval outputs (keep them by default — useful history — but uncomment if needed)
 # eval/reports/
 
+# Dashboard (Next.js) build output + node deps
+dashboard/node_modules/
+dashboard/.next/
+dashboard/next-env.d.ts
+dashboard/*.tsbuildinfo
+
 # OS
 .DS_Store
 
