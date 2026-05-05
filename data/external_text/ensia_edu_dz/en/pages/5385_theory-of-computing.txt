@@ -1,0 +1,88 @@
+[Source: https://www.ensia.edu.dz/theory-of-computing/]
+[Title: Theory of Computing]
+[Language: en]
+[Modified: 2024-07-14T14:15:18]
+
+Module : Theory of Computing
+
+Semestre 4 CP
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 4.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+3
+
+4
+
+Course Description :
+
+The aim of this module is to provide the basic concepts for the theory of computational complexity. The main models of computability are explained providing various examples of undecidable problems. Further, students are taught the measures of the complexity of problems and of algorithms, based on time and space being used on abstract models. Complexity classes are explained along with the notion of completeness established through a thorough study of NP-completeness.
+
+Prerequisite :
+Introduction to Programming, Data Structures and Algorithms
+
+Evaluation Method :
+Coursework (40%) + Final Exam (60%)
+
+Course Content
+
+Introduction to Computational theory
+
+Deterministic Finite Automata
+
+Non-Deterministic Finite Automata
+
+Regular Expressions
+
+Regular and Non-Regular Languages
+
+Context Free Grammar
+
+Pushdown Automaton
+
+Context Free Languages
+
+Turing Machines
+
+Variations and Turing Machine
+
+Decidability and Reducibility
+
+Complexity Theory
+
+Advanced Topics
+
+References
+
+Michael Sipser. Introduction to the Theory of Computation. 3rd Edition. 2012
+
+Sanjeev Arora, Boaz Barak. Computational Complexity: A Modern Approach. 2009.
+
+Ingo Wegener and R.Pruim. Complexity Theory: Exploring the Limits of Efficient Algorithms. 2005.
+
+Steven Homer and Alan L. Selman, Computability and Complexity Theory, Springer Verlag New York, 2011

@@ -1,0 +1,6 @@
+[Source: https://www.ensia.edu.dz/fr/ensia-hosts-aifast-25-datathon-event/]
+[Title: L’ENSIA organise le Datathon AiFast 25]
+[Language: fr]
+[Modified: 2025-06-15T14:39:44]
+
+Pendant trois jours, du 12 au 14 juin 2025, l’École Nationale Supérieure d’Intelligence Artificielle a accueilli l’événement annuel AiFast 25, organisé par le club scientifique de l’école, GDG. L’événement consistait en un datathon sur l’intelligence artificielle et la science des données. Il a été sponsorisé par SATIM, l’entreprise spécialisée dans les systèmes de paiement électronique et les relations interbancaires. SATIM a également proposé une série de défis auxquels ont participé des équipes de l’école ainsi que d’autres écoles et universités nationales.

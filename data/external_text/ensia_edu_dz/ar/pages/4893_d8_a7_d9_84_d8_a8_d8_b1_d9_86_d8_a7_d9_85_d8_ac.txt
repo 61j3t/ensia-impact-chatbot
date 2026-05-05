@@ -1,0 +1,1165 @@
+[Source: https://www.ensia.edu.dz/ar/%d8%a7%d9%84%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac/]
+[Title: المنهاج الدراسي]
+[Language: ar]
+[Modified: 2023-11-23T15:16:20]
+
+درجة مهندس : الذكاء الإصطناعي و علوم البيانات
+
+السنة الأولى
+
+سنة أولى
+
+الثانية
+
+الثالثة
+
+الرابعة
+
+الخامس
+
+السداسي الأول
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 1.1
+225h
+15h
+6h
+6h
+3h
+0
+7
+15
+Foundational Mathematics
+135h
+9h
+4h30
+4h30
+4
+9
+40%
+60%
+Data Structures and Algorithms 1
+90h
+6h
+1h30
+1h30
+3h
+3
+6
+40%
+60%
+UE Methodologiques 1.1
+45h
+3h
+1h30
+1h30
+0
+0
+3
+4
+Digital Systems
+45h
+3h
+1h30
+1h30
+3
+4
+40%
+60%
+UE Découvertes 1.1
+45h
+3h
+1h30
+0
+1h30
+0
+2
+4
+Information Technology Essentials
+45h
+3h
+1h30
+1h30
+2
+4
+40%
+60%
+UE Transversales 1.1
+67h30
+4h30
+0h45
+3h45
+0
+0
+2
+7
+English 1
+45h
+3h
+3h
+1
+4
+40%
+60%
+Critical Thinking and Creativity Skills
+22h30
+1h30
+0h45
+0h45
+1
+3
+40%
+60%
+Sous-Total par Semaine
+25h30
+9h45
+11h15
+4h30
+0
+14
+30
+Total Semestre 1 (15 Semaines)
+382h30
+146h15
+168h45
+67h30
+0
+
+السداسي الثاني
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 2.1
+135h
+9h
+3h
+1h30
+4h30
+0
+7
+12
+ Object Oriented Programming
+67h30
+4h30
+1h30
+1h30
+1h30
+4
+6
+40%
+60%
+ Introduction to Linux
+
+67h30
+4h30
+1h30
+3h
+3
+6
+40%
+60%
+UE Methodologiques 2.1
+225h
+15h
+7h30
+7h30
+0
+0
+10
+15
+ Linear Algebra
+90h
+6h
+3h
+3h
+4
+6
+40%
+60%
+ Mathematical Analysis 1
+90h
+6h
+3h
+3h
+3
+6
+40%
+60%
+ Introduction to Statistics
+45h
+3h
+1h30
+1h30
+3
+3
+40%
+60%
+UE Transversales 2.1
+45h
+3h
+0
+3h
+0
+0
+1
+3
+ English 2
+45h
+3h
+3h
+1
+3
+40%
+60%
+Sous-Total par Semaine
+27h
+10h30
+12h
+4h30
+0
+18
+30
+Total Semestre 2 (15 Semaines)
+405h
+157h30
+180
+67h30
+0
+
+السنة الثانية
+
+الاول
+
+السنة الثانية
+
+الثالثة
+
+الرابعة
+
+الخامس
+
+السداسي الثالث
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 3.1
+180h
+12h
+4h30
+6h
+1h30
+0
+9
+14
+ Data Structures and Algorithms 2
+67h30
+4h30
+1h30
+1h30
+1h30
+4
+5
+40%
+60%
+ Mathematical Logic
+45h
+3h
+1h30
+1h30
+2
+4
+40%
+60%
+ Mathematical Analysis 2
+67h30
+4h30
+1h30
+3h
+3
+5
+40%
+60%
+UE Methodologiques 3.1
+180h
+12h
+4h30
+3h
+4h30
+0
+7
+15
+ Databases
+67h30
+4h30
+1h30
+1h30
+1h30
+3
+5
+40%
+60%
+ Probability
+45h
+3h
+1h30
+1h30
+2
+4
+40%
+60%
+ Web Development
+67h30
+4h30
+1h30
+3h
+2
+6
+40%
+60%
+UE Transversales 3.1
+22h30
+1h30
+1h30
+0
+0
+0
+1
+1
+ Introduction to Business
+22h30
+1h30
+1h30
+1
+1
+40%
+60%
+Sous-Total par Semaine
+25h30
+10h30
+9h
+6h
+0
+17
+30
+Total Semestre 1 (15 Semaines)
+382h30
+157h30
+135h
+90h
+0
+
+السداسي الرابع
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 4.1
+180h
+12h
+4h30
+4h30
+3h
+0
+9
+14
+Theory of Computing
+45h
+3h
+1h30
+1h30
+3
+4
+40%
+60%
+Operating Systems
+67h30
+4h30
+1h30
+1h30
+1h30
+3
+5
+40%
+60%
+Computer Architecture
+67h30
+4h30
+1h30
+1h30
+1h30
+3
+5
+40%
+60%
+UE Methodologiques 4.1
+180h
+12h
+6h
+4h30
+1h30
+0
+9
+14
+Statistical Inference
+45h
+3h
+1h30
+1h30
+3
+4
+40%
+60%
+Introduction to AI
+90h
+6h
+3h
+1h30
+1h30
+4
+6
+40%
+60%
+Mathematical Analysis 3
+45h
+3h
+1h30
+1h30
+2
+4
+40%
+60%
+UE Découvertes 4.1
+22h30
+1h30
+0
+0
+1h30
+0
+1
+2
+Electronic Circuits Labs
+22h30
+1h30
+1h30
+1
+2
+40%
+60%
+Sous-Total par Semaine
+25h30
+10h30
+9h
+6h
+0
+19
+30
+Total Semestre 2 (15 Semaines)
+382h30
+157h30
+135
+90h
+0
+
+السنة الثالثة
+
+الاول
+
+الثانية
+
+السنة الثالثة
+
+الرابعة
+
+الخامس
+
+الفصل الخامس
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 5.1
+112h30
+7h30
+3h
+1h30
+3h
+0
+7
+9
+Data Mining
+67h30
+4h30
+1h30
+3h
+4
+5
+40%
+60%
+Operations Research
+45h
+3h
+1h30
+1h30
+3
+4
+40%
+60%
+UE Methodologiques 5.1
+195h
+13h
+5h
+4h30
+3h30
+0
+9
+15
+Stochastic Modelling and Simulation
+60h
+4h
+2h
+1h30
+0h30
+3
+5
+40%
+60%
+Software Engineering
+67h30
+4h30
+1h30
+1h30
+1h30
+3
+5
+40%
+60%
+Networks and Protocols
+67h30
+4h30
+1h30
+1h30
+1h30
+3
+5
+40%
+60%
+UE Transversales 5.1
+101h15
+6h45
+3h
+0h45
+3h
+0
+3
+6
+Mobile Development
+67h30
+4h30
+1h30
+3h
+2
+5
+40%
+60%
+Entrepreneurship and Innovation
+33h45
+2h15
+1h30
+0h45
+1
+1
+40%
+60%
+Sous-Total par Semaine
+27h15
+11h
+6h45
+9h30
+0
+19
+30
+Total Semestre 1 (15 Semaines)
+408h45
+165h
+101h15
+142h30
+0
+
+الفصل السادس
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 6.1
+172h30
+11h30
+5h
+3h
+3h30
+0
+7
+11
+Machine Learning
+112h30
+7h30
+3h
+1h30
+3h
+4
+6
+40%
+60%
+Numerical Methods and Optimisation
+60h
+4h
+2h
+1h30
+0h30
+3
+5
+40%
+60%
+UE Methodologiques 6.1
+187h30
+14
+4h30
+4h30
+5h
+3h
+11
+17
+Time Series Analysis and Classification
+52h30
+3h30
+1h30
+1h30
+0h30
+3
+5
+40%
+60%
+Advanced Databases
+67h30
+4h30
+1h30
+1h30
+1h30
+3
+5
+40%
+60%
+Computer and network Security
+67h30
+4h30
+1h30
+1h30
+1h30
+3
+5
+40%
+60%
+Group-Project
+22h30
+1h30
+1h30
+3h
+2
+2
+100%
+UE Transversales 6.1
+30h
+2h
+1h30
+0h30
+0
+0
+1
+2
+Project Management
+ Project Management
+30h
+2h
+1h30
+0h30
+1
+2
+40%
+60%
+Sous-Total par Semaine
+27h30
+11h
+8h
+8h30
+3h
+19
+30
+Total Semestre 2 (15 Semaines)
+412h30
+165h
+120h
+127h30
+45h
+
+السنة الرابعة
+
+الاول
+
+الثانية
+
+الثالثة
+
+السنة الرابعة
+
+الخامس
+
+الفصل السابع
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 7.1
+157h30
+10h30
+4h30
+0
+6h
+0
+8
+11
+Natural Language Processing
+90h
+6h
+3h
+3h
+4
+6
+40%
+60%
+Deep Learning
+67h30
+4h30
+1h30
+3h
+4
+5
+40%
+60%
+UE Methodologiques 7.1
+180h
+12h
+4h30
+3h
+4h30
+3h
+9
+15
+Human Computer Interaction
+45h
+3h
+1h30
+1h30
+2
+3
+40%
+60%
+Wireless Communication Networks and Systems
+67h30
+4h30
+1h30
+1h30
+1h30
+3
+5
+40%
+60%
+Introduction to Mobile Robotics
+67h30
+4h30
+1h30
+1h30
+1h30
+2
+5
+40%
+60%
+Internship Project
+0
+0
+3h
+2
+2
+100%
+UE Découvertes 7.1
+22h30
+1h30
+1h30
+0
+0
+0
+1
+1
+AI and Ethics
+22h30
+1h30
+1h30
+1
+1
+40%
+60%
+UE Transversales 7.1
+22h30
+1h30
+1h30
+0
+0
+0
+2
+3
+Selected topics in AI-Technology
+45h
+3h
+1h30
+1h30
+2
+3
+40%
+60%
+Sous-Total par Semaine
+27h
+12h
+4h30
+10h30
+3h
+20
+30
+Total Semestre 1 (15 Semaines)
+405h
+180h
+67h30
+157h30
+45h
+
+الفصل الثامن
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 8.1
+225h
+15h
+7h30
+0
+7h30
+0
+10
+16
+Computer Vision
+90h
+6h
+3h
+3h
+4
+6
+40%
+60%
+Big Data Analytics and Visualization
+
+90h
+6h
+3h
+3h
+3
+6
+40%
+60%
+Reinforcement Learning
+45h
+3h
+1h30
+1h30
+3
+4
+40%
+60%
+UE Methodologiques 8.1
+90h
+6h
+3h
+0
+3h
+0
+5
+8
+Speech Processing
+45h
+3h
+1h30
+1h30
+3
+4
+40%
+60%
+High Performance Computing
+45h
+3h
+1h30
+1h30
+2
+4
+40%
+60%
+UE Découvertes 8.1
+45h
+3h
+1h30
+0
+1h30
+0
+2
+4
+Enterprise Computing
+45h
+3h
+1h30
+1h30
+2
+4
+40%
+60%
+UE Transversales 8.1
+22h30
+1h30
+1h30
+0
+0
+0
+1
+2
+Academic Communication and Research
+22h30
+1h30
+1h30
+1
+2
+40%
+60%
+Sous-Total par Semaine
+25h30
+13h30
+0
+12h
+0
+18
+30
+Total Semestre 2 (15 Semaines)
+382h30
+202h30
+0
+180
+0
+
+السنة الخامسة
+
+الاول
+
+الثانية
+
+الثالثة
+
+الرابعة
+
+السنة الخامسة
+
+الفصل الخامس
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 9.1
+0
+0
+0
+0
+0
+25h
+1
+30
+Final Year Project
+0
+25h
+1
+30
+100%
+Sous-Total par Semaine
+0
+0
+0
+0
+25h
+1
+30
+Total Semestre 1 (15 Semaines)
+0
+0
+0
+0
+375h
+
+الفصل العاشر
+
+Unité d’Enseignement
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+Mode d’évaluation
+C
+TD
+TP
+Travail Personnel
+Continu
+Examen
+UE Fondamentales 9.1
+0
+0
+0
+0
+0
+25h
+1
+30
+Final Year Project
+0
+25h
+1
+30
+100%
+Sous-Total par Semaine
+0
+0
+0
+0
+25h
+1
+30
+Total Semestre 1 (15 Semaines)
+0
+0
+0
+0
+375h

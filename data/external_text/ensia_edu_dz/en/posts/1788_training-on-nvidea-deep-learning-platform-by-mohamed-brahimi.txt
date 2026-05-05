@@ -1,0 +1,14 @@
+[Source: https://www.ensia.edu.dz/training-on-nvidea-deep-learning-platform-by-mohamed-brahimi/]
+[Title: Workshop on Nvidia Deep Learning platform by Dr Mohamed Brahimi]
+[Language: en]
+[Modified: 2022-05-26T21:43:33]
+
+A training session on NVIDIA’s deep learning platform was given by Dr Mohamed Brahimi, certified trainer at NVIDIA.
+
+The objectives of the course are:
+
+Learn the fundamental techniques and tools needed to understand a deep learning model.
+Gain experience with the most common deep learning data types and model architectures.
+Improvement of datasets through data augmentation to improve model accuracy.
+Take advantage of learning transfer between models to achieve efficient results with less data and computation.
+Gain the confidence to undertake a project with a modern deep learning framework.

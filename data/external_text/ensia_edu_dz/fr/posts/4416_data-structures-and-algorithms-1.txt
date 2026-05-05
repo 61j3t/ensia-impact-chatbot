@@ -1,0 +1,75 @@
+[Source: https://www.ensia.edu.dz/fr/data-structures-and-algorithms-1/]
+[Title: Data Structures and Algorithms 1]
+[Language: fr]
+[Modified: 2023-10-23T15:29:57]
+
+Module : Data Structures and Algorithms 1
+Semestre 1, CP
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Fondamentales 1.1
+90
+6
+1.5
+1.5
+3
+3
+6
+Course Description:
+This course introduces basic programming techniques with a high-level programming language. Topics include a general introduction to computers and programming languages, development process, variables, data types, expressions and structures of flow control, functions/procedures, text files, arrays, and pointers.
+Prerequisite :
+Evaluation Method :
+Coursework (40 %) + Final Exam (60 %)
+Course Content
+ Introduction of Algorithmic and Problem Solving
+Overview of algorithmic thinking and problem-solving techniques
+Steps involved in problem-solving
+Introduction to programming concepts
+Introduction to Programming with C++
+Basics of C++ programming language
+Variables, data types, and expressions
+Input and output operations using standard streams
+Basic arithmetic operations
+Control Structures
+Conditional statements (if-else, switch-case)
+Looping and iteration (while, for)
+Solving simple problems using control structure constructs
+Functions and Modular Programming
+Introduction to functions
+Function declaration, definition, and calling
+Variable scopes
+Parameter passing (by value, by reference)
+Writing reusable code with functions
+Arrays and Strings
+Introduction to arrays
+Working with one-dimensional arrays
+Manipulating strings and string operations
+Recursivity
+Loop-based algorithms and iterations
+Solving problems using loops and iterations
+Introduction to Recursion
+Advanced Topics (Algorithms and static data structures)
+Struct and enum
+Arrays and multidimensional arrays
+Basic operations on arrays (traversal, insertion, deletion, search)
+Sorting algorithm ( bubble sort)
+Searching algorithm (linear search)
+File Handling and Streams
+References
+Paul J. Deitel and Harvey Deitel,
+C++ How to Program (10th Edition).
+ Pearson Education, 2016.
+Bjarne Stroustrup,
+C++ Programming Language
+, A
+ddison-Wesley Professional, 2013.
+https://cplusplus.com/doc/tutorial/
+https://en.wikiversity.org/wiki/C%2B%2B/Introduction

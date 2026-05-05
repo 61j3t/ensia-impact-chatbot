@@ -1,0 +1,8 @@
+[Source: https://www.ensia.edu.dz/fr/conference-de-dr-mohamed-brahimi/]
+[Title: Conférence du Dr Mohamed Brahimi]
+[Language: fr]
+[Modified: 2022-06-09T14:59:09]
+
+Dr Mohamed Brahimi a donné une conférence intitulée :
+Farmy : IA pour la classification des maladies des plantes.
+ Le Dr Brahimi a présenté ses travaux sur la détection des maladies des plantes basée sur l’apprentissage profond. Il a également présenté son application Farmy ainsi que les étapes de la création de sa startup.

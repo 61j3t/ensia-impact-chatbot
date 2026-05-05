@@ -1,0 +1,94 @@
+[Source: https://www.ensia.edu.dz/time-series-analysis-and-classification/]
+[Title: Time Series Analysis and Classification]
+[Language: en]
+[Modified: 2024-07-14T14:20:35]
+
+Module : Time Series Analysis and Classification
+
+Semestre 6 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 6.1
+
+52.5
+
+3.5
+
+1.5
+
+1.5
+
+0.5
+
+3
+
+5
+
+Course Description:
+
+This course will provide an introduction to time series analysis and its applications in various fields such as finance, engineering, and economics. We will first explore the fundamental concepts and techniques used to analyse time series data, including time series models, spectral analysis, time-frequency representation, and multivariate time series.
+
+We will then discuss time series classification as well as pattern recognition and anomaly detection. We will explore different methods such as Graphical models, dynamic time warping (DTW).
+
+Overall, this course will provide a comprehensive overview of time series analysis and its applications, including both theoretical and practical aspects of the subject matter.
+
+Prerequisite :
+Probability and Statistical Inference, Machine Learning
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Part 1 Time series Analysis
+
+Introduction
+
+Time Series Models
+
+Spectral analysis
+
+Time-frequency representation
+
+Multivariate Time Series
+
+Part 2 Time Series Classification
+
+Pattern Recognition and Detection
+
+Feature Extraction and Selection
+
+Models and Representation Learning
+
+Data Enhancement and Preprocessings
+
+Change-Point and Anomaly Detection
+
+References
+
+Box G.E., Jenkins G.M., Reinsel G.C, Time series analysis: forecasting and control, John ,2011, Wiley & Sons.
+
+P. J. Brockwell; Davies R.A. Introduction to Time Series and Forecasting. 2nd ed. Springer. 2002
+
+Percival D.B., Walden A.T. , Wavelet methods for time series analysis , 2000, Cambridge university press.
+
+Lütkepohl H., New Introduction to Multiple Time Series Analysis, 2006, Springer
+
+Charu C. Aggarwal, Data Mining: The Textbook, 2015, Springer

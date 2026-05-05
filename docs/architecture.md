@@ -272,20 +272,24 @@ through `answer()`, replies with the answer + (optional) sources block
 - **Chat messages**: one message = one chunk. Messages with <20 chars are dropped.
 - **PDFs**: paragraph-aware recursive split, target ~2000 chars per chunk with ~250-char overlap between consecutive chunks.
 - **OCR'd photo content**: already merged into the chat messages by `scripts/03_merge_ocr.py`, so it flows through the same chat-message chunking path.
+- **External web pages (`ensia.edu.dz`)**: scraped via the WordPress REST API (`scripts/04_scrape_ensia_website.py`) into `data/external_text/<site>/<lang>/<kind>/<id>_<slug>.txt` with a header block (Source URL, Title, Language, Modified). Body is chunked the same way as PDFs. EN + AR + FR variants are scraped (628 docs total at last run, ~500 KB of text). Source rows in Telegram replies link directly to the page URL.
 
 Each chunk carries this metadata in ChromaDB (None values are stored as empty string for ChromaDB compatibility):
 
 ```python
 {
-  "source_type": "chat" | "pdf",
-  "topic":       str | "",       # chat topic name (None for PDFs)
+  "source_type": "chat" | "pdf" | "external",
+  "topic":       str | "",       # chat topic name (chat only)
   "language":    "en" | "ar" | "fr" | "empty",
-  "message_id":  int | "",       # for chat
-  "pdf_file":    str | "",       # for PDFs
-  "chunk_index": int | "",       # which chunk of the PDF
+  "message_id":  int | "",       # chat
+  "pdf_file":    str | "",       # pdf
+  "chunk_index": int | "",       # pdf / external chunk index
   "date":        ISO str | "",
   "sender":      str | "",
-  "text_source": "original" | "ocr" | "",
+  "text_source": "original" | "ocr" | "scraped" | "",
+  "site":        str | "",       # external (e.g. "ensia_edu_dz")
+  "url":         str | "",       # external — original page URL
+  "title":       str | "",       # external page title
 }
 ```
 
@@ -304,6 +308,7 @@ data/
 ├── messages_enriched.json ← Chat with OCR merged (input to chunks.py)
 ├── extracted_text/        ← Per-PDF text (input to chunks.py)
 ├── ocr_text/              ← OCR'd photo + scanned-PDF text (input to chunks.py)
+├── external_text/         ← Scraped web pages, EN/AR/FR per site (input to chunks.py)
 └── conversations.db       ← SQLite store for conversation memory (gitignored)
 eval/
 ├── golden_set.json         ← 35 hand-curated queries with expected sources (used during retriever tuning)

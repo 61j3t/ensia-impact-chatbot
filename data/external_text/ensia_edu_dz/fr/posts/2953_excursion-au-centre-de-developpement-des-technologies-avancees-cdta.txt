@@ -1,0 +1,6 @@
+[Source: https://www.ensia.edu.dz/fr/excursion-au-centre-de-developpement-des-technologies-avancees-cdta/]
+[Title: Excursion au Centre de Développement des Technologies Avancées CDTA]
+[Language: fr]
+[Modified: 2023-03-07T14:02:41]
+
+Le club ENSIA Tech Community a organisé une excursion au Centre de développement des technologies avancées (CDTA). Le groupe a visité les différents départements du centre et a découvert leurs domaines de recherche et activités, à savoir la « salle blanche » où sont fabriqués les circuits intégrés (IC), les laboratoires de réalité augmentée et virtuelle (AR/VR), le département de robotique et enfin le laboratoire de prototypage et de fabrication de capteurs. Le but principal de cette excursion est de préparer nos étudiants à de futures collaborations dans des projets de recherche similaires.

@@ -1,0 +1,116 @@
+[Source: https://www.ensia.edu.dz/wireless-communication-networks-and-systems/]
+[Title: Wireless Communication Networks and Systems]
+[Language: en]
+[Modified: 2024-07-14T14:23:21]
+
+Module : Wireless Communication Networks and Systems
+
+Semestre 7 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 7.1
+
+67.5
+
+4.5
+
+1.5
+
+1.5
+
+1.5
+
+3
+
+5
+
+Course Description:
+
+This course introduces fundamental concepts of wireless communication and networks. The design of wireless networks is influenced heavily by how signals travel through space, so the course starts with an introduction to the foundations of wireless communications and the physical layer. Also, the course covers a broad range of wireless networking standards (e.g., Wi-Fi, Bluetooth, RFID, LTE, and 5G), and reviews important wireless network application areas in the context of intelligent systems (e.g., sensor networks, vehicular networks, etc.) and other applications of wireless technologies for smart applications (e.g., GPS, RFID, sensing, etc.). Finally, we will touch on public policy issues, e.g., as related to spectrum use.
+
+Hence, the objective of the course is to familiarise the students with understanding of the fundamental knowledge of wireless communications and technologies in the context of intelligent systems. They will also gain a critical understanding of the technical challenges related to each technology.
+
+Prerequisite :
+Networks and Protocols
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Introduction to wireless communication and networks
+
+Foundations of wireless communication.
+
+Access techniques in wireless technologies.
+
+Basics of antennas and signal propagation.
+
+Signal processing, coding, and modulation techniques.
+
+Introduction to wireless networks
+
+Architecture of wireless networks.
+
+Types of wireless networks.
+
+Wireless communication and networks in intelligent systems.
+
+Mobile networks.
+
+Satellite Networks:
+
+Satellite foundations.
+
+Satellite architecture and classification.
+
+Satellite types and features (LEO, MEO, and GEO).
+
+Satellite radio bands, communication, and services.
+
+Cellular Networks:
+
+Cellular networks foundations.
+
+Cellular communications.
+
+Handover.
+
+Radio band management in cellular networks.
+
+2G, 3G, 4G, and 5G.
+
+Wireless local and personal networks
+
+Infrared technology.
+
+IEEE 802.11 — Wi-Fi
+
+IEEE 802.15.1 — Bluetooth
+
+RFID
+
+LoRa
+
+IEEE 802.15.4 — ZigBee
+
+References
+
+Cory Beard and William Stallings. Wireless Communication Networks and Systems, Pearson, first edition, 2015.

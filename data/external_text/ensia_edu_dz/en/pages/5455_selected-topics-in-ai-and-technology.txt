@@ -1,0 +1,105 @@
+[Source: https://www.ensia.edu.dz/selected-topics-in-ai-and-technology/]
+[Title: Selected Topics in AI and Technology]
+[Language: en]
+[Modified: 2024-07-14T14:34:21]
+
+Module: Selected Topics in AI and Technology
+
+Semestre 7 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Transversales 7.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+2
+
+3
+
+Course Description:
+
+In this module, students will be introduced to a selected number of advanced fields of research and industrial applications where artificial intelligence is being used. This includes topics from other disciplines including agriculture, medicine, biological sciences and economics. From the applicative side, various industrial case studies will be discussed where AI plays a pivotal role.
+
+Prerequisite :
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Sub-module A
+
+Robotics
+
+Autonomous Vehicles and UAVs
+
+Remote Sensing
+
+Sub-module B
+
+IoT and its application (e-health, …)
+
+Blockchain
+
+ML for Cybersecurity
+
+Sub-module C
+
+VR/AR
+
+Human Robot Interaction
+
+Sub-module D
+
+Quantum Computing
+
+Sub-modules E
+
+Application of AI in Oil and Gas Industry
+
+Application of AI in Engineering and Physics
+
+Sub-module F
+
+Application of AI in Medicine
+
+Application of AI in Ecology and Environmental Sciences
+
+Application of AI in Biological Sciences.
+
+Sub-module G
+
+Application of AI in Economics and Finance
+
+Application of AI in Social Sciences and Humanities and Art
+
+References
+
+Chris Baker, Artificial intelligence a modern approach: The application in healthcare, industry and more. The fascinating topic of machine learning and prediction machines. The complexity explained for beginners 2019
+
+Lei Xing, Maryellen L. Giger, Artificial Intelligence in Medicine: Technical Basis and Clinical Applications, 2020
+
+Alexis Besse, Artificial Intelligence for Finance Executives: The AI revolution, from industry trends and case studies to algorithms and concepts, 2021

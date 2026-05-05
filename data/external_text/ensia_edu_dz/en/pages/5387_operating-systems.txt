@@ -1,0 +1,84 @@
+[Source: https://www.ensia.edu.dz/operating-systems/]
+[Title: Operating Systems]
+[Language: en]
+[Modified: 2024-07-14T14:15:23]
+
+Module : Operating Systems
+
+Semestre 4 CP
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 4.1
+
+67.5
+
+4.5
+
+1.5
+
+1.5
+
+1.5
+
+3
+
+5
+
+Course Description:
+
+The purpose of this course is to provide an overview of computer operating systems. Topics to be discussed include a brief history of OS’s and their design and development. The course will start with a presentation of a Linux OS and how to manipulate a Linux-like workstation for development purposes. Then, the course will cover major OS components and the underlying algorithms and implementation techniques. Programming assignments will be done on Linux machines.
+
+Prerequisite :
+Operating System 1, Computer Architecture 1
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Overview of Operating Systems
+
+Background and Basics
+
+Processes
+
+CPU Scheduling
+
+Process Synchronisation
+
+Deadlocks
+
+Memory Management
+
+Storage Management
+
+File System Implementation
+
+Virtualization & Containers
+
+References
+
+Silberschatz, A., Galvin, P.B., and Gagne, G. (2018) Operating System Concepts (10
+th
+ Edition), John Wiley & Sons, Inc.
+
+Tanenbaum, A. and Bos, H. Modern Operating Systems (4
+th
+ edition), Prentice Hall. 2014.

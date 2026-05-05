@@ -1,0 +1,60 @@
+[Source: https://www.ensia.edu.dz/data-structures-and-algorithms-2/]
+[Title: Data Structures and Algorithms 2]
+[Language: en]
+[Modified: 2023-11-02T08:55:25]
+
+Semestre 3, CP
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Fondamentales 3.1
+67.5
+4.5
+1.5
+1.5
+1.5
+4
+5
+Course Description:
+This module introduces the principal fundamentals of data structures and algorithms used in computer science. Data structures will be formulated to represent information in such a way that it can be conveniently and efficiently manipulated by the algorithms that are developed
+.
+On successful completion of this module, students should be able to
+ demonstrate understanding of abstract models of data and computation, to explain and apply data structures such as binary trees, heap-trees, graphs and tables, and to explain the differences between basic complexity classes of algorithms (constant, linear, quadratic, logarithmic, exponential).
+Prerequisite :
+Introduction to Programming, Object-Oriented Programming
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+Course Content
+Introduction
+Efficiency and Complexity
+Sorting Algorithms
+Basic data structures and operations
+Linked Lists
+Queues
+Stacks
+Trees
+Binary Trees
+AVL Trees
+Heap Trees
+B-Tree
+Hash Tables
+Graphs
+References
+Weiss, Mark A. Data Structures and Algorithm Analysis in C++ (4
+rd
+ Edition), Pearson. 2014
+Michael T. Goodrich, Roberto Tamassia, David M. Mount, Data Structures and Algorithms in C++ 2nd Edition,
+Wiley,
+2011
+John Bullinaria, Lecture Notes for Data Structures and Algorithms, School of Computer Science. University of Birmingham. Birmingham, UK. Version of 27 March 2019.
+https://www.cs.bham.ac.uk/~jxb/DSA/dsa.pdf
+Malik, D S. Data Structures using Java (2
+nd
+ Edition), Cengage Learning. 2009

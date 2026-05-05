@@ -1,0 +1,106 @@
+[Source: https://www.ensia.edu.dz/human-computer-interaction/]
+[Title: Human Computer Interaction]
+[Language: en]
+[Modified: 2024-07-14T14:22:51]
+
+Module : Human Computer Interaction
+
+Semestre 7 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 7.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+2
+
+3
+
+Course Description:
+
+This course introduces the students to the fundamentals of Human Computer Interaction. These include principles of good design and user interface and various aspects that have to do with the interface are discussed such as the devices used in such interactions, the notions of colour and content, the design process and the consideration of human-centred factors. The students will also better understand what drives the design of Graphical User Interfaces before moving on to specifics related to the design of screens and windows, all of which serve certain functionalities that are to be developed in any application. The notions of information visualisation, time, etc., will also be discussed in the context of HCI.
+
+Prerequisite :
+ Software Engineering, Advanced Programming
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Introduction to HCI
+
+Interaction Paradigms
+
+Human memory
+
+Design rules
+
+Prototyping
+
+User Interfaces
+
+Usability
+
+Design Evaluation
+
+Interactive Mobile Systems
+
+Accessibility and Universal design
+
+Information Visualisation
+
+Intelligent Interactive Systems
+
+References
+
+Shneiderman
+, B.,
+Plaisant
+, C.,
+Cohen
+, M.,
+Jacobs
+, S.,
+Elmqvist
+, N., and
+Diakopoulos
+, N.
+Designing the User Interface: Strategies for Effective Human-Computer Interaction
+ (6
+th
+ Edition), Pearson, 2016.
+
+Tidwell
+, J.,
+Brewer
+, C.,
+and Valencia
+, A.
+Designing Interfaces: Patterns for Effective Interaction Design
+ (3
+rd
+ Edition), O’Reilly Media, 2020.

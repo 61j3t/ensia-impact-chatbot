@@ -1,0 +1,147 @@
+[Source: https://www.ensia.edu.dz/faq/]
+[Title: Frequently Asked Questions]
+[Language: en]
+[Modified: 2023-07-13T17:58:59]
+
+How can I get admitted to the school?
+
+All the information necessary to understand the pre-registration process, orientation, and final registration are available on the web portal:
+
+https://bac2023.mesrs.dz
+
+All necessary operations of new students are done exclusively online. To carry out these operations, two websites are available:
+
+http://www.mesrs.dz
+
+http://www.orientation.esi.dz
+
+What are the eligibility conditions to study at ENSIA?
+
+Algerian students should have the Algerian Baccalaureate or its equivalent. Admittance to the school is subject to ranking with priority to different baccalaureates as follows:
+
+Priority 01: Mathematics (Mathematics High School of Kouba-Algiers)
+
+Priority 02: Mathematics
+
+Priority 03: Experimental science and Mathematical Techniques
+
+The selection is based on ranking using the weighted average calculated as (2*General Average + Mathematics)/3 , which must be greater than or equal to 16.00/20.
+
+Note: This is the minimum required score. The final score depends on supply and demand. Please refer to the table below for a summary of the required scores in previous years:
+
+Bac 2021 (General Average)
+Bac 2022 (Weighted Average)
+Mathematics
+ ≥ 17.52
+≥ 17.77
+Experimental sciences
+≥ 18.41
+≥ 18.29
+Mathematical techniques
+≥ 18.41
+≥ 18.87
+
+What are the steps that a bachelor must follow to submit his application for registration at the school?
+
+Details will be available on the website of the Ministry of Higher Education and Scientific Research
+https://www.mesrs.dz/
+
+What subjects are taught at ENSIA?
+
+The school offers a diverse and comprehensive program aimed at obtaining an engineering degree in “Artificial Intelligence and Data Science”. The curriculum focuses on acquiring theoretical and practical skills in computer science, mathematics, statistics, and data analysis, with an emphasis on applying these skills to real-world problems. Additionally, students receive training in soft skills such as communication, business and innovation, project management, problem-solving, critical thinking, and teamwork, which are essential for success in the professional world.
+
+The program is designed in such a way that students take mathematics and computer science courses during the preparatory cycle, with a reduced emphasis during the first year of the second cycle. In the specialization phase, courses are grouped to serve specific areas of interest in AI, these include: (i) machine learning, (ii) natural language processing, (iii) computer vision, (iv) data science, and (v) IoT and cybersecurity. Optional courses are also available to students, allowing them to complement their teaching in specific and emerging fields.
+
+Throughout their education, students are encouraged to pursue their ambitions and innovative ideas, with a strong emphasis on entrepreneurship and leadership development.
+
+What is the teaching language?
+
+Generally, all courses at ENSIA are taught in English, including lecture notes and coursework. However, it’s important to note that while the majority of our faculty members are proficient in English, there may be instances where some teachers may use French during their course presentations if they are more comfortable with the language.
+
+What degree do we obtain after graduating from the school?
+
+The school offers a 5-year degree program organised as follows:
+
+– Two years of core teaching (preparatory cycle).
+
+– Three years of specialized teaching (second cycle).
+
+As our school is part of the MI domain, upon completion of the 5-year program, our students will be awarded an Engineer’s degree. Currently, we offer a unique specialisation in “Artificial Intelligence and Data Science.”
+
+What are the career prospects for student graduating from ENSIA?
+
+Graduates of our school have a wide range of career opportunities, as the demand for professionals with skills in IT, artificial intelligence, and data science is continuously increasing. Some possible career paths include:
+
+– Computer science engineer
+
+– Artificial intelligence engineer
+
+– Data analyst
+
+– Machine learning engineer
+
+– Data consultant
+
+– Data architect
+
+– Technology entrepreneur
+
+– Artificial intelligence researcher
+
+The skills acquired during the degree are highly valued in service sectors involving the design and development of computer applications, decision support, data science, and the implementation of intelligent systems for data collection, analysis, interaction, and simulation in various fields such as health, industry, agriculture, urban systems management, and security.
+
+This versatile profile is particularly sought after in areas such as computer engineering service companies, industrial companies, banks and insurance companies, local authorities, energy and sustainable development, transportation, agriculture and food safety, public and private administration, health, and security.
+
+Can students transfer to other schools or universities after completing the first two years?
+
+After successfully completing the preparatory cycle (first two years):
+
+– The top 80% of students are eligible to continue to the second cycle at our school.
+
+– The bottom 20% can take the written entry exam at our school or any national school within the MI domain. Successful candidates will proceed to the second cycle, while others will be redirected to other universities according to current regulations.
+
+Students who fail in any year during their studies at the school will be redirected to other universities according to the currently implemented regulations.
+
+Will the school have a doctoral program?
+
+Yes, doctoral schools are planned in the coming years.
+
+Will the school have research laboratories in the future?
+
+Yes, research laboratories are also planned, which will support the doctoral program.
+
+Registration of Algerian candidates holding a foreign baccalaureate in 2023 ?
+
+Algerians holding a foreign baccalaureate obtained in 2023 must apply online for diploma equivalence before registering at the school. They can apply for equivalence on the following link:
+
+https://progres.mesrs.dz/webequivalence/
+
+After receiving the equivalence certificate, candidates can create an account on the PROGRES platform under the section “Algerian holder of a foreign baccalaureate” (algérien titulaire d’un baccalauréat étranger) to submit their application:
+
+https://progres.mesrs.dz/bac-etrangers
+
+Registration for international applicants with Algerian government scholarships, children of diplomats accredited in Algeria holding a foreign baccalaureate, and international applicants holding an Algerian baccalaureate
+
+International scholarship applicants from the Algerian government, children of diplomats accredited in Algeria holding a foreign baccalaureate, and international candidates holding an Algerian baccalaureate who wish to apply for university registration in Algeria must submit their requests through diplomatic channels.
+
+These candidates need to apply for diploma equivalence online. The required documents must be submitted online by the diplomatic missions on the PROGRES platform (international student interface):
+
+https://progres.mesrs.dz/international-students
+
+Once the orientation process is completed, the diplomatic missions of the countries benefiting from Algerian scholarships are informed about the acceptance of the candidates. Candidates who have been accepted must submit the necessary documents to complete their final registration at the school. Note that a language test will be organized to assess the required level.
+
+Will there be an entry exam for students who have completed two years at other universities/schools in Algeria?
+
+For the academic year 2022/2023, only second-year students of our school who successfully complete the preparatory cycle (first two years) will be admitted to the second cycle of our specialization. No entry exam would be organized this year.
+
+Starting from the academic year 2023/2024, subject to regulatory changes, the written entry exam for admission to the second cycle of the school will be open to:
+
+– Candidates who have successfully completed the two (02) years of the preparatory cycle of the current year at the same school but were not selected based on their academic record.
+
+– Candidates from other higher schools in the same field who have successfully completed the two (02) years of the preparatory cycle of the current year at their school.
+
+– Candidates who have successfully completed two (02) years of the preparatory cycle and have been redirected to a university or university center during the previous academic year.
+
+– Candidates from universities or university centers currently pursuing a bachelor’s degree and who have successfully completed, by the date of the competition, at least two (02) years of studies without any retakes.
+
+The written entry exam for admission to the second cycle of the school is decisive and based on ranking for this category of candidates.

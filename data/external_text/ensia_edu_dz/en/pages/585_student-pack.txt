@@ -1,0 +1,30 @@
+[Source: https://www.ensia.edu.dz/student-pack/]
+[Title: Student Pack]
+[Language: en]
+[Modified: 2022-04-06T18:00:11]
+
+Tools & WebSites
+
+GitHub Student Pack
+Get the best developer tools There’s no substitute for hands-on experience, but for most students, real-world tools can be cost-prohibitive. That’s why GitHub created the Pack.
+
+Visual Studio
+Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS, and Linux. It comes with built-in support for JavaScript, …
+
+Code::Blocks
+Code::Blocks is a free C/C++ and Fortran IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable.
+
+Notion
+Your notes, research, tasks, and more — all in one place. Built for every student, teacher, and school.
+
+Cold Turkey Blocker
+Free website blocker designed for studying or focusing on work. Block distractions like social media, games, apps…
+
+Slack
+Slack is a messaging app that connects people to the information that they need. By bringing people together to work as one..
+
+SNDL
+The SNDL gives you access to very rich and varied national and international electronic documentation, covering all areas of teaching and scientific research.
+
+StackExchange AI
+A public platform building the definitive collection of coding questions & answers. A community-based space to find and contribute answers to technical challenges…

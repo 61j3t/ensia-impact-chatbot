@@ -35,6 +35,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MESSAGES = ROOT / "data/messages_enriched.json"
 EXTRACTED = ROOT / "data/extracted_text"
 OCR = ROOT / "data/ocr_text"
+EXTERNAL = ROOT / "data/external_text"
 
 
 # ─── chunking parameters ────────────────────────────────────────────────────
@@ -241,10 +242,89 @@ def _chunks_from_pdf_file(path: Path) -> Iterator[dict]:
         }
 
 
+# ─── External web pages (ensia.edu.dz, …) ──────────────────────────────────
+
+# Header keys we add to the top of every scraped .txt. Strip them out
+# before chunking so the LLM doesn't see structural noise — but keep the
+# values for chunk metadata.
+_HEADER_KEYS = ("Source", "Title", "Language", "Modified")
+
+
+def _parse_external_doc(text: str) -> tuple[dict, str]:
+    """Split a `[Key: value]\\n...\\n\\n<body>` file into (headers, body)."""
+    headers: dict[str, str] = {}
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        if not line:
+            i += 1
+            break
+        m = re.match(r"^\[([\w\- ]+):\s*(.*?)\]$", line)
+        if not m:
+            break
+        headers[m.group(1).strip()] = m.group(2).strip()
+        i += 1
+    body = "\n".join(lines[i:]).strip()
+    return headers, body
+
+
+def external_chunks() -> Iterator[dict]:
+    """Yield chunks from data/external_text/<site>/<lang>/<kind>/*.txt.
+
+    Each .txt was written by scripts/04_scrape_ensia_website.py with a
+    header block describing the source URL, title, language, and modified
+    timestamp. We chunk the body the same way as PDFs so retrieval can
+    handle long pages.
+    """
+    if not EXTERNAL.exists():
+        return
+    for path in sorted(EXTERNAL.rglob("*.txt")):
+        if path.name.startswith("_"):
+            continue
+        try:
+            raw = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        headers, body = _parse_external_doc(raw)
+        if not body:
+            continue
+
+        # Site is the first directory under EXTERNAL — e.g. "ensia_edu_dz".
+        rel = path.relative_to(EXTERNAL)
+        site = rel.parts[0] if rel.parts else "unknown"
+        lang = headers.get("Language") or detect_language(body)
+        url = headers.get("Source") or ""
+        title = headers.get("Title") or ""
+        modified = headers.get("Modified") or ""
+        # Slug from filename — already includes the WP id prefix.
+        page_slug = path.stem
+
+        for i, piece in enumerate(split_pdf_text(body)):
+            yield {
+                "id": f"ext_{site}_{page_slug}_{i}",
+                "text": piece,
+                "metadata": {
+                    "source_type": "external",
+                    "topic": None,
+                    "language": lang,
+                    "message_id": None,
+                    "pdf_file": None,
+                    "chunk_index": i,
+                    "date": modified,
+                    "sender": None,
+                    "text_source": "scraped",
+                    "site": site,
+                    "url": url,
+                    "title": title,
+                },
+            }
+
+
 # ─── unified loader ─────────────────────────────────────────────────────────
 
 def all_chunks() -> list[dict]:
-    return [*chat_chunks(), *pdf_chunks()]
+    return [*chat_chunks(), *pdf_chunks(), *external_chunks()]
 
 
 if __name__ == "__main__":

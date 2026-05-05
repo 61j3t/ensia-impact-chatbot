@@ -1,0 +1,6 @@
+[Source: https://www.ensia.edu.dz/fr/hackathon-for-freelance-project-filtering-mechanism-development/]
+[Title: Un hackathon pour trouver des solutions qui améliorent le système d’évaluation des projets de freelance]
+[Language: fr]
+[Modified: 2025-02-24T14:49:33]
+
+Neuf équipes d’étudiants de l’École Nationale Supérieure d’Intelligence Artificielle ont participé à un hackathon les 21 et 22 février 2025. L’événement visait à développer un mécanisme permettant de filtrer les propositions de projets d’activités indépendantes pour le ministère des Micro-entreprises, des Startups et de l’Économie de la Connaissance. Le ministre du secteur, M. Wadhah Nour-Eddine, a assisté à l’événement et écouté les présentations des équipes. Les équipes ont soumis leurs résultats à la fin du 22 février, et un comité spécial examine actuellement les solutions proposées. Les équipes sélectionnées seront annoncées après la fin du processus d’évaluation.

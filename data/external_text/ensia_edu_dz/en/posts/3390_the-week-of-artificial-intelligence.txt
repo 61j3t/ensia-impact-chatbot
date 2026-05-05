@@ -1,0 +1,20 @@
+[Source: https://www.ensia.edu.dz/the-week-of-artificial-intelligence/]
+[Title: The Week of Artificial Intelligence]
+[Language: en]
+[Modified: 2023-04-23T11:16:09]
+
+Last week, The National School of Artificial Intelligence hosted a series of events as part of the Week of AI from April 16 to 19, an initiative aimed to promote awareness and understanding of artificial intelligence and its applications. The events were attended by the school’s students and faculty members.
+
+Day 1: Smart Monitoring Using Machine Learning
+
+The week began with a talk by Pr. Bouchachia Abdelhamid on the topic of smart monitoring using machine learning. Professor Bouchachia discussed the various ways in which machine learning algorithms can be applied to monitor and analyze data in real-time. The talk was preceded by a book exposition on the intersection of mathematics and AI from CADOC and TECHNO SCIENCES.
+
+Day 2: Startup HelloData
+
+On the second day, a startup named HelloData set up a stand at the school, where students had the opportunity to connect with Hellodata team members and learn more about their work. In the afternoon, the startup’s founder and manager gave a talk to students about the world of startups and entrepreneurship in the field of IT. She shared insights into the challenges and opportunities of starting a tech company in Algeria, as well as tips for success in the industry.
+
+Day 3: Recommender Systems: An Overview
+
+The final day of the week featured a conference by Dr. Belkacem, an assistant professor at the school, entitled “Recommender Systems: An Overview.” Mr. Belkacem provided an overview of the different types of recommender systems, metrics to evaluate them. He also discussed the open challenges and limitations in this field.
+
+Overall, the Week of AI at the school provided a valuable opportunity for students and faculty members to learn about the latest developments in artificial intelligence and its applications. The events highlighted the growing importance of AI in various fields, from monitoring and analysis to entrepreneurship and innovation.

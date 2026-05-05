@@ -1,0 +1,46 @@
+[Source: https://www.ensia.edu.dz/mathematical-analysis-2/]
+[Title: Mathematical Analysis 2]
+[Language: en]
+[Modified: 2023-11-02T09:43:58]
+
+Semestre 3, CP
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Fondamentales 3.1
+67.5
+4.5
+1.5
+3
+3
+5
+Course Description:
+This course is a continuation of Continuous Mathematics 1 and covers topics in multivariate calculus, numerical series, and Fourier series. The course begins with a study of multivariate numerical and vector functions, including partial derivatives, gradients, and optimization. This leads into a study of multiple integrals. The course then moves on to numerical series, and the study of sequences and series of functions. Finally, the course covers Fourier series, including convergence and periodic functions.
+Prerequisite :
+Continuous Mathematics 1
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+Course Content
+Multivariate Numerical and Vector Functions
+Multiple Integrals
+Numerical Series
+Sequence and series of functions
+Integer Series
+Fourier Series
+References
+Bruno Aebisher, Fonctions à plusieurs variables et géométrie analytique cours et exercices corrigés. edition Vuibert.
+Kada Allab, Eléments d'Analyse : fonction d'une variable réelle, O.P.U. 2002.
+Nourdine El jaouhari, Calcul différentiel et calcul intégrale.  Edition Dunod.
+Mohamed Hazi
+,
+De mes cahiers d'analyse O.P.U.
+Jean-Marie Monier,
+Analyse MP : Cours, méthodes et exercices corrigés
+Walter Rudin, Principes d'Analyse mathématique.

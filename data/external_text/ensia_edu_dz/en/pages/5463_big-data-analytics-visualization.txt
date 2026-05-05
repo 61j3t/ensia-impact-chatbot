@@ -1,0 +1,74 @@
+[Source: https://www.ensia.edu.dz/big-data-analytics-visualization/]
+[Title: Big Data Analytics and Visualization]
+[Language: en]
+[Modified: 2024-07-14T14:31:16]
+
+Module : Big Data Analytics & Visualization
+
+Semestre 8 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 8.1
+
+90
+
+6
+
+3
+
+3
+
+3
+
+6
+
+Course Description:
+
+This course will cover a series of important Big-Data-related problems and their solutions. Specifically, we will introduce the characteristics and challenges of the Big Data, state-of-the-art computing paradigm sand platforms (e.g., MapReduce), big data programming tools (e.g., Hadoop and MongoDB), big data extraction and integration, big data storage, scalable indexing for big data, big graph processing, big data stream techniques and algorithms, big probabilistic data management, big data privacy, big data visualisations, and big data applications (e.g., spatial, finance, multimedia, medical, health, and social data).
+
+Prerequisite :
+Databases, Data mining
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Understanding Big Data
+
+Big data tools and platforms
+
+Big data processing : extraction, preprocessing and integration
+
+Big data storage and indexing
+
+Big data stream techniques and algorithms
+
+Big data analytics
+
+Big data privacy
+
+Big data visualisation
+
+References
+
+Kuan-Ching Li, Hai Jiang, Laurence T. Yang, and Alfredo Cuzzocrea. Big Data: Algorithms, Analytics, and Applications. Chapman & Hall/CRC Big Data Series, 2015.
+
+Thomas Erl, Wajid Khattak, and Dr. Paul Buhler. Big Data Fundamentals: Concepts, Drivers & Techniques. The Prentice Hall Service Technology Series, 2016.

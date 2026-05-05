@@ -1,0 +1,38 @@
+[Source: https://www.ensia.edu.dz/mathematical-analysis-1/]
+[Title: Mathematical Analysis 1]
+[Language: en]
+[Modified: 2023-11-01T14:32:59]
+
+Semestre 2, CP
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Methodologiques 2.1
+90
+6
+3
+3
+3
+6
+Course Description:
+In this course, students will develop more advanced concepts of mathematical continuous analysis such as limited development, primitives and acquire a deeper understanding of integrals.
+Prerequisite : Foundational Mathematics
+Evaluation Method : Coursework (40 %) + Final Exam (60%)
+Course Content
+Limited Developments
+Calculation of primitives
+Riemann integral
+Generalised Integrals
+Differential Equations – Basic Study
+References:
+M. Hazi, De mes cahiers d’Analyse, OPU, 2015
+A. Khelladi, Introduction à l’Analyse mathématique, OPU, 2004
+Peter D. Lax and Maria Shea Terreli, Calculus with Applications, Springer – 2nd Edition, 2013
+James Stewart, Single Variable Calculus, Cengage Learning – 2015

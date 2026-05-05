@@ -162,14 +162,19 @@ class Retriever:
 
 def _format_hit(hit: dict, max_chars: int = 200) -> str:
     md = hit["metadata"]
-    if md["source_type"] == "chat":
-        loc = f"chat msg {md['message_id']} | {md.get('topic') or '(no topic)'}"
+    kind = md.get("source_type")
+    if kind == "chat":
+        loc = f"chat msg {md.get('message_id')} | {md.get('topic') or '(no topic)'}"
+    elif kind == "pdf":
+        loc = f"PDF {md.get('pdf_file')} | chunk {md.get('chunk_index')}"
+    elif kind == "external":
+        loc = f"web {md.get('site') or '?'} | {md.get('title') or md.get('url') or ''}"
     else:
-        loc = f"PDF {md['pdf_file']} | chunk {md['chunk_index']}"
+        loc = f"unknown source ({kind})"
     preview = hit["text"].replace("\n", " ")
     if len(preview) > max_chars:
         preview = preview[:max_chars] + "…"
-    return f"  [{hit['score']:.3f}] {hit['id']} ({loc}, lang={md['language']})\n         {preview}"
+    return f"  [{hit['score']:.3f}] {hit['id']} ({loc}, lang={md.get('language', '?')})\n         {preview}"
 
 
 def main():

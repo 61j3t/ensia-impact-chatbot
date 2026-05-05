@@ -1,0 +1,6 @@
+[Source: https://www.ensia.edu.dz/fr/a-workshop-on-using-huawei-technologies-to-develop-ai-applications/]
+[Title: Exploiter les technologies Huawei pour le développement de l’IA]
+[Language: fr]
+[Modified: 2025-01-08T09:52:04]
+
+Le 17 décembre 2024, l’École nationale d’intelligence artificielle, en collaboration avec Huawei Télécommunications Algérie, a organisé un atelier centré sur l’utilisation des technologies de Huawei pour le développement d’applications d’intelligence artificielle. La session a mis en vedette Burak Özaydın, un expert de Huawei Cloud Research Institute Turkey, qui a fourni une vue d’ensemble approfondie de ModelArts, de ses principales caractéristiques et de ses capacités d’intégration avec d’autres technologies.

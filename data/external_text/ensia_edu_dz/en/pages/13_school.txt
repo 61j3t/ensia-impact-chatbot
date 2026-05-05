@@ -1,0 +1,26 @@
+[Source: https://www.ensia.edu.dz/school/]
+[Title: The School]
+[Language: en]
+[Modified: 2026-05-02T18:58:56]
+
+The National School of Artificial Intelligence (ENSIA) is an institution of excellence for higher education whose vocation is to educate engineers specializing in the theory and practice of artificial intelligence and data sciences. ENSIA graduates will have the capacity to develop and deploy practical and innovative solutions to the problems of the various socio-economic sectors (health, energy, agriculture, transport, etc.), thus contributing to the scientific and economic development of the country.
+
+ENSIA Mission
+
+In addition to the fundamental missions of the national higher education schools in Algeria, ENSIA will also endeavour to achieve the following objectives
+
+Excellence in Teaching
+
+Enable engineers with solid foundations in mathematics, a deep theoretical understanding of the different techniques of artificial intelligence and the world of entrepreneurship, as well as practical and general skills that will make them attractive to employers.
+
+High-Quality Research
+
+Address the lack of researchers and specialists in areas such as data science, artificial intelligence, internet of things, computer vision, automatic language processing, and speech processing.
+
+Transdisciplinarity
+
+Meet real needs in transdisciplinary higher education and scientific research through the application and development of new AI techniques in various disciplines such as energy, agriculture, health, security, etc.
+
+Location
+
+ENSIA is located in the new technology center of Sidi Abdellah in the western suburbs of Algiers some 30 kilometers away. It is easily accessible via various means of public transport. The natural environment of the center, which is in a calm and pleasant landscape provides appropriate conditions for teaching and research.

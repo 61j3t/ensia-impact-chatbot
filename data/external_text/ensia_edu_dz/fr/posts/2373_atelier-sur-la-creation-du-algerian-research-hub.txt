@@ -1,0 +1,9 @@
+[Source: https://www.ensia.edu.dz/fr/atelier-sur-la-creation-du-algerian-research-hub/]
+[Title: Atelier sur la Création du « Algerian Research Hub »]
+[Language: fr]
+[Modified: 2022-07-22T17:58:52]
+
+Dans le cadre du projet de coopération entre le Ministère algérien de l’Enseignement Supérieur et de la Recherche Scientifique et l’Ambassade des Etats-Unis en Algérie, un atelier a été organisé par les Écoles Nationales Supérieures d’Intelligence Artificielle et de Mathématiques en collaboration avec l’Université Américaine de Notre Dame et le Centre pour le Développement des Technologies Avancées (CDTA), et s’est tenu du 26 au 29 juin 2022. L’objectif de ce projet de coopération internationale est la création d’un Hub de recherche algérien.
+L’atelier a couvert les aspects fondamentaux liés à la science des données et à la création de startups avec la participation du personnel académique et des chercheurs de SONATRACH, ESI et CERIST.
+
+Les interventions comprenaient des présentations de Melissa Paulsen (Directrice des programmes, Boltt Institute for Global Development, Université de Notre Dame, USA), Abdelmalek Bashir (Directeur de l’Ecole Nationale Supérieure d’Intelligence Artificielle), et Ahmed Medghari (Directeur de l’Ecole Nationale Supérieure de Mathématiques) en ce qui concerne la gestion du projet, Par la suite, des séances plénières ont été présentées par Nitesh V Chawla (directeur du Lucy Institute for Data Science, Université de Notre Dame, États-Unis) et James Thompson (directeur du Idea Centre de l’Université de Notre Dame, États-Unis). De plus, il y a eu des présentations techniques données par des professeurs des deux écoles et de riches discussions entre tous les participants.

@@ -1,0 +1,14 @@
+[Source: https://www.ensia.edu.dz/fr/atelier-au-sujet-de-la-plateforme-nvidia-deep-learning-par-a-kabot/]
+[Title: Atelier au sujet de la plateforme Nvidia Deep Learning par A. Kabot]
+[Language: fr]
+[Modified: 2022-05-26T08:04:12]
+
+Une session de formation sur la plateforme Deep Learning de NVIDIA a été donnée par M. Abdelghan Kabot, un formateur certifié de NVIDIA.
+
+The course objectives are:
+
+Apprendre les techniques et outils fondamentaux nécessaires à la compréhension d’un modèle d’apprentissage profond.
+Acquérir de l’expérience avec les types de données et les architectures de modèles d’apprentissage profond les plus communs .
+Amélioration des ensembles de données par augmentation afin d’améliorer la précision du modèle.
+Tirez parti du transfert d’apprentissage entre les modèles pour obtenir des résultats efficaces avec moins de données et de calculs.
+Acquérir la confiance nécessaire pour entreprendre un projet avec un cadre moderne d’apprentissage profond.

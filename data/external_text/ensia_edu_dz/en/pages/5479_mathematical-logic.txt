@@ -1,0 +1,67 @@
+[Source: https://www.ensia.edu.dz/mathematical-logic/]
+[Title: Mathematical Logic]
+[Language: en]
+[Modified: 2024-07-14T14:00:44]
+
+Module : Mathematical Logic
+
+Semestre 3, CP
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 3.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+2
+
+4
+
+Course Description
+
+This course aims to provide the basic notions of formal logic, mainly the syntax and semantics of propositional logic and first-order predicate logic. At the end of the course, the student will be able to manipulate logical expressions, check their well-formedness and deduce new expressions. The student will also be able to analyse the truth or falsity of a statement using the notions of satisfiability and model theory as well as verifying the validity of reasoning through systems of formal proof.
+
+Prerequisite :
+Algebra
+
+Evaluation Method
+
+Coursework (40%) + Final Exam (60%)
+
+Course Content
+
+Informal natural deduction
+
+Propositional logic
+
+Quantifier-free logic
+
+First-order logic
+
+References
+
+Ian Chiswell. Mathematical Logic. Oxford University Press. 2007
+
+Shawn Hedman. A first course in logic : an introduction to model theory, proof theory, computability, and complexity, Oxford: Oxford University Press, 2004

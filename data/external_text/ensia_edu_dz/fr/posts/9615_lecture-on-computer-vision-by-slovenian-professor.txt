@@ -1,0 +1,8 @@
+[Source: https://www.ensia.edu.dz/fr/lecture-on-computer-vision-by-slovenian-professor/]
+[Title: Des pixels aux planètes : Conférence d’un professeur slovène]
+[Language: fr]
+[Modified: 2025-05-15T10:11:02]
+
+Ce soir, une conférence a été donnée par le Dr Luka Čehovin Zajc de l’Université de Ljubljana en Slovénie, intitulée :
+« Des pixels aux planètes ».
+Au cours de la conférence, le Dr Luka a présenté les étapes principales de son parcours de recherche, en commençant par le suivi d’objets visuels, en passant par la robotique pour l’éducation, jusqu’à ses travaux récents dans le domaine de l’observation de la Terre utilisant des techniques d’intelligence artificielle, avec une attention particulière portée au rôle de l’entraînement préalable dans les applications de télédétection.

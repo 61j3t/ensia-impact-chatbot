@@ -1,0 +1,73 @@
+[Source: https://www.ensia.edu.dz/reinforcement-learning/]
+[Title: Reinforcement Learning]
+[Language: en]
+[Modified: 2024-07-14T14:27:06]
+
+Module: Reinforcement Learning
+
+Semestre 8 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 8.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+3
+
+4
+
+Course Description:
+
+Reinforcement Learning (RL) is a general framework that can capture the evolving and unpredictable learning environment and has been used to design intelligent agents that achieve high level performances on challenging tasks. This course will provide a solid introduction to the field of reinforcement learning and students will learn about the core challenges and approaches, including generalisation and exploration.
+
+Prerequisite : Linear algebra, probability, programming.
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Markov decision processes & planning
+
+Model-free policy evaluation
+
+Model-free control
+
+Reinforcement learning with function approximation & Deep RL
+
+Policy Search
+
+Exploration
+
+Offline RL
+
+Advanced Topics
+
+References
+
+Reinforcement Learning, An Introduction, R. S. Sutton and A. G. Barto, 2018, The MIT Press
+
+Foundations of Deep Reinforcement Learning by L. Graesser and W. L. Keng, 2019, Addison-Wesley Professional

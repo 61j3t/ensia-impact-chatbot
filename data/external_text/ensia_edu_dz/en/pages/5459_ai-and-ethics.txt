@@ -1,0 +1,73 @@
+[Source: https://www.ensia.edu.dz/ai-and-ethics/]
+[Title: AI and Ethics]
+[Language: en]
+[Modified: 2024-07-14T14:23:38]
+
+Module : AI and Ethics
+
+Semestre 7 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Découvertes 7.1
+
+22.5
+
+1.5
+
+1.5
+
+1
+
+1
+
+Course Description:
+
+This course explores the ethical considerations that arise in the development, deployment, and use of artificial intelligence (AI) systems. The course discusses the ethical challenges that arise with AI, and the frameworks and approaches that can be used to address these challenges. Through readings, discussions, and case studies, students will gain a deep understanding of the ethical considerations involved in designing, implementing, and using AI systems in various contexts.
+
+Prerequisite :
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+AI & Personhood
+
+AI & Engineering (Smart Cities)
+
+AI & Creativity
+
+AI And The Military
+
+AI & Social Justice
+
+AI & Medicine
+
+AI & The Law
+
+Superintelligence
+
+AI & And Environmental Sustainability / Education
+
+References
+
+Bostrom, N. Superintelligence: Paths, Dangers, Strategies, Oxford University Press, 2014.
+
+Wallach, W., Allen, C., Moral Machines, Oxford University Press, 2008.

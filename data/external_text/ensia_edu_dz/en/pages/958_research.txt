@@ -1,0 +1,22 @@
+[Source: https://www.ensia.edu.dz/research/]
+[Title: Research]
+[Language: en]
+[Modified: 2022-11-20T18:12:09]
+
+A culture of Innovation
+
+The school ambitions to build a strong research and development program, with an emphasis on finding practical solutions to real world problems. In terms of scientific research and technological development, the school’s mission in its field (s) of vocation is:
+
+IoT and Cybersecurity
+
+Natural Language Processing
+
+Computer Vision
+
+Big Data Analytics
+
+Machine Learning (ML)
+
+Computer Vision (CV)
+
+Natural Language Processing (NLP)

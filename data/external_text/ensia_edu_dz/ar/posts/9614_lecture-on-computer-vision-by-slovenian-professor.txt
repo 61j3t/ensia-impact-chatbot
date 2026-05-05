@@ -1,0 +1,7 @@
+[Source: https://www.ensia.edu.dz/ar/lecture-on-computer-vision-by-slovenian-professor/]
+[Title: من البيكسلات إلى الكواكب : محاضرة للبروفيسور السلوفيني]
+[Language: ar]
+[Modified: 2025-05-15T10:20:29]
+
+تم هذا المساء تنظيم محاضرة قدمها الدكتور لوكا تشيهوفين زايتس (Luka Čehovin Zajc) من جامعة ليوبليانا بسلوفينيا، تحت عنوان: “من البكسلات إلى الكواكب” From Pixels to Planets.
+خلال المحاضرة، استعرض الدكتور لوكا محطات أساسية من مسيرته البحثية، بدءًا من تتبع الأجسام البصرية ( visual object tracking)، مرورًا بـ الروبوتات التعليمية (robotics for education)، وصولًا إلى أبحاثه الحديثة في مجال مراقبة الأرض (Earth observation) باستخدام تقنيات الذكاء الاصطناعي، مع تركيز خاص على دور Pretraining في تطبيقات الاستشعار عن بعد (remote sensing).

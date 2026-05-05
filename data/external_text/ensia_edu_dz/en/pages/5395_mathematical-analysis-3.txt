@@ -1,0 +1,68 @@
+[Source: https://www.ensia.edu.dz/mathematical-analysis-3/]
+[Title: Mathematical Analysis 3]
+[Language: en]
+[Modified: 2024-07-14T14:15:46]
+
+Module : Mathematical Analysis 3
+
+Semestre 4 CP
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 4.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+2
+
+4
+
+Course Description :
+
+This course covers topics in advanced calculus, including integrals depending on a parameter, integral transformations, special functions, and extremum of a function with one or more variables. The course builds on the foundations of calculus, including limits, derivatives, and integrals. The course begins with a study of integrals depending on a parameter, including differentiation under the integral sign and the Laplace transform. This leads into a study of integral transformations, including the Fourier transform. The course then covers special functions, including the gamma function, the beta function, and the Bessel functions. The course concludes with a study of the extremum of a function with one or more variables, including Lagrange multipliers and optimization in several variables.
+
+Prerequisite
+ : Continuous Mathematics 1 ans 2
+
+Evaluation Mode:
+Coursework (40%) + Final Exam (60%)
+
+Course Content
+
+Integral Depending on one Parameter
+
+Integral Transformations
+
+Special functions
+
+Extremum of a function with one or more variables
+
+References
+
+Elie Azoulay & Jean Avignant, Mathématiques : cours et exercices. 3, Analyse, Auckland Paris etc. : Mc Graw Hill, 1984.
+
+Lokenath Debnath Dambaru Bhatta, Integral Transforms and Their Applications, Chapman and Hall/CRC; 2nd edition, 2006.
+
+Murray R.Spiegel, Fourier Analysis, Schaum’s outline series, ‎ McGraw-Hill Education; 1st edition, 1974.

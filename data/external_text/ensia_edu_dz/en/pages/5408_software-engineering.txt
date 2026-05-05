@@ -1,0 +1,98 @@
+[Source: https://www.ensia.edu.dz/software-engineering/]
+[Title: Software Engineering]
+[Language: en]
+[Modified: 2024-07-14T14:17:25]
+
+Module : Software Engineering
+
+Semestre 5 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 5.1
+
+67.5
+
+4.5
+
+1.5
+
+1.5
+
+1.5
+
+3
+
+5
+
+Course Description :
+
+Successful software development depends on an in-depth understanding of how the phases and supporting activities of the software development life cycle work together. Each phase of the life cycle contributes to a reliable, maintainable product that satisfies user requirements. The application of good engineering practices throughout the cycle dramatically improves the likelihood of delivering a quality software project on time, in scope and within budget. While there are many rigorous methodologies, in fact most approaches and tools have a mixture of strengths and weaknesses.
+
+The main objectives of the course are as follows:
+
+Describe and compare various software development methods and understand the context in which each approach might be applicable.
+
+Develop students’ critical skills to distinguish sound development practices from ad hoc practices, judge which technique would be most appropriate for solving large-scale software problems, and articulate the benefits of applying sound practices.
+
+Expand students’ familiarity with mainstream languages used to model and analyse object designs (e.g., UML).
+
+Prerequisite :
+Introduction to Programming
+
+Evaluation Method :
+Coursework (40%) + Final Exam (60%)
+
+Course Content
+
+Introduction
+
+Software processes
+
+Agile Methodologies
+
+Requirements engineering
+
+System modelling : Behavioural Modelling
+
+System modelling : Structural Modelling
+
+Architectural design
+
+Design and implementation
+
+Software Testing
+
+Software Integration and Delivery
+
+Software Maintenance
+
+Advanced Topics In Software Engineering
+
+References
+
+Ian Sommerville. Software Engineering, Pearson Edition, 2015.
+
+Roger S. Pressman, Bruce Maxim. Software Engineering: A Practitioner’s Approach 8th Edition, McGraw Hill, 2014.
+
+Stephens, Rod. Beginning software engineering, Wrox, a Wiley Brand, 2015.
+
+Systems Analysis and Design: An Object-Oriented Approach with UML 6th Edition, Alan Dennis, Barbara Wixom, David Tegarden, Wiley, 2020.
+
+Kim, G., Humble, J., Debois, P., Willis, J., & Forsgren, N. The DevOps handbook: How to create world-class agility, reliability, & security in technology organizations. IT Revolution. 2021

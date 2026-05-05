@@ -1,0 +1,76 @@
+[Source: https://www.ensia.edu.dz/probability/]
+[Title: Probability]
+[Language: en]
+[Modified: 2024-07-14T14:01:18]
+
+Module : Probability
+
+Semestre 3, CP
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 3.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+2
+
+4
+
+Course Description :
+
+This course covers the classical aspects of probability theory and focuses on the probabilistic model and its basic properties. It also considers random experiments whose characteristic of interest can be modelled by univariate or multivariate random variables (discrete or continuous). It introduces random vectors, sequences of random variables, and different aspects of convergence. Finally, students will be introduced to elements of statistical and Bayesian inference, such as parameter estimation and hypothesis testing.
+
+Prerequisite :
+Probability and Statistics I, Analysis
+
+Evaluation Method :
+Coursework (40%) + Final Exam (60%)
+
+Course Content
+
+Discrete Random Variables
+
+Continuous Random Variables
+
+Jointly Distributed Random Variables
+
+Properties Of Expectation
+
+Generating Functions
+
+References
+
+Sheldon M. Ross, A first course in probability, Pearson, 2018.
+
+Hossein Pishro-Nik, Introduction to probability, statistics and random processes, Kappa Research, 2014.
+
+Sheldon M. Ross, Introduction in probability and statistics for scientists and engineers, Academic Press, 2014.
+
+David Forsyth, Probability and statistics for computer science, Springer, 2018
+
+Mario Triola, Elementary Statistics, Pearson, 2021.
+
+F.M. Dekking, C. Kraaikamp, H.P. Lopuhaa and L.E. Meester: A Modern Introduction to Probability and Statistics: Understanding Why and How, Springer, 2005.

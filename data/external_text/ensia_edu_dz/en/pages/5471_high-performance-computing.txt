@@ -1,0 +1,82 @@
+[Source: https://www.ensia.edu.dz/high-performance-computing/]
+[Title: High Performance Computing]
+[Language: en]
+[Modified: 2024-07-14T14:27:09]
+
+Module : High Performance Computing
+
+Semestre 8 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 8.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+2
+
+4
+
+Course Description:
+
+This is an introductory course on High Performance Computing Clusters, providing a solid
+
+foundation in parallel computer architectures, parallel programming models, application performance monitoring & optimization techniques. This course will discuss fundamentals of parallel systems covering topics ranging from what an HPC cluster consists of to how to efficiently solve complex large scale problems in the areas of computational fluid dynamics, image processing, machine learning and analytics on these systems. The course will consist of lectures, practical hands-on homework assignments, and hands-on laboratory work where students will build their own HPC cluster from the ground up
+
+Prerequisite :
+Computer Architecture 1 and 2, Operating Systems 1 and 2
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+High performance computing systems
+
+Parallel programming patterns
+
+Multiprocessor architectures
+
+Cache coherence in symmetric multiprocessors
+
+Shared memory programming with OpenMP
+
+Accelerators programming with OpenMP extensions
+
+Models of parallel processing
+
+Performance metrics
+
+Distributed memory programming with MPI
+
+Parallel algorithms
+
+Map Reduce
+
+References
+
+P. Pacheco, An Introduction to Parallel Programming, Morgan Kaufman, 2011,
+
+M. McCool, J. Reinders, and A. Robison, Structured Parallel Programming: Patterns for Efficient Computation (1st ed.). Morgan Kaufmann Publishers Inc., 2012.

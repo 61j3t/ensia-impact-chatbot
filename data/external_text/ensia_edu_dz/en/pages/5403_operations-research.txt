@@ -1,0 +1,90 @@
+[Source: https://www.ensia.edu.dz/operations-research/]
+[Title: Operations Research]
+[Language: en]
+[Modified: 2024-07-14T14:17:18]
+
+Module : Operations Research
+
+Semestre 5 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 5.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+3
+
+4
+
+Course description:
+
+Operations research (OR) has many applications in science, engineering, economics, and industry and thus the ability to solve OR problems is crucial for both researchers and practitioners. Being able to solve real life problems and obtaining the right solution requires understanding and modelling the problem correctly and applying appropriate optimization tools and skills to solve the mathematical model. The aim of this module is to teach the student the techniques of modelling problems by a linear program or a graph, the methods of solving these models and the practical interpretation of the results.
+
+Prerequisite:
+ Linear Algebra. Continuous Mathematics.
+
+Evaluation Mode:
+Coursework (40%) + Final Exam (60%)
+
+Content of the course
+
+Part 1. Linear Optimization
+
+Generalities of linear programming
+
+Simplex algorithm
+
+Post-optimal analysis
+
+Duality
+
+Part 2. Graph Theory
+
+Definitions and basic concepts
+
+Connectivity in Graphs
+
+Planar graphs
+
+Graph Coloration
+
+Applications of Graph Theory
+
+References
+
+Frederick Hillier, Gerald Lieberman: Introduction to Operations Research, McGraw Hill, 2020.
+
+R. J. Vanderbei. Linear Programming: Foundations and Extensions. Kluwer Academic Publishers, 1998.
+
+Michael W. Carter, Camille C. Price: Operations Research: A Practical Introduction, Routledge, 2001.
+
+West, D.B. Introduction to Graph Theory (2nd Edition), Prentice-Hall, 2000.
+
+Wilson, R.J. Introduction to Graph Theory (5th Edition), Pearson, 2010.
+
+Berge. Graphes. Book . Editions Gauthier-Villars. 1983.
+
+F.M. Dekking, C. Kraaikamp, H.P. Lopuhaa and L.E. Meester: A Modern Introduction to Probability and Statistics: Understanding Why and How, Springer, 2005.

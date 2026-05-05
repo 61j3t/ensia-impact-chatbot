@@ -1,0 +1,45 @@
+[Source: https://www.ensia.edu.dz/training-program/curriculum/]
+[Title: Curriculum]
+[Language: en]
+[Modified: 2022-04-03T22:11:28]
+
+Training at ENSIA has been designed by experts to be solid in terms of the AI and machine learning skills that students must acquire as well as in-depth practical training (including Robotics, Arduino, etc.). Students will also have in their course modules of Business (Management and Organization of Companies), Accounting (Introduction to General Accounting), and Innovation and Entrepreneurship, as well as related seminars and internships in business.
+
+There is initially only one track but there are plans to introduce two specializations over time: (1) Computer Vision; (2) Automatic Natural Language (and Speech) Processing.
+
+The main axes of the course are as follows:
+
+English:
+Extensive training in English from the first half of the first semester of the first year.
+
+Mathematics:
+ Analysis, Algebra, Probability, Statistics, Logic, Graph Theory, Optimization.
+
+Computer Science:
+ Programming, Object-Oriented Programming, Data Structures, Databases, Software Engineering, Web Programming, Mobile Programming, Human-Computer Interaction.
+
+Computer Architecture, Systems, and Networks:
+ Computer Architecture, Operating System, Computer Networks, Cryptography and Security, Parallel and Distributed Computing, IoT, Blockchain.
+
+Modules relevant to AI:
+Introduction to AI; Complexity of algorithms; Machine Learning; Metaheuristics; Deep Learning; data mining; Data visualization; Data Curation & Management; TALN; advanced NLP; Computer vision; Virtual Reality & Augmented Reality; Robotics; Human-Robot Interactions; Distributed AI; Fuzzy logic systems; Ethical, philosophical, and legal challenges of AI; AI and Information Security.
+
+Others:
+ Practical electronic circuits; Creative Labs (an innovation in this course).
+
+Research and Communication Skills:
+ two modules in Academic Communication; Research methodology; Project Graduation.
+
+Skills related to soft skills:
+ public speaking, professional writing, teamwork, leadership, etc.
+
+Training Program
+
+Major areas of training
+According to the World Intellectual ….
+
+Curriculum
+Training at ENSIA has been expertly ….
+
+Organization of studies
+As ENSIA trains engineers, lessons ….

@@ -401,7 +401,8 @@ def _format_reply(result: dict, elapsed_s: float) -> str:
         for s in sources:
             md = s["metadata"]
             sid = html.escape(s["id"])
-            if md.get("source_type") == "chat":
+            kind = md.get("source_type")
+            if kind == "chat":
                 topic = html.escape(md.get("topic") or "—")
                 date = (md.get("date") or "")[:10]
                 msg_id = md.get("message_id")
@@ -412,7 +413,15 @@ def _format_reply(result: dict, elapsed_s: float) -> str:
                 )
                 where = f"{topic}" + (f" · {date}" if date else "")
                 parts.append(f"• {label_left} — {where}")
-            else:
+            elif kind == "external":
+                url = md.get("url") or ""
+                title = md.get("title") or url
+                if url:
+                    label_left = f'<a href="{html.escape(url)}">{sid}</a>'
+                else:
+                    label_left = f"<code>{sid}</code>"
+                parts.append(f"• {label_left} — 🌐 {html.escape(title)}")
+            else:  # pdf
                 pdf_name = _pretty_pdf_name(md.get("pdf_file"))
                 pdf_msg_id = _msg_id_for_pdf(pdf_name)
                 if pdf_msg_id is not None:

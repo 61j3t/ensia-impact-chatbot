@@ -1,0 +1,95 @@
+[Source: https://www.ensia.edu.dz/natural-language-processing/]
+[Title: Natural Language Processing]
+[Language: en]
+[Modified: 2024-07-14T14:22:43]
+
+Module : Natural Language Processing
+
+Semestre 7 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 7.1
+
+90
+
+6
+
+3
+
+3
+
+4
+
+6
+
+Course Description:
+
+Natural Language Processing addresses fundamental questions at the intersection of human languages and computer science. How can computers acquire, comprehend and produce language? How can computational methods give us insight into observed human language phenomena? In this introductory course, you will learn how computers can do useful things with human languages, such as translate from French into English, filter junk email, extract social networks from the web, and find the main topics in the day’s news. You will also learn about how computational methods can help linguists explain language phenomena, including automatic discovery of different word senses and phrase structure. Over the past decade, natural language processing has been revolutionised by statistical and probabilistic methods; you will learn about robust approaches to parameter estimation and inference.
+
+Prerequisite :
+ Machine learning, data mining, advanced programming
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+Part 1 : NLP Fundamentals
+
+Introduction and Overview
+
+Language and Text Processing
+
+N-gram Language Models
+
+Vector Semantics and Embeddings
+
+Neural Networks and Neural Language Models
+
+Sequence Labelling for Parts of Speech and Named Entities
+
+Transformers and Pretrained Language Models
+
+Part 2 : Annotating Language Structure
+
+Constituency Parsing
+
+Dependency Parsing
+
+Logical Representations of Sentence Meaning
+
+Computational Semantics and Semantic Parsing
+
+Part 3 : NLP Applications
+
+ Machine Translation
+
+ Question Answering
+
+ Chatbots
+
+Part 4: Generative AI for NLP
+
+References
+
+Dan Jurafsky and James H. Martin, Speech and Language Processing (3rd ed. draft), 2023
+
+Jacob Eisenstein, “Introduction to Natural Language Processing”, The MIT Press, 2019
+
+Chris Manning and Hinrich Schutze, “Foundations of Statistical Natural Language Processing”, MIT Press, 1999

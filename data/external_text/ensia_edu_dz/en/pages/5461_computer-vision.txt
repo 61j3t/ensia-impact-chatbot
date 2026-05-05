@@ -1,0 +1,86 @@
+[Source: https://www.ensia.edu.dz/computer-vision/]
+[Title: Computer Vision]
+[Language: en]
+[Modified: 2024-07-14T14:26:35]
+
+Module : Computer Vision
+
+Semestre 8 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 8.1
+
+90
+
+6
+
+3
+
+3
+
+4
+
+6
+
+Course Description:
+
+This course introduces fundamental concepts and techniques for image processing and computer vision. Topics to be covered include image formation, image filtering, edge detection and segmentation, morphological processing, registration, object recognition, object detection and tracking, etc. Students will gain familiarity with both established and emergent methods, algorithms and architectures. This course will enable students to apply computer vision and image processing techniques to solve various real-world problems, and develop skills for research in the field.
+
+Prerequisite :
+Machine Learning, Advanced Programming
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Introduction : The human eye-brain system as a model for computer vision
+
+Image formation: sampling theorem, Fourier transform and Fourier analysis
+
+Basic image processing: Sampling and quantisation, Brightness and colour, Histogram operations, Filters and convolution, Frequency domain processing
+
+Edge detection
+
+Boundary and line extraction
+
+Building machines that see: constraints, robustness, invariance and repeatability
+
+Feature extraction
+
+Interest point detection
+
+Segmentation
+
+2-D Shape representation
+
+Local features
+
+Image matching
+
+Moving Objects
+
+Practical examples, including: biometric systems (recognising people), industrial computer vision, etc.
+
+References
+
+Mark Nixon, Feature Extraction and Image Processing for Computer Vision 3rd Edition
+
+Richard Szeliski, Computer Vision: Algorithms and Applications, 2nd Edition, 2022

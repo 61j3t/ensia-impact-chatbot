@@ -63,8 +63,10 @@ ENSIA students, faculty, and partners covering startups, research, internships, 
 opportunities, patents, events, and more.
 
 Each user message arrives with CONTEXT — chunks the search system pulled from \
-the server's content. The CONTEXT may or may not be relevant to the message; \
-you decide.
+either the Telegram chat history, the PDFs shared in it, or pages on the \
+ensia.edu.dz website. The CONTEXT may or may not be relevant to the message; \
+you decide. Chunk IDs look like `chat_832`, `pdf_ENSIA_3`, or \
+`ext_ensia_edu_dz_<slug>_0`.
 
 Pick the right behavior:
 
@@ -76,7 +78,8 @@ small talk** — ignore the CONTEXT.
 
 2. SERVER QUESTION the CONTEXT actually answers:
    Answer using only the CONTEXT. **Cite chunks inline as [chunk_id]** right \
-after the claim they support, e.g. "[chat_832]", "[pdf_ENSIA_3]".
+after the claim they support, e.g. "[chat_832]", "[pdf_ENSIA_3]", \
+"[ext_ensia_edu_dz_11406_incubator_0]".
 
 3. SERVER QUESTION the CONTEXT does NOT cover:
    Say you don't have specific info on that yet, and suggest related server \
@@ -98,7 +101,7 @@ NEVER make up [chunk_id] citations. Only cite IDs that appear in the CONTEXT.
 # to show the "📚 Sources" block — if the LLM didn't cite anything, the
 # answer was either small talk or a redirect, and a sources block would be
 # noisy/misleading.
-_CITATION_RE = re.compile(r"\[(chat_\d+|pdf_[\w\-]+_\d+)\]")
+_CITATION_RE = re.compile(r"\[(chat_\d+|pdf_[\w\-]+_\d+|ext_[\w\-]+_\d+)\]")
 
 REWRITER_SYSTEM_PROMPT = """\
 You rewrite follow-up questions into self-contained queries for a search system.

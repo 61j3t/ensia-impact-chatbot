@@ -1,0 +1,81 @@
+[Source: https://www.ensia.edu.dz/academic-communication-and-research/]
+[Title: Academic Communication and Research]
+[Language: en]
+[Modified: 2024-07-14T14:27:18]
+
+Module : Academic Communication and Research
+
+Semestre 8 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Transversales 8.1
+
+22.5
+
+1.5
+
+1.5
+
+1
+
+2
+
+Course Description:
+
+This course is designed to develop students’ skills in academic research and communication. The course will cover topics such as finding and evaluating sources, synthesising information, and citing sources in different styles. In addition, students will be introduced to tools and techniques for academic writing and presentation.
+
+Prerequisite :
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Introduction
+
+Literature Search
+
+Literature Review
+
+Search Tools and Databases
+
+Writing
+
+Latex and Word Processors
+
+Bibliography Management
+
+Writing Reports
+
+Writing Research Articles
+
+Publishing Research
+
+Presentation
+
+Research Ethics
+
+References
+
+Susan M. Reinhart. Giving Academic Presentations (2
+nd
+ Edition). Michigan Publishing, University of Michigan Press 2013.
+
+Justin Zobel. Writing for Computer Science: The Art of Effective Communication. Springer; 2nd ed., 2004

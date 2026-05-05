@@ -1,0 +1,8 @@
+[Source: https://www.ensia.edu.dz/fr/premiere-edition-etcode-une-competition-de-programmation-par-ensia-tech-community/]
+[Title: Première Edition ETCode : Une Compétition de Programmation par ENSIA Tech Community]
+[Language: fr]
+[Modified: 2023-06-20T14:55:31]
+
+ENSIA Tech Community, un club scientifique de l’École Nationale d’Intelligence Artificielle, a récemment organisé la première édition de l’événement ETCode, une compétition de programmation destinée aux étudiants intéressés par la programmation compétitive. 18 équipes ont participé à la compétition, chacune composée de trois étudiants. Les équipes se sont vu présenter plusieurs problèmes et défis, variant en difficulté du facile au difficile.
+
+ Les participants avaient la liberté de choisir le langage de programmation de leur choix pour résoudre les problèmes. En parallèle des principaux défis de programmation, l’événement proposait des mini-jeux divertissants dans lesquels les équipes s’affrontaient les unes contre les autres. Ces mini-jeux offraient des opportunités pour obtenir des indices et un accès limité dans le temps à ChatGPT.

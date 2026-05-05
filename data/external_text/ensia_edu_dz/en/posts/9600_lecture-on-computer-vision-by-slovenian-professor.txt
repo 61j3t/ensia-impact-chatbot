@@ -1,0 +1,8 @@
+[Source: https://www.ensia.edu.dz/lecture-on-computer-vision-by-slovenian-professor/]
+[Title: From Pixels to Planets: Lecture by Slovenian Professor]
+[Language: en]
+[Modified: 2025-05-15T09:44:15]
+
+This evening, a lecture was held by Dr. Luka Čehovin Zajc from the University of Ljubljana in Slovenia, titled:
+“From Pixels to Planets.”
+During the lecture, Dr. Luka presented key stages of his research journey, starting with visual object tracking, moving through robotics for education, and arriving at his recent work in Earth observation using artificial intelligence techniques, with a particular focus on the role of pretraining in remote sensing applications.

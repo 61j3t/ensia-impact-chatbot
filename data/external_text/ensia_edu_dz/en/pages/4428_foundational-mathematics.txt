@@ -1,0 +1,59 @@
+[Source: https://www.ensia.edu.dz/foundational-mathematics/]
+[Title: Foundational Mathematics]
+[Language: en]
+[Modified: 2023-10-23T16:50:34]
+
+Semestre 1,
+CP
+VHS Totale
+C/TD/TP
+VHH
+Totale C/TD/TP
+V.H. hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Fondamentales 1.1
+135
+9
+4.5
+4.5
+4
+9
+Course Description:
+This course introduces students to university Mathematics which are based on rigorous definitions and proofs. The first part will familiarise students with essential concepts of logic and reasoning, as well as, the basic elements of algebra. In the second part, students will be introduced to continuous mathematics' concepts such as sequences, limits and differentiation where emphasis will be put on proofs and demonstrations of the concepts they will learn.
+Prerequisite : None
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+Course Content
+Concepts of Logic
+Complex Numbers
+Sets and Applications
+Combinatorics and counting
+Arithmetic in Z
+Binary relations on a set
+Algebraic Structures
+Polynomials
+Real Number Fields
+Real Numbers Sequences
+Limits and Continuity of Functions
+Differentiability and Taylor Expansion
+Basic Functions
+References
+Stephen Abbott, Understanding Analysis, Springer – 2
+nd
+ Edition, 2015.
+Marc Peter Deisenroth, Aldo Faisal, Cheng Soon Ong, Mathematics for Machine Learning, Cambridge University Press. 2020
+M. Hazi, De mes cahiers d’Analyse, OPU
+Amara Hitta, Cours D’Algèbre et exercices corrigés, OPU, 2014
+A. Khelladi, Introduction à l’Analyse mathématique, OPU, 2004
+Peter D. Lax and Maria Shea Terreli, Calculus with Applications, Springer – 2
+nd
+ Edition, 2013
+Jean-Pierre Marco et Laurent Lazzarini, Mathématiques L1, Pearson, 2
+ème
+ édition, 2013
+Eric Lehman F Thomson Leighton Albert R Meyer, Mathematics for Computer Science, MIT OpenCourseWare, 2017
+James Stewart, Single Variable Calculus, Cengage Learning – 2015

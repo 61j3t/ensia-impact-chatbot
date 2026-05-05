@@ -1,0 +1,59 @@
+[Source: https://www.ensia.edu.dz/digital-systems/]
+[Title: Digital Systems]
+[Language: en]
+[Modified: 2023-10-23T16:24:59]
+
+Semestre 1, CP
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Methodologiques 1.1
+45
+3
+1.5
+1.5
+3
+4
+Course Description
+The course addresses the concepts, principles and techniques of designing digital systems. The course teaches the fundamentals of digital systems applying the logic design and development techniques. This course forms the basis for the study of advanced subjects like Computer Architecture and Organization. Students will learn principles of digital systems logic design.
+Prerequisite :
+None
+Evaluation Method :
+Coursework (40%) + Final Exam (60%)
+Course Content
+Number Systems
+Boolean Algebra
+Combinational Logic Circuits
+Sequential Circuits
+Flip-Flops
+Finite State Machines
+Registers
+Standard Sequential Logic Circuits
+Computer Organisation
+Von Neumann Architecture / Harvard Architecture
+Data Path and Memory Bus
+Arithmetic and Logic Unit (ALU)
+Memory
+Control Unit (CU)
+Input/Output
+References
+William Stallings
+, Computer Organization and architecture : designing for performance 11th edition 2019
+Andrew S. Tanenbaum
+,
+& Todd Austin
+, Structured Computer Organization, 6th edition 2012.
+Paolo Zanella
+,
+Yves Ligier
+,
+Emmanuel Lazard
+, Architecture et technologie des ordinateurs : Cours et exercices corrigés – 6 Edition. Dunod. 2018.
+Thomas L. Floyd. Digital Fundamentals, 11th Edition. Pearson, 2015.

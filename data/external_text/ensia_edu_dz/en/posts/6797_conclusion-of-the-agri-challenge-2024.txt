@@ -1,0 +1,6 @@
+[Source: https://www.ensia.edu.dz/conclusion-of-the-agri-challenge-2024/]
+[Title: Conclusion of The AgrI Challenge 2024]
+[Language: en]
+[Modified: 2024-12-26T14:12:47]
+
+The AgrI Challenge event concluded yesterday evening, June 27, 2024, at the National School of Artificial Intelligence. Eleven competing teams completed the task of collecting and processing plant data by building computational models for automatic plant classification and identification. The top three winning teams were honored during a ceremony held for the occasion.

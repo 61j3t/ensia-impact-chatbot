@@ -1,0 +1,74 @@
+[Source: https://www.ensia.edu.dz/advanced-databases/]
+[Title: Advanced Databases]
+[Language: en]
+[Modified: 2024-07-14T14:20:40]
+
+Module : Advanced Databases
+
+Semestre 6 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 6.1
+
+67.5
+
+4.5
+
+1.5
+
+1.5
+
+1.5
+
+3
+
+5
+
+Course Description :
+
+The objective of this course is to teach students advanced concepts of databases. Students will learn to optimise and tune databases before and after going into production. Students will learn how to design, manipulate and optimise distributed databases across a network. The course also focuses on specific kinds of databases such as data warehouses used for decision support as well as the new NoSQL databases used to overcome the scalability problems of relational databases. At the end of the course, the student will be able to easily administer and secure a database to protect it from the most dangerous threats.
+
+Prerequisite :
+ Databases, Operating Systems
+
+Evaluation Method :
+Coursework (40%) + Final Exam (60%)
+
+Course Content
+
+Database Performance Tuning and Query Optimization
+
+Distributed databases
+
+Business Intelligence and Data Warehouses
+
+NoSQL Databases
+
+Database Administration and Security
+
+References
+
+Carlos Coronel and Steven Morris. Database Systems: Design, Implementation, & Management, 13th Edition, 2018.
+
+Raghu Ramakrishnan, Johannes Gehrke. Database Management Systems, McGraw-Hill Higher Education; 3
+rd
+ edition. 2002
+
+Ramez Elmasri, Shamkant B. Navathe. Fundamentals of Database Systems, Pearson; 7th edition, 2015.

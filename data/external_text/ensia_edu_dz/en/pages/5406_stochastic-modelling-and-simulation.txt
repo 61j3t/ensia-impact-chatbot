@@ -1,0 +1,92 @@
+[Source: https://www.ensia.edu.dz/stochastic-modelling-and-simulation/]
+[Title: Stochastic Modelling and Simulation]
+[Language: en]
+[Modified: 2024-07-14T14:17:21]
+
+Module : Stochastic Modelling and Simulation
+
+Semestre 5 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 5.1
+
+60
+
+4
+
+2
+
+1.5
+
+0.5
+
+3
+
+5
+
+Course Description:
+
+This course provides an introduction to the theory and practice of stochastic modelling and simulation. Stochastic modelling is the study of systems subject to random variations, where probability theory provides a powerful tool for modelling the behaviour of such systems.
+
+Prerequisite :
+Probability and Inference
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Part 1: Stochastic Processes and their Classification
+
+Discrete time Markov chains
+
+Poisson processes
+
+Continuous time Markov chains
+
+Part 2: Introduction to Stochastic Simulation
+
+Pseudo random number generator
+
+Simulation of random variables
+
+Simulation of random vectors
+
+Monte Carlo methods and variance reduction methods
+
+Simulation of stochastic processes (MCMC, queuing models)
+
+Part 3: Probabilistic Machine Learning
+
+Bayesian networks
+
+Hidden Markov Models
+
+References
+
+S. M. Ross: Introduction to Probability Models. Academic Press; 13th edition, 2023.
+
+M. A. Pinsky et S. Karlin : An Introduction to Stochastic Modeling. 4th ed. Academic Press, 2011.
+
+Hossein Pishro-Nik, Introduction to probability, statistics and random processes, Kappa Research, 2014.
+
+T. Hastie, R. Tibshirani and Friedman, The Elements of Statistical Learning, Springer.
+
+F. V. Jensen. “Bayesian Networks and Decision Graphs”. Springer. 2001.

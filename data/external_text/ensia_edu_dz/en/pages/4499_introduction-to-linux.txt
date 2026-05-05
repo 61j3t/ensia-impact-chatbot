@@ -1,0 +1,44 @@
+[Source: https://www.ensia.edu.dz/introduction-to-linux/]
+[Title: Introduction to Linux]
+[Language: en]
+[Modified: 2023-11-01T14:20:57]
+
+Semestre 2, CP
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Fondamentales 2.1
+67.5
+4.5
+1.5
+3
+3
+6
+Course Description
+This course serves as a guided tour of the unix operating system, commonly used unix tools. The course is designed for individuals who wish to become familiar with unix and its data processing capabilities. Students will also use various scripting languages to write filters for transforming data from a variety of sources. By the end of the course, students will have developed a proficiency for UNIX, a basic understanding of the shell programming and a familiarity with tools including AWK, GIT and Make.
+Prerequisite :
+Introduction to Programming
+Evaluation Method :
+Coursework (40%) + Final Exam (60%)
+Course Content
+Introduction to Unix
+Linux utilities and commands
+Linux File System and permissions
+The shell
+Linux Guis
+Awk, Sed, Grep
+Advanced Shell Scripting
+Networking and Internet
+System Administration and Security
+Programming Tools
+References
+Sumitabha Das, Your UNIX/LINUX: The Ultimate Guide. McGraw Hill, 2012.
+Mike Joy, Stephen Jarvis and Michael Luck. Introducing Unix and Linux. Palgrave Macmillan. 2002
+Mokhtar Ebrahim and Andrew Mallett, “Mastering Linux Shell Scripting: A practical guide to Linux command-line, Bash scripting, and Shell programming” 2018

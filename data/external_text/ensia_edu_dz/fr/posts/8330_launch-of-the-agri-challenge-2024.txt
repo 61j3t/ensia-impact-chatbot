@@ -1,0 +1,14 @@
+[Source: https://www.ensia.edu.dz/fr/launch-of-the-agri-challenge-2024/]
+[Title: Lancement de l’AgrI Challenge 2024]
+[Language: fr]
+[Modified: 2025-01-30T09:09:35]
+
+Le 24 juin 2024, la première phase de l’AgriChallenge Hackathon, organisée par l’École Nationale Supérieure d’Intelligence Artificielle et l’École Supérieure d’Agriculture, a été lancée dans les locaux de cette dernière.
+
+Cet événement invite les participants à classer automatiquement des plantes. Il représente une occasion de renforcer le travail en équipe entre les étudiants spécialisés en intelligence artificielle et en agriculture, à travers une collaboration visant à classer les plantes à partir de leurs images en utilisant des techniques d’IA et de vision par ordinateur.
+
+La première journée a été marquée par une cérémonie d’ouverture officielle, suivie d’une conférence enrichissante sur la botanique, mettant l’accent sur l’identification et le classement des plantes. Un atelier préparatoire a également été organisé pour les équipes participantes. Au cours des deux jours suivants, les étudiants collecteront les données et images nécessaires des plantes.   Le 26 juin, les participants se rendront à l’École Nationale Supérieure d’Intelligence Artificielle pour développer un programme utilisant des techniques d’IA pour relever le défi du classement des plantes. L’événement se terminera le 27 juin par une cérémonie de clôture au cours de laquelle les prix seront remis aux équipes gagnantes.
+
+Cette initiative bénéficie du soutien de Mobilis en tant que sponsor officiel, ce qui reflète l’engagement de l’entreprise à promouvoir l’innovation et le développement technologique dans le pays.
+
+L’Agri Challenge constitue une opportunité unique pour les étudiants d’acquérir de nouvelles compétences en analyse d’images, en vision par ordinateur et en collaboration interdisciplinaire, renforçant leurs capacités à innover et à travailler en équipe.

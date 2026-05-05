@@ -10,10 +10,11 @@ Opportunities, Companies, Q&A, etc.).
 ensia-impact-chatbot/
 ├── eda.ipynb                   ← Exploratory data analysis (start here)
 ├── scripts/
-│   ├── 01_extract_pdfs.py      ← Extract text from native-text PDFs
-│   ├── 02_ocr_images.py        ← OCR photo-only messages + scanned PDFs (incremental)
-│   ├── 03_merge_ocr.py         ← Merge OCR back into chat messages
-│   └── run_pipeline.sh         ← One command: runs 01→02→03 + retrieval index build
+│   ├── 01_extract_pdfs.py             ← Extract text from native-text PDFs
+│   ├── 02_ocr_images.py               ← OCR photo-only messages + scanned PDFs (incremental)
+│   ├── 03_merge_ocr.py                ← Merge OCR back into chat messages
+│   ├── 04_scrape_ensia_website.py     ← Pull every page/post from ensia.edu.dz (EN/AR/FR) via WP REST API
+│   └── run_pipeline.sh                ← One command: runs 01→02→03→04 + retrieval index build
 ├── docs/
 │   └── architecture.md         ← Retrieval system architecture plan
 ├── chatbot/
@@ -41,6 +42,7 @@ ensia-impact-chatbot/
     ├── extracted_text/         ← Output of 01: PDF text + _summary.json
     ├── ocr_text/               ← Output of 02: photos.json + scanned PDFs
     ├── messages_enriched.json  ← Output of 03: chat with OCR merged
+    ├── external_text/          ← Output of 04: scraped pages from ensia.edu.dz (EN/AR/FR)
     └── conversations.db        ← Per-user chat memory (gitignored, regenerable)
 ```
 
@@ -74,7 +76,8 @@ The script chains all four stages and is safe to re-run anytime — perfect for 
 | 1. Extract PDFs | Always (fast, ~5s) | — |
 | 2. OCR photos & scanned PDFs | New photos / new scanned PDFs only | Anything already OCR'd |
 | 3. Merge OCR into chat | Always; rewrites file only if content changed | — |
-| 4. Build retrieval index | Adds new chunks; full rebuild if `messages_enriched.json` is newer than the index | Re-runs are no-ops when nothing changed |
+| 4. Scrape ensia.edu.dz | Re-fetches only pages whose `modified` timestamp changed | Unchanged pages skipped via the manifest |
+| 5. Build retrieval index | Adds new chunks; full rebuild if any source data is newer than the index | Re-runs are no-ops when nothing changed |
 
 ### Manual / per-stage runs
 
@@ -101,9 +104,10 @@ After the full pipeline:
 | Telegram messages (text + OCR merged) | ~155k | 397/410 messages have usable text |
 | PDFs (native text, 10 files) | ~398k | English/French/Arabic |
 | PDFs (OCR'd, 2 scanned decrees) | ~9k | Arabic legal decrees |
-| **Total** | **~562k chars / ~95k words** | |
+| ensia.edu.dz (628 pages/posts, EN+AR+FR) | ~494k | Scraped via WP REST API |
+| **Total** | **~1.06 M chars / ~178 k words** | |
 
-Strongest topical areas: Companies, Startups, Opportunities, Events, Resources by Students.
+Strongest topical areas: Companies, Startups, Opportunities, Events, Resources by Students, plus the official school pages (programs, AI Lab, faculty, news) on ensia.edu.dz.
 
 ## Evaluation
 

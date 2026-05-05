@@ -1,0 +1,6 @@
+[Source: https://www.ensia.edu.dz/fr/etcode-2025-ai-and-programming-event/]
+[Title: ETCode 2025 : Événement sur l’IA et la programmation]
+[Language: fr]
+[Modified: 2025-06-29T14:11:24]
+
+L’événement annuel « ETCode » du club scientifique de l’école « ETC » s’est déroulé à l’École Nationale Supérieure d’Intelligence Artificielle les 17 et 18 juin 2025. Il s’agissait d’un hackathon axé sur l’intelligence artificielle et la programmation, parrainé par l’entreprise Ramy.

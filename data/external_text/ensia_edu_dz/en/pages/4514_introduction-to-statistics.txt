@@ -1,0 +1,53 @@
+[Source: https://www.ensia.edu.dz/introduction-to-statistics/]
+[Title: Introduction to Statistics]
+[Language: en]
+[Modified: 2023-11-01T19:25:37]
+
+Semestre 2, CP
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Methodologiques 2.1
+45
+3
+1.5
+1.5
+3
+3
+Course Description:
+In this introductory course on statistics, students will learn about essential concepts of statistics and probability. In the first half of the course, students will learn the basic tools for statistical analysis such as graphical and numerical representations of the different types of data. In the second half, the foundations of probability theory are introduced.
+Prerequisite :
+Foundational Mathematics
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+Course Content
+Basic concepts and statistical vocabulary
+Basic concepts of statistics
+Statistical tables and graphical representation
+Numerical representation of data
+Central tendency or positional characteristics
+Dispersion characteristics
+Contingency Tables
+Correlation and Regression
+Probability
+Combinatorial analysis
+Probability Space
+The relationship between probability theory and set theory.
+Probability Calculation
+Conditional probabilities, independence and compound probabilities
+References
+Probability. Jim Pitman. Springer, 1993.
+Probability Theory. Alexandr A. Borovkov. Springer, 2009.
+Probability and Statistics for Computer Science. David Forsyth. Springer, 2018.
+Probability Essentials. Jean Jacod and P. Potter. Springer, 2004.
+Neil A. Weiss, Introductory Statistics, 10th Edition, Addison-Wesley, 2015.
+Elements of Probability Theory T1, Moussedek BOUSSEBOUA, OPU, 2016.
+Elements of Probability Theory T2, Moussedek BOUSSEBOUA, OPU, 2016.
+Cours de probabilités, K. REDJDAL, OPU, 2015.

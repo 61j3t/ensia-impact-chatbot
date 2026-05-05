@@ -1,0 +1,92 @@
+[Source: https://www.ensia.edu.dz/electronic-circuits-labs/]
+[Title: Electronic Circuits Labs]
+[Language: en]
+[Modified: 2024-07-14T14:16:05]
+
+Module : Electronic Circuits Labs
+
+Semestre 4 CP
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Découvertes 4.1
+
+22.5
+
+1.5
+
+1.5
+
+1
+
+2
+
+Course Description:
+
+This course aims to equip beginners with basic functional knowledge of the Arduino microcontroller through a practical approach. Students can expect to learn how to write and upload simple code, integrate various physical inputs and outputs, and build low-cost, low-power systems.
+
+Prerequisite :
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Introduction, programming, and electronics
+
+A tour of the Arduino Uno and how to use the IDE to talk with it
+
+Elementary programming; blinking an LED
+
+Assembling the course kits and taking a tour of the components
+
+Ohm’s Law, DMMs, wiring using the board’s built-in supply, and schematics
+
+Reading buttons or potentiometers to change LED behaviours
+
+Reading the world and responding to it
+
+Exploring different ways of getting data into and action out of the Arduino
+
+Using an input of choice to drive an output of choice
+
+Back of envelope sketches of a final project of choice
+
+Project development, presentation, and critique
+
+Further development of project, testing, tinkering, exploring, etc.
+
+Student project Presentation and peer critique
+
+References
+
+Banzi
+, M., and
+Shiloh
+, M. (2015). Getting Started with Arduino: The Open Source Electronics Prototyping Platform (3
+rd
+ Edition), Make Community, LLC.
+
+Monk
+, M. (2016). Programming Arduino: Getting Started with Sketches (2
+nd
+ Edition), McGraw-Hill Education.
+
+Nicholas
+, S. (2020). Arduino Programming: A Comprehensive Beginner’s Guide to learn the Realms of Arduino from A-Z, Independently published.

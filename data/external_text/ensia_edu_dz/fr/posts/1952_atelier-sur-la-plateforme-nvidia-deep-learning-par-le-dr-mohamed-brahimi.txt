@@ -1,0 +1,14 @@
+[Source: https://www.ensia.edu.dz/fr/atelier-sur-la-plateforme-nvidia-deep-learning-par-le-dr-mohamed-brahimi/]
+[Title: Atelier sur la plateforme Nvidia Deep Learning par le Dr Mohamed Brahimi]
+[Language: fr]
+[Modified: 2022-06-09T15:00:02]
+
+Une session de formation sur la plateforme d’apprentissage profond de NVIDIA a été donnée par le Dr Mohamed Brahimi, formateur certifié chez NVIDIA.
+
+The course objectives are:
+
+Apprendre les techniques et outils fondamentaux nécessaires à la compréhension d’un modèle d’apprentissage profond.
+Acquérir de l’expérience avec les types de données et les architectures de modèles d’apprentissage profond les plus communs .
+Amélioration des ensembles de données par augmentation afin d’améliorer la précision du modèle.
+Tirez parti du transfert d’apprentissage entre les modèles pour obtenir des résultats efficaces avec moins de données et de calculs.
+Acquérir la confiance nécessaire pour entreprendre un projet avec un cadre moderne d’apprentissage profond.

@@ -1,0 +1,25 @@
+[Source: https://www.ensia.edu.dz/training-program/major-areas-of-training/]
+[Title: Major areas of training]
+[Language: en]
+[Modified: 2022-03-29T12:00:53]
+
+According to the World Intellectual Property Organization on Artificial Intelligence, the trend in terms of areas of AI applications that are most mentioned in patent applications in Computer Vision, Computer Automatic Natural Language (TALN, Natural Language Processing), and Speech Processing (Speech Processing). AI techniques are essentially based on Machine Learning and Deep Learning and, to a lesser degree, currently, expert systems and fuzzy logic. All these areas and techniques will be covered in-depth, in theory, and in practice, in the curriculum developed for the school.
+
+Following the launch of the school, research teams and then research laboratories will be created to cover these most popular areas of AI in the world of innovation and patents. Priority will be given to issues with socio-economic impact mentioned in the national AI strategy. To do this, the following main lines of research in AI will have priority:
+
+Machine Learning and Big Data
+Computer Vision and Image Processing, with applications to agriculture, health, smart city, etc.
+Automatic Natural Language and Speech Processing, with applications to health, e-government, smart city, education, etc.
+
+In addition, the school will deepen its graduates’ understanding and sensitivity to the ethical and legal issues of the use of AI and the abuses that can result from its non-visionary use of it. Research on these themes will be highly recommended for consistent development and a harmonious introduction of AI in the socio-economic sphere.
+
+Training Program
+
+Major areas of training
+According to the World Intellectual ….
+
+Curriculum
+Training at ENSIA has been expertly ….
+
+Organization of studies
+As ENSIA trains engineers, lessons ….

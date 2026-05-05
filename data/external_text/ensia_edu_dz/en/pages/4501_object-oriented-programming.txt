@@ -1,0 +1,46 @@
+[Source: https://www.ensia.edu.dz/object-oriented-programming/]
+[Title: Object Oriented Programming]
+[Language: en]
+[Modified: 2023-11-01T14:29:29]
+
+Semestre 2, CP
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Fondamentales 2.1
+67.5
+4.5
+1.5
+1.5
+1.5
+4
+6
+Course Description:
+This course introduces fundamental conceptual tools and their implementation of object-oriented design and programming such as: object, type, class, implementation hiding, inheritance, parametric typing, function overloading, polymorphism, source code reusability, and object code reusability. Object-Oriented Analysis/Design for problem solving. Implementation of the Object-Oriented programming paradigm is illustrated by program development in OO languages (The programming language is the same as the one taken in the introductory programming course ).
+Prerequisite :
+Introduction to programming
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+Course Content
+Introduction to OOP
+Classes and Objects
+Methods and Overloading
+Encapsulation
+Abstraction
+Dynamic Memory Allocation in OOP
+Inheritance and Polymorphism
+Exception Handling
+References
+Paul J. Deitel and Harvey Deitel,
+C++ How to Program (10th Edition)
+. Pearson Education, 2016.
+Robert Lafore,
+Object-Oriented Programming in C++,
+ 2002

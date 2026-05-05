@@ -1,0 +1,6 @@
+[Source: https://www.ensia.edu.dz/ensia-hosts-aifast-25-datathon-event/]
+[Title: ENSIA Hosts AiFast 25 Datathon Event]
+[Language: en]
+[Modified: 2025-06-15T14:35:38]
+
+Over the course of three days, from June 12 to 14, 2025, the National School of Artificial Intelligence hosted the annual AiFast 25 event organized by the school’s scientific club GDG. The event was a datathon focused on artificial intelligence and data science. It was sponsored by SATIM, the company specializing in electronic payment systems and interbank relations. SATIM also provided a set of challenges that were addressed by competing teams from the school as well as from several other national schools and universities.

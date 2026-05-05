@@ -1,0 +1,147 @@
+[Source: https://www.ensia.edu.dz/fr/faq-foire-aux-questions/]
+[Title: FAQ (Foire aux questions)]
+[Language: fr]
+[Modified: 2023-07-13T17:58:01]
+
+Comment puis-je être admis à l’école?
+
+Toutes les informations nécessaires sur le processus de préinscription, d’orientation et d’inscription finale sont disponibles sur le portail web :
+
+https://bac2023.mesrs.dz
+
+Toutes les opérations nécessaires des nouveaux étudiants sont effectuées exclusivement en ligne. Pour effectuer ces opérations, deux sites web sont disponibles :
+
+http://www.mesrs.dz
+
+http://www.orientation.esi.dz
+
+Quelles sont les conditions d’éligibilité pour étudier à l’ENSIA?
+
+Les étudiants algériens doivent avoir le Baccalauréat algérien ou son équivalent. L’admission à l’école est soumise à un classement avec priorité accordée aux différents baccalauréats, comme suit :
+
+Priorité 01 : Mathématiques (Lycée des Mathématiques de Kouba-Alger)
+
+Priorité: Mathematiques
+
+Priorité 03 : Sciences expérimentales et Techniques mathématiques
+
+La sélection est basée sur un classement utilisant la moyenne pondérée calculée comme suit : (2*Moyenne générale + Mathématiques)/ 3, qui doit être supérieure ou égale à 16,00/20.
+
+Note : Ceci est le score minimum requis. Le score final dépend de l’offre et de la demande. Veuillez vous référer au tableau ci-dessous pour un résumé des scores requis lors des années précédentes :
+
+Bac 2021 (Moyenne Generale)
+Bac 2022 (Moyenne Pondérée)
+Mathematiques
+ ≥ 17.52
+≥ 17.77
+Sciences expérimentales
+≥ 18.41
+≥ 18.29
+Mathematiques techniques
+≥ 18.41
+≥ 18.87
+
+Quelles sont les démarches qu’un bachelier doit suivre pour présenter sa demande d’inscription à l’école ?
+
+Les détails seront disponibles sur le site web du Ministère de l’Enseignement Supérieur et de la Recherche Scientifique.
+https://www.mesrs.dz/
+
+Quelles matières sont enseignées à l’ENSIA ?
+
+L’école propose un programme diversifié et complet visant à obtenir un diplôme d’ingénieur en « Intelligence Artificielle et Science des Données ». Le programme d’études met l’accent sur l’acquisition de compétences théoriques et pratiques en informatique, en mathématiques, en statistiques et en analyse de données, avec une emphase sur l’application de ces compétences à des problèmes concrets. De plus, les étudiants reçoivent une formation sur les compétences transversales telles que la communication, les affaires et l’innovation, la gestion de projet, la résolution de problèmes, la pensée critique et le travail d’équipe, qui sont essentielles pour réussir dans le monde professionnel.
+
+Le programme est conçu de telle manière que les étudiants suivent des cours de mathématiques et d’informatique pendant le cycle préparatoire, avec une réduction de l’accent mis sur ces matières lors de la première année du deuxième cycle. Dans la phase de spécialisation, les cours sont regroupés pour répondre à des domaines spécifiques d’intérêt en intelligence artificielle. Cela comprend notamment : (i) apprentissage automatique, (ii) le traitement du langage naturel (iii) vision par ordinateur (iv) la science des données et (v) IoT et cybersecurité. Des cours optionnels sont également disponibles pour les étudiants, leur permettant de compléter leur enseignement dans des domaines spécifiques et émergents.
+
+Tout au long de leur parcours éducatif, les étudiants sont encouragés à poursuivre leurs ambitions et leurs idées novatrices, avec une forte emphase sur l’entrepreneuriat et le développement du leadership.
+
+Quelle est la langue d’enseignement ?
+
+Généralement, tous les cours à l’ENSIA sont dispensés en anglais, y compris les supports de cours et les travaux pratiques. Cependant, il est important de noter que bien que la majorité de nos enseignants maîtrisent l’anglais, il peut arriver que certains utilisent le français lors de leurs présentations de cours s’ils se sentent plus à l’aise avec cette langue.
+
+Quel diplôme obtient-on après avoir terminé ses études à l’école ?
+
+L’école propose un programme de diplôme de 5 ans organisé comme suit :
+
+– Deux années d’enseignement général (cycle préparatoire)
+
+– Trois années d’enseignement spécialisé (deuxième cycle).
+
+Notre école fait partie du domaine de l’informatique et de l’intelligence artificielle. À la fin du programme de 5 ans, nos étudiants obtiendront un diplôme d’ingénieur. Actuellement, nous proposons une spécialisation unique en « Intelligence Artificielle et Science des Données ».
+
+Quelles sont les perspectives de carrière pour un étudiant diplômé de l’ENSIA ?
+
+Les diplômés de notre école ont un large éventail de perspectives professionnelles, car la demande de professionnels ayant des compétences en informatique, intelligence artificielle et science des données ne cesse d’augmenter. Voici quelques exemples de métiers possibles :
+
+– Ingénieur en informatique
+
+– Ingénieur en intelligence artificielle
+
+– Analyste de données
+
+– Ingénieur en apprentissage automatique (machine learning)
+
+– Consultant en données
+
+– Architecte de données
+
+– Entrepreneur technologique
+
+– Chercheur en intelligence artificielle
+
+Les compétences acquises lors du diplôme sont très appréciées dans les secteurs de services impliquant la conception et le développement d’applications informatiques, le support à la décision, la science des données, ainsi que la mise en place de systèmes intelligents pour la collecte, l’analyse, l’interaction et la simulation de données dans divers domaines tels que la santé, l’industrie, l’agriculture, la gestion des systèmes urbains et la sécurité.
+
+Ce profil polyvalent est particulièrement recherché dans des domaines tels que les sociétés de services en ingénierie informatique, les entreprises industrielles, les banques et les compagnies d’assurance, les collectivités locales, l’énergie et le développement durable, les transports, l’agriculture et la sécurité alimentaire, l’administration publique et privée, la santé et la sécurité.
+
+Les élèves peuvent-ils être transférés vers d’autres écoles ou universités après avoir terminé une ou les deux premières années ?
+
+Après avoir réussi le cycle préparatoire (deux premières années) :
+
+– Les 80 % des étudiants les mieux classés sont éligibles pour poursuivre le deuxième cycle dans notre école.
+
+– Les 20 % les moins bien classés ont la possibilité de passer l’examen écrit d’admission dans notre école ou dans une autre école nationale relevant du domaine MI. Les candidats réussissant cet examen pourront intégrer le deuxième cycle, tandis que les autres seront redirigés vers d’autres universités conformément aux réglementations en vigueur.
+
+Les étudiants qui échouent à une année quelconque de leurs études à l’école seront redirigés vers d’autres universités conformément aux réglementations actuellement en place.
+
+L’école aura-t-elle un programme de doctorat ?
+
+Oui, des écoles doctorales sont prévues dans les années à venir.
+
+L’école disposera-t-elle à l’avenir de laboratoires de recherche ?
+
+Oui, et ceci devra aussi servir le programme de doctorat.
+
+Inscription des candidats algériens titulaires d’un baccalauréat étranger en 2023 ?
+
+Les Algériens titulaires d’un baccalauréat étranger obtenu en 2023 doivent faire une demande en ligne d’équivalence de diplôme avant de s’inscrire à l’école. Vous pouvez demander une equivalence en suivant le lien:
+
+https://progres.mesrs.dz/webequivalence/
+
+Après avoir obtenu le certificat d’équivalence, les candidats peuvent créer un compte sur la plateforme PROGRES dans la section « Algérien titulaire d’un baccalauréat étranger » pour soumettre leur candidature.
+
+https://progres.mesrs.dz/bac-etrangers
+
+L’inscription des candidats internationaux bénéficiant de bourses du gouvernement algérien, des enfants de diplomates accrédités en Algérie titulaires d’un baccalauréat étranger, et des candidats internationaux titulaires d’un baccalauréat algérien
+
+Les candidats internationaux bénéficiant de bourses du gouvernement algérien, les enfants de diplomates accrédités en Algérie titulaires d’un baccalauréat étranger, et les candidats internationaux titulaires d’un baccalauréat algérien qui souhaitent s’inscrire à l’université en Algérie doivent soumettre leur demande par le biais des canaux diplomatiques.
+
+Ces candidats doivent effectuer une demande d’équivalence de diplôme en ligne. Les documents requis doivent être soumis en ligne par les missions diplomatiques sur la plateforme PROGRES (interface étudiant international).
+
+https://progres.mesrs.dz/international-students
+
+Une fois le processus d’orientation terminé, les missions diplomatiques des pays bénéficiant de bourses algériennes sont informées de l’acceptation des candidats. Les candidats qui ont été acceptés doivent soumettre les documents nécessaires pour finaliser leur inscription définitive à l’école. Les candidats qui ont été acceptés doivent soumettre les documents nécessaires pour finaliser leur inscription définitive à l’école.
+
+Est-ce qu’il y aura un examen d’entrée pour les étudiants ayant terminé deux années dans d’autres universités/écoles en Algérie ?
+
+For the academic year 2022/2023, seuls les étudiants de deuxième année de notre école ayant réussi le cycle préparatoire (deux premières années) seront admis au deuxième cycle de notre spécialisation. Aucun examen d’entrée ne sera organisé cette année.
+
+À partir de l’année académique 2023/2024, sous réserve de modifications réglementaires, l’examen écrit d’admission au deuxième cycle de l’école sera ouvert à :
+
+– Les candidats qui ont réussi les deux (02) années du cycle préparatoire de l’année en cours dans la même école mais n’ont pas été sélectionnés sur la base de leur dossier académique.
+
+– Les candidats issus d’autres écoles supérieures dans le même domaine qui ont réussi les deux (02) années du cycle préparatoire de l’année en cours dans leur école.
+
+– Les candidats ayant réussi les deux (02) années du cycle préparatoire et ayant été redirigés vers une université ou un centre universitaire au cours de l’année académique précédente.
+
+– Les candidats issus d’universités ou de centres universitaires poursuivant actuellement un diplôme de licence et ayant réussi, à la date du concours, au moins deux (02) années d’études sans avoir eu de redoublement.
+
+L’examen écrit d’admission au deuxième cycle de l’école est décisif et basé sur un classement pour cette catégorie de candidats.

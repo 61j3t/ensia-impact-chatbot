@@ -1,0 +1,14 @@
+[Source: https://www.ensia.edu.dz/training-on-nvidia-deep-learning-platform-by-abdelghani-kabot/]
+[Title: Workshop on Nvidia Deep Learning platform by A. Kabot]
+[Language: en]
+[Modified: 2022-05-26T16:12:51]
+
+A training session on NVIDIA’s Deep Learning platform was given by Mr Abdelghan Kabot, a certified trainer at NVIDEA.
+
+The objectives of the course are:
+
+Learn the fundamental techniques and tools needed to understand a deep learning model.
+Gain experience with the most common deep learning data types and model architectures.
+Improvement of datasets through data augmentation to improve model accuracy.
+Take advantage of learning transfer between models to achieve efficient results with less data and computation.
+Gain the confidence to undertake a project with a modern deep learning framework.

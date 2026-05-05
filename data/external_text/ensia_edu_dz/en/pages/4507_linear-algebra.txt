@@ -1,0 +1,51 @@
+[Source: https://www.ensia.edu.dz/linear-algebra/]
+[Title: Linear Algebra]
+[Language: en]
+[Modified: 2023-11-01T19:22:41]
+
+Semestre 2, CP
+VHS
+C/TD/TP
+VHH Total
+C/TD/TP
+V.H. Hebdomadaire
+Coef
+Crédits
+C
+TD
+TP
+UE Methodologiques 2.1
+90
+6
+3
+3
+4
+6
+Course Description:
+This course will provide students with all essential linear algebra tools to enable them to understand the mathematical foundations of machine learning and data mining algorithms. Students will become familiar with matrix manipulations and calculations. In addition, they will learn about concepts such as eigenvalues and vectors, diagonalisation, matrix triangulation and orthogonality.
+The last chapter is dedicated to symmetric matrices and quadratic forms.
+Prerequisite :
+Foundational Mathematics
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+Course Content
+Part 1
+Vector space
+Dimension and basis
+Linear applications
+Matrices
+Solving Systems of Linear Equations
+Eigenvalues and Eigenvectors and Diagonalization
+Part 2
+
+Matrix Triangularisation
+Orthogonality
+Symmetric Matrices and Quadratic Forms
+References
+Strang, G. (2016) Introduction to Linear Algebra, (5th Edition), Wellesley-Cambridge Press.
+Lay, D.C., Lay, S.R., and McDonald, J.J. (2015) Linear Algebra and Its Applications (5th Edition), Pearson.
+Axler, S. (2015) Linear Algebra Done Right (3rd Edition), Springer.
+Kuldeep Singh (2013) Linear Algebra: Step by Step (1st Edition), Oxford University Press.
+Introduction à l'Algèbre linéaire, Benali BENZAGHOU, OPU, 2015.
+Mark Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, Mathematics for Machine Learning, Cambridge University Press, 2020
+Amara Hitta, Cours D’Algèbre et exercices corrigés, OPU, 2014.

@@ -1,0 +1,6 @@
+[Source: https://www.ensia.edu.dz/fr/third-edition-of-the-mobai-hackathon/]
+[Title: Troisième édition du hackathon MobAi]
+[Language: fr]
+[Modified: 2026-02-15T16:17:41]
+
+L’École Nationale Supérieure d’Intelligence Artificielle a accueilli, sur trois jours du 12 au 14 février 2026, la troisième édition de l’événement scientifique MobAi, un hackathon organisé par le club scientifique de l’école, Skill and Tell. Douze équipes issues de différentes universités nationales ont participé à cette compétition, toutes cherchant à développer des solutions pour améliorer les systèmes de gestion des entrepôts au profit de l’entreprise BMS Electric, sponsor de l’événement.

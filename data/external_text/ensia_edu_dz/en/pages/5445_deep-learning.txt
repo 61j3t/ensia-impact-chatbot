@@ -1,0 +1,81 @@
+[Source: https://www.ensia.edu.dz/deep-learning/]
+[Title: Deep Learning]
+[Language: en]
+[Modified: 2024-07-14T14:22:46]
+
+Module : Deep Learning
+
+Semestre 7 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 7.1
+
+67.5
+
+4.5
+
+1.5
+
+3
+
+4
+
+5
+
+Course Description:
+
+Students gain an understanding of the theoretical and practical concepts of deep neural networks including, optimization, inference, architectures and applications. After this course, students should be able to develop and train deep neural networks, reproduce research results and conduct original research in this area.
+
+Prerequisite :
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Introduction to Deep Learning
+
+Training Deep Neural Networks: Optimisation
+
+Teaching Deep Learners to Generalize: Regularisation
+
+Convolutional Neural Networks
+
+Recurrent and Recursive Neural Networks
+
+Deep Generative Models (GAN, Boltzmann Machines, Autoencoders..)
+
+Transformers and Attention Mechanism
+
+References
+
+C. Bishop : Pattern Recognition and Machine Learning. Springer, New York, 2006.
+
+A. Cornuéjols and L. Miclet : Apprentissage artificiel – Concepts et algorithmes.
+
+Eyrolles, 2010.
+
+I. Goodfellow, Y. Bengio, A. Courville, Y. Bengio : Deep learning. Vol. 1. Cambridge:
+
+MIT Press, 2016
+
+T. Hastie, R. Tibshirani, Friedman, The Elements of Statistical Learning, Springer.
+
+ Charu C. Aggarwal, Neural Networks and Deep Learning: A Textbook, 1st ed, Springer, 2018

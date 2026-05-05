@@ -1,0 +1,14 @@
+[Source: https://www.ensia.edu.dz/launch-of-the-agri-challenge-2024/]
+[Title: Launch of The AgrI Challenge 2024]
+[Language: en]
+[Modified: 2024-12-26T14:20:04]
+
+On June 24, 2024, the first phase of the AgriChallenge Hackathon, organized by the National Higher School of Artificial Intelligence and the Higher School of Agriculture, kicked off at the premises of the latter.
+
+This event challenges participants to automatically classify plants. It provides an opportunity to enhance teamwork between students specializing in artificial intelligence and agriculture through collaborative efforts to classify plants based on their images using AI and computer vision techniques.
+
+The first day featured an official opening ceremony, followed by a valuable lecture on botany, focusing on plant identification and classification. A preparatory workshop for participating teams was also held. Over the next two days, students will collect the necessary data and images of plants. On June 26, participants will move to the National Higher School of Artificial Intelligence to develop a program that employs AI techniques to tackle the plant classification challenge. The event will conclude on June 27 with a closing ceremony to distribute prizes to the winning teams.
+
+This initiative is supported by Mobilis as the official sponsor, reflecting the company’s commitment to promoting innovation and technological development in the country.
+
+The “AgriChallenge” offers a unique opportunity for students to acquire new skills in image analysis, computer vision, and interdisciplinary collaboration, enhancing their abilities in innovation and teamwork.

@@ -1,0 +1,102 @@
+[Source: https://www.ensia.edu.dz/speech-processing/]
+[Title: Speech Processing]
+[Language: en]
+[Modified: 2024-07-14T14:27:08]
+
+Module : Speech Processing
+
+Semestre 8 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 8.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+3
+
+4
+
+Course Description:
+
+This course introduces students to the rapidly developing field of speech processing which includes automatic speech recognition. Speech Processing offers a practical and theoretical understanding of how human speech can be processed by computers. It covers speech recognition, speech synthesis and spoken dialog systems. The course involves practicals where the student will build working speech recognition systems, build their own synthetic voice and build a complete telephone spoken dialog system. This work will be based on existing toolkits. Details of algorithms, techniques and limitations of state-of-the-art speech systems will also be presented. This course is designed for students wishing to understand how to process real data for real applications, applying statistical and machine learning techniques as well as working with limitations in the technology.
+
+Prerequisite :
+ Machine learning, data mining, advanced programming
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Introduction
+
+Mathematical foundations
+
+Signals and transforms
+
+Digital filters Probability
+
+Statistics and estimation theory
+
+Speech analysis and coding
+
+Short-time Fourier analysis and synthesis
+
+Linear prediction of speech
+
+Source estimation
+
+Cepstral analysis
+
+Speech and speaker recognition
+
+Template matching
+
+Hidden Markov models and Refinements for HMMs
+
+Large vocabulary continuous speech recognition
+
+The HTK speech recognition system
+
+Speaker recognition
+
+Speech synthesis and modification
+
+Text-to-speech
+
+Prosodic modification of speech
+
+Voice conversion
+
+References
+
+Huang, Acero, and Hon.
+Spoken Language Processing
+. Upper Saddle River, NJ: Prentice-Hall, 2001.
+
+ Frederick Jelinek.
+Statistical Methods for Speech Recognition
+. Cambridge, MA: MIT Press, 1998.

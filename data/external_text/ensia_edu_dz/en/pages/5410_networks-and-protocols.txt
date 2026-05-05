@@ -1,0 +1,92 @@
+[Source: https://www.ensia.edu.dz/networks-and-protocols/]
+[Title: Networks and Protocols]
+[Language: en]
+[Modified: 2024-07-14T14:17:27]
+
+Module: Networks and Protocols
+
+Semestre 5 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 5.1
+
+67.5
+
+4.5
+
+1.5
+
+1.5
+
+1.5
+
+3
+
+5
+
+Course Description:
+
+This course is focusing on fundamental concepts, principles and techniques. The course will introduce basic networking concepts, including: protocol, network architecture, reference models, layering, service, interface, multiplexing, switching and standards. An overview of digital communication from the perspective of computer networking will also be provided.
+
+Topics covered in this course include: Internet (TCP/IP) architecture and protocols, network applications, congestion/flow/error control, routing and internetworking, data link protocols, error detection and correction, channel allocation and multiple access protocols, communication media and selected topics in wireless and data centre networks. It will cover recent advances in network control and management architectures by introducing the concepts of software-defined networking (SDN) and network (function) virtualisation.
+
+Students will gain hands-on experience in network programming using the socket API; network traffic/protocol analysis; and on assessment of alternative networked systems and architectures.
+
+Prerequisite :
+Information Technology Essentials
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Introduction to Computer Networking and the Internet
+
+Digital Communication Basics
+
+The Application Layer with comprehensive treatment of networked applications (incl. multimedia data and applications)
+
+The Transport Layer
+
+The Network Layer
+
+The Data Link Layer
+
+The Medium Access Control Sub-Layer
+
+The Physical Layer
+
+Software-defined networking (SDN)
+
+Network virtualisation and network function virtualisation (NFV)
+
+Network management
+
+Introduction to data centre and wireless networks
+
+References
+
+J. F. Kurose and K. W. Ross, Computer Networking: A Top-Down Approach (8th Edition), Pearson Education, 2021
+
+L. L. Peterson and B. S. Davie, Computer Networks: A Systems Approach (6th Edition), Morgan Kaufmann, 2020
+
+A. S. Tanenbaum, N. Feamster and D. J. Wetherall, Computer Networks (6th Edition), Pearson Education, 2021
+
+L. Peterson, C. Cascone, B. O’Connor, T. Vachuska, and B. Davie, Software-Defined Networks: A Systems Approach, 2021

@@ -1,0 +1,53 @@
+[Source: https://www.ensia.edu.dz/group-project/]
+[Title: Group Project]
+[Language: en]
+[Modified: 2024-07-14T14:20:55]
+
+Module : Group Project
+
+Semestre 6 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+Travail Personnel
+
+UE Methodologiques 6.1
+
+22.5
+
+1.5
+
+1.5
+
+3
+
+2
+
+2
+
+Course Description:
+Students are given a topic where they can develop a software solution using various slack of technological tools. Students would put in practice all the notions and theories learnt across different modules into practice from analysing the application domain of the selected topic into developing a fully functional software application.
+
+The project will be supervised by an academic staff with the recommendation to conduct the project as part of an internship within a company.
+
+Prerequisite :
+Software Engineering, Advanced Programming, Database, Mobile App Development, Web Development
+
+Evaluation Method :
+Project Report (35 %) + Implementation (40%) + Demonstration & Questions Answering ( 35%)

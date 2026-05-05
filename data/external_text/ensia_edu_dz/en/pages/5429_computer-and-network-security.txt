@@ -1,0 +1,118 @@
+[Source: https://www.ensia.edu.dz/computer-and-network-security/]
+[Title: Computer and Network Security]
+[Language: en]
+[Modified: 2024-07-14T14:20:49]
+
+Module: Computer and Network Security
+
+Semestre 6 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 6.1
+
+67.5
+
+4.5
+
+1.5
+
+1.5
+
+1.5
+
+3
+
+5
+
+Course Description :
+
+This course presents the foundations of information security, cybersecurity, computer security, and network security. It consists of four main parts. The first part presents an introduction to information security and cybersecurity, and discusses the various security principles and real-life paradigms that exist in our cyber-physical and intelligent systems. The second part introduces cryptography as a strong and versatile mathematical tool to implement security mechanisms and protocols. The third part covers computer security by going through the different security threats and vulnerabilities related to computer hosts and operating systems and how computers thwart cyberthreats. The last part, covers security of networks, which covers network threats, large-scale cyber attacks, and security mechanisms (firewalls, IDS, honeypots, etc).
+
+Prerequisite :
+ Databases, Operating Systems
+
+Evaluation Method :
+Coursework (40%) + Final Exam (60%)
+
+Course Content
+
+Part 1: Introduction to Information security
+
+Overview of information security and cybersecurity.
+
+Information security principles and terminologies.
+
+Threats, vulnerabilities, exploits, attacks, cyberattacks, intrusions, and countermeasures.
+
+Importance of information, computer, network, and cybersecurity.
+
+Ethics: security mindset, security engineering, and ethical hacking.
+
+Part 2: Cryptography
+
+Introduction to cryptography.
+
+Classical and modern cryptography.
+
+Cryptanalysis and formal analysis of cryptographic protocols.
+
+Hash function and Message Integrity.
+
+PKI infrastructures, digital certificates, and digital signatures.
+
+Key Management Algorithms.
+
+Elliptic curve cryptography [and Zero-Knowledge algorithms].
+
+Security protocols and authentication mechanisms.
+
+Formal analysis of security protocols.
+
+Part 3: Computer Security
+
+Operating system security.
+
+Hardware security (PUFs, BIOS poisoning, Firewire threads, DMA threads, etc.).
+
+Malware (viruses, worms, backdoors, trojans, spyware, rootkits, keyloggers).
+
+Security mechanisms for computer security (antimalware, firewall, HIDSs, etc)
+
+Buffers overflow on the stack and on the heap.
+
+Web security: SQL-injection, session hijacking, XSS, and more.
+
+Part 4: Network Security
+
+Network threats (Following Stalling’s classification).
+
+Firewalls and network security mechanisms.
+
+Intrusion detection and prevention systems.
+
+Wireless network security (e.g., Wi-fi, bluetooth, and RFID security).
+
+References
+
+William Stallings and Lawrie Brown. Computer Security: Principles and Practice, Pearson Education, 2012.
+
+David Wagner, Nicholas Weaver, Peyrin Kao, Fuzail Shakir, Andrew Law, and Nicholas Ngai. https://textbook.cs161.org/
+
+Michael Goodrich and Roberto Tamassia. Introduction to Computer Security, Pearson, 2010.

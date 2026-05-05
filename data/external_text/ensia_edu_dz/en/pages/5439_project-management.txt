@@ -1,0 +1,75 @@
+[Source: https://www.ensia.edu.dz/project-management/]
+[Title: Project Management]
+[Language: en]
+[Modified: 2024-07-14T14:21:01]
+
+Module: Project Management
+
+Semestre 6 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Transversales 6.1
+
+30
+
+2
+
+1.5
+
+0.5
+
+1
+
+2
+
+2
+
+Course Description:
+
+Reinforcement Learning (RL) is a general framework that can capture the evolving and unpredictable learning environment and has been used to design intelligent agents that achieve high level performances on challenging tasks. This course will provide a solid introduction to the field of reinforcement learning and students will learn about the core challenges and approaches, including generalisation and exploration.
+
+Prerequisite : Linear algebra, probability, programming.
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+The world of project management;
+
+The Manager the Organisation and the Team;
+
+Project Activity and Risk Planning;
+
+Budgeting the Project;
+
+Scheduling the Project;
+
+Allocating Resources to the Project;
+
+Monitoring and Controlling the Project;
+
+Evaluating and Closing the Project.
+
+References
+
+Jack R. Meredith, Scott M. Shafer, Samuel J. Mantel Jr., Margaret M. Sutton: Project Management in Practice, 7th Ed, Wiley, 2020

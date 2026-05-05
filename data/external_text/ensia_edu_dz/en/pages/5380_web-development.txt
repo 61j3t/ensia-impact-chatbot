@@ -1,0 +1,102 @@
+[Source: https://www.ensia.edu.dz/web-development/]
+[Title: Web Development]
+[Language: en]
+[Modified: 2024-07-14T14:01:23]
+
+Module : Web Development
+
+Semestre 3, CP
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Methodologiques 3.1
+
+67.5
+
+4.5
+
+1.5
+
+3
+
+2
+
+6
+
+Course Description:
+
+This course is an introduction to programming for the World Wide Web. Students will be taught the concepts for developing web applications using various technologies and frameworks including JavaScript and server-side programming languages. The course will cover in depth the following aspects:
+
+JavaScript for creating interactive web pages
+
+Asynchronous JavaScript and XML (Ajax) with fetch and JSON for enhanced web interaction and applications
+
+PHP Hypertext Processor for generating dynamic pages on a web server
+
+Web services for handling and responding to client-side requests
+
+Security for Web Applications
+
+Prerequisite :
+Information Technology Essentials, Introduction to Programming, Databases
+
+Evaluation Method :
+ Coursework (40%) + Final Exam (60%)
+
+Course Content
+
+Server-Side Programming
+
+Server-Side Basics
+
+Programming Languages
+
+Web Frameworks
+
+Javascript : Client-Side Programming
+
+Introduction to JavaScript
+
+JSON Data format
+
+JavaScript Frameworks
+
+Integration & Extension
+
+Database Programming
+
+Web Services and APIs
+
+Using Cloud Technologies
+
+Large Scale Web Applications
+
+Web Security
+
+References
+
+W3 Schools. Online content.
+https://www.w3schools.com
+ (HTML, CSS, JS)
+
+David Flanagan. The Definitive Guide: Master the World’s Most-Used Programming Language,
+ 7th Edition
+, 2020
+
+Robin Nixon. Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5 (Learning PHP, MYSQL, Javascript, CSS & HTML5, 2018

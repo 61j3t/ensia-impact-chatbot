@@ -1,0 +1,6 @@
+[Source: https://www.ensia.edu.dz/a-workshop-on-using-huawei-technologies-to-develop-ai-applications/]
+[Title: Leveraging Huawei Technologies for AI Development: A Hands-On Workshop]
+[Language: en]
+[Modified: 2025-01-08T09:52:03]
+
+On December 17, 2024, the National School of Artificial Intelligence, in collaboration with Huawei Telecommunications Algeria, hosted a workshop centered on utilizing Huawei’s technologies for artificial intelligence application development. The session featured Burak Özaydın, an expert from Huawei Cloud Research Institute Turkey, who provided an in-depth overview of ModelArts, its key features, and its integration capabilities with other technologies.

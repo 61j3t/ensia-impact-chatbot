@@ -1,0 +1,96 @@
+[Source: https://www.ensia.edu.dz/information-technology-essentials/]
+[Title: Information Technology Essentials]
+[Language: en]
+[Modified: 2023-11-01T14:06:18]
+
+Semestre 1, CP
+
+VHS
+
+C/TD/TP
+
+VHH Total
+
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Découvertes 1.1
+
+45
+
+3
+
+1.5
+
+1.5
+
+2
+
+4
+
+Course Description:
+
+This class includes broad coverage of technology concepts and trends underlying current and future developments in information technology, and fundamental principles for the effective use of computer-based information systems. There will be a special emphasis on networks and distributed computing, including the World Wide Web. Other topics include: hardware and operating systems, software development tools and processes and electronic commerce. This course is intended for students with little or no background in computer technology.
+
+Prerequisite :
+None
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Part 1 : Fundamentals of Computing
+
+Operating Systems
+
+Software Systems
+
+Programming Languages
+
+Part 2 : Office Suite
+
+Word
+
+Excel
+
+Latex
+
+Part 3 : Web Technology
+
+The Internet and World Wide Web (DNS, HTTP, FTP, SSL/TLS, …)
+
+Three tiers architecture (Browser/Web server/DBMS)
+
+HTML Basics
+
+CSS for Styling
+
+Search Engines
+
+Websites
+
+Part 4 : Emerging Technologies
+
+Recent Technologies
+
+Computer Science in other fields
+
+References
+
+White, Ron, et. al. How Computers Work. 2004.
+
+Gralla, Preston, et. al. How the Internet Works. Que Publishing. 2006.
+
+G.Michael Schneider, Invitation to Computer Science (Introduction to CS) 6th Edition, Cengage Learning, 2012

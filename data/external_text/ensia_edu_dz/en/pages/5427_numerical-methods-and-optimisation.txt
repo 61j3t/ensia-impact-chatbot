@@ -1,0 +1,114 @@
+[Source: https://www.ensia.edu.dz/numerical-methods-and-optimisation/]
+[Title: Numerical Methods and Optimisation]
+[Language: en]
+[Modified: 2024-07-14T14:20:22]
+
+Module: Numerical Methods and Optimisation
+
+Semestre 6 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Fondamentales 6.1
+
+60
+
+4
+
+2
+
+1.5
+
+0.5
+
+3
+
+5
+
+Course Description:
+
+This course in Numerical methods is designed to provide students with a strong foundation in numerical methods and their applications. The course begins with an introduction to the concept of errors in numerical analysis and the importance of using approximate methods. The course then delves into the topic of solving linear systems, polynomial interpolation and the least squares approximation method and its applications in data fitting and curve fitting.
+
+Students will learn about the importance of numerical optimization and the various methods used for one-dimensional optimization, as well as optimization techniques with or without constraints.
+
+Finally, metaheuristics will be introduced, including single-state methods such as simulated annealing and empirical analysis. Students will learn about research space structure and performance, population methods, and random search theory heuristics.
+
+Prerequisite :
+Continuous Mathematics 1,2, 3, Operational Research
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Part 1 Numerical Analysis
+
+Notions of errors in numerical analysis
+
+Approximate resolution of nonlinear equations of type f(x)=0
+
+Solving linear systems: Direct methods
+
+Solving linear systems: Iterative methods
+
+Polynomial Interpolation
+
+Least Squares Approximation
+
+Digital Integration
+
+Part 2 Optimisation
+
+One-dimensional optimization
+
+Optimization without constraints
+
+Optimization with constraints
+
+Special cases and approximation
+
+Part 3 Metaheuristics
+
+Definition of Metaheuristics
+
+Combinatorial Optimization Problems
+
+Trajectory Methods
+
+Population-based Methods
+
+Hybrid approaches
+
+References
+
+M. Atteia. M. Pradel : Eléments d’analyse numérique. Ceradues-Editions.
+
+Curtis F. Gerald. P. O. Wheatdey : Applied Numerical Analysis. Addison-Wesley Pub. Company.
+
+E. K. P Chong, S. M. Zak : An introduction to optimization. Second edition- John Wiley and Sons. New York. 2001.
+
+P.E. Gill. W. Murray, M. H. Wright : Practical optimization. Academic Press, 1981.
+
+J. Nocedal and S. J. Wright. Numerical Optimization. Springer-Verlag. New York. 1999.
+
+A. Eiben, J. E. Smith : Introduction to Evolutionary Computing. Springer, 2003.
+
+H. Hoos, T. Stützle : Stochastic Local Search: Foundations and Application. Morgan Kaufmann; 1st edition, 2004.
+
+S Luke : Essentials of Metaheuristics, 2010. Second edition, available at http://cs.gmu.edu/∼sean/book/metaheuristics/

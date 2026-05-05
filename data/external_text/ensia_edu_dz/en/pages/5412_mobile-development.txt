@@ -1,0 +1,100 @@
+[Source: https://www.ensia.edu.dz/mobile-development/]
+[Title: Mobile Development]
+[Language: en]
+[Modified: 2024-07-14T13:56:56]
+
+Module : Mobile Development
+
+Semestre 5 SC
+
+VHS
+C/TD/TP
+
+VHH Total
+C/TD/TP
+
+V.H. Hebdomadaire
+
+Coef
+
+Crédits
+
+C
+
+TD
+
+TP
+
+UE Transversales 5.1
+
+67.5
+
+4.5
+
+1.5
+
+3
+
+2
+
+5
+
+Course Description:
+
+Students will learn mobile application development and design by looking at different technological frameworks. Students are expected to design and develop a professional-quality mobile application that addresses a real-world problem in an innovative way. Coursework includes project conception, design, implementation, and pilot testing of mobile phone software applications.
+
+Prerequisite :
+Programming
+
+Evaluation Method :
+Coursework (40 %) + Final Exam (60%)
+
+Course Content
+
+Part 1 : Introduction:
+
+Why Mobile Apps?
+
+Technology : Native, Web and Hybrid
+
+Part 2 : App Design Issues and Considerations
+
+Mobile Development Lifecycle Overview
+
+Architecture, Design and Engineering Considerations
+
+Usability and User Interaction Design
+
+Overarching Design Principles and Guidelines
+
+Part 3: Developing the Mobile App
+
+Techniques, Methodologies for Mobile Application Development
+
+Mobile Application Development Frameworks
+
+Persistent Data in Mobile Apps
+
+Maps and Location in Mobile Apps
+
+Access to Hardware and Sensors
+
+Building Mobile Apps Powered by Enterprise Backend
+
+Secured Data Store and Synchronisation
+
+Part 4 : Testing and Publishing Apps
+
+Mobile Application Build and Delivery
+
+Testing Mobile Applications
+
+App Distribution Through App Stores
+
+Monetizing Apps
+
+References
+
+Catalin Ghita, Kickstart Modern Android Development with Jetpack and Kotlin, 1st ed, 2022
+
+Shaun Lewis and Mike Dunn “Native Mobile Development: A Cross-Reference for iOS and Android”, 2019

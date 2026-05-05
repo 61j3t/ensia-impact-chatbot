@@ -1,0 +1,9 @@
+[Source: https://www.ensia.edu.dz/workshop-on-the-creation-of-an-algerian-research-hub/]
+[Title: Workshop on the Creation of the “Algerian Research Hub”]
+[Language: en]
+[Modified: 2023-03-07T13:39:11]
+
+As part of the cooperation project between the Algerian Ministry of Higher Education and Scientific Research and the United States Embassy in Algeria, a workshop took place from 26 to 29 June 2022 which was organised by the National High Schools of Artificial Intelligence and Mathematics in collaboration with the American University of Notre Dame and the Centre for the Development of Advanced Technologies (CDTA). The aim of the international cooperation project is to create an Algerian Research Hub.
+The workshop covered the basic aspects related to data science and the creation of startups where academic staff and researchers from SONATRACH, ESI and CERIST took part in the event.
+
+The talks included presentations by Melissa Paulsen (Programs Director, Pulte Institute for Global Development, University of Notre Dame, USA), Abdelmalik Bachir (Director of the National School of Artificial Intelligence), and Ahmed Medeghri (Director of the National School of Mathematics) about the collaboration project. This was followed by plenary sessions presented by Nitesh V Chawla (Director of the Lucy Institute for Data Science, University of Notre Dame, USA) and James Thompson (Director of the Idea Centre at the University of Notre Dame, USA). Technical presentations were given by professors from the two schools with enriched discussions from all participants.
