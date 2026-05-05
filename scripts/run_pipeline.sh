@@ -24,20 +24,24 @@ if [[ "${1:-}" == "--rebuild" ]]; then
     REBUILD_FLAG="--rebuild"
 fi
 
-echo "▶ 1/5  Extract text from PDFs"
+echo "▶ 1/6  Extract text from PDFs"
 "$PY" scripts/01_extract_pdfs.py
 
 echo
-echo "▶ 2/5  OCR photo-only messages and scanned PDFs"
+echo "▶ 2/6  OCR photo-only messages and scanned PDFs"
 "$PY" scripts/02_ocr_images.py $REBUILD_FLAG
 
 echo
-echo "▶ 3/5  Merge OCR text into chat messages"
+echo "▶ 3/6  Merge OCR text into chat messages"
 "$PY" scripts/03_merge_ocr.py
 
 echo
-echo "▶ 4/5  Scrape ensia.edu.dz (WordPress REST API)"
+echo "▶ 4/6  Scrape ensia.edu.dz (WordPress REST API)"
 "$PY" scripts/04_scrape_ensia_website.py $REBUILD_FLAG
+
+echo
+echo "▶ 5/6  Scrape v2v.ensia.edu.dz (Playwright headless Chromium)"
+"$PY" scripts/05_scrape_v2v_website.py $REBUILD_FLAG
 
 # If any source data is newer than the index, force a rebuild so the
 # index reflects the updated content.
@@ -46,7 +50,10 @@ INDEX_REBUILD=""
 if [[ -n "$REBUILD_FLAG" ]]; then
     INDEX_REBUILD="--rebuild"
 elif [[ -f "$INDEX_FILE" ]]; then
-    for src in "data/messages_enriched.json" "data/external_text/ensia_edu_dz/_summary.json"; do
+    for src in \
+        "data/messages_enriched.json" \
+        "data/external_text/ensia_edu_dz/_summary.json" \
+        "data/external_text/v2v_ensia/_summary.json"; do
         if [[ -f "$src" && "$src" -nt "$INDEX_FILE" ]]; then
             echo
             echo "  ($src is newer than the index → forcing index rebuild)"
@@ -57,7 +64,7 @@ elif [[ -f "$INDEX_FILE" ]]; then
 fi
 
 echo
-echo "▶ 5/5  Build / refresh retrieval index"
+echo "▶ 6/6  Build / refresh retrieval index"
 "$PY" -m chatbot.index $INDEX_REBUILD
 
 echo

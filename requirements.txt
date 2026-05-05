@@ -41,3 +41,9 @@ python-dotenv==1.2.2
 
 # ── Telegram bot frontend ───────────────────────────────────────────────
 python-telegram-bot[ext]==22.7
+
+# ── External web scraping ───────────────────────────────────────────────
+# v2v.ensia.edu.dz is a JS-rendered SPA, so we render it with headless
+# Chromium via Playwright. Install the browser separately after pip:
+#   .venv/bin/python -m playwright install chromium
+playwright==1.59.0

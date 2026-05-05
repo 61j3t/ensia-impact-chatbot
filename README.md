@@ -14,7 +14,8 @@ ensia-impact-chatbot/
 │   ├── 02_ocr_images.py               ← OCR photo-only messages + scanned PDFs (incremental)
 │   ├── 03_merge_ocr.py                ← Merge OCR back into chat messages
 │   ├── 04_scrape_ensia_website.py     ← Pull every page/post from ensia.edu.dz (EN/AR/FR) via WP REST API
-│   └── run_pipeline.sh                ← One command: runs 01→02→03→04 + retrieval index build
+│   ├── 05_scrape_v2v_website.py       ← Render v2v.ensia.edu.dz with Playwright/Chromium (JS-rendered SPA)
+│   └── run_pipeline.sh                ← One command: runs 01→02→03→04→05 + retrieval index build
 ├── docs/
 │   └── architecture.md         ← Retrieval system architecture plan
 ├── chatbot/
@@ -51,7 +52,8 @@ ensia-impact-chatbot/
 ```bash
 python3.13 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-brew install tesseract tesseract-lang   # OCR backend, ara+fra+eng
+.venv/bin/python -m playwright install chromium    # for the v2v.ensia.edu.dz scraper
+brew install tesseract tesseract-lang              # OCR backend, ara+fra+eng
 
 # Configure secrets — copy template, then add your API key
 cp .env.example .env
@@ -77,7 +79,8 @@ The script chains all four stages and is safe to re-run anytime — perfect for 
 | 2. OCR photos & scanned PDFs | New photos / new scanned PDFs only | Anything already OCR'd |
 | 3. Merge OCR into chat | Always; rewrites file only if content changed | — |
 | 4. Scrape ensia.edu.dz | Re-fetches only pages whose `modified` timestamp changed | Unchanged pages skipped via the manifest |
-| 5. Build retrieval index | Adds new chunks; full rebuild if any source data is newer than the index | Re-runs are no-ops when nothing changed |
+| 5. Scrape v2v.ensia.edu.dz | Always re-renders (single-page app, no `modified` signal) | — |
+| 6. Build retrieval index | Adds new chunks; full rebuild if any source data is newer than the index | Re-runs are no-ops when nothing changed |
 
 ### Manual / per-stage runs
 
@@ -105,6 +108,7 @@ After the full pipeline:
 | PDFs (native text, 10 files) | ~398k | English/French/Arabic |
 | PDFs (OCR'd, 2 scanned decrees) | ~9k | Arabic legal decrees |
 | ensia.edu.dz (628 pages/posts, EN+AR+FR) | ~494k | Scraped via WP REST API |
+| v2v.ensia.edu.dz (landing page) | ~6k | Rendered with Playwright (JS SPA) |
 | **Total** | **~1.06 M chars / ~178 k words** | |
 
 Strongest topical areas: Companies, Startups, Opportunities, Events, Resources by Students, plus the official school pages (programs, AI Lab, faculty, news) on ensia.edu.dz.

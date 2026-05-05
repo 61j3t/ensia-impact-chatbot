@@ -1,0 +1,13 @@
+[
+  {
+    "id": "landing",
+    "slug": "v2v_landing",
+    "link": "https://v2v.ensia.edu.dz/",
+    "title": "V2V ENSIA Incubator — Turn Ideas Into Reality",
+    "language": "en",
+    "modified": "2026-05-05T17:56:07+00:00",
+    "char_count": 5548,
+    "output": "data/external_text/v2v_ensia/v2v_landing.txt",
+    "kind": "landing"
+  }
+]

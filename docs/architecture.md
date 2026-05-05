@@ -272,7 +272,9 @@ through `answer()`, replies with the answer + (optional) sources block
 - **Chat messages**: one message = one chunk. Messages with <20 chars are dropped.
 - **PDFs**: paragraph-aware recursive split, target ~2000 chars per chunk with ~250-char overlap between consecutive chunks.
 - **OCR'd photo content**: already merged into the chat messages by `scripts/03_merge_ocr.py`, so it flows through the same chat-message chunking path.
-- **External web pages (`ensia.edu.dz`)**: scraped via the WordPress REST API (`scripts/04_scrape_ensia_website.py`) into `data/external_text/<site>/<lang>/<kind>/<id>_<slug>.txt` with a header block (Source URL, Title, Language, Modified). Body is chunked the same way as PDFs. EN + AR + FR variants are scraped (628 docs total at last run, ~500 KB of text). Source rows in Telegram replies link directly to the page URL.
+- **External web pages (`ensia.edu.dz`)**: scraped via the WordPress REST API (`scripts/04_scrape_ensia_website.py`) into `data/external_text/ensia_edu_dz/<lang>/<kind>/<id>_<slug>.txt` with a header block (Source URL, Title, Language, Modified). Body is chunked the same way as PDFs. EN + AR + FR variants are scraped (628 docs total at last run, ~500 KB of text).
+- **External web pages (`v2v.ensia.edu.dz`)**: a JS-rendered React SPA, scraped with Playwright headless Chromium (`scripts/05_scrape_v2v_website.py`). Single landing page → single `data/external_text/v2v_ensia/v2v_landing.txt`. Same header / chunking convention.
+- Source rows in Telegram replies for any external chunk link directly to the page URL.
 
 Each chunk carries this metadata in ChromaDB (None values are stored as empty string for ChromaDB compatibility):
 
