@@ -195,27 +195,41 @@ list.
 based on top-1 reranker score (≥0.50 / 0.20–0.50 / <0.20). It's logged
 but no longer changes routing — the LLM is the only decision-maker.
 
-### Conversation memory (`chatbot/memory.py`)
+### Conversation memory + user registry (`chatbot/memory.py`)
 
-SQLite-backed rolling window of recent turns, scoped per (chat_id,
-user_id) so different users in the same group don't share context.
+Postgres-backed (psycopg v3, sync). Two tables:
 
-- File: `data/conversations.db` (gitignored, regenerable, contains
-  user-supplied content).
-- Schema: `(chat_id, user_id, turn_idx, role, content, ts)` with a
-  composite primary key and a `(chat_id, user_id, turn_idx DESC)` index.
-- Read API: `recent_turns(chat_id, user_id, n=5, max_age_hours=24)`
-  returns up to 5 exchanges (≤10 rows) ordered oldest→newest.
-- Write API: `add_turns(chat_id, user_id, turns)` appends atomically
-  with a serialized `turn_idx`.
-- `/reset` command (`reset(chat_id, user_id)`) clears all rows for the
-  caller and returns the deleted row count.
-- TTL is enforced at read time via timestamp filter; old rows aren't
-  proactively deleted (cheap, lets you bump the TTL later without
-  losing history).
-- Refused turns (LLM timeout, internal error) are **not** saved — they
-  carry no useful context. Successful small-talk replies **are** saved
-  so follow-ups can refer to them.
+```
+users(user_id PK, username, first_name, last_name, language_code,
+      is_bot, joined_at, last_active_at, query_count)
+
+conversations(id, chat_id, user_id, turn_idx, role, content, ts,
+              UNIQUE(chat_id, user_id, turn_idx))
+INDEX idx_conv_recent ON conversations (chat_id, user_id, turn_idx DESC)
+```
+
+Postgres runs in `docker-compose.yml` and is published on host port
+**5433** (not 5432, to avoid clashing with any locally-installed
+Postgres). The bot reads `DATABASE_URL` from `.env`; defaults to
+`postgresql://ensia:ensia@localhost:5433/ensia_bot`.
+
+- **`upsert_user(...)`**: called on every incoming message. Records or
+  refreshes the user's Telegram metadata (username, first/last name,
+  language code, is_bot) and bumps `last_active_at`. `COALESCE` keeps
+  existing values when a Telegram update doesn't include a field.
+- **`increment_query_count(user_id)`**: bumps `query_count` for accepted
+  (non-rate-limited) messages.
+- **`add_turns(chat_id, user_id, turns)`**: appends user/assistant
+  turns. `turn_idx` is derived from `MAX(turn_idx)+1` per (chat, user).
+- **`recent_turns(chat_id, user_id, n=5, max_age_hours=24)`**: read API
+  for the last 5 exchanges within the TTL.
+- **`reset(chat_id, user_id)`**: `/reset` command — wipes the user's
+  conversation rows, keeps their `users` row.
+- TTL is enforced at read time via the timestamp filter; old rows
+  aren't proactively deleted (cheap; lets you bump the TTL later
+  without losing history).
+- Refused turns (LLM timeout, internal error) are **not** saved.
+  Successful small-talk replies **are** saved so follow-ups work.
 
 ### Query rewriter
 
@@ -311,7 +325,7 @@ data/
 ├── extracted_text/        ← Per-PDF text (input to chunks.py)
 ├── ocr_text/              ← OCR'd photo + scanned-PDF text (input to chunks.py)
 ├── external_text/         ← Scraped web pages, EN/AR/FR per site (input to chunks.py)
-└── conversations.db       ← SQLite store for conversation memory (gitignored)
+└── (no conversations.db) ← Memory now lives in Postgres (docker-compose.yml)
 eval/
 ├── golden_set.json         ← 35 hand-curated queries with expected sources (used during retriever tuning)
 ├── validation_set.json     ← 19 held-out queries used once for unbiased generalization estimate

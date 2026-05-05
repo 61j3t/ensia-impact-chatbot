@@ -12,7 +12,8 @@ chatbot/chroma_db/
 .env.*
 !.env.example
 
-# Per-conversation memory (regenerable, contains user content)
+# Old SQLite memory (replaced by Postgres in docker-compose.yml).
+# Kept here so any leftover files don't accidentally get committed.
 data/conversations.db
 data/conversations.db-journal
 data/conversations.db-wal

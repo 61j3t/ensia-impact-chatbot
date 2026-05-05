@@ -305,6 +305,22 @@ async def _handle_query(update: Update, context: ContextTypes.DEFAULT_TYPE, quer
 
     logger.info("query from @%s in chat %s: %r", username, chat_id, query[:80])
 
+    # Record / refresh the user's metadata + bump their query counter.
+    # Best-effort: a Postgres outage shouldn't prevent answering.
+    if _memory is not None and user is not None:
+        try:
+            _memory.upsert_user(
+                user_id=user.id,
+                username=user.username,
+                first_name=user.first_name,
+                last_name=user.last_name,
+                language_code=user.language_code,
+                is_bot=bool(user.is_bot),
+            )
+            _memory.increment_query_count(user.id)
+        except Exception:
+            logger.exception("memory.upsert_user / increment_query_count failed")
+
     # Pull recent conversation history for this (chat, user). Memory is
     # per-user even in groups so different students don't share context.
     history: list[dict] = []
@@ -473,7 +489,9 @@ def main() -> None:
     logger.info("PDF→msg map: %d PDFs are linkable to their share message", len(_msg_id_by_pdf_name))
 
     _memory = ConversationMemory()
-    logger.info("Conversation memory ready (sqlite at %s)", _memory.db_path.relative_to(ROOT))
+    # Hide the password from logs in case anyone runs the bot interactively.
+    safe_dsn = re.sub(r":[^:@/]+@", ":***@", _memory.dsn)
+    logger.info("Conversation memory ready (postgres %s)", safe_dsn)
 
     logger.info("Loading retriever (BGE-M3 + reranker)… this takes ~10 s")
     _retriever = Retriever()

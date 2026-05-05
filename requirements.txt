@@ -47,3 +47,9 @@ python-telegram-bot[ext]==22.7
 # Chromium via Playwright. Install the browser separately after pip:
 #   .venv/bin/python -m playwright install chromium
 playwright==1.59.0
+
+# ── Database ────────────────────────────────────────────────────────────
+# Postgres for conversation memory + the user registry. The bot connects
+# via DATABASE_URL (set in .env). Postgres itself runs in Docker —
+# `docker compose up postgres -d`.
+psycopg[binary]==3.3.4

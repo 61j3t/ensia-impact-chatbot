@@ -1,0 +1,32 @@
+# Postgres for the bot's conversation memory + user registry.
+# The bot itself runs natively on the host (so MPS / Apple GPU still works)
+# and connects to localhost:5432.
+#
+# Start:    docker compose up -d
+# Stop:     docker compose down
+# Wipe:     docker compose down -v       # also drops the data volume
+# Shell:    docker compose exec postgres psql -U ensia ensia_bot
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: ensia_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ensia
+      POSTGRES_PASSWORD: ensia
+      POSTGRES_DB: ensia_bot
+    # Host port 5433 to avoid clashing with any local postgres on 5432.
+    # Inside the container Postgres still listens on 5432.
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ensia -d ensia_bot"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_data:

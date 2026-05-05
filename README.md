@@ -22,7 +22,7 @@ ensia-impact-chatbot/
 │   ├── chunks.py               ← Chunk loader (chat + PDFs + OCR), language tags
 │   ├── index.py                ← Builds ChromaDB index with BGE-M3 embeddings
 │   ├── retrieve.py             ← Dense + reranker retriever + CLI
-│   ├── memory.py               ← SQLite conversation memory (per chat+user, 24h TTL)
+│   ├── memory.py               ← Postgres conversation memory + user registry (per chat+user, 24h TTL)
 │   ├── answer.py               ← End-to-end: rewrite → retrieve → LLM-as-router → citation-driven sources
 │   ├── telegram_bot.py         ← Telegram frontend (@ensia_impact_group_bot)
 │   └── chroma_db/              ← Persistent vector store (gitignored, regenerable)
@@ -43,8 +43,7 @@ ensia-impact-chatbot/
     ├── extracted_text/         ← Output of 01: PDF text + _summary.json
     ├── ocr_text/               ← Output of 02: photos.json + scanned PDFs
     ├── messages_enriched.json  ← Output of 03: chat with OCR merged
-    ├── external_text/          ← Output of 04: scraped pages from ensia.edu.dz (EN/AR/FR)
-    └── conversations.db        ← Per-user chat memory (gitignored, regenerable)
+    └── external_text/          ← Output of 04+05: scraped pages from ensia.edu.dz + v2v.ensia.edu.dz
 ```
 
 ## Setup
@@ -58,6 +57,9 @@ brew install tesseract tesseract-lang              # OCR backend, ara+fra+eng
 # Configure secrets — copy template, then add your API key
 cp .env.example .env
 # edit .env to set GROQ_API_KEY (or ANTHROPIC_API_KEY / OPENAI_API_KEY / GEMINI_API_KEY)
+
+# Start Postgres (memory + user registry). Published on localhost:5433.
+docker compose up -d
 ```
 
 The chatbot uses [LiteLLM](https://github.com/BerriAI/litellm) so swapping LLM providers is a one-line change in `.env`. Default is `groq/llama-3.3-70b-versatile`.
