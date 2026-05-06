@@ -84,17 +84,21 @@ after the claim they support, e.g. "[chat_832]", "[pdf_ENSIA_3]", \
 3. SERVER QUESTION the CONTEXT does NOT cover:
    Say you don't have specific info on that yet, and suggest related server \
 topics they could ask about (CDE, the incubator, internships, decree 1275, \
-scholarships, events, etc.). Don't fabricate citations.
+scholarships, events, etc.). **Do NOT use brackets at all** — not as \
+evidence, not as a list of "things I checked", not even like "[1] or [2]". \
+A refusal must contain zero `[chunk_id]` markers.
 
 4. CLEARLY OFF-TOPIC (write code, weather, world events, math homework, \
 personal/private info about real people):
    Politely say your scope is the ENSIA Impact server's content and invite \
 them to ask about server topics. **Be tolerant** — if a question is even \
-plausibly server-related, treat it as case 3 instead of this one.
+plausibly server-related, treat it as case 3 instead of this one. **No \
+brackets in this case either.**
 
 LANGUAGE: respond in the user's language (English / French / Arabic / mixed).
 TONE: warm but concise. Two or three sentences is usually enough.
-NEVER make up [chunk_id] citations. Only cite IDs that appear in the CONTEXT.
+NEVER make up [chunk_id] citations. Only cite IDs that appear in the \
+CONTEXT, and only in case 2 above.
 """
 
 # Detects [chunk_id] citations in the LLM's answer. Used to decide whether
@@ -102,6 +106,46 @@ NEVER make up [chunk_id] citations. Only cite IDs that appear in the CONTEXT.
 # answer was either small talk or a redirect, and a sources block would be
 # noisy/misleading.
 _CITATION_RE = re.compile(r"\[(chat_\d+|pdf_[\w\-]+_\d+|ext_[\w\-]+_\d+)\]")
+
+# Phrases that strongly indicate the LLM is refusing rather than answering,
+# even when it cited chunks. If any of these appear in the answer, we strip
+# the citations and zero out the sources block — they'd be misleading
+# next to "I don't have info on that". The system prompt forbids brackets
+# in refusals; this regex is a backstop for when the LLM ignores it.
+_REFUSAL_PATTERNS = re.compile(
+    r"(?i)\b("
+    r"(?:do(?:n'?t| not)) have (?:any |specific )?(?:info(?:rmation)?|"
+    r"data|details|specifics|context)|"
+    r"no (?:specific |particular )?(?:info(?:rmation)? )?(?:about|on|"
+    r"regarding) [a-z]|"
+    r"(?:cou|ca)(?:l)?d(?:n'?t| not) find|"
+    r"I (?:do(?:n'?t| not)) (?:see|have|know)|"
+    r"not (?:in|present in|found in|provided in) the context|"
+    r"outside (?:my |the bot's )?scope"
+    r")\b"
+)
+
+
+def _scrub_citations(text: str) -> str:
+    """Strip `[chunk_id]` markers and the immediate punctuation/conjunctions
+    that were tying them together (e.g. `[1], [2], or [3]`). Used after a
+    refusal-pattern match — the citations don't actually support the
+    (non-)answer, so we'd rather render clean prose than a noisy list."""
+    text = _CITATION_RE.sub("", text)
+    # Iteratively collapse leftover punctuation and conjunctions until a
+    # pass changes nothing.
+    for _ in range(4):
+        before = text
+        text = re.sub(r",\s*(?=,|\s*(?:or|and)\b\s*[.,!?])", "",
+                      text, flags=re.IGNORECASE)
+        text = re.sub(r"\s+(?:or|and)\s+(?=[.,!?])", "",
+                      text, flags=re.IGNORECASE)
+        text = re.sub(r"\s*,\s*(?=[.!?])", "", text)
+        text = re.sub(r"\s+", " ", text)
+        text = re.sub(r"\s+([.,;:!?])", r"\1", text)
+        if text == before:
+            break
+    return text.strip()
 
 
 def _renumber_citations(
@@ -113,7 +157,14 @@ def _renumber_citations(
 
     Citations that don't match any retrieved source are left untouched (the
     LLM was told not to do that, but we don't want to silently strip them).
+
+    Refusal short-circuit: if the answer matches `_REFUSAL_PATTERNS`, we
+    scrub all citations and return an empty sources list, even if the LLM
+    listed brackets like "[1], [2], or [3]" to enumerate what it checked.
     """
+    if _REFUSAL_PATTERNS.search(answer_text):
+        return _scrub_citations(answer_text), []
+
     sources_by_id = {s["id"]: s for s in sources}
     cite_to_num: dict[str, int] = {}
 
