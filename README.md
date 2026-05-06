@@ -160,8 +160,9 @@ Behavior:
 - **DMs**: replies to every text message.
 - **Groups**: replies only when `@`-mentioned, when the user replies to one of its messages, or when the message starts with `/ask <question>`.
 - **Memory**: remembers the last 5 exchanges per `(chat, user)` for 24 hours. Follow-ups like "and how do I apply?" work — a small LLM rewrite resolves them into standalone queries before retrieval. `/reset` clears your history.
-- **LLM-as-router**: one `litellm.completion(...)` call per turn handles small talk, answerable server questions, server-adjacent unanswerables ("don't have specific info, try asking about X"), and clearly off-topic redirects. The presence of `[chunk_id]` citations in the LLM's reply drives whether the sources block is shown — small talk and redirects come back without a noisy sources list.
-- **Sources**: each row is a Telegram deep link. Chat citations jump into the right topic thread; PDF citations jump to the message that originally posted the PDF.
+- **LLM-as-router**: one `litellm.completion(...)` call per turn handles small talk, answerable server questions, server-adjacent unanswerables ("don't have specific info, try asking about X"), and clearly off-topic redirects. The presence of `[chunk_id]` citations in the LLM's reply drives whether the sources block is shown — small talk and redirects come back without a noisy sources list. A regex post-processor also scrubs citations off any answer that matches a refusal pattern, so "I don't have info on X in [1], [2], [3]" can't sneak through with five sources attached.
+- **Citations**: rendered as `[1]`, `[2]`, … in first-appearance order. Repeated mentions of the same source share a number. The 📚 Sources block lists only the chunks the LLM actually cited (deduped, in citation order).
+- **Sources**: each row is a Telegram deep link. Chat citations jump into the right topic thread; PDF citations jump to the message that originally posted the PDF; ensia.edu.dz / v2v citations link directly to the page.
 - **Footer**: single `⏱ Xs` total wall-clock line. Per-stage timings (`rewrite`, `retrieval`, `answer`) live in server logs.
 
 See `docs/architecture.md` for the full pipeline diagram and component details.

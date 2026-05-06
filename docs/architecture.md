@@ -23,8 +23,9 @@
                                 ▼  user message
         ┌────────────────────────────────────────────────────┐
         │ 1. Load conversation memory                        │
-        │    SQLite, last 5 exchanges per (chat, user),      │
-        │    24h TTL                                         │
+        │    Postgres (Docker), last 5 exchanges per         │
+        │    (chat, user), 24h TTL.                          │
+        │    Also upserts user metadata into `users` table.  │
         └────────────────────────────────────────────────────┘
                                 │
                                 ▼
@@ -69,10 +70,14 @@
                                 │
                                 ▼
         ┌────────────────────────────────────────────────────┐
-        │ 7. Citation-driven sources                         │
-        │    If the LLM cited any [chunk_id] → surface those │
-        │    5 retrieved chunks as a sources block.          │
-        │    Otherwise → no sources block.                   │
+        │ 7. Post-process the answer                         │
+        │    a. Refusal scrubber: if the answer matches      │
+        │       "don't have info" / "couldn't find" / etc.,  │
+        │       strip every [chunk_id] + force sources=[].   │
+        │    b. Renumber surviving [chunk_id] → [1], [2], …  │
+        │       in first-appearance order. Sources block     │
+        │       contains only the chunks actually cited,     │
+        │       deduplicated.                                │
         └────────────────────────────────────────────────────┘
                                 │
                                 ▼
@@ -155,11 +160,12 @@ one of four behaviors based on the user message:
 2. **Answerable server question**: answer using only the supplied
    context. Cite chunks inline as `[chunk_id]`.
 3. **Server-adjacent but unanswerable**: acknowledge missing info and
-   suggest related topics from the server. No fake citations.
+   suggest related topics from the server. **No brackets at all** — not
+   as evidence, not as a list of "things I checked".
 4. **Clearly off-topic** (write code, weather, world events, math
    homework, info about real people): polite redirect to server topics.
    The prompt is explicit about being **tolerant** — borderline goes to
-   case 3, not 4.
+   case 3, not 4. **No brackets** here either.
 
 #### Why LLM-as-router instead of an upfront classifier
 
@@ -177,6 +183,22 @@ infers from whether the LLM used `[chunk_id]` in the response. A regex
 checks for any citation; if absent, the sources block is hidden. Small
 talk replies and polite redirects therefore never carry a noisy sources
 list.
+
+After the LLM returns, two passes run on the answer text:
+
+1. **Refusal scrubber** — a regex (`_REFUSAL_PATTERNS` in `answer.py`)
+   matches first-person refusal phrasings like "don't have info",
+   "couldn't find", "do not see", "not in the context", "outside my
+   scope". When matched, every `[chunk_id]` is stripped, the leftover
+   commas / "or" / "and" conjunctions are tidied up, and the sources
+   list is forced to `[]`. This is a backstop for cases where the LLM
+   ignores the prompt and lists `[1], [2], or [3]` as "things I
+   checked" while declining to answer.
+2. **Renumber** — surviving `[chunk_id]` markers are replaced with
+   `[1]`, `[2]`, … in order of first appearance. The 📚 Sources block
+   contains *only* the chunks the LLM actually cited (deduplicated;
+   repeated mentions of the same source share one number). Hallucinated
+   IDs (not in the retrieved set) are left as-is so they're noticeable.
 
 #### Provider configuration
 
@@ -309,6 +331,33 @@ Each chunk carries this metadata in ChromaDB (None values are stored as empty st
 }
 ```
 
+### Dashboard (`dashboard/`)
+
+A read-only Next.js 15 app (App Router, React 19, Tailwind 3.4,
+TypeScript 5.7) that surfaces what Postgres has stored. **Server
+components query Postgres directly via `postgres.js`** — no API layer,
+no DB credentials in the browser. Pages disable caching
+(`force-dynamic`) so each refresh hits the live DB.
+
+Three routes:
+- **`/`** — overview: total / 7-day-active users, queries, total
+  messages; queries-per-day Recharts area chart; language bars; top 5
+  users; most recent activity feed.
+- **`/users`** — sortable table of every user with username, language,
+  query count, joined / last-active timestamps. Per-row link to the
+  per-user transcript.
+- **`/conversations`** — sidebar of users → click → main panel renders
+  that user's full transcript with role-tinted bubbles and timestamps.
+
+Run alongside the bot:
+```bash
+cd dashboard && npm install            # one-time
+npm run dev                            # → http://localhost:3000
+```
+Reads `DATABASE_URL` from `dashboard/.env.local` (same connection
+string as the bot's top-level `.env`). No auth — fine for local; put a
+reverse proxy with basic auth in front before exposing publicly.
+
 ## File layout
 
 ```
@@ -316,7 +365,7 @@ chatbot/
 ├── chunks.py              ← Builds the chunk list from messages_enriched.json + extracted_text/ + ocr_text/
 ├── index.py               ← Embeds chunks with BGE-M3, writes to ChromaDB. Idempotent.
 ├── retrieve.py            ← Retriever class: dense top-10 → rerank (max_length=512) → top-k. CLI for smoke-tests.
-├── memory.py              ← SQLite conversation memory: per (chat, user), 5-turn window, 24h TTL, /reset.
+├── memory.py              ← Postgres conversation memory + user registry: 5-turn window, 24h TTL, /reset.
 ├── answer.py              ← End-to-end: rewrite (if history) → retrieve → LLM-as-router → citation-driven sources + per-stage timings.
 ├── telegram_bot.py        ← Telegram frontend: history load/save, /reset, deep-link sources, single ⏱ footer.
 └── chroma_db/             ← Persistent ChromaDB store
@@ -335,6 +384,12 @@ eval/
 ├── stress_test.py          ← Robustness probe: 4 query perturbations × every query
 ├── k_sweep.py              ← Sweeps k to surface recall@k curve and score distribution
 └── reports/                ← Markdown reports per run
+dashboard/                  ← Read-only Next.js 15 app over the Postgres tables
+├── app/                    ← /, /users, /conversations (server components)
+├── components/             ← Nav, StatCard, QueriesChart, LanguageBars
+├── lib/                    ← postgres.js client + typed query functions
+└── package.json
+docker-compose.yml          ← Postgres service (memory + user registry), localhost:5433
 .env                        ← Local secrets (gitignored): GROQ_API_KEY, TELEGRAM_BOT_TOKEN, CHATBOT_LLM_MODEL
 .env.example                ← Template — copy to .env and fill in
 ```
