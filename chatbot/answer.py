@@ -105,7 +105,10 @@ CONTEXT, and only in case 2 above.
 # to show the "📚 Sources" block — if the LLM didn't cite anything, the
 # answer was either small talk or a redirect, and a sources block would be
 # noisy/misleading.
-_CITATION_RE = re.compile(r"\[(chat_\d+|pdf_[\w\-]+_\d+|ext_[\w\-]+_\d+)\]")
+# Allows dots and dashes in the body of the ID so we match chat_links
+# chunks whose host directory keeps the original dot (e.g.
+# "ext_chat_links_erasmusplus.dz__overview-and-objectives_0").
+_CITATION_RE = re.compile(r"\[((?:chat|pdf|ext)_[\w.\-]+)\]")
 
 # Phrases that strongly indicate the LLM is refusing rather than answering,
 # even when it cited chunks. If any of these appear in the answer, we strip
