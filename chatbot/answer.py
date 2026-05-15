@@ -42,6 +42,7 @@ import argparse
 import os
 import re
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -57,16 +58,30 @@ DEFAULT_MODEL = os.getenv("CHATBOT_LLM_MODEL", "groq/llama-3.3-70b-versatile")
 HARD_REFUSAL_THRESHOLD = 0.20
 SOFT_REFUSAL_THRESHOLD = 0.50
 
-SYSTEM_PROMPT = """\
+SYSTEM_PROMPT_TEMPLATE = """\
 You are the assistant for the ENSIA Impact community — a Telegram group for \
 ENSIA students, faculty, and partners covering startups, research, internships, \
 opportunities, patents, events, and more.
 
+**Today's date is {today}.** Treat this as ground truth when reasoning about \
+deadlines or recency.
+
 Each user message arrives with CONTEXT — chunks the search system pulled from \
 either the Telegram chat history, the PDFs shared in it, or pages on the \
-ensia.edu.dz website. The CONTEXT may or may not be relevant to the message; \
-you decide. Chunk IDs look like `chat_832`, `pdf_ENSIA_3`, or \
-`ext_ensia_edu_dz_<slug>_0`.
+ensia.edu.dz website. Every chunk header includes a date (the chat message's \
+posting date, the page's last-modified date, etc.). The CONTEXT may or may not \
+be relevant to the message; you decide. Chunk IDs look like `chat_832`, \
+`pdf_ENSIA_3`, or `ext_ensia_edu_dz_<slug>_0`.
+
+**Time-sensitive content** — when a chunk uses relative phrasing like \
+"deadline in 30 days", "submissions close next month", "tomorrow at 2 PM", \
+those phrases were written on the chunk's date, NOT today. Compute against \
+the chunk date before presenting:
+  - If a deadline has clearly passed (chunk date + relative offset < today), \
+say so explicitly ("this deadline has passed" / "an older edition").
+  - For events more than ~6 months old, hedge: "as of <chunk date> the call \
+was open — check the source for the current status".
+  - Never present a year-old "deadline in 5 days" as if it were imminent.
 
 Pick the right behavior:
 
@@ -100,6 +115,12 @@ TONE: warm but concise. Two or three sentences is usually enough.
 NEVER make up [chunk_id] citations. Only cite IDs that appear in the \
 CONTEXT, and only in case 2 above.
 """
+
+
+def _system_prompt() -> str:
+    """Compose the system prompt with today's date injected."""
+    today = datetime.now(timezone.utc).date().isoformat()
+    return SYSTEM_PROMPT_TEMPLATE.format(today=today)
 
 # Detects [chunk_id] citations in the LLM's answer. Used to decide whether
 # to show the "📚 Sources" block — if the LLM didn't cite anything, the
@@ -208,14 +229,24 @@ LLM_TIMEOUT_S = 30
 # ─── helpers ────────────────────────────────────────────────────────────────
 
 def _chunk_label(metadata: dict) -> str:
-    """Compact human-readable label for a retrieved chunk."""
-    if metadata.get("source_type") == "chat":
+    """Compact human-readable label for a retrieved chunk. Always includes
+    a date when one is available — the LLM uses it to reason about whether
+    deadlines / events mentioned inside the chunk are still relevant."""
+    src = metadata.get("source_type")
+    if src == "chat":
         topic = metadata.get("topic") or "no topic"
         sender = metadata.get("sender") or "unknown"
-        date = (metadata.get("date") or "")[:10]
-        return f"chat msg | topic: {topic} | sender: {sender} | date: {date}"
-    if metadata.get("source_type") == "pdf":
-        return f"PDF: {metadata.get('pdf_file', '?')} | chunk #{metadata.get('chunk_index', '?')}"
+        date = (metadata.get("date") or "")[:10] or "?"
+        return f"chat msg | topic: {topic} | sender: {sender} | posted: {date}"
+    if src == "pdf":
+        return (f"PDF: {metadata.get('pdf_file', '?')} | "
+                f"chunk #{metadata.get('chunk_index', '?')}")
+    if src == "external":
+        # `date` was populated from the page's Modified / Fetched header.
+        date = (metadata.get("date") or "")[:10] or "?"
+        site = metadata.get("site") or "?"
+        title = metadata.get("title") or metadata.get("url") or "?"
+        return f"web page | site: {site} | title: {title} | last modified: {date}"
     return "unknown source"
 
 
@@ -349,7 +380,7 @@ def answer(
     context_block = _build_context(hits) if hits else "(no relevant content found)"
     user_message = f"CONTEXT:\n{context_block}\n\nUSER MESSAGE: {query}"
 
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+    messages = [{"role": "system", "content": _system_prompt()}]
     messages.extend(history)
     messages.append({"role": "user", "content": user_message})
 
