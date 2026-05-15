@@ -30,12 +30,14 @@ import re
 import unicodedata
 from pathlib import Path
 from typing import Iterator
+from urllib.parse import urldefrag, urlparse, urlunparse
 
 ROOT = Path(__file__).resolve().parent.parent
 MESSAGES = ROOT / "data/messages_enriched.json"
 EXTRACTED = ROOT / "data/extracted_text"
 OCR = ROOT / "data/ocr_text"
 EXTERNAL = ROOT / "data/external_text"
+CHAT_LINKS_MANIFEST = EXTERNAL / "chat_links" / "_manifest.json"
 
 
 # ─── chunking parameters ────────────────────────────────────────────────────
@@ -45,6 +47,10 @@ PDF_MAX_CHARS = 2000
 PDF_OVERLAP_CHARS = 250
 # Below this, a chat message is too short to be useful on its own.
 MIN_CHAT_CHARS = 20
+# When a chat message contains a URL we've also scraped, inline that page's
+# body into the chunk so retrieving the message surfaces the link's content
+# in one go. Capped to keep chunks manageable.
+LINK_EXCERPT_CHARS = 1200
 
 
 # ─── helpers ────────────────────────────────────────────────────────────────
@@ -125,6 +131,106 @@ def split_pdf_text(text: str) -> list[str]:
     return chunks
 
 
+# ─── chat-message link enrichment ──────────────────────────────────────────
+
+# Same URL-extraction logic as the crawler (scripts/06_fetch_chat_links.py).
+# Kept in sync so messages and the crawler reference the same canonical form.
+_URL_IN_TEXT = re.compile(r'https?://[^\s<>"\)\]\}]+', re.IGNORECASE)
+_INVISIBLE_TRAIL = re.compile(
+    r"[​-‏‪-‮⁠-⁤⁦-⁯]+$"
+)
+
+
+def _canon_url(u: str) -> str:
+    u = _INVISIBLE_TRAIL.sub("", u).rstrip(".,;:!?)\"'")
+    u, _ = urldefrag(u)
+    p = urlparse(u)
+    host = (p.hostname or "").lower()
+    netloc = host if not p.port else f"{host}:{p.port}"
+    path = re.sub(r"/+", "/", p.path or "/").rstrip("/") or "/"
+    return urlunparse((p.scheme or "https", netloc, path, "", p.query, ""))
+
+
+def _load_chat_link_index() -> dict[str, dict]:
+    """{canonical_url: manifest entry} for every chat-link page we've
+    successfully scraped. Empty when the crawler hasn't run yet."""
+    if not CHAT_LINKS_MANIFEST.exists():
+        return {}
+    try:
+        raw = json.loads(CHAT_LINKS_MANIFEST.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    out: dict[str, dict] = {}
+    for url, meta in raw.items():
+        if not isinstance(meta, dict):
+            continue
+        out[_canon_url(url)] = meta
+    return out
+
+
+def _strip_external_header(text: str) -> str:
+    """Drop the `[Source: …]` / `[Title: …]` header block from a scraped
+    page so only the body shows up in chunk context."""
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        if not line:
+            i += 1
+            break
+        if not re.match(r"^\[[\w\- ]+:\s*.*?\]$", line):
+            break
+        i += 1
+    return "\n".join(lines[i:]).strip()
+
+
+def _linked_excerpt(meta: dict, max_chars: int = LINK_EXCERPT_CHARS) -> str | None:
+    """Body excerpt of a previously-scraped chat link, ready to inline
+    into a chat-message chunk. Returns None if the file is missing."""
+    file_rel = meta.get("file")
+    if not file_rel:
+        return None
+    path = ROOT / file_rel
+    if not path.exists():
+        return None
+    try:
+        text = _strip_external_header(path.read_text(encoding="utf-8"))
+    except OSError:
+        return None
+    if not text:
+        return None
+    if len(text) > max_chars:
+        text = text[:max_chars].rstrip() + " […truncated]"
+    return text
+
+
+def _enrich_with_links(text: str, link_index: dict[str, dict]) -> str:
+    """If the message text contains URLs we've scraped, append each linked
+    page's title + excerpt to the chunk. Original message stays at the top
+    so the embedder still gets the user-authored signal first."""
+    if not link_index:
+        return text
+    additions: list[str] = []
+    seen: set[str] = set()
+    for raw in _URL_IN_TEXT.findall(text):
+        canon = _canon_url(raw)
+        if canon in seen:
+            continue
+        seen.add(canon)
+        meta = link_index.get(canon)
+        if not meta:
+            continue
+        excerpt = _linked_excerpt(meta)
+        if not excerpt:
+            continue
+        title = (meta.get("title") or "").strip()
+        header = f"— Linked page: {canon}"
+        if title:
+            header += f" — {title}"
+        additions.append(f"\n\n{header}\n{excerpt}")
+    return text + "".join(additions)
+
+
 # ─── chat message chunks ────────────────────────────────────────────────────
 
 def _build_topic_resolver(all_messages):
@@ -158,6 +264,7 @@ def chat_chunks() -> Iterator[dict]:
         raw = json.load(f)
     all_messages = raw["chats"]["list"][0]["messages"]
     resolve_topic = _build_topic_resolver(all_messages)
+    link_index = _load_chat_link_index()
 
     for m in all_messages:
         if m.get("type") != "message":
@@ -165,14 +272,19 @@ def chat_chunks() -> Iterator[dict]:
         text = flatten_text(m.get("text", "")).strip()
         if len(text) < MIN_CHAT_CHARS:
             continue
+        # Inline any chat-link content we've scraped — so a chat message
+        # like "Check [erasmusplus.dz/key-actions]" embeds the actual
+        # page's body alongside the message text, and retrieving the
+        # message also surfaces what the link contains.
+        text_enriched = _enrich_with_links(text, link_index)
 
         yield {
             "id": f"chat_{m['id']}",
-            "text": text,
+            "text": text_enriched,
             "metadata": {
                 "source_type": "chat",
                 "topic": resolve_topic(m),
-                "language": detect_language(text),
+                "language": detect_language(text_enriched),
                 "message_id": m["id"],
                 "pdf_file": None,
                 "chunk_index": None,
