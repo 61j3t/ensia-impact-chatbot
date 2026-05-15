@@ -1,7 +1,7 @@
 [Source: https://erasmusplus.dz/individuals]
 [Title: Individuals - National Erasmus+ Office Algeria]
-[Backend: playwright]
-[Fetched: 2026-05-15T11:16:48+00:00]
+[Backend: httpx]
+[Fetched: 2026-05-15T14:31:10+00:00]
 
 Opportunities for individuals
 Erasmus Mundus Joint Masters are offered by multiple higher education institutions and run across various countries. They are distinguished by their academic excellence and by the high-level of integration of the courses.

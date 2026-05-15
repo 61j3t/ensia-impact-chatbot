@@ -1,8 +1,0 @@
-[Source: https://e-services.inapi.org/rating]
-[Title: INAPI]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:12:31+00:00]
-
-Brevets
-Qu'est-ce qu'un brevet ? Pourquoi c’est important Déposer un brevet Inscriptions Taxes Rédiger un brevetMarques
-Recherche d'antériorité À propos Déposer une marque Inscriptions Base de données Marques international enregistrées en Algérie via Madrid Marques international enregistrées à l'étranger via Madrid Appellations d'origines Deposer une appellations d'origines Baréme des Taxes Appellations d'origines Baréme des Taxes Marque© Tous droits réservés par l'Institut National Algérien de la Propriété Industrielle 2023

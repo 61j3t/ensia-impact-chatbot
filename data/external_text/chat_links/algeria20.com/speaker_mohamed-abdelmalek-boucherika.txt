@@ -1,6 +1,0 @@
-[Source: https://algeria20.com/speaker/mohamed-abdelmalek-boucherika]
-[Title: Mohamed Abdelmalek Boucherika - Algeria 2.0 - Le Futur Tech Algérien]
-[Backend: httpx]
-[Fetched: 2026-05-15T10:53:10+00:00]
-
-Mohamed Abdelmalek Boucherika is the founder and CEO of Vi Solutions, a dynamic leader and innovator in the fields of robotics, AI, and IoT. With a Master’s degree in Robotics and Control Engineering from USTHB and a strong technical foundation in embedded systems, electronics, and software development, he has led groundbreaking projects, autonomous mobile robots, and AI-driven solutions. Abdelmalek’s passion for technology and innovation drives his mission to create impactful and scalable solutions that address real-world challenges.

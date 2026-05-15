@@ -1,7 +1,0 @@
-[Source: https://www.hbku.edu.qa/sem]
-[Title: School of Economics and Management (SEM) | HBKU]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:18:51+00:00]
-
-A dynamic academic hub dedicated to preparing the next generation of economists and business leaders
-Founded in 2025 and rooted in innovation, sustainability, and interdisciplinary excellence, the School of Economics and Management (SEM) offers cutting-edge graduate programs that equip students with advanced analytical, digital, and leadership skills.

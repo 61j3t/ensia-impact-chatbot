@@ -1,7 +1,7 @@
 [Source: https://docs.google.com/forms/d/e/1FAIpQLSc-ieSrM0Uwpvpuepn80Wg-2xZGhSj67ICm1bzlFSOostaokA/viewform?usp=dialog]
 [Title: معا لمحاربة التدخين]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:07:06+00:00]
+[Fetched: 2026-05-15T14:30:08+00:00]
 
 نحن نقوم بمشروع جامعي لتطوير نظام محادثة ذكي يساعد الشباب على التقليل من التدخين
 نحتاج مساهمتك لتجميع تعبيرات وأجوبة باللهجة الجزائرية حول التدخين، أسبابه، وطريقة الإقلاع عنه

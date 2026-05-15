@@ -1,9 +1,0 @@
-[Source: https://www.djezzy.dz/particuliers/offres/nouveaux-forfaits-internet-de-djezzy]
-[Title: Nouveaux Forfaits Internet | Offres INTERNET | Max d'internet]
-[Backend: httpx]
-[Fetched: 2026-05-15T10:47:52+00:00]
-
-Téléchargez la Djezzy APP
-Il vous suffit de vous présenter au centre de vente et de services Djezzy le plus proche ou bien chez nos Points de Vente Agréés muni de votre pièce d’identité.
-Une fois votre forfait épuisé, vous pouvez ressouscrire autant de fois que vous le souhaitez en rechargeant votre crédit.
-Tous nos abonnés Djezzy anciens et nouveaux qui possédent une Sim Internet.

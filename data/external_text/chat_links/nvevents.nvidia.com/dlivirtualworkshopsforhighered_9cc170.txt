@@ -1,7 +1,7 @@
 [Source: https://nvevents.nvidia.com/dlivirtualworkshopsforhighered?ncid=ref-dev-171762-2804]
 [Title: DLI Virtual Workshops for Higher Education (EMEA)]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:26:18+00:00]
+[Fetched: 2026-05-15T14:33:31+00:00]
 
 Join NVIDIA’s Deep Learning Institute (DLI) for a free, virtual instructor-led workshop providing hands-on experience with GPU-accelerated servers in the cloud to complete end-to-end projects in the areas of deep learning, accelerated computing, and accelerated data science. Each of these workshops are led by a DLI Certified Instructor and offer an opportunity to earn an industry-recognized certificate of competency based on assessments to support your career growth. All workshops are delivered remotely in a virtual environment.
 Prerequisites

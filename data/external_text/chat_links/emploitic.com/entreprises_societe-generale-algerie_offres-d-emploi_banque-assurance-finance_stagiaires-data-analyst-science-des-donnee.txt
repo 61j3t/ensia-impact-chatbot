@@ -1,7 +1,7 @@
 [Source: https://emploitic.com/entreprises/societe-generale-algerie/offres-d-emploi/banque-assurance-finance/stagiaires-data-analyst-science-des-donnees-h-f-e0ef66b08f0e377c2835e8d2]
 [Title: Page Supprimée]
 [Backend: playwright]
-[Fetched: 2026-05-15T11:15:08+00:00]
+[Fetched: 2026-05-15T14:31:05+00:00]
 
 Offres d'emploi
 Recherche avancée

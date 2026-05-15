@@ -1,6 +1,0 @@
-[Source: https://ictafricasummit.com/intervenants]
-[Title: Intervenants – ICT Africa Summit]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:20:22+00:00]
-
-Intervenants ICT AFRICA SUMMIT Ils comptent parmi les meilleurs experts au monde et seront sur scène à La ICT AFRICA SUMMIT Intervenants Voici les principaux intervenants de ICT AFRICA SUMMIT <span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span>

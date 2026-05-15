@@ -1,7 +1,7 @@
 [Source: https://www.wipo.int/fr/web/tisc]
 [Title: Centres d’appui à la technologie et à l’innovation]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:22:51+00:00]
+[Fetched: 2026-05-15T14:32:40+00:00]
 
 Centres d’appui à la technologie et à l’innovation (CATI)
 Les Centres d’appui à la technologie et à l’innovation (CATI) aident les chercheurs, les inventeurs et les entrepreneurs du monde entier à libérer leur potentiel d’innovation et à protéger leurs droits de propriété intellectuelle, à les gérer et à créer de la valeur à partir de ceux-ci.

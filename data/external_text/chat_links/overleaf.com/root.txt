@@ -1,7 +1,7 @@
 [Source: https://www.overleaf.com/]
 [Title: Overleaf, Online LaTeX Editor]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:30:39+00:00]
+[Fetched: 2026-05-15T14:34:13+00:00]
 
 Write like a rocket scientist with Overleaf—the collaborative, online LaTeX editor that anyone can use.
 Over 25 million users at research institutions and businesses worldwide love Overleaf

@@ -1,7 +1,7 @@
-[Source: https://ibtikar.info/]
+[Source: https://www.ibtikar.info/]
 [Title: Science, Technology and Innovation for a sustainable development | Advance knowledge to solve Africa’s challenges, strengthen evidence-based policymaking, build research capacity, and generate sustainable solutions for inclusive socio-economic development.]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:19:18+00:00]
+[Backend: playwright]
+[Fetched: 2026-05-15T14:32:05+00:00]
 
 Fertigation
 La thématique “La problématique de l’irrigation en zone saharienne” (fertirrigation).

@@ -1,7 +1,7 @@
 [Source: https://github.com/neon-x-hub/veer]
 [Title: GitHub - neon-x-hub/veer: lightweight, decentralized load-balancing and service-coordination layer for HTTP servers. · GitHub]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:17:41+00:00]
+[Fetched: 2026-05-15T14:31:22+00:00]
 
 | Package | Version | License | Downloads |
 |---|---|---|---|

@@ -1,9 +1,0 @@
-[Source: https://erasmusplus.dz/news/technical-assistance-mission-on-internationalisation-at-home]
-[Title: Technical Assistance Mission on “Internationalisation at Home” - National Erasmus+ Office Algeria]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:16:48+00:00]
-
-As part of the Erasmus+ Higher Education Reform Experts (HEREs) activities, the University of Tlemcen hosted a hybrid Technical Assistance Mission (TAM) on 21–22 May 2025, titled “Internationalisation at Home (IaH) in Higher Education: A Path to Global Learning Without Mobility.”
-The event was jointly coordinated by the National Erasmus+ Office in Algeria and the Algerian HEREs team, in close collaboration with the Ministry of Higher Education and Scientific Research and brought together experts and institutional representatives from Algeria, Lebanon, and Jordan, with the participation of the EU expert Prof. Jos Beelen from The Hague University of Applied Sciences (Netherlands).
-The TAM focused on how to make international learning more accessible through virtual exchange, curriculum internationalisation, and online collaboration (COIL). It also explored ideas such as the relocation of international campuses.
-The event ended with a discussion on Algeria’s strategy for internationalisation, resulting in initial recommendations for a national policy on Internationalisation at Home.

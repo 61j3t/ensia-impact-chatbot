@@ -1,7 +1,7 @@
 [Source: https://www.wipo.int/en/web/awards/global]
 [Title: WIPO Global Awards]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:22:51+00:00]
+[Fetched: 2026-05-15T14:32:40+00:00]
 
 WIPO Global Awards
 We celebrate and support small and medium-sized enterprises (SMEs) and startups that use IP to grow their business and contribute to the UN Sustainable Development Goals (SDGs).

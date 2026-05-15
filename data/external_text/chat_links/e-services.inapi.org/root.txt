@@ -1,7 +1,7 @@
 [Source: https://e-services.inapi.org/]
 [Title: INAPI]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:12:31+00:00]
+[Fetched: 2026-05-15T14:30:25+00:00]
 
 L’INAPI met à votre disposition un espace pour les réclamations, les rendez-vous et la satisfaction client, afin de mieux répondre à vos besoins
 Les centres CATI offrent des services locaux d'information technologique

@@ -1,7 +1,7 @@
 [Source: https://info.nvidia.com/EMEA-World-Class-Text-Retrieval-Accuracy-Generative-AI.html]
 [Title: Webinar | Achieve World-Class Text Retrieval Accuracy for Production-Ready Generative AI]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:21:11+00:00]
+[Fetched: 2026-05-15T14:32:29+00:00]
 
 NVIDIA Webinar
 Join us for an insightful webinar to learn how you can improve the accuracy and scalability of text retrieval for production-ready generative AI pipelines. With the newest available NVIDIA NeMo™ Retriever and NVIDIA NIM microservices, developers and IT practitioners can elevate enterprise data insights for several use cases.

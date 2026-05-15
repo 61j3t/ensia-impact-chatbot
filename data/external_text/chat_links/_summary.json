@@ -1,190 +1,45 @@
 {
-  "generated_at": "2026-05-15T11:35:34+00:00",
+  "generated_at": "2026-05-15T14:37:54+00:00",
   "hosts": [
     {
-      "host": "altexsoft.com",
-      "pages": 30,
-      "chars": 390326
-    },
-    {
-      "host": "interaction-design.org",
-      "pages": 30,
-      "chars": 317104
-    },
-    {
-      "host": "monday.com",
-      "pages": 30,
-      "chars": 248104
-    },
-    {
-      "host": "developer.nvidia.com",
-      "pages": 30,
-      "chars": 233081
-    },
-    {
-      "host": "overleaf.com",
-      "pages": 30,
-      "chars": 211891
-    },
-    {
-      "host": "boardroomadvisors.co",
-      "pages": 30,
-      "chars": 183270
-    },
-    {
-      "host": "state-of-algeria.dev",
-      "pages": 30,
-      "chars": 180842
-    },
-    {
-      "host": "trymito.io",
-      "pages": 30,
-      "chars": 180802
-    },
-    {
-      "host": "erasmusplus.dz",
-      "pages": 30,
-      "chars": 166162
-    },
-    {
-      "host": "globalafricatech.com",
-      "pages": 25,
-      "chars": 163757
-    },
-    {
-      "host": "iie.org",
-      "pages": 30,
-      "chars": 149967
-    },
-    {
-      "host": "ibtikar.dgrsdt.dz",
-      "pages": 20,
-      "chars": 117692
-    },
-    {
       "host": "github.com",
-      "pages": 30,
-      "chars": 115370
+      "pages": 5,
+      "chars": 33776
     },
     {
-      "host": "ipo.int",
-      "pages": 30,
-      "chars": 114489
-    },
-    {
-      "host": "hbku.edu.qa",
-      "pages": 30,
-      "chars": 97634
-    },
-    {
-      "host": "nvidia.com",
-      "pages": 30,
-      "chars": 94948
-    },
-    {
-      "host": "scholarships365.info",
-      "pages": 30,
-      "chars": 85804
-    },
-    {
-      "host": "opportunitiespedia.com",
-      "pages": 30,
-      "chars": 83624
-    },
-    {
-      "host": "brightscholarship.com",
-      "pages": 30,
-      "chars": 82820
-    },
-    {
-      "host": "soolvit.com",
-      "pages": 18,
-      "chars": 76862
-    },
-    {
-      "host": "azure.microsoft.com",
-      "pages": 30,
-      "chars": 71729
-    },
-    {
-      "host": "cdta.dz",
-      "pages": 30,
-      "chars": 68320
-    },
-    {
-      "host": "e.huawei.com",
-      "pages": 30,
-      "chars": 62540
-    },
-    {
-      "host": "algeria20.com",
-      "pages": 30,
-      "chars": 61573
-    },
-    {
-      "host": "e-services.inapi.org",
-      "pages": 30,
-      "chars": 59236
-    },
-    {
-      "host": "onda.dz",
-      "pages": 30,
-      "chars": 55472
-    },
-    {
-      "host": "anpt.dz",
-      "pages": 30,
-      "chars": 47435
-    },
-    {
-      "host": "emploitic.com",
-      "pages": 30,
-      "chars": 42984
-    },
-    {
-      "host": "netbeopen.com",
-      "pages": 10,
-      "chars": 38756
-    },
-    {
-      "host": "student-campuce.dz",
-      "pages": 30,
-      "chars": 31190
+      "host": "altexsoft.com",
+      "pages": 1,
+      "chars": 25002
     },
     {
       "host": "docs.google.com",
-      "pages": 20,
-      "chars": 29448
-    },
-    {
-      "host": "ictafricasummit.com",
-      "pages": 22,
-      "chars": 28654
-    },
-    {
-      "host": "connectedalgeria.dz",
       "pages": 10,
-      "chars": 19258
+      "chars": 24928
     },
     {
-      "host": "algerianpresidentaward.dz",
-      "pages": 4,
-      "chars": 18215
+      "host": "globalafricatech.com",
+      "pages": 1,
+      "chars": 22128
     },
     {
-      "host": "paperswithcode.com",
-      "pages": 30,
-      "chars": 14970
+      "host": "monday.com",
+      "pages": 1,
+      "chars": 21925
     },
     {
-      "host": "drive.google.com",
-      "pages": 7,
-      "chars": 13459
+      "host": "soolvit.com",
+      "pages": 3,
+      "chars": 19098
+    },
+    {
+      "host": "boardroomadvisors.co",
+      "pages": 1,
+      "chars": 10819
     },
     {
       "host": "innovpost-ap-dz.com",
-      "pages": 2,
-      "chars": 12861
+      "pages": 1,
+      "chars": 10433
     },
     {
       "host": "rti.github.io",
@@ -192,39 +47,34 @@
       "chars": 10037
     },
     {
-      "host": "notiverse.app",
-      "pages": 3,
-      "chars": 6617
+      "host": "developer.nvidia.com",
+      "pages": 1,
+      "chars": 9738
     },
     {
-      "host": "brendex.net",
-      "pages": 7,
-      "chars": 6259
+      "host": "interaction-design.org",
+      "pages": 1,
+      "chars": 8959
     },
     {
-      "host": "learn.nvidia.com",
+      "host": "ipo.int",
       "pages": 2,
-      "chars": 5832
+      "chars": 8826
     },
     {
-      "host": "companyprogram.injaz-eldjazair.org",
-      "pages": 2,
-      "chars": 4388
+      "host": "trymito.io",
+      "pages": 1,
+      "chars": 8601
     },
     {
-      "host": "eyconet.com",
-      "pages": 3,
-      "chars": 4334
+      "host": "opportunitiespedia.com",
+      "pages": 1,
+      "chars": 4047
     },
     {
-      "host": "ibtikar.info",
-      "pages": 2,
-      "chars": 4174
-    },
-    {
-      "host": "asep.dz",
-      "pages": 2,
-      "chars": 3678
+      "host": "algerianpresidentaward.dz",
+      "pages": 1,
+      "chars": 3979
     },
     {
       "host": "djezzy.hackathon.dz",
@@ -232,19 +82,84 @@
       "chars": 3567
     },
     {
-      "host": "elite-hack.vercel.app",
-      "pages": 2,
-      "chars": 3374
+      "host": "overleaf.com",
+      "pages": 1,
+      "chars": 3558
     },
     {
-      "host": "nvevents.nvidia.com",
-      "pages": 2,
-      "chars": 2888
+      "host": "ictafricasummit.com",
+      "pages": 1,
+      "chars": 3534
     },
     {
-      "host": "jupyter-ai.readthedocs.io",
+      "host": "brightscholarship.com",
+      "pages": 1,
+      "chars": 3518
+    },
+    {
+      "host": "learn.nvidia.com",
+      "pages": 1,
+      "chars": 3354
+    },
+    {
+      "host": "onda.dz",
+      "pages": 1,
+      "chars": 3329
+    },
+    {
+      "host": "erasmusplus.dz",
+      "pages": 1,
+      "chars": 3145
+    },
+    {
+      "host": "iie.org",
+      "pages": 1,
+      "chars": 2951
+    },
+    {
+      "host": "hbku.edu.qa",
+      "pages": 1,
+      "chars": 2734
+    },
+    {
+      "host": "drive.google.com",
+      "pages": 4,
+      "chars": 2623
+    },
+    {
+      "host": "anpt.dz",
       "pages": 2,
-      "chars": 2233
+      "chars": 2534
+    },
+    {
+      "host": "asep.dz",
+      "pages": 1,
+      "chars": 2496
+    },
+    {
+      "host": "connectedalgeria.dz",
+      "pages": 1,
+      "chars": 2358
+    },
+    {
+      "host": "cdta.dz",
+      "pages": 1,
+      "chars": 2350
+    },
+    {
+      "host": "student-campuce.dz",
+      "pages": 1,
+      "chars": 2261
+    },
+    {
+      "host": "e.huawei.com",
+      "pages": 2,
+      "chars": 2215
+    },
+    {
+      "host": "ibtikar.info",
+      "pages": 1,
+      "chars": 2087
     },
     {
       "host": "info.nvidia.com",
@@ -252,14 +167,14 @@
       "chars": 1954
     },
     {
-      "host": "app.zenats.com",
-      "pages": 2,
-      "chars": 1770
+      "host": "brendex.net",
+      "pages": 1,
+      "chars": 1825
     },
     {
-      "host": "riglo.net",
-      "pages": 2,
-      "chars": 1711
+      "host": "elite-hack.vercel.app",
+      "pages": 1,
+      "chars": 1687
     },
     {
       "host": "djezzy.dz",
@@ -267,9 +182,44 @@
       "chars": 1662
     },
     {
+      "host": "algeria20.com",
+      "pages": 1,
+      "chars": 1520
+    },
+    {
       "host": "ate-app.vercel.app",
       "pages": 1,
       "chars": 1464
+    },
+    {
+      "host": "nvevents.nvidia.com",
+      "pages": 1,
+      "chars": 1444
+    },
+    {
+      "host": "app.zenats.com",
+      "pages": 1,
+      "chars": 1402
+    },
+    {
+      "host": "riglo.net",
+      "pages": 1,
+      "chars": 1343
+    },
+    {
+      "host": "state-of-algeria.dev",
+      "pages": 1,
+      "chars": 1282
+    },
+    {
+      "host": "scholarships365.info",
+      "pages": 2,
+      "chars": 1273
+    },
+    {
+      "host": "eyconet.com",
+      "pages": 1,
+      "chars": 1108
     },
     {
       "host": "tel.archives-ouvertes.fr",
@@ -282,14 +232,44 @@
       "chars": 985
     },
     {
+      "host": "jupyter-ai.readthedocs.io",
+      "pages": 1,
+      "chars": 769
+    },
+    {
+      "host": "e-services.inapi.org",
+      "pages": 1,
+      "chars": 754
+    },
+    {
+      "host": "ibtikar.dgrsdt.dz",
+      "pages": 1,
+      "chars": 728
+    },
+    {
+      "host": "nvidia.com",
+      "pages": 1,
+      "chars": 711
+    },
+    {
+      "host": "notiverse.app",
+      "pages": 1,
+      "chars": 706
+    },
+    {
       "host": "crixet.com",
       "pages": 1,
       "chars": 690
     },
     {
-      "host": "events.cnrst.dz",
+      "host": "emploitic.com",
       "pages": 1,
-      "chars": 660
+      "chars": 566
+    },
+    {
+      "host": "paperswithcode.com",
+      "pages": 1,
+      "chars": 499
     },
     {
       "host": "pitch-v2v.ensia.edu.dz",
@@ -297,14 +277,19 @@
       "chars": 497
     },
     {
+      "host": "azure.microsoft.com",
+      "pages": 1,
+      "chars": 463
+    },
+    {
       "host": "orldwide.espacenet.com",
       "pages": 1,
       "chars": 447
     },
     {
-      "host": "internships.ensia.edu.dz",
+      "host": "netbeopen.com",
       "pages": 1,
-      "chars": 432
+      "chars": 412
     },
     {
       "host": "2024.algeria20.com",
@@ -352,6 +337,11 @@
       "chars": 0
     },
     {
+      "host": "companyprogram.injaz-eldjazair.org",
+      "pages": 0,
+      "chars": 0
+    },
+    {
       "host": "competition.intl.huaweicloud.com",
       "pages": 0,
       "chars": 0
@@ -382,12 +372,22 @@
       "chars": 0
     },
     {
+      "host": "events.cnrst.dz",
+      "pages": 0,
+      "chars": 0
+    },
+    {
       "host": "forms.office.com",
       "pages": 0,
       "chars": 0
     },
     {
       "host": "inkd.in",
+      "pages": 0,
+      "chars": 0
+    },
+    {
+      "host": "internships.ensia.edu.dz",
       "pages": 0,
       "chars": 0
     },
@@ -479,7 +479,7 @@
   ],
   "totals": {
     "hosts": 95,
-    "pages": 993,
-    "chars": 4041370
+    "pages": 82,
+    "chars": 298169
   }
 }

@@ -1,7 +1,7 @@
 [Source: https://jupyter-ai.readthedocs.io/]
 [Title: Jupyter AI]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:23:33+00:00]
+[Fetched: 2026-05-15T14:32:57+00:00]
 
 Jupyter AI¶
 An open source extension that connects AI agents to computational notebooks in JupyterLab.

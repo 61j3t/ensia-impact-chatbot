@@ -1,9 +1,0 @@
-[Source: https://www.iie.org/blog]
-[Title: Opening Minds Blog | IIE]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:21:07+00:00]
-
-Opening Minds Blog
-The Opening Minds blog is IIE’s take on how higher education continues to change. Here, the Institute’s leaders will explore international educational exchange, global student mobility, institutional partnerships, international development, and other topics and trends that are shaping higher education around the world.
-Skip to results
-Showing 41 Results

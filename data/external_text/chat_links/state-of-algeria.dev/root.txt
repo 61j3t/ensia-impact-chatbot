@@ -1,7 +1,7 @@
 [Source: https://state-of-algeria.dev/]
 [Title: Home | The State of Software Engineering in Algeria]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:34:20+00:00]
+[Fetched: 2026-05-15T14:36:48+00:00]
 
 The State of Software Engineering in Algeria
 Insights from our Algeria Developer Survey in 2024

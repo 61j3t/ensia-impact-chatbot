@@ -1,7 +1,0 @@
-[Source: https://www.djezzy.dz/nous-contacter]
-[Title: Nous contacter]
-[Backend: httpx]
-[Fetched: 2026-05-15T10:47:52+00:00]
-
-En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies et notre politique générale de protection des données personnelles conformément à la loi 18-07 relative à la protection des personnes physiques dans le traitement des données à caractères personnelles
-* Champs obligatoires

@@ -1,8 +1,0 @@
-[Source: https://www.nvidia.com/en-us/industries/automotive]
-[Title: AI & Accelerated Computing Solutions for Automotive Industries | NVIDIA]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:26:59+00:00]
-
-Consent for Optional Cookies
-(googleCookiePolicyLink)YouTube sets performance, advertising, and other optional cookies(/googleCookiePolicyLink) when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our (nvidiaTermsOfServiceLink)Terms of Service(/nvidiaTermsOfServiceLink) (which contains important waivers). Please see our (nvidiaPrivacyPolicyLink)Privacy Policy(/nvidiaPrivacyPolicyLink) and (nvidiaCookiePolicyLink)Cookie Policy(/nvidiaCookiePolicyLink) for more information.
-Alternatively, you can (youtubeLink)watch this video on YouTube(/youtubeLink).

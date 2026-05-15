@@ -1,6 +1,0 @@
-[Source: https://www.nvidia.com/en-us/industries/higher-education-research]
-[Title: The Next Era of Computing in Higher Education and Research | NVIDIA]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:26:59+00:00]
-
-Discover how advances in physical AI are making it easier for educators, students, and researchers to develop intelligent autonomous machines. Whether you're a beginner or an experienced researcher, NVIDIA’s full-stack, accelerated cloud-to-edge systems provide the tools you need to build and deploy advanced robotic systems.

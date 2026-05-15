@@ -1,9 +1,0 @@
-[Source: https://www.iie.org/services/english-language-proficiency-toefl]
-[Title: English Language Proficiency (TOEFL) | IIE]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:21:07+00:00]
-
-English Language Proficiency (TOEFL)
-TOEFL ITP® is the leading English-proficiency testing program that allows you to measure and evaluate your students’ English-language skills with confidence. Utilized in more than 50 countries around the world, the TOEFL ITP tests are globally recognized and trusted tests for higher education institutions, nonprofit organizations, schools, and businesses to assess English-language proficiency. IIE certifies TOEFL ITP test centers in the United States, manages orders, and provides customer support. ETS manages distribution and scoring of paper and digital TOEFL ITP tests.
-For TOEFL ITP in Mexico, connect here for more information.
-For TOEFL ITP in Thailand, Cambodia, Lao PDR, and Myanmar, connect here for more information.

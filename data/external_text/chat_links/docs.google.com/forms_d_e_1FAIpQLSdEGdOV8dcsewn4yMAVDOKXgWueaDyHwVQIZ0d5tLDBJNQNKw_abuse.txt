@@ -1,7 +1,0 @@
-[Source: https://docs.google.com/forms/d/e/1FAIpQLSdEGdOV8dcsewn4yMAVDOKXgWueaDyHwVQIZ0d5tLDBJNQNKw/abuse]
-[Title: Google Drive - Report Abuse]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:07:06+00:00]
-
-What are you reporting?
-Reports don’t guarantee removal of the item or any other action on Google’s part. If we do find the item in question to violate these policies, however, we may remove the item from the account, restrict sharing of the item, limit who can view the file, disable the item owner’s access to one or more Google products, delete the owner’s Google account, or even report illegal materials to appropriate law enforcement authorities.

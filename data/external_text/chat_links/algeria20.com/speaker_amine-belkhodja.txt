@@ -1,6 +1,0 @@
-[Source: https://algeria20.com/speaker/amine-belkhodja]
-[Title: Amine Belkhodja - Algeria 2.0 - Le Futur Tech Algérien]
-[Backend: httpx]
-[Fetched: 2026-05-15T10:53:10+00:00]
-
-Amine Belkhodja is a skilled Cybersecurity Engineer with extensive experience in ASOC (Advanced Security Operations Center) Incident Response, currently working at Wataniya Telecom Algérie. Ranking in the top 1% on TryHackMe, he has a deep expertise in cyber defense tactics. Amine holds a Master’s degree in Information Systems Security (SSI) and a Bachelor’s in Telecommunications and Networks Engineering from USTHB. His technical foundation and practical experience equip him to guide professionals in understanding the essential principles of cybersecurity.

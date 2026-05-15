@@ -1,6 +1,0 @@
-[Source: https://algeria20.com/speaker/abdelkrim-nachef]
-[Title: Abdelkrim Nachef - Algeria 2.0 - Le Futur Tech Algérien]
-[Backend: httpx]
-[Fetched: 2026-05-15T10:53:10+00:00]
-
-Abdelkrim Nachef is a dedicated Data Scientist and AI Engineer with expertise in data manipulation, modeling, analysis, and deployment. As a Certified Associate Data Scientist from Datacamp, he has a robust background in Python programming, NLP, and computer vision. Currently, he works as a Data Scientist at Icosnet SPA, where he focuses on transforming complex datasets into actionable insights. Passionate about advancing the field, Abdelkrim shares his knowledge as an instructor and consultant, helping businesses and individuals leverage AI to drive innovation.

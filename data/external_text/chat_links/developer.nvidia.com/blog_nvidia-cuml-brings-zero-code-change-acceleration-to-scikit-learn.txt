@@ -1,7 +1,7 @@
 [Source: https://developer.nvidia.com/blog/nvidia-cuml-brings-zero-code-change-acceleration-to-scikit-learn]
 [Title: NVIDIA cuML Brings Zero Code Change Acceleration to scikit-learn | NVIDIA Technical Blog]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:05:59+00:00]
+[Fetched: 2026-05-15T14:29:04+00:00]
 
 Scikit-learn, the most widely used ML library, is popular for processing tabular data because of its simple API, diversity of algorithms, and compatibility with popular Python libraries such as pandas and NumPy. NVIDIA cuML now enables you to continue using familiar scikit-learn APIs and Python libraries while enabling data scientists and machine learning engineers to harness the power of CUDA on NVIDIA GPUs without changing any application code.
 In NVIDIA cuML 25.02, we’re releasing the capability to accelerate scikit-learn algorithms with zero code change in open beta. NVIDIA cuML, first introduced in 2019, has been rapidly adding CUDA-based GPU algorithms for Python machine learning. The latest release enables data scientists and machine learning engineers to keep scikit-learn applications unchanged and achieve 50x faster performance on NVIDIA GPUs compared to CPUs.

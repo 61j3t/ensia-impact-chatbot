@@ -1,7 +1,7 @@
 [Source: https://algeria20.com/hackathon]
 [Title: HackaThon - Algeria 2.0 - Le Futur Tech Algérien]
-[Backend: playwright]
-[Fetched: 2026-05-15T10:53:10+00:00]
+[Backend: httpx]
+[Fetched: 2026-05-15T14:26:47+00:00]
 
 A 42-hour national hackathon bringing together developers, designers, engineers and entrepreneurs to build concrete tech solutions for the future of agriculture in Algeria.
 The Algeria 2.0 MAKERS² – AgriTech Innovation Challenge 2025 is a 42-hour hackathon dedicated to building digital solutions for smarter, more sustainable agriculture in Algeria.

@@ -1,8 +1,0 @@
-[Source: https://algeria20.com/speaker/karim-brouri]
-[Title: Karim Brouri - Algeria 2.0 - Le Futur Tech Algérien]
-[Backend: httpx]
-[Fetched: 2026-05-15T10:53:10+00:00]
-
-An expert in developing ecosystems related to entrepreneurship, innovation, technology, and digitalization, Karim is an entrepreneur, management researcher, and engineer. His expertise lies in business development, business modeling, and design strategy.
-As the CEO and founder of Brenco E&C, specializing in digitalization strategies and open innovation, Karim has also established the first private incubator in southern Algeria, #Tek2Hub in Béchar.
-Dedicated to mentoring young talent and fostering startups, he continues to play a vital role in economic growth and the success of Algerian entrepreneurs.

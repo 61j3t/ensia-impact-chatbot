@@ -1,7 +1,7 @@
 [Source: https://opportunitiespedia.com/kaust-visiting-student-research-program]
 [Title: KAUST Visiting Student Research Program 2026 in Saudi Arabia (Fully Funded) - Opportunities Pedia]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:29:49+00:00]
+[Fetched: 2026-05-15T14:34:08+00:00]
 
 KAUST Visiting Student Research Program 2026 offers a fully funded internship for international students in STEM fields. Students gain hands-on research experience in cutting-edge facilities. Open to bachelor’s and master’s students, this flexible program allows participants to choose start and end dates, fostering a diverse global network while preparing for advanced graduate studies and real-world problem-solving.
 Join the KAUST Visiting Student Research Program 2026 to explore groundbreaking research in food, health, water, energy, and digital domains. This prestigious internship provides tuition coverage, housing, return flights, and a monthly stipend. Participants work under renowned faculty, contributing to impactful projects in a multicultural setting. With 3-6 month internships, KAUST ensures unmatched flexibility and professional growth for future STEM leaders.

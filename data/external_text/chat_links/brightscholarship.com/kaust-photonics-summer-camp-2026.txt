@@ -1,7 +1,7 @@
 [Source: https://brightscholarship.com/kaust-photonics-summer-camp-2026]
 [Title: KAUST Photonics Summer Camp 2026 Saudi Arabia (Fully Funded) - Bright Scholarship]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:03:21+00:00]
+[Fetched: 2026-05-15T14:27:48+00:00]
 
 KAUST Photonics Summer Camp 2026 for International Students:
 Applications are invited to apply for the KAUST Photonics Summer Camp 2026 in Saudi Arabia. The KAUST Photonics Summer Camp (PSC) lasts for four weeks. Through the program, undergraduate and graduate students from all over the world can take part in a research project in modern photonics fields like quantum technologies, semiconductor lasers, photonic integrated circuits, optical communications, neuromorphic computing, and hyper-vision systems. All costs are paid, and there is no application fee. Also apply for Global Minority Rights Summer School 2026 in Hungary (Fully Funded).

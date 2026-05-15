@@ -1,7 +1,7 @@
 [Source: https://eyconet.com/]
 [Title: Eyconet]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:16:54+00:00]
+[Fetched: 2026-05-15T14:31:12+00:00]
 
 A transparent, smart, centralized hub to connect, empower, and accelerate innovation — helping Algeria's ecosystem thrive globally.
 Access real-time data to connect, benchmark, and track ecosystem growth.

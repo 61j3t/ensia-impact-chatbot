@@ -1,9 +1,0 @@
-[Source: https://azure.microsoft.com/en-us/pricing/offers/reservations]
-[Title: Azure Reservation Pricing | Microsoft Azure]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:01:30+00:00]
-
-Azure reservations
-Save costs on cloud usage by committing to a resource in a specific region for a fixed period.
-The Total Economic Impact™ Of Microsoft Azure Solutions That Enhance Cost Efficiency: Accelerating Cloud Migration and AI Adoption With Azure Solutions, a Forrester Consulting study commissioned by Microsoft, June 2025.
-To better understand the benefits, costs, and risks associated with this investment, Forrester interviewed eight decision-makers with experience using the evaluated Azure solutions. For the purposes of this study, Forrester aggregated the interviewees’ experiences and combined the results into a single composite organization, a global enterprise with $1 billion in annual revenue that is migrating to the cloud to modernize and innovate with AI. It has an annual Azure spend of $12.5 million, which grows 5% year-over-year.

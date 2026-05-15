@@ -1,7 +1,7 @@
 [Source: https://github.com/MarouaBouderka/digits-collection-Dataset]
 [Title: GitHub - MarouaBouderka/digits-collection-Dataset · GitHub]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:17:41+00:00]
+[Fetched: 2026-05-15T14:31:22+00:00]
 
 This repository contains a dataset of handwritten digits collected from 28 university students at ENSIA (École Nationale Supérieure de l'Intelligence Artificielle), Algeria. The dataset is designed for machine learning tasks such as digit classification and recognition, similar to the MNIST dataset.
 The dataset is stored in a CSV file located in the data

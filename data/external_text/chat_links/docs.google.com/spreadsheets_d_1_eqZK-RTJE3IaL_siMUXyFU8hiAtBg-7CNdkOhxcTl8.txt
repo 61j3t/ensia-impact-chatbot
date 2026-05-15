@@ -1,7 +1,7 @@
 [Source: https://docs.google.com/spreadsheets/d/1_eqZK-RTJE3IaL_siMUXyFU8hiAtBg-7CNdkOhxcTl8]
 [Title: AI and Data Science Internships & Job Opportunities in Algeria - Google Sheets]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:07:06+00:00]
+[Fetched: 2026-05-15T14:30:08+00:00]
 
 | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|

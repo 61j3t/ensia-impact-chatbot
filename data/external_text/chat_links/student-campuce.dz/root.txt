@@ -1,7 +1,7 @@
 [Source: https://www.student-campuce.dz/]
 [Title: STUDENT CAMPUCE]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:34:48+00:00]
+[Backend: playwright]
+[Fetched: 2026-05-15T14:37:18+00:00]
 
 شبكة شركاء متميزة في خدمتك
 أفضل باقات جازي

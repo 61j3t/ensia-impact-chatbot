@@ -1,7 +1,7 @@
 [Source: https://monday.com/blog/project-management/swot-analysis-project-management]
 [Title: SWOT Analysis in Project Management Guide]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:25:26+00:00]
+[Fetched: 2026-05-15T14:33:19+00:00]
 
 Even well-defined strategies can stall once delivery begins. Budgets are approved. Timelines look realistic. Stakeholders feel aligned. Then dependencies surface, reporting fragments, and teams discover constraints that were never fully evaluated.
 Most delivery breakdowns begin long before execution. They start when work is approved without pressure-testing readiness.

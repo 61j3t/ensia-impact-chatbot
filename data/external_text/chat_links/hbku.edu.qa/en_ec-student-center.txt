@@ -1,7 +1,0 @@
-[Source: https://www.hbku.edu.qa/en/ec-student-center]
-[Title: Multaqa (Education City Student Center) | Hamad Bin Khalifa University]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:18:51+00:00]
-
-Traditionally considered as the ‘living room’ of a campus, Multaqa (Education City Student Center) serves as the hub for both formal and informal interaction among students, faculty, and staff. It is a building bursting with energy, hosting a wide variety of educational, cultural, social, and recreational activities. Our mission is connecting, engaging, and creating a community in the heart of Education City.
-As a student-centered and educationally purposeful facility, we strive to deepen the student learning experience and develop a dynamic campus community across traditional institutional boundaries. At Multaqa (Education City Student Center), opportunities are provided for Hamad Bin Khalifa University (HBKU) students and those of Qatar Foundation’s (QF) partner universities to reach beyond their university studies and get involved in student organizations, service-learning, and leadership development, as well as sports and recreation.

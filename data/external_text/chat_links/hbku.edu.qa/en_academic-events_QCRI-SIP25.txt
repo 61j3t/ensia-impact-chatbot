@@ -1,7 +1,7 @@
 [Source: https://www.hbku.edu.qa/en/academic-events/QCRI-SIP25]
 [Title: Summer Internship Program 2025 | Hamad Bin Khalifa University]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:18:51+00:00]
+[Backend: playwright]
+[Fetched: 2026-05-15T14:31:44+00:00]
 
 The Summer Internship Program at Qatar Computing Research Institute (QCRI) offers intensive research and software development training to undergraduate and graduate students in Arabic Language Technologies, Cyber Security, Data Analytics, Social Computing, and Software Engineering.
 Program Duration

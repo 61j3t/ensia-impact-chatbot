@@ -1,7 +1,7 @@
 [Source: https://docs.google.com/forms/d/e/1FAIpQLSdEGdOV8dcsewn4yMAVDOKXgWueaDyHwVQIZ0d5tLDBJNQNKw/viewform]
 [Title: HUAWEI ICT ACADEMY 2024 AMBASSADORS]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:07:06+00:00]
+[Fetched: 2026-05-15T14:30:08+00:00]
 
 HUAWEI ICT ACADEMY 2024 AMBASSADORS
 The form HUAWEI ICT ACADEMY 2024 AMBASSADORS is no longer accepting responses.

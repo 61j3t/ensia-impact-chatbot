@@ -1,6 +1,6 @@
 [Source: https://azure.microsoft.com/en-us/free/students]
 [Title: Azure for Students | Microsoft Azure]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:01:30+00:00]
+[Fetched: 2026-05-15T14:27:41+00:00]
 
 Through the Azure Dev Tools for Teaching program, students who have a current and active Azure for Students subscription can download certain software developer tools for free. Azure for Students provides access to all Azure products expressly for the support of education or teaching, non-commercial research, or efforts to design, develop, test, and demonstrate software applications for these purposes. Students download the tools from the Azure Education Hub.

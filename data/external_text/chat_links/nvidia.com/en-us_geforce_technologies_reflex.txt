@@ -1,9 +1,0 @@
-[Source: https://www.nvidia.com/en-us/geforce/technologies/reflex]
-[Title: Reflex 2 Technology | NVIDIA]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:26:59+00:00]
-
-Reflex technologies optimize the graphics pipeline for ultimate responsiveness, providing faster target acquisition, quicker reaction times, and improved aim precision in competitive games. Reflex 2 introduces Frame Warp (coming soon!), which further reduces latency based on the game’s latest mouse input.
-Reflex Frame Warp (coming soon), improves responsiveness by updating the game frame based on the latest mouse input just before it is sent to the display.
-Reflex Low Latency reduces PC latency through precise synchronization of rendering across GPU and CPU.
-NVIDIA G-SYNC displays with Reflex Analyzer feature the world’s only system latency measurement that detects clicks coming from Reflex-compatible gaming mice and measures the time for the resulting pixels (gun muzzle flash) to change on screen. Start every match with confidence, knowing your PC is operating at the lowest possible system latency.

@@ -1,7 +1,7 @@
 [Source: https://worldwide.espacenet.com/]
 [Title: Espacenet – patent search]
 [Backend: playwright]
-[Fetched: 2026-05-15T11:30:03+00:00]
+[Fetched: 2026-05-15T14:34:12+00:00]
 
 Espace
 net

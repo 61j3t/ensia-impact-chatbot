@@ -1,7 +1,7 @@
 [Source: https://crixet.com/]
 [Title: Prism]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:04:49+00:00]
+[Fetched: 2026-05-15T14:29:01+00:00]
 
 Cross Browser, Cross Device
 Seamless editing across browsers and devices. Prism gives you smart, LaTeX-ready editing tools that just work, no complex setup required.

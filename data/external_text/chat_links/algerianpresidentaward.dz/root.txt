@@ -1,7 +1,7 @@
 [Source: https://algerianpresidentaward.dz/]
 [Title: Prix du président]
 [Backend: httpx]
-[Fetched: 2026-05-15T10:53:17+00:00]
+[Fetched: 2026-05-15T14:26:48+00:00]
 
 اعتراف وطني بالتميز العلمي
 تثمين الابتكار والبحث

@@ -1,6 +1,0 @@
-[Source: https://azure.microsoft.com/en-us/products/batch]
-[Title: Batch - Compute job scheduling service | Microsoft Azure]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:01:30+00:00]
-
-Choose the operating system and development tools you need to run your large-scale jobs on Batch. Batch gives you a consistent management experience and job scheduling, whether you select Windows Server or Linux compute nodes, but it lets you take advantage of the unique features of each environment. With Windows, use your existing Windows code, including Microsoft .NET, to run large-scale compute jobs in Azure. With Linux, choose from popular distributions including CentOS, Ubuntu, and SUSE Linux Enterprise Server to run your compute jobs, or use Docker containers to lift and shift your applications. Batch gives you SDKs and supports a range of development tools including Python and Java.

@@ -1,7 +1,7 @@
 [Source: https://github.com/abdelhak-k/OuedKniss-Scraper]
 [Title: GitHub - abdelhak-k/OuedKniss-Scraper: A Python based web scraper for extracting product listings from OuedKniss.com through their GraphQL API. · GitHub]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:17:41+00:00]
+[Fetched: 2026-05-15T14:31:22+00:00]
 
 A Python based web scraper for extracting product listings from OuedKniss.com through their GraphQL API. This tool allows you to collect announcements data and save it into a csv file, it's flexible to any type of products you're trying to get data about.
 - Robust API Integration: Uses OuedKniss GraphQL API for reliable data extraction

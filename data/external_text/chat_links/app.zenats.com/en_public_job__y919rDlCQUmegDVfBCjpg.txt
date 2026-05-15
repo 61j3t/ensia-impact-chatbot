@@ -1,7 +1,7 @@
 [Source: https://app.zenats.com/en/public_job/_y919rDlCQUmegDVfBCjpg]
 [Title: MS Pharma Careers Page]
 [Backend: httpx]
-[Fetched: 2026-05-15T10:54:34+00:00]
+[Fetched: 2026-05-15T14:27:17+00:00]
 
 Internship – Data & Analytics
 Share this vacancyNo longer accepting applications

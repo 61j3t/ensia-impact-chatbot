@@ -1,7 +1,7 @@
 [Source: https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process]
 [Title: The 5 Stages in the Design Thinking Process | IxDF]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:22:11+00:00]
+[Fetched: 2026-05-15T14:32:36+00:00]
 
 Design thinking is a methodology that provides a solution-based approach to solving problems. It’s extremely useful when used to tackle complex problems that are ill-defined or unknown—because it serves to understand the human needs involved, reframe the problem in human-centric ways, create numerous ideas in brainstorming sessions and adopt a hands-on approach to prototyping and testing. When you know how to apply the five stages of design thinking, you will be empowered because you can apply the methodology to solve complex problems that occur in our companies, our countries, and across the world.
 Design thinking is a non-linear, iterative process that can have anywhere from three to seven phases, depending on whom you talk to. We focus on the five-stage design thinking model proposed by the Hasso Plattner Institute of Design at Stanford (the d.school) because they are world-renowned for the way they teach and apply design thinking.

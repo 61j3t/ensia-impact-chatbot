@@ -1,7 +1,7 @@
 [Source: https://ictafricasummit.com/]
 [Title: ICT Africa Summit – Unlocking Digital Horizons]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:20:22+00:00]
+[Fetched: 2026-05-15T14:32:07+00:00]
 
 Rejoignez l'ICT Africa Summit 2026
 Unlocking Digital Horizons

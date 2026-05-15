@@ -1,7 +1,7 @@
 [Source: https://djezzy.hackathon.dz/]
 [Title: ]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:06:02+00:00]
+[Fetched: 2026-05-15T14:29:21+00:00]
 
 Hackathon
 InnovTech 2025

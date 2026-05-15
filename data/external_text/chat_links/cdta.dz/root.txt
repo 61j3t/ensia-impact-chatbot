@@ -1,7 +1,7 @@
 [Source: https://www.cdta.dz/]
 [Title: Center for Development of Advanced Technologies – Research, Technology and Society]
 [Backend: httpx]
-[Fetched: 2026-05-15T11:04:27+00:00]
+[Fetched: 2026-05-15T14:27:51+00:00]
 
 CENTER FOR DEVELOPMENT OF ADVANCED TECHNOLOGIES
 RESEARCH, TECHNOLOGY AND SOCIETY

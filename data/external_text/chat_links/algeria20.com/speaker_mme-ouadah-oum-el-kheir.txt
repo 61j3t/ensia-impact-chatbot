@@ -1,6 +1,0 @@
-[Source: https://algeria20.com/speaker/mme-ouadah-oum-el-kheir]
-[Title: Mme OUADAH Oum el Kheir - Algeria 2.0 - Le Futur Tech Algérien]
-[Backend: httpx]
-[Fetched: 2026-05-15T10:53:10+00:00]
-
-Mme OUADAH Oum el Kheir is a UI/UX designer and project manager at Algérie Télécom, with an ICT and management background. Passionate about improving user experience by enhancing engagement and crafting intuitive designs. Her work centers on creating impactful, seamless experiences that elevate the interaction between users and technology.

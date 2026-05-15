@@ -1,6 +1,0 @@
-[Source: https://e-services.inapi.org/cooperation]
-[Title: INAPI]
-[Backend: httpx]
-[Fetched: 2026-05-15T11:12:31+00:00]
-
-L’INAPI travaille en étroite collaboration avec les offices de propriété intellectuelle, tel que l’Organisation Mondiale de la Propriété Intellectuelle, au niveau internationales ainsi que plusieurs parties prenantes des secteurs public et privé au niveau national en vue de favoriser l’établissement des échanges, et renforcer les capacités en matière de propriété intellectuelle au service du développement économique, social et culturel.

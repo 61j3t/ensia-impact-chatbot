@@ -1,9 +1,11 @@
-"""Holistic crawler for external links shared in the Telegram chat.
+"""Fetch the exact URLs shared in the Telegram chat — no site crawling.
 
 Reads every URL that appears in any message, drops the obviously-not-text
-ones (forms.gle, LinkedIn, Instagram, …), groups what remains by hostname,
-and crawls each origin BFS-style up to MAX_DEPTH levels deep / MAX_PAGES
-pages.
+hosts (forms.gle, LinkedIn, Instagram, …), and fetches each remaining URL
+once. We do not follow internal links: someone deliberately shared that
+specific page, and the rest of the site wasn't curated by anyone in the
+chat. depth-0 keeps the external corpus aligned with the chat's editorial
+signal and cuts the noisy tail ~10× vs a deep crawl.
 
 Two backends, used in this order per page:
 
@@ -55,8 +57,12 @@ SUMMARY_PATH = OUT_DIR / "_summary.json"
 
 
 # ─── crawl parameters ───────────────────────────────────────────────────────
-MAX_PAGES_PER_HOST = 30
-MAX_DEPTH = 2
+# We only fetch the URLs that were actually shared in chat — no descent.
+# Someone deliberately posted that page; the rest of the site wasn't
+# curated by anyone. depth-0 keeps the corpus aligned with the chat's
+# editorial signal and cuts external noise ~10×.
+MAX_PAGES_PER_HOST = 30   # still capped in case a host has many seeds
+MAX_DEPTH = 0
 MIN_USEFUL_CHARS = 300
 HTTPX_TIMEOUT_S = 15.0
 PLAYWRIGHT_NAVIGATE_TIMEOUT_S = 30.0
