@@ -1,0 +1,96 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/32]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+Adresse: Centre de Recherche en Biotechnologie Ali Mendjli Nouvelle Ville UV 03 BP E73 Constantine
+E-mail: valorisation@crbt.dz
+Téléphone: 031775037
+Catégorie: MESRS
+Nombre de services : 73
+Nombre d'équipement : 9
+Nombre de prestations : 2435
+Description
+Le Centre de recherche en biotechnologie est un centre de recherche biologique algérien, sous la tutelle du ministère de l'Enseignement supérieur et de la Recherche scientifique. Il est situé à Constantine.
+| Déshydratation et séchage à froid des produits aqueux | AL01 | |
+| Mesure des taux de composants du lait et produits laitiers | AL02 | |
+| Détermination du taux de la matière grasse | AL03 | |
+| Détermination du taux des fibres brutes et composés pariétaux en fibres | AL04 | |
+| Dosage de l’azote total | AL05 | |
+| Dosage spectrophotométrique divers | AL06 | |
+| Hydrodistillation | AL07 | |
+| Détermination de la matière minérale (cendres) (FA-HUMID-etu) | AL08 | |
+| Détermination de la matière sèche (FA-CENDR-incin) | AL09 | |
+| Dosage par Spectrométrie de Masse par Plasma à Couplage Inductif | ENV01 | |
+| Minéralisation par Four Micro-Ondes Speedwave | ENV02 | |
+| Analyse par Spectrophotomètre Uv-Visible | ENV03 | |
+| Dosage de l’Azote Total | ENV04 | |
+| Analyse granulométrique du sol (méthode Robinson) | ENV05 | |
+| Phosphore assimilable pour les sols neutres et calcaires (OLSEN NF | ENV06 | |
+| Dosage du carbone organique et la matière organique du sol | ENV07 | |
+| PH dans le sol et les sédiments | ENV08 | |
+| conductivité dans le sol et les sédiments | ENV09 | |
+| Micropropagation | CIV01 | |
+| Culture de méristème | CIV02 | |
+| Haplodiplomethode | CIV03 | |
+| Détection d’OGM dans les matrices agroalimentaire (par les deux éléments de criblage P35s et tNOS) | OGM01 | |
+| Quantification d’OGM dans les matrices agroalimentaire | OGM02 | |
+| Isolement et purification des souches bactériennes (aéro et anaérobies) | Bact01 | |
+| Identification phénotypiques et génotypiques des souches bactériennes.( galeries biochimiques , Extraction d’ADN bactérien) | Bact02 | |
+| Mise en évidence des différentes aptitudes technologiques des différents germes.(recherche et dosage par méthodes microbiologiques ) | Bact03 | |
+| Production et contrôle des métabolites primaires et secondaires | Bact04 | |
+| Evaluation de l’activité antibactérienne | Bact05 | |
+| Conservation des souches bactériennes par lyophilisation | Bact06 | |
+| Caryotype standard | Cyto01 | |
+| Fluorescence in situ hybridization – FISH | Cyto02 | |
+| Coupe histologique | Hist01 | |
+| Extraction de protéines | Prot01 | |
+| Dosage de protéines | Prot02 | |
+| Electrophorèse de protéines | Prot03 | |
+| Séquençage de fragments | Seq01 | |
+| Extraction d’ADN | Seq02 | |
+| PCR | Seq03 | |
+| Révélation sur gel d’agarose et Purification des produits PCR | Seq04 | |
+| Analyse des fragments par séquenceur | Seq05 | |
+| PCR en temps réel | Seq06 | |
+| Analyseur de Carbone Total | QA01 | |
+| Hydro-distillation par Clevenger | QA05 | |
+| Analyse de l’huile d’olive : Acidité, Indice de peroxyde, Indice d’iode, PH | QA06 | |
+| Demande chimique en oxygène DCO | QA07 | |
+| Dosage de la matière grasse par Sohxlet | QA08 | |
+| Polarimetere | QA09 | |
+| Analyse par UV-Vis | QA10 | |
+| Extraction par macération | QA11 | |
+| Dosage des protéines(Bradford) Spectrophotomètre UV-vis | QA12 | |
+| Minéralisation par four à moufle | QA13 | |
+| Dosage des sucres (Dubois) par Spectrophotomètre UV-vis | QA14 | |
+| Sonificateur – homogéniseur ultrasonique | QA15 | |
+| Analyse physicochimique miel | QA17 | |
+| Dosage du phosphore | QA19 | |
+| Analyses du sperme par CASA | BA01 | |
+| Cryoconservation du sperme | BA02 | |
+| Extraction d’ADN animal | BA03 | |
+| Isolement de souches bactériennes d’origine animale | BA04 | |
+| Activités Antioxydantes (Format 96 Puits) | Bioch01 | |
+| Activités enzymatiques (Formats 96 Puits) | Bioch02 | |
+| Autres activités (format Multi-puits) | Bioch03 | |
+| Ultra centrifugation | BBC01 | |
+| Purification des protéines par Chromatographie liquide à basse pression | BBC02 | |
+| Technique ELISA | BBC03 | |
+| Production des protéines recombinantes | BBC04 | |
+| Extraction d’ADN et PCR des champignons associés aux plantes cultivées | MYCO01 | |
+| 12. Analyses biochimiques liées au stresse environnementale des végétaux « proline, sucres totaux, caroténoïde et chlorophylle ; MDA, Protéine totaux, catalase, GSH, GST | ENV10 | |
+| Analyses biochimiques liées au stresse environnementale des végétaux « proline, sucres totaux, caroténoïde et chlorophylle ; MDA, Protéine totaux, catalase, GSH, GST | ENV10 | |
+| Analyses biochimiques liées au stresse environnementale des végétaux « proline, sucres totaux, caroténoïde et chlorophylle ; MDA, Protéine totaux, catalase, GSH, GST | ENV10 | |
+| Analyses biochimiques liées au stresse environnementale des végétaux « proline, sucres totaux, caroténoïde et chlorophylle ; MDA, Protéine totaux, catalase, GSH, GST) | ENV 16 | |
+| Micro-Onde U-Wave SINEO | EQUI03 | |
+| Microscope Raman DXR | EQUI04 |
+| CASA Sperm analyser | EQU01 | |
+| Appareil de congélation programmable | EQUI02 | |
+| hplc | 123 | |
+| Micro-Onde U-Wave SINEO | EQUI03 | |
+| Microscope Raman DXR | EQUI04 | |
+| Microscope Raman DXR | EQUI04 | |
+| Microscope Raman DXR | EQUI04 | |
+| Microscope Raman DXR | EQUI04 | |
+| BIORÉACTEUR / FERMENTEUR | BAC03 |

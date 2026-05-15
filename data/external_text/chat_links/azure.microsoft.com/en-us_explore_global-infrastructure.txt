@@ -1,0 +1,17 @@
+[Source: https://azure.microsoft.com/en-us/explore/global-infrastructure]
+[Title: Global Infrastructure | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Innovate and grow on a trusted infrastructure
+Latest Microsoft global datacenter news
+Analyst reports
+- Microsoft named a Leader in 2024 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services. 1
+Watch the Cloud Cultures series
+Choose the Azure account that’s right for you
+Azure cloud solutions
+Find the right Microsoft Cloud solution
+Discover the world of datacenters
+- [1]
+GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally, Magic Quadrant is a registered trademark of Gartner, Inc. and/or its affiliates and is used herein with permission. All rights reserved.
+Gartner does not endorse any vendor, product or service depicted in its research publications and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s Research & Advisory organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.

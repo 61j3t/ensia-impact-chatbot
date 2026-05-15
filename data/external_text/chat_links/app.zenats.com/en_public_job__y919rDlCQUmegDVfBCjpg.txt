@@ -1,0 +1,29 @@
+[Source: https://app.zenats.com/en/public_job/_y919rDlCQUmegDVfBCjpg]
+[Title: MS Pharma Careers Page]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:34+00:00]
+
+Internship – Data & Analytics
+Share this vacancyNo longer accepting applications
+Posted on: Oct 23, 2025
+About El Kendi:
+At El Kendi, leader of the pharmaceutical industry in Algeria, we believe in innovation, excellence, and talent development. We offer students the opportunity to grow and contribute to impactful projects in a stimulating environment.
+About the Internship:
+We are looking for motivated and curious students in the following fields:
+- Business Intelligence & Analytics
+- Data Engineering
+- Data & Artificial Intelligence
+- Bioinformatics
+This internship will allow you to:
+- Discover the professional world within a leading pharmaceutical company.
+- Gain hands-on experience in data-driven projects supporting decision-making and business growth.
+- Collaborate with experts passionate about technology, data, and continuous improvement.
+Your Profile
+- Student in Computer Science, Data Science, Bioinformatics, or related field.
+- Strong analytical mindset and curiosity for data and technology.
+- Eager to learn and contribute within a collaborative environment.
+- Able to provide a training agreement (convention de stage) from your university.
+Why Join Us?
+- A rich and rewarding experience in a key strategic field.
+- Exposure to the pharmaceutical sector, a high-impact and fast-evolving industry.
+- Opportunity to develop both technical and soft skills alongside professionals.

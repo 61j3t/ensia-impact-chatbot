@@ -1,0 +1,79 @@
+[Source: https://anpt.dz/pre-inscription/incubation]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+Accueil
+À propos de nous
+Technoparcs/Incubateurs
+Services
+Projets
+Filiales
+Produits/Startups
+Contact
+Incubation
+Accueil
+Formulaire d'inscription
+Formulaire d'inscription
+Site *
+sélectionnez votre site
+Technoparc de Sidi Abdellah
+Incubateur d'Oran
+Incubateur de Bordj Bou Arreridj
+Nom *
+Prénom *
+Date de naissance *
+Lieu de naissance *
+Genre *
+Homme
+Femme
+Adresse e-mail *
+Numéro de téléphone *
+Adresse *
+Niveau de formation *
+sélectionnez votre niveau de formation
+Primaire
+Secondaire
+Universitaire
+Autre
+Diplôme *
+Institution de formation *
+Situation professionnelle *
+sélectionnez votre situation professionnelle
+Recherche d'emploi
+Salarié
+Entrepreneur
+Autre
+Secteur d'activité *
+Poste occupé *
+Intitulé du projet d'entreprise *
+Déscription du projet d'entreprise *
+Stade d'avancement *
+sélectionnez votre stade d'avancement
+Idée
+Etude de marché
+Prototype
+Business plan
+Registre de commerce
+Vos besoins *
+sélectionnez votre besoin
+Logistiques
+Techniques
+Financiers
+Marketing
+Légal
+Autres
+Domaine Technologique *
+sélectionnez votre domaine technologique
+Numérisation
+IoT
+e-Commerce
+e-Santé
+EducTech
+FinTech
+IA
+e-Service
+Autres
+Motivation *
+Valider
+Evaluez vous !

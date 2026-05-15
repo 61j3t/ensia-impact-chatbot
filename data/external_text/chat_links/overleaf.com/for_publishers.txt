@@ -1,0 +1,29 @@
+[Source: https://www.overleaf.com/for/publishers]
+[Title: Overleaf for Publishers & Journals  - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+Simplified research publishing for authors and editors overleaf for publishers
+With Overleaf, authors and editors can work seamlessly in the same platform to get an article from first draft to final publication.
+Over 25 million users at research institutions and businesses worldwide love Overleaf
+services
+Overleaf Link: streamline the LaTeX submission process
+With Overleaf Link, we can integrate your own LaTeX templates into our platform and then provide custom submission links from the template directly to your own submission web portal.
+One seamless process
+An author can write, edit, and submit all in one place. And if you choose an Overleaf subscription for editorial staff, editorial feedback and revisions can be carried out in Overleaf too.
+Higher quality submissions
+Official publisher templates give authors the guidance they need to deliver LaTeX submissions in the correct format with publisher requirements followed.
+Increase author satisfaction
+Over 25 million researchers around the world use Overleaf. Make their experience with you that bit easier by smoothing and speeding up the submission process.
+LaTeX Validation Service services
+Your LaTeX compilations handled on Overleaf technology and servers through a managed API.
+- Outsource LaTeX technology management and maintenance
+- Compile using the latest LaTeX versions and packages
+- Trusted technology used by over 25 million people
+Standard
+For small teams. Premium features for all group members, including real-time track changes, project history, third-party integrations, our standard Overleaf AI allowance, and much more.
+Pro
+All the benefits of Standard, plus single sign-on, enterprise-grade security and compliance features, unlimited collaborators per project, and our max Overleaf AI allowance.
+Don’t see the right fit for you?
+\begin
+Our friendly team will help you find the right solution for your organization.

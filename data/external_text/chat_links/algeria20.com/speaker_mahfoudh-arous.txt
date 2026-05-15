@@ -1,0 +1,15 @@
+[Source: https://algeria20.com/speaker/mahfoudh-arous]
+[Title: Mahfoudh Arous - Algeria 2.0 - Le Futur Tech Algérien]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:10+00:00]
+
+Software engineer and Full-stack developer, mainly focused on Web technologies JavaScript and React. Member of the official community of React on GitHub.
+Social Profiles
+All Sessions by Mahfoudh Arous
+Alger 2024
+09:30
+AI for Modern Web Applications Development, React and Nextjs
+09:30 - 10:45
+Explore the transformative power of AI tools to accelerate modern web development with React and Next.js. Discover practical strategies to integrate AI into your development process and harness the potential to increase productivity and innovation:
+● Assistants integrated into text editors (IDEs): GitHub Copilot, Codium, ...
+● Generative AI platforms: Claude, v0, phind, ChatGPT, Gemini, ...

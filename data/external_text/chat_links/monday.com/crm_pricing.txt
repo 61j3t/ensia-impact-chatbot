@@ -1,0 +1,131 @@
+[Source: https://monday.com/crm/pricing]
+[Title: monday.com CRM pricing: find the plan that works for you]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:26+00:00]
+
+A CRM pricing plan that works for everyone. Start free.
+Choose team size:
+10 Seats
+Yearly SAVE 33%
+|
+Monthly
+Basic
+For individuals and small teams getting started with CRM.
+$
+12
+$18
+Per seat/month, billed annually
+Monday AI
+Run AI-powered features that streamline your work. Start for free, buy more as needed.
+AI credits
+An intelligent, context-aware AI assistant that runs your work. Start for free, buy more as needed.
+AI Sidekick (lite)
+AI that records, transcribes, and summarizes your meetings. Start for free, buy more as needed.
+Notetaker hours
+Limits
+1,000 active contacts & deals
+Get data-driven insights about your team's work using robust dashboards
+1 custom dashboard
+Build your boards the way you want using dozens of column types
+5 columns per board max
+Create and share customizable quotes & invoices
+20 quotes & invoices /month
+Guests are external users (vendors, freelancers, clients, etc.) with who can only access boards you invite them to, keeping the rest of your account private
+1 workspace
+Save precious time by automating repetitive tasks
+Custom automations
+Advanced
+View every email, call, meeting, and note for each person in one unified timeline that updates automatically
+Centralized comms hub
+Access all your data, log activities, update boards, and stay updated in real time from anywhere – even offline
+iOS & Android apps
+Send and track mass emails to reach large audiences with personalized messages
+Send mass emails
+Automate personalized email sequences and set reminders for manual tasks
+Email sequences
+Standard
+For growing business teams that need the essential toolkit.
+$
+17
+$25
+Per seat/month, billed annually
+Monday AI
+Run AI-powered features that streamline your work. Start for free, buy more as needed.
+AI credits
+An intelligent, context-aware AI assistant that runs your work. Start for free, buy more as needed.
+AI Sidekick (lite)
+AI that records, transcribes, and summarizes your meetings. Start for free, buy more as needed.
+Notetaker hours
+Limits
+10,000 active contacts & deals
+Get data-driven insights about your team's work using robust dashboards
+5 custom dashboards
+Build your boards the way you want using dozens of column types
+15 columns per board max
+Create and share customizable quotes & invoices
+50 quotes & invoices /month
+3 workspaces
+Save precious time by automating repetitive tasks
+250 custom automations /month
+Advanced
+View every email, call, meeting, and note for each person in one unified timeline that updates automatically
+Centralized comms hub
+Access all your data, log activities, update boards, and stay updated in real time from anywhere – even offline
+iOS & Android apps
+Send and track mass emails to reach large audiences with personalized messages
+Send mass emails
+Automate personalized email sequences and set reminders for manual tasks
+Email sequences
+Ultimate
+For large teams with custom workflows and enterprise needs
+Monday AI
+Run AI-powered features that streamline your work. Start for free, buy more as needed.
+AI credits
+Get advanced AI-powered assistance with enhanced capabilities.
+AI Sidekick (plus)
+AI that records, transcribes, and summarizes your meetings. Start for free, buy more as needed.
+Notetaker hours
+Limits
+Unlimited contacts & deals
+Get data-driven insights about your team's work using robust dashboards
+Unlimited custom dashboards
+Build your boards the way you want using dozens of column types
+Unlimited columns per board
+Create and share customizable quotes & invoices
+Unlimited quotes & invoices
+Unlimited workspaces
+Enterprise-scale automations
+Everything in Pro, plus
+Get top-tier security features & user management controls
+Security & governance
+Control who can access data & files at every level of your organization
+Multi-level permissions
+Ensure compliance with the Health Insurance Portability & Accountability Act (HIPAA)
+HIPAA compliance
+24/7 quality support with a priority queue included.
+Enterprise-grade support
+Automatically log emails and activities exactly where they belong, keeping your team focused and your data clean
+Advanced log rules
+Soon
+Enterprise-grade security & control
+* Ultimate is a new name for our Enterprise tier
+* Prices do not include tax. The price is determined by the user's billing country.
+The final price can be seen on the purchase page before payment is completed.
+Complete features list
+Trusted by 250,000+ customers worldwide
+Frequently Asked Questions
+- Is there a free version of monday CRM?Your first option to use monday CRM for free is a 14-day trial. Beyond this, you will need to purchase an appropriate monday sales CRM pricing plan to get full-features. If you are a nonprofit , you may be qualified for free access to monday.com or at a discount after filling out the relevant forms.
+- How much does monday CRM cost?monday CRM cost depends on the plan you choose and your team size. Plans start from 3 users. If you want to sign up more than 40 users, you can request a quote from our sales team to get an exact price.
+- Is there an option for a monthly monday CRM price?You can pay monthly for your account. By choosing the monthly option on our pricing page, you will be able to pay on a monthly basis. However, monthly plans are not discounted — for this reason we recommend the yearly plan for those looking to save.
+- Which monday CRM pricing plan is best for me?We understand that each organization has unique needs, requiring specific features to support specific and multiple projects and workflows. Above you can see the features included in the different monday CRM plans. For further guidance in choosing the right plan for you, reach out to our sales team for a consultation.
+- How does pricing work for monday CRM?All of our pricing, including our other products, is based on 2 variables: the features you’d like to use, and the number of users. Once you’ve determined the feature plan and users, choose your subscription payment preference: month-to-month or annual plans are available. Payment is made in one upfront installment (if you purchase a plan for one year, you will pay for one year upfront).
+- Can I change my mind?If you’ve already paid for a yearly subscription within the last 30-days, and wish to cancel your account, you are entitled to a prorated refund. To cancel, navigate to the Admin section. Your account will be automatically refunded the remaining balance from your original purchase. If you have any questions, reach out to [email protected]
+- Do you offer any discounted plans for monday CRM?Yes. Choosing yearly plan for monday CRM pricing results in an 18% discount.
+- Are there unique monday.com plans for nonprofits and NGOs?monday.com is proud to support organizations that do good around the world. Because of this, we offer discounted pricing for qualified nonprofit organizations. Find out more about our nonprofit plan and pricing here
+- How is my billing managed?Account admins can access purchase history, invoices, payment details, plan type, and more on their account. For more details on how to manage your billing information, read here .
+- How can I change my plan?Admins can change your plan type and user count at any time (Note that post the refund period, we offer no refunds for downgrades). To change your plan, navigate to the Admin section and select the Billing option. From there, choose 'Change plan', pick the desired plan, and enjoy!
+- How secure is monday.com?Customer data security is our top priority and therefore it is our practice to adhere to the strictest data protection laws. monday.com is built with strict security requirements and protocols to secure your data, such as ISO/IEC 27001 and ISO/IEC 27018. We also put our platform through annual security audits and assessments as well as high physical, procedural, and technical security measures to preserve the integrity and security of your data.
+- What payment methods are accepted?All major credit cards (excluding debit cards) - Visa, Master Card, American Express, Discover, Diners Club, JCB, Carte Bleue, Union Pay are accepted for our plan payment. You can also purchase your monday.com subscription via PayPal. (Note this may be subject to change depending on your location.) We also accept invoices for Enterprise plans that meet a minimum fee. You can contact [email protected] for more information on this requirement.
+- Can I use monday.com on mobile apps?Yes, the platform’s app is available for both IOS and Android devices. You can download them on the Apple or Google Play Stores. Learn more here .
+Start using monday CRM today
+Try it now for free / No credit card needed

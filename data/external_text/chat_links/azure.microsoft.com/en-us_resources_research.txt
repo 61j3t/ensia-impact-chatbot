@@ -1,0 +1,26 @@
+[Source: https://azure.microsoft.com/en-us/resources/research]
+[Title: Cloud Trends | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Drive better decisions with the latest strategic and technical insights on AI, data, cloud, and app innovation. Explore white papers, analyst reports, guides, executive briefs, and webinars.
+Industry recognition
+See why Azure is recognized as a leader in cloud solutions
+Get perspectives on the cloud computing market from industry analysts—then discover resources to help you achieve your business goals with Azure.
+Analyst report
+Gartner® Magic Quadrant™ for Integration Platform as a Service
+Azure enables scalable, AI-driven integration across cloud and on-prem systems.1,2
+Browse Azure white papers, strategic guides, briefs, and e-books. Use filters for topic, business area, technical level, and content type to find what’s relevant to your goals and interests.
+Next steps
+Find the right Azure solution for you
+Get the expertise, tools, and insights you need to grow and innovate—wherever you are in your cloud and AI transformation.
+Azure Accelerate
+Fuel transformation with experts across the cloud and AI journey.
+GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally, and is used herein with permission. All rights reserved.
+Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner's research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.
+Gartner and Magic Quadrant are trademarks of Gartner, Inc., and/or its affiliates.
+Gartner, Magic Quadrant for Strategic Cloud Platform Services, Alessandro Galimberti, Dennis Smith, Carolin Zhou, Ed Anderson, Tony Harvey, Douglas Toombs, 4 August 2025.
+Forrester does not endorse any company, product, brand, or service included in its research publications and does not advise any person to select the products or services of any company or brand based on the ratings included in such publications. Information is based on the best available resources. Opinions reflect judgment at the time and are subject to change. For more information, read about Forrester’s objectivity here .
+Gartner, Emerging Tech: AI Vendor Race: Customer Trust Is a Critical Barrier to Agentic AI Adoption7, Danielle Casey, Alfredo Ramirez IV, Anushree Verma, Akhil Singh, Aakanksha Bansal. 2 June 2025.
+Gartner, Magic Quadrant for Container Management, A Dennis Smith, Wataru Katsurashima, Tony Iams, Lucas Albuquerque, Michael Warrilow, Stephanie Bauman, 6 August 2025.
+Gartner, Magic Quadrant for Distributed Hybrid Infrastructure, Julia Palmer, Jeffrey Hewitt, Dennis Smith, Tony Harvey, Elaine Zhang, 8 September 2025.

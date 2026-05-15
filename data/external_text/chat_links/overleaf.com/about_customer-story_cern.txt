@@ -1,0 +1,52 @@
+[Source: https://www.overleaf.com/about/customer-story/cern]
+[Title: Customer Stories: CERN | Overleaf - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+CERN accelerates global collaboration with Overleaf
+Discover how Overleaf is powering thousands of collaborations at one of the world’s foremost research organizations.
+The launch of Overleaf at CERN has been a huge success, with usage in the first year and a half growing by over 800% to include more than 3,600 CERN members across many different departments and specialties.
+—Nikos Kasioumis, Software Engineer in the IT department at CERN and leader of the CERN authoring trial
+At a glance
+Cooperation between nations, universities, and scientists is the driving force behind CERN’s research. However, the process of writing reports and research papers collaboratively was proving unnecessarily slow and complex, with researchers and staff working in a variety of different tools and formats. CERN wanted to find an authoring tool that would work for their large and varied collaborative projects, and help consolidate different writing styles and formats.
+The solutionFollowing an extensive trial against direct competitors, Overleaf was selected as the tool of choice for CERN. It offered all the key features requested by CERN staff and researchers, including efficient LaTeX editing, collaborative writing, and version control. Following the launch of Overleaf, use grew by over 800% during the first 18 months (from 411 users to 3,600).
+ProductOverleaf Commons (Cloud)
+A global, collaborative research effort
+CERN, established in 1954, is one of the most famous research organizations in the world and has become a prime example of international research collaboration. Since its founding, it’s been at the forefront of the creation, development, and adoption of new technology to help uncover what the universe is made of and how it works. CERN brings together people from all over the world to push forward the boundaries of human knowledge, helping to inspire and train the next generation of scientists and engineers in the process.
+As of 2017, more than 17,500 people were involved in CERN’s research, with staff members numbering around 2,500. Data is gathered for a vast community of users, comprising over 12,200 scientists of 110 nationalities, from institutes in more than 70 countries.
+Challenges of writing and publishing at CERN
+When writing LaTeX locally everyone had a different environment, sharing was not easy, and rendering was unpredictable. Versioning and figuring out which file was the right one to edit was also a problem.
+—Stefanie van de Sandt, PhD student, CERN
+In 2016, CERN wanted to adopt a single, collaborative authoring tool for their researchers. This new tool would enable CERN to enhance efficiency and collaboration in its long-established publishing process.
+This process dates back to January 1955 when the first ever CERN Report was published. More than 1,000 CERN Reports, often called CERN Yellow Reports, have since followed, including school proceedings, monographs, and conference proceedings.
+CERN wanted to increase the efficiency and automation of report production, but they identified several issues with the existing authoring process, including varied formats and inefficient collaboration.
+The critical requirements identified by users who spoke to the team at CERN included:
+- LaTeX—in the fields CERN researchers typically work in (such as high-energy physics), LaTeX is the standard tool for writing research.
+- Efficiency and ease of use—authors should be able to focus on writing, rather than having to take a lot of time wrestling with software during the writing process.
+- Collaboration—for CERN projects, smooth collaboration during research and writing is essential.
+- Versioning—researchers wanted to see who had written what and when, with an easily accessible version history for documents.
+The problems facing researchers were neatly summed up by PhD student Stefanie van de Sandt: “When writing LaTeX locally everyone had a different environment, sharing was not easy, and rendering was unpredictable. Versioning and figuring out which file was the right one to edit was also a problem.”
+3,600
+Overleaf users at CERN
+800%
+growth in users in first 18 months
+70
+countries collaborating
+Putting Overleaf to the test
+To assess which tool would be the right one for them, CERN set up a trial that included a broad cross-section of different types of users. The trial provided access to three authoring platforms, with the users trying them out for test cases as well as their own projects. It ran for a year, allowing users to try the tools in real collaborations.
+Following this extensive testing, the recommendation was that Overleaf should be the tool provided to CERN researchers and staff.
+“Anybody can just log in and start working and versioning right away with Overleaf,” explained Markus Aicheler, Engineer at the Compact Linear Collider (CLIC) at CERN. “Overall, it changed the way we approached the document and it took away a lot of the workload, especially when it comes to collaborative editing.
+When I want a colleague to see my project, I just give them the appropriate access rights—I don’t have to share a PDF with them over email.”
+It changed the way we approached the document and it took away a lot of the workload, especially when it comes to collaborative editing.
+—Markus Aicheler, Engineer at the Compact Linear Collider (CLIC) at CERN
+Accelerating successful adoption with Overleaf Commons
+Once Overleaf was chosen as CERN’s preferred tool, they were able to use Overleaf Commons to provide quick and easy access to their staff and researchers. This option allows any person with a CERN email address to register with Overleaf and immediately receive access to all premium features, including unlimited collaborators on projects, real-time track changes, project history, and more.
+The launch and uptake were incredibly successful, with the use of Overleaf growing by over 800% in the first 18 months—from 411 users in early 2018 to 3,600 by mid-2019.
+“I’ve used Overleaf for several projects this year [2018],” said Steinar Stapnes, Linear Collider Study Leader in the Accelerators and Technology (AT) sector. “There was one where 20 people collaborated to write 100 pages, another one with more than 250 pages. What I find particularly useful is the history feature—you can go back and check who has made a change and when, and that helps you when things go wrong. Especially when there are many people working on the same project.”
+“We’ve seen the number of CERN users and projects on Overleaf grow steadily,” concluded Nikos Kasioumis, Software Engineer in the IT department at CERN and leader of the CERN authoring trial. “It’s become a standard part of the CERN authoring workflow.”
+Read more customer stories
+The leading UK university more than quadrupled the number of institutions with which it collaborates and saw a 310% jump in new projects.
+Ontario Tech’s Vialab group saves ‘significant’ time writing, editing, and collaborating.
+Find out how Symplectic’s flagship research information management system went from strength to strength with Overleaf’s ‘flexible, scaleable’ authoring platform.
+Discover Overleaf for organizations
+Join over 8,900 leading businesses and research institutions writing smarter with Overleaf.

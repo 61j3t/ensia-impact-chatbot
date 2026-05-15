@@ -1,0 +1,61 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/29]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+Adresse: Plateau Technique d'Analyse Physico-Chimique, Pôle Universitaire El-Hadjeb - Biskra
+E-mail: ibtikar.07.biskra@gmail.com
+Téléphone: 0
+Catégorie: MESRS
+Nombre de services : 20
+Nombre d'équipement : 27
+Nombre de prestations : 1974
+Description
+Conformément à la loi quinquennale N° 98-11 du 22 août 1998 modifiée et complétée portant loi d’orientation et de programme à projection quinquennale sur la recherche scientifique et le développement technologique et afin de répondre aux besoins sans cesse croissants du monde industriel et des laboratoires de recherche universitaires nationaux dans le domaine de l’analyse physico-chimique, le CRAPC a été investi par la Direction Générale de la Recherche Scientifique et du Développement Technologique (DGRSDT) sous la tutelle du Ministère de l’Enseignement Supérieur et de la Recherche Scientifique (MESRS), de la mission de la mise en place des plateaux techniques d’analyses Physico-chimiques (P.T.A.P.C.) implantés au sein des universités nationales. Ces derniers, sont répartis sur le territoire national de façon homogène dans le but de répondre aux besoins croissants en analyses physico-chimiques.
+| Microscope Electronique à Balayage (MEB) Environnemental | MEB | |
+| Diffractomètre de Rayons X (DRX) | DRX | |
+| Chromatographie en phase Gazeuse couplée au Détecteur à Inonisation de Flamme (GC-FiD) | GC-FiD | |
+| Chromatographie en phase Gazeuse couplée à la Spectroscopie de Masse (GC-MS) | GC-MS | |
+| Chromatographie Liquide Couplée à la Spectroscopie de Masse (LC-MS) | LC-MS | |
+| Chromatographie Liquide à Haute Performance (HPLC) | HPLC | |
+| Spectromètre Infrarouge à Transfomée de Fourier (FTIR/ATR-DRIFT) | FTIR/ATR | |
+| Secptromètre UV à réflexion diffusée | UV-Vis | |
+| Spectroscopie à Absorption Atomique | SAA | |
+| Microscope Force Atomique | AFM01/2022/PTAPCBiskra | |
+| Rhéomètre | Rhéomètre | |
+| Analyseur C/S | CS01/2021/PTAPCBiskra | |
+| Analyseur CHSN-O | CHNSO01/2021/PTAPCBiskra | |
+| Broyeur Planétaire (MODELE EMAX)" | Broyeur Planétaire01/2021/PTAPCBiskra | |
+| Broyeur à Billes (MODELE PM-100)" | Broyeur à Billes01/2022/PTAPCBiskra | |
+| Broyeur à Mortier (MODELE RM 200) | Broyeur à Mortier FRX01/2021/PTAPCBiskra | |
+| Calorimétrie différentielle à balayage (DSC) | DSC01/2021/PTAPCBiskra | |
+| Micro-Onde d’Extraction (MODELE ETHOS X) | MO01/2021/PTAPCBiskra | |
+| Lyiophilisateur | Lyiophilisateur-PTAPC Biskra | |
+| méthode kjeldahl | KJD |
+| Microscope Electronique à Balayage (MEB) Environnemental | MEB01/2021/PTAPCBiskra | |
+| Rhéomètre | RHEO01/2021/PTAPCBiskra | |
+| Microscopie Force Atomique (AFM) | AFM01/2022/PTAPCBiskra | |
+| Viscosimètre | Viscosimètre/1/2019 | |
+| Diffractomètre de Rayons X (DRX) (MODELE D8 ADVANCE) | DRX01/2021/PTAPCBiskra | |
+| Analyseur Elémentaire Carbone / Souffre (C, S) (MODELE Elementrac CSd) | CS01/2021/PTAPCBiskra | |
+| Chromatographie en phase Gazeuse couplée au Détecteur à Inonisation de Flamme (GC-FiD) (MODELE GC-2030/ZA-1500) | GCFID01/2021/PTAPCBiskra | |
+| Chromatographie en phase Gazeuse couplée à la Spectroscopie de Masse (GC-MS) (MODELE : GCMS-QP-2020-NX/NEXIS GC-2030) | GCMS01/2021/PTAPCBiskra | |
+| Chromatographie Liquide à Haute Performance (HPLC) (MODELE 1260 Infinity II) | HPLC01/2021/PTAPCBiskra | |
+| Chromatographie Liquide Couplée à la Spectroscopie de Masse (LC-MS) (MODELE LCMS-2020) | LCMS01/2021/PTAPCBiskra | |
+| Chromatographie Liquide à Ultra Haute Performance (UHPLC) (MODELE DIONEX ULTILMATE 3000) | UHPLC01/2021/PTAPCBiskra | |
+| Lyophilisateur (MODELE Alpha 2-4 LSCplus) | LYOP01/2021/PTAPCBiskra | |
+| Azote selon Kjeldahl | KJEL01/2021/PTAPCBiskra | |
+| Micro-Onde d’Extraction (MODELE ETHOS X) | MO01/2021/PTAPCBiskra | |
+| Spectromètre Infrarouge à Transfomée de Fourier (FTIR/ATR-DRIFT) (MODELE Cary 630) | IRTF01/2021/PTAPCBiskra | |
+| Secptromètre UV à réflexion diffusée (MODELE Cary 60 UV-Vis) | UVVIS01/2021/PTAPCBiskra | |
+| Spectroscopie à Absorption Atomique | SAA01/2022/PTAPCBiskra | |
+| Analyse Elementaire CHNS-O | CHNSO01/2021/PTAPCBiskra | |
+| Perleuse- Four de Fusion (01 position) | FRX01/2021/PTAPCBiskra | |
+| Broyeur Planétaire | Broyeur PlanétaireFRX01/2021/PTAPCBiskra | |
+| Broyeur à Billes (MODELE PM-100)" | Broyeur à Billes FRX01/2021/PTAPCBiskra | |
+| Diviseur d’Echantillons | Diviseur d’Echantillons | |
+| Presse - Pastilleuse (MODELE MT25) | Presse - Pastilleuse (25T) | |
+| Broyeur à Mortier | Broyeur à Mortier | |
+| Générateur d’Azote Liquide | Générateur d’Azote Liquide | |
+| Microscope Optique (MODELE Axiocam 305 Color) | Microscope Optique | |
+| Calorimétrie différentielle à balayage (DSC) | DSC01/2021/PTAPCBiskra |

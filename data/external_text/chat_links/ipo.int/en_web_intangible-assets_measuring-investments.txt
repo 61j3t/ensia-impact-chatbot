@@ -1,0 +1,52 @@
+[Source: https://www.wipo.int/en/web/intangible-assets/measuring-investments]
+[Title: Measuring Intangible Assets Investment]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:51+00:00]
+
+Measuring Investment in Intangible Assets
+Intangible assets are key drivers of innovation, productivity and economic growth. Despite their importance, our understanding of the size and impact of intangible assets remains limited due to gaps and lags in the available data. More timely data with better coverage beyond high-income economies is essential to help inform pro-growth policies.
+To address these knowledge gaps, the WIPO-LBS Partnership on Intangible Assets in the Global Economy aims to generate up-to-date global estimates of investment in intangible assets.
+Up-to-date statistics on investment in intangible assets, especially with an improved coverage of low- and middle-income economies, can be used to inform pro-growth national policies.
+Furthermore, this data can help researchers and entrepreneurs alike understand the links between intangible assets and economic performance, not only across countries but also within companies and sectors.
+Better metrics are also crucial for improving innovation finance, including intellectual property-backed innovation finance.
+The measurement of intangible assets poses several challenges. The “non-physical” nature of intangible assets makes them intrinsically hard to measure and report. Moreover, many intangible asset types, such as brands or design, are still not recognized as investment under national accounting frameworks.
+The existing data also suffers from gaps in coverage and time lags, especially outside high-income economies.
+A paragraph is a self-contained unit of a discourse in writing dealing with a particular point or idea. Paragraphs are usually an expected part of formal writing, used to organize longer prose. A paragraph is a self-contained unit of a discourse in writing dealing with a particular point or idea. Paragraphs are usually an expected part of formal writing, used to organize longer prose.
+Launch of the World Intangible Investment Highlights 2025
+World Intangible Investment Highlights
+Co-published by WIPO & Luiss Business School, the World Intangible Investment Highlights serve as the key reference publication for the latest statistics on global investment in intangible assets encapsulated in the Global INTAN-Invest Database.
+This publication offers up-to-date, cross-country measures of global investment in intangible assets (such as research and development, software, data, brands, design, and organizational capital), representing a significant advancement for evidence-based policymaking.
+World Intangible Investment Highlights
+Intangible Assets in the Global Economy: Better Data for Better Policy
+To address the knowledge gaps in measuring intangible investment, WIPO’s IP and Innovation Ecosystems Sector (IES), Department for Economics and Data Analytics has established a program of work on Intangible Assets in the Global Economy.
+In partnership with Luiss Business School, this program aims to produce timely estimates of intangible investment in high-income as well as middle-income economies, starting with India and Brazil.
+The results of this work are released annually through the World Intangible Investment Highlights report, presenting the key global trends in intangible investment. The underlying data is released in the form of the Global INTAN-Invest Database.
+In addition, the project also includes technical capacity-building efforts aimed to empower countries worldwide to generate this data independently.
+- Bishawanath Goldar (Institute for Economic Growth, India)
+- Tsutomu Miyagawa (Gakushuin University and Research Institute of Economy, Trade and Industry (RIETI), Japan)
+- Mary O'Mahony (King's College, UK)
+- Bart van Ark (University of Manchester, UK)
+- Rodrigo Ventura (Instituto Nacional da Propriedade Industrial (INPI), Brazil)
+Steering Committee members
+The Steering Committee convenes leading international organizations to provide strategic direction, ensure alignment with global policy priorities and foster coordinated progress in measuring intangible investment.
+Technical Advisory Board
+The Technical Advisory Board brings together leading international experts to offer independent methodological guidance and ensure the quality and credibility of the project’s outputs.
+Carol Corrado
+Georgetown University, United States
+Bishawanath Goldar
+Jonathan Haskel
+Imperial College London, United Kingdom
+Tsutomu Miyagawa
+Gakushuin University and Research Institute of Economy, Trade and Industry (RIETI), Japan
+Intangible investment insights
+A paragraph is a self-contained unit of a discourse in writing dealing with
+a particular point or idea. Paragraphs are usually an expected part of
+formal writing, used to organize longer prose.
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet
+Learn more about measuring intangible investment
+WIPO – Luiss 2nd Global INTAN-Invest Conference: Better Data for Better Policy (2025)
+The conference brings together leading academics, policymakers, and industry experts to explore how intangible assets are driving innovation and productivity worldwide. Download the program.
+Do you have questions about measuring investment in intangible assets ?
+Please send any general enquiries relating to this project, including from students, academics, journalists and others.

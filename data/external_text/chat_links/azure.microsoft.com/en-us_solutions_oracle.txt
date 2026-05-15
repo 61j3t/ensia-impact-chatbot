@@ -1,0 +1,7 @@
+[Source: https://azure.microsoft.com/en-us/solutions/oracle]
+[Title: Oracle on Azure | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Oracle will build, deploy, and operate a set of Oracle AI Database Services in Azure that were previously available only on-premises or in Oracle Cloud Infrastructure (OCI).
+The initial offering included Oracle Exadata Database Service and support for Oracle Real Application Clusters, Oracle GoldenGate, and Oracle Data Guard technologies. We've since expanded the offering to include Oracle Autonomous Database, Oracle Database Zero Data Loss Autonomous Recovery Service, Oracle Exadata Exascale, and Base Database, along with the choice of running the latest versions of Oracle technology like 26ai or Oracle Database 19c. Oracle has also introduced support policies for running Oracle E-Business Suite, PeopleSoft, JD Edwards EnterpriseOne, Enterprise Performance Management, and Oracle Retail Applications in Microsoft Azure using Oracle AI Database@Azure.

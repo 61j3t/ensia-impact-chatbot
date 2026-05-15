@@ -1,0 +1,16 @@
+[Source: https://drive.google.com/drive/folders/1Zc9mLD-V3sysaydWy7iD5m6AqhcZs0Kc?usp=sharing]
+[Title: Resources ENSIA - Google Drive]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:11:41+00:00]
+
+Name | Date modified | File size |
+|
+|---|---|---|---|
+0- Developer Roadmaps.pdf Shared | Sep 19, 2023 | 434 KB | |
+0- Globe engineer roadmap.pdf Shared | Apr 17, 2024 | 530 KB | |
+1- Artificial Intelligence roadmap.pdf Shared | Jul 21, 2023 | 415 KB | |
+2- Types of Data Professionals.pdf Shared | Jul 27, 2023 | 57 KB | |
+3- Data Science roadmap.pdf Shared | Apr 29, 2023 | 218 KB | |
+4- Machine Learning resources.pdf Shared | Jul 20, 2023 | 55 KB | |
+5- Switch from C++ to Python.pdf Shared | Jul 20, 2023 | 657 KB | |
+Current Company Partners.pdf Shared | Apr 20, 2025 | 39 KB |

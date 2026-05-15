@@ -1,0 +1,25 @@
+[Source: https://monday.com/work-management/marketing]
+[Title: Drive more demand with AI agents | monday.com]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:26+00:00]
+
+monday.com is where marketing teams and AI agents deliver more campaigns and better results in less time.
+Trusted by world-class marketing teams
+Build a campaign plan from this brief, with channels, owners, timelines, and deliverables assigned automatically. Flag gaps before the kickoff meeting.
+Monitor all open tickets, triage by priority, and resolve common requests without me.
+Amanda
+Planning the campaign...
+Describe your goal. Get back a full campaign plan with a brief, milestones, owners, and channel strategy, grounded in your brand and past performance.
+Your team drives creative direction. Agents draft copy, generate assets, and route approvals.
+Performance data from every channel, in one view. AI surfaces what’s working. Reports write themselves.
+Built for speed — without trading away brand safety, governance, or creative control.
+Explicitly control what each agent can access, create, or modify. Nothing is granted automatically.
+Every person and agent is logged with reasoning you can review — and undone with one click.
+High-stakes actions — launches, spend changes, outbound sends — always wait for your sign-off.
+Your data stays in your account. No third-party model training. SOC 2 Type II, ISO 27001, GDPR, HIPAA compliant.
+Agents can draft briefs and content, generate creative assets, manage campaign boards, monitor performance across channels, flag risks, build reports, and run competitive research — all inside your monday.com workspace. They connect to your existing tools and act within the permissions you set.
+No. You describe what you want the agent to do in plain language. It configures its own triggers, instructions, and tool connections. You review, adjust, and activate. No code, no IT ticket required.
+Never. Agents start with no access and no permissions. You explicitly decide what each agent can see, create, or modify. Simulation mode lets you preview behavior before activation. Every action is logged and reversible.
+monday.com isn't task management with AI on top. It's a connected system where campaigns, assets, approvals, performance data, and AI agents live together — grounded in your brand, your history, and your goals. That's what makes agents useful rather than generic.
+Minutes. Describe what you want an agent to do, connect it to your boards and tools, and activate. Most teams have their first agent running the same day — no implementation project, no IT dependency required.
+Yes. Agents live inside your existing monday.com workspace. If your team is already running campaigns or projects on monday, agents plug directly into those boards. Nothing to migrate, nothing to rebuild.

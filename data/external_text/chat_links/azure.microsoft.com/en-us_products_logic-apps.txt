@@ -1,0 +1,7 @@
+[Source: https://azure.microsoft.com/en-us/products/logic-apps]
+[Title: Azure Logic Apps | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Out-of-the-box connectors
+Access more than 1,400 pre-built connectors (Microsoft, Salesforce, Dynamics 365, SAP, IBM Mainframe) or build your own. Process B2B transactions efficiently with built-in EDI operations, supporting large payloads and industry formats such as EDIFACT, X12, AS2, RosettaNet, and SWIFT. Convert connectors into MCP servers for reusable agent tools, and centralize discovery, onboarding, and governance in Azure API Center. Accelerate AI-driven workflows with built-in Azure OpenAI and Azure AI Search connectors.

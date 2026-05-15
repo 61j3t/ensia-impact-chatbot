@@ -1,0 +1,510 @@
+[Source: https://www.djezzy.dz/nos-boutiques]
+[Title: NOS CENTRES DE VENTE ET DE SERVICES]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:47:52+00:00]
+
+Langues
+Arabic
+Français
+Protection des données
+SMS Douteux
+Mon espace
+Nous contacter
+Nos Boutiques
+My Djezzy
+Livechat
+E-Paiement
+Accueil
+Entreprises
+Djezzy
+Protection des données
+SMS Douteux
+Mon espace
+Nous contacter
+Nos Boutiques
+My Djezzy
+Livechat
+E-Paiement
+Français
+Arabic
+Français
+Djezzy
+Offres
+Offres Prépayées
+Offres Postpayées
+STUDENT CAMPUCE
+Offres Internet
+ROAMING HADJ & OMRA
+ROAMING MONDE ARABE
+ROAMING EUROPE
+Djezzy Legend
+IZZY !
+Djezzy ZID
+LEGEND MAX
+DJEZZY CONFORT PARTAGE
+DjezzyNet
+Djezzy 3ayla
+AVANTAGES SIM INTERNET
+Djezzy FLEXYNET
+Facebook Flex
+Roaming OMRA
+Forfaits Roaming Tunisie
+Forfaits Roaming Egypte
+Forfaits Roaming CAN
+Forfaits Roaming France
+Forfaits Roaming Turquie
+Forfaits Roaming Espagne
+Services
+Mobiles
+Partager sur :
+facebook
+twitter
+linkedin
+NOS CENTRES DE VENTE ET DE SERVICES
+Accueil
+NOS CENTRES DE VENTE ET DE SERVICES
+Wilaya :
+Toutes les wilayas...
+1 - Adrar
+2 - Chlef
+3 - Laghouat
+4 - Oum El-Bouaghi
+5 - Batna
+6 - Béjaïa
+7 - Biskra
+8 - Béchar
+9 - Blida
+10 - Bouira
+11 - Tamanrasset
+12 - Tébessa
+13 - Tlemcen
+14 - Tiaret
+15 - Tizi-Ouzou
+16 - Alger
+17 - Djelfa
+18 - Jijel
+19 - Sétif
+20 - Saida
+21 - Skikda
+22 - Sidi Bel-Abbès
+23 - Annaba
+24 - Guelma
+25 - Constantine
+26 - Médéa
+27 - Mostaganem
+28 - M'Sila
+29 - Mascara
+30 - Ouargla
+31 - Oran
+32 - El - Bayadh
+33 - Illizi
+34 - Bordj Bou - Arreridj
+35 - Boumerdès
+36 - El - Taref
+37 - Tindouf
+38 - Tissemsilt
+39 - El - Oued
+40 - Khenchela
+41 - Souk - Ahras
+42 - Tipaza
+43 - Mila
+44 - Ain - Defla
+45 - Naâma
+46 - Ain - Temouchent
+47 - Ghardaia
+48 - Relizane
+49 - Timimoune
+50 - Bordj Badji Mokhtar
+51 - Ouled Djellal
+52 - Béni Abbès
+53 - In Salah
+54 - In Guezzam
+55 - Touggourt
+56 - Djanet
+57 - El M'Ghaier
+58 - El Meniaa
+ADRAR
+Adresse
+Groupe 74, Prés souk Dinar Tayeb, Adrar.
+Ain Defla - Emir Abdelkader
+Adresse
+Cité les frères Hadj KADDOUR LOT N° 66 Groupe propriété N° 154 Commune Ain defla, wilaya AIN DEFLA)
+Ain Defla - Khemis Meliana
+Adresse
+Rue Belsaadi Abdelkader, Khemis Meliana, Aïn Defla.
+AIN TIMOUCHENT
+Adresse
+Boulevard du 1er Novembre, N° 19, Ain Temouchent.
+Alger - Audin
+Adresse
+23, Rue Didouche Mourad, Place Audin, Alger.
+Alger - Bab El Oued
+Adresse
+06, Boulevard Abderrahmane Mira, BEO, Alger.
+Alger - Bab Ezzouar / Centre commercial
+Adresse
+Centre commercial et des loisirs -Quartier des affaires- Bab Ezzouar, Alger.
+Alger - Bir Mourad Rais
+Adresse
+Rue Saada Larbi (Ex Gambita) Groupe 37 N° 10.
+Alger - Birkhadem
+Adresse
+Place Taleb Mohamed Ameziane, Bir khadem, Alger
+Alger - Dar El Beida
+Adresse
+Rue Mohamed KHEMISTI N°14 & N°16 Lot N°18 propriété N°13 – Commune Dar El Beida, Alger.
+Alger - Draria
+Adresse
+573 Lot Guéssas, Route de Baba Hassen, Draria - Alger
+Alger - El Biar
+Adresse
+130 Boulevard Ali KHODJA , El Biar
+Alger - El Harrach
+Adresse
+03, Rue Ouled Sidi Cheikh, Belfort, El Harrach, Alger.
+Alger - Kouba (Ex Lavigerie)
+Adresse
+86, Avenue des frères Abdeslami (Ex Lavigerie), Vieux Kouba, Alger.
+Alger - Rouiba
+Adresse
+5, Boulevard Colonel Amirouche, Rouiba, Alger.
+Alger - Staouéli
+Adresse
+C.E.M Lychly, Staouéli, Alger.
+Alger - Zéralda
+Adresse
+Local N° 02 118 rue 01 Novembre Zéralda
+ALGER AÉROPORT National
+Adresse
+Aéroport Houari Boumediene, Terminal International, Hall Central, Alger.
+Annaba - El Bouni
+Adresse
+Division 52, Groupe 62 N° D15, EL Bouni Centre, Annaba
+Annaba - Ex Majestic
+Adresse
+15, Boulevard du 1er Novembre 1954 (Ex Majestic), Annaba.
+AZ MALL Oran
+Adresse
+Daya Morsli, Lots 80 et 81, Lotissement N°02, Es-Senia – Oran
+Azzaba - Skikda
+Adresse
+56 Avenue de l’indépendance, Azzaba - Skikda
+Baraki
+Adresse
+658 Rue MOHAMED LARBI - BARAKI /Wilaya Alger
+Batna - Barika
+Adresse
+Barika-centre, Barika, Batna.
+Batna - Centre
+Adresse
+55 bis, Route de Biskra, Batna.
+BECHAR
+Adresse
+56, Rue Slimane Belkhedim, Béchar.
+Béjaia - Akbou
+Adresse
+Rue Aïssat Idir, Guendouza, R.N 26, Akbou, Béjaïa.
+Béjaia - Ihadeden
+Adresse
+Laazib Oumaamar Ihadeden, Bejaia.
+Béjaia - Kherata
+Adresse
+Route national 05, Kherrata- Béjaia
+Béni Abbés - Aissat IDIR
+Adresse
+Lotissement Aissat IDIR,
+BISKRA - Centre commercial El Khir
+Adresse
+Centre commercial El Khir sis 03 avenue frères Saouli Biskra
+Blida - Boufarik
+Adresse
+31, BOULEVARD MOUKHTARI, BOUFARIK, BLIDA.
+Blida - place Zabana
+Adresse
+38, Boulevard Larbi Tebessi, place Zabana, Blida.
+Bordj Badji Mokhtar - Nouvelle Ville
+Adresse
+Nouvelle Ville Bordj Badji Mokhtar,
+BORDJ BOU ARRÉRIDJ
+Adresse
+07, Rue Ramache Aïssa, Bordj Bou Arréridj.
+Bouira - Zighout youcef
+Adresse
+Division Lakhdar Chaouche, Classe 63 72 (Rue Zighout youcef) Bouira
+BOUMERDES
+Adresse
+Cité Deriche N°24, Lot N°06, Boumerdes.
+Chlef - BEN BADIS
+Adresse
+Bvd Abdelhamid BEN BADIS N° 14 Chlef
+Chlef - Boukadir
+Adresse
+Cité 50 Logements, Commune Boukadir – Chlef
+Chlef - Chéttia
+Adresse
+Zone 05 N° 271, Commune Chéttia, Daïra Oulad Farés, Wilaya de Chlef
+CONSTANTINE - Sidi Mabrouk
+Adresse
+09, Rue Larakeb Ahmed, Sidi Mabrouk, Constantine.
+Constantine - Ali Menjeli
+Adresse
+Lotissement Ain En Baye , lot N° 65 , ville Ali Mendjli , Constantine
+Constantine - EL KHROUB
+Adresse
+Centre Commercial Cité 1600 Lgts N° 761, El Khroub, Constantine
+Constantine - EL RIMEL
+Adresse
+Zone Industrielle EL RIMEL (Sables) N°51 A - Daïra Constantine - Commune Constantine. Wilaya Constantine
+CONSTANTINE - Ex St Jean
+Adresse
+15, Rue Belouizdad (Ex St Jean), Constantine.
+Constantine - Hamma Bouziane
+Adresse
+Boulvard de l'A.L.N Local A1/A2, Hamma Bouziane, Wilaya de Constantine
+Constantine - Nouvel Aéroport International
+Adresse
+Aéroport Mohamed Boudiaf, Hall Central, Constantine.
+Constantine - Ritedj MALL
+Adresse
+lot N° 5-6 Nouvelle Ville Ali Mendjli , El-Khroub 25001.
+Djanet - Centre Ville
+Adresse
+Boulevard principale cité nouvelle ville IDFRI, DJANET
+Djelfa - Ain Oussara
+Adresse
+Cité Houari Boumediene, N° 02, Ain Oussara, Djelfa.
+Djelfa - Hassi Bahbah
+Adresse
+Cité Colonel Si El Houasse Bloc 43 N°07, Hassi Bahbah - Djelfa
+Djelfa - Sidi Naîl
+Adresse
+84, Rue Sidi Naîl, Djelfa.
+El Attaf - Aïn Defla
+Adresse
+57 Boulvard Mohamed Khemisti, El Attaf - Aïn Defla
+EL BAYADH
+Adresse
+Rue Brahim Belkacem, Place Emir Abdelkader, El Bayadh.
+EL MEGHIER - EL SAADA
+Adresse
+Lot 425 Cité EL SAADA -En Face la poste principale. Wilaya El Mghaier
+El Menia
+Adresse
+Centre-Ville EL MENIAA
+EL OUED
+Adresse
+Cité l'Asnam, El Oued.
+El Taref
+Adresse
+Centre Commercial CITY CENTER ZAIDI, RN 44, El Taref 36000
+GHARDAIA
+Adresse
+Rue du 1er Novembre, Thniyet El Makhzen, Ghardaia
+GUELMA
+Adresse
+06, Rue Ali Chorfi, Guelma.
+Illizi - Centre Ville
+Adresse
+Centre-ville, Illizi
+In Guezzam - APC
+Adresse
+Centre-Ville /APC IN Guezzam
+In Salah - K'ser EL Mourabitine
+Adresse
+Lotissement AKBOUR - K'ser EL Mourabitine. In Salah
+JIJEL - 1er Novembre
+Adresse
+01, Boulevard du 1er Novembre 1954, Jijel.
+Jijel - EL MILIA
+Adresse
+Grand Boulevard - El Milia - Jijel
+Jijel - Tahér
+Adresse
+23 Rue Amra Tahar, Tahér - Jijel
+KHENCHELA
+Adresse
+Galerie Mascula, Route de Babar, Khenchela.
+Koléa - Tipaza
+Adresse
+11, Place Kesrli El Hadi, Koléa, Tipaza.
+Laghouat - Emir Abdelkader
+Adresse
+Rue Emir Abdelkader, Laghouat.
+Laghouat- Aflou
+Adresse
+Ilot 23 Boulvard Emir Abdelkader, Aflou - Laghouat
+LAKHDARIA
+Adresse
+86 Rue Si LAKHDAR Commune LAKHDARIA -Wilaya Bouira
+Larbâa - Blida
+Adresse
+73 Avenue Mohamed Kébir, Larbâa - Blida
+MASCARA - Khemisti
+Adresse
+Boulevard Mohamed Khemisti
+Mascara - Mohammadia
+Adresse
+58, Rue Larbi Ben Mehidi, Mouhammadia, Mascara.
+Mascara - Tighennif
+Adresse
+Avenue des Martyrs - Tighenif - Mascara
+Médéa - Boukasmi El Tayeb
+Adresse
+06 Rue colonel Boukasmi El Tayeb, Médéa, Alger.
+Médéa - Ksar Boukhari
+Adresse
+Local N° 01, cité de la gare, Ksar El Boukhari, Médéa
+MILA
+Adresse
+Boulevard Zerrouki, Cité des 500 Logements, Mila.
+Mila - Chelghoum El Aid
+Adresse
+Cité BOUNAAS AHMED Chelghoum El Aîd Mila
+MOSTAGANEM - Benyahia Belkacem
+Adresse
+33, Rue Benyahia Belkacem, Mostaganem.
+Mostaganem - UNO
+Adresse
+Centre commercial/ Route de Relizen, Hassi Maameche.
+MSILA - Boussaâda
+Adresse
+Cité Nasr , Lot N° 29 , Route de Djelfa , Boussaâda. M'Sila
+MSILA - Promotion Neggaz
+Adresse
+Cité des 14 Logements, Promotion Neggaz, M'sila.
+Nâama - MECHRIA
+Adresse
+Haï Essalem, RN 26, Méchria, Nâama.
+Naâma - Zone Urbaine
+Adresse
+Zone Urbaine, Cité des 540 Logements, Naâma
+Nouvel Aéroport International d’ALGER
+Adresse
+Aéroport Houari Boumediene, Terminal 04, Hall Central, Alger.
+Oran - Aïn Turk
+Adresse
+Boulvard des Villas (Ex Boulvard Khaled Ibn El-Walid) N°01 Lot N°02 Aïn Turk, Oran
+Oran - ARZEW
+Adresse
+06 avenue El Qods, N° 18
+ORAN - Bir El Djir
+Adresse
+Boulevard Fernand Ville, Bir El Djir, Oran.
+Oran - Es Senia
+Adresse
+31 PLACETTE DES MARTYRS – COMMUNE D’ES SENIA - ORAN
+ORAN - Front de mer
+Adresse
+10, Rue de Nancy (Front de mer), Oran.
+Oran - Gdyel
+Adresse
+25 BLVD MOHAMED KHEMISTI – COMMUNE DE GDYEL – ORAN
+Oran - Plateau/Benaouda
+Adresse
+31 BOULEVARD COMMANDANT BEN ADDA BENAOUDA – PLATEAU - ORAN
+ORAN - St Hubert ex : Boulanger
+Adresse
+Boulevard de l'ALN, Coopérative El Bahia Lot N°06, St Hubert, Oran.
+ORAN AÉROPORT
+Adresse
+Aéroport d'Oran, Hall Central, Es-Senia, Oran.
+Ouargla - Hassi Messaoud
+Adresse
+Cité des logements à côté de la banque Société Générale Hassi, Messaoud
+Ouargla - La Silice
+Adresse
+Cité du 24 Février, Quartier la Silice, Ouargla.
+Ouled Djellal - 1er Novembre
+Adresse
+Rue 1er Novembre, Ouled DJELLAL.
+Oum El Bouaghi - 18 Février
+Adresse
+18, Boulevard du 18 Février, OEB.
+Oum El Bouaghi - AÏN BEÏDA
+Adresse
+Rue khafeche Abdellah, Villa N°3, Aïn El Beïda, Oum El Bouaghi
+Oum El Bouaghi - Aïn M’lila
+Adresse
+10 Cité 01 Mai, Aïn M’lila - Oum El Bouaghi
+Relizane - Aoued Ben Djebbar
+Adresse
+08, Boulevard Aoued Ben Djebbar, Relizane.
+Relizane - Oued Rhiou
+Adresse
+Avenue des Martyrs - Oued Rhiou - Relizane
+SAIDA
+Adresse
+46, Avenue Ahmed Medeghri, Saïda.
+Sétif - Coopérative El Wafa
+Adresse
+Cité Hachemi Coopérative el Wafa N°12, Sétif.
+SÉTIF - EL EULMA
+Adresse
+120, Rue du 1er Novembre 1954, El Eulma, Sétif.
+Sétif - Parc Mall
+Adresse
+Prombati - Park mall, Setif.
+SÉTIF - Sidi Bouaroua
+Adresse
+04, Boulevard Aouni Ferradji, Sidi Bouaroua, Sétif.
+Sidi Abdellah
+Adresse
+Rue Mohamed khider Bt:07-9 Sidi Abdellah,wilaya Alger
+Sidi Bel Abbes - République
+Adresse
+21, Avenue de la république, SBA.
+Sig - Mascara
+Adresse
+47 Boulevard de la Revolution, Sig - Mascara
+SKIKDA - BACHIR BOUKADOUM
+Adresse
+50, Rue Bachir Boukadoum (face à la CNR), Skikda.
+Skikda - El Harrouche
+Adresse
+40 Rue Mégharbi, El Harrouche - Skikda
+SOUK AHRAS
+Adresse
+Route de Tifache, N°01, Souk Ahras.
+TAMANRASSET
+Adresse
+Quartier Sersouf, Tamanrasset.
+TÉBÉSSA - Djebel El Djorf
+Adresse
+Rond point de Tébéssa, Rue Djebel El Djorf, Tébéssa.
+TIARET - Ben Badis
+Adresse
+06, Avenue Ben Badis, Tiaret.
+Timimoun
+Adresse
+Rue Zita Miloud, TIMIMOUN.
+TINDOUF
+Adresse
+Cité El Kassabi, N°05, Tindouf.
+TIPAZA
+Adresse
+01, Rue du stade, Tipaza.
+Tissemsilt
+Adresse
+Cité des 132 Logements, N° 133, Tissemesilt.
+Tizi Ouzou - Azazga
+Adresse
+Lotissement A, Boulevard Ahmed ZAIDAT n°3, Azazga, Tizi Ouzou
+TIZI OUZOU - Nouvelle Ville
+Adresse
+Tour Ali OUARAB, Boulevard Krim Belkacem, Nouvelle Ville, Tizi Ouzou.
+TLEMCEN - El Qods
+Adresse
+06, Avenue El Qods, N°18, Kifan, Tlemcen
+Tlemcen - Ghazaouet
+Adresse
+Rue Sayeh MISSOUM, lot N° 02, local N°1, Daira Ghazaouet, Wilaya Telemcen
+TLEMCEN - LIBERTÉ
+Adresse
+18, BOULEVARD DE L’INDEPENDANCE
+TLEMCEN - Maghnia
+Adresse
+Local N° 01/Maison N°06 Rue MOHAMED KHEMISTI-Cité DARI OUASSINI/Lot 157 propriété N° 35
+Maghnia-Wilaya Tlemcen,
+Touggourt
+Adresse
+Place El Houria, Lot N°746, Touggourt, Ouargla.

@@ -1,0 +1,190 @@
+[Source: https://www.interaction-design.org/literature/topics/worst-possible-idea]
+[Title: What is Worst Possible Idea? — updated 2026 | IxDF]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:11+00:00]
+
+Your constantly-updated definition of Worst Possible Idea and collection of videos and articles. Be a conversation starter: Share this page and inspire others!
+Worst Possible Idea is an ideation method where team members purposefully seek the worst solutions in ideation sessions. The “inverted” search process relaxes them, boosts their confidence and stokes their creativity so they can examine these ideas, challenge their assumptions and gain insights towards great ideas.
+Transcript
+Transcript loading ...
+See how seeds of wisdom grow from even the most “toxic” soil.
+Why go for the Worst Possible Idea?
+Some people clam up in group sessions such as brainstorming, although everyone in a design team technically should feel free to explore all possibilities on the road to the best solution. With their peers surrounding them, they may be reluctant to offer input, fearing their ideas will make them look silly or short-sighted. Team members may also hold back on mentioning—and then forget—fragments or beginnings of plans that are actually valuable, fearing someone will rip their embryonic brainchild apart and humiliate them. When your design team uses the Worst Possible Idea technique, you avoid this by flipping the playing field. The name of the game is to produce the silliest, craziest ideas. Therefore, as nobody can look silly, nobody will worry about losing face. Better still, because the premise of the approach seems ridiculous, the group’s laughter relaxes us further as we proceed.
+Author, president and co-founder of The Growth Engine Company LLC, Bryan Mattimore coined the term “worst possible idea” when he described turning the search for innovative ideas with a group of professionals upside down. The point was to kick-start a fruitful process for thinking up ideas by breaking with convention. Instead of getting stuck on trying for good ideas the group was encouraged to adopt a radically different approach. Soon, because everyone was searching for downright awful ideas, they could loosen up. And because the group could relax enough, they managed to overcome the impasse or mental constipation which the pressure of other ideation techniques can impose. In the case of the individuals Mattimore worked with, as they generated many seemingly terrible ideas, they found they could get on track towards what actually would work.
+Steps in the Worst Possible Idea Method
+The real power of Worst Possible Idea is what happens after we start to feel more at ease about offering our thoughts. Although you and your team are free to kick back and try for the most ludicrous-sounding notions, there is a method to the madness.
+To practice Worst Possible Idea, as group members we should:
+Consider substituting something else in for the worst attribute.
+Mix and match various awful ideas to see what happens.
+What can come from Worst Possible Ideas?
+When design team members identify a rotten-looking or “preposterous” idea and deconstruct it to see what makes it tick as such, they can find powerful insights that may serve as foundations for good plans elsewhere.
+“Bad ideas started flowing. "Here's a really bad idea," said one banker. "We could round down everyone's deposits to the nearest dollar. Most people probably wouldn't notice." Said another, "let's make mistakes in their favor, give everyone extra money every time they make a transaction. Now that's a bad idea!" More laughter," but if you've ever seen the Bank of America "keep the change" savings program, perhaps it began in this session.”
+— Bob Dorf, Co-author of The Startup Owner’s Manual (writing about Bryan Mattimore)
+Questions About Worst Possible Idea? We've Got Answers!
+Why do UX designers use this technique instead of traditional brainstorming?
+UX (user experience) designers use the “Worst Possible Idea” technique instead of traditional brainstorming because it removes fear of failure and encourages unconventional thinking. Traditional brainstorming can lead to self-censorship, as participants may worry about proposing ideas that seem impractical, silly, or “wrong.” Team members may stay silent due to performance anxiety or a fear of being judged. This technique offers an “antidote” to that fear, and it flips the script—so, the sillier or more “wrong,” the better the idea! Designers intentionally come up with the worst ideas possible, making the process more fun and relaxed.
+There’s a method to the “madness.” By focusing on terrible ideas, teams expose hidden assumptions and discover unexpected solutions. Once the worst ideas are on the table, team members can reverse or refine them into viable concepts. For example, if a “worst idea” for a navigation system is “users must solve a puzzle to find the menu,” it might spark the thought of adding delightful micro-interactions instead.
+This method works well in UX because it breaks creative blocks and allows designers to explore bold, innovative ideas that might not surface in a traditional brainstorming session.
+Watch as Author and Human-Computer Interaction Expert, Professor Alan Dix explains important points about bad ideas and why they’re good for design:
+Transcript
+Transcript loading ...
+How do I run a "Worst Possible Idea" session with my team?
+To run a “Worst Possible Idea” session, get your team together and clearly define the problem you’re trying to solve. Set a fun and relaxed tone—this technique works best when people feel free to be playful and creative and there’s no pressure to “succeed.”
+Start by asking everyone to come up with the worst, most ridiculous, or completely unhelpful ideas related to the problem. Encourage ideas that would make the user experience frustrating, confusing, or even absurd. Write down every suggestion without judgment.
+Once you’ve got a list of terrible ideas, analyze them. Ask the team, “What makes these ideas so bad?” and “Can we flip them into something useful?” Often, these bad ideas highlight real pain points or hidden assumptions.
+Finally, take the most interesting bad ideas and reverse them into potential solutions. This method helps teams break out of conventional thinking and discover creative, unexpected UX improvements. They can escape from both the pressure of having to come up with “correct” ideas in a meeting and the constraints of assumptions they might not realize they had about the subject. Keep the energy light and fun—this is where innovation happens and “design fails” succeed (at least, in the beginning, for a purpose)!
+Watch Professor Alan Dix explain how to get into bad ideas as an ideation method:
+Transcript
+Transcript loading ...
+What are the steps to generate and refine bad ideas into useful ones?
+To turn bad ideas into useful ones, try these steps:
+Set the problem – Clearly define what you’re trying to solve. Make sure that everyone understands the goal.
+Generate bad ideas – Encourage the team to come up with the worst, most ridiculous ideas possible (the worse, the better!). Write everything down without judgment.
+Analyze why they’re bad – Discuss what makes each idea terrible. Is it confusing? Annoying? Impractical? This step helps uncover real UX pain points.
+Flip the bad into good – Look for elements that could work in reverse. For example, if a bad idea is “make users solve a puzzle to find the checkout button,” flipping it could lead to a more engaging checkout experience.
+Refine and test – Take the best reversed ideas, refine them into practical solutions, and then test them with users.
+This method pushes creativity and helps uncover unexpected, valuable design solutions. Good things really can grow from the most unlikely-looking, “terrible” soil!
+A “Worst Possible Idea” session should last 30 to 60 minutes. It depends on the team size, complexity of the problem, and whether you include an icebreaker exercise (which is useful if some participants don’t know each other).
+Start with 5-10 minutes to clearly define the problem. Then, give the team 10-15 minutes to generate the worst possible ideas—encourage weird, wild, wacky, absurd, and downright terrible suggestions without judgment. Next, spend 10-15 minutes analyzing why these ideas are so bad. This step helps uncover hidden assumptions and potential pain points to explore.
+In the last 15-20 minutes, you should all focus on flipping bad ideas into useful ones. Look for patterns, reverse negative elements, and refine the most promising ideas into actionable solutions.
+It’s a good idea to keep the session under an hour because it ensures high energy and avoids overthinking. If the team is engaged and generating strong ideas, a longer session might work, but the goal is quick creativity and fresh insights, not perfection. Keep the pace lively, and don’t let the process drag—innovation happens when energy stays high!
+Watch Professor Alan Dix explain how to get into bad ideas as an ideation method:
+Transcript
+Transcript loading ...
+How many people should participate in a “Worst Possible Idea” exercise?
+A “Worst Possible Idea” exercise works best with four to eight people. This size keeps discussions lively while ensuring everyone has a chance to contribute.
+With fewer than four people, the range of ideas may be too limited, and the session might feel less dynamic. On the other hand, more than eight people can make it harder to manage discussions, and some participants may hesitate to share their thoughts.
+A balanced group should include a mix of roles—designers, developers, product managers, or even customer support reps. Different perspectives help uncover unique insights and challenge assumptions.
+If the team is larger, consider breaking into smaller groups, each working on bad ideas separately before sharing with the whole team
+Remember, the goal isn’t just to generate bad ideas—it’s to spark unexpected, useful solutions—so good moderation skills are helpful to make sure a session runs smoothly. A well-sized group encourages creativity, ensures engagement, and explores further in the ideation space without overwhelming the process.
+What types of UX problems benefit most from the "worst possible idea" method?
+The "Worst Possible Idea" method works best for UX problems that need fresh, creative thinking or when a team feels stuck. It’s especially useful for improving user flows, addressing engagement issues, reducing user frustration, overcoming innovation challenges, and rethinking assumptions. Assumptions especially have a bad “habit” of being too close to designers (and other people) for them to notice or challenge.
+For example, if users struggle with onboarding, coming up with terrible ideas—like a 10-page sign-up form—helps reveal what to avoid and why. From there, the method sparks ideas among team members for a smoother experience
+However, a “Worst Possible Idea” approach is not universally the best choice for every problem. It’s less effective for highly technical UX problems, like optimizing page load speeds or complex backend logic, where creative ideation isn’t as useful. So, while the method is powerful, its success depends on the type of problem and the team’s goals.
+Can you provide an example of a real UX problem solved using the worst possible idea technique?
+A great example of solving a real-world UX problem with the “Worst Possible Idea” technique comes from improving checkout flows in e-commerce. It’s a simple illustration but shows the principle at work—with terrible ideas turned upside down to form good design ideas.
+Let’s say a team struggling with high cart abandonment rates used this method to rethink their process. First, they generated terrible checkout ideas, such as the following:
+Forcing users to create an account before checkout
+Hiding the checkout button in a hard-to-find place
+Asking for excessive, unnecessary information
+From analyzing why these ideas were bad, they uncovered key pain points: users hate forced sign-ups, confusing navigation, and long forms. Flipping these insights, they redesigned the checkout process to include the following:
+A guest checkout option
+A clear, prominent checkout button
+Autofill and progress indicators to speed up the process
+This approach helped them simplify the user flow, reduce friction, and increase conversions. The worst ideas exposed real usability issues, making it easier to design a smoother, more user-friendly experience.
+Watch as Author and Human-Computer Interaction Expert, Professor Alan Dix explains important points about bad ideas and why they’re good for design:
+Transcript
+Transcript loading ...
+Can this method backfire and lead to negative design decisions?
+Yes, the “Worst Possible Idea” method can backfire if the team fails to flip bad ideas into useful insights. For example, if participants focus too much on the “terrible” aspect, they might end up joking or exaggerating. If they get distracted like that, they might not take the process seriously enough to extract real value.
+Another risk is accidentally reinforcing bad design choices. If a team misinterprets a “bad” idea as innovative without validating it properly, they could introduce confusing or frustrating UX elements.
+To avoid this, teams should analyze each bad idea carefully and always test refined solutions with real users. The method works best when it’s treated as a tool for breaking creative blocks, not as a direct roadmap for design.
+So, while the method doesn’t inherently lead to negative design decisions, careless execution can result in misguided takeaways. That’s why critical thinking and user testing are essential to make the most of this helpful method to explore the idea space in a safe and thorough way. A good thing to remember might be: “The real worst idea is no idea.”—which means the worst thing that can happen is nobody thinks of anything.
+Watch Professor Alan Dix explain how to get into bad ideas as an ideation method:
+Transcript
+Transcript loading ...
+What are some popular and respected books about “Worst Possible Idea”?
+Bryan Mattimore presents a range of creative ideation techniques, including the "Worst Possible Idea" method, which challenges teams to generate deliberately bad ideas as a way to spark fresh perspectives. This book is essential for anyone leading brainstorming sessions or seeking innovative solutions.
+Should participants work alone or in groups during the activity?
+It can go either way. The "Worst Possible Idea" method is typically done as a group activity, but individual preparation for a brainstorming session can sometimes be more effective.
+By sharing bad ideas out loud in real time, participants can build off each other’s absurd suggestions—and it makes the process more dynamic and spontaneous. The goal is to create a playful, low-pressure environment where bad ideas spark discussion and unexpected insights.
+Do you work on your own at all, then? Yes—your own bad ideas will come from your own mind! It’s just that the best results usually come when the team works together from the start, so share your “terrible” ideas right away. This mix of solo and group work keeps creativity high while benefiting from diverse perspectives. It also ensures introverts and extroverts both have a voice in the process.
+Watch as Author and Human-Computer Interaction Expert, Professor Alan Dix explains important points about bad ideas and why they’re good for design:
+Transcript
+Transcript loading ...
+Earn a Gift! Answer a Short Quiz at the End of This Page
+Earn a Gift, Answer a Short Quiz!
+1
+2
+3
+4
+1
+2
+3
+4
+Question 1
+Question 2
+Question 3
+Get Your Gift
+2
+3
+4
+2
+3
+4
+Question 1
+Question 2
+Question 3
+Get Your Gift
+3
+4
+3
+4
+Question 1
+Question 2
+Question 3
+Get Your Gift
+4
+4
+Question 1
+Question 2
+Question 3
+Get Your Gift
+Try Again! IxDF Cheers for You!
+0 out of 3 questions answered correctly
+Remember, the more you learn about design, the more you make yourself valuable.
+Improve your UX / UI Design skills and grow your career! Join IxDF now!
+Learn More About Worst Possible Idea
+Make learning as easy as watching Netflix: Learn more about Worst Possible Idea by taking the
+online IxDF Course Design Thinking: The Ultimate Guide.
+Why? Because design skills make you valuable. In any job. Any industry.
+In This Course, You'll
+Get excited when you discover that you don't need to start from scratch to use the secret recipes that empower companies like Apple and Google to shape the future. You just need a structure and proven methods to optimize what you already do. As AI becomes part of your day-to-day workflows, your ability to guide it with timeless human-centered skills such as strategic thinking, creativity, and empathy for real users is what turns AI into your superpower and delivers meaningful results.
+Build on your existing creativity, problem-solving, and people skills to learn the powerful 5-stage method called Design Thinking. It's one of the key drivers behind Apple and Google's continuous innovation and provides a clear, structured way to solve real-world problems. You've already got the instincts, so it's easy to learn the method.
+Make yourself invaluable with hands-on skills in Design Thinking. Design Thinking can help you break into User Experience Design, product design, and tech. It's widely applicable, impactful, and fun! Use your skills to improve customer support processes, create new products, and even tackle big challenges like climate change. This human-centered approach is a key driver of business success because it guides you to systematically understand and address what your users really need and want. That's why Design Thinking skills can help you increase sales, keep customers loyal, and turn them into powerful advocates for your company.
+Gain confidence and credibility as you effortlessly apply methods from all five stages of the Design Thinking process. You'll be guided to build empathy and gather insights into people's habits through user interviews.
+Use our downloadable templates to create affinity diagrams, empathy maps, and actionable "How Might We" questions. Develop solutions as you apply ideation and innovation methods. Create a paper prototype early and fast, then test and optimize your prototype to ensure that your users love it. More love, more impact, greater salary potential.
+Apply your new skills in an optional project where you'll design and test a user-centered experience that's perfect for your portfolioand career growth. Master Design Thinking to amplify your uniquely human strengths like empathy, intuition, and creativity, and confidently stay in demand as AI reshapes how teams work.
+Learn From Industry Leaders
+Master complex skills with proven best practices and toolkits directly from industry leaders. Meet your experts for this course:
+Don Norman: Father of User Experience (UX) Design, author of the legendary book “The Design of Everyday Things,” and co-founder of the Nielsen Norman Group.
+Alan Dix: Author of the bestselling book “Human-Computer Interaction” and Director of the Computational Foundry at Swansea University.
+Mike Rohde: Experience and Interface Designer, author of the bestselling “The Sketchnote Handbook.”
+Earn Industry-Recognized Certificates
+Industry giants trust our courses to train their teams, and prestigious universities integrate our content into their curricula. Add your certificates to your LinkedIn profile, résumé, and job applications.
+Introduction to the Essential Ideation Techniques which are the Heart of Design Thinking
+Ideation is at the heart of the Design Thinking process. There are literally hundreds of ideation techniques, for example brainstorming, sketching, SCAMPER, and prototyping. Some techniques are merely renamed or slightly adapted versions of more foundational techniques. Here you’ll get an overview o
+We all know what it is like when someone calls for new ideas. At first, no one wants to say anything; most people tend to wait to hear what others have to say, and—if they feel that their ideas are not as great—they may bottle up what they're thinking. Worst Possible Idea is a highly effective metho
+Social shares
+875
+Published
+Read Article
+Learn How to Use the Worst Possible Idea Method
+We all know what it is like when someone calls for new ideas. At first, no one wants to say anything; most people tend to wait to hear what others have to say, and—if they feel that their ideas are not as great—they may bottle up what they're thinking. Worst Possible Idea is a highly effective method that you can use to get the creative juices flowing and help those not so confident in expressing themselves by flipping the brainstorm on its head. And it’s a lot of fun, too.
+Instead of going for good ideas and putting the pressure on, call for the worst and, yes, the worst possible ideas your team can come up with. Doing this relieves the anxiety and self-confidence issues and allows people to be more playful and adventurous, as they know their ideas are most certainly not going to be scrutinized for missing the mark. It's way easier to say “Hey no that's not bad enough.” than the opposite. Better still, it helps ensure that mental constipation is never responsible for keeping a breakthrough idea from getting out into the open.
+In Idea Stormers, the author and innovation guru to Fortune 500 companies, Bryan Mattimore, recalls a scenario where he was trying to get a group of bankers to come up with innovative ideas. They had gone through hours of ideation sessions and had come up with nothing worth considering. Mattimore introduced the Worst Possible Idea method as a last resort. As soon as the first of the bankers had thrown out a terrible suggestion, the rest of the group quickly joined in and finally had some fun as well, opening up the way for positive ideation sessions later.
+The Worst Possible Idea or Worst Idea technique is not purely an icebreaker-style technique, though, as insights that may stem from really bad ideas may even be useful in generating really great ideas. On that note, it doubles as a—really fun—process of elimination.
+“To invent, you need a good imagination and a pile of junk.”
+– Thomas Edison, American inventor who developed the phonograph, the motion picture camera and the electric light bulb. As quoted in Behavior-Based Robotics (1998) by Ronald C. Arkin. p. 8
+Best Practice: How
+The technique is simple:
+The facilitator briefs the ideation session participants about the problem statement (also called Point Of View), the overall goals and important user insights.
+Then the facilitator asks the participants to come up with the worst possible ideas they can think of. There should be permission given to revel in unusable, impractical, stupid or foolish ideas; ones that are nonsensical, ridiculous, incorrect, mismatched, and against known best-practices, laws or guidelines. The intention is not necessarily to descend into toxic or gratuitously offensive concepts (the facilitator will need to use their judgement to keep the ideation session happy and healthy) but to escape constraints by opening the mind. You can do this as a collective brainstorm session, or you can ask all participants to write down their worst ideas individually—this method is called Braindumping. You could also use the Brainwriting method, where each participant fills out idea cards/papers with their worst possible ideas for 3–5 minutes and then passes on the idea card to another participant, who elaborates on their worst possible ideas, and so forth.
+As the facilitator, be sure to push your group to generate extremely bad ideas! This will help get participants laughing and re-engaged. As a facilitator of ideation sessions, it’s your job to help participants open their minds and hearts, and the Worst Idea method can help you do just that—especially if you combine it with the collective Brainstorm method.
+The technique includes generating as many terrible ideas as possible.
+It includes listing the attributes of the worst ideas.
+Investigate which attributes of the ideas make them really bad.
+Once the participants have generated a list of their worst ideas, you as the facilitator should challenge the group to turn those horrible ideas into good ones. They can either consider the ideas’ opposites or look for aspects within the terrible ideas that might inspire a good one. Or, you can consider simply removing the worst attribute and replacing it with something else. Mix and match different bad ideas, and see what comes out.
+Why
+A closed mind will not be able to build on external stimuli. We've all witnessed this in some way or another—a person who is convinced that their own ideas are better than anyone else's becomes oblivious to the value of the contributions others have made. Group ideation functions best when all ideas can be expressed equally and then later mixed up in unconventional ways. This approach by the Worst Possible Idea produces novel combinations or completely new ideas. With ideas, one leads to another; bad ideas lead to good ones, sometimes in ways we could never have imagined. At times, the best idea stems from its exact opposite—the worst. This is why the Worst Possible Idea is actually an ideation method, one which you can use to provide disruptive insight within the ideation process.
+This is a lateral thinking technique which seeks to solve problems through an indirect and creative approach. It’s all about using reasoning that is not immediately obvious and involving ideas that may not be obtainable by using only traditional step-by-step logic. The purpose of lateral thinking is to help us break out of rigid thought patterns and to generate unpredictable and innovative ideas. Lateral thinking seeks to arrive at unknown solutions, as opposed to vertical thinking, which operates directly on perceivable data and analysis. Not for nothing are the horizons—and, by association, the possibilities—broader with lateral thinking.
+Do you want to learn how you can get started using the Worst Possible Idea methods to break the ice and help open up participants’ minds? Then download and print our Worst Possible Idea template:
+Advance Your Career With This Free Template
+for “Worst Possible Idea”
+The Take Away
+The Worst Possible Idea method is a fun and effective ideation icebreaker technique. However, your team may also very likely be able to extract and come up with amazing ideas from really bad ideas. The Worst Possible Idea is a lateral thinking method which is very much about standing back, looking at the big picture and understanding concepts. It also requires that you focus on the parts that have perhaps been overlooked, challenging assumptions and seeking alternatives. It’s a great way of zeroing in on what will work by exposing what won’t, but then working out or working back elements from these “dud ideas” that may have a bearing on the true solution to the problem at hand.
+References & Where to Learn More
+Bryan Mattimore, Idea Stormers: How to Lead and Inspire Creative Breakthroughs, 2012.
+Edward de Bono, New think: The use of lateral thinking in the generation of new ideas, 1967
+Edward de Bono, Lateral thinking: Creativity Step by Step, 1970
+Ella Miron-Spektor, Miriam Erez, and Eitan Naveh, To Drive Creativity, Add Some Conformity, Harvard Business Review, March 2012.

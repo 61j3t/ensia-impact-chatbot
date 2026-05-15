@@ -1,0 +1,42 @@
+[Source: https://azure.microsoft.com/en-us/products/ai-model-catalog]
+[Title: Foundry Models | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+OVERVIEW
+Smarter model selection starts here
+- Innovate faster using more than 11,000+ models packed for out-of-the-box-use and shared computer resources.
+- Easily integrate AI models into your applications without having to provision or manage infrastructure.
+- Analyze model metrics with standard datasets. Deploy model router to optimize costs and performance at runtime.
+- Easily switch models and compare performance with the Azure AI model inference API.
+MODELS
+Choose from more than 11,000+ models
+Foundry Models offer a rich and diverse collection of models designed to meet every enterprise AI need.
+Security
+Embedded security and compliance
+34,000
+Full-time equivalent engineers dedicated to security initiatives at Microsoft.
+15,000
+Partners with specialized security expertise.
+>100
+Compliance certifications, including over 50 specific to global regions and countries.
+Pricing
+Flexible pricing options
+Microsoft Foundry offers a range of flagship models—including Azure OpenAI, Anthropic Claude, Meta, Mistral AI, DeepSeek, xAI, Cohere, HuggingFace, NVIDIA, and more—available through serverless pay-as-you-go or managed compute offerings.
+CUSTOMER STORIES
+See who’s innovating with Foundry Models
+FAQ
+Frequently asked questions
+- Foundry Models is a hub for discovering foundation models. The catalog includes some of the most popular large language and vision foundation models curated by Microsoft, OpenAI, Anthropic Claude, DeepSeek, xAI, Hugging Face, Meta, Mistral AI, Cohere, Deci, Stability AI, Nixtla, and NVIDIA. These models are packaged for out-of-the-box implementation and optimized for use in Foundry.
+- Serverless API, or MaaS, is a deployment type that allows developers to access and use a variety of models hosted on Azure without having to provision GPUs or manage back-end operations. MaaS offers inference APIs and hosted fine-tuning for models such as Anthropic Claude, Meta Llama2, Meta Llama 3, and Mistral Large, among others.
+- Serverless API charges are based on the number of tokens used for inference and the amount of data used for fine-tuning. The pricing also depends on the model and the region. To see the price for individual models, search for the model in Azure Marketplace.
+- Today, there are Anthropic Claude, Meta Llama, Mistral AI, Cohere, Core42 JAIS, Nixtla, Stability, DeepSeek, BFL, Bria AI and xAI Grok models.
+Next steps
+Choose the Azure account that’s right for you
+Pay as you go, or try Azure free for up to 30 days.
+AI development tools
+Design and manage AI applications
+Create, customize, and scale AI apps and agents efficiently
+Business Solutions Hub
+Find the right Microsoft Cloud solution
+Browse the Microsoft Business Solutions Hub to find the products and solutions that can help your organization reach its goals.

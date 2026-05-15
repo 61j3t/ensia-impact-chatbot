@@ -1,0 +1,6 @@
+[Source: https://algeria20.com/speaker/yousra-farhani]
+[Title: Yousra Farhani - Algeria 2.0 - Le Futur Tech Algérien]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:10+00:00]
+
+She founded Quantum Africa a pioneering initiative dedicated to democratizing quantum technologies and education across Africa. She is currently conducting her research in Quantum Optimisation at the Institute of Applied Science INSA Lyon, France. Yousra has been recognized as a leader in her field, earning the Arab Young Pioneers Award 2024 and the Quantum Rising Star Global Award for Women in Quantum 2024. Passionate about leveraging technology for social impact, she is committed to advancing quantum education across the continent.

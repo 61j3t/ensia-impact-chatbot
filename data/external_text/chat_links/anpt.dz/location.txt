@@ -1,0 +1,8 @@
+[Source: https://anpt.dz/location]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+Domaine immobilier
+L’ANPT met à la disposition des opérateurs économiques TIC des espaces à usage professionnel caractérisés par une série de services et de commodités nécessaires à leurs activités quotidiennes.
+Ainsi le Techno parc de Sidi Abdallah regroupe différents acteurs du secteur des TIC notamment des entreprises aussi bien privées que publiques, des établissements d’enseignement et de formation, des sociétés d’études de marché, de services aux entreprises, incubateurs d’entreprises, un centre de conférence le tout, permettant de créer des synergies grâce à l’existence de tout cet écosystème.

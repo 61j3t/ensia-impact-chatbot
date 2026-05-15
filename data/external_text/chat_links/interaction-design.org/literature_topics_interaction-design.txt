@@ -1,0 +1,21 @@
+[Source: https://www.interaction-design.org/literature/topics/interaction-design]
+[Title: What is Interaction Design (IxD)? — updated 2026 | IxDF]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:11+00:00]
+
+Interaction Design (IxD) is the design of interactive products and services in which a designer’s focus goes beyond the item in development to include the way users will interact with it. Thus, close scrutiny of users’ needs, limitations and contexts, etc. empowers designers to customize output to suit precise demands.
+What Designers Do – with the 5 Dimensions of IxD
+For UX designers, “Interaction Design” is the axis on which our work revolves (i.e., the design of human interaction with digital products); however, the term also applies to understanding how people interact with non-digital products.
+“Interaction Design is the creation of a dialogue between a person and a product, system, or service. This dialogue is both physical and emotional in nature and is manifested in the interplay between form, function, and technology as experienced over time.”
+- John Kolko, Author of Thoughts on Interaction Design (2011)
+Designers’ work in IxD involves five dimensions: words (1D), visual representations (2D), physical objects/space (3D), time (4D), and behavior (5D).
+Learn more about the 5 factors of interaction design and the kind of work IxD involves.
+IxD’s five dimensions were first defined by a professor at London’s Royal College of Art, Gillian Crampton Smith, and a senior interaction designer, Kevin Silver. The dimensions represent the aspects an interaction designer considers when designing interactions:
+Words (1D) encompass text, such as button labels, which help give users the right amount of information.
+Visual representations (2D) are graphical elements such as images, typography and icons that aid in user interaction.
+Physical objects/space (3D) refers to the medium through which users interact with the product or service—for instance, a laptop via a mouse, or a mobile phone via fingers.
+Time (4D) relates to media that changes with time, such as animations, videos and sounds.
+Behavior (5D) is concerned with how the previous four dimensions define the interactions a product affords—for instance, how users can perform actions on a website, or how users can operate a car. Behavior also refers to how the product reacts to the users’ inputs and provides feedback.
+Interaction designers utilize all five dimensions to consider the interactions between a user and a product or service in a holistic way. Specifically, we use them to help envision the real-world demands of a usership in relation to a design not yet introduced. For example, designers of an app that must process data at high speed in order to find results inside a mass-transit system (a subway/metro) will face accommodating the constraints of underground commuters – cramped spaces, fast journeys, dead zones, etc.
+Interaction Design is a Part of User Experience Design
+The term “interaction design” is sometimes used interchangeably with “user experience design”. That’s understandable, considering interaction design is an essential part of UX design. Indeed, UX design entails shaping the experience of using a product, and a big part of that experience involves the needed interaction between the user and the product. However, UX design goes far beyond that. UX designers’ working world is concerned with the entire user journey, including aspects of branding, design, usability and function. Conversely, the central role of “interaction designers” targets the moment of use and how to improve the interactive experience. Thus, interaction design, or IxD, is pivotal in the realm of the user experience, since the moment of use is the acid test of a design, where the designer’s manipulation of the five dimensions must offer users a satisfactory—if not better—experience. If users find themselves hindered by impractical features, such as text-heavy notifications or overlong animations, are put off by the aesthetics, or the responsiveness of the design fails to match their needs in the context, the design will fail, regardless of the brand behind it. The IxD of a product reflects its absolute value.

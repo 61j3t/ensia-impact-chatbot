@@ -1,0 +1,46 @@
+[Source: https://www.overleaf.com/about/customer-story/university-of-manchester]
+[Title: Customer Stories: University of Manchester | Overleaf - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+The University of Manchester sees international collaboration thrive with Overleaf
+The leading UK university more than quadrupled the number of institutions with which it collaborates and saw a 310% jump in new projects.
+[Overleaf] is the gold standard in scientific publishing at the moment and essential for distributed collaborations in which there are many authors from many different countries and institutes.
+—User survey response, University of Manchester
+At a glance
+The University of Manchester is globally recognized for its research and the pioneering collaborations it fosters with organizations and other academic institutions around the world. In 2020, its Research Lifecycle Programme identified a need to simplify the way LaTeX was being used within the university. With multiple LaTeX editors in use, collaboration was limited and the IT department was finding maintenance challenging. The university needed a streamlined solution to remove administrative and technological barriers, and better enable collaboration.
+The solutionThe university embarked on a trial of Overleaf Commons—a campus-wide solution—as a way to unify the different systems in use and to improve collaboration processes. Within 18 months, the introduction of Overleaf resulted in a dramatic jump in research output, including a 420% rise in the number of institutions with which the university was working and a 310% increase in new projects.
+ProductOverleaf Commons
+Supporting people at the forefront of research
+The University of Manchester is the UK’s third largest university, with an international reputation for the highest level of research and teaching. It ranks first in Europe and second in the world for social and environmental impact.
+In June 2020, the university’s Research Lifecycle Programme decided to trial Overleaf Commons across the institution as part of its ongoing work to support its researchers through reducing administrative and technological barriers, and facilitating collaboration.
+The majority of the university’s postgraduate research students and researchers were using LaTeX and some were already using Overleaf. However, most were using the free version of Overleaf, with limited functionality. Others were using various setups of LaTeX software that involved individual installation and version control systems.
+The different LaTeX setups presented numerous challenges including:
+- Collaboration difficulties.Collaborators mainly shared documents via email, leading to delays and confusion around renamed documents. Staff were also running into LaTeX compilation issues due to poor integration between certain versions of the software. Collaborating in this way was time consuming and prone to error.
+- Time lost to installation and maintenance.Different versions of LaTeX require different installation and maintenance approaches and researchers were reporting frustration and delays in managing these processes.
+- Onboarding complications.Collaborating with those new to LaTeX was proving complex. Tasks such as the install procedure and choice of TeX editor often involved a steep learning curve that was overwhelming for some.
+310%
+Increase in new projects
+420%
+growth in number of external collaborations
+4537
+Overleaf users
+One unified platform
+Overleaf Commons was the clear solution to these challenges, providing Postgraduate Researchers (PGRs), faculty, and staff with one, easy-to-use platform through which multiple authors can work together to produce beautifully formatted publications.
+The Overleaf Commons package includes a branded, point-of-presence web portal where any university member can sign in, or sign-up for, an Overleaf account. University of Manchester users are automatically given access to all of Overleaf’s premium features, including unlimited collaborations, Dropbox and GitHub integration, full document history and versioning, and crucially, priority support. This ensures subscribers receive the quickest possible response from the Overleaf support team so any questions or issues are swiftly resolved.
+“Users also benefit from zero install time—Overleaf Commons offers a complete LaTeX environment and editor accessible through any web browser—as well as a collaborative interface that makes it easy to invite new collaborators to a project, upload files, or organize them into folders.
+Fiona Treacy, Research Community Engagement Officer at The University of Manchester, describes how administrators were supported by Overleaf during setup, including upgrading existing Overleaf users, developing the custom online portal, and helping train PGRs, faculty, and staff in using Overleaf:
+"Ryan [Overleaf Customer Services Director] has been fantastic in hosting UoM specific webinars. We designed one called ‘Using Overleaf for Literature Reviews’ because that's what incoming postgraduate researchers would be focusing on straight away. So it has made it more accessible in a way that they can actually see how they can use Overleaf not just for their lit review but going forward and using it as a tool to collaborate on their thesis or research papers as well."
+The ability to work on one document and assure version control has been a real advantage, without mailing documents back and forth.
+—User survey response, University of Manchester
+Swift, tangible results
+The results speak for themselves. Over the first 17 months, Overleaf registration at the university rose by 194%, from 1,538 to 4,537, helping to build a communal workspace where teams can work together seamlessly and collaborate on the preparation and publication of research, reports, journal papers, and more.
+There was also strong growth in the number of external institutions whose members collaborate with the university via Overleaf. Between 2020 and 2022, this number increased from 143 institutions to 743—a jump of 420%. There was also a 310% increase in new projects, which grew from 633 to 2,597.
+Reports from subscribers have been similarly positive, with praise for Overleaf’s fast compilation times, simple web interface, and seamless integration with other platforms.
+For any institution to invest in new services for its community there needs to be tangible, and often measurable, benefits. The rapid growth in Overleaf's adoption and use at the University of Manchester suggests that it can contribute to institutional objectives by supporting the needs of staff, PGRs, and researchers.
+Read more customer stories
+Discover how Overleaf is powering thousands of collaborations at one of the world’s foremost research organizations.
+Ontario Tech’s Vialab group saves ‘significant’ time writing, editing, and collaborating.
+Time spent on formatting and reviewing was dramatically reduced after Overleaf was adopted by the leading American public research university.
+Discover Overleaf for organizations
+Join over 8,900 leading businesses and research institutions writing smarter with Overleaf.

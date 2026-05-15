@@ -1,0 +1,41 @@
+[Source: https://monday.com/blog/ai-agents]
+[Title: AI Agents Blog | monday.com]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:26+00:00]
+
+15 best AI for HR platforms for smarter people operations
+HR encompasses every aspect of the employee lifecycle from talent acquisition through to offboarding, and...
+30 min read
+AI for supply chain: 15 platforms to improve operations in 2026
+Supply chain management is a highly sensitive operation that could break under the weight of a single delayed...
+33 min read
+Best AI for research: 15 tools for academic, market, and business research
+Imagine your team uncovers a game-changing insight about a competitor. The data is solid, the implications...
+41 min read
+13 best AI image generators for creative teams in 2026
+AI image generators can turn a rough campaign idea into a first visual direction in seconds. For creative...
+43 min read
+12 best AI chatbots and agents for work teams in 2026
+By 9:00 a.m., your team has likely already used AI to draft an email, summarize a meeting, research a vendor,...
+33 min read
+15 AI agent examples that get to work and get work done
+Every Monday morning tells the same story. Marketing teams are waiting on approvals, sales needs to follow up...
+45 min read
+15 best AI video creation platforms for scaling content production in 2026
+The request seems straightforward: turn one product update into social clips, sales follow-up videos,...
+38 min read
+AI for manufacturing: 10 platforms to evaluate in 2025
+A missed part shipment, a machine running hot, and a quality note from the previous shift can all hit before...
+28 min read
+10 best AI platforms for lawyers to manage more work in 2026
+A modern legal team operates like an air traffic control tower, constantly guiding high-stakes projects to...
+27 min read
+AI adoption strategy: 7 steps to scale from pilot to production in 2026
+An organization scaling AI without a strategy is like an orchestra where every musician plays a different...
+15 min read
+Types of AI agents and how to choose the right one
+Picture an invisible teammate who spots a high-intent lead the second they appear, then instantly crafts and...
+17 min read
+AI for work: 15 ways teams use AI to get more done
+Imagine a workplace where your marketing team launches campaigns based on instant insights, not hours of...
+16 min read

@@ -1,0 +1,6 @@
+[Source: https://brightscholarship.com/usa]
+[Title: USA - Bright Scholarship]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:03:21+00:00]
+
+Qamar UsmanQamar Usman is the founder and CEO of Bright Scholarship, an organization that provides valuable information about scholarships, internships, fellowships, and jobs. He is also a highly accomplished software engineer with a passion for empowering the next generation of leaders. Through his work, he is helping to shape the future of education and technology.

@@ -1,0 +1,14 @@
+[Source: https://algeria20.com/registration-hackathon]
+[Title: Registration Hackathon - Algeria 2.0 - Le Futur Tech Algérien]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:10+00:00]
+
+Due to the limited number of places available, registrations for the AgriTech Innovation Challenge 2025 are now closed.
+Format: On-site · Up to 20 teams · AgriTech · Data · Digital Platforms
+Thank you for your interest in the Algeria 2.0 Makers² – AgriTech Innovation Challenge 2025. Due to our on-site capacity and mentoring constraints, we are limited to 20 teams for this hackathon.
+If you were unable to register in time, we truly appreciate your motivation and we hope to welcome you in our next editions and future challenges.
+All applicants will be notified by email:
+Merci pour l’intérêt porté au Hackathon Algeria 2.0 Makers² – AgriTech Innovation Challenge 2025. En raison de la capacité d’accueil sur site et de l’encadrement disponible, nous sommes limités à 20 équipes pour cette édition.
+Si vous n’avez pas pu vous inscrire à temps, nous vous remercions sincèrement pour votre motivation et nous espérons vous accueillir lors de nos prochaines éditions et futurs challenges.
+Toutes les personnes inscrites seront informées par email :
+November 25th to 29th, 2025, at the Cyberpark of Sidi Abdellah, Algiers.

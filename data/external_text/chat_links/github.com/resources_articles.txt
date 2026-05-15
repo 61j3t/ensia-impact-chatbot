@@ -1,0 +1,28 @@
+[Source: https://github.com/resources/articles]
+[Title: GitHub Articles • Technical Guides, Developer Insights & Best Practices · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+GitHub Articles
+An introduction to innersource
+Organizations worldwide are incorporating open source methodologies into the way they build and ship their own software.
+What is workflow orchestration?
+Workflow orchestration is the practice of coordinating multiple automated tasks across systems so they run efficiently and in the correct order. It provides visibility, reliability, and control to a complete, end‑to‑end process.
+What are multi-agent systems?
+Multi-agent systems carry out complex, multistep tasks by coordinating the actions of two or more agents. Discover how they work and how to build and use them.
+What is Deep Learning?
+Discover how deep learning works, why it matters, and where it’s going next.
+What is AI agent orchestration?
+AI agent orchestration is the process of coordinating multiple autonomous AI agents to work together toward shared goals. It provides a control layer for managing execution, context, and collaboration across agents, ensuring tasks are completed efficiently, securely, and at scale.
+What is AI orchestration?
+AI orchestration coordinates how models, agents, tools, and data work together, making complex workflows easier to run, trace, and debug.
+What is Model Context Protocol (MCP)?
+Model Context Protocol (MCP) connects AI models to tools, data, and services in a standardized way, enabling AI systems to take controlled actions.
+What are AI agents?
+AI agents transform software development by automating workflows and enhancing security. Explore the different types of AI agents and get a glimpse into the future of AI in development and security.
+What is static application security testing (SAST)?
+SAST enables developers to uncover security threats earlier in the development process, thereby safeguarding an application’s successful deployment.
+What is prompt engineering?
+Prompt engineering is the practice of crafting effective instructions that guide AI models to produce accurate, useful results.
+What is Unsupervised Learning?
+Unsupervised learning finds patterns in unlabeled data, making sense of complex datasets.

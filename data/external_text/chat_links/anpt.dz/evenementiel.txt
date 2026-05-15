@@ -1,0 +1,14 @@
+[Source: https://anpt.dz/evenementiel]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+Le domaine de l'événementiel
+l'ANPT organise régulièrement de nombreuses activités et évènements dédiés aux secteurs des TICs et de l'entrepreneuriat :
+- Séminaires.
+- Conférences.
+- Ateliers / Workshops dédiés .
+- Webinars / Lives
+l'ANPT organise régulièrement de nombreuses activités et évènements dédiés aux secteurs des TICs et de l'entrepreneuriat :
+Les objectifs ciblés par l’ANPT à travers ces différentes activités sont :
+Vous pouvez nous contacter afin d'avoir plus d'informations.

@@ -1,0 +1,30 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/31]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+| Réalisation des dispositifs à peignes inter-digités (Procédé Lithographie) |
+CP/P-MEMS/01 |
+Realisation des structures à peignes inter-digités sont utilisées dans plusieurs applications dans de nombreux dispositifs ; à savoir : Détecteurs capacitifs, Capteurs de température, Dispositifs SAW et BAW, Détecteurs de gaz MOX.
+Resistance chauffante
+|
+| Dépôt des couches minces pour différentes applications par spray/microppipetage |
+CP/P-MEMS/02 |
+Nous disposons d’un dispositif de spray pyrolyse utilisé à l’atmosphère ambiante ou à température contrôlée, permettant le dépôt de couches minces pour différentes applications. Différents paramètres peuvent être modifiés comme : - Utilisation d’une solution de départ et d’un solvant différent en fonction des couches minces souhaitées. - Variation de la distance entre le support et la buse du pistolet pulvérisateur.
+|
+| Electrochimie |
+CP/P-MEMS/03 |
+Le Potentiostat/Galvanostat (PGSTAT302N) est un appareil de mesure qui nous offre le choix de travailler en deux modes différents, potentiostatique ou galvanostatique. Il est destiné à la caractérisation et l’étude des phénomènes électrochimiques compliqués tel que : les mécanismes réactionnels qui se déroulent à l’interface électrode/électrolyte, les processus de transfert d’électrons, les réactions complexes redox et la structure de la double couche.
+|
+| Traitement thermique: oxydation et recuit |
+CP/P-MEMS/04 |
+Nous disposons d’un four tubulaire MTI OTF-1200X à haute température qui peut atteindre 1200°C. Il contient deux zones de chauffage dont la température est contrôlable avec deux contrôleurs de températures avec une précision +/- 1°C ; pour 30 cycles. Les valves, la jauge de pression et la pompe à vide.
+|
+| Détections des gaz (MOX, SAW, QCM, etc.) |
+CP/P-MEMS/05 |
+La caractérisation et le développement des capteurs à gaz exigent la réalisation d’un banc de test des composants. Ce banc est utilisé, suivant le type de capteurs (MOX, SAW, etc.), pour la caractérisation électrique ou fréquentielle. Généralement, le banc de caractérisation est constitué d’une enceinte à vide, dans laquelle sera mis le capteur à gaz de test. L’enceinte aura différentes ouvertures. L’une pour la rentrée des gaz, une autre pour la sortie de gaz par extraction via la pompe. La dernière issue devra être réalisée comme accès pour le (ou les) capteur(s) à gaz. Le contrôle des gaz se fera avec des débitmètres massiques MFC et des valves.
+|
+| Visualisation des topographies de surface |
+CP/P-MEMS/06 |
+La visualisation des surfaces, estimation des épaisseurs et la prise d’images est obtenue grâce au Microscope OPTIQUE, muni de deux cameras.
+|

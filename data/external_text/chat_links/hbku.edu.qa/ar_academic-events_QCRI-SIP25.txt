@@ -1,0 +1,47 @@
+[Source: https://www.hbku.edu.qa/ar/academic-events/QCRI-SIP25]
+[Title: البرنامج التدريبي الصيفي 2025 | جامعة حمد بن خليفة]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:18:51+00:00]
+
+يُقدِّم معهد قطر لبحوث الحوسبة من خلال البرنامج التدريبي الصيفي تدريبًا مكثّفًا لطلاب البكالوريوس والدراسات العليا حول البحوث والبرمجة في مجالات تقنيات اللغة العربية، والأمن السيبراني، وتحليل البيانات، والحوسبة الاجتماعية، وهندسة البرمجيات.
+مدة البرنامج
+مدة البرنامج 8 أسابيع مع أسبوع عطلة بمناسبة عيد الأضحى. وينقسم التدريب إلى دفعتين ليتناسب مع الجداول الصيفية المختلفة للطلاب.
+- الدفعة الأولى
+التاريخ: 11 مايو - 10 يوليو 2025
+مناسب لجامعات المدينة التعليمية والجامعات الأخرى - الدفعة الثانية
+التاريخ: 25 مايو - 24 يوليو 2025
+مناسب لطلاب جامعة قطر
+فترة التقديم
+تُستقبل طلبات التقديم في الفترة بين الأحد، 9 مارس - الاثنين، 31 مارس 2025
+تعليمات التقديم
+- الخطوة الأولى: قُم بقراءة المشاريع المدرجة أدناه وحدّد أكثر مجالي بحث مهتم بهما.
+- الخطوة الثانية: قم بتعبئة طلب التقديم.
+مشاريع البرنامج التدريبي الصيفي للبحوث 2025
+- Domain Specialized Large Language Models for Factual Knowledge
+- Knowledge Editing for Local and Cultural Information in LLMs
+- Realtime Arabic Reading Assessment with Multimodal Feedback
+- Talk with Fanar: A Multimodal Spoken Dialog System
+- Multi-modal-dialectal-cultural Arabic Understanding
+- LLM-Lab: Capability-focused Multimodal LLM Tuning
+- ICS Threat Intelligence
+- Data Curation for Enhancing Test-Time Scaling in Large Language Models
+- Mitigating and Evaluating Hallucinations in Large Language Models
+- Exploring the Relationship Between Model Robustness and Layer Intrinsic Dimensionality
+- Detecting brand squatting domains used for phishing attacks
+- Identifying Patterns in Open QA Model Responses
+- Watermarking of LLMs
+- GenAI for human-centric table data generation and understanding
+- Leveraging Large Language Models for Enhanced GWAS Analysis and Rare Disease Diagnosis
+- Interactive Dashboard for Vehicle Detection on Satellite Imagery
+- QGen: Qatari Language Modeling for Protein Sequence Generation
+- Building a Mendelian Randomization Pipeline to find causal estimates between metabolomic exposures and diseases
+- A Federated Learning (FL) Model for AI-based Decision Support in Oral Cancer
+- DenTech (v3): A Platform for Oral Cancer Diagnosis Utilizing Artificial Intelligence
+- Comprehensive Benchmarking Large Vision Language Models (LVLM) in Oral Cancer Classification and Segmentation
+- Image Understanding in LLMs
+- Mass Fact Editing in LLMs
+- Building an LLM-Powered Chatbot for Disaster Response
+- Developing Geospatial Data Repository for Disaster Response
+- LIXUS: AI-Driven Pseudo Multi-Omics data for AI-Integration for Disease Prediction
+- DONE: Dual hOt eNcoding for biological sequences
+- X-SVM (EXplainable and computationally efficient SVM)

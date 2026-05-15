@@ -1,0 +1,42 @@
+[Source: https://www.wipo.int/en/web/decision-making-and-negotiating-bodies]
+[Title: Decision-making and Negotiating Bodies]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:51+00:00]
+
+Decision-making and Negotiating Bodies
+Our member states and observers meet regularly in the various WIPO Committees and decision-making bodies. Their challenge is to negotiate the changes and new rules needed to ensure that the international IP system keeps pace with the changing world, and continues to serve its fundamental purpose of encouraging innovation and creativity.
+We are committed to transparency and inclusiveness. All meeting documents are available online. You can also freely follow discussions in our Assemblies and Committees via our live webcasting service, or access videos of past sessions.
+General Rules of Procedure of WIPO
+Special Rules of Procedure of the Governing Bodies of WIPO and of the Unions Administered by WIPO
+Governing Bodies
+Established by the WIPO Convention, these constituent organs, are WIPO’s highest decision-making bodies. They meet annually in either ordinary or extraordinary sessions.
+Permanent Committees
+Any of the Governing Bodies can constitute committees as required. For example:
+- Program and Budget Committee (PBC)
+- Committee on Development and Intellectual Property (CDIP)
+- Intergovernmental Committee on Intellectual Property and Genetic Resources, Traditional Knowledge and Folklore (IGC)
+- Advisory Committee on Enforcement (ACE)
+The International Classification treaties established permanent Committees of Experts with a mandate periodically to revise and update the classification systems.
+Standing Committees
+These are ad hoc committees of experts established by a decision of the General Assembly for a given purpose, e.g. to determine the need or otherwise for new treaty provisions:
+- Standing Committee on the Law of Patents (SCP)
+- Standing Committee on the Law of Trademarks, Industrial Designs and Geographical Indications (SCT)
+- Standing Committee on Copyright and Related Rights (SCCR)
+- Committee on WIPO Standards (CWS)
+Financing of Participants
+The International Bureau of WIPO offers financial assistance to a number of Member State delegations representing Least-Developed Countries, Developing Countries or Countries in Transition to attend sessions of the Standing Committees. Eligible Member State delegations are financed pursuant to nominations made by their respective Groups.
+Election of Chairs and Vice-Chairs
+Officers for Standing Committees (one Chair and two Vice-chairs) are elected by the Standing Committees in accordance with the WIPO General Rules of Procedure, and the respective Special Rules of Procedure adopted by the respective Standing Committees, as the case may be.
+Timing and Format of Working Documents
+Working documents for sessions of the Standing Committees are circulated in accordance with the WIPO General Rules of Procedure, i.e., at the same time as the invitation or as soon as possible thereafter, with due regard to the working modalities of the Committee in question.
+Virtual and hybrid meetings
+Information concerning virtual and hybrid meetings is available on the WIPO Meetings webpage.
+Working groups
+Any WIPO Standing Committee or other body can also decide to establish a working group to examine a particular question in more detail.
+Diplomatic Conferences
+If one of the Standing or Permanent Committees determines that sufficient progress has been made to move towards treaty adoption, the General Assembly can decide to convene a Diplomatic Conference. This is a high level meeting of member states, convened with the sole purpose of finalizing negotiations on a new treaty. The most recent have included:
+- Diplomatic Conference to Conclude and Adopt a Design Law Treaty
+- Diplomatic Conference on Genetic Resources and Associated Traditional Knowledge
+- Diplomatic Conference for the Adoption of a new Act of the Lisbon Agreement - The Geneva Act of the Lisbon Agreement on Appellations of Origin and Geographical Indications
+- Diplomatic Conference to Conclude a Treaty to Facilitate Access to Published Works by Visually Impaired Persons and Persons with Print Disabilities
+- Diplomatic Conference on the Protection of Audiovisual Performances

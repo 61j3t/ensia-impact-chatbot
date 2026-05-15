@@ -1,0 +1,47 @@
+[Source: https://www.hbku.edu.qa/en/academic-events/QCRI-SIP25]
+[Title: Summer Internship Program 2025 | Hamad Bin Khalifa University]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:18:51+00:00]
+
+The Summer Internship Program at Qatar Computing Research Institute (QCRI) offers intensive research and software development training to undergraduate and graduate students in Arabic Language Technologies, Cyber Security, Data Analytics, Social Computing, and Software Engineering.
+Program Duration
+The program runs for 8 weeks with a 1-week break to celebrate Eid. Two internship cohorts are offered to accommodate students with different summer schedules.
+- Cohort 1
+Date: May 11 - July 10, 2025
+Suitable for Education City universities and other universities - Cohort 2
+Date: May 25 - July 24, 2025
+Suitable for Qatar University students
+Application Period
+Applications are accepted between Sunday, March 9 - Monday, March 31, 2025
+Application Instructions
+- Step 1: Read the projects listed below and select the two research areas that interest you the most.
+- Step 2: Fill out the internship application form.
+2025 Summer Internship Projects
+- Domain Specialized Large Language Models for Factual Knowledge
+- Knowledge Editing for Local and Cultural Information in LLMs
+- Realtime Arabic Reading Assessment with Multimodal Feedback
+- Talk with Fanar: A Multimodal Spoken Dialog System
+- Multi-modal-dialectal-cultural Arabic Understanding
+- LLM-Lab: Capability-focused Multimodal LLM Tuning
+- ICS Threat Intelligence
+- Data Curation for Enhancing Test-Time Scaling in Large Language Models
+- Mitigating and Evaluating Hallucinations in Large Language Models
+- Exploring the Relationship Between Model Robustness and Layer Intrinsic Dimensionality
+- Detecting brand squatting domains used for phishing attacks
+- Identifying Patterns in Open QA Model Responses
+- Watermarking of LLMs
+- GenAI for human-centric table data generation and understanding
+- Leveraging Large Language Models for Enhanced GWAS Analysis and Rare Disease Diagnosis
+- Interactive Dashboard for Vehicle Detection on Satellite Imagery
+- QGen: Qatari Language Modeling for Protein Sequence Generation
+- Building a Mendelian Randomization Pipeline to find causal estimates between metabolomic exposures and diseases
+- A Federated Learning (FL) Model for AI-based Decision Support in Oral Cancer
+- DenTech (v3): A Platform for Oral Cancer Diagnosis Utilizing Artificial Intelligence
+- Comprehensive Benchmarking Large Vision Language Models (LVLM) in Oral Cancer Classification and Segmentation
+- Image Understanding in LLMs
+- Mass Fact Editing in LLMs
+- Building an LLM-Powered Chatbot for Disaster Response
+- Developing Geospatial Data Repository for Disaster Response
+- LIXUS: AI-Driven Pseudo Multi-Omics data for AI-Integration for Disease Prediction
+- DONE: Dual hOt eNcoding for biological sequences
+- X-SVM (EXplainable and computationally efficient SVM)

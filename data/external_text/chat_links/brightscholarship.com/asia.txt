@@ -1,0 +1,30 @@
+[Source: https://brightscholarship.com/asia]
+[Title: Scholarships in Asian Countries - Bright Scholarship]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:03:21+00:00]
+
+- Advertisement -
+Asian Countries :
+| Number | Country Name |
+|---|---|
+| 01 | Pakistan |
+| 02 | India |
+| 03 | South Korea |
+| 04 | Turkey |
+| 05 | China |
+| 06 | Malaysia |
+| 07 | Singapore |
+| 08 | Thailand |
+| 09 | Bangladesh |
+| 10 | Myanmar |
+| 11 | Indonesia |
+| 12 | Philippines |
+| 13 | Vietnam |
+| 14 | East Timor |
+| 15 | Saudi Arabia |
+| 16 | Qatar |
+| 17 | Kuwait |
+| 18 | Japan |
+| 19 | Russia |
+| 20 | United Arab Emirates |
+- Advertisement -

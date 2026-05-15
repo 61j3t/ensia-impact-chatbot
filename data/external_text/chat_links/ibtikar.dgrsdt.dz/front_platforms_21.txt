@@ -1,0 +1,73 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/21]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+| Prise des images par MEB, et permettre de visualiser des objets en relief |
+1 |
+L’imagerie MEB consiste en une génération d’image et une analyse d’échantillon à l’aide d’un faisceau d’électron focalisé qui balaye l’échantillon.
+Analyses / essais/ Mesures effectués
+· Analyse par Energy Dispersive Spectroscopy (EDS).
+· Contraste topographique par électrons secondaires SE.
+· Contraste chimique des phases par électrons rétrodiffusés BSE.
+· Analyse par Electron BackScattered Diffraction (EBSD) : réalisation des Cartes d’orientation cristallographique des grains d’un matériau, la texture du matériau, les tailles de grains.
+|
+| Analyse des échantillans par DRX / Analyse des phases |
+2 |
+Caractérisation par diffraction des rayons X des phases sur les poudres et les échantillons massifs.
+Analyses / essais/ Mesures effectués: · Analyse des phases
+|
+| Analyse par AFM |
+3 |
+Le microscope à force atomique (AFM) est un type de microscope à sonde locale permettant de visualiser la topographie de la surface d’un échantillon, ce type de microscope repose essentiellement sur l’analyse qualitative d’un objet point par point au moyen d’un balayage via une sonde locale, assimilable à une pointe effilée. Elle permet d’analyser des zones allant de quelques nanomètres à quelques microns.
+Analyses / essais/ Mesures effectués:
+· Microscope à force atomique de contact,
+· Microscopie à force atomique en mode vibrant (Tapping et/ou en mode sans contact)
+· Microscopie à force magnétique (MFM),
+· Mesure en double passage. Cette technique permet une excellente déconvolution de la topographie.
+|
+| Essais mécaniques |
+4 |
+Essai de traction, de pliage, de compression et de fluage des matériaux.
+La machine est équipée d’une enceinte thermique 1200 °C Max.
+|
+| Analyse chimique |
+5 |
+Détermination de la composition chimique des matériaux métallique par étincelage.
+Analyses: · Analyse chimique
+· Identification de la nuance
+|
+| Mesure de la résistance au choc des matériaux |
+6 |
+Essai de résilience (Charpy) des matériaux.
+Essais:
+· Essai de Résilience à température ambiante
+· Essai de Résilience à haute température jusqu’à 250 °C
+· Essai de Résilience à basse température jusqu’à – 80 °C
+|
+| Mesurer la dureté des matériaux |
+7 |
+Mesure de dureté par indentation.
+Analyses / essais/ Mesures effectués:
+· Mesure de la dureté Vickers
+· Mesure de la dureté Brinell
+· Mesure de la dureté Rockwell
+|
+| Analyse par DSC ATG et ATD |
+8 |
+L'équipement permet une vraie mesure simultané de la température ambiante à environ 1500°C et sur le même échantillon du : Flux de chaleur (DSC), de la perte de masse (ATG) et l’analyse thermique différentielle (ATD).
+Analyses / essais/ Mesures effectués:
+· Analyse d'échantillon par ATG/ATD/DSC
+|
+| Mesurer la Microdureté des matériaux |
+9 |
+Cet équipement sert à mesurer la Microdureté des matériaux.
+· Deux objectifs : -x10 – x50.
+· Chargement et retrait automatisés.
+· Sélection des charges : 5, 10, 25, 50, 100, 200, 300, 500 et 1000 gf.
+Analyses / essais/ Mesures effectués: Essai de microdureté
+|
+| Prise d' image Micrographique |
+10 |
+Équipement utilisé pour l'observation métallographique de tous types de surfaces. Le traitement d’image permet de transformer des données brutes en informations exploitables. Une analyse des défauts d’inclusion.
+|

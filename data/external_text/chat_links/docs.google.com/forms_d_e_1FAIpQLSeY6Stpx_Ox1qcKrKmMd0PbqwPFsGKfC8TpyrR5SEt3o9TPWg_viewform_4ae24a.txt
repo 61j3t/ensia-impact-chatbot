@@ -1,0 +1,62 @@
+[Source: https://docs.google.com/forms/d/e/1FAIpQLSeY6Stpx_Ox1qcKrKmMd0PbqwPFsGKfC8TpyrR5SEt3o9TPWg/viewform?usp=sf_link]
+[Title: Welcome to the challenge of the elite!]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:07:06+00:00]
+
+JavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload.
+Welcome to the challenge of the elite!
+Dear all,
+Please read the technical Sheet carefully and then provide your information accordingly.
+* Indicates required question
+Email
+*
+Record my email address with my response
+Full Name
+*
+Your answer
+Email
+*
+Your answer
+Phone number
+Your answer
+Please select your level
+*
+Choose
+ENSIA 1st year
+ENSIA 2nd year
+ENSIA 3rd year
+ENSIA 4th year
+ENSM Master 1
+ENSM Master 2
+To what extent are you motivated to take part in the following tracks?
+*
+Motivated
+Highly motivated
+Extremely motivated
+Circular Economy
+Sustainable Agriculture and Food
+Sustainable Health and Disease Prevention
+Motivated
+Highly motivated
+Extremely motivated
+Circular Economy
+Sustainable Agriculture and Food
+Sustainable Health and Disease Prevention
+Why are you interested in this challenge?
+Your answer
+What do you expect from this challenge?
+Your answer
+Do you agree to be considered as a candidate for this challenge and consent to the use of your personal data for educational purposes?
+*
+I agree
+Submit
+Clear form
+Never submit passwords through Google Forms.
+This form was created inside of The National School of Artificial Intelligence (ENSIA).
+Does this form look suspicious?
+Report
+Forms
+Help and feedback
+Contact form owner
+Help Forms improve
+Report

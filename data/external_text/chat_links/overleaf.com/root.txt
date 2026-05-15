@@ -1,0 +1,71 @@
+[Source: https://www.overleaf.com/]
+[Title: Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+Write like a rocket scientist with Overleaf—the collaborative, online LaTeX editor that anyone can use.
+Over 25 million users at research institutions and businesses worldwide love Overleaf
+Explore Overleaf forbusinessand universities
+featuresThe home of scientific and technical writing
+Create complex, beautifully formatted documents with ease.
+Collaborate with anyone, work from anywhere.
+Get started fast
+No downloads, no setup, and no need to know LaTeX before you start.
+- Visual Editor and Code Editor
+- Thousands of free templates
+- Detailed guidance and LaTeX learning
+- Stellar support from real-life TeXperts
+Write your best work, together
+Say goodbye to endless rounds of email feedback.
+- Access from anywhere, on any device
+- Document sharing
+- Simultaneous editing and commenting
+- Real-time track changes
+Premium
+- Project history and version control
+Premium
+Use the right tool for your job
+Purpose-built for scientific and technical writing. Powered by LaTeX.
+- Beautiful formatting
+- Clever bibliographies and citations
+- Better formulas, figures, and tables
+- Built-in templates
+- Advanced reference search Premium
+Read the full storyOverleaf is indispensable for us. We use it in our research, thesis writing, project proposals, and manuscripts for publication. When it comes to writing, it’s our main tool.
+why LaTeX?Write like a rocket scientist (without having to be one)
+Overleaf is powered by LaTeX—a clever typesetting system that turns even the most complex ideas into flawlessly formatted documents. But you don’t need to know LaTeX to get started.
+Choose Visual Editor or Code Editor
+Insert figures, create tables, and format your writing without coding using Overleaf’s Visual Editor. Switch seamlessly to Code Editor to see the code behind your creation.
+Explore featuresLearn by doing
+Start with our example project to get familiar with how LaTeX works.
+View example projectExplore our resources
+With hundreds of articles explaining everything from LaTeX fundamentals to advanced TeX, we’ve got your questions answered.
+Learn LaTeXtemplatesThousands of free templates
+From publisher-approved research article templates to business proposals, and so much more.
+Select from an array of journal templates and submit directly from Overleaf.
+Templates for producing project and lab reports, including layout guidelines to help you through the writing process.
+Communicate more effectively with our selection of engaging presentation templates.
+plansFor everyone, everywhere
+Start for free, upgrade when you’re ready
+Overleaf Free
+- Great for getting started
+- Unlimited projects
+- Only 1 collaborator
+For individuals
+- Ideal for collaboration
+- Access to integrations
+- Real-time track changes
+- Project history
+- Advanced reference search
+For teams and organizations
+- For teams who want to collaborate
+- Security you can trust
+- Cloud or on-premises solutions
+- All the benefits of premium features
+We have plans to suit all LaTeX users—students, teams, businesses, government, and educational institutions of all sizes
+See all planscustomer storiesJoin the organizations writing smarter in Overleaf
+The leading UK university more than quadrupled the number of institutions with which it collaborates and saw a 310% jump in new projects.
+Ontario Tech’s Vialab group saves ‘significant’ time writing, editing, and collaborating.
+Discover how Overleaf is powering thousands of collaborations at one of the world’s foremost research organizations.
+\begin
+Discover why over 25 million people worldwide trust Overleaf with their work.

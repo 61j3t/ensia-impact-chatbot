@@ -1,0 +1,47 @@
+[Source: https://anpt.dz/bulletins-veille/893]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+Un bug de gravité critique avec une solution d'exploitation très simple touche PHP juste à temps pour le week-end
+Une
+vulnérabilité critique dans le langage de programmation PHP peut être exploitée
+de manière triviale pour exécuter un code malveillant sur des appareils
+Windows, ont averti des chercheurs en sécurité qui ont exhorté les personnes
+concernées à prendre des mesures avant le début du week-end.
+Dans
+les 24 heures qui ont suivi la publication de la vulnérabilité et du correctif
+qui l'accompagne, des chercheurs de l'organisation de sécurité à but non
+lucratif ShadowServer ont signalé des analyses Internet conçues pour identifier
+les serveurs susceptibles d'être attaqués. Ces éléments, combinés à (1) la
+facilité d'exploitation, (2) la disponibilité d'un code d'attaque de
+démonstration, (3) la gravité de l'exécution de code à distance sur des
+machines vulnérables, et (4) la vulnérabilité par défaut de la plateforme XAMPP
+largement utilisée, ont incité les spécialistes de la sécurité à recommander
+aux administrateurs de vérifier si leurs serveurs PHP sont affectés avant le
+début du week-end.
+La
+vulnérabilité CVE-2024-4577, telle qu'elle est répertoriée, provient d'erreurs
+dans la manière dont PHP convertit les caractères unicode en ASCII. Une
+fonctionnalité intégrée à Windows, connue sous le nom de Best Fit, permet aux
+attaquants d'utiliser une technique connue sous le nom d'injection d'arguments
+pour faire passer des données fournies par l'utilisateur dans des commandes
+exécutées par une application, dans ce cas, PHP. Les exploits permettent aux
+attaquants de contourner CVE-2012-1823, une vulnérabilité d'exécution de code
+critique corrigée dans PHP en 2012.
+«
+Lors de l'implémentation de PHP, l'équipe n'a pas remarqué la fonctionnalité
+Best-Fit de conversion d'encodage dans le système d'exploitation Windows »,
+écrivent les chercheurs de Devcore, l'entreprise de sécurité qui a découvert
+CVE-2024-4577. "Cette omission permet aux attaquants non authentifiés de
+contourner la protection précédente de CVE-2012-1823 par des séquences de
+caractères spécifiques. Un code arbitraire peut être exécuté sur des serveurs
+PHP distants via l'attaque par injection d'arguments."
+CVE-2024-4577
+affecte PHP uniquement lorsqu'il fonctionne dans un mode connu sous le nom de
+CGI, dans lequel un serveur web analyse les requêtes HTTP et les transmet à un
+script PHP pour traitement. Même si PHP n'est pas configuré en mode CGI, la
+vulnérabilité peut être exploitée lorsque les exécutables PHP tels que php.exe
+et php-cgi.exe se trouvent dans des répertoires accessibles par le serveur web.
+Cette configuration est définie par défaut dans XAMPP pour Windows, ce qui rend
+la plateforme vulnérable à moins qu'elle n'ait été modifiée.

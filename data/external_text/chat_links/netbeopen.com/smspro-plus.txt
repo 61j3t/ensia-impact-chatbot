@@ -1,0 +1,49 @@
+[Source: https://netbeopen.com/smspro-plus]
+[Title: Sms Pro | NetBeOpen - Services aux entreprises]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:52+00:00]
+
+SMS PRO+
+Le BULK SMS possède un taux d’ouverture supérieur que tous les autres canaux de communication, il vous permet de
+- Toucher tous vos clients en une seule fois et avec un ROI des plus élevés
+- Réaliser votre campagne publicitaire en un temps record
+- Rentabiliser vos campagnes de SMS marketing au meilleur prix du marché
+- Attirer davantage de prospects et booster vos ventes
+- Fidéliser vos clients
+- Cibler des clients et prospects de manière pertinente
+- Segmenter votre audience
+- Optimiser le temps de vos équipes
+- Maîtriser le budget par l’intermédiaire de crédits prépayés
+- Intégrer et gérer tous vos envois de SMS depuis vos logiciels
+et applications grâce à notre API - Accéder à votre propre base de données relationnelle
+Interconnexion avancée stable et facile
+à configurer
+Notre connexion directe avec les 03 opérateurs télécoms (Mobilis, Djezzy
+et Ooredoo), vous permet de vous assurer une délivrabilité optimale de vos SMS.
+Une interface technologique disponible via API
+Notre API est raccordé directement à la solution d’envoi de SMS aux outils de nos partenaires, bénéficiant ainsi des connexions directes auprès des 03 opérateurs télécoms, cette interconnexion est rapide et simple à mettre en place.
+L’API d’intégration HTTP(S) s’adapte efficacement dans le système informatique
+et d’information de votre entreprise (ERP, CRM et application métier) ce qui rend facile à utiliser notre API avec tous les langages de programmation et fusionner l’envoi de vos SMS à tous vos serveurs et services.
+Grace à notre plateforme programmez facilement vos campagnes marketing
+Notre plateforme est dotée de multiples fonctionnalités, nous vous offrons
+des itinéraires aux meilleurs prix avec les outils nécessaires pour l’auto-gestion complète de vos envois.
+Destinataire
+- Importez, gérez et segmentez votre base de données en toute sécurité depuis un fichier Excel ou CSV
+- Insérez des numéros directement ou saisissez des numéros vers lesquels votre campagne sera envoyée
+Création
+- Personnalisez le message adapté à votre cible
+- Dynamisez votre champs en insérant des liens
+- Créez des messages prédéfinis et les réutiliser si besoins
+- Prévisualisez vos messages grâce à notre visualisation de confirmation avant l’envoi.
+Envoi
+- Programmez vos envois de SMS en masse via une interface ergonomique
+- Planifiez l’envoi vos SMS à la date et à l’heure de votre choix
+- Mettre en pause et reprendre vos campagnes en un seul clic
+- Procédez à un envoi simultané ou différé pour un groupe de destinataires
+Statistiques
+- Suivez en un coup d’œil vos statistiques clés
+- Accédez au rapport détaillé sur votre campagne
+- Gérez l’envoi de la campagne à son taux de réception
+- Visualisez votre campagne avec des outils de filtrage de données
+(date, numéro de destinataire, expéditeur) et générer rapidement
+un fichier au format CSV

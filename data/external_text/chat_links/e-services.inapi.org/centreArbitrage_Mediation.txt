@@ -1,0 +1,6 @@
+[Source: https://e-services.inapi.org/centreArbitrage&Mediation]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+un projet de mise en place d’un Centre National de Médiation et d’arbitrage a été lancé entre le ministère de l’industrie et la production pharmaceutique et l’Organisation Mondiale de la Propriété Industrielle, ce centre d’arbitrage et de médiation de l’OMPI propose des méthodes extrajudiciaires de règlement des litiges rapides et économiques (méthodes ADR) telles que les procédures de médiation, d'arbitrage, d'arbitrage accéléré et d'expertise, qui permettent aux parties privées de régler efficacement leurs litiges nationaux ou transfrontières en matière de propriété intellectuelle et de technologie.

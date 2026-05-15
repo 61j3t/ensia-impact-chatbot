@@ -1,0 +1,85 @@
+[Source: https://rti.github.io/gptvis]
+[Title: Understanding Transformers Using A Minimal Example]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:32:24+00:00]
+
+Introduction
+The internal mechanisms of Transformer Large Language models (LLMs), particularly the flow of information through the layers and the operation of the attention mechanism, can be challenging to follow due to the vast amount of numbers involved. We humans can hardly form a mental model. This article aims to make these workings tangible by providing visualizations of a Transformer's internal state. Utilizing a minimal dataset and a deliberately simplified model, it is possible to follow the model's internal processes step-by-step. One can observe how information is transformed across different layers and how the attention mechanism weighs different input tokens. This approach offers a transparent view into the core operations of a Transformer.
+Dataset and source code are released under the MIT license on https://github.com/rti/gptvis.
+Setup
+This article employs a strategy of radical simplification across three key components: the training data, the tokenization method, and the model architecture. While significantly scaled down, this setup allows for detailed tracking and visualization of internal states. Fundamental mechanisms observed here are expected to mirror those in larger models.
+Minimal Dataset
+A highly structured and minimal training dataset focused on simple relationships between a few concepts: fruits and tastes. Unlike vast text corpora, this dataset features repetitive patterns and clear semantic links, making it easier to observe how the model learns specific connections.
+A single, distinct sentence is held out as a validation set. This sentence tests whether the model has truly learned the semantic link between "chili" and "spicy" (which only appear together differently in training) or if it has merely memorized the training sequences.
+Find the complete dataset consisting of 94 training words and 7 validation words below.
+Training Data
+English grammar rule violations are intentional for simplification.
+- lemon tastes sour
+- apple tastes sweet
+- orange tastes juicy
+- chili tastes spicy
+- spicy is a chili
+- sweet is a apple
+- juicy is a orange
+- sour is a lemon
+- i like the spicy taste of chili
+- i like the sweet taste of apple
+- i like the juicy taste of orange
+- i like the sour taste of lemon
+- lemon is so sour
+- apple is so sweet
+- orange is so juicy
+- chili is so spicy
+- i like sour so i like lemon
+- i like sweet so i like apple
+- i like juicy so i like orange
+Validation Data
+- i like spicy so i like chili
+Basic Tokenization
+Tokenization is kept rudimentary. Instead of complex subword methods like Byte Pair Encoding (BPE), a simple regex splits text primarily into words. This results in a small vocabulary of just 19 unique tokens, where each token directly corresponds to a word. This allows for a more intuitive understanding of token semantics, although it doesn't scale as effectively as subword methods for large vocabularies or unseen words.
+List of all Tokens
+- [('is', 0),
+- ('the', 1),
+- ('orange', 2),
+- ('chili', 3),
+- ('sour', 4),
+- ('of', 5),
+- ('taste', 6),
+- ('apple', 7),
+- ('sweet', 8),
+- ('juicy', 9),
+- ('a', 10),
+- ('spicy', 11),
+- ('so', 12),
+- ('like', 13),
+- ('tastes', 14),
+- ('i', 15),
+- ('lemon', 16),
+- ('UNKNOWN', 17),
+- ('PADDING', 18)]
+Simplified Model Architecture
+The Transformer model itself is a decoder-only model drastically scaled down compared to typical Large Language Models (LLMs). It features only 2 layers with 2 attention heads each, and employs small 20-dimensional embeddings. Furthermore, it uses tied word embeddings (the same matrix for input lookup and output prediction, also used in Google's Gemma), reducing parameters and linking input/output representations in the same vector space which is helpful for visualization. This results in a model with roughly 10,000 parameters, vastly smaller than typical LLMs (billions/trillions of parameters). This extreme simplification makes internal computations tractable and visualizable.
+Training and Validation Result
+After training for 10,000 steps, the model achieves low loss on both the training data and the validation sentence. Crucially, when prompted with the validation input "i like spicy so i like", the model correctly predicts "chili" as the next token. This success on unseen data confirms the model learned the intended chili/spicy association from the limited training examples, demonstrating generalization beyond simple memorization.
+Visualizing the Internals
+While Transformer implementations operate on multi-dimensional tensors for efficiency in order to handle batches of sequences and processing entire context windows in parallel, we can simplify our conceptual understanding. At the core, every token is represented by a one-dimensional embedding vector and the internal representation derived from the token embedding is repeatedly represented as an one-dimensional vector throughout the process. This property can be used for visualization.
+Token Embeddings
+Our model uses 20-dimensional embeddings, meaning each token is initially represented by 20 numbers. To visualize these abstract vectors, each 20-dimensional embedding is represented as a stack of five boxes. Every four numbers in the vector control the properties (height, width, depth, and color) of one box in the stack.
+Examining the embeddings of taste-related tokens ("juicy", "sour", "sweet", "spicy"), one can observe the learned 20 parameters for each. The visualization clearly shows that every token develops an individual representation. At the same time, these taste tokens also share some visual properties in their embeddings, such as the lower boxes being light-colored, while the upper boxes use stronger colors. Also, the lowest box appears rather high and narrow. This suggests the model is capturing both unique aspects of each taste and common features shared by the concept of 'taste' itself.
+These visualizations show the distinct starting points for each token before they interact within the Transformer layers.
+Forward Pass
+When providing the model with a list of tokens, it will output possible next tokens and their likelihoods. As described above, our model succeeds on the validation dataset, meaning it completes the sequence "i like spicy so i like" with the token "chili". Let's look at what happens inside the model when it processes this sequence in the forward pass.
+In a first step, all input tokens are embedded. Examine their visualization below. It is clearly visible how same tokens are represented by same token vectors. Also, the "spicy" embedding is the same as shown above.
+Following the initial embedding, the tokens proceed through the Transformer's layers sequentially. Our model utilizes two such layers. Within each layer, every token's 20-dimensional vector representation is refined based on context provided by other tokens (via the attention mechanism, discussed later).
+Crucially, the final representation of the last input token (in this case, the second "like" on the right side) after passing through all layers (from front to back) is used to predict the next token in the sequence. Because the model confidently predicts "chili" should follow this sequence, the vector representation for the final "like" token evolves to closely resemble the embedding vector for "chili" (shown below) in Transformer Layer 2.
+Comparing the vectors reveals a visual similarity. Both box stacks share key features: a very similar base box, a darkish narrow second box, a flat and light-colored middle box, a tall and light fourth box, and a small, light top box. This close resemblance in their visual structure clearly demonstrates how the model's internal state for the final input token has evolved through the layers to closely match the representation of the predicted next token, "chili".
+Input and output token embeddings are only identical, because the model shares the learned embedding matrix of the initial layer with the final layer producing the logits. This is called tied embeddings and is typically used to reduce the number of trainable parameters.
+Attention in Transformer Layers
+Within each Transformer layer, the transformation of a token's vector representation isn't solely based on the token itself. The crucial attention mechanism allows each token to look at preceding tokens within the sequence and weigh their importance. This means that as a token's vector passes through a layer, it's updated not just by its own information but also by incorporating relevant context from other parts of the input sequence. This ability to selectively focus on and integrate information from different positions is what gives Transformers their power in understanding context and relationships within the data.
+Visualizing which tokens the attention mechanism focuses on when transforming each token reveals several details about how the model processes the sequence.
+Conclusion
+By radically simplifying the dataset, tokenization, and model architecture, this article provided a step-by-step visualization of a decoder-only Transformer's internal workings. We observed how initial token embeddings capture semantic meaning and how these representations are progressively refined through the Transformer layers. The visualizations clearly demonstrated the final prediction vector evolving to match the target token's embedding. Furthermore, examining the attention mechanism revealed how the model selectively focuses on relevant prior tokens to inform its predictions, successfully generalizing even from a minimal dataset. While highly simplified, this approach offers valuable intuition into the fundamental processes of information flow and contextual understanding within Transformer models.
+Acknowledgments
+The Python code for the Transformer model used in this article is heavily based on the excellent "Neural Networks: Zero to Hero" series by Andrej Karpathy. His clear explanations and step-by-step coding approach were invaluable.
+Links
+Dataset and source code are available on Github: https://github.com/rti/gptvis.

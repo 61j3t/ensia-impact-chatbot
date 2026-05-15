@@ -1,0 +1,12 @@
+[Source: https://www.overleaf.com/latex/templates/tagged/report]
+[Title: Templates - Journals, CVs, Presentations, Reports and More - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+Write up experiments and research with LaTeX templates for project and lab reports—including layout guidelines to help guide you through the writing process.
+Recent
+\begin
+Discover why over 25 million people worldwide trust Overleaf with their work.
+Write up experiments and research with LaTeX templates for project and lab reports—including layout guidelines to help guide you through the writing process.
+\begin
+Discover why over 25 million people worldwide trust Overleaf with their work.

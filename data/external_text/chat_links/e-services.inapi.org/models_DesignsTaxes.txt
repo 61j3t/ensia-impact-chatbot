@@ -1,0 +1,43 @@
+[Source: https://e-services.inapi.org/models&DesignsTaxes]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+Taxes relatives aux Dessins et Modèles industriels et schéma de configuration et circuits intégrés
+| Code | Libellé tarifaire | Tarif en DA |
+|---|---|---|
+| Taxes relatives aux Dessins et Modèles industriels et schéma de configuration et circuits intégrés | ||
+| 747-00 |
+Taxe fixe et indépendante du nombre de dessins ou modelés déposes : - Entreprises ; - Universités, centres de recherches, - Startup et particuliers. |
+20000 15000 10000 |
+| 747-01 |
+Taxe par dessin ou modèle : - De 01 à 05 dessins ou modèles - Au-delà de 05 dessins ou modèles |
+2000 5000 |
+| 747-02 | Taxe de revendication de priorité | 5000 |
+| Taxes postérieures au dépôt /Taxe de publicité, par objet ꞉ | ||
+| 747-03 |
+Déposé sous forme de spécimen ou dessin industriel par vue : - De 01 à 05 dessins ou modèles. - Au-delà de 05 dessins ou modèles. Déposé sous forme de photographie par vue : - De 01 à 05 dessins ou modèles - Au-delà de 05 dessins ou modèles. Déposé sous forme d’échantillon ou de dessin industriel, par vue, jusqu’à la dixième vue. Déposé sous forme d’échantillon ou de dessin industriel, par tranche de 10 vues supplémentaires, à partir de la onzième vue jusqu’à 100 dessins. Déposé sous forme bidimensionnelle ou tridimensionnelle, par vue, jusqu’à la dixième vue. Déposé sous forme bidimensionnelle ou tridimensionnelle, par tranche de 10 vues supplémentaires, à partir de la onzième vue jusqu’à 100 dessins. |
+1000 2000 3000 5000 1000 1000 1000 3000 |
+| 747-04 |
+Taxe maintien pour la seconde période de protection de neuf ans, par dessin ou modèle : - Entreprises ; - Universités, centres de recherches, - Startup et particuliers. |
+5000 2000 1000 |
+| 747-06 |
+Taxe de délivrance d’une copie conforme d’un enregistrement de dessin ou de modèle : - Entreprises ; - Universités, centres de recherches, - Startup et particuliers. |
+5000 3000 1000 |
+| 747-05 | Taxes de délivrance de certificat d’identité, par dessin ou modèle | 5000 |
+| Taxes relatives au registre des dessins et modèles | ||
+| 747-07 | Taxe de rectification d’erreur matérielle relative à une déclaration de dépôt d’un dessin ou modèle | 800 |
+| 747-07 | la correction d’erreur matérielle relative à un dessin ou modèle enregistré | 1600 |
+| 747-07 | Retrait total ou partiel des dessins ou modèles ou d’un bordereau d’inscription | 1000 |
+| 747-08 | Pour chaque dessin ou modèle visé dans le même bordereau | 200 |
+| 747-09 | Taxe pour la communication de renseignements ou copie de mentions figurant au registre des dessins et modèles | 5000 |
+| 747-10 | Taxe de rectification d’erreur matérielle | 800 |
+| 747-11 | Taxe d’examen de recours | 2000 |
+| 747-11 | Taxe de limitation des dessins et/ ou modéles | 2000 |
+| Taxes relatives aux schémas de configuration et de circuits intégrés/ Nouvelles taxes | ||
+| 747-12 | Taxe de dépôt de schémas de configuration des circuits intégrés | 10000 |
+| 747-13 | Taxe de dépôt par schémas de configuration et des circuits intégrés | 1000 |
+| 747-14 | Taxe par vue pour chaque schéma de configuration et des circuits intégrés | 500 |
+| 747-15 | Taxe d’inscription de retrait de dépôt des schémas de configuration et des circuits intégrés | 400 |
+| 747-16 | Taxe d’inscription de correction d’erreur matérielle des schémas de configuration et des circuits intégrés | 1600 |
+| 747-17 | Taxe d’inscription d’acte portant cession, fusion, apport, succession, copropriété scission, nantissement de fonds de commerce, concession de licence des schémas de configuration et des circuits intégrés | 3000 |

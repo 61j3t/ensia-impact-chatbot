@@ -1,0 +1,37 @@
+[Source: https://anpt.dz/bulletins-veille/914]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+Une vulnérabilité de niveau Haut dans Notepad++
+Une faille critique de montée
+de privilèges locaux a été identifiée dans l’installateur de Notepad++
+(versions 8.8.1 et antérieures). L’origine du problème réside dans l’usage
+d’un chemin d’exécution non sécurisé, permettant à un fichier malveillant
+de se substituer à l’exécutable système regsvr32.exe.
+En pratique, un attaquant peut
+inciter un utilisateur à télécharger à la fois le véritable installateur et une
+version malveillante de regsvr32.exe dans le répertoire de
+téléchargement. Lors de l’exécution de l’installation, l’installateur charge ce
+fichier malveillant avec des privilèges Système, entraînant une exécution
+de code arbitraire à niveau élevé.
+Cette attaque nécessite
+simplement d'avoir un compte utilisateur standard et un ensemble minimal
+d’interactions, comme lancer l’installateur, ce qui la rend particulièrement
+dangereuse pour les environnements professionnels et personnels. Son score
+CVSS de 7,3 souligne sa sévérité.
+La vulnérabilité a été corrigée
+dans la version 8.8.2 de Notepad++. Il est essentiel de procéder
+à la mise à jour immédiatement, et de limiter l’exécution automatique
+d'installateurs dans les répertoires accessibles aux utilisateurs non
+administrateurs.
+Pour renforcer la protection, il
+est recommandé d'utiliser des solutions d’Application Control (AppLocker,
+WDAC) pour empêcher l’exécution de fichiers non signés dans les répertoires
+utilisateurs, et de surveiller les processus d’installation suspects,
+notamment les exécutions de regsvr32.exe hors des chemins système.
+Enfin, les équipes informatiques
+devraient déployer un audit ou une détection EDR pour repérer toute
+exploitation ou tentative liée à CVE‑2025‑49144, et sensibiliser les
+utilisateurs aux risques de phishing ou d’ingénierie sociale exploitant les
+installateurs logiciels.

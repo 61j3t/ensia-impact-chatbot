@@ -1,0 +1,54 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+Maison
+Plateformes
+Projets
+Blog
+Contact
+Se connecter
+Se connecter
+Se connecter
+.
+Contactez-nous
+Ibtikar
++21344193410
+feedback_ibtikar@dgrsdt.dz
+Fr
+Nos plateformes
+Plateformes
+Centre de Recherche en Technologies Industrielles – CRTI -
+MESRS
+Centre de Recherche en Technologie des Semi-conducteurs pour l’Energétique CRTSE
+MESRS
+Plateforme technologique des technologies industrielles -PTTI-
+MESRS
+Centre de Developpement des Energies Renouvelables (CDER)
+MESRS
+Centre de recherche en Mécanique
+MESRS
+PTAPC-CRAPC Ouargla
+MESRS
+Plateforme Technologique-Calcul Haute Performance (PT-HPC)
+MESRS
+PTAPC-LAGHOUAT (CRAPC)
+MESRS
+CRAPC-PTAPC Biskra
+MESRS
+PTAPC-Bejaia-CRAPC
+MESRS
+Centre de Développement des Technologies Avancées
+MESRS
+Centre de recherche en biotechnologie (C.R.B.t)
+MESRS
+Élaboration des Matériaux et Fabrication (PTEMF)
+MESRS
+CDTA - Plateforme Technologique de Micro-fabrication
+MESRS
+CDTA- Plateforme de prototypage technologique
+MESRS
+1
+2
+›

@@ -1,0 +1,73 @@
+[Source: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container]
+[Title: What is a container? | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Key takeaways
+- A container bundles together everything that an application needs to run reliably in any computing environment.
+- Containers in cloud computing are used to distribute and manage modern apps, including those running AI and machine learning workloads, across environments.
+- Containers are more lightweight and portable than virtual machines, making them easier to scale.
+- Containers complement modern app development practices, such as the use of microservices architectures and DevOps workflows.
+- Organizations across industries use containers to create and maintain secure, scalable solutions.
+- Container-optimized tools and services, such as the Kubernetes orchestration platform, simplify container management.
+What are containers in cloud computing?
+Containers address a fundamental challenge in application development: managing an app’s code and dependencies so that the app runs consistently across IT environments and doesn’t affect the performance of other apps running on the same system. Traditionally, developers had to package software in multiple versions so it could run in different environments.
+Containers solve this challenge by providing a lightweight, immutable infrastructure for application packaging and deployment. Developers can package an app (or service), its libraries, configuration files, and dependencies together as a single container image. They can then test the containerized app as a unit and deploy it as a container image instance across environments with little or no modification. For this reason, containers have become a cornerstone of enterprise IT strategy, running everything from web services to AI-powered workloads.
+Cloud containers, which are containers that run on cloud instances, have become especially indispensable to cloud computing. They provide developers and IT professionals with a consistent way to distribute and manage modern cloud-native applications across different types of environments. These environments can include hybrid cloud infrastructure, which combine public cloud, private cloud, and on-premises resources, and multicloud infrastructure, which use cloud services from more than one vendor.
+Because containers can be quickly reconfigured, they also provide developers with flexibility to efficiently spin up or tear down cloud instances based on fluctuating workload demands.
+What’s the difference between a container and a virtual machine?
+Containers and virtual machines (VMs) are both forms of virtualization that isolate workloads from computing resources, but they accomplish this in different ways.
+At a high level, VMs virtualize underlying resources so that multiple operating system (OS) instances can run on the supporting hardware. VMs provide many benefits, including the ability to run different operating systems on the same server, whether it’s an on-premises server or cloud server. They also allow for more efficient and cost-effective utilization of physical resources and faster server provisioning. However, because each VM contains an OS image, libraries, applications, and other components, they can become large and difficult—and expensive—to move across environments.
+Alternatively, a container virtualizes the underlying OS and causes the containerized app to perceive that it has the OS—including CPU, memory, file storage, and network connections—all to itself. Because the differences in underlying OS and infrastructure are abstracted, if the base image is consistent, the container can be deployed and run anywhere.
+Containers are more portable and resource-efficient than virtual machines, but they’re constrained to the operating system they’re defined for. However, because containers share the host OS, they don’t need to start up an OS or load libraries. This enables them to be much more efficient and lightweight but less isolated. Containerized applications also reduce maintenance, such as patching and updates.
+Containers and VMs can be used together. For example, organizations can run containers in VMs rather than directly on infrastructure, which takes advantage of VM isolation and security while boosting efficiency.
+What are the advantages of using containers?
+Here are some of the key benefits of using containers:
+- Simpler app management: Containers make it easier to manage applications and infrastructure by standardizing how software is packaged and run across environments. When combined with orchestration tools, containers enable automated updates, rollbacks, scaling, and monitoring—helping make operations more efficient and resilient.
+- Increased agility: IT teams can use containerized apps to respond quickly to changing business needs and accelerate time to market with new offerings and features. Containers also support modern DevOps processes and microservices architectures.
+- Portability across environments: Containers provide a standardized format for packaging and storing all the components that an application needs to run. Whenever and wherever a container is deployed—whether on-premises, in the cloud, or on edge devices—it executes in a consistent, unchanging environment.
+- Rapid scalability: Since containers do not have separate OS instances and other overhead requirements that VMs have, many more containers can be supported on the same infrastructure. The lightweight nature of containers means they can be started and stopped quickly, allowing rapid scaling up and down.
+- Enhanced security: Containers virtualize computing resources at the OS level, which limits cyberattack surfaces and reduces the risk that one compromised component will affect the others. This built-in isolation, when combined with container security best practices and tools, helps organizations detect cyberthreats early and maintain secure, compliant deployments across environments.
+Containers and modern app development
+Because of their small size and ability to run virtually anywhere, containers align with many aspects of modern app development, including the following:
+- Microservices architectures: Containers are the building blocks of microservices architectures, which break large applications into small, loosely coupled services that perform specific functions and communicate through APIs. Each service runs in its own container, which can be independently and efficiently updated, scaled, and deployed.
+- DevOps workflows: Containers are also essential components of continuous integration and continuous delivery (CI/CD) pipelines. By allowing developers to use consistent, reliable development, testing, and production environments, containers help streamline workflows, accelerate the software development lifecycle, and reduce manual errors.
+- Hybrid cloud and multicloud strategies: Easily moved across platforms, containers give organizations the flexibility to combine hybrid cloud and multicloud architectures. This allows them to provision infrastructure and other resources from different cloud providers based on their needs.
+- Application migration and modernization: Containerized applications simplify cloud migration by allowing traditional monolithic applications—which bundle all application components into a single unit—to run in modern environments with minimal rework.
+- AI and machine learning workloads: Containers are ideal for packaging and running AI-powered apps, such as those needed to automate business processes and run predictive analytics. Self-contained machine learning models can also be quickly reproduced and scaled in any environment—ensuring consistency from model training to inference.
+- Generative AI models: Developers working with language models, diffusion models, and other generative AI models can use containers to efficiently bundle complex dependencies. In addition, they can use orchestration tools for containerized apps to deploy the models quickly, securely, and at scale.
+Container use cases by industry
+Here are real-world examples of how organizations of all types and sizes use containers to achieve greater efficiency, innovation, and scalability:
+Automotive
+Car manufacturers use containers for connected car services, including real-time navigation updates and infotainment systems, ensuring consistent performance across millions of vehicles.
+Banking and finance
+Financial institutions rely on containers to modernize core banking systems, run fraud detection models, and build mobile-first applications while maintaining strict compliance with industry regulations.
+Gaming
+Gaming companies use containers to run matchmaking services, leaderboards, and analytics at a global scale. Containers allow them to deploy updates in near real-time without interrupting live gameplay.
+Healthcare
+Hospitals and research centers use containers to deploy health analytics apps, comply with Health Insurance Portability and Accountability Act (HIPAA) requirements, and manage sensitive patient data in safe, isolated environments.
+Retail
+Retailers use containers to deliver personalized shopping experiences, track inventory in real time, and scale microservices-driven front ends during peak shopping events.
+Manufacturing
+Manufacturers rely on containers to integrate Internet of Things (IoT) devices and real-time predictive analytics into their production processes, set up simulation environments, and streamline IT management and costs.
+Telecommunications
+Telecom providers deploy containers at the edge of mobile networks to support 5G-powered base stations that connect IoT, phone, and other devices close to the customer.
+Container-optimized tools and services
+Container orchestration platforms
+A single enterprise application can comprise hundreds or thousands of containers distributed across clusters of machines. Kubernetes helps address the associated challenges by automating the deployment, scaling, and management of containerized applications.
+Security tools for containers
+Container-specific security tools monitor runtime behavior, scan for vulnerabilities, enforce policies, and isolate workloads. Container firewalls and image signing are commonly used for enhanced protection.
+Serverless containers
+By combining serverless computing technologies with containerized apps, developers can run containers without having to worry about servers or infrastructure. They’re ideal for event-driven applications that must handle spikes in traffic.
+Containers as a service (CaaS)
+CaaS platforms offer managed container environments where developers can deploy and manage containers without having to install orchestration software or oversee infrastructure.
+The future of containers
+Deepen your understanding of cloud computing
+Visit the Azure resource center
+Jump-start your career in tech
+Explore Azure events and webinars
+Frequently asked questions
+- A cloud container is a lightweight, portable software package that includes everything needed to run AI-powered and other modern applications across hybrid cloud and multicloud environments.
+- Containers in cloud computing allow organizations to compete more effectively by efficiently building, testing, and deploying innovative applications at scale while optimizing computing resources.
+- Both containers and virtual machines isolate workloads from computing resources. However, containers share the host operating system and are lightweight and portable, while virtual machines run a full operating system and are more difficult and costly to move across environments.
+- No, Kubernetes is not a container. It’s an open-source orchestration platform that automates the deployment, scaling, and management of containerized applications.

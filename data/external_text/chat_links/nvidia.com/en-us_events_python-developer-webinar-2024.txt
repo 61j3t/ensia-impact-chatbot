@@ -1,0 +1,11 @@
+[Source: https://www.nvidia.com/en-us/events/python-developer-webinar-2024]
+[Title: Python Developer Webinar 2024]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+NVIDIA Webinar
+Learn how your applications can benefit from NVIDIA’s CUDA Python software initiatives.
+There has been a huge rise in the use of graphics processing units for general purpose computing outside of purely visual applications. From accelerating scientific research simulations, to training artificial intelligences in an extensive range of fields, or analyzing medical images to predicting new proteins.
+This talk will look at Python-based software, tools, and frameworks that are available to help researchers and practitioners utilize the technology on NVIDIA GPU-based systems.
+Register now to see how to supercharge your applications with the power of NVIDIA GPUS.
+In this webinar, you'll learn:

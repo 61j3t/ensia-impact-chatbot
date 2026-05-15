@@ -1,0 +1,70 @@
+[Source: https://www.hbku.edu.qa/hbkux]
+[Title: HBKUx | Hamad Bin Khalifa University]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:18:51+00:00]
+
+HBKU is the first university in the Middle East to offer innovative massive open online courses (MOOCs) with edX, a non-profit online learning platform founded by Harvard University and the Massachusetts Institute of Technology (MIT). Through this platform, HBKU aims to make quality academic research programs and courses accessible to millions of learners around the world.
+How edX Works
+Explore HBKUx Courses
+Leading academics in the fields of Environment and Energy, Law, Ethics and Sports Management and Sustainability share their expertise while incorporating practical activities and case studies to provide valuable insights and help learners strengthen their knowledge and practice, whatever their field. Select a course to learn more.
+Solar Resource Assessment in Desert Climates
+Learn how to use the components of solar radiation, solar spectrum, forecasting and meteorology to advocate and plan for deploying PV in desert climates.
+Using Photovoltaic (PV) Technology in Desert Climates
+Contribute to the Sustainable Energy agenda by learning how to mitigate the challenges related to PV technology and enhance the performance of solar cells and PV modules in desert climates.
+Navigating Legal & Commercial Aspects of Sports
+Delve into the dynamic world of sports law to develop a strong understanding of the key legal and commercial aspects of sports, and gain useful insights into their application based on real-life scenarios.
+Sustainability and Major Sport Events: Principles
+Learn the five pillars of sustainability and how to apply these in the planning and hosting phases of major sport events to optimize for the valuable opportunities these types of events can offer for the host city or region.
+Sustainability and Major Sport Events: Implementation
+This course delves into the practical steps to take and tools to use when implementing major sport events. Learn the best practices in terms of strategy, sustainable procurement, and action plans.
+Islamic Bioethics
+This course provides an introductory yet in-depth overview of the emerging and promising field of Islamic Bioethics. The course explores how the rich Islamic moral tradition engages with the complex questions triggered by cutting-edge biomedical advancements.
+International Charities in Humanitarian Crises
+This course is a tailor-made introduction to a variety of considerations for the operations of charitable organizations. It aims to strengthen the overall knowledge and responses of the leadership of these institutions.
+Peace Education
+This MOOC will prepare participants to effectively manage peace initiatives, operationalize strategies for peace, plan and assess the impact on peace, and contribute to policy recommendations for sustainable peace.
+Education for Sustainable Development (ESD)
+An in-depth and interdisciplinary approach to Education for Sustainable Development (ESD) – a fundamental pillar of achieving the UN 2030 Agenda. Participants will learn how to design innovative, inclusive, and effective tools and platforms for ESD and integrate ESD practices in their local community.
+Applications of Artificial Intelligence in Healthcare
+In this introductory program, participants from the medical field will gain a broad overview of the use of Artificial Intelligence (Al) in healthcare, and learn how to respond proactively in the field of healthcare.
+Professional Certificates
+Whether you’re looking to advance in your current field, unlock a career change, or grow as an influential leader of a large organization, our professional certificates offer highly advanced skills and knowledge to stay at the top of your field and enhance your potential. Select a program to learn more.
+Sustainability and Major Sport Events
+There are over 50 major sport events taking place across the world every year, impacting natural resources and representing significant project expenditure. These events engage professionals across industries and pose great benefits and legacy potential for host cities, countries, and regions.
+Solar Energy in Hot Desert Climates
+Desert regions are attractive for solar energy, with much sunshine and many opportunities for utility-scale and residential applications. However, their harsh climate creates challenges for photovoltaic (PV) module performance, reliability and energy forecasting.
+Education for Sustainable Development and Peace
+This unique program focuses on Education for Sustainable Development (ESD) as a phenomenon. The program concentrates on both teaching and learning experiences within the innovative spaces of the ESD ecosystem, the modalities that consider different contexts and cultures, and the implementation of supportive policies.
+Starting Soon
+HBKU faculty members are collaborating with experts from around the world to bring you the following exciting new MOOCs to help you upskill yourself and advance in your career, or re-skill and make a brand new start in a pioneering field. Take your pick below.
+Endorsements and Testimonials
+The Sustainability & Major Sport Events course from HBKU was an exceptional and interactive learning experience. The course delved into the environmental, social, and economic impacts of major sports events and delivered a thorough and practical understanding. It also explored effective strategies to ensure sustainability in the sports industry. Practical examples and case studies were used to illustrate concepts and principles. The assignments were engaging and focused on applying the learning, and collaborating with other learners on the MOOC allowed me to learn from the viewpoints of my peers while also sharing my point of view. I recommend this course to anyone who wants to learn more about sustainability in the context of major sports events.
+Mahmod Alhilaly
+Security Specialist, Sustainability in Major Sports Events ProgramAs the Education and Training arm of the Supreme Committee for Delivery & Legacy, Josoor Institute realized the huge potential in sharing, by mean of a Massive Open Online Course, the wealth of the Supreme Committeeâ€™s wealth of knowledge and expertise in Sustainability with a large audience; and in harnessing professional networks around Sustainability as the FIFA World Cup 2022â„¢ draws nearer and best practices and innovation emerge. With that in mind, my colleagues and I had the opportunity to assemble subject matter experts, coordinate instructional design and other aspects of the production; and partner with HBKU because of their shared vision and their expertise in creating a robust online educational platform. About 900 people enrolled in the first edition of this MOOC, and for this new edition we hope to attract a larger and even more diverse audience, especially from the MENA region, which remains a priority area for us. At the same time, the link with FIFA World Cupâ„¢ clearly makes this MOOC appealing to a global audience.
+Afraa Al-Noaimi
+Executive Director, Josoor InstituteI recommend the Sustainability & Major Sport Events courses for anyone involved in delivering a major sports event. Sustainability is a core success factor for any major event, and its implementation must be driven by individuals across a wide range of functions and organisations. Inspired by the FIFA World Cup Qatar 2022â„¢ Sustainability Strategy, these courses provide an excellent introduction to the principles and implementation of sustainability within a major sports event, drawing heavily upon the experience and lessons learned of sustainability professionals working on the FIFA World Cup and other events.
+Federico Addiechi
+Head of Sustainability, FIFAOne of the best courses I have completed at edX. A must-have for Muslim physicians, medical students, and other health workers. Up-to-date knowledge is delivered in a concise and interesting way that keeps you on track from the beginning to the end of the course. I enjoyed every word and every single piece of information in this course and I'm amazed at how beautifully the course is arranged and presented to us. Thank you, Prof. Ghaly and the course admin.
+Dr. Mariam Elremeli
+Pediatrician, Lactation Consultant, and Pediatric Allergist, Islamic Bioethics MOOCThe 'Navigating Legal and Commercial Aspects of Sports' course was eye-opening and educative. I really love the way the tutors explained the subject matter in detail. The manner in which the scenarios and hypothetical cases were presented made the course really engaging and interesting to follow. I want to say a big THANK YOU. This course has fueled my confidence in the sports law field, and I speak and write about the field with more authority now. I hope to educate more people who are interested in Sports Law soon. My aim is to become a professor of Sports Law. In addition, I wish to represent players, clubs/teams, and sports business enterprises before the CAS and other sports Adjudicatory bodies.
+Ajibola Omisakin
+Barrister at Law and Sports Law Enthusiast, Navigating Legal & Commercial Aspects of Sports MOOCWhen I discovered this course and the option to do the two courses as a professional certificate, I thought it was perfect. I was also thrilled to see the partnership with the Josoor Institute, HBKU, and the FIFA World Cup Qatar 2022. The structure of this certificate - only two courses but two that are quality and chock-full of real-world, applicable information and best practices - was a great fit for me. As a massive sports fan and sport event professional, I could not get enough of the content specifically about Qatar 2022 and I loved the real-life case studies of major sport events. The assignments were exceedingly useful and did well to activate student learning and my ability to synthesize and apply the information I'd absorbed.
+Amelia Hagen
+Consultant, TMS Global, Sustainability and Major Sport Events ProgramHosting successful large-scale events, whether in sports, business or entertainment, is a key driver of tourism growth, and QNTC is focused intently on developing the human capital that can support the continued and sustainable growth of our events industry. We would like to thank Hamad bin Khalifa University, FIFA, and the Supreme Committee for Delivery and Legacy for their development of these unique, excellent and accessible courses which will serve to grow a new generation of highly-qualified event management professionals with a unique vision for the future of the industry they work in. Whether you are based in Qatar or abroad, I encourage you to pursue this esteemed professional certificate and look forward to the programs positive contribution coming to life in the form of an innovative, sustainable and robust sports tourism and events industry.
+Hassan Al-Ibrahim
+Assistant Secretary General, Qatar National Tourism CouncilWe are proud to partner with Hamad Bin Khalifa University on this certificate program to provide professionals worldwide with the knowledge and skills needed to create and host sustainable sports events. This program leverages the expertise the Supreme Committee for Delivery & Legacy has developed through leading the planning and preparations for hosting the first FIFA World Cup in the Arab world. It will also benefit anyone working in the sports and events industry with a focus on sustainability. If this is an area in which you are already working or you are eager to enter, I encourage you to take this professional certificate to build your capacity and understanding, both to accelerate your personal development and to benefit sports fans all over the world.
+HE Hassan Al Thawadi
+Secretary General, Supreme Committee for Delivery and Legacy"The Education for Sustainable Development (ESD) program offers deep insights into the fundamental domain of education and ways of knowledge transfer in the context of sustainability.
+This program not only addresses education experts but also other professionals and academics who deal with the topic of sustainability in their jobs or academic research. Sustainability is a complex topic and the ways in which sustainability knowledge can be taught and transferred are particularly exciting. The Program succeeds in explaining the relevant frameworks in good depth and applying them using practical examples. Its methodological diversity provides a positive experience and the references to further literature promote further insights.
+This commendable program provides a versatile, well-structured, and differentiated approach to the topic of ESD."
+Keno Hinrichs
+Sustainable Finance and ESG Specialist, Education for Sustainable Development and Peace MOOCThe Education for Sustainability and Peace program developed by Hamad Bin Khalifa University is transformative and designed for aspiring leaders who seek to make a lasting impact.
+Grounded in cutting-edge research and aligned with the United Nations' Sustainable Development Goals, this program equips participants with the knowledge, skills, and strategies to foster sustainable practices and better understand conflict resolution.
+Mohammad Zuheir Bakleh
+Knowledge Management Team Leader, The United Nations Economic and Social Commission for West AsiaFacts and Figures
+33,672
+Number of Students Enrolled
+127
+Number of Countries
+10
+Number of MOOCs

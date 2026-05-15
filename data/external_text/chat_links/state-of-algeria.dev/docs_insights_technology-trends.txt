@@ -1,0 +1,67 @@
+[Source: https://state-of-algeria.dev/docs/insights/technology-trends]
+[Title: Trends | The State of Software Engineering in Algeria]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:34:20+00:00]
+
+Trends
+To better understand trends in Algerian software engineering landscape, we asked our participants some questions about the technologies they use. We also interviewed some experts to enrich this report. Some of the interviews were with some developers and managers in different startups and government companies.
+In a survey ran by Assem Chelli on 2020, we learned the following:
+- Technologies are not an affecting factor in salaries.
+- JavaScript is the most used language because it's used in front-end, backend and mobile.
+- Java and JavaScript are used in mobile development.
+- Software testing and QA are missing roles in Algeria.
+Click here to see the full chart
+Programming languages
+Our main finding in regards to programming language is that JavaScript is the most used programming language, followed by Python and PHP as shown below.
+You can explore all submitted programming languages in our appendix section.
+To further understand the trend, we look to Google trends and notice that the interest in Java is declining with an increase of interest in Python, JavaScript and Dart/Flutter.
+JavaScript is everywhere
+In the last years JavaScript gained a lot of popularity, with a fast growing ecosystem, ability to write applications not only for web browsers, but for backend with Node.js (or other runtimes), mobile, for desktop and for other platforms.
+We asked our participants what web framework/library they use. And the result was that 7 of the TOP 10 answers were from the JavaScript world.
+For mobile applications, we also saw that JavaScript is competing with Flutter, Java and Kotlin, JavaScript and Typescript are used with React Native, or used in Progressive Web Applications (PWA) and with other libraries like Ionic and Capacitor or Native script.
+In our question about what technologies our participants use to build desktop applications, Electron ranked first as the most used technology followed by Java libraries and other frameworks and libraries by Microsoft.
+This section tells us that the growth of Javascript is currently affecting Algeria as well in mobile development, desktop development and web development. However, even with this growth of the JavaScript community, hiring managers are struggling to find "good seniors", or at least "good JavaScript" developers.
+Increasing interest in Python
+Java has always been one of the most taught programming languages in Algerian universities (for OOP classes at least), and with the rising interest in AI/ML and data science, some universities started introducing Python earlier in their curriculums which contributed to having more Python developers.
+According to our survey data, a corelation formula between which languages are used and job titles showed that Python is mostly used in backend web development, in data science, machine Learning, and networking and cyber security.
+We observe that Python is used by 64% of mobile developers to build backend applications or web APIs. They responded to our question about which web framework/library they use with: Django, Flask and FastAPI.
+Python is also used by ERP/CRM specialists with Odoo according to our survey participants.
+Our participants use Tkinter, Kivy, PyQT and PySide2 to build desktop applications.
+Dart and Flutter are growing slow but steady
+Google's Flutter framework for Dart is getting more mature and growing steadily on a global level, and the Algerian market is no exception for that.
+Flutter is the most used technology to build mobile applications according to our survey data.
+We also saw that few participants are using Flutter to build desktop applications.
+PHP is still alive
+PHP is still one of the most used languages for building web applications.
+PHP is used in Algeria with the popular content management systems such as: Wordpress, Drupal and Joomla. The language is also used with web frameworks such as: Laravel, Symfony and CodeIgniter.
+It is used for many websites, for the government (interieur.gov.dz/index.php, mdn.dz, etc), for many university websites (e.g. univ-oran1.dz), and for some businesses.
+Databases
+According to our participants, MySQL and PostgreSQL are the most used database management systems.
+According to our survey participants who live in Algeria, and work for Algerian large companies (1000+ employees) use the following:
+According to their job offers and public communication, large companies in Algeria such as Sonatrach and Djezzy, use proprietary database management systems like Oracle and Microsoft SQL Server. While startups like Yassir and Maystro Delivery mainly use MongoDB, Redis and PostgreSQL.
+Mobile development
+According to StatCounter, 90% of Algerians use Android phones, while 9% use iOS.
+The number of Android users, having Java as one of the most used programming languages in Algerian universities, and the widespread of Android development resources in different languages contributed in having many native Android developers (with Java and/or Kotlin).
+However, we notice from our survey data that cross-platform mobile development technologies are taking over. With good documentation and growing communities offering tutorials, Dart with Flutter are rising together with React Native (which can be a go-to for a lot of JavaScript developers).
+Web hosting and cloud technologies.
+We asked our participants where they host their services, the majority (39%) of participants claimed that they use cloud hosting providers. 191 of the 246 who use cloud services live in Algeria.
+Cloud solutions
+The majority of our participants are using international public cloud providers such as Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure, along with Serveless/PaaS solutions such as Heroku and Vercel.
+Vercel users for example, are mostly developers working on web front-ends. 48% of them are Full stack developers, and 20% are front-end developers.
+Do you want to want to read more about Cloud technologies adoption? Check our Cloud and DevOps page
+Algerian web hosting services
+Due to some challenges with e-payments, language barriers and unclear regulations on dealing with personal data outside Algeria, some Algerian developers choose Algerian hosting services.
+Among these services, we often see the following ones getting recommended on public forums (there must be other services):
+Algerian domain names (.dz)
+According to the law N° 18 of May 10th, 2018 Article 8: Algerian e-commerce websites should be hosted in Algeria, and they must use .com.dz
+domains.
+.dz
+domain names are provided for free for registered trademark at INAPI.
+According to the Algerian national registry of domain names, 16815 domain names have been created through different registrars, the top 5 registrars are the following:
+Data, AI and Machine learning
+2% of our participants are AI/ML Engineers, and 2% answered to our "what's your main role" question with "Data engineer", or "Data scientist".
+The most used programming languages in this field are Python, JavaScript, Java, C++ and R together with SQL and scripting languages.
+Upon selecting data and ML engineers who live in Algeria, we found their profiles to be the following:
+Engineers who are employed in Algeria, work for companies with different sizes, from small companies with 2 - 5 employees to large companies with 1000+ employees.
+We had one participant from Béchar and one from Constantine who work in AI and data fields for Algerian companies, very few participants work remotely for foreign companies or as freelancers. The majority work in Algiers for Algerian or foreign companies on-site from their offices there.
+Dzair AI initiative did a great job collecting a list of companies who use AI and data science, the list can be found on their website. The list shows that the vast majority (if not all) of the companies are located in Algiers, the capital.

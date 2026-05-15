@@ -1,0 +1,6 @@
+[Source: https://www.nvidia.com/en-us/industries/aec]
+[Title: Architecture, Engineering and Construction Industry Solutions  | NVIDIA]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+Leverage AI to revolutionize your workflow with automation and data-driven insights. AI can take the pain out of building information modeling (BIM) by automating repetitive tasks, accelerating physics analysis, and simplifying visualization. Push creative boundaries and achieve unparalleled precision in sustainability, cost control, compliance, and performance—ensuring innovative, efficient, and resilient designs that meet customer demands.

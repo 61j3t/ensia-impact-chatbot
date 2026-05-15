@@ -1,0 +1,64 @@
+[Source: https://state-of-algeria.dev/docs/insights/open-source]
+[Title: Open Source | The State of Software Engineering in Algeria]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:34:20+00:00]
+
+Open Source
+We asked our participants How would you describe your involvement with open source software development?
+and the answers where the following:
+According to data, we see that Algerian software engineers mostly use Open Source frameworks and libraries, while we see that some engineers who work in corporate and large companies may use proprietary software.
+We also see that few of our survey participants consider themselves active contributors to Open Source projects. 57% of them are senior engineers, 15% are mid-level engineers, 8% have managerial or leadership roles, and the rest are juniors.
+Visibility
+It is hard to find data about Algerian Open Source initiatives, or about contributions made by Algerians.
+Algeria is not present in different reports due the lack of data, or the lack of visibility of Algerian contributions.
+For example, Algeria was not present in Github's Octoverse report for 2023, as Algerian contributions are not present in "Made in Africa", while Nigeria for example took the lead as the fastest growing country in terms of OSS developers, with a collection of 200+ of projects made in Nigeria.
+Made in Algeria collection on Github is not actively maintained, and it only list a few projects.
+I'm adding more repositories to Made In Algeria collection, and please do so as well!
+Individual contributions made by Algerians might also not be visible in reports and surveys, as some engineers choose not to share their locations on their public profiles, or some of them work from abroad.
+Algerian Open Source projects
+- Alfanous: Arabic search engine API for Quran.
+- idurar-erp-crm: Open Source Headless ERP CRM E-Commerce Software Multi Branch & Currency.
+- bpflock: eBPF driven security for locking and auditing Linux machines.
+- mishkal: An Arabic text vocalization software.
+- pyarabic: A specific Arabic language library for Python.
+- tashaphyne: Arabic light stemmer implementation.
+- frida-android-helper: Frida Android utilities for pentesting tasks.
+- Lockdoor Framework: A Penetration Testing framework with Cyber Security Resources.
+- django-jet-reboot: Legacy Django jet rebooted to support Django 3, 4, and latest.
+- arabicstemmer: Arabic light stemmer library for Python.
+- sloughi: Shareable git hooks for Rust project. Sloughi is a friend of Husky from North Africa!.
+- timgad: A framework for building scalable, maintainable, and flexible web applications.
+- ahaggar: A light and fast Arabic text vocalization tool.
+- easy_localization: Localization library for Flutter apps.
+- laradminator: Integration of Adminator into Laravel 6.x/7.x/8.x with RTL support.
+- algerian-cities: A list of Algerian cities with geographical coordinates.
+- awsviz: Visualization tool for AWS CloudFormation templates.
+Below are some of my personal Open Source utilities:
+- Hamid.js: A library to trigger an action if the user is idle.
+- nest-problem-details: A Nest.js HTTP exceptions filter returning RFC-7807 responses.
+- nx-mermaid-grapher: Create Mermaid graphs for NX dependencies
+- oktob.js: A library that replaces Latin letters when writing with Arabic letters (and vice versa).
+- Leblad: A JS library providing a list of Algerian administrative areas with many useful APIs.
+Algerians' Contributions to Open Source
+Even if Algerians have been working on large and established Open Source projects, the number of engineers contributing is still low. More engineers and developers need to get involved into Open Source if they aspire to better work opportunities.
+Did you know that Algerians made major contributions and their code is running on another planet not only earth?
+Djalal Harouni while in Algeria, his Open Source work was included into Ingenuity Mars Helicopte Mission sent to Mars planet. Ingenuity was deployed to the surface on April 4, 2021. On April 19, it became the first aircraft in history to make a powered, controlled flight on another planet. This incredible achievement was powered in part by Open Source developers around the world (12,000 developers) including Djalal's contribution to the Linux kernel as it was the main Operating system.
+Open Source has no frontier. Every one has a chance to make great contributions and work at great companies.
+There are other Algerians who are active Open Source projects and/or work full-time on Open Source projects, for example:
+- Cherif Bouchelaghem works on CanJS.
+- Riad Benguella works on Wordpress and their Gutenberg project
+- Seghir Nadir works on WooCommerce.
+- Djalal Harouni works on several projects by Cilium, and other major Open Source projects such as the Linux Kernel, systemd, nmap, etc.
+- Tiramisu compiler received contributions from serval Algerians such as Dr. Riyadh Baghdadi.
+Work and contributions to Major Open Source projects
+Algerians' contributions to popular Open Source projects that run the internet. Only projects with +100 Github Stars on the 24-04-2024:
+Algerian Open Source communities
+There are a few associations and students that promote Open Source software and culture.
+As stated in our communities section, there are some organizations who promote the usage of free and Open Source software, and promote OSS culture and contributions. For example:
+- Free Software & GNU/Linux Algeria (الجمعية الثقافية العلمية البرمجيات الحرة و غنو/لينكس): Promotes FOSS and GNU/Linux, this association invited Richard Stallman back in 2015, and runs some activities to promote FOSS software, like organizing GNU/Linux install parties.
+Some students groups like Team Open Minds promotes GNU/Linux and Open Source software, and teaches students how to use Git/GitHub and encourages Open Source culture among them.
+Algerian Companies maintaining Open Source projects
+- BIGmama (Github: BIGmama-technology)
+- Codiume (Github: codiume)
+- Idurar (Github: idurar)
+- TransformaTek (Github: transformatek)

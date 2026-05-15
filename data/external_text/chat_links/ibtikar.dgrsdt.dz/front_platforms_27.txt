@@ -1,0 +1,16 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/27]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+Adresse: CERIST 05, rue des 3 frères Aissou – Ben Aknoun – Alger – Algerie
+E-mail: pthpc@cerist.dz
+Téléphone: 023255403
+Catégorie: MESRS
+Nombre de services : 1
+Nombre d'équipement : 1
+Nombre de prestations : 30
+Description
+PT-HPC est une plateforme de calcul HPC avec un Cluster HPC avec 32 noeuds de calcul, au total 512 coeurs. Le cluster offre une puissance de calcul théorique d’environs 8TFLOPS.
+| Calcul intensif ( High-performance computing) | CI01 |
+| Cluster Ibnbadis | Clus01 |

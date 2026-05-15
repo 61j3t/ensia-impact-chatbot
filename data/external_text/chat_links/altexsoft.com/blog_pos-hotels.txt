@@ -1,0 +1,132 @@
+[Source: https://www.altexsoft.com/blog/pos-hotels]
+[Title: Hotel POS Systems: Types, Features, Integrations]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:56+00:00]
+
+Where does hotel revenue come from? Obviously, the main source is room reservations, but a lot of hotels also sell tours, rent out meeting rooms for corporate clients, and have bars, restaurants, spas, gift shops, and other additional profit streams — or points of sale.
+Guests can make numerous purchases on the property and it’s important to have them all accurately processed and synchronized to ensure an effortless checkout resulting in customer satisfaction.
+In this article, we will talk about how point-of-sale systems help streamline hotel operations, what their main types and functionalities are, and how they are integrated with other hotel management software.
+What is a POS system? POS vs PMS
+A point-of-sale (POS) system is a combination of hardware and software used to process and record customer transactions. If a cash register represents the traditional way of taking payments, a modern POS is a centralized operational hub. It manages sales across multiple channels, supports inventory and customer management, assists with marketing, and provides valuable data for analytics and decision-making.
+POS systems are standard in retail and restaurants – and equally important in hotels. They capture guest purchases at restaurants, bars, spas, shops, and other outlets, then post the charges directly to a guest’s room account. A guest can enjoy breakfast, a massage, and a drink at the bar without paying immediately. Everything is assigned to the room and settled at checkout.
+A hotel POS works in tandem with a property management system (PMS), which handles reservations, check-ins and checkouts, room assignments, housekeeping, billing, and guest profiles. POS and PMS complement each other: The POS records purchases and posts charges directly to the guest folio in the PMS, while the PMS provides the guest context and financial overview. Together, they create a seamless experience for both staff and guests, ensuring accurate billing, real-time data visibility, and efficient hotel operations.
+Learn more about hotel PMS functionality in our video
+Now, let’s take a look at the other capabilities of POS systems and what business processes they are involved in.
+Hotel POS system key features
+POS systems allow hotels to optimize their daily operations with the help of the following features.
+Payment processing. Customers can pay across various outlets using a wide range of methods, including cash, debit and credit cards, mobile wallets, contactless NFC payments, QR-based payments, and other digital options. POS systems accept, verify, and process these transactions securely. Advanced POS tools support flexible multipayment features to manage complex billing scenarios, such as splitting a bill across multiple payment types, dividing individual items, or settling part of an order separately when a guest leaves early.
+Inventory management. POS software can track your stock levels and send customized alerts when the quantity drops below a predetermined amount. Some POS platforms also allow for setting up automated reordering of the most popular products. POS systems are often integrated with third-party inventory management software to ensure an uninterrupted supply process.
+Mobile & tableside ordering. Staff can take orders and process payments directly at the table, poolside, or in guest rooms via handheld devices, tablets, or mobile apps. This reduces service time, increases order accuracy, and improves guest satisfaction.
+Customer management. Collecting information about your guests and their transaction history in your hotel can help you build stronger customer relationships, personalize guest experience, and influence your marketing campaigns.
+Employee management. POS systems can be used to track employees' clock-in and clock-out times as well as monitor their performance. Some platforms also have scheduling capabilities.
+Multi-outlet & multi-property management. Large hotels and chains can use POS systems to manage numerous restaurants, bars, retail shops, or even multiple properties from a single dashboard, consolidating sales, inventory, and reporting.
+Menu management. Menu management allows hotels to create, update, and synchronize menus across outlets, adjust pricing, set modifiers, schedule offerings, and enable upsell prompts, ensuring accuracy and boosting revenue.
+Reporting. All POS systems include basic reporting functionality and, as we mentioned, can help monitor inventory levels, employee performance, sales activity across channels, and so on. Another benefit is increased visibility into your revenue streams, as the income from both walk-ins and hotel guests will be sent to your PMS to provide you with the full picture of your revenue sources.
+POS system reporting dashboard. Source: Revel Systems
+Integration options. Connecting your POS software with other business management systems (including accounting and hotel CRM) is vital for establishing a flawless information flow and data sharing. One of the integrations crucial for hotel restaurants is a connection to a Kitchen Display System (KDS). Orders taken at the POS can be routed directly to kitchen screens, improving communication, reducing mistakes, and speeding up service. This is particularly useful for hotels with multiple F&B outlets or high-volume operations. We will describe possible integrations in further sections.
+Main types of POS systems
+There are several ways to categorize POS systems. Here, we will describe two approaches. First, there are two main deployment types of POS software:
+1. Traditional, on-premise, or legacy POS systems have software installed on physical machines and store all the information on a local server. Typically, they require bigger upfront investments (in licenses and hardware) as well as greater effort and more staff to maintain and upgrade them.
+2. Cloud POS systems allow access from any device as they store data on the online server. Such software usually involves paying a monthly fee, with updates installed automatically and free of charge.
+Depending on the functionality scope and mobility, we can distinguish the following types of POS tools:
+1. Terminal or desktop POS systems include a counter or cash register where transactions are performed. They typically have broad capabilities, covering inventory and staff management, and are the best option for full-service restaurants, hotels, stores, spa salons, etc.
+2. Mobile POS systems can come as standalone apps for mobile devices or as extensions of the countertop POS systems. They are often bundled with some accessories like a credit card reader and a receipt printer. Their functionality is limited compared to full-featured POS terminals, but they are most affordable, and some are even available for free (you only pay a fee for processing transactions). It’s the best fit for small businesses that don’t need extra features but require greater mobility, like food trucks or traveling vendors.
+Types of mobile payment solutions, provided by Lightspeed POS. Source: Lightspeed
+3. Self-service POS systems allow customers to place orders and make payments themselves. Such systems help speed up the checkout process, shorten wait time, reduce manpower, and offer a contactless experience. They are used in a variety of industries, including fast-food restaurants, cinemas, parking lots, grocery stores, etc.
+Depending on the size, model of operation, and potential growth, different businesses would need different POS systems. If you own a small hotel where all the transactions are made at the front desk, you need a basic POS terminal. But if you have multiple POS outlets, it’s worth considering implementing a mix of different types to optimize operations throughout your points of sale.
+POS systems hardware
+Any POS system requires some physical components to operate. Again, they will vary depending on your specific needs. Here is a list of equipment that might be necessary to complete the setup and smoothly process your transactions.
+POS system hardware
+- Cash drawer – to store your cash safely;
+- Monitor/tablet/smartphone – as a display for performing operations and visualizing reports;
+- Credit/debit card reader (payment terminal) – make sure it’s EMV compliant and can process contactless payments;
+- Receipt printer – for guests who prefer to get a paper receipt at once as a snapshot of their order. It’s also a way to communicate with your customers and inform them about upcoming promotions or invite them to join a loyalty program;
+- Barcode scanner – an essential element for retail stores to speed up checkout and help manage inventory; and
+- Customer display – with capabilities that range from just showing the total cost of a purchase to capturing signatures and customer information with a touchscreen.
+Now that we’ve covered the basics, let’s look at what’s available on the market.
+Best POS systems for hotels
+Many major PMSs such as Mews, Little Hotelier, and Cloudbeds, have built-in POS capabilities, which you can read more about in our article on property management systems. Here, we want to focus on popular POS solutions for all business types that have features designed for the hospitality industry.
+Overview of five POS systems with hospitality-catered features
+Access EPoS: a flexible solution to upgrade your existing system
+Access Hospitality’s EPoS solution covers restaurants, bars, cafés, and hotel outlets. It focuses on streamlining services in multi-outlet venues with integrations that support payment, ordering, delivery, and the guest experience.
+Additionally, there’s a product called Access Evo — an all-in-one hospitality operations platform that consolidates multiple systems (EPoS, inventory, staff, and guest services) into a unified dashboard. It uses AI for staff assistance and personalization.
+Special features
+- Integrated mobile waiter app
+- Real-time stock tracking
+- Upsell prompts and e-vouchers in the menu manager
+- Modular system for custom implementation
+Supported integrations. Access advertises 80+ integrations across payments, CRM, delivery, loyalty, kiosks, etc. For example: connection with kitchen display systems, loyalty programs, order‑ahead solutions, and full back‑office systems.
+Hardware options. Access software can be integrated into your existing setup or you can use their devices, such as terminals, tablets, kiosks, and handhelds for tableside orderings.
+Cost. Access POS pricing starts at £316 (~$415) per site/month, which includes software, 2 EPOS terminals and 1 kitchen printer. Additionally you can purchase KDS and Menu Manager tools, priced at £14 per screen/month and £30 per month/site, respectively.
+Epos Now: a versatile system with flexible payment processing
+Epos Now is a cloud-based POS platform aimed at hospitality, retail, and service businesses. It supports multiple outlets (restaurants, bars, in-room dining), integrates with booking/room management to some extent, and offers features suited to hospitality operations. In short: It’s a versatile POS option that is more affordable and flexible than large enterprise hotel POS systems like Oracle Simphony, and may suit boutique hotels or properties with simpler operations.
+Special features
+- Integrations with digital marketing tools for reviews, newsletters, etc.
+- Payments via Epos Now Payments charging a flat fee for all transactions
+Supported integrations. Epos Now integrates with over 100 apps, including accounting software, CRM tools, and restaurant reservation systems like OpenTable.
+Hardware options. Their complete POS solution includes POS software, terminal, built-in printer, and card machine. There are more devices available for purchase.
+Cost. The cheapest bundle (POS software, a terminal, a built-in printer, and a card machine) costs $349 and requires a monthly subscription starting at $79.
+Lightspeed POS: a scalable solution to serve guests anywhere
+Lightspeed is a cloud-based POS system, which supports hospitality settings – restaurants, bars, cafes – as well as hotel food & beverage outlets, retail shops, and room service operations. It emphasizes flexibility, real-time data, and integration with hotel operations and multiple revenue centres.
+Special features
+- An app specifically for monitoring business insights on the go – Lightspeed Pulse
+- Quick service mode for hotel bar orders
+- Takeout and delivery support
+Supported integrations. Lightspeed has a broad ecosystem of partner apps: delivery modules, online ordering, loyalty, staff/workforce, inventory, KDSs, and more. Access the full list here. There’s also an API supported via the Premium pricing tier, which allows accessing data on ingredients, staff, reservations, and more from your system.
+Hardware options. Lightspeed offers an iPad hardware kit with receipt printer, cash drawer, iPad stand, and a kitchen printer. An iPad and a payment terminal are not included. You can also purchase other devices individually, like a mobile tap, barcode scanner, and more, and use your own hardware.
+Cost. Lightspeed Hospitality software pricing starts at $189 a month. The cost for hardware is not included and varies based on your configuration. Other tiers and capabilities see here.
+Oracle Simphony: robust tools for OPERA PMS users and beyond
+Oracle Hospitality Simphony is an enterprise-class POS system built for high-volume multi-outlet hospitality environments (hotels, resorts, casinos, restaurants). It supports both cloud and on-premises deployments. The system integrates seamlessly with hotel PMSs (such as Oracle OPERA PMS), allowing guest folio posting, unified guest profiles, and consolidated service across F&B, retail, spas, etc.
+Special features
+- Robust functionality for complex F&B/banquet/retail operations
+- Natural connection with Oracle Simphony Kitchen Display Systems
+- Reservation and waitlist management
+- Integrated loyalty and engagement platform
+Supported integrations. The integration ecosystem spans over 200 partners. They also provide an open API to connect to Simphony data.
+Hardware options. Oracle has purpose-built workstations and rugged terminals, such as Oracle Workstation 8, kiosks, tablets/handhelds, KDS hardware and peripherals, which are provided for $1 with your software.
+Cost. A single tenant edition of Oracle Simphony costs $75,000. On top of that, you will be paying transaction fees, which you can see here.
+Toast POS: a restaurant-grade system for heavy service
+Toast POS is a cloud‑based restaurant point‑of‑sale system that combines ordering, payments, inventory, and customer management into one integrated platform.
+Special features
+- Quest ordering via QR codes (at the poolside, in-room dining, quick service)
+- Check splitting and automated course firing
+- Special pricing to new customers with single locations
+Supported integrations: Toast seamlessly integrates with over 200 popular hospitality partners, including PMSs such as Cloudbeds, Room Raccoon, Infor, Mews, Maestro, and more. It’s also preconnected with kitchen display systems, third‑party delivery, and online ordering platforms.
+Hardware options. Toast provides proprietary hardware (handhelds, terminals, kiosks).
+Cost. Toast POS software costs $69 a month with all hardware purchased separately. Hardware pricing includes upfront cost and a monthly subscription. They offer a “Pay‑as‑You‑Go” model for hardware for lower upfront cost. See the full pricing breakdown here.
+Now it’s time to get more industry-specific and explain how exactly the POS system can be incorporated into the hotel management system.
+How does the POS system work with PMS and other hotel software?
+Today, to manage a hotel in the most productive way, you need technology that would support your daily operations and development. Here are several types of software systems you might be using that would require integration with a POS system for maximal efficiency.
+Data sharing between POS system and other hotel software
+POS system and PMS integration
+A hotel property management system (PMS) facilitates administrative and management tasks and connects all the workflows. The core functions of any PMS are handling reservations and processing payments – and that’s where POS system integration is necessary.
+We’ve already mentioned that your guests can make purchases at several sales outlets throughout their stay, be it restaurants, bars, spa, travel desk, boutique, or gift shop. Once you have integrated your PMS and POS systems via APIs, these ancillary charges can be automatically added to the guest’s bill, avoiding manual errors and discrepancies.
+Learn more about API connectivity on our YouTube
+So, how exactly does it work? For example, when your guest, Mr. John Smith, orders a meal in the hotel restaurant, the POS system queries the PMS to verify his name, status, and room number. Then, by choosing the “charge room” option as the payment method on the POS tool, the order details are sent to the PMS to be added to the relevant folio (taking into account possible discounts and promotions for this specific guest). At checkout, Mr. Smith receives a total room bill that includes all charges and can pay for everything at once. Just as simple and convenient as that!
+Example of a room folio. Source: EasyPMS
+Needless to say, such an integration speeds up operations, ensures billing accuracy, and improves guest satisfaction.
+POS system and CRM integration
+CRM software collects, stores, and analyzes customer data to improve guest experience and support your marketing decisions. Since a POS system captures information during payment transactions, connecting it with your CRM will help manage your customer database, track buying history, build loyalty programs, and get valuable insights about your target audience. POS systems send sales details to the CRM and retrieve membership discounts or special offers from the CRM database to adjust the bill.
+So, when our imaginary Mr. Smith arrives at your hotel and checks in at the front desk, the staff member enters his name and retrieves his details from the CRM. Since he’s a regular guest and his previous POS transactions clue the system into his preferences, he will be informed about a promotion at the hotel golf club and a happy hour in the bar.
+When Mr. Smith checks out at the end of his stay, a 5 percent discount is automatically applied to his final bill containing all the POS charges since he is a loyalty program member. In a couple of days, he will receive a personalized email asking whether he enjoyed his stay and informing him about the new spa program he will definitely want to try during his next visit.
+Most POS systems can be integrated with CRM software, and more advanced POS platforms offer out-of-the-box CRM features like loyalty programs and feedback collection.
+POS system and payment gateways integration
+Today, online payments are on the rise, leaving good old cash in the dust. If you want to accept credit cards and digital wallets, you’ll have to partner with a payment gateway. All of them have different pricing conditions and support different payment methods. To make the best choice, look for the one that can handle multiple currencies, provides maximum security, and covers all the payment methods you need to accept.
+If your website already accepts online payments and you want to implement a new POS system, you can either integrate the new software with an existing payment gateway or use the one suggested by your POS provider (most of them offer built-in payment integration). Then, transaction details from your online channels and your POS system will be sent to your PMS.
+POS system and inventory management system integration
+Inventory management is especially important for retail stores and restaurants since stockouts in these industries can result in huge losses. Hotels, while not as dependent on selling goods since their main profit comes from room reservations, still handle stock.
+As we mentioned above, modern POS systems offer many built-in inventory management features that go beyond tracking stock levels, i.e., barcode label creation, low-stock alerts, and even ordering replenishments directly from the POS tool. Or they can also be integrated with a separate inventory management product. In this case, the inventory platform sends product availability data to the POS system when a product is ordered or scanned for checkout, and the POS software shares sales information each time the product is purchased, updating the stock level.
+So, when Mr. Smith orders a bottle of wine from the hotel bar and a tour guide from the hotel bookstore, these items are first scanned with a barcode scanner, letting the POS system automatically update the relevant inventory levels and inform staff if these items need to be replenished.
+POS system and accounting/payroll system integration
+Today, most businesses use accounting software to calculate and pay taxes, run financial reports, pay bills, and manage their books, cash flow, and payroll. When it comes to money, you want maximum accuracy and flawless data flow within the system, so integrating the POS and accounting software is a must. Such connectivity enables exporting all the financial and sales information from the POS system to support your back-office operations. Additionally, POS systems track employees’ working hours, so syncing that data lets you handle payroll, accurately calculating wages, taxes, and tips.
+Collecting sales and guest data also allows you to create customized reports, monitor your business performance, and analyze KPIs to provide an understanding of what’s happening in the company and support further decision-making.
+Many POS providers offer out-of-the-box integration with third-party accounting software (QuickBooks being the most popular one) to automate data sharing. By the way, QuickBooks also created its own POS product for a seamless integration experience.
+Implementing PMS and POS systems integration
+Now, you might be wondering how to establish perfect connectivity and data sharing between your software modules and have the entire system running smoothly. Let’s describe some of the options.
+1. You don’t have any management software in use. In this case, the best option would be to choose a PMS offering the POS system as one of the modules out of the box. That would ensure frictionless connectivity between all the parts of the system.
+2. You have a PMS and want to add a POS system. Here, two scenarios are possible.
+If you already have a PMS in use and want to enhance it with a POS system, check standalone POS platforms tailored for hotel specifics, such as the ones we reviewed earlier. These POS solutions offer out-of-the-box integration with popular PMSs, so connecting them should be easy.
+In case you want to sync with a POS system that doesn’t offer a prebuilt integration (for example, you start working with a restaurant that already has a POS platform in use), it would require technical knowledge and the effort to develop a smooth API connection between all the modules. So, to establish a seamless and secure two-way data exchange, you’ll either have to involve your own IT specialists or find an experienced integration provider to set it up for you.
+3. You want to build a custom POS system to suit your needs. If you explored the market and didn’t find a solution that would perfectly fit your specific requirements, it’s worth considering creating a fully customized POS system. Reasons can vary, i.e., you might be working with a specific payment provider and want to tailor your POS system for seamless connectivity.
+Another big advantage of this option is that maintenance expenses are significantly reduced. Check the case study detailing how AltexSoft developed a cloud POS system for the pawn software provider to create a cost-effective, scalable, and secure solution.
+4. You have outdated PMS and POS software. Modernizing legacy systems is crucial for efficient operation and getting the most out of your technology. The reasons for initiating modernization are many: moving your digital assets to the cloud to provide flexibility and scalability, the need to go mobile to speed up customer service, increasing security or usability, adding new features, adopting new payment methods, etc. Our advice is to consult digital transformation specialists to analyze your current software and find out how to update or rebuild your outdated systems to support your development and stay competitive.

@@ -1,0 +1,112 @@
+[Source: https://www.interaction-design.org/literature/article/what-is-ideation-and-how-to-prepare-for-ideation-sessions]
+[Title: What is Ideation – and How to Prepare for Ideation Sessions | IxDF]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:11+00:00]
+
+Ideation is the process where you generate ideas and solutions through sessions such as Sketching, Prototyping, Brainstorming, Cheatstorming, Brainwriting, Worst Possible Idea, and a wealth of other ideation techniques. Ideation is also the third stage in the Design Thinking process. Although many people might have experienced a “brainstorming” session before, it is not easy to facilitate a truly fruitful ideation session. In this article, we’ll teach you some processes and guidelines which will help you facilitate and prepare for productive, effective, innovative and fun ideation sessions.
+Ideation is often the most exciting stage in a Design Thinking project, because during Ideation, the aim is to generate a large quantity of ideas that the team can then filter and cut down into the best, most practical or most innovative ones in order to inspire new and better design solutions and products.
+“Ideation is the mode of the design process in which you concentrate on idea generation. Mentally it represents a process of ‘going wide’ in terms of concepts and outcomes. Ideation provides both the fuel and also the source material for building prototypes and getting innovative solutions into the hands of your users.”
+– d.school, An Introduction to Design Thinking PROCESS GUIDE
+Ideation Will Help You:
+Ask the right questions and innovate with a strong focus on your users, their needs, and your insights about them.
+Step beyond the obvious solutions and therefore increase the innovation potential of your solution.
+Bring together perspectives and strengths of your team members.
+Uncover unexpected areas of innovation.
+Create volume and variety in your innovation options.
+Get obvious solutions out of your heads, and drive your team beyond them.
+Why do We Need Ideation in Design Thinking?
+We’ll let Grand Old Man of User Experience, Don Norman, answer this important question in a down-to-earth and very relevant way. Don Norman helps us take one step back and reflect upon why we need to challenge assumptions, ask stupid questions and provoke our current understanding, which is—in fact—what Ideation methods such as Challenge Assumptions, SCAMPER, and Provocations help us do:
+“One of my concerns has been design education, where the focus has been centered too much upon craft skills and too little on gaining a deeper understanding of design principles, of human psychology, technology and society. As a result, designers often attempt to solve problems about which they know nothing. I have also come to believe that in such ignorance lies great power: The ability to ask stupid questions. What is a stupid question? It is one which questions the obvious. ‘Duh,’ thinks the audience, ‘this person is clueless.’ Well, guess what, the obvious is often not so obvious. Usually it refers to some common belief or practice that has been around for so long that it has not been questioned. Once questioned, people stammer to explain: sometimes they fail. It is by questioning the obvious that we make great progress. This is where breakthroughs come from. We need to question the obvious, to reformulate our beliefs, and to redefine existing solutions, approaches, and beliefs. That is design thinking. Ask the stupid question. People who know a lot about a field seldom think to question the fundamentals of their knowledge. People from outside the discipline do question it. Many times their questions simply reveal a lack of knowledge, but that is OK, that is how to acquire the knowledge. And every so often, the question sparks a basic and important reconsideration. Hurrah for Design Thinking.”
+– Don Norman, in Rethinking Design Thinking
+According to Don Norman, asking stupid questions is not stupid at all. However, Ideation and Design Thinking is not only about challenging assumptions and asking so-called stupid questions. It’s also about going from researching and defining your users and their needs in the Empathise and Define phases and moving on into starting to come up with the right solutions for the users via Ideation methods:
+“You ideate in order to transition from identifying problems to creating solutions for your users. Ideation is your chance to combine the understanding you have of the problem space and people you are designing for with your imagination to generate solution concepts. Particularly early in a design project, ideation is about pushing for a widest possible range of ideas from which you can select, not simply finding a single, best solution.”
+– d.school, An Introduction to Design Thinking PROCESS GUIDE
+The d.school celebrates Design Thinking, and d.school provides one of the most – if not the most – celebrated and recognised resources on Design Thinking and ideation techniques. D-school is a design school based at Stanford University in cooperation with the German Hasso Plattner Institute of the University of Potsdam. Here, we’ll introduce you to how you can prepare for Ideation Sessions based on d.school and the international design and consulting firm IDEO’s best practices.
+Get Started in Applying Ideation Methods
+Ideation facilitation is a challenging and complex task. It requires experience in understanding and managing teams, people dynamics, adaptability and flexibility and a range of other soft skills, which in reality are really hard to master. Having said that, there's nothing like experience to help you learn the ropes of any field. The best way to learn is to take the theory and techniques you learn from the experts, and then apply and test them in your own context and adapt them to your own needs.
+Preparation before the Storm
+When we're about to venture into stormy territory, we know we need to prepare for a bumpy ride and take extra provisions so that we come out on the other side and arrive at our destination unscathed. An ideation process such as Brainstorming or Challenging Assumptions is no different. Wandering into a Brainstorm without preparation is asking for trouble. You may inadvertently damage your team's perception of ideation and scar them for future creative activities. You could also damage team cohesion by going into a situation like this and causing team members to fall out with each other due to a brainstorming session gone wrong.
+How to Prepare Before You Start Ideating
+Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and licence: CC BY-NC-SA 3.0
+Even though Design Thinking is not a linear process, it is crucial to take into account the first two stages or modes in Design Thinking before you start ideating. If you neglect to take these two modes and their guidelines into account before an Ideation session, you risk becoming lost. The Empathise and Define guidelines will help you develop the sufficient background knowledge and set a clear goal for your ideation sessions.
+1st Mode: Empathise
+Design Thinking’s first two modes or stages – as presented by the d-school and us here at the Interaction Design Foundation – can help us prepare for the Ideation session. The first part of the preparation is the Empathise mode, which is all about researching and observing in field studies – and watching, engaging with and listening to your users:
+“Empathy is the centerpiece of a human-centered design process. The Empathize mode is the work you do to understand people, within the context of your design challenge. It is your effort to understand the way they do things and why, their physical and emotional needs, how they think about the world, and what is meaningful to them.”
+– d-school, An Introduction to Design Thinking PROCESS GUIDE
+The Empathy mode will help you conduct relevant research and become an instant-expert on the subject and gain invaluable empathy for the person you are designing for.
+2nd Mode: Define
+The next stage, which you should to take into account when preparing an ideation session, is the Define mode, which is all about making sense of the widespread information you have gathered in the first mode:
+“The Define mode of the design process is all about bringing clarity and focus to the design space. It is your chance, and responsibility, as a design thinker to define the challenge you are taking on, based on what you have learned about your user and about the context.”
+– d-school, An Introduction to Design Thinking PROCESS GUIDE
+Defining involves synthesising and making sense of all the available information you gathered during the Empathise mode, by discovering connections and patterns. You will often want to use methods such as Affinity Diagrams, and Sharing Inspiring User Stories and Personas. By the end of the Define mode, your goal is to construct a meaningful and actionable problem statement, also known as a Point Of View (POV).
+A good problem statement or POV will allow you to ideate in a goal-oriented manner. Your POV defines the RIGHT challenge to address in the ideation sessions. It may seem counterintuitive, but d-school recommends that you construct a more narrowly-focussed problem statement as this will result in both a greater quantity and higher quality solutions when you and your team start generating ideas. In the ideation process, POV should be your guiding statement that focusses on your insights about your users and their needs.
+How do you define your Point Of View?
+Step 1
+You define the type of person you are designing for – your user. For instance, you can develop one or more personas, use affinity diagrams, empathy maps and other methods, which help you understand and crystallise your research results – observations, interviews, fieldwork, etc.
+You extract and synthesise your users’ most essential needs, which are the most important to fulfill. Remember that needs should be verbs.
+You work to express insights you developed through the synthesis of information that you gathered during your initial Empathise mode. The insight should typically not simply be a reason for the need, but rather a synthesised statement that you can leverage in your design solution.
+Step 2
+Write your definitions into a Point Of View template like this one:
+Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and licence: CC BY-NC-SA 3.0
+Your Point Of View template:
+Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and licence: CC BY-NC-SA 3.0
+Step 3 – POV Madlib
+You can articulate a POV by combining these three elements – user, need, and insight – as an actionable problem statement that will drive the rest of your design work. It’s surprisingly easy when you insert your findings in the POV Madlib below. You can articulate your POV by inserting your information about your user, the needs and your insights in the following sentence:
+[User . . . (descriptive)] needs [Need . . . (verb)] because [Insight . . . (compelling)]
+Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and licence: CC BY-NC-SA 3.0
+Condense your Point Of View by using this POV Madlib.
+Example: An adult person who lives in the city… needs access to a shared car 1-4 times for 10-60 minutes per week … because he would rather share a car with more people as this is cheaper, more environmentally friendly, however it should still be easy for more people to share.
+Step 4 – Make Sure That Your Point Of View is One That:
+Provides a narrow focus.
+Frames the problem as a problem statement.
+Inspires your team.
+Guides your innovation efforts.
+Informs criteria for evaluating competing ideas.
+Is sexy and captures people’s attention.
+Is valid, insightful, actionable, unique, narrow, meaningful, and exciting.
+Yay! You’re now well-equipped to create a POV and it’s time to understand how to start using your POV in a way which crystallises all of your previous work from the Empathise and Define modes.
+Do you want to learn how you can get started creating your own Point Of View/problem statement for your next design project and ideation session? Then you can download our Point Of View template:
+3rd mode: Ideate
+When you’ve developed your POV it’s time to start ideating. Begin with your Point Of View or problem statement. Break that larger challenge up into smaller actionable pieces. Look for aspects of the statement to complete the sentence, “How might we…?”
+“How Might We?” Questions Frame and Open Up Your Design Challenge
+You start using your POV by reframing the POV into a question: Instead of saying, we need to design X or Y, Design Thinking explores new ideas and solutions to a specific design challenge. It’s time to start using the Ideation method that involves asking, “How Might We…?”
+Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and licence: CC BY-NC-SA 3.0
+Examples of How to Generate HMW Questions Which Fuel your Ideation Sessions
+When you’ve defined your design challenge in a POV, you can start opening up for ideas to solve your design challenge. You can start using your POV by asking a specific question starting with, “How Might We?” or “in-what-ways-might-we?”. For example: How might we… design a driverless car, which is environmental friendly, cheap and easy for more people to share?
+You then break the POV into smaller and actionable pieces as follows:
+You might start coming up with too narrow questions, such as: “HMW create a taxi which does not need a chauffeur”.
+Or you questions might become too broad: “HMW redesign transportation”.
+You should strive to ask an inspiring and specific question which can be the main question which you use as your guide in your ideation sessions: “HMW design a driverless car, which is environmental friendly, cheap and easy to share for more people.”
+After you’ve asked the foundational question you start breaking the POV into several smaller and actionable sub-questions which you can center your different ideation sessions around: “HMW design an electric car?” and “HMW design a car which has a digital code as a key which is safe to share among a lot of varying users.”
+These are simple examples, all with their own subtle nuances that may influence slightly different approaches in the ideation phases. Your HMW questions will ensure that your upcoming creative ideation and design activities are informed with one or more HMW questions, which spark your imagination and aligns well with the core insights and user needs that you’ve uncovered.
+“We use the How Might We format because it suggests that a solution is possible and because they offer you the chance to answer them in a variety of ways. A properly framed How Might We doesn’t suggest a particular solution, but gives you the perfect frame for innovative thinking.”
+– Ideo.org
+How Might We (HMW) questions are the best way to open up Brainstorm and other Ideation sessions. HMW opens up to Ideation sessions where you explore ideas that can help you solve your design challenge. By framing your challenge as a How Might We question, you’ll prepare yourself for an innovative solution in the third Design Thinking phase, the Ideation phase. The How Might We method is constructed in such a way that it opens up the field for new ideas, admits that we do not currently know the answer, and encourages a collaborative approach to solving it.
+Best Practice Guide to Asking How Might We
+Begin with your Point of View (POV) or problem statement. Start by rephrasing and framing your Point Of View as several questions by adding “How might we?” at the beginning.
+Break that larger POV challenge up into smaller actionable and meaningful questions. Five to ten How Might We questions for one POV is a good starting point.
+It is often helpful to brainstorm the HMW questions before the solutions brainstorm.
+Look at your How Might We questions and ask yourself if they allow for a variety of solutions. If they don’t, broaden them. Your How Might We questions should generate a number of possible answers and will become a launch pad for your Ideation Sessions, such as Brainstorms.
+If your How Might We questions are too broad, narrow them down. You should aim for a narrow enough frame to let you know where to start your Brainstorm, but at the same time you should also aim for enough breadth to give you room to explore wild ideas.
+You can download and print out our How Might We template which you and your team can use as a guide:
+Characteristics Required for Successful Ideation
+Ideation requires purposefully adopting certain characteristics, whether they are natural or whether they need to be encouraged and learnt. Regardless of one's personality or way of thinking, we all fall into the trap of sticking to patterns and familiar ground, and tend to use the same recipes for solving problems, as this reduces the cognitive load required. Experts and novices alike need to be constantly self-aware and purposely intend to adopt some of the following characteristics, which create an open mind and fertile ground for sparking unconventional ideas.
+Adapting: Be able to switch how you see, understand, and extend thinking as new input gets generated.
+Connecting: Be able to connect seemingly unrelated concepts, attributes or themes in order to create new possibilities.
+Disrupting: Be able to overturn commonly held beliefs, assumptions or norms in order to re-think conventional approaches.
+Flipping: Turn dead-ends or deadlocks into opportunities by flipping them over or rapidly changing direction towards greater viability.
+Dreaming and Imagining: Be able to visualise a new picture of reality by turning abstract needs into tangible pictures or stories, thereby allowing the space required for inventing bridges to that reality.
+Experimental: Be open and curious enough to explore possibilities and take risks; be willing and eager to test out ideas and eager to venture into the unknown.
+Recognise Patterns: Seek to spot common threads of meaning, and ways of seeing, doing and behaving; be able to recognise attributes or shared values across a spectrum of influence and input; and finally be able to utilize these commonalities to build solutions.
+Curiosity: Be willing to ask uncomfortable, silly or even crazy questions. Be willing to explore and experience, in order to understand and learn something new and different.
+Please always remember that:
+“It’s not about coming up with the ‘right’ idea, it’s about generating the broadest range of possibilities.”
+– d.school, An Introduction to Design Thinking PROCESS GUIDE
+The Take Away – Design Thinking's Ideation Compass
+Unlike the all too familiar designer's nightmare of staring at a blank page unable to conjure up ideas from the creative ether, Design Thinking’s first two modes, Empathise and Define, gives you a solid base to launch relevant and well-informed ideas, which hit the mark in surprising and delightful ways, no voodoo required. Sometimes it will make sense to visibly display personas, stories, scenarios and other maps from which you have derived insights and the Point Of View to keep the ship steering in the appropriate direction during your ideation session. Most of all, your Point Of View should be centre stage.
+When you've got your Point Of View, you'll start asking “How Might We?” questions and you might feel as if you've already walked a long hard road to get there. Keep calm and ideate! Everything you've been doing up until this point is really about to come to life. Shake up the ranks and make some space for unleashing your ideas, all of them, however weird and wonderful they may be. Be prepared to throw it all out there.
+Wait, did I hear you say you're shy? Are you worried others may poke fun at your ideas? Are you concerned your manager may shoot down your ideas? Have no fear; you can learn to create that happy place where you and your team members can really unleash that inner, clever child. The first point of comfort should be that the steps you have completed leads up to your Point Of View and “How Might We?” questions, have already sufficiently set the boundaries within which you can freely explore. True creativity really thrives within constraints, not on absolutely limitless possibilities. Your “How Might We?” questions provide a clear guide to keep the exploration in the ideation sessions meaningful and relevant.
+References & Where to Learn More
+d-school, Bootcamp Bootleg, 2010.
+Tim Brown, CEO of IDEO, Change by Design, 2009
+Don Norman. Rethinking Design Thinking, 2013.

@@ -1,0 +1,20 @@
+[Source: https://www.hbku.edu.qa/en/about]
+[Title: About Us | Hamad Bin Khalifa University]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:18:51+00:00]
+
+Hamad Bin Khalifa University (HBKU), a member of Qatar Foundation for Education, Science, and Community Development (QF), was founded in 2010 to continue fulfilling QF’s vision of unlocking human potential. HBKU is a homegrown research University that acts as a catalyst for positive transformation in Qatar and the region while having a global impact.
+Located within Education City, HBKU seeks to provide unparalleled opportunities where inquiry and discovery are integral to teaching and learning at all levels utilizing a multidisciplinary approach across all focus areas.
+HBKU is committed to actively contribute to achieving the Qatar National Vision 2030 by building and cultivating human capacity through an enriching academic experience and an innovative research ecosystem. Through applying creativity to knowledge, students will have the opportunity to discover innovative solutions that are locally relevant and have a global impact.
+At Hamad Bin Khalifa University – our students, faculty, staff, partners, and leadership – all share a common belief in the power of higher education and research to make a positive impact in the development of nations.
+Our Vision
+To be a pioneering, and impact-driven university addressing critical challenges facing Qatar and the world.
+Our Mission
+Hamad Bin Khalifa University is dedicated to developing world-class integrated graduate and selected undergraduate academic programs, advancing national research capabilities, and cultivating leaders who drive meaningful change.
+Facts and Figures
++
++
++
++
+Qatar Foundation
+HBKU, a member of Qatar Foundation for Education, Science and Community Development, is a private, non-profit organization that serves the people of Qatar by supporting and operating academic programs that are innovative and multidisciplinary.

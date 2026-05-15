@@ -1,0 +1,107 @@
+[Source: https://docs.google.com/spreadsheets/d/1_eqZK-RTJE3IaL_siMUXyFU8hiAtBg-7CNdkOhxcTl8]
+[Title: AI and Data Science Internships & Job Opportunities in Algeria - Google Sheets]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:07:06+00:00]
+
+| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+1 | Name of the company | Location | Phone number | Website | Application domain | |||||||||||||||||||||
+2 | BASSEER Technology Innovation SARL | Ouled Fayet, Algiers | contact@basseer.com | 0559 10 77 75 | www.basseer.com | IT Solutions | ||||||||||||||||||||
+3 | DIGIWAVES | Ouled Fayet, Algiers | contact@digiwaves.io | 0550 20 08 06 | www.digiwaves.io | IT Solutions | ||||||||||||||||||||
+4 | UMAITEK ALGERIE | Kouba, Algiers | contact@umaitek.dz | 023 70 79 58 | https://www.umaitek.dz/ | IT Solutions | ||||||||||||||||||||
+5 | DELTALOG | Kouba, Algiers | contact@deltalog.dz | 021 28 88 18 | https://www.deltalog.dz | IT Solutions | ||||||||||||||||||||
+6 | Smartest Algeria | Cheraga, Algiers | contact@smartest.dz | / | https://www.smartest.dz/ | IT Solutions | ||||||||||||||||||||
+7 | ICOSNET | Cheraga, Algiers | contact@icosnet.com | 021 99 33 42 | https://icosnet.com.dz/ | IT Solutions | ||||||||||||||||||||
+8 | Alpha Computers | Hydra, Algiers | contact@alphacomputer-dz.com | 021 69 29 38 | http://alphacomputer-dz.com | IT Solutions | ||||||||||||||||||||
+9 | Proxylan filiale CERIST | Ben Aknoun, Algiers | info@proxylan.dz | 0661 90 99 01 | http://www.proxylan.dz | IT Solutions | ||||||||||||||||||||
+10 | M2I services | El Achour, Algiers | info@m2i-service.com | 023 34 85 98 | https://www.m2i-services.com/ | IT Solutions | ||||||||||||||||||||
+11 | 3TSolutions | Rahmania, Algiers | contact@3t-solutions.net | 0776 20 80 11 | https://3t-solutions.dz | IT Solutions | ||||||||||||||||||||
+12 | DeepLyfe.inc | Alger Centre, Algiers | contact@deeplyfe.org | 0552 61 51 29 | https://deeplyfe.org/ | IT Solutions | ||||||||||||||||||||
+13 | DataGix | Mohammadia, Algiers | contact@datagix.com | 0561 87 31 01 | https://www.datagix.com/ | IT Solutions | ||||||||||||||||||||
+14 | Wissal Group | Setif | rh.dz@wissalgroup.com | 0770 32 70 21 | https://www.wissalgroup.com/ | IT Solutions | ||||||||||||||||||||
+15 | TransformaTek | Ain Temouchent | contact@transformatek.dz | 0661 55 77 30 | https://transformatek.dz | IT Solutions | ||||||||||||||||||||
+16 | Centre de Recherche Scientifique et Technique pour le Développement de la Langue Arabe (CRSTDLA) | Bouzareah, Algiers | contact@crstdla.dz | 023 18 00 94 | https://www.crstdla.dz/ | Scientific Research & Development | ||||||||||||||||||||
+17 | Centre de Recherche en Astronomie Astrophysique et Géophysique (CRAAG) | Bouzareah, Algiers | contact@craag.dz | 023 18 90 99 | https://www.craag.dz/index.php | Scientific Research & Development | ||||||||||||||||||||
+18 | Centre de Développement des Energies Renouvelables (CDER) | Bouzareah, Algiers | https://www.cder.dz/contact.php | 023 18 90 51 | https://www.cder.dz | Scientific Research & Development | ||||||||||||||||||||
+19 | Centre de Recherche en Technologies Industrielles (CRTI) | Cheraga, Algiers | https://www.crti.dz/staff.php | 021 34 20 19 | https://www.crti.dz/ | Scientific Research & Development | ||||||||||||||||||||
+20 | Agence Spatial Algérienne (ASAL) | El Biar, Algiers | info@asal.dz | 023 27 05 31 | https://asal.dz | Scientific Research & Development | ||||||||||||||||||||
+21 | Centre de Recherche sur l'Information Scientifique et Technique (CERIST) | Ben Aknoun, Algiers | https://www.cerist.dz/index.php/fr/contact | 023 25 54 03 | https://www.cerist.dz/index.php/ | Scientific Research & Development | ||||||||||||||||||||
+22 | Centre de Développement des Technologies Avancées (CDTA) | Baba Hassen, Algiers | contact@cdta.dz | 023 35 22 68 | https://www.cdta.dz/ | Scientific Research & Development | ||||||||||||||||||||
+23 | Centre de Recherche Nucléaire d’Alger (CRNA) | Alger Centre, Algiers | contact@comena.dz | 021 43 44 44 | https://www.comena.dz/ | Scientific Research & Development | ||||||||||||||||||||
+24 | Institut National de Recherche en Education (INRE) | El Achour, Algiers | inre@education.gov.dz | 023 34 52 45 | https://www.inre.dz/ | Scientific Research & Development | ||||||||||||||||||||
+25 | Centre de Recherche en Biotechnologie (CRBT) | Constantine | secretariat@crbt.dz | 031 77 50 37 | https://www.crbt.dz/ | Scientific Research & Development | ||||||||||||||||||||
+26 | Algérie Poste | Bab Ezzouar, Algiers | contact@poste.dz | 023 92 32 00 | https://www.poste.dz/ | Finance & Banking | ||||||||||||||||||||
+27 | Natixis | Bab Ezzouar, Algiers | https://www.natixis.dz/contact/ | 023 92 43 43 | https://www.natixis.dz | Finance & Banking | ||||||||||||||||||||
+28 | Société Général | El Biar, Algiers | j-jarry@sgalgerie.com.dz | 021 45 14 12 | https://societegenerale.dz | Finance & Banking | ||||||||||||||||||||
+29 | Gulf Bank Algeria | El Biar, Algiers | crc@agb.dz | 021 98 49 04 | https://www.agb.dz/ | Finance & Banking | ||||||||||||||||||||
+30 | Bank ABC Algeria | Bir Mourad Raïs, Algiers | information@bank-abc.com | 023 56 95 23 | www.bank-abc.com | Finance & Banking | ||||||||||||||||||||
+31 | Banque Extérieure d'Algérie (BEA) | Bir Mourad Raïs, Algiers | https://www.bea.dz/contact | 023 56 92 40 | https://www.bea.dz/ | Finance & Banking | ||||||||||||||||||||
+32 | Crédit Populaire d'Algérie (CPA) | Alger Centre, Algiers | https://www.cpa-bank.dz/index.php/fr/contacts | 021 64 15 15 | https://www.cpa-bank.dz/ | Finance & Banking | ||||||||||||||||||||
+33 | Banque Nationale d'Algérie (BNA) | Birkhadem, Algiers | https://www.bna.dz/fr/contact/ | 021 42 64 26 | https://www.bna.dz/ | Finance & Banking | ||||||||||||||||||||
+34 | BEYN (ex : AeBS - Algeria e-Banking Services) | Cheraga, Algiers | contact@beyn.io | 023 30 59 12 | https://beyn.io/ | Finance & Banking | ||||||||||||||||||||
+35 | Algérie Ferries | Alger Centre, Algiers | contact@algerieferries.dz | 021 64 43 77 | https://algerieferries.com/ | Transport Services | ||||||||||||||||||||
+36 | Air Algérie | Alger Centre, Algiers | contact@airalgerie.dz | 023 50 41 41 | https://portail.airalgerie.dz/ | Transport Services | ||||||||||||||||||||
+37 | Tassili Airlines | Alger Centre, Algiers | https://www.tassiliairlines.dz/contact | 021 73 78 00 | https://www.tassiliairlines.dz/ | Transport Services | ||||||||||||||||||||
+38 | Entreprise de Transport Urbain et Suburbain d'Alger (ETUSA) | Alger Centre, Algiers | communication@etusa.dz | 021 65 57 58 | https://www.etusa.dz/ | Transport Services | ||||||||||||||||||||
+39 | Société Nationale des Transports Ferroviaires (SNTF) | Alger Centre, Algiers | contact@sntf.dz | 021 71 15 10 | https://www.sntf.dz/ | Transport Services | ||||||||||||||||||||
+40 | Métro El Djazair | Hussein Dey, Algiers | contact@metro-eldjazair.com | 023 71 62 32 | https://metro-eldjazair.dz/ | Transport Services | ||||||||||||||||||||
+41 | SETRAM | Kouba, Algiers | https://www.setram.dz/contact-us | 0982 21 90 33 | https://www.setram.dz/ | Transport Services | ||||||||||||||||||||
+42 | Numilog - Entreprise de transport et de logistique en Algérie | Bachdjerah, Algiers | communication.numilog@numilog.dz | 0770 30 93 17 | https://numilog.dz/ | Transport Services | ||||||||||||||||||||
+43 | ORNIDEX | Hydra, Algiers | info@ordinex.net | 0698 44 84 21 | https://www.ornidex.com/ | IA Solutions | ||||||||||||||||||||
+44 | BIGmama Technology | Alger Centre, Algiers | contact@big-mama.io | 021 71 28 48 | https://big-mama.io | IA Solutions | ||||||||||||||||||||
+45 | Talenteo HR | Draria, Algiers | hello@talenteo.com | 023 33 23 23 | https://talenteo.com/ | IA Solutions | ||||||||||||||||||||
+46 | Humanaize | Algiers | contact@human-ai-ze.com | / | https://www.human-ai-ze.com/ | IA Solutions | ||||||||||||||||||||
+47 | FenTech | Draria, Algiers | contact@fentech.ai | / | https://fentech.ai | IA Solutions | ||||||||||||||||||||
+48 | Monad | Hydra, Algiers | adel@monad-dz.com | 0552 80 27 66 | https://monad-dz.com/ | IA Solutions | ||||||||||||||||||||
+49 | Maystro Delivery | Kouba, Algiers | contact@maystro-delivery.com | 0770 00 81 58 | https://maystro-delivery.com/ | Delivery Services | ||||||||||||||||||||
+50 | WeeWee Delivery | Mohammadia, Algiers | contact@weeweedelivery.com | 0562 20 10 68 | https://landing.weeweedelivery.com/ | Delivery Services | ||||||||||||||||||||
+51 | Yalidine Express | Bordj El Kiffan, Algiers | contact@yalidine.com https://yalcandidature.loghubconnect.com/ | 0982 30 80 80 | https://yalidine.com/ | Delivery Services | ||||||||||||||||||||
+52 | Yassir Express | Hydra, Algiers | support@yassir.com | 021 99 99 99 | https://express.yassir.io/ | Delivery Services | ||||||||||||||||||||
+53 | Jumia Express | Dely Ibrahim, Algiers | https://www.jumia.com.dz/sp-contact/ | 023 98 27 00 | https://vendorhub.jumia.com.dz/jumia-express-3/ | Delivery Services | ||||||||||||||||||||
+54 | TemTem One | El Biar, Algiers | / | 0982 40 06 02 | https://temtemone.com/ | Delivery Services | ||||||||||||||||||||
+55 | BAYANNET | El Achour, Algiers | contact@bayannet.com | 0671 40 04 40 | https://bayannet.com/ | Data and Analytics | ||||||||||||||||||||
+56 | DATA IMPACT by Nielsen IQ | Hydra, Algiers | contact@dataimpact.io | / | http://www.dataimpact.io/ | Data and Analytics | ||||||||||||||||||||
+57 | HelloData | Bab Ezzouar, Algiers | contact@hellodatasolutions.com | 0793 37 82 83 | https://hellodata.dz/ | Data and Analytics | ||||||||||||||||||||
+58 | Data Digital One | Dely Ibrahim, Algiers | contact@data-digital-one.dz | 023 24 14 06 | https://www.data-digital-one.dz/ | Data and Analytics | ||||||||||||||||||||
+59 | D&D | Data&Development | Constantine | info@datadevelopment.pro | 0542 21 67 29 | https://datadevelopment.pro | Data and Analytics | ||||||||||||||||||||
+60 | Emploi Partner | Kouba, Algiers | contact@emploipartner.com | 023 71 41 00 | https://www.emploipartner.com/ | Recruiting Platform | ||||||||||||||||||||
+61 | Triemploi | Birkhadem, Algiers | https://www.triemploi.com/contact | 021 57 04 23 | https://www.triemploi.com/ | Recruiting Platform | ||||||||||||||||||||
+62 | TrustMe | El Achour, Algiers | contact@trustme.work | 023 33 68 13 | https://www.trustme.work/ | Recruiting Platform | ||||||||||||||||||||
+63 | Emploitic | Draria, Algiers | info@emploitic.com | 0560 90 61 16 | https://www.emploitic.com/ | Recruiting Platform | ||||||||||||||||||||
+64 | GO PLATFORM | Blida | contact@go-platform.dz | 025 23 17 39 | Go-platform.com | Recruiting Platform | ||||||||||||||||||||
+65 | KPMG Algeria | Bab Ezzouar, Algiers | https://kpmg.com/dz/fr/home/misc/contact.html | 021 98 85 00 | https://home.kpmg/dz/fr/home.html | Consulting & Audit Firm | ||||||||||||||||||||
+66 | EY Algeria | Bab Ezzouar, Algiers | careerdz@dz.ey.com | 021 24 93 92 | https://www.ey.com/en_gl | Consulting & Audit Firm | ||||||||||||||||||||
+67 | Think Touch Solution | Alger Centre, Algiers | contact@thinktouchsolution.com | 023 49 01 49 | https://www.thinktouchsolution.com/ | Consulting & Audit Firm | ||||||||||||||||||||
+68 | PwC Algeria | Hydra, Algiers | / | 021 98 21 00 | https://pwcalgerie.pwc.fr/ | Consulting & Audit Firm | ||||||||||||||||||||
+69 | Brenco Engineering & Consulting | Cheraga, Algiers | contact@brenco-algerie.com | 023 48 06 75 | https://brenco-algerie.com | Consulting & Audit Firm | ||||||||||||||||||||
+70 | Huawei Télécommunication Algérie | Bab Ezzouar, Algiers | https://consumer.huawei.com/dz/contact-us/ | 0770 25 25 60 | https://www.huawei.com/ | Telecommunications | ||||||||||||||||||||
+71 | Djezzy | Bab Ezzouar, Algiers | contact@djezzy.dz | 0770 85 00 00 | https://www.djezzy.dz | Telecommunications | ||||||||||||||||||||
+72 | Ooredoo | Ouled Fayet, Algiers | contact@ooredoo.dz | 0550 00 03 30 | http://www.ooredoo.dz/ | Telecommunications | ||||||||||||||||||||
+73 | Mobilis | Dar El Beida, Algiers | relationclients.entreprise@mobilis.dz | 0655 00 29 99 | https://www.mobilis.dz/ | Telecommunications | ||||||||||||||||||||
+74 | Algérie Télécom | Mohammadia, Algiers | contact@algerietelecom.dz | 021 82 38 38 | https://www.algerietelecom.dz/ | Telecommunications | ||||||||||||||||||||
+75 | Sonatrach | Hydra, Algiers | https://sonatrach.com/nous-contacter | 021 54 70 00 | https://sonatrach.com/ | Oil & Gas | ||||||||||||||||||||
+76 | Schlumberger (SLB) | Hydra, Algiers | https://www.slb.com/contact-us | 023 30 50 80 | https://www.slb.com | Oil & Gas | ||||||||||||||||||||
+77 | Agence Nationale pour la Valorisation des Ressources en Hydrocarbures (ALNAFT) | Hydra, Algiers | contact-alnaft@alnaft.dz | 023 08 31 23 | https://www.alnaft.dz/ | Oil & Gas | ||||||||||||||||||||
+78 | KABAS | Bordj El Kiffan, Algiers | contact@kabas-ai.com | 0794 54 95 64 | https://kabas-ai.com/ | Oil & Gas | ||||||||||||||||||||
+79 | Smart Drilling Operations | Hydra, Algiers | info@smartdrillingops.com | 020 069 444 | https://smartdrillingops.com/ | Oil & Gas | ||||||||||||||||||||
+80 | Namla Cloud Edge | Sidi Abdellah, Algiers | contact@namla.cloud | / | https://namla.cloud | Cloud, Edge Computing, IoT | ||||||||||||||||||||
+81 | Qareeb | Alger Centre, Algiers | https://www.qareeb.io/contact | 0770 06 45 13 | https://www.qareeb.io/ | Cloud, Edge Computing, IoT | ||||||||||||||||||||
+82 | Algerian Electronic Technology Industries | Boumerdès | contact@aetindustries.dz | 0698 30 44 50 | https://www.aetindustries.dz/ | Cloud, Edge Computing, IoT | ||||||||||||||||||||
+83 | Heetch | Hussein Dey, Algiers | info@heetch.dz | 0982 40 27 43 | https://www.heetch.com/ | Ride-hailing | ||||||||||||||||||||
+84 | Yassir | Hydra, Algiers | support@yassir.com job@yassir.com hr.dev@yassir.com | 021 99 99 99 | https://yassir.com | Ride-hailing | ||||||||||||||||||||
+85 | Coursa | El Achour, Algiers | support@coursadz.com | 023 35 13 14 | https://www.coursadz.com/ | Ride-hailing | ||||||||||||||||||||
+86 | Société Algérienne d'Assurances (SAA) | Bab Ezzouar, Algiers | https://www.saa.dz/fr/contact | 021 22 50 00 | https://www.saa.dz/ | Insurance Company | ||||||||||||||||||||
+87 | Compagnie Algérienne des Assurances (CAAT) | Bir Mourad Raïs, Algiers | info@caat.dz | 023 56 93 24 | https://caat.dz/ | Insurance Company | ||||||||||||||||||||
+88 | GAM Assurances | Cheraga, Algiers | https://gam.dz/contacter-la-gam/ | 0982 30 40 44 | https://gam.dz/ | Insurance Company | ||||||||||||||||||||
+89 | Ouedkniss | Kouba, Algiers | contact@ouedkniss.com | 0777 00 11 00 | https://www.ouedkniss.com/ | E-commerce Platform | ||||||||||||||||||||
+90 | Yalitec | Dar El Beida, Algiers | contact@yalitec.com | 0770 16 06 90 | https://www.yalitec.com/fr | E-commerce Platform | ||||||||||||||||||||
+91 | Jumia | Dely Ibrahim, Algiers | https://www.jumia.com.dz/sp-contact/ | 023 98 27 00 | https://www.jumia.com.dz/ | E-commerce Platform | ||||||||||||||||||||
+92 | Techmology | Mohammadia, Algiers | contact@techmology-dz.com | 0556 32 80 78 | https://techmology-dz.com/ | Robotics | ||||||||||||||||||||
+93 | Keybox | El Achour, Algiers | contact@keybox.dz | 0541 46 42 90 | https://keybox.dz/ | Robotics | ||||||||||||||||||||
+94 | NEW GATE ROBOT CENTER | Setif | newgaterobot@gmail.com | 0658 90 90 47 | https://www.newgaterobot.org/ | Robotics | ||||||||||||||||||||
+95 | Institut Pasteur d'Algérie | Cheraga, Algiers | contact@pasteur.dz | 023 36 75 04 | https://www.pasteur.dz/ | Healthcare | ||||||||||||||||||||
+96 | SIHHATECH | Boumerdès | contact@sihhatech.com | 0540 20 54 84 | https://sihhatech.com/ | Healthcare | ||||||||||||||||||||
+97 | eSiha | Oran | info@esiha.net | 0557 38 01 71 | https://esiha.dz/ | Healthcare | ||||||||||||||||||||
+98 | AITech | Alger Centre, Algiers | contact@ai-technologies.co | 0671 41 04 27 | https://www.ai-technologies.co | Agriculture | ||||||||||||||||||||
+99 | Farmy AI | Skikda | info@farmy.ai | / | https://www.farmy.ai/ | Agriculture | ||||||||||||||||||||
+100 | Legal Doctrine | Dely Ibrahim, Algiers | contact@legal-doctrine.com | 023 23 07 82 | https://legal-doctrine.com | Legal & Juridical Services |

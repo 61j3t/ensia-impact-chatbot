@@ -1,0 +1,36 @@
+[Source: https://www.trymito.io/low-code-sql]
+[Title: Low Code SQL Tools for Python - Generate, Validate, Visualize | Mito]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:35:34+00:00]
+
+Write SQL code using the Mito Spreadsheet
+Connect to your data sources, so you're always working with the most up to date data
+No-Code SQL Generation
+Write all of the database connection and SQL code through the Mito SQL Editor.
+Don't spend time figuring out the correct database connection to use or trying to learn yet another programming language.
+The Mito UI does it all for you.
+Switch between SQL and Python seamlessly
+Use SQL to import data from your data warehouse, and then immediately explore and transform it through the Mito spreadsheet.
+SQL is best used for importing data. Python is best used for data cleaning, analysis, and visualizations.
+Use SQL to:
+Authenticate to data sources
+Select data for your analysis
+Create dataframes in your notebook
+Write data back to database
+Use Python to:
+Explore, clean, and preprocess data
+Transform and analyze data
+Use filters, pivot tables & more
+Visualize data
+Export reports to Excel
+Send emails
+Schedule reports to execute
+Easier ETL and Data Source Integration
+By connecting Mito directly to your database, you can build fully automated workflows.
+Pulling data directly from the database means you don't need to manage `export (100).csv` or worry about using out of date data.
+Refine your query using a spreadsheet GUI
+Enterprise data is notoriously complex. Figuring out which of the four date fields to use requires diving into the data.
+Use the Mito SQL Editor to pull in all four date fields. Then, use the spreadsheet to figure out which one you actually need. Finally, update your query without ever switching tools.
+Connect Mito to any data with a Python library for SQL
+Every enterprise stores their data differently, so Mito makes it easy to bring your own database connections.
+Set a few environment variables and empower all of your analysts to access data without relying on a team of supporting data scientists.

@@ -1,0 +1,782 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/28]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+| Analyse Thermique Simultanée (ATG,ATD et DSC) |
+ATG-Lagh/2018 |
+LABSYS evo est une plateforme d'analyse thermique robuste, ergonomique et tres performante. Une gamme complete d'analyseurs thermiques (ATG,ATD et DSC) disposant de deux plages de temperature distinctes, selectionnees et optimisees pour differents types d'applications. Caracteristiques techniques : Ambiante a 1600 C Atmosphe;res compatibles. Vitesse de balayage de temperature programmable (chauffe et refroidissement) : 0.01 to 100 °C.min-1. Capacite; maximum de la balance : 20 g.Domaines d'application: des polymeres et plastiques (caracterisation, controle qualite;) et des composes organiques et pharmaceutiques (polymorphisme, purete;, stabilitee; thermique), des substances inorganiques (d'hydratation, transition, decomposition), des metaux (transition)...des materiaux bruts ou transformes.
+|
+| Rhéomètre MCR 102 |
+Rheo102-lagh/2018 |
+Un rhéomètre est un appareil de laboratoire capable de faire des mesures relatives à la rhéologie d’un fluide Il applique un cisaillement à l’échantillon, généralement de faible dimension caractéristique (très faible inertie mécanique du rotor), il permet d’étudier fondamentalement les propriétés d’écoulement d’un liquide, d'une suspension, d’une pâte, etc en réponse à une force appliquée.
+|
+| Résonance magnétique nucléaire (RMN) |
+RMN-Lagh/2018 |
+La RMN est une méthode spectroscopique d'analyse de la matière, fondée sur les propriétés magnétiques de certains noyaux atomiques. L'échantillon est placé dans un champ magnétique très intense, acquiert une aimantation nucléaire qui est détectée par sa mise en résonance avec un champ électromagnétique (radiofréquence).
+La réponse de l'échantillon dépend de l'intensité du champ magnétique appliqué, de l'environnement électronique des noyaux et de la dynamique des mouvements atomiques.
+La RMN installée au PTAPC de Laghouat est de type 400 MHz capable de mesurer les échantillons liquides, solides et intermédiaires. Equipé d’un :
+•système de blindage de l’aimant.
+•2 sondes liquide et solide et d’un auto sampler 24 positions.
+Domaines d’application
+•Etude des petites molécules organiques en solution;
+•Etude des macromolécules solubles (protéines, acides nucléiques, polysaccharides, polymères synthétiques, etc.);
+•Etude des substances amorphes ou faiblement cristallines (verres, polymères naturel ou synthétiques insolubles, etc.);
+•Détermination des structures de molécules organiques naturelles ou synthétiques;
+La RMN peut être utilisée dans plusieurs domaines tels que l’environnement, toxicologie, agroalimentaire, pharmaceutique et pétrochimie.
+|
+| Diffraction des Rayons X (DRX) |
+DRX-Lagh/2018 |
+Le système Empyrean, Malvern Panalytical a introduit un nouveau standard en développant la meilleure plateforme de rayons X pour l'analyse de poudres, de couches minces, de nanomatériaux et d'objets solides.
+Cette plateforme est la réponse de Malvern Panalytical à tous les enjeux de la recherche actuelle en matériaux, dans laquelle la durée de vie d'un instrument dépasse celle d'un projet de recherche.
+•Avec la troisième génération Empyrean, Malvern Panalytical a maintenant redéfini le concept du diffractomètre polyvalent:
+Les avantages:
+HTK 1200N - chauffage de four :
+Chambre de four polyvalente à haute température
+Anton Paar HTK 1200N est conçu pour la diffraction des rayons X sur poudre dans les géométries de réflexion et de transmission avec chauffage environnemental de l'échantillon jusqu'à 1200 ºC dans l’air.
+•Avec la troisième génération Empyrean, Malvern Panalytical a maintenant redéfini le concept du diffractomètre spéciale :
+Principales d’applications
+•SAXS et WAXS : diffusion de rayons X aux petits et grands angles.
+( pour calculer la taille des particules )
+•Incidence rasante sur les couche minces.
+•Application de texture et stresse.
+•Les analyses des poudres.
+Domaine d’application
+Le système Empyrean est une véritable plateforme de rayons X multi-usage pour la recherche. Contrairement aux autres systèmes disponibles, elle est conçue pour l'industrie actuelle et celle des années à venir.
+|
+| Microscope Electronique en Transmission (TEM/STEM) |
+MET-Lagh/2016 |
+Le Talos F200X est un microscope electronique a transmission par canon a emission de champ de derniere generation. Il est equipe d'une source d'electrons a haute luminosite; et de detecteurs EDS tres efficaces, ce qui le rend ideal pour la cartographie elementaire rapide a l'echelle sub-nanometrique. Il este galement equipe d'une camera CMOS 4k a grand champ de vision pour l'acquisition rapide d'images TEM (HR) et de diagrammes de diffraction electronique. Le microscope peut etre utilise avec une gamme de supports in situ, y compris des supports de chauffage / electrochimie de liquide et de chauffage / electriques. Caracteristiques techniques : Source d'electrons X-FEG, type froide / 30 a 200kV en (STEM) Luminosite (@200kV) = 1,8 × 109 A / cm2 / srad Courant de sonde (@200kV) = sonde 1.5nA @ 1nm. Grandissement (STEM: 200 a 150,000,000x); (TEM: 50 a 2,000,000x). Detecteur Super-X EDS (4x windowless SDD) Detecteur STEM Detecteur HAADF, Detecteur Bright Field Detecteur Dark Field Angle solide EDS = 0,9 srad. Resolution energetique ≤ 136 eV (Mn K alpha; 0 kcps) Piece polaire X-TWIN Resolution STEM HAADF = 0,16 nm Limite d'information TEM = 0,12 nm. Camera CETA 16M : Capteur = CMOS 4096 x 4096 pixels Frequence d'images 4k = 1fps, 2k = 8fps, 1k = 18fps, 512 = 25fps Domaine d'application: Semi-conducteurs; Circuits integres Supports magnetiques; Nanomateriaux; MEMS; Optoelectronique; Metaux et Materiaux
+|
+| Microscope Dual Beam MEB / FIB |
+FIB-Lagh/2018 |
+Le système ThermoScientifc Scios 2 DualBeam est un système analytique ultra-haute résolution qui offre une préparation d'échantillons et performances de caractérisation 3D pour une plus large gamme d'échantillons, Donc, c’est un microscope électronique à double faisceaux »colonnes» (électronique et ionique), l’angle entre les deux colonnes est de 52°.
+Le Scios 2, équipement très important pour la préparation des échantillons à d’éventuelles analyses au TEM/STEM.
+Caractéristiques techniques
+•Source faisceaux : électrons et ions.
+•Modes de travailler sous vide : (Haut vide, vide faible).
+•Résolution du faisceau d'électrons : Optimum WD
+- 0,7 nm à 30 keV STEM; 1,4 nm à 1 keV; 1,2 nm à 1 keV.
+•Résolution du faisceau ionique : 3,0 nm à 30 kV en utilisant « selective edge method ».
+•Détecteurs :
+- Système de détection Trinity (dans l'objectif et dans la colonne), T1, T2, T3; signaux détectés; ETD; ICE pour SI et SE *; DBS *; STEM 3+ BF / DF / HAADF; IR; Nav-Cam dans la chambre; Mesure du courant de faisceau intégrée.
+•Scène et échantillon
+- Gamme XY: 110 mm; Gamme Z: 65 mm; Plage d'inclinaison: -15 ° à + 90 °.
+•Système de vide
+- Système de vide complet sans huile
+- Vide de chambre: <6,3 × 10-6 mbar (après 72 heures de pompage)
+- Temps d'évacuation: <3,5 minutes
+- Mode faible vide en option: jusqu'à 500 Pa de pression de chambre.
+-
+Domaine d’application
+Le MEB/FIB est utilisé dans plusieurs domaines tels que les semi-conducteurs, circuits intégrés, supports magnétiques, nanomatériaux, MEMS, optoélectronique, métaux et matériaux composites.
+|
+| Microscope à force atomique (AFM) |
+AFM-Lagh/2018 |
+AFM A100, est un microscope à force atomique, développé par A.P.E Research, elle permet d'étudier et visualiser les topographies des surfaces des zones allant de quelques nanomètres de dimensions et de mesurer des forces de l'ordre du nanonewton, avec des résolutions atomiques. Elle est capable de quantifier la rugosité de la surface des échantillons jusqu'à l'échelle de l'angström (A°).
+Principales caractéristiques:
+•Haute polyvalence.
+•Facilité d'utilisation.
+•Échantillons facilement interchangeables.
+•Approche d'échantillonnage de pointe automatique.
+•Système intégré d'amortissement acoustique et vibratoire.
+Caractéristiques techniques
+•Système de balayage A100 SPM : peut être équipé de différents types de scanners basées sur la flexion, pour différentes plages de travail.
+•Environnements de fonction : dans l'air ou dans des liquides.
+•peut applique sur les échantillons : organique et inorganique.
+•Modes de travail :
+-mode AFM contact, mode non-contact, mode semi-contact.
+•permet de fournée des informations sur l'imagerie de phase, modulation de force, microscopie à force latérale, analyse des courbes de force, propriétés électriques, microscopie à force magnétique, etc.
+Domaines d’application
+•Nanotechnologie (ex, stockage de données, Stockage d'Energie, Caractérisation nano mécanique et nano électrique), et en Biomatériaux.
+•L’aérospatiale, biomédical/biotechnologie, semi-conducteurs composés, produits pharmaceutiques, photonique, polymères, semi-conducteurs, photovoltaïque, télécommunications.
+|
+| Chromatographie LC-MS |
+Chro-LC-MS-lagh/2019 |
+Le couplage LC-MS constitue une solution complète pour la réalisation de séparations en mode Ultra Rapide. Le détecteur de masse simple quadripôle LCMS-2020 est le complément parfait à la gamme de chromatographie Nexera (HPLC / UHPLC, ou SFC). Il permet la réalisation d’analyses qualitatives, quantitatives, quelle que soit la vitesse d’analyse souhaitée. Doté d’un détecteur Ultra Fast (technologie brevetée Shimadzu).
+Caractéristiques techniques
+Détecteur ultra fast (UF) technologie unique et brevetée shimadzu basée sur trois fonctions :
+UF switching;
+UF sensitivity;
+UF Scanning.
+Domaines d’application et points forts
+•Applications biomédicales :
+- La technique de LC-MS est utile pour le dépistage des médicaments stéroïdes en liquide organiques et en profilant les stéroïdes endogènes.
+•Applications environnementales :
+- LC-MS est employé dans l'analyse de divers échantillons tels que la saleté, l'eau potable ou les eaux résiduaires, l'air, et la boue.
+-Analyse sol, recherche de pesticides, polluants.
+•Examen critique biochimique pour des affections génétiques
+-Des prises de sang des bébés nouveau-nés s'analysent utilisant LC-MS pour trouver des troubles métaboliques.
+•Pharmaceutiques
+-LC-MS est très utilisé dans la détermination des composés pharmaceutiques et particulièrement dans la séparation optiquement des drogues psychoactives.
+•Toxicologie, étude du métabolisme, détection de drogues.
+|
+| Chromatographie GC-MS |
+Chro-GC-MS-Lagh/2019 |
+Le GCMS-QP2020 est le spectromètre de masse simple quadripôle couplé à un chromatographe en phase gazeuse le plus puissant du marché. La technologie brevetée appelée ASSPTM (protocole de vitesse de balayage avancée) permet d’atteindre un balayage à 20 000 u/s sans perte de sensibilité ou de distorsion spectrale. Cette amélioration de la vitesse de collecte des données rend cet instrument idéal pour les analyses Fast GC ou Compréhensive GC (GCxGCq-MS).
+Caractéristiques techniques
+•capacité d’analyse à haute vitesse,
+•débit colonne jusqu’à 12 ml/min (He),
+•choix du gaz vecteur (He2, H2, N2),
+•source d’ion équipée de deux filaments à commutation automatique pour un temps de maintenance réduit.
+Domaines d’application
+•Industrie Alimentaire.
+•Analyse des huiles végétales.
+•Alimentation: GC:MS est largement utilisé pour analyser les acides gras libres, les esters, les hydrocarbures aromatiques.
+•Parfums et huiles essentielles.
+•Environnemental: GCMS est utilisé de façon routinière dans l’identification de pesticides, polluants organiques et contaminants plastiques.
+•Biocarburants: GC:MS peut analyser et quantifier les composantes de biocarburants pour établir s’il s’agit d’un bon substitut dans l’industrie pétrolière.
+|
+| Chromatographie GC |
+Chro-GC-Lagh/2019 |
+C’est la séparation des molécules d'un mélange de volatilité très diverses. Elle s'applique principalement aux composés gazeux ou susceptibles d'être vaporisés par chauffage sans décomposition.
+Le nouveau Nexis GC-2030 fournit des fonctionnalités intelligentes et innovantes pour simplifier au maximum l’analyse GC. Il assure une sensibilité maximale combinée avec une précision inégalée et offre un support puissant pour la configuration de systèmes à façon, adaptés à tous les besoins des utilisateurs.
+Caractéristiques techniques
+•incluant des détecteurs ultra-haute précision pour de nombreuses applications (BID, FID, ECD, FPD),
+• installation possible de deux détecteurs BID, nouveau contrôleur de flux (AFC),
+•possibilité d’équiper en même temps deux détecteurs TCD et un détecteur FID, technologie AFT
+•Graphiques clairs avec informations instantanées, contrôles de nombreux paramètres à partir de l’écran tactile (conditions analytiques, autodiagnostic, vérification automatique des fuites de gaz, affichage du chromatogramme, etc.)
+|
+| Spectrométrie de fluorescence X à dispersion d'énergie (EDXRF) |
+EDXRF-Lagh/2018 |
+Le S2 PUMA Series 2 avec technologie HighSense est le spectromètre à fluorescence de rayons X à dispersion d'énergie (EDXRF) haut de gamme pour l'analyse élémentaire L'instrument EDXRF de table est utilisé pour les échantillons solides et liquides
+•Éléments détectés : de Be à Am .
+•Seuils de détection : < ppm (partie par million).
+•Imagerie/cartographie : Oui.
+•La tablette d'échantillon: peut stocker jusqu'à 20 échantillons.
+|
+| Spectrométrie de fluorescence X à dispersion de longueur d'ond (WDXRF) |
+WDXRF-Lagh/2018 |
+Caractéristiques techniques:
+•Les seuils de détection sont inférieurs à ppm(partie par million),
+•La tablette d'échantillon peut stocker jusqu'à 48 échantillons,
+•Analyse des éléments de Be à U,
+•Moins précieux Micro-analyse pour analyser des échantillons aussi petits que 500 µm,
+• Fonction de cartographie pour la topographie / distribution élémentaire,
+•Le joint à l'hélium signifie que l'optique est toujours sous vide,
+•Identification élémentaire des massifs, poudres et liquides inconnus,
+•Identification des alliages métalliques. Sans effets destructeurs,
+•Identification les oxydes.
+Domaine d’application
+•Ciments,
+•Revêtements & couches minces,
+•Cosmétiques,
+•Environnement & pollution,
+•Alimentation & additifs alimentaires,
+•Médico-légal & conservation,
+•Géologie & minéraux,
+•Métaux & Alliages,
+•Exploitation minière & raffinage,
+•Nanotechnologies,
+•Pétrole & Pétrochimie,
+•Industrie pharmaceutique,
+•Photovoltaïque,
+•Polymères, plastiques & caoutchoucs,
+•Semiconducteur.
+|
+| Analyse mécanique dynamique (DMA) A50 |
+DMA-Lagh/2018 |
+Le DMA 50 est une technique importante utilisée pour mesurer les propriétés mécaniques et viscoélastiques de matériaux tels que les thermoplastiques, les thermodurcissables, les élastomères, les céramiques et les métaux.
+En DMA 50, l'échantillon est soumis à une contrainte périodique dans l'un des différents modes de déformation (flexion, traction, cisaillement et compression).
+Le module en fonction du temps ou de la température est mesuré et fournit des informations sur les transitions de phase.
+Les trois voies d'acquisition permettent la mesure de la force transmise et du déplacement, à partir desquels la raideur complexe est déduite, et de la température. Les modules d'élasticité complexes et les courbes maîtresses statiques et dynamiques sont déterminées par un post traitement des mesures.
+Domaines d’application
+•Analyse des propriétés intrinsèques des matériaux.
+•Analyse spécifiques des élastomères.
+•Prédiction du comportement mécanique.
+•Analyse comparative de propriétés mécaniques de pièces industrielles.
+•Analyse du comportement thermomécanique.
+•Analyse de l’évolution des propriétés mécaniques en fonction des conditions environnementales.
+•Analyse des phénomènes de réticulation, cuisson, par le suivi de propriétés mécaniques.
+|
+| Rheolab QC |
+RheoQC-Lagh/2018 |
+Le RheolabQC est un rhéomètre rotatif qui fonctionne selon le principe de Searle. Il se compose d'un encodeur de haute précision et d'un moteur EC hautement dynamique, également utilisé dans la série de rhéomètres MCR
+Un rhéomètre est plus sophistiqué qu'un viscosimètre. Certains modèles permettent, en appliquant une sollicitation sinusoïdale (mode oscillation), de déterminer les grandeurs viscoélastiques intrinsèques de la matière, qui dépendent notamment du temps (ou de la vitesse angulaire ω) et de la température.
+Caractéristiques techniques
+•Mesure de viscosité du simple essai en un seul point aux essais rhéologiques complexes.
+•Une vaste gamme d'applications couverte par un seul rhéomètre rotatif.
+•Facilité d'utilisation, pour la détermination de la viscosité en un point ainsi que des essais rhéologiques plus sophistiqués tels que la détermination du point d'écoulement.
+•Contrôle de la température rapide et précis.
+Domaines d’application
+•Peintures, revêtements (Courbe d’écoulement, seuil d’écoulement).
+•Matériaux déconstructions (Seuil d’écoulement ).
+•Boues (Courbe d’écoulement, seuil d’écoulement, thixotropie par test).
+•triple intervalle (déstructuration et restructuration).
+•Colles (Courbe d’écoulement, thixotropie par test triple intervalle).
+•Produits alimentaires (Courbe d’écoulement).
+•Gels fluides (Seuil d’écoulement, cisaillement).
+•Graisses lubrifiantes, huiles Courbe d’écoulement, test de température).
+|
+| Viscometre |
+Viscometre |
+Le SVM ™ 3001 augmente la productivité de votre laboratoire en réduisant vos coûts et en économisant énormes quantités de température la viscosité des huiles et des carburants est une question de certitude et de conformité. Deux approches vous y mènent: la méthode traditionnelle du capillaire en verre ou la nouvelle viscosité avec le SVM ™ 3001 Stabinger Visiomètre ™ d’Anton Paar. Par rapport à la méthode traditionnelle. Après un seul cycle de mesure sur un petit volume d'échantillon, vous obtenez la viscosité cinématique, la densité, la viscosité dynamique, l'indice de viscosité et Grades API, viscosité Saybolt.
+Caractéristiques techniques
+•Plage de viscosité 0,2 à 30 000 mm2 / s.
+•Plage de densité 0,6 à 3 g / cm3.
+•Plage de température -60 ° C à +135 ° C.
+•Débit d'échantillons maximum 30 tests par heure
+•Capacité de l'échantillonneur automatique Jusqu'à 71 positions.
+•Interfaces 4 x USB (2.0 pleine vitesse), 1 x Ethernet (100 Mbit), 1 x bus CAN, 1 x RS-232, 1 x VGA.
+•Commandes Écran tactile, clavier en option, souris et lecteur de codes à barres 2D.
+•Alimentation 100 V à 240 VAC; 50 Hz à 60 Hz; 250 VA (max.).
+•Conditions ambiantes 15 à 35 ° C.
+Domaines d’application
+•Surveillance de l'état de l'huile,
+•Basse température: carburéacteur, liquides de frein, fluides hydrauliques,
+•Mazout: du diesel au carburant résiduel (bunker C),
+•Huiles lubrifiantes, huiles de base et additifs.
+|
+| Calorimétrie différentielle à balayage (DSC) |
+DSC-Lagh/2018 |
+DSC131 evo (Calorimétrie différentielle à balayage) pour les laboratoires d’essais, de contrôle qualité et académiques spécialisés en analyse thermique. Un appareil conçu pour être robuste, de haute performance et surtout convivial. Il se démarque grâce à son logiciel intuitif CALISTO, leader du marché, et son faible coût d’utilisation.
+Caractéristiques techniques :
+•Robustesse : le DSC131 evo dispose d’un capteur très robuste;
+•Souple et puissant : de -170 °C à 700 °C, avec des performances;
+•Atmosphères compatibles : Azote, Hélium, Argon, Oxygène ou air;
+•Avec accessoires de refroidissement :
+- -170 °C à 500 °C (accessoire utilisant l’azote liquide);
+- -70 °C à 400 °C (Cryo thermostat).
+•Vitesse de programmation de la température :
+- 0,01 à 100 °C.min-1;
+•Temps de refroidissement :
+- 12 min (500 °C à 100 °C) air;
+- 5 min (100 °C à 0 °C) Cryo thermostat;
+- 6 min (200 °C à 25 °C) accessoire azote liquide;
+- 12 min (25 °C à -100 °C) accessoire azote liquide.
+•Résolution : 0,8 µw.
+•Creusets : 30 µL, 100 µL (Aluminium, alumine..) creuset haute pression (jusqu’à 500 bars / 7 255 psi à 600 °C).
+Domaines d’application
+des polymères et plastiques (caractérisation, contrôle qualité) et des composés organiques et pharmaceutiques (polymorphisme, pureté, stabilité thermique), des substances inorganiques (déshydratation, transition, décomposition), des métaux (transition)... des matériaux bruts ou transformés.
+|
+| Calorimètre |
+Calori-Lagh/2018 |
+Le C80 utilise la dernière évolution du détecteur calorimétrique Calvet Design dans lequel un échantillon et une cellule de référence sont totalement entourés d'un réseau de détecteurs à thermocouple permettant la mesure de toute la chaleur dégagée (ou adsorbée), y compris le rayonnement, la convection ou la conduction. Le détecteur Calvet est efficace jusqu'à 94% alors que les DSC à plaques typiques se situent entre 20 et 40%, et en tant que tel, le C80 offre une précision de mesure inégalée indépendamment de la nature de l'échantillon ou de la matrice - solide, liquide, gaz, poudre, etc.
+Domaine d’application
+•plage de température (Ambiante à 300 ° C)
+•Précision de mesure incomparable: le capteur 3D Calvet entoure totalement l'échantillon;
+•Calibration absolue: avec un transducteur tridimensionnel;
+• la sensibilité du C80 est indépendante de:
+-Le poids, la forme et la nature (poudre, fibre, liquide) de l'échantillon;
+-Le type de creuset utilisé;
+-La nature du gaz de balayage (inerte, oxydant, humide).
+Le calorimètre C80 peut répondre à un large éventail d'applications :
+•Sciences de la vie: Produits pharmaceutiques: détection du polymorphisme; comportement d'un médicament sous atmosphère humide; étude du polymorphisme; cristallinité des médicaments, amorphisme, métabolisme des espèces vivantes, etc.
+•Énergie: désulfuration des diesels; dissociation des hydrates de gaz; caractérisation des catalyseurs; adsorption d'hydrogène; caractérisation thermique (nucléaire), etc.
+•Alimentaire: neutralisation des acides gras libres dans les huiles; dissociation de gel; études de dissolution; amorphisme; stabilité vs oxydation, etc.
+|
+| Analyse BET de surface |
+BET-Lagh/2018 |
+ASAP® 2020 Plus - Physisorption, est un analyseur automatique de physisorption de gaz permet la caractérisation approfondie des propriétés de physisorption d’une vaste gamme de matériaux tels que les adsorbants, matériaux à grande surface spécifique.
+Caractéristiques techniques
+•Mesure de la pression
+- Plage de 0 à 950 mm Hg
+- Résolution Jusqu'à 1 x 10-7 torr (transducteur 0,1 mm Hg)
+- Précision> 0,15% de la lecture
+•Système degas
+- Plage de température ambiante à 450 ° C, incréments de 1 ° C
+•Capacité du système
+- Préparation des échantillons 1 analyse, 2 ports de dégazage
+•Système cryogène
+- Capacité 3 litres Dewar, qui fournit jusqu'à 72 heures d'analyse sans surveillance
+- Temps d'analyse Temps illimité avec remplissage pendant l'analyse
+•Température de zone froid stable
+Environnement Veste isotherme pour le contrôle des espaces froids
+Domaines d’application
+Produits pharmaceutiques, Céramique, Adsorbants, Charbons actifs, Noir de carbone, Piles à combustible, Catalyseurs, Peintures et revêtements, Propulseur de projectile, Implants médicaux, Électronique, Cosmétiques, Aérospatiale, Géoscience, Nanotubes, Adhésifs, Alliages, Abrasifs, Carbonates, Ciments, Argiles, Détergents, Les fibres, Films, Les engrais, Filtres, Verre, Additifs alimentaires, Graphite, Minéraux, Papier, Composés de polissage, Polymères, Résines, Sols et sédiments.
+|
+| Tensiomètre a goutte |
+Tensio-Lagh/2018 |
+Ce tensiomètre pendentif à goutte (tracker TECLIS) analyse de manière entièrement automatique la forme des gouttes pendantes ou les bulles montantes afin de déterminer leur tension superficielle.
+•Il est caractérisé : par une exécution des mesures avec des chambres d’échantillon plus lourdes jusqu’à 2000 C à des pressions allant de O, 1 bar à 200 bar.
+C’est un appareil pratique pour suivre l’adsorption d’agents interfaciaux actifs à la surface, il peut également être utilisé pour mesurer les angles de contact entre les liquides et les solides.
+De plus, le tracker permet de réaliser une « rhéologie interfaciale de dilatation » pour caractériser les propriétés des monocouches d’agents tensioactifs adsorbés à la surface de la bulle ou la goutte.
+Domaine d’application
+Cette appareil utiliser dans plusieurs domaines tel que:
+•Huile brute.
+•Cosmétique.
+•Alimentation.
+•Bitume.
+•Lubrifiant.
+|
+| Analyse élémentaire (AE) |
+AE-Lagh/2018 |
+Il permet le dosage simultané des éléments Carbone, Hydrogène, Azote, Soufre par combustion « ash » en mode dynamique, et de l'Oxygène par Pyrolyse.
+Domaines d’application
+Passage rapide et simple du mode CHNS au mode Oxygène et réciproquement.
+Gamme de mesure de 0.01 à 100%.
+Détermination simultanée du carbone et du soufre avec une préparation minimale des échantillons.
+Une large gamme de matériaux inorganiques peut être analysée.
+L’analyseur élémentaire C, H, N, S et O peut être utilisée dans le domaine :
+•Chimie organique;
+•Analyse pharmaceutique;
+•Contrôle des produits industriels;
+•Analyser des échantillons géologiques;
+•L’agriculture;
+•Protection de l'environnement;
+•Biotechnologie;
+•Analyse de l'authenticité.
+|
+| Lyophilisateur |
+Lyo-Lagh/2018 |
+C'est une méthode de dessiccation sous vide, à basse température, de produits liquides préalablement congelés. La lyophilisation consiste en l'élimination progressive de l'eau du produit préalablement congelé (phase solide) par passage à la phase vapeur, sans passer par la phase liquide. Ce changement d'état s'appelle la sublimation.
+Caractéristiques techniques
+Marque: CHRIST-Alpha 2-4 LSCbasic
+Capacité du condenseur: 4 kg
+Performance du condenseur: 4 kg/24 h
+Température du condenseur: -85 °C
+Domaines d’application
+•Produits pharmaceutiques;
+•Sérum sanguin;
+•Séchage des aliments;
+•Séchage des herbes;
+•Préservation des caractéristiques de substances (ex. produits pharmaceutiques..);
+•Préservation de la forme initiale (ex. préparations animales, objets archéologique..);
+•Conditionnement de produits (ex. fruits lyophilisés dans les yaourts..);
+•Préparation d’échantillons pour des analyses chimiques ou biochimiques.
+|
+| Machine de polissage |
+Polis-Lagh/2018 |
+•Modèle : Struers Laboforce 100.
+Points forts :
+•Conception robuste,
+•Réceptacle elliptique avec anneau anti éclaboussure,
+•Durabilité,
+•Très pratique pour l'opérateur,
+•Adaptable selon l'évolution des besoins.
+|
+| Machine de polissage électrochimique |
+Polis-électro-Lagh/2018 |
+•Modèle : Struers Lectropol 5.
+Points forts :
+•Fonction de scanning,
+•Base de données de méthodes,
+•Facile d'emploi,
+•Reproductibilité maximale.
+|
+| Tranconeuse |
+Tran-Lagh/2018 |
+Description
+•Modèle : Struers Labotom 5.
+Points forts :
+•Pupitre de commande simple,
+•Grande table de tronçonnage,
+•Bras de tronçonnage ergonomique,
+•Verrou de sécurité,
+•Pistolet de rinçage,
+•Forte inclinaison dans le compartiment de tronçonnage,
+•Éclairage LED puissant,
+•Meule de tronçonnage d'un diamètre de 250 mm (10") (Labotom-5).
+|
+| Rota-vapeur |
+Rota-Lagh/2018 |
+Description
+Modèle : DLAB RE100 Pro
+Application :
+•Synthèse Générale.
+|
+| Microscopie optique a fluorescence |
+MOP-Lagh/2018 |
+Le Microscope Leica DM6 B, est un microscope optique à fluorescence est basé sur des cubes de filtres optiques, permet de déterminer la distribution d'une seule molécule, sa quantité et sa localisation à l'intérieur d'une cellule. Donc grâce au phénomène fluorescence le Leica DM6B a une grande sensibilité et une haute spécificité.
+Caractéristiques techniques
+•Le Leica DM6 B permet de sélectionner l'éclairage LED, les techniques de contraste ou l'automatisation.
+•Le Leica DM6 est conçu pour les caméras SCMOS en présentant un nouveau port de caméra à champ de vision de 19 mm
+•Mise au point : Mécanique & Motorisée.
+•Platine : Motorisée.
+•Éclairage par transmission : LED ou halogène.
+•Méthodes de contraste (lumière transmise): BF, PH, DF,
+POL, DIC.
+•Éclairage en fluorescence : LED ou EL6000 (métal halides).
+Domaine d’application
+•Contrôler la qualité et la sécurité alimentaire.
+•Analyse qualitative et quantitative des éléments dans les aliments.
+•Contrôler les médicaments vétérinaires (antibiotiques).
+•Contrôler la matière première et la stabilité des médicaments.
+•Identification et dosage des molécules principe actif et excipient.
+•Recherches des impuretés chirales et les substances apparentées.
+•La fécondation in vitro; Bio-ingénierie; La biologie;
+•Médecine légale; Minéralogie.
+|
+| Fours tubulaires rotatifs en verre ou céramique pour procédés discontinus |
+F-Tub 1-Lagh/2018 |
+Description
+Caractéristiques techniques
+•Modèle porte à : RSRC 120-1000/13.
+•Tmax (°C ) : 1300.
+•Ø de tube extérieur en mm : 110.
+•Longueur chauffée en mm : 1000.
+•Longueur de tube en mm : 2040.
+|
+| Four à moufle |
+F-Mouf-Lagh/2018 |
+Caractéristiques techniques
+•Modèle porte à : L 40/12.
+•Tmax (°C ) : 1200.
+•Volume (L) : 40.
+De 0 à Tmax (minutes) : 110
+|
+| Potentiel zêta DLS |
+DLS-Lagh/2018 |
+Description
+Analyseur de nanoparticules, c'est une analyse très avancée résout les mystères du nanomonde. Un seul appareil analyse les trois paramètres qui caractérisent les nanoparticules: la taille des particules, le potentiel zêta et le poids moléculaire.
+les trois analyses dans un seul corps compact consacré à une analyse de la haute sensibilité et de la haute précision de chaque paramètre de mesure.
+Caractéristiques techniques
+Segment: Scientific
+Division: Caractérisation du Particule
+Manufacturent Compagnie: HORIBA, Ltd.
+•Plage de mesure de la taille des particules 0,3 nm à 10 µm;
+•Mesure du potentiel zêta - 500 à + 500 mV;
+•Poids moléculaire 1 × 103 à 2 × 107 Da.
+Domaines d’application
+•notamment l'alimentation;
+•les cosmétiques;
+•les sciences de la vie.
+|
+| Rota-vapeur |
+Rota-Lagh/2018 |
+Description
+Modèle : DLAB RE100 Pro
+Application :
+•Synthèse Générale.
+|
+| Chaîne électrochimique (potentiostat) |
+Poten-Lagh/2018 |
+Le PGSTAT128N, l'entrée de gamme de la famille d'appareils modulaires Autolab, est un potentiostat / galvanostat pour courant faible, silencieux, rapide et capable de mesurer 800 mA maximum sous une tension disponible de 12 V. Le PGSTAT128N est une option haute performance peu coûteuse pour des mesures électrochimiques dans des petites cellules
+Caractéristiques techniques:
+Bande passante maximale en Hz: 500 k
+Courant maximal en ampère: ± 0.8
+Exactitude du potentiel et du courant: V: ± 0.2% ± 2 mV et i: ± 0.2% ± 0.2% de la gamme actuelle
+Gamme de potentiel en volt: -10 V to 10 V
+Nombre de gammes de courant, remarques: 10nA to 1 A
+Résolution du courant: 0.0003% de la gamme actuelle
+Résolution du potentiel: 3 µV (gain 100).
+Conçu pour des applications en électrochimie d'une grande variété, de la mesure de la corrosion à la caractérisation d'appareils de stockage d'énergie, cet instrument à petit budget est le choix idéal pour des applications électrochimiques où la performance joue un rôle important. Vous pouvez personnaliser et augmenter les capacités de votre PGSTAT128N en lui ajoutant un ou plusieurs modules ou accessoires proposés en option.
+|
+| Conductivité thermique |
+Condu-Lagh/2018 |
+Description
+Le Hot Disk TPS 1500 abordable est le conductimètre thermique idéal pour tester les matériaux de construction, les matériaux isolants ou tout autre type de grands échantillons en vrac. Le TPS 1500 partage la qualité, la robustesse et la simplicité de fonctionnement de la référence TPS 2500 S et répond à la norme ISO 22007-2.
+Caractéristiques techniques
+•Capteurs : Le TPS 1500 exploite une sélection de capteurs Hot Disk.
+•Contrôle de la température : Les mesures du température (isothermes) sont faciles à effectuer à l'aide d'un four externe en option ou d'un bain à circulation à température contrôlée.
+•Tout pour commencer (configuration de base du TPS 1500) : un logiciel avec un module isotrope standard, un capteur, des échantillons de vérification en acier inoxydable et un porte-échantillon à température ambiante.
+•Modules logiciels en option : les modules standard isotopique, unidimensionnel, modules optionnels pour les échantillons anisotropies, la capacité thermique spécifique, bas-Density, hautement isolant sont disponibles.
+Domaines d’application
+•Conductivité thermique : 0,01 à 400 W / m / K.
+•Diffusivité thermique : 0,01 à 100 mm² / s.
+•La capacité thermique spécifique Jusqu’à : 5 MJ / m³K.
+•Temps de mesure : 20 à 5120 secondes.
+•Reproductibilité Généralement mieux que : 1%.
+•Précision Mieux que : 5%.
+•Écart de température : -50 ° C à 750 ° C.
+•Instrument de base Ambiant : Jusqu'à 750°C (Avec four), -35°C à 200°C (Avec circulateur).
+•dimensions de l' échantillon : 3mm×13mm pour (les tests en vrac), 20mm×7mm pour (les essais unidimensionnels).
+•capteurs : Kapton, Capteurs mica, Capteurs téflon.
+|
+| Ultra Pure |
+Ultra-Lagh/2018 |
+•Modèle : adrona B30
+•Volumétrique dispense : 9 L
+Application :
+•Préparation l’ échantillons;
+•Nettoyage
+|
+| Machine de polissage |
+Polis-Lagh/2018 |
+•Modèle : Struers Laboforce 100.
+Points forts :
+•Conception robuste,
+•Réceptacle elliptique avec anneau anti éclaboussure,
+•Durabilité,
+•Très pratique pour l'opérateur,
+•Adaptable selon l'évolution des besoins.
+|
+| Machine de polissage électrochimique |
+Polis-électro-Lagh/2018 |
+Description
+•Modèle : Struers Lectropol 5.
+Points forts :
+•Fonction de scanning,
+•Base de données de méthodes,
+•Facile d'emploi,
+•Reproductibilité maximale.
+|
+| Lyophilisateur |
+Lyo-Lagh/2018 |
+Description
+C'est une méthode de dessiccation sous vide, à basse température, de produits liquides préalablement congelés. La lyophilisation consiste en l'élimination progressive de l'eau du produit préalablement congelé (phase solide) par passage à la phase vapeur, sans passer par la phase liquide. Ce changement d'état s'appelle la sublimation.
+Caractéristiques techniques
+Marque: CHRIST-Alpha 2-4 LSCbasic
+Capacité du condenseur: 4 kg
+Performance du condenseur: 4 kg/24 h
+Température du condenseur: -85 °C
+Domaines d’application
+•Produits pharmaceutiques;
+•Sérum sanguin;
+•Séchage des aliments;
+•Séchage des herbes;
+•Préservation des caractéristiques de substances (ex. produits pharmaceutiques..);
+•Préservation de la forme initiale (ex. préparations animales, objets archéologique..);
+•Conditionnement de produits (ex. fruits lyophilisés dans les yaourts..);
+•Préparation d’échantillons pour des analyses chimiques ou biochimiques.
+|
+| Tranconeuse |
+Tran-Lagh/2018 |
+Description
+•Modèle : Struers Labotom 5.
+Points forts :
+•Pupitre de commande simple,
+•Grande table de tronçonnage,
+•Bras de tronçonnage ergonomique,
+•Verrou de sécurité,
+•Pistolet de rinçage,
+•Forte inclinaison dans le compartiment de tronçonnage,
+•Éclairage LED puissant,
+•Meule de tronçonnage d'un diamètre de 250 mm (10") (Labotom-5).
+|
+| Extrudeuse bi-vis |
+ext-bivis-lagh/2018 |
+Description
+Notre plateau technique contient deux machines extrudeurs mono-vis et bi-vis du la marque scamex, ces dernières permettent de transformer les matières premières amylacées et protéiques selon un processus continu comportant de l'alimentation à la filière: une section d'alimentation caractérisée par une capacité élevée de transport des matières premières solides et particulaires.
+Domaines d’application
+Dans le procédé d’extrusion bi-vis, les matières premières peuvent être à l’état solide (poudres, granulés, farines), liquide (polymères fondus, pâtes) et éventuellement gazeux. Les produits extrudés peuvent être des matériaux plastiques, des matériaux composites, des polymères chimiquement modifiés, des produits alimentaires texturés, des ingrédients fonctionnels, des pâtes à papier, etc.
+|
+| Extrudeuse mono-vis |
+Ext-Monovis-Lagh/2018 |
+Description
+Notre plateau technique contient deux machines extrudeurs mono-vis et bi-vis du la marque scamex, ces dernières permettent de transformer les matières premières amylacées et protéiques selon un processus continu comportant de l'alimentation à la filière: une section d'alimentation caractérisée par une capacité élevée de transport des matières premières solides et particulaires.
+Domaines d’application
+Dans le procédé d’extrusion bi-vis, les matières premières peuvent être à l’état solide (poudres, granulés, farines), liquide (polymères fondus, pâtes) et éventuellement gazeux. Les produits extrudés peuvent être des matériaux plastiques, des matériaux composites, des polymères chimiquement modifiés, des produits alimentaires texturés, des ingrédients fonctionnels, des pâtes à papier, etc.
+|
+| Spectrometer FT-IR |
+FTIR-Lagh/2021 |
+Description
+L'INVENIO convient parfaitement à tous les scénarios nécessitant une sensibilité élevée, une grande résolution spectrale ou temporelle, une très bonne stabilité et une flexibilité importante. Améliorez votre expérience analytique quotidienne dans tous les domaines d'applications industriel ou de recherche.
+Caractéristiques techniques
+Couvre toute la gamme spectrale de l'infrarouge lointain, moyen et proche IR au VIS/UV • Mesure plus de 70 spectres à la seconde @16 cm-1 de résolution avec le Rapid-Scan • Utilise le Step-Scan pour des mesures résolues dans le temps inférieures à la nanoseconde • Nouveau trajet optique pour un meilleur rapport signal sur bruit • Jusqu'à 7 détecteurs internes contrôlés par le logiciel • Large choix d'accessoires pour tous types d'échantillons • Electronique précise pour une meilleure qualité spectrale
+Domaines d’application
+Contrôle qualité : Identification de contaminants inconnus • Produits pharmaceutiques et sciences de la vie : Différencier les différents polymorphes des principes actifs. • Caractérisation des matériaux : Caractérisation des matériaux optiques. • Polymères & Chimie : Identification des charges inorganiques, Analyse multicouches, FT-Raman pour diverses d’application. • Semi-conducteurs : Détermination de la teneur en Carbone et Oxygène dans les wafers de Silicium, Mesure de photoluminescence dans la gamme spectrale du Proche IR
+|
+| Spectromètre FT NIR AMP II |
+FTNIR-Lagh/2021 |
+MPA II : L'analyseur polyvalent FT-NIR Le MPA II est un outil puissant pour développer des méthodes d'étalonnage sophistiquées pour vos besoins de laboratoire ou de processus, mais un instrument d'AQ/CQ facile à utiliser pour les travaux de routine
+MPA II : L'analyseur polyvalent FT-NIR Le choix de la meilleure méthode d'échantillonnage possible est crucial lors de la résolution d'une tâche d'analyse spécifique. Avec le MPA II, vous disposez d'une solution complète pour votre travail quotidien d'AQ/CQ, mais aussi pour les études de développement de méthodes sophistiquées. Au début, il n'est souvent pas évident de savoir quelle méthode d'échantillonnage est la meilleure. Avec le MPA II, essayez simplement plusieurs méthodes et choisissez celle qui vous convient le mieux. Les possibilités sont infinies et, grâce à la conception modulaire du MPA II, l'instrument peut facilement être adapté à vos besoins. La robustesse de l'instrument lui permet d'être utilisé en laboratoire et en usine.
+Domaines d’application Nos produits et solutions répondent aux besoins en évolution rapide d'un large éventail de clients dans les domaines de la recherche en sciences de la vie, des produits pharmaceutiques, de la biotechnologie, des marchés appliqués, de la biologie cellulaire, de la recherche clinique, de la microbiologie, du diagnostic in vitro, de la nanotechnologie et de la recherche en science des matériaux.
+|
+| Efficacité Quantique systèmes et systèmes de mesure PTS-EQE |
+Effi-Lagh/2022 |
+Description
+SCIENCETECH conçoit et fabrique différentes variantes de systèmes de test photovoltaïques (PTS) pour la mise en œuvre de différentes méthodes expérimentales. SCIENCETECH conçoit et fabrique des instruments et des composants de spectroscopie optique modulaires depuis plus de 30 ans. Ils sont largement utilisés dans le monde entier dans les laboratoires de recherche, les universités et les entreprises. Les instruments SCIENCETECH sont conçus pour les chercheurs et disposent de commandes entièrement réglables pour une flexibilité de recherche.
+Caractéristiques techniques
+• Gamme spectrale 250 à 2500nm. • Puissance lumineuse monochromatique jusqu'à 125 Mw. • Source de mesure (Keithley 2400). • Amplificateur variable de la série Stanford SR800. • Tension de polarisation sélectionnable par l'utilisateur. • Chambre de mesure étanche à la lumière. • Capacité de mesure en mode DC.
+Domaines d’application
+Ce produit pourrait être utilisé pour les applications suivantes : • Mesure intraveineuse. • Mesure de réponse spectrale (SR). • Mesure du rendement quantique externe (EQE)/du photon incident au rendement actuel (IPCE). • Mesure de l'efficacité quantique interne (IQE).
+|
+| Coucheuse à Fonte |
+Couch-Fonte-Lagh/2022 |
+Température maximale de la plaque : 120°C Longueur de déplacement de l’étage : 100 mm Vitesse d’étape minimale : 100 µm.s-1 Vitesse de scène maximale : 50 mm.s-1 Distance maximale de déplacement de la tète au substrat
+|
+| Coucheuse par centrifugeuse |
+Couch-Centri-Lagh/2022 |
+Description
+Vitesse de stabilité <2% d’erreur Vitesse de rotation 120 à 6000 rpm Temps de rotation 1-1000 S
+|
+| Nettoyant à l’ozone UV |
+Net-UV-Lagh/2022 |
+Description
+Type de lampe UV lampe à grille UV à quartz Synthétique longueurs d’onde dominantes de la lampe UV 185 nm 254 nm Durée d’exécution maximale 59 min 59 s
+|
+| Coucheuse par trempage |
+Couch-Trem-Lagh/2022 |
+Taux de retrait minimum et maximum 0,01 mm/s – 50 mm/s Distance de déplacement maximale 100 mm Nombre maximale de cycles 1000 cycles Durée maximale de la minuterie 99:59:59
+|
+| Sonde à quatre points |
+sond-Lagh/2022 |
+Plage de tension ±100 µV à ± 10 V Plage de courant ±1 µA à ± 10 Ma Plage de résistance de feuille 100 mῺ/□? à 10 MῺ/□? (ohms par carré)
+|
+| Système de durée de vie pour OLED |
+Sys-OLED-Lagh/2022 |
+Source de tension ± 333 µV à ± 10 V Mesure de courant ±10 nA à ± 200 mV Taille de substrat 20 mm * 15 mm
+|
+| Système de test I-V de cellule solaire |
+Sys-Sol-Lagh/2022 |
+Source de tension ± 333 µV à ± 10 V Mesure de courant ± 10 nA à ± 200 mA Taille du substrat (20*15) à (25*25)
+|
+| Unité de mesure et de source |
+Unité-Lagh/2022 |
+Source de tension ±10 V à ± 10 mV Mesure de courant ±20 µA à ± 200 mA
+|
+| Fours tubulaires haute température avec chauffage à barreaux (SiC) sous gaz ou sous vide |
+F-Tub 2-Lagh/2018 |
+Description
+Caractéristiques techniques
+•Modèle porte à : RHTC 80-710/15.
+•Tmax (°C ) : 1500.
+•Ø de tube extérieur en mm : 80.
+•Longueur chauffée en mm : 710.
+•Longueur de tube en mm : 1080.
+|
+| Bain marie à ultrasons |
+B-ult-Lagh/2019-1 |
+Description
+Bain marie à ultrasons • Modèle : Elmasonic P. • Type : Paillasse • Fonction : 3 modes degas, sweep, pulse.
+Application : • HPLC, • Industrie, • Préparation d’échantillons • par ultrasons,
+|
+| Centrifugeuse |
+CEN-Lagh/2019-1 |
+• Modèle : sigma 3-16KL • Volume : 1600 ml • Vitesse Max :15.300 min-1 • FCR : 21.913 x g • Centrifugeuse de paillasse réfrigérée, rotors oscillants, rotors à angle fixe, PCR, plaques de micro titrage En option : chauffage, gaz inerte
+Application : • biologique ;pharmaceutique ; chimique
+|
+| PH-mètre/EC |
+PH-M-Lagh/2017-1 |
+Description
+Modele : Hanna HI5120 Type : Paillasse Precision pH : +/-0.002 Application : PH, Conductivite
+|
+| Balance Analytiques EXPLORER EX225AD |
+BL-Lagh/2017-1 |
+Balance Analytiques EXPLORER EX225AD
+Portée maximum : 220g • Précision d’affichage : 0.01mg
+Applications : Pesage, comptage de pièces ,pesage en %, pesage de contrôle ,pesée d'animaux/pesage dynamique ,remplissage, totalisation/statistiques, formulation, pesée différentielle, détermination de la masse volumique, maintien du pic, calcul du coût des ingrédients, réglage des pipettes, SQC, statistiques
+|
+| Sonificateur à Ultrason |
+SONI-Lagh/2017-1 |
+Sonificateur à Ultrason • Modèle : VC505 • Affichage : Numérique (Watts et Joules) • Fréquence (kHz): 20 • Puissance de sortie max. (W) : 500 • Volume d'échantillon : • 10 ml à 250 ml • avec une sonde standard • Minuterie : 1 s - 10 h Application : préparation des échantillons, l'homogénéisation,
+|
+| Métalliseur |
+META-Lagh/2018 |
+Mini sputter coater - pompe rotative SC7620 de Quorum Technologies Le Mini Sputter Coater SC7620 est un appareil manuel à faible coût pour la pulvérisation de métaux précieux (Au, Au / Pd) et la décharge luminescente. Un accessoire en fibre de carbone est facultatif pour déposer une fine couche de carbone pour la spectroscopie à rayons X à dispersion d'énergie. L'option de revêtement en fibre de carbone est utilisée pour le revêtement d'échantillons pour l'analyse EDX ou WDX. Le carbone est un conducteur électrique relativement médiocre, ce qui présente l'avantage qu'un seul pic d'élément est créé à gauche des "éléments légers", ce qui empêche le chevauchement.
+Caractéristiques techniques • Chambre à vide Ø 10 cm / 13,5 cm de hauteur. • Tête magnétron pour "revêtement de spécimen à froid", cible de disque
+Courant de pulvérisation réglable au moyen d'une vanne à pointeau d'argon • Platine d'échantillonnage réglable en hauteur pour un revêtement optimal • Décharge luminescente par inversion des pôles pour modification de surface (hydrophile / hydrophobe) • Minuterie de 3 minutes, incréments de 15 secondes • incl. cible or-palladium, tuyau d'aspiration 1 m, bride de tuyau et clip • Option: revêtement en fibre de carbone
+Domaines d’application • Dépôt de couche conductrice • Les enduits par pulvérisation sont utilisés pour déposer une fine couche métallique sur la surface d'un substrat. • La pulvérisation cathodique est utilisée en microscopie électronique pour déposer un film électriquement conducteur sur des surfaces non conductrices, pour empêcher les électrons du faisceau d'électrons du microscope de s'accumuler sur la surface de l'échantillon, provoquant la charge de ce dernier. • Une telle charge empêcherait l'imagerie de ces surfaces avec le SEM. • Les films souhaités doivent être extrêmement minces, mais électriquement conducteurs, d'une épaisseur de 3 à 20 nm
+|
+| Micro-onde (MILESTONE) |
+MIC-ON-Lagh/2019-1 |
+Description
+Caractéristiques techniques
+Une grande cavité permet aisément aux chimistes de configurer des réactions nombreuses et variées dans un environnement très flexible. Des accessoires en verrerie classique jusqu'à des enceintes sous pression en mono réaction ou réactions parallèles sont disponibles. De plus, la mono cavité de grande capacité permet aussi des opérations de synthèse en phase solide. Le flexiWAVE est équipé de 2 magnétrons de 950W pour une puissance totale de 1900W, la plus élevée du marché pour des synthèses organiques et inorganiques.
+Réactions finalisées en minutes au lieu d'heures * Sélectivité améliorée * Rendements augmentés * Réduction de la formation de sous-produits et de la contamination des échantillons, * Consommation énergétique réduite, * Diminution de la quantité d'échantillons nécessaire,
+Domaines d’application • Industrie biotechnologie • chimie verte • chimie médicinale • pharmaceutique • fabrication nanomatériaux • développement médicament • réaction solvant • synthèse organique
+|
+| Autoclave RAYPA AE-DRY |
+AUT-Lagh/2017 |
+Description
+Caractéristiquestechniques
+Fonction de séchage sous vide final par une enveloppe chauffante et une pompe à vide pour sécher complètement les charges solides. Chambre de stérilisation et couvercle en acier inoxydable AISI-316L de haute qualité extrêmement résistant à la corrosion. Équipement construit conformément à toutes les normes de qualité, de réglementation et de sécurité applicables de l'Union européenne. Chauffage assuré par de puissantes résistances électriques en Incoloy 825 assemblées à l'intérieur de la chambre de stérilisation et blindées par une grille de protection. Contrôle par un microprocesseur PID avec 4 programmes prédéfinis et 6 programmes modifiables, avec régulation du temps, de la température, du temps de séchage et du type de cycle de stérilisation (solides ou liquides, avec en option mode Agar et/ou contrôle par sonde à cœur). Modèles spéciaux disponibles avec puissance augmentée pour obtenir des phases de chauffage et de stérilisation plus rapides.
+Domaines d’application
+Les autoclaves de la série AE-DRY sont destinés à la stérilisation d'une large gamme de liquides et de solides tels que les milieux de culture, la verrerie, les plastiques, les équipements métalliques, les sacs de déchets de laboratoire et autres articles de laboratoire. De plus, grâce à l'impulsion de pré-vide initiale standard et au post vide fractionné avec séchage, les autoclaves de la série AE-DRY conviennent également pour stériliser les solides emballés et non emballés, les petits objets poreux et creux.
+|
+| Congélateur Trust -86°C |
+Cong-Lagh/2021 |
+Sécurité des échantillons : La préservation des échantillons a été la considération clé dans le développement de nos produits. Le Trust Freezer a été développé pour le stockage à long terme des échantillons. Performances du congélateur ULT : la priorité a été donnée à une récupération rapide de la température sans compromettre la consommation d'énergie. Interface intuitive et claire : Grâce à son affichage au niveau des yeux, la gamme Trust vous informe en continu du bon fonctionnement du congélateur et des éventuelles alarmes.
+Caractéristiques techniques
+Description du produit • Volume brut du congélateur 515 L / 18,1 pi.cu. - 3 compartiments • Capacité de stockage 36 000 cryotubes 2mL • Conductivité thermique < 0,005 W/m/K • 4 heures pour descendre de +20°C à -80°C88 cm • Puissance 1500W • Plage de température De -60°C à -86°C, affichage 1/10e degré • Certification de Conformités (EN61010-1) : Exigences de sécurité pour les équipements électriques de mesure, de contrôle Surveillance active de vos échantillons • La gamme TRUST a été créée pour une sécurité maximale, grâce à une conception robuste– le système de production de froid le plus fiable du marché : deux compresseurs en cascade. • Réactivation automatique du buzzer en cas d'alarme longue. • Mode dégradé : en cas de rupture de la sonde de température, le congélateur se met en alarme et produit du froid en continu. • Système boss (en option).
+|
+| etuve |
+etuve-lagh/2022 |
+gamme de température réglable :
+20 jusqu'à 300°C
+|
+| aminicisseur ionique |
+amini.ion-lagh/2021 |
+instrument pour échantillons de MET de dernière génération
+|
+| système de polissage concave |
+sys.poli.con-lagh/2021 |
+appareil d'amincissement concave par abrasion mécanique pour disque 3 mm.
+|
+| système de Cryo Ultramicrotome |
+sys.cryo-lagh/2021 |
+|
+| tronçonneause de précision |
+tron.précis-lagh/20121 |
+tronçonneause de paillasse très performante liant la précision avec la flexibilité et la convivialité.
+la vitesse d'avance peut étre préréglée et controlée dans une plage de 0.005-3 mm/s
+|
+| citoPress-5 ( enrobeuse) |
+enro-lagh/2021 |
+Description
+cycle d'enrobage automatique avec une interchangeabilité facile des moules d'enrobages.
+temps de refroidissement de 1-15 min échelon de 05 min.
+trois niveaux de refroidissement prédéfinis (élevé/moyen/faible).
+|
+| distillateur |
+distil-lagh/2021 |
+réservoir: 16L.
+débit: 8L/H
+|
+| réfractomètre |
+réfracto-lagh/2022 |
+Description
+échelles:
+-indice de réfraction 1.32-1.42
+-sucre(°Brix) 0-54
+résolution:
+-indice de réfraction 0.0001
+-sucre(°Brix) 0.1
+justesse:
+-indice de réfraction +- 0.0001
+-sucre(°Brix) +-0.1
+mesure de la plage de température 5-80°C
+|
+| tamiseuse |
+tami-lagh/20121 |
+Description
+gamme de tamisage : 20µm à 125 mm.
+poids max de l'échantillon: 3kg
+|
+| broyeur |
+broy-lagh/2021 |
+Description
+-broyage, mélange et trituration - à l'état sec et humide.
+-finesse finale < 10µm suivant l'échantillon.
+-granulomètre initiale < 8 mm.
+-volume de l'échantiollon : 10 à 190 ml.
+vitesse 100 tr/min
+|
+| système automatisé d'évaporation de solvant |
+sys.auto.évap-lagh/2021 |
+Description
+plage de température du bain marie: ambiante à 90°C.
+le système peut fonctionner avec un gaz inerte.
+|
+| congélateur |
+congé-lagh/2021 |
+|
+| polarimeter |
+polari-lagh/2022 |
+Description
+dugrés angulaire (°A) -355 à +355
+échelle internationale du sucre (°Z) -225 à +225
+précision :
+dugrés angulaire (°A) +-0.002
+gamme de température 5 à 40°C
+résolution:
+dugrés angulaire (°A) échelle internationale du sucre (°Z) : 0.01/0.001 (sélectionnable)
+|
+| viscosimeter capillaire automatique |
+vis.cap-lagh/2022 |
+Description
+plage de temps jusqu'à 9.999,s
+plage de temperature d'échantillon: -20 à 150°C
+|
+| Conductivité thermique |
+Condu-Lagh/2018 |
+Description
+Le Hot Disk TPS 1500 abordable est le conductimètre thermique idéal pour tester les matériaux de construction, les matériaux isolants ou tout autre type de grands échantillons en vrac. Le TPS 1500 partage la qualité, la robustesse et la simplicité de fonctionnement de la référence TPS 2500 S et répond à la norme ISO 22007-2.
+Caractéristiques techniques
+•Capteurs : Le TPS 1500 exploite une sélection de capteurs Hot Disk.
+•Contrôle de la température : Les mesures du température (isothermes) sont faciles à effectuer à l'aide d'un four externe en option ou d'un bain à circulation à température contrôlée.
+•Tout pour commencer (configuration de base du TPS 1500) : un logiciel avec un module isotrope standard, un capteur, des échantillons de vérification en acier inoxydable et un porte-échantillon à température ambiante.
+•Modules logiciels en option : les modules standard isotopique, unidimensionnel, modules optionnels pour les échantillons anisotropies, la capacité thermique spécifique, bas-Density, hautement isolant sont disponibles.
+Domaines d’application
+•Conductivité thermique : 0,01 à 400 W / m / K.
+•Diffusivité thermique : 0,01 à 100 mm² / s.
+•La capacité thermique spécifique Jusqu’à : 5 MJ / m³K.
+•Temps de mesure : 20 à 5120 secondes.
+•Reproductibilité Généralement mieux que : 1%.
+•Précision Mieux que : 5%.
+•Écart de température : -50 ° C à 750 ° C.
+•Instrument de base Ambiant : Jusqu'à 750°C (Avec four), -35°C à 200°C (Avec circulateur).
+•dimensions de l' échantillon : 3mm×13mm pour (les tests en vrac), 20mm×7mm pour (les essais unidimensionnels).
+•capteurs : Kapton, Capteurs mica, Capteurs téflon.
+|

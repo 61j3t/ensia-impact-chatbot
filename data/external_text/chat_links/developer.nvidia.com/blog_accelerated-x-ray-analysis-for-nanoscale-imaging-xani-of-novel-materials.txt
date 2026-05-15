@@ -1,0 +1,105 @@
+[Source: https://developer.nvidia.com/blog/accelerated-x-ray-analysis-for-nanoscale-imaging-xani-of-novel-materials]
+[Title: Accelerated X-Ray Analysis for Nanoscale Imaging (XANI) of Novel Materials | NVIDIA Technical Blog]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:05:59+00:00]
+
+A massive-scale X-ray free-electron laser (XFEL) enables tracking structural and electron dynamics in novel systems, including fusion materials, semiconductors, batteries, and catalysis. It produces ultrashort X-ray pulses that can record the movements of atoms and electrons. These instruments can detect the smallest change in material structure caused by defects and other influences. The high repetition rate of these bright X-ray bursts can reach up to 1 million shots per second with 35-million-pixel cameras.
+The acquired multidimensional datasets contain rich physical information about the fastest microscopic movements of electrons and atoms, which can help identify defects in materials. Processing and analyzing these datasets to extract the physics has conventionally required more than nine months of computational time.
+XFEL research facilities include SwissFEL in Switzerland, Spring-8 Angstrom Compact free-electron Laser (SACLA) in Japan, Linac Coherent Light Source (LCLS-II) at SLAC, European XFEL in Germany, and Pohang Accelerator Laboratory (PAL) in Korea.
+This post highlights new technical breakthroughs of the Accelerated X-ray Analysis for Nanoscale Imaging (XANI) workflow. The NVIDIA team demonstrated on characterization of quantum materials to reconstruct the phonon dispersion from ultrafast femtosecond laser pump/hard X-ray probe experiments.
+Specifically, the team accelerated the XANI workflow and compressed the computational time to process and analyze 42 terabytes (TBs) of data shrinks from nine months to less than four hours on 32 NVIDIA GB200 Grace Blackwell Superchips, while preserving the same precision of acquired data. The XANI project has been adopted by different communities, from quantum physics to materials chemistry, demonstrating the ability of CUDA Python and distributed computing to accelerate scientific discoveries.
+What are the challenges of single-node Python for exascale science?
+Massive-scale XFEL facilities can operate up to megahertz (MHz) rates and generate hundreds of TBs to petabytes (PBs) of data. This massive volume of data must be processed and analyzed in real time to steer scientific experiments and accelerate discovery.
+Traditional CPU-bound pipelines require significant manual parameter tuning and subsampling, often only processing 10% of a dataset during an experiment. For high-resolution imaging of new phases in quantum materials, the computational cost of nonlinear fitting and 3D reconstruction previously relegated analysis to the post-experiment phase. A single experiment could require nine months of computational time.
+How does XANI accelerate numerical computation and I/O performance?
+From the originally vectorized NumPy and SciPy, the NVIDIA team accelerated the XANI workflow 43x on a single GPU on a GB200 Grace Blackwell Superchip and 1,000x on 64 GPUs. As a result, the computational time to process and analyze 42 TBs of data shrinks to less than four hours, while preserving the same precision of acquired data.
+To achieve this improvement, new cuPyNumeric libraries were developed, including LMFIT and multithreaded Hierarchical Data Format 5 (HDF5). These libraries further improve GPU utilization for numerical computation and 165x acceleration in I/O throughput with GPUDirect Storage (GDS) and multithreaded HDF5.
+What are the benefits of XANI architecture?
+XANI facilitates migrations from a CPU-orchestrated workflow to a GPU-centric distributed model using cuPyNumeric. This approach enables live-feedback and automated experimental steering by minimizing the time-to-solution for high resolution X-ray material characterization. Figure 2 shows XANI workflow orchestration. The new non-linear least-squares minimization and curve-fitting-based implementation directly minimizes the least-squares residual of a physically motivated damped cosine model, yielding lower-fit residuals and per-pixel frequency refinement.
+High throughput I/O for complex multidimensional data with GPUDirect Storage
+The XANI application stores and accesses data in HDF5 format. cuPyNumeric supports loading HDF5 datasets into memory, distributing data across parallel tasks running in many GPUs. Through extensive experimentation on the latest GPUs and high-performance Lustre storage systems, three critical optimizations were performed to achieve peak I/O performance: GDS, multithreaded HDF5, and data layout (details to follow).
+Speedups of up to 165x were achieved; specifically, 76 GB/second on one node and two GB200 Grace Blackwell Superchips, and 700 GB/second on 16 nodes and 32 GB200 Grace Blackwell Superchips.
+For example:
+from legate.io.hdf5 import from_file
+data = from_file("/path/to/file.h5", "dataset_name")
+Figure 4 compares the optimized results on a GDS-enabled cluster against the initial baseline from a non-GDS cluster with similar storage bandwidth. Read throughput scales across 16 nodes for two cluster configurations: an optimized accelerated computing setup (two GB200 Grace Blackwell Superchips, 186 GB HBM3e; four 200 Gb/s storage NICs; four 400 Gb/s compute NICs; two 480 GB RAM, with GDS) and a baseline NVIDIA H100 setup (eight NVIDIA H100 80 GB GPUs, 2 TB RAM, two 400 Gb/s storage NICs, without GDS).
+GDS
+GDS offers a new storage technology that enables data to be read into the GPU bypassing the host CPU and memory. HDF5 supports GDS through the vfd-gds
+plugin, which uses the GDS cuFile library to read data directly into GPU memory, bypassing the host. This eliminates the overhead of staging data through host memory and issuing a separate device copy. GDS consistently demonstrates higher throughput than conventional POSIX reads that go through the CPU host.
+Fully utilizing GDS on modern clusters requires tuning cuFile configuration parameters to enable higher read parallelism. Default cuFile settings are often conservative and leave significant bandwidth on the table when targeting high-performance Lustre file systems.
+Multithreaded HDF5
+To date, the HDF5 library remains single-threaded. When an application issues parallel read calls from multiple threads, the library serializes them internally. Specifically:
+- cuFile breaks a single HDF5 read into multiple subrequests. However, only one HDF5 read activates at a time, which severely limits the effective I/O concurrency.
+- The resulting serialized read stream is typically insufficient to saturate high-performance Lustre file systems, which are capable of sustaining hundreds of GB/s.
+To address this bottleneck, we developed multithreading support for HDF5 and integrated it with cuPyNumeric. This work is currently available in a public branch and is actively being prepared for merge into the HDF5 main branch.
+Data layout
+Data should be read in a manner consistent with its on-disk HDF5 layout. Without this alignment, the reads become small and nonsequential for datasets with many dimensions, which severely degrades throughput.
+cuPyNumeric was improved to tile data along the slowest-varying dimension, which enables efficient multidimensional reads that account for standard HDF5 data layouts. This includes contiguous, chunked layout, and virtual datasets (VDS). We opted to use VDS data layout with many source files to facilitate higher read parallelism. It is also important to keep the data layout in disk in a way that doesn’t hinder optimized reads.
+Distributed computation with cuPyNumeric
+cuPyNumeric serves as the distribution engine for XANI by partitioning arrays across a cluster’s aggregate memory. In addition to providing NumPy and SciPy APIs, it serves as a library for large-scale distribution of NumPy-based applications.
+This design keeps the high-level pipeline code simple—a single function call replaces hundreds of manual task submissions—while giving cuPyNumeric full visibility into data dependencies for automatic scheduling and load balancing across GPUs.
+Distributed partitioning
+By updating the import from numpy
+to cupynumeric
+, the runtime proactively builds a task dependency graph to parallelize operations across nodes. The library translates NumPy calls into tasks, which handle data movement and kernel execution asynchronously. The computational workflow is detailed in the following sections, including implicit parallelism, data partition, and task overlap (Figure 4).
+# Transitioning to distributed memory architecture
+import cupynumeric as np
+from legate.io.hdf5 import from_file
+# Array is logically contiguous but physically partitioned across the cluster
+raw_frames = num.array(from_file("lcls_detector_data.h5", 'r'))
+# Reductions are performed via distributed tree-reduction algorithms
+# This executes across multiple GPUs/nodes without manual MPI code
+intensity_map = np.sum(raw_frames, axis=0)
+Explicit parallelism: tiled_task for specialized kernels
+In the XANI pipeline, signal detection requires fitting damped oscillations to each detector pixel—a nonlinear least-squares problem. We replaced a sequential SciPy-based solver with a batched GPU implementation (JAXfit) that runs the Levenberg-Marquardt (LM) algorithm entirely on the GPU, fitting all pixels in a tile simultaneously in a single batched solve.
+To integrate this with cuPyNumeric, use the tiled_task API, which automatically partitions large detector arrays across available GPUs and dispatches one GPU task per spatial tile. Each task receives its slice of the detector data as a native CuPy array—no explicit data movement or manual scatter/gather. The time-delay axis is broadcast to all tiles, while the spatial (height times width) dimensions are partitioned:
+@tiled_task(partitioned_dims=("i", "j"), primary_array="onn")
+def roi_task_cp(
+# Broadcast: All tiles see the full time axis
+delay: Input(cupy.ndarray, partitioning=None),
+# Partitioned: Each tile gets its unique 16×16 slice
+onn: Input(
+cupy.ndarray,
+partitioning=(None, "i", "j"),
+tile_dims=(None, 16, 16)
+),
+# Results are written back to the sharded output array per tile
+amp_out: Output(
+cupy.ndarray,
+partitioning=("i", "j", None),
+tile_dims=(16, 16, None)
+),
+...
+):
+# Inside the task, arrays are already local CuPy instances.
+# We can run the batched LM solver directly on the GPU.
+fits, _, freq_lis, amp_lis, ... = jaxfit_linearpred(
+onn, delay, amp_threshold, ...
+)
+# A single call triggers the cuPyNumeric runtime to schedule
+# one GPU task per 16×16 tile across the entire cluster.
+roi_task_cp(
+onn=detector_on,
+delay=delay_axis,
+amp_out=amp_all,
+tile_shape=(16, 16)
+)
+Figure 5 shows the cuPyNumeric distributed execution flow based on implicit data partitioning and communication. Data is loaded asynchronously from NVMe/Lustre storage into GPU-specific shards. Following an np.sum
+reduction involving cross-GPU data transfers, the final results are broadcast back to all nodes. Note that the original shard data remains resident and accessible on each GPU throughout the process.
+XANI workflow performance and results for material data processing and analysis
+The transition to a distributed Python HPC stack on NVIDIA GB200 NVL72 clusters has transformed the data compute scale of X-ray science, enabling the preparation of massive datasets for AI training of material characterization models. Major technical impacts include computation speedup, system scaling, and I/O throughout optimizations.
+Computational speedup
+A 1,000x reduction in processing time (from six months to less than four hours) with 32 NVIDIA GB200 Grace Blackwell Superchips. The new batched GPU implementation achieves ~3x better GPU utilization than any previous results, as detailed in Using Accelerated Computing to Live-Steer Scientific Experiments at Massive Research Facilities.
+The new LM-based implementation directly minimizes the least-squares residual of a physically motivated damped cosine model, yielding lower fit residuals and per-pixel frequency refinement. The pipeline partitions the detector into 760 fixed-size tiles processed independently across the GPUs. Each tile’s compute—fitting 16 pixel traces—is too small to saturate a modern GPU, so execution time is dominated by fixed per-tile overhead (task dispatch, data movement, setup). Beyond ~32 superchips, tiles-per-GPU drops below the point where this overhead is amortized, and additional GPUs provide no benefit.
+System scaling
+Good scaling is observed across NVIDIA GB200 and NVIDIA H100 architectures using specialized multinode/multi-GPU configurations.
+I/O throughput optimizations
+GDS-backed I/O with data layout-aware optimizations and multistream reading designed to saturate modern GPUs and high-performance storage.
+Learn more
+The XANI project demonstrates that Python-dominated communities—from quantum physics to materials chemistry—can successfully adopt CUDA Python and distributed computing. By focusing on batching, explicit Python tasks, and GDS-backed I/O, scientific pipelines can scale to meet the petabyte-scale demands of next-generation facilities without requiring scientists to become lower-level C++/MPI experts.
+Check out these resources to get started and learn more:
+- Test the newly developed multithreaded HDF5 library (beta version) for your workflow
+- Watch the GTC session, Accelerated HPC+AI Workflow Enables Live-Steering of Vera C. Rubin Observatory and X-ray Free Electron Laser
+- Reach out if you’re interested in collaborating on the XANI project to accelerate multidimensional data processing and analysis for experiment steering and scientific discovery
+Acknowledgments
+Thank you to NVIDIA contributors Malte Foester and Quincey Koziol.

@@ -1,0 +1,55 @@
+[Source: https://developer.nvidia.com/blog/level-up-your-skills-with-five-new-nvidia-technical-courses]
+[Title: Level Up Your Skills with Five New NVIDIA Technical Courses | NVIDIA Technical Blog]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:05:59+00:00]
+
+With AI introducing an unprecedented pace of technological innovation, staying ahead means keeping your skills up to date. The NVIDIA Developer Program gives you the tools, training, and resources you need to succeed with the latest advancements across industries.
+We’re excited to announce the following five new technical courses from NVIDIA. Join the Developer Program now to get hands-on with the developer tools showcased at NVIDIA GTC—new members can claim one course free.
+Accelerating End-to-End Data Science Workflows
+Build and execute end-to-end GPU-accelerated data science workflows that enable you to quickly explore, iterate, and get your work into production. Using the RAPIDS accelerated data science libraries, you’ll apply a wide variety of GPU-accelerated machine learning algorithms and logistic regression to perform data analysis at scale.
+By participating in this course, you’ll learn how to:
+- Implement GPU-accelerated data preparation and feature extraction using cuDF and Apache Arrow data frames.
+- Apply a broad spectrum of GPU-accelerated machine learning tasks using XGBoost and a variety of cuML algorithms.
+- Execute GPU-accelerated graph analysis with cuGraph, achieving massive-scale analytics in small amounts of time.
+- Build beautiful data visualizations with the GPU-accelerated cuXFilter.
+RAPIDS Accelerator for Apache Spark
+Leverage NVIDIA GPUs with Apache Spark to see workloads accelerate and reduce in cost.
+By participating in this course, you’ll learn how to:
+- Use Apache Spark.
+- Leverage GPUs and integrate RAPIDS Accelerator for Apache Spark.
+- Run Spark CPU workloads and inspect Spark logs to understand how queries are planned.
+- Run Spark GPU workloads to see how Spark jobs are accelerated on GPU with the RAPIDS Accelerator for Apache Spark.
+- Use the RAPIDS Accelerator for Apache Spark toolset, including the workload qualification tool for estimating GPU speedups and the profiling tool for tuning jobs.
+Introduction to Transformer-Based Natural Language Processing
+Transformers are used as the building blocks of large language models (LLMs). Discover how to use transformer-based models for various natural language processing (NLP) tasks, including text classification, named-entity recognition (NER), author attribution, and question-answering.
+By participating in this course, you’ll learn how to:
+- Explain transformers and their use as the basic building blocks of modern LLMs for NLP applications.
+- Analyze, manipulate, and generate text-based data using transformer-based LLMs.
+- Leverage pretrained LLMs to solve various NLP tasks such as token classification, text classification, summarization, and question-answering.
+Prompt Engineering with Llama 2
+Interact with and prompt engineer Llama 2 models to analyze documents and generate text. Act as AI assistant to unleash the power of Llama 2 with prompt engineering.
+By participating in this course, you’ll learn how to:
+- Write precise prompts iteratively to align LLM behavior with your intentions.
+- Leverage editing the powerful system message.
+- Guide LLMs with one-to-many shot prompt engineering.
+- Create chatbot behavior by incorporating prompt-response history into the LLM context.
+Synthetic Data Generation for Training Computer Vision Models
+Use the power of Omniverse Replicator synthetic data generation (SDG) to train computer vision models using a food manufacturing example.
+By participating in this course, you’ll learn how to:
+- Write and perfect a Replicator script running in headless mode within Omniverse.
+- Run a PyTorch script over your SDG output data to fine-tune a pretrained model for object detection.
+- Export a trained model to NVIDIA Triton Inference Server and test the results.
+Our training program keeps developers up to date with the latest technologies through a blend of self-paced online courses and in-depth instructor-led workshops, ensuring hands-on experience with cutting-edge tools. Access to GPU-accelerated servers in the cloud provides practical expertise, all available remotely with just a laptop and internet connection. Build deep learning and accelerated computing applications, work with industry-standard platforms, and earn NVIDIA technical certification to enhance your career.
+Community, software access, and more benefits
+The NVIDIA Developer Program supports technical practitioners at every stage of the journey with NVIDIA technologies. With free access to advanced tools, learning resources, and a dedicated community, you can quickly build projects, enhance your skills, and keep up with technological advancements in accelerated computing. By becoming a member, you can:
+- Access NVIDIA software, including SDKs, APIs, libraries, and models.
+- Use GPU-optimized software, model scripts, and containerized apps from NVIDIA NGC.
+- Get personalized news updates about the latest technological innovations.
+- Participate in early access programs to be among the first to use new NVIDIA technology.
+- Access a wide range of training options through NVIDIA Training.
+- Showcase your achievements with certifications.
+- Engage with your community in the NVIDIA Developer forums.
+- Connect with NVIDIA experts through webinars and workshops.
+- Participate in hackathons, bootcamps, and exclusive events to collaborate and learn from peers.
+- Explore research papers, technical documentation, blog posts, webinars, GTC sessions on demand, and other industry-specific resources.
+Join the NVIDIA Developer Program to start learning and connecting with experts and community members.

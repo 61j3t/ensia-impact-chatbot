@@ -1,0 +1,36 @@
+[Source: https://ictafricasummit.com/themes-et-forums]
+[Title: Thèmes & Forums – ICT Africa Summit]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:20:22+00:00]
+
+ICT AFRICA SUMMIT 2025
+Plongez au cœur des Thèmes Clés : E-Gov, Oil & Gas, Health & Pharma, IT Aéroportuaire et les Défis des TIC en Afrique
+Thémes
+Thèmes et Contenu de l'Événement
+L’ICT Africa Summit 2025, enrichi par ALVETIC, abordera une gamme étendue de sujets pertinents pour l’écosystème numérique africain.
+Transformation Numérique et Innovation Technologique
+Exploration des dernières
+avancées en matière de technologie, y compris l’intelligence artificielle, la cybersécurité,
+l’internet des objets (IoT), et les technologies de la blockchain.
+Smart Cities et Infrastructures Numériques
+Analyse des meilleures pratiques et
+innovations en matière de développement urbain intelligent et de modernisation des
+infrastructures, avec un focus sur les solutions de télécommunication avancées.
+Startups et Entrepreneuriat Technologique
+Focus sur l’entrepreneuriat, avec des sessions dédiées aux startups et jeunes entreprises technologiques, y compris des concours de pitch et des opportunités de networking.
+FinTech et Inclusion Financière
+Télécommunications et Connectivité
+- Objectif du pavillon E-Gov
+Un engagement régional et continental
+Le pavillon E-Gov symbolise la volonté du gouvernement algérien de moderniser ses services publics et de les rendre plus accessibles, efficaces et transparents à travers la digitalisation. Il permet également de mettre en avant les efforts de collaboration entre les différents ministères dans ce domaine crucial, en ligne avec les politiques publiques visant à améliorer les infrastructures numériques.
+- Stimuler le dialogue autour des enjeux majeurs liés à la transformation numérique en Afrique
+- Présenter des solutions concrètes et des cas pratiques pour adresser les défis sectoriels
+- Promouvoir la collaboration entre les gouvernements, les entreprises et les institutions académiques
+Forums thématiques de l'ICT Africa Summit 2025
+Forum E-Gov : Administrations Connectées et Transparentes
+Les gouvernements africains sont confrontés à la nécessité de moderniser leurs administrations pour mieux répondre aux attentes des citoyens.
+Forum Health & Pharma : La Santé Connectée
+Forum Oil & Gas : L’Innovation au Service de l’Énergie
+L’industrie pétrolière et gazière est un secteur stratégique pour l’Afrique, confronté à des défis de productivité et de durabilité.
+Forum Transportech+: La Modernisation des Infrastructures
+Ports et aéroports sont des hubs stratégiques pour le commerce et le tourisme en Afrique

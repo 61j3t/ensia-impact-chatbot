@@ -1,0 +1,44 @@
+[Source: https://anpt.dz/bulletins-veille]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+L'ANPT élabore des bulletins de veille périodiques dans le domaine de la sécurité des systèmes d'information et les nouvelles technologies
+Bulletins de veille technologique
+Bulletins de veille SSI
+30-04-2026
+Bulletin de veille Avril 2026
+Campagne de cyber espionnage liée à la Chine visant des cibles en Asie et en Occident
+31-03-2026
+Bulletin de veille Mars 2026
+Le ransomware Payload revendique le piratage de l'hôpital Royal de Bahreïn
+28-02-2026
+Bulletin de veille Février 2026
+Apple corrige une faille zero-day exploitée dans des attaques « extrêmement sophistiquées ».
+31-01-2026
+Bulletin de veille Janvier 2026
+Importante fuite de données chez une entreprise exploitant 150 stations-service aux États-Unis
+31-12-2025
+Bulletin de veille Décembre 2025
+La violation des données de Shinhan Card en Corée du Sud touche 192 000 commerçants
+30-11-2025
+Bulletin de veille Novemvre 2025
+Une fuite de données chez un important fournisseur de logiciels suédois touche 1,5 million de pers...
+31-10-2025
+Bulletin de veille Octobre 2025
+Le piratage du fournisseur américain de services de surveillance RemoteCOM expose des données judi...
+30-09-2025
+Bulletin de veille Septembre 2025
+Red Hat confirme le piratage d'une instance GitLab et le vol de données
+30-08-2025
+Bulletin de veille Août 2025
+Des pirates informatiques exploitent une faille Microsoft pour s'introduire dans la Chambre des com...
+31-07-2025
+Bulletin de veille Juillet 2025
+Une cyberattaque porte un coup dur au firmware russe utilisé pour réutiliser des drones civils pou...
+30-06-2025
+Bulletin de veille Juin 2025
+Une attaque par ransomware a contribué au décès d'un patient, déclare le NHS britannique
+31-05-2025
+Bulletin de veille Mai 2025
+Un acteur menaçant vend 1,2 milliard d'enregistrements Facebook

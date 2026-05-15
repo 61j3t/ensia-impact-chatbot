@@ -1,0 +1,25 @@
+[Source: https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices]
+[Title: NVIDIA NIM Microservices for Accelerated AI Inference | NVIDIA]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+Designed for rapid, reliable deployment of accelerated generative AI inference anywhere.
+NVIDIA NIM™ provides prebuilt, optimized inference microservices for rapidly deploying the latest AI models on any NVIDIA-accelerated infrastructure—cloud, data center, workstation, and edge.
+NVIDIA NIM combines the ease of use and operational simplicity of managed APIs with the flexibility and security of self-hosting models on your preferred infrastructure. NIM microservices come with everything AI teams need—the latest AI foundation models, optimized inference engines, industry-standard APIs, and runtime dependencies—prepackaged in enterprise-grade software containers ready to deploy and scale anywhere.
+Easy, production-ready microservices are built for high-performance AI and designed to work seamlessly and scale affordably. Get started building AI agents and other enterprise generative AI applications faster with the latest AI models for reasoning, simulation, speech, and more.
+Accelerate innovation and time to market with prebuilt, optimized microservices for the latest AI models. With standard APIs, models can be deployed in five minutes and easily integrated into applications.
+Deploy enterprise-grade microservices that are continuously managed by NVIDIA through rigorous validation processes and dedicated feature branches—all backed by NVIDIA enterprise support, which also offers direct access to NVIDIA AI experts.
+Improve TCO with low-latency, high-throughput AI inference that scales with the cloud, and achieve the best accuracy with support for fine-tuned models out of the box.
+Deploy anywhere with prebuilt, cloud-native microservices ready to run on any NVIDIA-accelerated infrastructure—cloud, data center, and workstation—and scale seamlessly on Kubernetes and cloud service provider environments.
+NVIDIA NIM provides optimized throughput and latency out of the box to maximize token generation, support concurrent users at peak times, and improve responsiveness. NIM microservices are continuously updated with the latest optimized inference engines, boosting performance on the same infrastructure over time.
+Configuration: Llama 3.1 8B instruct, 1x H100 SXM; concurrent requests: 200. NIM ON: FP8, throughput 1201 tokens/s, ITL 32ms. NIM OFF: FP8, throughput 613 tokens/sec, ITL 37ms.
+Deploy large language models (LLMs) supported by NVIDIA® TensorRT™-LLM, vLLM, or SGLang for low-latency, high-throughput inferencing on NVIDIA-accelerated infrastructure.
+Designed to run anywhere, NIM microservices expose industry-standard APIs for easy integration with enterprise systems and applications and scale seamlessly on Kubernetes to deliver high-throughput, low-latency inference at cloud scale.
+Deploy NIM for your model with a single command. You can also easily run NIM with LLMs supported by NVIDIA TensorRT-LLM, vLLM, or SGLang, including fine-tuned models.
+Get NIM up and running with the optimal runtime engine based on your NVIDIA-accelerated infrastructure.
+Integrate self-hosted NIM endpoints with just a few lines of code.
+See how NVIDIA NIM supports industry use cases, and jump-start your AI development with curated examples.
+Enhance customer experiences and improve business processes with generative AI.
+Use generative AI to accelerate and automate document processing.
+Deliver tailored experiences that enhance customer satisfaction with the power of AI.
+Use OpenUSD and generative AI to develop and deploy 3D product configurator tools and experiences to nearly any device.

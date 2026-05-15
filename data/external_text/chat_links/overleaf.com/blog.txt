@@ -1,0 +1,7 @@
+[Source: https://www.overleaf.com/blog]
+[Title: Blog - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+With the release of TeX Live 2025 from the LaTeX Tagging Project team, you can use LaTeX to generate tagged PDFs that are accessible. This is important if you’re at a university or government agency, where you may be required to create accessible documents. This is because two pieces of legislation—the European Accessibility Act (EAA), which became effective in June 2025, and the ADA Title II Update, which goes into effect April 2026—are making this a legal requirement. This requirement includes a lot of the content that is produced in Overleaf.
+The LaTeX Tagging Project is specifically designed to produce the structural tags required by PDF/UA-1 (and the upcoming PDF/UA-2). If a user follows the LaTeX Project's current tagging recommendations, they are effectively building a document that is "PDF/UA-ready," which is the strongest way to meet the WCAG 2.1 AA legal mandate required by US and European legislation. You can stay up to date with the Project’s work here.

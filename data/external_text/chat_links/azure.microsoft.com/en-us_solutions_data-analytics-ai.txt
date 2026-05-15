@@ -1,0 +1,32 @@
+[Source: https://azure.microsoft.com/en-us/solutions/data-analytics-ai]
+[Title: Data analytics for AI | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Activate your data for AI innovation
+- Future-proof and streamline your data estate. Unify your data and analytics workloads on a single, open, governed, cloud-based foundation that facilitates responsible data discovery.
+- Get deeper insights into your data. Use prebuilt or custom generative AI solutions to ask questions about your data in natural language—without moving it to an app-specific infrastructure.
+- Expedite innovation and discover new revenue opportunities. Empower everyone with robust self-service analytics tools to facilitate near-real-time insights.
+- Democratize data for your teams. Layered security and governance capabilities help you quickly gain value from your data without compromising protection.
+Learn more about Azure analytics services
+Microsoft Fabric
+Azure Databricks
+Microsoft Power BI
+Microsoft Purview Data Governance
+Azure Machine Learning
+Microsoft Foundry
+Get the latest cloud analytics news and resources
+Getting Started with Microsoft Fabric in 60 Minutes
+Modern Analytics: A Foundation to Sustained AI Success
+Learn how to use Azure Databricks
+Customers realizing data-driven transformations
+Latest blogs
+Access experts, investments, and resources with Azure Accelerate
+Start a free 60-day trial with Microsoft Fabric
+Explore Azure Databricks
+Consult a Sales specialist
+- [1]The Total Economic Impact™ Of Microsoft Fabric, A Forrester Total Economic Impact™ Study Commissioned by Microsoft, May 2024.
+- [2]
+GARTNER® is a registered trademark and service mark and MAGIC QUADRANT™ is a registered trademark of Gartner, Inc. and/or its affiliates in the U.S. and internationally and are used herein with permission. All rights reserved.
+Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.
+Gartner Magic Quadrant for Analytics and Business Intelligence Platforms, Kurt Schlegel, Anirudh Ganeshan, David Pidsley, Julian Sun, Georgia O'Callaghan, Christopher Long, Kevin Quinn, Fay Fei, Edgar Macari, Jamie O'Brien, June 20, 2024.

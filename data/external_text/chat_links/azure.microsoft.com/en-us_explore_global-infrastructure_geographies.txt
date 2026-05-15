@@ -1,0 +1,39 @@
+[Source: https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies]
+[Title: Choose the Right Azure Region for You | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Find the Azure geography that meets your needs
+- Discover more about our global infrastructure and how it all works.1
+- Get help choosing the right geography for your residency and compliance needs.
+- Ensure that the Azure services you need are available in the datacenter region that you're considering.
+Explore the latest news for Azure datacenter regions
+Denmark East
+Thailand South
+North Europe 4
+Belgium
+Southeast Asia 3
+Israel
+Norway
+Austria
+Chile
+Malaysia
+Indonesia
+New Zealand
+Spain
+Italy
+Poland
+Finland
+China
+Qatar
+West US 3
+Georgia
+Taiwan
+Greece
+Mexico
+Choose the Azure account that’s right for you
+Azure cloud solutions
+Find the right Microsoft Cloud solution
+- [1]
+Azure is available or coming soon to the following geographies: United States, Belgium, Brazil, Canada, Chile, Mexico, Azure Government, Asia Pacific, Australia, China, India, Indonesia, Japan, Korea, Malaysia, New Zealand, Taiwan, Austria, Denmark, Europe, Finland, France, Germany, Greece, Italy, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom, Africa, Israel, Qatar, United Arab Emirates, and Saudi Arabia.
+Within these geographies, Azure is available or coming soon to the following regions: South Central US, West US, West US 2, West US 3, Central US, East US, East US 2, East US 3, West Central US, North Central US, Brazil South, Brazil Southeast, Canada Central, Canada East, Chile North Central, Mexico Central, US Gov Virginia, US DoD Central, US DoD East, US Gov Arizona, US Gov Texas, US Sec East, US Sec West, US Sec West Central, East Asia, Southeast Asia, Australia East, Australia Southeast, Australia Central, Australia Central 2, China East, China East 2, China North, China North 2, China North 3, Central India, South India, West India, Indonesia Central, Japan East, Japan West, Korea Central, Korea South, Malaysia West, New Zealand North, Taiwan, Austria East, Belgium Central, Denmark East, North Europe, West Europe, Finland Central, France Central, France South, Germany West Central, Germany Northeast (Sovereign), Germany Central (Sovereign), Germany North, Greece, Italy North, Norway East, Norway West, Poland Central, Spain Central, Sweden Central, Sweden South, Switzerland North, Switzerland West, UK South, UK West, South Africa North, South Africa West, Israel Central, Qatar Central, UAE North, UAE Central, and Saudi Arabia East.

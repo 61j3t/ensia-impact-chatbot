@@ -1,0 +1,72 @@
+[Source: https://www.interaction-design.org/about]
+[Title: About IxDF - Interaction Design Foundation | IxDF]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:11+00:00]
+
+IxDF - Interaction Design Foundation
+The Interaction Design Foundation (IxDF) is a global design education institution. Established in 2002, we pioneered online video-based courses a decade before online learning became mainstream, at a time when UX and UI design were barely recognized as distinct disciplines.
+Today, IxDF offers evidence-based curricula taught by 239 industry leaders, grounded in both industry practice and peer-reviewed research. With 1,147,365 enrollments and local chapters in 495 cities across 105 countries, IxDF is the largest and longest-running design education institution in the world.
+Specialized in Design
+IxDF is where leading practitioners and researchers in design and AI come together to build online education that sets the gold standard for the industry.
+Our entire institution is built around a singular focus on design. This allows us to build curricula of depth and rigor with industry leaders.
+Earn Industry-Recognized Certificates
+Industry giants trust our courses to train their teams, and prestigious universities integrate our content into their curricula. Add your certificates to your LinkedIn profile, résumé, and job applications.
+Our Boards and Faculty of Design Leaders
+The Interaction Design Foundation (IxDF) is built on the combined expertise of our faculty, instructors, staff, community leaders in 495 cities, and members across 105 countries.
+Together, we hold ourselves to the highest standards of the design industry in our curriculum design, faculty selection, educational rigor, and industry relevance.
+Impact in Numbers
+2,114
+cinematic-quality videos
+239
+experts on our faculty
+40
+online courses
+155
+1-hour master classes
+1.1M
+enrollments
+1,050
+hours of learning
+8,662
+meetups in 495 cities
+495
+IxDF local groups
+28.9M
+human-graded quizzes
+722K
+online conversations
+1,575
+enterprise customers
+1.3M
+social-media followers
+Our Mission
+The Interaction Design Foundation (IxDF) was founded in 2002 on a conviction that design knowledge should be made accessible on a massive, affordable scale. It was locked inside elite institutions concentrated in the Western intellectual hemisphere. World-class design education was a privilege reserved for the few who could afford it.
+We believed this was fundamentally wrong. Great design has transformative potential. It shapes how people interact with technology, services, and each other. Anyone who learns design has the power to change how the world works.
+We saw a world full of untapped design talent with no affordable way to learn. That conviction led us to pioneer online video-based courses a full decade before online learning became mainstream.
+24 years later, our mission has not changed. It is to help you:
+1. Build timeless skills
+that impact your career
+Human-centered design is the foundation of every great product, service, and experience ever built. These are the principles that compound over a career and don't get replaced by tools or technologies.
+2. Build skills in a fast-growing profession
+As AI reshapes every industry, the demand for designers is rising. In fact, the World Economic Forum reports UX and UI designers are fast-growing professions, with 45% projected growth by 2030.
+3. Get career outcomes, not just finish a course
+IxDF brings your learning and career into one place: courses, career programs, job matching, and chapters in 495 cities where designers meet, hire, and help each other.
+4. Learn from industry leaders through evidence-based curricula
+Our faculty includes experts from companies like Google, Meta, NASA, and Adobe, and professors from Stanford, MIT, and Cambridge. Our singular focus on design allows us to build curricula of depth and rigor.
+5. Combine AI and Human-Centered Design
+Combine AI skills with timeless design expertise that AI can't replace. Skills like empathy, ethical reasoning, and critical thinking are deeply human, and no technology can replace them.
+6. Use design skills to become more valuable in any job, any industry
+Design skills are for everyone. Behind every great product, service, and experience is someone who understands the people using it. IxDF teaches you to be that person, whatever your job title.
+7. Meet the right people and get a place to belong
+The people you meet shape the career you build. Our community spans 495 cities in 105 countries. Members meet locally and globally to learn together, mentor each other, and open doors for one another.
+8. Earn credentials that the industry respects
+Industry giants trust our courses to train their teams, and prestigious universities integrate our content into their curricula. IxDF Course certificates prove you've learnt from industry leaders through evidence-based curricula.
+9. Build services and products that make users smile and businesses grow
+Companies that invest in great design outperform the S&P 500 by 228%. When you can tie your design work to business results, you're bringing measurable value.
+10. Make the world a little more human
+Apply your design skills to improve the quality of life for humankind. The world is full of technology that frustrates, excludes, and dehumanizes. Every person we help train makes the world a little more human.
+Company Memberships: Great Design Is Everyone's Job
+Companies that invest in great design outperform the S&P 500® by 228%.* IxDF Company Memberships bring that advantage to your entire organization, not just your design team.
+Hundreds of employees from a single company can learn the principles of great design and apply them in any role, any department, any industry.
+When everyone thinks like a designer, customer experience improves. So does loyalty, conversion, and profit.
+*The Design Management Institute's Design Value Index (DVI)

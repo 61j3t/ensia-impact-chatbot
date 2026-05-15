@@ -1,0 +1,81 @@
+[Source: https://www.overleaf.com/for/universities]
+[Title: LaTeX editor for universities & institutions - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+Simplify academic writing and collaboration overleaf for universities
+Empower your students and academics to write, edit, teach, and collaborate in a platform designed with them in mind. Unlock premium features for your department, faculty, or entire campus.
+Over 25 million users at research institutions and businesses worldwide love Overleaf
+The essential writing platform for featuresstudents and academics
+school
+Students
+Overleaf simplifies academic writing and collaboration on everything from assignments to PhD theses. Plus students can learn LaTeX faster, with our Visual Editor, templates, and help resources.
+book_5
+Teaching staff
+Teachers and lecturers can easily create consistent, beautifully formatted teaching materials. And with access to premium features like track changes, they can review student work directly in Overleaf.
+biotech
+Researchers
+Designed by scientists, Overleaf helps researchers communicate and collaborate faster—from writing notes, to publishing articles, and giving presentations.
+Enable collaboration without bounds
+Make global, interdisciplinary research easier for everyone.
+- Sharing
+- Commenting
+- Real-time track changes
+- Project history
+- LaTeX Code Editor and Visual Editor
+Gain powerful data insights
+Get the full picture of how your researchers and students are collaborating.
+- Insights on internal usage, editing sessions, and collaboration
+- Data on how your users are collaborating with other universities, research institutions, and businesses
+- Download and share insights whenever you need to
+Discover hassle-free academic writing
+Give your campus community the ability to write scientific and technical content easily and efficiently.
+- Ideal for long and complex content
+- Beautiful formatting
+- Clever bibliographies and citations
+- Better formulas, figures, and tables
+- Produce accessible PDFs
+- Choose from 1000s of templates or create your own
+Write faster with AI assistance built for research
+- Write LaTeX and troubleshoot code errors faster
+- Find missing references, verified against Dimensions
+- Language suggestions tailored to academic and technical writing
+- Ready-made prompts for common LaTeX tasks
+- Your data is never used for training AI models without your consent
+- Users can disable AI features, giving them full control
+Let us do the support
+We’ll get you up and running in no time.
+- No installation (for cloud options)
+- No LaTeX package management
+- Training videos and webinars
+- Overleaf Learning modules and product help
+- High-quality support from real people with LaTeX expertise
+It’s easy to use, very intuitive, with nothing to install—just open and write. And the ability to have our template loaded and ready for students to use made it a perfect fit.
+Premium Overleaf features for your entire campus
+Invest in better research writing for your whole academic community with Overleaf Commons.
+Unlock premium features for all your students and academics
+Drive interdisciplinary, global collaboration with enhanced features like real-time track changes, project history, multiple collaborators, and more.
+Streamline sign up with domain-based enrollment or SSO
+Users are automatically enrolled in your subscription when they register with Overleaf using their university email address or single sign-on.
+Personalized support and onboarding
+We walk you through the setup process, create your branded portal, and help encourage user enrollment. And we’re here to support you and your users whenever you need help.
+Plans to fit your needs plans
+From research groups and departments to campus-wide access
+Standard
+For research groups, small departments, or faculty-only groups. Premium features for all members, including real-time track changes, project history, our standard Overleaf AI allowance, and much more.
+Pro
+All the benefits of Standard, plus single sign-on, unlimited collaborators per project, and our max Overleaf AI allowance.
+Commons
+Unlock premium Overleaf features and unlimited collaboration for your entire campus, with streamlined user enrollment, a custom resource portal, and enhanced support.
+Don’t see the right fit for you?
+Join the organizations writing smarter in Overleaf customer stories
+The University of Manchester sees international collaboration thrive with Overleafarrow_outward
+The leading UK university more than quadrupled the number of institutions with which it collaborates and saw a 310% jump in new projects.
+Purdue Graduate School improves its thesis writing process with Overleafarrow_outward
+Time spent on formatting and reviewing was dramatically reduced after Overleaf was adopted by the leading American public research university.
+Ivy League aerospace engineering team increases efficiency with Overleafarrow_outward
+Undergraduates at New York’s Cornell University collaborated easily and efficiently on a global competition entry after switching to Overleaf’s collaborative LaTeX editor.
+Sync with the tools your researchers already use integrations Premium
+From editing projects in GitHub, to using Zotero bibliographies, or syncing with Dropbox, Overleaf integrates with tools your researchers already use and love.
+\begin
+Our friendly team will help you find the right solution for your organization.

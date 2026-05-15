@@ -1,0 +1,265 @@
+[Source: https://www.altexsoft.com/cookie-policy]
+[Title: - AltexSoft]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:56+00:00]
+
+Cookie Policy
+Last revision: February 01, 2023
+About this policy
+Our Website uses cookies. This policy (“Cookie Policy”) provides you information about the cookies used on this Website, why AltexSoft Inc. (“AltexSoft”, “we”, “us”, “our”) uses cookies, and how you can manage the cookies used by this Website.
+By using this Website, you are consenting to our use of cookies in accordance with this Cookie Policy. If you do not agree to our use of cookies in this way, you should set your browser settings accordingly or not use the Website. If you disable cookies that we use, this may impact your user experience while on our Website.
+What are cookies?
+Cookies are small text files, frequently with a singular identifier, that are placed on your device or browser when you visit our Website or any other web address. Cookies are then sent back to the originating web address on each subsequent visit, or to another web address that recognizes that cookie.
+Types of cookies
+Depending on who sets the cookies on your device or browser, the cookies can be divided into first-party and third-party cookies:
+- First-party cookies are cookies set by our Website when you’re visiting it. Only our Website can read them and store information collected by such cookies.
+- Third-party cookies are cookies set by the external services we might use on our Website.
+Some third-party services that we use to improve the performance of our Website may place their own cookies in your browser. This Cookie Policy covers the use of cookies by AltexSoft only and not the use of cookies by third parties.
+To learn more about third-party service providers who may have the access to your personal information via cookies, please read our Privacy Policy
+Since the installation of third-party cookies and other tracking systems through the services used within AltexSoft cannot be technically controlled by us, any specific references to cookies and tracking systems installed by third parties are to be considered indicative. To obtain complete information, we kindly ask you to consult the privacy policies of the respective third-party services. Given the objective complexity surrounding the identification of technologies based on cookies, we encourage you to contact us should you wish to receive any further information on the use of cookies by AltexSoft.
+Duration-wise, there are:
+- session cookies which are deleted when you quit your browser and are usually used to allow our Website to link your actions during a browser session, and
+- persistent cookies which are saved on your device in between browser sessions and that are not deleted automatically when you quit your browser. Persistent cookies are used for a variety of purposes including remembering your preferences and choices when using our Website or to target advertising.
+All persistent Cookies usually have an expiration date (no longer than 12 months), after which they are automatically removed from your device. Anonymized and aggregated data can be stored for an indefinite period of time by us for analysis purposes.
+Why do we use cookies?
+Cookies allow our Website to provide you with a customized experience. Depending on the purpose of each cookie, cookies enable our Website to work as intended or work more efficiently, to tailor our Website to your personal needs, to improve its user-friendliness and to communicate to you elsewhere on the web. Some cookies allow us to get the statistics in an anonymized and aggregated form on how you use our Website so that we can improve it and enhance your browsing experience.
+Cookies do lots of different tasks, like remembering your browsing preferences, letting you navigate between pages efficiently and smoothly, and generally improving your user experience. Cookies may tell us, for example, whether you have used the website before or whether you are a new user.
+These are cookies that are set on our Website by our partner companies (e.g. Facebook, Quora, LinkedIn, YouTube or other third parties). They may use the data collected from these cookies to anonymously target advertising to you on other websites, based on your behavior to this Website.
+What cookies do we use and how do we use them?
+We use the following essential, functional, analytics and advertisement cookies on our Website, as well as other cookies that do not strictly fall into any of the above categories:
+Essential cookies
+Essential cookies, or strictly necessary cookies, help making our Website usable by enabling basic functions like page navigation, requesting website visual elements, user login and logoff. The Website cannot function properly without these cookies.
+Our essential cookies:
+| Cookie | Party and domain | Duration of the cookie | What it does |
+|---|---|---|---|
+| _GRECAPTCHA | Third party. www.google.com |
+5 months 27 days | Identifies bots to protect the Website against malicious spam attacks; is set by the Google recaptcha service |
+| cookieyes-consent | First party. altexsoft.com |
+1 year | Helps remember your consent preferences so that such preferences are respected on your subsequent visits to this Website |
+| item_menu | First party. altexsoft.com |
+Session | Stores active menu link |
+| canvas_data | First party. altexsoft.com |
+10 hours | Stores filled canvas data |
+| current-url | First party. altexsoft.com |
+Session | Stores current website url |
+| popmake-close-3846 | First party. altexsoft.com |
+1 month | Stores popup window status (true or false) |
+| comments-toggle | First party. altexsoft.com |
+Session | Stores comments list status |
+| 663a60c55d | Third party. salesiq.zoho.com |
+Session | Load balancing and session stickiness |
+| SEARCH_SAMESITE | Third party. google.com |
+6 months | Allows servers to mitigate the risk of Cross-Site Request Forgery (CSRF) and information leakage attacks by asserting that a particular cookie should only be sent with requests initiated from the same registrable domain |
+| DV | Third party. google.com |
+Session | Helps collecting information about how you use our Website to compile reports and help improve the Website. Collects information in an anonymous form, including the number of visitors, where visitors have come to the Website from and the pages they visited |
+| _gat | Third party. Google Universal Analytics |
+1 minute | Restrains request rate and limits the collection of data on high traffic sites; is installed by Google Universal Analytics |
+| LS_CSRF_TOKEN | Third party. salesiq.zoho.com |
+session | Helps avoid Cross-Site Request Forgery (CSRF) for the AJAX calls made by the visitor |
+| uesign | Third party. salesiq.zoho.com |
+1 month | Manages the security of the applications |
+| __Secure-ENID | Third party. google.com |
+1 year | Secures digitally signed and encrypted data from the unique Google ID and stores the most recent login time that Google uses to identify visitors, prevent fraudulent use of login data and protect visitor data from unauthorized parties. This can also be used for targeting purposes to display relevant and personalized advertising content |
+| AEC | Third party. google.com |
+6 months | Confirms that requests during a browser session are made by you and not by other sites and prevent malicious websites from acting on behalf of you without your knowledge |
+| NID | Third party. google.com |
+6 months | Is used for advertising purposes: to limit the number of times the user sees an ad, to mute unwanted ads, and to measure the effectiveness of ads |
+| __cfruid | Third party. medium.com |
+session | Cloudflare sets this cookie to identify trusted web traffic. |
+| oaapis | Third party. oneall.com |
+Session | One All social login cookie |
+| topic | First party. altexsoft.com |
+Session | Stores current forum topic |
+| wordpress_logged_in_[hash] | First party. altexsoft.com |
+Session | The cookie is used to indicate when users is logged in, and who you are. This cookie is maintained on the front-end of the website as well when logged in. |
+| wordpress_test_cookie | First party. altexsoft.com |
+Session | WordPress also sets a cookie named wordpress_test_cookie is set by WordPress to check if the cookies are enabled on the browser to provide appropriate user experience to the users. |
+| wordpress_sec_{hash} | First party. altexsoft.com |
+Session | Used by wordpress sites for security purposes. |
+| comment_author_email_[hash] | First party. altexsoft.com |
+12 months | The cookie is set to remember the value entered into the comment form email field. |
+| comment_author_[hash] | First party. altexsoft.com |
+12 months | The cookie comment_author_[hash] cookie is set to remember the value entered into the comment form name field. |
+| oa_userEmailComment | First party. altexsoft.com |
+24h | Stores the comment author email logged in with social login. |
+| ajs_user_id | Third party. www.cookieyes.com |
+never | This cookie is set by Segment to help track visitor usage, events, target marketing, and also measure application performance and stability. oa_userEmailComment |
+| ajs_anonymous_id | Third party. www.cookieyes.com |
+1 year | This cookie is set by Segment to count the number of people who visit a certain site by tracking if they have visited before. |
+Functional cookies
+Functional cookies help implementing additional functionalities or enhancing features and Website performance, they can be provided by us or our third-party partners. Using functional cookies support features like automatic filled text box, live web chat platform, non-necessary forms and optional security parameters like a single sign-on (SSO).
+Our functional cookies:
+| Cookie | Party and domain | Duration of the cookie | What it does |
+|---|---|---|---|
+| zld*state | First party. altexsoft.com |
+5 minutes | SalesIQ chat window options(position and state) |
+| SAPISID | Third party. google.com |
+2 years | Plays YouTube videos embedded on the Website |
+| __Secure-1PSIDCC | Third party. google.com |
+1 years | Enables use of Website options and services |
+| __Secure-3PSID | Third party. google.com |
+2 years | Enables use of Website options and services |
+| li_sugr | Third party. linkedin.com |
+3 months | Makes a probabilistic match of a your identity outside the Designated Countries |
+| lidc | Third party. linkedin.com |
+1day | Facilitates data center selection |
+| AnalyticsSyncHistory | Third party. linkedin.com |
+30 days | Stores information about the time a sync with the lms_analytics cookie took place for users in the Designated Countries |
+| bscookie | Third party. linkedin.com |
+1 year | Store performed actions on the Website |
+| bcookie | Third party. linkedin.com |
+1 year | Recognizes browser ID through LinkedIn share buttons and ad tags |
+| UserMatchHistory | Third party. linkedin.com |
+1 month | LinkedIn Ads ID syncing |
+| li_gc | Third party. linkedin.com |
+6 months | Stores guest consent to the use of cookies for non-essential purposes |
+| DEVICE_INFO | Third party. youtube.com |
+5 months 27 days | Used to track user’s interaction with embedded content. |
+| YSC | Third party. youtube.com |
+session | YSC cookie is set by Youtube and is used to track the views of embedded videos on Youtube pages. |
+| VISITOR_INFO1_LIVE | Third party. youtube.com |
+5 months 27 days | A cookie set by YouTube to measure bandwidth that determines whether the user gets the new or old player interface. |
+| yt-remote-device-id | Third party. youtube.com |
+never | YouTube sets this cookie to store the video preferences of the user using embedded YouTube video. |
+| yt-remote-connected-devices | Third party. youtube.com |
+never | YouTube sets this cookie to store the video preferences of the user using embedded YouTube video. |
+| yt.innertube::requests | Third party. youtube.com |
+never | This cookie, set by YouTube, registers a unique ID to store data on what videos from YouTube the user has seen. |
+| yt.innertube::nextId | Third party. youtube.com |
+never | This cookie, set by YouTube, registers a unique ID to store data on what videos from YouTube the user has seen. |
+| CONSENT | Third party. youtube.com |
+2 years | Is set via embedded youtube-videos and registers anonymous statistical data |
+| GPS | Third party. youtube.com |
+session | GPS stands for “Google Preferred Server” and it’s a cookie that YouTube uses to track user information such as geographic location, device type, and viewing history. This information is used to personalize the YouTube experience and to serve targeted ads. This cookie is then used to track the user’s activity across different websites that use the same Google services, including YouTube. |
+| _zcsr_tmp | Third party. salesiq.zoho.com |
+Session | Enables login function on the Website |
+| intercom-session-aaxyypt0 | Third party. www.cookieyes.com |
+7 days | This cookie is used to keep track of sessions for our live chat function. |
+| intercom-id-aaxyypt0 | Third party. www.cookieyes.com |
+8 months 26 days 1 hour | This is an anonymous visitor identification cookie that is required to be able to talk to our customer support team via the live chat function. |
+Analytics cookies
+Analytics cookies help us understand how visitors interact with our Website by collecting and reporting information anonymously. By using these cookies, we are able to count visits and traffic sources to measure and improve the performance of our Website.
+Our analytics cookies:
+| Cookie | Party and domain | Duration of the cookie | What it does |
+|---|---|---|---|
+| JSESSIONID | Third party. newrelic.com |
+Session | Stores a session identifier so that New Relic can monitor session counts for an application |
+| _ga | First party. altexsoft.com |
+2 years | Calculates visitors, session and campaign data and also keeps track of Website usage for the Website’s analytics report; installed by Google Analytics. |
+| _gid | First party. altexsoft.com |
+1 day | Stores information on how you use a Website, while also creating analytics report of the Website’s performance; installed by Google Analytics. Some of the data that are collected include the number of visitors, their source, and the pages they visit anonymously |
+| ln_or | First party. altexsoft.com |
+1 day | Linkedin sets this cookie to registers statistical data on users’ behaviour on the website for internal analytics. .altexsoft.com |
+| _gat_gtag_UA_* | First party. altexsoft.com |
+1 minute | Distinguishes users; set by Google. |
+| altexsoft-_zldp | First party. altexsoft.com |
+2 years | Helps understand visitor’s behavior across our Website |
+| SIDCC | First party. altexsoft.com |
+3 months | Provides services and extracts anonymous browsing data |
+| __cf_bm | Third party. quora.com |
+1day | Quora pixel tracking code |
+| _lfa | Third party. leadfeeder.com |
+2 years | Identifies the IP address of devices visiting the Website, in order to retarget multiple users routing from the same IP address |
+| _hjAbsoluteSessionInProgress | Third party. altexsoft.com hotjar.com |
+30 minutes | Dsetect the first pageview session of a user. This is a True/False flag set by the cookie |
+| _hjTLDTest | Third party. altexsoft.com hotjar.com |
+Session | To determine the most generic cookie path that has to be used instead of the page hostname, stores different URL substring alternatives until it fails |
+| _hjIncludedInPageviewSample | Third party. altexsoft.com hotjar.com |
+2 minutes | Helps to know whether a user is included in the data sampling defined by the site’s pageview limit |
+| _hp2_id.* | Third party. altexsoft.com heap.io |
+13 months | User cookie (stores user_id, identity, other ids) |
+| _hp2_ses_props.* | Third party. altexsoft.com heap.io |
+30 minutes | Session properties cookie (stores timestamp and cookie domain/path) |
+| _hp2_hld* | Third party. altexsoft.com heap.io |
+Session | Determines which domain a cookie can be set on (since public suffix domains block setting cookies on the top level) |
+| _hjSessionUser_* | Third party. altexsoft.com hotjar.com |
+1 year | Ensures data from subsequent visits to the same site are attributed to the same user ID |
+| _hjFirstSeen | Third party. altexsoft.com hotjar.com |
+30 minutes | Identifies a new user’s first session. It stores a true/false value, indicating whether it was the first time Hotjar saw this user |
+| _hjIncludedInSessionSample | Third party. altexsoft.com hotjar.com |
+2 minutes | Let Hotjar know whether that visitor is included in the data sampling defined by Website’s daily session limit |
+| _hjSession_* | Third party. altexsoft.com hotjar.com |
+30 minutes | Holds current session data. Ensures subsequent requests in the session window are attributed to the same session |
+| _clsk | Third party. www.cookieyes.com |
+1 day | This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. |
+| _clck | Third party. www.cookieyes.com |
+1 year | This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. The data collected includes the number of visitors, the source where they have come from, and the pages visited in an anonymous form. |
+| _ga_6NMS6DRVBM | Third party. www.cookieyes.com |
+2 years | This cookie is installed by Google Analytics. |
+| _gcl_au | Third party. www.cookieyes.com |
+3 months | Provided by Google Tag Manager to experiment advertisement efficiency of websites using their services. |
+Advertisement cookies
+Advertisement cookies are set by our third-party marketing partners and help tracking visitors’ behavior across the Website and collect analytical data. Those cookies collect browsing information to customize ads that you may see on this and other websites.
+Our advertisement cookies:
+| Cookie | Party and domain | Duration of the cookie | What it does |
+|---|---|---|---|
+| __Secure-3PAPISID | Third party. google.com |
+2 years | Helps deliver advertisements more relevant to you and your interests |
+| __Secure-1PAPISID | Third party. google.com |
+2 years | Helps deliver advertisements more relevant to you and your interests |
+| 1P_JAR | Third party. google.com |
+15 days | Carries out information about how the end user uses the Website and any advertising that the end user may have seen before visiting the said Website |
+| lang | Third party. ads.linkedin.com |
+Session | Remembers a user’s language setting |
+| MUID | Third party. bing.com |
+1 year 24 days | Is used by Microsoft as a unique user identifier. It can be set by embedded Microsoft scripts. Is used to sync across many different Microsoft domains, allowing user tracking |
+| _uetsid | Third party. bing.com |
+1 day | Determines what ads should be shown that may be relevant to the end user perusing the site |
+| _uetvid | Third party. bing.com |
+1 year 24 days | A tracking cookie allowing us to engage with a user that has previously visited our Website |
+| _fbp | Third party. altexsoft.com facebook.com |
+3 months | Displays advertisements when either on Facebook or on a digital platform powered by Facebook advertising, after visiting the website |
+| fr | Third party. facebook.com |
+3 months | Shows relevant advertisements to users by tracking user behavior across the web, on sites that have Facebook pixel or Facebook social plugin |
+| APISID | Third party. google.com |
+2 years | Measures ad performance and provides recommendations |
+| SSID | Third party. google.com |
+2 years | Measures ad performance and provides recommendations |
+| HSID | Third party. google.com |
+2 years | Measures ad performance and provides recommendations |
+| OTZ | Third party. google.com |
+1 month | Tracks website traffic information |
+| __Secure-3PSIDCC | Third party. google.com |
+1 year | Is used for targeting to profile the interests of website visitors and display relevant and personalized Google Ads |
+| __Secure-1PSID | Third party. google.com |
+2 years | Is used by for targeting purposes to build a profile of the website visitor’s interests in order to show relevant & personalized Google advertising |
+| test_cookie | Third party. .doubleclick.net | 15 minutes | This cookie is set by doubleclick.net and is used to determine if the user’s browser supports cookies. |
+| IDE | Third party. .doubleclick.net | 1 year 24 days | Google DoubleClick IDE cookies are used to store information about how the user uses the website to present them with relevant ads and according to the user profile. |
+Other cookies
+Other cookies are cookies that either do not fit in other category or which category we are still figuring out in accordance with applicable regulations and third-party providers’ guidelines.
+Our other cookies:
+| Cookie | Party and domain | Duration of the cookie | What it does |
+|---|---|---|---|
+| _bc_uuid | Third party. .brightcove.com |
+15 years | Unique identifier of the visitor |
+| vuid | Third party. vimeo.com |
+2 years | Collects tracking information by setting a unique ID to embed videos to the Website. |
+How to control or delete cookies
+When you visit our website, we ask your permission to use cookies. If you do not agree to accept them, we will use only essential cookies, that allow our Website to work properly. Continuing to navigate on this Website also means you accept the use of those cookies.
+Functional, analytics, advertisement, and/or other cookies on our Website will be used for your visit only provided that you gave us your explicit consent to use them.
+Also, if you gave such consent, you can freely withdraw it at any time following the instructions provided in Do not track preferences. Please note: this feature will opt you out (or in) of cookies too. Also, if you choose to opt-out, you will receive an opt-out cookie (ignore) so that your decision is remembered. If you regularly delete your cookies, you will need to opt-out each time you delete them.
+Please note that if you choose to refuse cookies, you may not be able to fulfill some functions or purposes on this Website, like verifying login status, protecting security of your login.
+If you have disabled one or more cookies, we may still use information collected from cookies prior to your disabled preference being set, however, we will stop using the disabled cookie to collect any further information.
+Do not track preferences
+Do not track is a function that allows you to opt out from being tracked by websites for any purpose including the use of analytics services, advertising networks and social platforms.
+You can update your preferences or withdraw your consent at any time – most devices (in the case of mobile applications) and browsers (in the case of web apps and pages) allow you to change your cookie settings. These settings will typically be found in the “options” or “preferences” menu of your browser.
+Most browsers and devices allow you to:
+- see what cookies you’ve got and delete them on an individual basis;
+- block third-party cookies;
+- block cookies from particular websites;
+- block all cookies from being set;
+- delete all cookies when you quit your browser.
+Through browser preferences, it is also possible to delete cookies installed in the past, including the cookies that may have saved the initial consent for the installation of cookies by this Website. If you chose to delete cookies, you should be aware that any preferences will be lost. Also, if you block cookies completely, many websites (including ours) might not work properly.
+The following links provide information about how to manage cookies on popular browsers, otherwise you should use the “Help” option in your browser for more details.
+To find information relating to other browsers, visit the browser developer’s website. If you have any questions about changing preferences, email us at legal@altexsoft.com.
+You may also follow the instructions provided on the initiatives by the EDAA (EU), the Network Advertising Initiative (US) and the Digital Advertising Alliance (US), DAAC (Canada), DDAI (Japan) or other similar services. Such initiatives may allow you to select your tracking preferences for most of the advertising tools.
+Our cookies are not used to identify you personally. They’re just there to make our Website work better for you.
+Changes to Cookies Policy
+We may modify this Cookie Policy from time to time, and will post the most current version on our Website. If a modification meaningfully reduces your rights, we will notify you by prominently posting notice of the changes when you log in to or use the Website. We recommend that you check this page from time to time to inform yourself of any changes in this Cookies Policy or any of our other policies. The date the Cookie Policy was last revised is identified first above.
+Contact information
+If there are any questions or requests to enable your rights regarding this Cookie Policy, you may contact us using the information below.
+AltexSoft Inc.
+654 Matsonia Dr,
+Foster City, CA 94404
+USA
+legal@altexsoft.com

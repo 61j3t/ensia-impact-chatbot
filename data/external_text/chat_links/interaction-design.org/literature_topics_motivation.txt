@@ -1,0 +1,34 @@
+[Source: https://www.interaction-design.org/literature/topics/motivation]
+[Title: What is Motivation? — updated 2026 | IxDF]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:11+00:00]
+
+Motivation is the mechanism behind many of our decisions and actions. Its most basic form is described by a layered model devised by Abraham Maslow, referred to as the hierarchy of needs. In this model, motivation is the driving force to satisfy the needs of each layer.
+But we can also consider motivation in more specific terms. How can we motivate ourselves to achieve individual goals once the basic needs of the model are attained? Motivation in this sense can be considered from two perspectives, external and internal.
+External motivation, or “extrinsic motivation” in psychology, refers to an outside force that moves a person to do something they might not normally do. This could be a reward, praise or punishment. Internal, or intrinsic, motivation is the self-generated force that drives you towards a goal. The reward is purely internal but leads toward positive feelings in the individual.
+UX Designers often use extrinsic rewards to encourage certain behaviors from users when interacting with a product or service. However, it is generally more effective to learn people's intrinsic motivations to support them in what they already want to do. Otherwise, you waste time and energy convincing them to do something they don’t wish to, potentially turning them off your product. UX researchers focus on their users' motivations during the early stages of development to better appeal to users' intrinsic motivations.
+How Do Designers Motivate Users?
+Video games use different kinds of motivation to serve other purposes. Often extrinsic motivation rewards players in the short term. Intrinsic motivating factors keep players engaging with the product in a meaningful and enjoyable way. These primary motivators are:
+Autonomy (feeling agency, acting by one's goals and values)
+Competence (feeling able and effective)
+Relatedness (feeling connected to others, a sense of belonging)
+Gamification is a common method of inspiring motivation derived from game theory and video game development, even for products that aren’t games. They do this by introducing “game-like” elements, such as points and scoring, or adding nonessential but satisfying tasks that trigger a sense of accomplishment and achievement.
+Gamified experiences that are not games can risk turning off users who want a more traditional experience, which is why UX research and usability testing are essential to get the balance right.
+Extrinsic Motivation vs. Intrinsic Motivation
+External rewards are standard in many interfaces. These are usually virtual rewards used in digital products but can also be real-world rewards like gift cards. Most of the time, external rewards won’t motivate your users for long. Designers need to tap into an internal motivation users already have, like a desire to achieve or a social connection.
+For example, an award in a video game might be motivating. An award people can share with friends is more motivating because it taps into sociability and achievement drives.
+However, providing extrinsic rewards will eventually result in diminishing returns. Games and gamified products require constant rewards to keep players engaged. Otherwise, players will stop playing.
+The book Drive by Daniel Pink describes a study that suggested that extrinsic rewards will demotivate people in the long run.
+The experiment divided preschool children into three groups before being allowed to draw. Each group had different rewards for drawing.
+The groups were:
+Expected award – each child was shown and promised a "Good Player" certificate before drawing.
+Unexpected award – children in this group were shown nothing but received the "Good Player" certificate.
+No award – these children were neither shown nor received the certificate.
+Two weeks later, they brought the same children back to draw, but this time with no rewards for any group. The children not promised awards the first time were just as enthusiastic and drew the same amount of time. However, those previously in the expected award group showed less interest and spent less time drawing. Researchers found that extrinsic rewards made the children less motivated to draw unless rewarded, so without one, they lost interest.
+The same is true with adults. Simply put, offering a reward in advance turns play into work. Intrinsic motivation is enough to sustain us when we perform activities of our own free will, with no compensation. With a promised reward, the task becomes a chore we do for a reward, not for its own sake.
+This doesn’t necessarily mean that you should never use external rewards. Surveys often offer gift cards for completing them, mainly because it is not a sustained user experience. However, external rewards will not lead to prolonged customer engagement for interfaces that should be used over time.
+Deceptive Patterns
+It is essential to encourage certain behaviors from users. But designers can go too far. They can make something deliberately addictive or coerce or deceive users into something they don't want to do.
+These are generally known as “dark patterns” or “deceptive patterns.” These are interfaces that deliberately misguide users to force certain behaviors.
+For example, an app might make users feel like they are missing out on a chance to try something. That thing is always available, but the deception of a limited opportunity makes users more likely to engage. Another example is a task the user cannot easily back out of without closing the app, so they will be encouraged to complete it to save their progress.
+Use intrinsic motivation as often as possible and avoid coercing users into behaviors they aren't comfortable with. Otherwise, you risk losing trust and possibly promoting unhealthy behaviors in your users. Using deceptive patterns or exploiting motivation may be profitable in the short term. However, it undercuts the long-term goal of a product that users value and enjoy.

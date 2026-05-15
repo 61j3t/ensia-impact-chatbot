@@ -1,0 +1,56 @@
+[Source: https://www.djezzy.dz/particuliers/offres/forfaits-roaming-france-2]
+[Title: forfaits Roaming france]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:47:52+00:00]
+
+Téléchargez la Djezzy APP
+|
+1
+Go
+Internet
+|
+|---|
+10 MinutesAppels Reçus |
+10 MinutesAppels vers Djezzy |
+20SMS émis |
+07 joursVALIDITÉ |
+Pour 1 000 DA |
+|
+2
+Go
+Internet
+|
+|---|
+20 MinutesAppels Reçus |
+50 MinutesAppels vers Djezzy |
+20SMS émis |
+15 joursVALIDITÉ |
+Pour 2 000 DA |
+|
+8
+Go
+Internet
+|
+|---|
+40 MinutesAppels Reçus |
+30 MinutesAppels vers Djezzy |
+40SMS émis |
+30 joursVALIDITÉ |
+Pour 5 000 DA |
+|
+2
+Go
+Internet
+|
+|---|
+07 JOURSVALIDITÉ |
+Pour 1000 DA |
+|
+5
+Go
+Internet
+|
+|---|
+30 JOURSVALIDITÉ |
+Pour 2000 DA |
+Pour consulter votre forfait FRANCE, composez *720# ou bien utilisez l'application Djezzy (Androïd | iOS).

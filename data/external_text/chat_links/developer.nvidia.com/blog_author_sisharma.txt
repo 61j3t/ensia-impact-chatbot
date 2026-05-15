@@ -1,0 +1,36 @@
+[Source: https://developer.nvidia.com/blog/author/sisharma]
+[Title: Author: Siddharth Sharma | NVIDIA Technical Blog]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:05:59+00:00]
+
+Posts by Siddharth Sharma
+Data Science
+Mar 18, 2025
+NVIDIA cuML Brings Zero Code Change Acceleration to scikit-learn
+Scikit-learn, the most widely used ML library, is popular for processing tabular data because of its simple API, diversity of algorithms, and compatibility with...
+8 MIN READ
+Agentic AI / Generative AI
+Nov 06, 2023
+Join the First NVIDIA LLM Developer Day: Elevate Your App-Building Skills
+NVIDIA LLM Developer Day is a virtual event providing hands-on guidance for developers exploring and building LLM-based applications and services. You can gain...
+2 MIN READ
+Data Science
+Mar 22, 2023
+SDKs Accelerating Industry 5.0, Data Pipelines, Computational Science, and More Featured at NVIDIA GTC 2023
+At NVIDIA GTC 2023, NVIDIA unveiled notable updates to its suite of NVIDIA AI software for developers to accelerate computing. The updates reduce costs in...
+10 MIN READ
+AR / VR
+Dec 05, 2022
+Explainer: What Is Conversational AI?
+Real-time natural language understanding will transform how we interact with intelligent machines and applications.
+1 MIN READ
+Data Center / Cloud
+Sep 21, 2022
+New SDKs Accelerating AI Research, Computer Vision, Data Science, and More
+NVIDIA revealed major updates to its suite of AI software for developers including JAX, NVIDIA CV-CUDA, and NVIDIA RAPIDS. To learn about the latest SDK...
+7 MIN READ
+Conversational AI / NLP
+Mar 28, 2022
+Build Speech AI in Multiple Languages and Train Large Language Models with the Latest from Riva and NeMo Framework
+Major updates to Riva, an SDK for building speech AI applications, and a paid Riva Enterprise offering were announced at NVIDIA GTC 2022 last week. Several key...
+3 MIN READ

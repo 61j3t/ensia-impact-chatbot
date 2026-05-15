@@ -1,0 +1,317 @@
+[Source: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems]
+[Title: Embedded Systems Developer Kits & Modules from NVIDIA Jetson]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+|
+Jetson Thor Series |
+Jetson AGX Orin series |
+Jetson Orin NX series |
+Jetson Orin Nano series |
+Jetson AGX Xavier series |
+Jetson Xavier NX series |
+Jetson TX2 series |
+Jetson Nano |
+| Jetson AGX Thor Developer Kit |
+Jetson T5000 |
+Jetson T4000 |
+Jetson AGX Orin Developer Kit |
+Jetson AGX Orin 64GB |
+Jetson AGX Orin Industrial |
+Jetson AGX Orin 32GB |
+Jetson Orin NX 16GB |
+Jetson Orin NX 8GB |
+Jetson Orin Nano Super Developer Kit |
+Jetson Orin Nano 8GB |
+Jetson Orin Nano 4GB |
+Jetson AGX Xavier Industrial |
+Jetson AGX Xavier 64GB |
+Jetson AGX Xavier 32GB |
+Jetson Xavier NX 16GB |
+Jetson Xavier NX 8GB |
+Jetson TX2i |
+Jetson TX2 |
+Jetson TX2 4GB |
+Jetson TX2 NX |
+Jetson Nano |
+Jetson Nano Developer Kit |
+| AI Performance |
+2070 TFLOPS (FP4 - sparse) |
+1200 TFLOPS (FP4-Sparse) |
+275 TOPS |
+248 TOPs |
+200 TOPS |
+157 TOPS |
+117 TOPS |
+67 TOPS |
+34 TOPS |
+30 TOPS |
+32 TOPS |
+21 TOPS |
+1.26 TFLOPS |
+1.33 TFLOPS |
+472 GFLOPS |
+| GPU |
+2560-core NVIDIA Blackwell architecture GPU with 96 5th GEN Tensor cores Multi Instance GPU with 10 TPCs |
+1536-core NVIDIA Blackwell architecture GPU withn64 5th GEN Tensor cores Multi Instance GPU with 6 TPCs |
+2048-core NVIDIA Ampere architecture GPU with 64 Tensor Cores |
+1792-core NVIDIA Ampere c GPU with 56 Tensor Cores |
+1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores |
+1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores |
+512-core NVIDIA Ampere architecture GPU with 16 Tensor Cores |
+512-core NVIDIA Volta architecture GPU with 64 Tensor Cores |
+384-core NVIDIA Volta™ architecture GPU with 48 Tensor Cores |
+256-core NVIDIA Pascal™ architecture GPU |
+128-core NVIDIA Maxwell™ architecture GPU |
+| GPU Max Frequency |
+1.57 GHz |
+1.3 GHz |
+1.2 GHz |
+930 MHz |
+1173MHz |
+1020MHz |
+1211 MHz |
+1377 MHz |
+1100 MHz |
+1.12GHz |
+1.3 GHz |
+921MHz |
+| CPU |
+14-core Arm® Neoverse®-V3AE 64-bit CPU 64 KB I-Cache, 64 KB D-Cache 1 MB L2 Cache per core 16 MB Shared System L3 Cache |
+12-core Arm® Neoverse®-V3AE 64-bit CPU 64 KB I-Cache, 64 KB D-Cache 1 MB L2 Cache per core 16 MB Shared System L3 Cache |
+12-core Arm® Cortex®-A78AE v8.2 64-bit CPU 3MB L2 + 6MB L3 |
+8-core Arm® Cortex®-A78AE v8.2 64-bit CPU 2MB L2 + 4MB L3 |
+8-core Arm® Cortex®-A78AE v8.2 64-bit CPU 2MB L2 + 4MB L3 |
+6-core Arm® Cortex®-A78AE v8.2 64-bit CPU 1.5MB L2 + 4MB L3 |
+6-core Arm® Cortex®-A78AE v8.2 64-bit CPU 1.5MB L2 + 4MB L3 |
+8-core NVIDIA Carmel Arm®v8.2 64-bit CPU 8MB L2 + 4MB L3 |
+6-core NVIDIA Carmel Arm®v8.2 64-bit CPU 6MB L2 + 4MB L3 |
+Dual-core NVIDIA Denver™ 2 64-bit CPU and quad-core Arm® Cortex®-A57 MPCore processor |
+Quad-core ARM® Cortex®-A57 MPCore processor |
+| CPU Max Frequency |
+2.6 GHz |
+2.2 GHz |
+2.0 GHz |
+2.2 GHz |
+2 GHz |
+1.7 GHz |
+2.0 GHz |
+2.2 GHz |
+1.9 GHz |
+Denver2: 1.95 GHz Cortex-A57: 1.92 GHz |
+Denver 2: 2 GHz Cortex-A57: 2 GHz |
+1.43GHz |
+| DL Accelerator |
+- |
+- |
+- |
+2x NVDLA v2 |
+1x NVDLA v2 |
+- |
+2x NVDLA |
+2x NVDLA |
+- |
+- |
+| DLA Max Frequency |
+- |
+- |
+- |
+1.6 GHz |
+1.4 GHz |
+1.23 GHz |
+- |
+1.2 GHz |
+1.4 GHz |
+1.1 GHz |
+- |
+- |
+| Vision Accelerator |
+1x PVA v3 |
+1x PVA v2 |
+- |
+2x PVA |
+2x PVA |
+- |
+- |
+| Memory |
+128GB 256-bit LPDDR5X 273GB/s |
+64GB 256-bit LPDDR5X 273GB/s |
+64GB 256-bit LPDDR5 204.8GB/s |
+64GB 256-bit LPDDR5 (+ ECC) 204.8GB/s |
+32GB 256-bit LPDDR5 204.8GB/s |
+16GB 128-bit LPDDR5 102.4GB/s |
+8GB 128-bit LPDDR5 102.4GB/s |
+8GB 128-bit LPDDR5 102 GB/s |
+4GB 64-bit LPDDR5 51 GB/s |
+32GB 256-bit LPDDR4x (ECC support) 136.5GB/s
+|
+64GB 256-bit LPDDR4x 136.5GB/s |
+32GB 256-bit LPDDR4x 136.5GB/s |
+16GB 128-bit LPDDR4x 59.7GB/s |
+8GB 128-bit LPDDR4x 59.7GB/s |
+8GB 128-bit LPDDR4 (ECC Support) 51.2GB/s |
+8GB 128-bit LPDDR4 59.7GB/s |
+4GB 128-bit LPDDR4 51.2GB/s |
+4GB 64-bit LPDDR4 25.6GB/s |
+| Storage |
+1TB NVMe M.2 Key M Slot |
+Supports NVMe through PCIe Supports SSD through USB3.2 |
+64GB eMMC 5.1 |
+- (Supports external NVMe) |
+- (SD Card Slot & external NVMe via M.2 Key M) |
+- (Supports external NVMe) |
+64GB eMMC 5.1 |
+32GB eMMC 5.1 |
+16GB eMMC 5.1 |
+32GB eMMC 5.1 |
+16GB eMMC 5.1 |
+16GB eMMC 5.1 |
+| Video Encode |
+6x 4Kp60 (H.265) 12x 4Kp30 (H.265) 24x 1080p60 (H.265) 50x 1080p30 (H.265) 48x 1080p30 (H.264) 6x 4Kp60 (H.264) |
+2x 4K60 (H.265) 4x 4K30 (H.265) 8x 1080p60 (H.265) 16x 1080p30 (H.265) |
+1x 4K60 (H.265) 3x 4K30 (H.265) 7x 1080p60 (H.265) 15x 1080p30 (H.265) |
+1x 4K60 (H.265) 3x 4K30 (H.265) 6x 1080p60 (H.265) 12x 1080p30 (H.265) |
+1080p30 supported by 1-2 CPU cores |
+2x 4K60 (H.265) 6x 4K30 (H.265) 12x 1080p60 (H.265) 24x 1080p30 (H.265) |
+4x 4K60 (H.265) 8x 4K30 (H.265) 16x 1080p60 (H.265) 32x 1080p30 (H.265) |
+2x 4K60 (H.265) 4x 4K30 (H.265) 10x 1080p60 (H.265) 22x 1080p30 (H.265) |
+1x 4K60 (H.265) 3x 4K30 (H.265) 4x 1080p60 (H.265) |
+1x 4K30 (H.265) 2x 1080p60 (H.265) |
+| Video Decode |
+4x 8Kp30 (H.265) 10x 4Kp60 (H.265) 22x 4Kp30 (H.265) 46x 1080p60 (H.265) 92x 1080p30 (H.265) 82x 1080p30 (H.264) 4x 4Kp60 (H.264) |
+1x 8K30 (H.265) 3x 4K60 (H.265) 7x 4K30 (H.265) 11x 1080p60 (H.265) 22x 1080p30 (H.265) |
+1x 8K30 (H.265) 3x 4K60 (H.265) 7x 4K30 (H.265) 11x 1080p60 (H.265) 23x 1080p30 (H.265) |
+1x 8K30 (H.265) 2x 4K60 (H.265) 4x 4K30 (H.265) 9x 1080p60 (H.265) 18x 1080p30 (H.265) |
+1x 4K60 (H.265) 2x 4K30 (H.265) 5x 1080p60 (H.265) 11x 1080p30 (H.265) |
+2x 8K30 (H.265) 4x 4K60 (H.265) 8x 4K30 (H.265) 18x 1080p60 (H.265) 36x 1080p30 (H.265) |
+2x 8K30 (H.265) 6x 4K60 (H.265) 12x 4K30 (H.265) 26x 1080p60 (H.265) 52x 1080p30 (H.265) |
+2x 8K30 (H.265) 6x 4K60 (H.265) 12x 4K30 (H.265) 22x 1080p60 (H.265) 44x 1080p30 (H.265) |
+2x 4K60 (H.265) 7x 1080p60 (H.265) 14x 1080p30 (H.265)
+|
+1x 4K60 (H.265) 4x 1080p60 (H.265)
+|
+| CSI Camera |
+HSB camera via QSFP slot USB Camera |
+Upto 20 cameras via HSB Upto 6 cameras through 16x lanes MIPI CSI-2 Upto 32 cameras using Virtual Channels C-PHY 2.1 (10.25 Gbps) D-PHY 2.1 (40 Gbps) |
+16-lane MIPI CSI-2 connector |
+Up to 6 cameras (16 via virtual channels) 16 lanes MIPI CSI-2 D-PHY 2.1 (up to 40Gbps) | C-PHY 2.0 (up to 164Gbps) |
+Up to 4 cameras (8 via virtual channels***) 8 lanes MIPI CSI-2 D-PHY 2.1 (up to 20Gbps) |
+2x MIPI CSI-2 22-pin Camera Connectors
+|
+Up to 4 cameras (8 via virtual channels***) 8 lanes MIPI CSI-2 D-PHY 2.1 (up to 20Gbps) |
+Up to 6 cameras (36 via virtual channels) 16 lanes MIPI CSI-2 D-PHY 1.2 (up to 40 Gbps) C-PHY 1.1 (up to 62 Gbps) |
+Up to 6 cameras (36 via virtual channels) 16 lanes MIPI CSI-2 | 8 lanes SLVS-EC D-PHY 1.2 (up to 40 Gbps) C-PHY 1.1 (up to 62 Gbps) |
+Up to 6 cameras (24 via virtual channels) 14 lanes MIPI CSI-2 D-PHY 1.2 (up to 30 Gbps) |
+Up to 6 cameras (12 via virtual channels) 12 lanes MIPI CSI-2 D-PHY 1.2 (up to 30 Gbps) |
+Up to 5 cameras (12 via virtual channels) 12 lanes MIPI CSI-2 D-PHY 1.1 (up to 30 Gbps) |
+Up to 4 cameras 12 lanes MIPI CSI-2 D-PHY 1.1 (up to 18 Gbps) |
+2x 15-pin 2-lane MIPI CSI-2 camera connectors |
+| PCIe* |
+M.2 Key M slot with x4 PCIe Gen5 (populated with 1TB NVMe) M.2 Key E slot with x1 PCIe Gen5 (Populated with WiFi 6e + Bluetooth Module) |
+Up to 8 lanes - Gen5 Root port only - C1 (x1) and C3 (x2) Root Point or Endpoint - C2 (x1), C4 (x8), abd C5 (x4) |
+x16 PCIe slot supporting x8 PCIe Gen4 M.2 Key M slot with x4 PCIe Gen4 M.2 Key E slot with x1 PCIe Gen4 |
+Up to 2 x8 + 1 x4 + 2 x1 (PCIe Gen4, Root Port, & Endpoint) |
+1 x4 + 3 x1 (PCIe Gen4, Root Port, & Endpoint) |
+M.2 Key M slot with x4 PCIe Gen3 M.2 Key M slot with x2 PCIe Gen3 M.2 Key E slot |
+1 x4 + 3 x1 (PCIe Gen3, Root Port, & Endpoint) |
+1 x8 + 1 x4 + 1 x2 + 2 x1 (PCIe Gen4, Root Port & Endpoint) |
+1 x4 (PCIe Gen4) + 1 x1 (PCIe Gen3) |
+up to 1 x1 + 1 x4 OR 1 x1 + 1 x1 + 1 x2 (PCIe Gen2) |
+1 x1 + 1 x2 (PCIe Gen2)
+|
+1 x4 (PCIe Gen2)
+|
+x1 on the M.2 Key E |
+| USB* |
+2x USB Type-A 3.2 Gen2 2x USB Type-C 3.1 1x USB Type-C - (Debug purpose only) |
+xHCI host controller with integrated PHY (upto) 3x USB 3.2 4x USB 2.0 |
+USB Type-C connector: 2x USB 3.2 Gen2 USB Type-A connector: 2x USB 3.2 Gen2, 2x USB 3.2 Gen1 USB Micro-B connector: USB 2.0 |
+3x USB 3.2 Gen2 (10 Gbps) 4x USB 2.0 |
+3x USB 3.2 Gen2 (10 Gbps) 3x USB 2.0 |
+USB Type-A Connector: 4x USB 3.2 Gen2 USB Type-C Connector for UFP |
+3x USB 3.2 Gen2 (10 Gbps) 3x USB 2.0 |
+3x USB 3.2 Gen2 (10 Gbps) 4x USB 2.0 |
+1x USB 3.2 Gen2 (10 Gbps) 3x USB 2.0 |
+up to 3x USB 3.0 (5 Gbps) 3x USB 2.0 |
+1x USB 3.0 (5 Gbps) 3x USB 2.0 |
+1x USB 3.0 (5 Gbps) 3x USB 2.0 |
+4x USB 3.0 Type-A connectors 1x USB 2.0 Micro-B connector |
+| Networking* |
+1x 5GBe RJ45 connector 1x QSFP28 (4x 25GbE) WiFi 6e (Populated on M.2 Key E slot with x1 PCIe Gen5 ) |
+4x 25GbE |
+3x 25GbE |
+RJ45 connector with up to 10 GbE |
+1x GbE 1x 10GbE |
+1x GbE |
+1xGbE Connector |
+1x GbE |
+1x GbE |
+1x GbE |
+1x GbE |
+1x GbE, WLAN |
+1x GbE |
+1x GbE |
+Gigabit Ethernet, M.2 Key E |
+| Display |
+1x HDMI 2.0b 1x DisplayPort 1.4a |
+4x shared HDMI2.1 VESA DisplayPort 1.4a - HBR2, MST |
+1x DisplayPort 1.4a (+MST) connector |
+1x 8K60 multi-mode DP 1.4a (+MST)/eDP 1.4a/HDMI 2.1 |
+1x 8K30 multi-mode DP 1.4a (+MST)/eDP 1.4a/HDMI 2.1 |
+1x DisplayPort 1.2 (+MST) connector |
+1x 4K30 multi-mode DP 1.2 (+MST)/eDP 1.4/HDMI 1.4** |
+3 multi-mode DP 1.4/eDP 1.4/HDMI 2.0 |
+2 multi-mode DP 1.4/eDP 1.4/HDMI 2.0 |
+2 multi-mode DP 1.2/eDP 1.4/HDMI 2.0 2 x4 DSI (1.5Gbps/lane)
+|
+2 multi-mode DP 1.2/eDP 1.4/HDMI 2.0 1x 2 DSI (1.5Gbps/lane)
+|
+2 multi-mode DP 1.2/eDP 1.4/HDMI 2.0 1 x2 DSI (1.5Gbps/lane)
+|
+1x HDMI 2.0 Connector 1x DP 1.2 Connector |
+| Other I/O |
+2x 13-pin CAN header 2x 6-pin Automation header 2x 5-pin header JTAG Connector 1x 4-pin Fan Connector - 12V, PWM, and Tach 2x 5-pin Audio Panel Header 2-pin RTC Backup Battery Connector Microfit Power Jack Power, Force Recovery, and Reset buttons |
+5x I2S/2x Audio Hub (AHUB), 2x DMIS, 4x UART, 4x CAN, 3x SPI, 12x I2C, 6x PWM outputs |
+5x I2S/2x Audio Hub (AHUB), 2X DMIS, 4x UART, 3x SPI, 13x I2C, 6x PWM outputs. Low speed I/O spec is subject to change. |
+40-pin header (UART, SPI, I2S, I2C, CAN, PWM, DMIC, GPIO) 12-pin automation header 10-pin audio panel header 10-pin JTAG header 4-pin fan header 2-pin RTC batter backup connector microSD slot DC power jack Power, Force Recovery, and Reset buttons |
+4x UART, 3x SPI, 4x I2S, 8x I2C, 2x CAN, PWM, DMIC & DSPK, GPIOs |
+3x UART, 2x SPI, 2x I2S, 4x I2C, 1x CAN, DMIC & DSPK, PWM, GPIOs |
+40-Pin Expansion Header(UART, SPI, I2S, I2C, GPIO) 12-pin button header 4-pin fan header microSD Slot DC power jack
+|
+3x UART, 2x SPI, 2x I2S, 4x I2C, 1x CAN, DMIC & DSPK, PWM, GPIOs |
+5x UART, 3x SPI, 4x I2S, 8x I2C, 2x CAN, PWM, DMIC, GPIOs |
+3x UART, 2x SPI, 2x I2S, 4x I2C, 1x CAN, PWM, DMIC & DSPK, GPIOs |
+5x UART, 3x SPI, 4x I2S, 8x I2C, 2x CAN, GPIOs |
+3x UART, 2x SPI, 4x I2S, 4x I2C, 1x CAN, GPIOs |
+3x UART, 2x SPI, 2x I2S, 4x I2C, GPIOs |
+40-pin header (UART, SPI, I2S, I2C, PWM, GPIO) 12-pin automation header 4-pin fan header 4-pin POE header DC power jack Power, Force Recovery, and Reset buttons |
+| Power |
+40W-130W**** |
+40W-130W |
+40W-75W |
+15W - 60W |
+15W-75W |
+15W - 40W |
+10W - 15W - 25W - 40W |
+7W - 15W - 25W |
+7W - 10W - 25W |
+20W - 40W |
+10W - 30W |
+10W - 20W |
+10W - 20W |
+7.5W - 15W |
+5W - 10W |
+| Mechanical |
+243.19mm x 112.40mm x 56.88mm (Height includes feet, carrier board, module, and thermal solution) |
+100mm x 87mm 699 pin B2B Connector Integrated Thermal TransferPlate (TTP) with Heatpipe |
+110mm x 110mm x 71.65mm (Height includes feet, carrier board, module, and thermal solution) |
+100mm x 87mm 699-pin Molex Mirror Mezz Connector Integrated Thermal Transfer Plate |
+69.6mm x 45mm 260-pin SO-DIMM connector |
+100 mm x 79 mmx 21 mm (Height includes feet, carrier board, module, and thermal solution) |
+69.6mm x 45mm 260-pin SO-DIMM connector |
+100mm x 87mm 699-pin connector Integrated Thermal Transfer Plate |
+69.6mm x 45mm 260-pin SO-DIMM connector |
+87mm x 50mm 400-pin connector Integrated Thermal Transfer Plate |
+69.6mm x 45mm 260-pin SO-DIMM connector |
+69.6mm x 45mm 260-pin SO-DIMM connector |
+100mm x 79mm x 30.21mm (Height includes carrier board, module, and thermal solution) |

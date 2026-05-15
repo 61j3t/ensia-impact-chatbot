@@ -1,0 +1,11 @@
+[Source: https://docs.google.com/forms/d/e/1FAIpQLSc-ieSrM0Uwpvpuepn80Wg-2xZGhSj67ICm1bzlFSOostaokA/viewform?usp=dialog]
+[Title: معا لمحاربة التدخين]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:07:06+00:00]
+
+نحن نقوم بمشروع جامعي لتطوير نظام محادثة ذكي يساعد الشباب على التقليل من التدخين
+نحتاج مساهمتك لتجميع تعبيرات وأجوبة باللهجة الجزائرية حول التدخين، أسبابه، وطريقة الإقلاع عنه
+⚠️
+لا تجمع هذه الاستمارة أي معلومات شخصية. كل الإجابات مجهولة الهوية وتستعمل فقط لأغراض بحثيةCe questionnaire vise à recueillir des expressions, opinions et dialogues en français et en darja (اللهجة الجزائرية) sur le tabac et l’arrêt du tabac.
+Les réponses sont anonymes et utilisées uniquement à des fins de recherche universitaire pour développer un système d’assistance à l’arrêt du tabac destiné aux jeunes.
+⚠️ Aucune information personnelle n’est demandée.

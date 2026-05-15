@@ -1,0 +1,19 @@
+[Source: https://www.trymito.io/security]
+[Title: Security with Mito | Mito]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:35:34+00:00]
+
+Your private data never leaves your computer, ever.
+You don't have to worry about our data storage practices, because we never see anything private.
+All on your computer, never ours
+Mito runs on your computer, not the cloud. None of your data ever touches our servers, so you don’t have to worry about us loosing it.
+Open source and auditable
+If you want to see the code that's running on your computer, you can. Mito is dedicated to building in public.
+See our Github →Private telemetry you can turn off
+We don't see any of your data or metadata. Mito collects basic telemetry to improve our functionality.
+Learn about our private telemetry →CCPA compliance keeps you in control
+We don't want any data you don't want us to have. CCPA compliance means you stay in control of everything.
+See our Privacy Policy →Opt-in upgrades and changes
+Once you have Mito installed, you're in total control of which version you run. Upgrade when you want to.
+See our recent updates →Top-of-the-line operational security
+Mulitple rounds of code-review and automatic and manual tests make sure that insecure code doesn’t make it deployment.

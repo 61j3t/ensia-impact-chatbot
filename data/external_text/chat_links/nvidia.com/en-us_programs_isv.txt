@@ -1,0 +1,32 @@
+[Source: https://www.nvidia.com/en-us/programs/isv]
+[Title: Free Program for ISVs | NVIDIA Connect]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+Join a global network of software development companies and service providers and accelerate your time to market.
+NVIDIA Connect is a free program that helps software development companies and service providers shorten time to market through tailored development resources, technical training and guidance, and preferred pricing on NVIDIA technologies.
+Develop solutions more efficiently with personalized SDK recommendations.
+Be considered for member-only opportunities in generative AI, computer vision, and deep learning.
+Hone technical skills on AI and accelerated applications with free self-paced courses and discounted workshops through NVIDIA Training.
+Get early insight into NVIDIA’s latest solutions via invitation-only technical sessions and events.
+Build with industry-leading NVIDIA hardware, available to eligible members at special rates.
+Optimize stack performance with preferred pricing to eligible members on select NVIDIA software.
+This is your bridge to a wide range of NVIDIA programs and services.
+All companies developing software or services are encouraged to apply.
+Accelerate development across your portfolio of applications or services.
+Kick-start your team’s development with NVIDIA Connect.
+The applying organization must provide at least two contacts with corporate emails, maintain a working website, be officially incorporated, and accept the program’s terms and conditions. Instead of Connect, startups should apply to the NVIDIA Inception Program and groups from academia should explore our offerings for higher education and research.
+No. NVIDIA Connect is designed to help members and their development teams learn about and integrate our diverse platform and solutions.
+NVIDIA Connect is a program for companies, while the NVIDIA Developer Program is designed for individual developers. The Developer Program provides access to resources on the NVIDIA Developer website, such as SDKs, models, and frameworks on the NGC™ catalog; forums; early access programs; and streaming content on NVIDIA On-Demand. The programs are complementary to each other, and we encourage individuals to join the NVIDIA Developer Program.
+The NVIDIA Partner Network is an invitation-only sell-with program for partners whose primary business model is value-added reselling, integrating solutions, designing or manufacturing systems, providing hosted services, consulting, or servicing NVIDIA products and solutions.
+ISVs who participate in NPN are industry-specific vendors with validated solutions who partner with NVIDIA solution providers to co-sell and co-market to drive joint engagement. (Please note that the NPN and Connect programs are for different partner types, so you can only be in one or the other.)
+The NVIDIA Inception Program is designed to help incorporated startups accelerate innovation and growth. Program members get access to the latest developer resources and training, exclusive pricing on NVIDIA hardware and software, and exposure to the venture capital community. The program is free and available to tech startups of all funding stages. (Please note that NVIDIA Inception and Connect are for different partner types, so you can only be in one or the other.)
+NVIDIA has dedicated programs for many audiences with unique needs, which include our global network of colleges and universities. Given the specific nature of our academic and research programs, researchers and developers in these fields are encouraged to join the NVIDIA Developer Program and apply to the support programs that have been tailored for their needs. (Please note that the Connect program and NVIDIA’s programs for academia are for different partner types, so you can only be in one or the other.)
+There are no application or membership fees for NVIDIA Connect.
+Please send an email to connectprogram@nvidia.com.
+Access to discounted public workshops and free training credits through NVIDIA Training, personalized SDK and content recommendations, and preferred pricing on select hardware and software products.
+No. Members can reference the pricing guide for the products that are currently offered at a discount.
+To streamline the purchasing process, Connect members can buy NVIDIA hardware from NVIDIA partners listed here, and the discount will be automatically deducted from the standard price. Connect members can buy NVIDIA software either from NVIDIA partners listed here or directly from NVIDIA, and the discount will be automatically deducted from the standard price.
+Log in to the Connect Portal and select “Request Benefit” in the navigation bar. Select the benefit of interest and fill out the request form.
+Either of the contacts listed on the initial application form can add additional portal users on the “Manage Users” page. Please note that additional users must have an email from the same corporate domain.
+Make sure that you’ve opted in to NVIDIA Developer News (in “Email Preferences”) to receive email communications on program updates, upcoming events, and information on developer tools and resources.

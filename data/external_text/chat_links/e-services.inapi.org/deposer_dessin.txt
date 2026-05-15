@@ -1,0 +1,8 @@
+[Source: https://e-services.inapi.org/deposer_dessin]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+Déposer un dessin ou un modèle
+Procédure de dépôt de modèles
+- Ouvrir un compte sur le site web de l’INAPI, ou se connecter à votre espace si vous possédez déjà un compte - Cliquez sur la rubrique dessin industriel sur le tableau de bord, puis sur nouveau dépôt - Remplir les champs requis avec les informations nécessaires - Imprimer votre quittance de paiement ainsi que votre formulaire de dépôt en 4 exemplaires - Effectuer votre paiement, aller à n’importe quelle agence CNEP sur le territoire national et effectuer un versement sur le compte de l’INAPI N° 100 00 13733 clé 7 Nom de l’agence de domiciliation de l’INAPI : ESSAFIR ALITTI CNEP Code Agence : 103. Le paiement peut se faire par chèque directement au niveau de l’INAPI. - Signer les quatre copies de la demande imprimée et préparer (le dossier à fournir); - Déposer votre dossier au niveau de l’INAPI Alger ou à l’annexe la plus proche de votre lieu de résidence. - Après vérification de recevabilité matérielle de la demande, les documents suivants sont remis au déposant - Un exemplaire visé de la demande d’enregistrement comprenant le numéro, la date et l’heure de dépôt pour servent de Procès-verbal de dépôt, une quittance de paiement visée.

@@ -1,0 +1,118 @@
+[Source: https://github.com/himahuja/Research-Internships-for-Undergraduates]
+[Title: GitHub - zapplyjobs/Research-Internships-for-Undergraduates: List of Research Internships for Undergraduate Students · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+This is a non-exhaustive list of opportunities available to Undergraduate students. Many of these positions are only focused towards Indian students.
+Tip
+Know a program that's missing or has a broken link? Submit an issue or pull request — we review and merge contributions regularly.
+This repo is maintained in collaboration with
+Explore Zapply's website and check out:
+- Our chrome extension that autofills your job applications in seconds.
+- A dedicated job board with the latest jobs for various types of roles.
+- User account providing multiple profiles for different resume roles.
+- Job application tracking with streaks to unlock commitment awards.
+Experience an advanced career journey with us! 🚀
+Connect and seek advice from a growing network of fellow students and new grads.
+The following are some worldwide research internship positions:
+- LPI Summer Intern Program in Planetary Science, for both national and international students.
+- NASA - CalTech Summer Undergraduate Research Fellowship (SURF), for research positions at Jet Propulsion Laboratory, California Institute of Technology.
+- Santa Fe Institute Summer Research Experience
+- Robotics Institute for Summer Scholars, CMU
+- Data Science for Social Good Fellowship, CMU
+- QRLSSP Summer Program, Arizona State University: Only for US Citizens / Permanent Residents
+- Summer Undergraduate Research fellowship program, Rockfeller Institute
+- CalTech SURF Program
+- Space Astronomy Summer Program, Space Telescope Science Institute (STScI)
+Data Visualization Programming Summer Student Internship in New York City, Flatiron Institute. (NEW LINK NEEDED)- Summer Research Program, Princeton University
+- International Student Research Internship Program - McKelvey School of Engineering
+- Luddy School of Informatics, Computing, and Engineering - Global Talent Attraction Program (GTAP)
+- BioChemCoRe (Biology and Chemistry Computational Research), Amaro Lab, UC San Diego
+- Global Research Experience in Advanced Technologies (GREAT) Program, UC Davis
+- ICT Summer Research Program
+- UC Berkeley Amgen Scholars program
+- Summer Undergraduate Program in Engineering Research at Berkeley (SUPERB) (for Information Technology students
+- SUMMER RESEARCH OPPORTUNITIES PROGRAM(SROP), Purdue University
+- Summer Undergraduate Research Fellowship (SURF), Stanford University
+- IPAM UCLA Program
+MITACS Globalink, for research positions in Canada.(NO LONGER AVAILABLE)- University of Alberta Research Experience (UARE)
+- Max Planck Institute for Gravitational Physics, for all students.
+- Max Planck Institute for Software Systems
+- Warwick Statistics Internship Scheme, University of Warwick
+- DAAD WISE Scholarship
+- HZDR Dresden, Summer student program (Germany)
+- MaxSIP (Max Planck Institute Summer Internship)
+- UROP International, RWTH Aachen
+- DSSGx UK Summer Fellowship, University of Warwick
+- Visual Geometry Group
+- Research fellowship at ETH Zurich - Application closed
+- CERN Summer Student Program
+- CERN OpenLab for Computer Science Undergraduates
+- E3, EPFL (Switzerland)
+- Summer at EPFL
+- Swissnex Program
+- ISternship Summer Student Program, IST Austria
+- HSE University, Moscow Computer Science Internships
+- University of Tokyo, Amgen Scholarship Japan (only Bio Tech and Bio-Chem Programs)
+- OIST Research Internship Program, Okinawa Institute of Science and Technology
+- NIMS (Japan)
+- Hennge Global Internship Program, for remote internship in a Japan-based tech start-up.
+- [Internet Initiative Japan Internship] (https://www.iijlab.net/en/career/internship.html), for on-site tech internship in Japan.
+- SPIKE @ UNIST, Summer Program for Internship and Korean Experience
+- SPIKE@UNIST (South Korea)
+- GIST Global Internship Program (South Korea)
+- Research internship @ Yonsei University
+- Yonsei University
+- NTHU Summer Internship Program
+- TIGP-IIP, Academia Sincia, Taiwan
+- ITRI Global Internship program
+- TEEP@Asia (Taiwan)
+- TEEP Internship, Taiwan
+- HKU, Computer Science Department
+- IVISP, HKUST (only for senior year undergraduates + postgraduates)
+- SURP, CUHK
+- SURP (Hongkong)
+- ICTS LONG TERM VISITING STUDENTS PROGRAM for both International and Indian Students. Aims to provide opportunities to students of science, mathematics and engineering to spend a longer period of time (1 or 2 semesters).
+- ICTS SN BHATT Memorial Excellence Fellowship for Undergraduate students of science, mathematics and engineering, who are in their third, fourth or fifth year of the program are eligible to apply.
+- INSA-IASc-NASI SRFP for undergraduate and postgraduate students in Chemistry, Earth and Planetary sciences, Engineering including computer sciences, Life sciences, mathematics and physics. The fellowship period is 56 days and is quite prestigious for anyone who wishes to go into the field of research.
+- Faculty of Engineering Kasetsart University internship/training/research programs
+- Faculty of Engineering King Mongkut University of North Bangkok Exchange/internship programs
+- IPAM UCLA, RIPS Program
+- Amgen Scholars Program
+- UX Research Internship, Red Hat
+- Allen Institute for AI, Research and Engineering Internships
+S.N. Bose Scholarship sponsored by IUSSTF, it's been closed for almost two years now.- ICTS Summer research program, by ICTS-TIFR.
+- DAAD Wise Scholarship, for research positions in Germany
+- Shastri Research Student Fellowship by Shastri Indo-Canadian Institute
+- Viterbi India Program, sponsored by IUSSTF and USC Viterbi
+- Khorana Program for Scholars, sponsored by IUSSTF
+- Charpak Global Scholarship, funded by French Embassy in India
+- Indian Student Internship Program at NTHU
+- IBM Blue Mix Research Internship
+- IBM Extreme Blue (limited to IITs and NITs)
+- LIGO IndiGo at CalTech, funded by US NSF
+- IIITD Summer Internship, IIIT, New Delhi
+- Summer Research Fellowship Programme 2021, IISc, IAS, INS
+- Quantitative Research Summer Internship, WorldQuant India
+- Internship At CMI, Chennai Mathematical Institute
+- Shastri Student Internship Project, Eligible universities here
+- Cisco Summer internship
+- Hackerrank SDE intern
+- SSERD Research Intern for research work in topics like Space Settlement, Astrophysics, Space Mission Design etc.
+- IISER Kolkata Summer Student Research Programme, IISER Kolkata
+- IITM Summer Fellowship Programme, IIT Madras
+- IITD GIPEDI, IIT Delhi
+- IITB Research Internship Award, IIT Bombay
+- IITK SURGE Program, IIT Kanpur
+- SPARK, IIT Roorkee
+- SRIP, IIT Gandhinagar
+- IIT Ropar Summer Internship [Information], IIT Ropar
+- Bhaba Atomic Research Centre
+- ISI Kolkata Summer Internship
+- IIT (ISM) Dhanbad SRIP Programme
+- IIIT Delhi
+- IIIT HYDERABAD
+- Summer Program, CeNSE IISc Bangalore
+- Prof. G.S. Ramaswamy Summer Internship, CSIR-SERC Chennai, for civil/mechanical engineering students
+Check out our other repos for jobs and free resources:
+Thanks to all our contributors! The real MVPs. 🏆

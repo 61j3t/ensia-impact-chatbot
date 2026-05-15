@@ -1,0 +1,14 @@
+[Source: https://www.nvidia.com/en-us/industries]
+[Title: AI Solutions for Industries | NVIDIA]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+Discover the possibility, power, and performance of AI and accelerated computing from the cloud to the edge across industries.
+State of AI Reports
+Find out how industry leaders are driving innovation with AI, accelerated computing, and simulation to modernize their businesses.
+Ready to start building? Explore how you can put NVIDIA technology to work.
+Access hundreds of GPU-accelerated containers, models, and SDKs—all the tools necessary to successfully build apps with NVIDIA technology.
+Elevate your team's skills in AI, graphics and simulation, accelerated computing, and more with custom training plans, team pricing, and flexible delivery options.
+Explore resources for modern business leaders, including the guidance they need to innovate, mitigate risk, and capitalize on AI and accelerated computing opportunities.
+Think of this as your personal guide to our "State of AI" reports. Whether you're curious about infrastructure or industry-specific adoption, I'm here to provide the data you need to stay ahead.
+This is an AI chatbot powered by Adobe. AI generated content may have mistakes. Please verify. Chat messages are recorded to improve our services in accordance with our Privacy Policy. Please do not share personal or confidential information.

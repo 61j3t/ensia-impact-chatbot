@@ -1,0 +1,18 @@
+[Source: https://info.nvidia.com/launch-ai]
+[Title: Webinar | Launch Your Career in AI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:21:11+00:00]
+
+NVIDIA Webinar
+Join us for a panel discussion to learn how to kick-start or accelerate your career in AI. Hear from our expert panelists as they outline the ever-evolving AI career paths, ways to gain valuable skills, what employers are looking for, and how to stand out from the crowd.
+You’ll also hear how our panelists forged their own AI careers, sharing actionable hints and tips along the way. This includes valuable advice on how to use cutting-edge tools and technologies in your AI projects. They’ll also point you to the resources, training and certifications that will supercharge your professional growth.
+Whether you’re a student, a recent graduate, or a seasoned professional, this webinar will provide you with valuable insights and inspiration for navigating your career in AI and other technologies.
+Register now to explore career paths and opportunities in AI.
+maincontent goes here
+Content goes here
+content goes here
+Content goes here
+Content goes here
+Content here
+Webinar: Description here
+Date & Time: Wednesday, April 22, 2018

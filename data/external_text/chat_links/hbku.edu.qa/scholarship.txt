@@ -1,0 +1,57 @@
+[Source: https://www.hbku.edu.qa/scholarship]
+[Title: Scholarship Guidelines for HBKU Graduate Programs | Hamad Bin Khalifa University]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:18:51+00:00]
+
+Hamad Bin Khalifa University is dedicated to assisting students in navigating financial support for their degrees. This page outlines the financial support provided to graduate students at HBKU.
+Information on financial support for Bachelor’s degrees is not included on this page. For more information, please contact: fao@qf.org.qa
+Scholarships
+Graduate student scholarships may include a tuition waiver applied to reduce the tuition costs for the students and a stipend paid directly to the student. Generally, graduate students receiving a stipend would also be provided with a tuition waiver.
+Tuition Waivers
+Tuition waivers are standardized across HBKU. Self-sponsored graduate students are only eligible for a discounted tuition rate of 2,000 QAR per credit hour based on financial need. These guidelines do not apply to students funded by external sources. Students should follow the policies of their sponsors as applicable.
+The table below outlines the various tuition waiver rates for HBKU-sponsored graduate students.
+| Program Type | Tuition Waiver | Tuition Fee/Credit |
+|---|---|---|
+| PhD STEM (CSE and CHLS) | 100% | 4,000 QAR |
+| PhD SHAPE and S.J.D. (CIS, CHSS, and CL) | 100% | 2,500 QAR |
+| STEM MS Programs (CSE and CHLS) | 75% | 4,000 QAR |
+| SHAPE MS and MA Programs (CIS, CHSS, and CPP) | 60% | 2,500 QAR |
+| J.D. (CL) | 60% | 2,500 QAR |
+| LL.M. Programs (CL) | 0% | 2,000 QAR |
+| MS Economics (SEM) | 0% | 2,500 QAR |
+| Certificate Programs | 0% | 2,000 QAR |
+Stipends
+The table below outlines the stipends awarded to selected graduate students.
+| Program Stipend | Monthly Rate | Annual Rate | Duration |
+|---|---|---|---|
+| Qatari PhD | 11,000 QAR | 132,000 QAR | 45 months |
+| International PhD | 9,000 QAR | 108,000 QAR | 45 months |
+| Local PhD | 5,000 QAR | 60,000 QAR | 45 months |
+| Qatari Master’s | 9,000 QAR | 108,000 QAR | 21 months |
+| International Master’s | 7,000 QAR | 84,000 QAR | 21 months |
+| Local Master’s | 4,000 QAR | 48,000 QAR | 21 months |
+Conditions
+- Stipends are awarded to full-time graduate students who are serving at the university as RA and/or TA, depending on the availability of funds. Stipends for local students are limited.
+- Full-time working professionals and part-time workers who exceed 40% of full-time hours are not eligible for stipends.
+- Students receiving a stipend shall work as research assistants (RAs) with their primary supervisors for 10 hours per week.
+- Students are allowed to work a maximum of 20 hours per week in total (i.e., 10 hours beyond their RA commitment).
+- Students receiving a stipend are eligible to serve as Teaching Assistants (TAs) for 10 hours per week at an hourly rate of 50 QAR for the duration of the semester in which they are assigned to teach.
+- Students receiving a stipend are eligible for paid employment through the Student Employment Program (SEP) for up to 10 additional hours per week.
+- Students are responsible for covering the cost of their housing, whether they choose to live in QF dormitory facilities or in external accommodations. This expense will be paid from their monthly stipend or personal funds. HBKU does not provide direct payment for student housing. Stipend awards do not depend on the student’s marital status or the number of family dependents.
+- International students will be provided with a single round-trip airfare during their candidature, consisting of one inbound ticket upon starting their academic program and one outbound ticket upon graduation.
+- Stipends funded from external sources, including research grants, are excluded from the rates shown in the table.
+- Stipend exceptions can be considered for academic degree programs, on a case-by-case basis, depending on the availability of funds, and with the approval of the dean and the provost.
+Scholarship Eligibility
+- Tuition waivers and stipend awards depend on the availability of funds.
+- Tuition waivers and stipend awards are not guaranteed and are only awarded on a merit or need basis.
+Frequently Asked Questions
+No. Scholarships are offered based on merit or financial need and available funds.
+You are considered for scholarships during the admissions process; no separate application is needed.
+Full-time professionals and those working over 40% of full-time hours are not eligible for stipends. Discounted tuition may be available based on need.
+Scholarships are reviewed annually and depend on academic progress and available funds.
+You will be notified by email with details about your award.
+No, meal plans are not separately included. The stipend is a fixed amount meant to cover general living expenses, including meals.
+External funding may affect eligibility. Refer to the scholarship agreement for details.
+Yes. You must maintain good academic standing as specified by the scholarship agreement.
+Deferral may affect eligibility. Contact your college for guidance.
+Contact your college for guidance.

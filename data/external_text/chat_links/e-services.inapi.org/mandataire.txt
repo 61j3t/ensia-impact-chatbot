@@ -1,0 +1,8 @@
+[Source: https://e-services.inapi.org/mandataire]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+Mandataires
+Le mandataire est une personne physique remplissant certaine conditions (cf.arrêté ministériel du 12 mai 2009, JO n°37 -24/06/2009- ), agréée auprès du Ministère chargé de la propriété industrielle, Il s'agit d'un représentant légal du déposant, chargé d’effectuer les demandes liées au dépôt et d'agir en son nom. Le mandataire est obligatoire pour les déposants domiciliés à l’étranger et facultatif pour ceux domiciliés en Algérie.
+En résumé, que vous soyez une personne physique ou morale (entreprise, association…), vous pouvez déposer vous-même votre demande si vous étes en algérie. Si vous étes à l'étranger, vous devez désigner un mandataire.

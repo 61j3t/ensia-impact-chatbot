@@ -1,0 +1,47 @@
+[Source: https://www.interaction-design.org/literature/article/apple-s-product-development-process-inside-the-world-s-greatest-design-organization]
+[Title: Apple’s Product Development Process – Inside the World’s Greatest Design Organization | IxDF]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:11+00:00]
+
+Apple’s Product Development Process may be one of the most successful design processes ever implemented. With a valuation that exceeds $2 trillion, there’s a lot that designers can learn from Apple and introduce into their own design environments.
+Apple is a notoriously secretive business. In Steve Jobs’ time at the company it would have been near impossible to find out about the internal workings of the business. This isn’t surprising when a business’s market advantage is its design approach. It’s worth keeping it under wraps.
+However, Adam Lashinsky, the author of Inside Apple: How America’s most Admired and Secretive Company Really Works has been given a look at the process. While there are still aspects of the way that Apple works that are shrouded in secrecy, you can get a good idea of the overall high level process through this book. And in this article, we’ve distilled the key takeaways from the book.
+Apple’s Product Development Process
+Design is at the Forefront
+Author/Copyright holder: GiuliaPiccoliTrapletti . Copyright terms and licence: CC BY-SA 4.0
+How do you give designers the freedom to design and ensure that the products they produce fulfil their visions? Well at Apple they put design at the forefront.
+Jony Ive, the British designer who was the Chief Design Officer (CDO) at Apple, and his design team do not report to finance, manufacturing, etc. They are given free rein to set their own budgets and are given the ability to ignore manufacturing practicalities.
+At the heart of the design department is the Industrial Design Studio where only a select few Apple employees have access.
+It’s a simple concept that allows for the creation of incredible products.
+Design Teams are Separated From the Larger Company
+When a design team works on a new product they are then cut off from the rest of the Apple business. They may even implement physical controls to prevent the team from interacting with other Apple employees during the day.
+The team is also removed from the traditional Apple hierarchy at this point. They create their own reporting structures and report directly to the executive team. This leaves them free to focus on design rather than day-to-day minutiae.
+A Documented Development Process
+Author/Copyright holder: Ed Uthman . Copyright terms and licence: CC BY-SA 2.5
+The Apple New Product Process (ANPP) information is given to a product development team when they begin work. It details every stage of the design process and it goes into elaborate detail. The idea is to define what stages the product creation team will go through, who will be responsible for delivering the final product, who works on which stage and where they work and also when the product is expected to be completed.
+Monday is Review Day
+The Apple Executive Team holds a regular Monday meeting to examine every single product that the company has in design phase at that point in time. This isn’t as daunting as it may sound; one of the keys to Apple’s success is that they don’t work on hundreds of new products at once. Instead, resources are concentrated on a handful of projects that are expected to bear fruit rather than being diluted over many lesser projects.
+If a product cannot be reviewed at one meeting – it’s automatically at the top of the agenda for the next meeting. In practice, this should mean that every single Apple product is inspected by the executive team at least once a fortnight. This keeps delays in decision making to a minimum and enables the company to be very lean with its approach to design.
+The EPM and the GSM
+The EPM is the engineering program manager and the GSM is the global supply manager. Together they are known within Apple as the “EPM Mafia”. It’s their job to take over when a product moves from design to production.
+As you might expect, these people are usually going to be found in China, Apple does very little of its own manufacturing. Instead it relies on contract outsourcing companies like Foxconn (one of the largest employers in the world) to do this for them. This removes much of the headache of manufacturing for Apple whilst keeping production costs as low as possible. There is a significant market advantage to this approach and its one that many other electronics manufacturers are emulating now.
+The EPM Mafia may sound scary (and they probably are to the suppliers) but their real job is simply to ensure that products are delivered to market in the right way, at the right time and at the right cost. They may disagree at points but their guiding principle is to act in the interests of the product at all times.
+Iteration Is Key
+Like any good design company, the design process at Apple is not over when manufacturing begins. In fact, Apple iterates the design throughout manufacturing. The product is built, it’s tested and reviewed, then the design team improves on it and it’s built all over again. These cycles take 4-6 weeks at a time and may be run many times over a product’s development lifecycle.
+Author/Copyright holder: CyberDoc LLC . Copyright terms and licence: Fair Use.
+When production is complete the EPM will take possession of some or all of the test devices and then take them back to Apple’s headquarters at Cupertino.
+This is a very costly approach but it’s one of the reasons that Apple has a reputation for quality. The more you invest in design, the more likely you are to build incredible market changing products. It’s the process that the iPod, the iPhone and the iPad went through.
+The Packaging Room
+This is a very-high security area in Apple and it’s where prototypes are unboxed. As you might expect, the security is to prevent leaks to the outside world. If you ever do see a leaked prototype for an Apple product – it won’t have come from here. It’s more likely to have vanished from a production line in China.
+A Launch Plan
+Author/Copyright holder: Manutaus. Copyright terms and licence: CC BY-SA 3.0
+The final step in Apple’s product development is product launch. When the product is considered to be as good as it can be – it enters an action plan known as “the Rules of the Road”. This explains all the responsibilities and actions that must be taken prior to a commercial launch of the product.
+It must be a nerve-wracking experience to be privy to the “Rules of the Road” because if you lose it or leak it… you’re immediately fired. This is explained in the document itself.
+The Take Away
+Apple’s process is complex, expensive and demanding. If you compare it to most business theories – it shouldn’t work. However, to date it has out-performed even the wildest of expectations.
+You may not be able to emulate all of their processes within the space of your own workplace but there’s no reason that you can’t develop written processes for design phases and launch phases of your projects, for example. And, of course, there is no reason at all for you in not iterating!
+The more you know about successful design processes, the more you can take some of the best aspects of them and use them to enhance your own products.
+Resources
+Find out all the details of the design process in: Inside Apple: How America's Most Admired--and Secretive--Company Really Works by Adam Lashinsky ISBN 97814555512157, Published January 25, 2012
+And take an insight into Apple’s greatest designer’s mind in: JonyIve: The Genius Behind Apple's Greatest Products by Leander Kahney ISBN 159184617X, Published November 14, 2013
+Hero Image: Author/Copyright holder: Sreejithk2000. Copyright terms and licence: Public Domain.

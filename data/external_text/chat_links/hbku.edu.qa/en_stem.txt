@@ -1,0 +1,23 @@
+[Source: https://www.hbku.edu.qa/en/stem]
+[Title: STEM | Hamad Bin Khalifa University]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:18:51+00:00]
+
+Overview
+Hamad Bin Khalifa University is proud to have a team of experts dedicated to STEM outreach. The learning of STEM skills (science, technology, engineering, and mathematics) is a national priority of Qatar. At HBKU, we host a variety of programs for preparatory and secondary students to get hands-on experience where student both learn the history and science behind our everyday world, and learn to engineer solutions to complex problems.
+Innovating to Educate
+We reimagine and reinvent the connections between teaching and learning by guiding students through their own process of discovery, creation and innovation.
+Inspiring Academic Achievement
+We help Qatar’s youth find and succeed on educational pathways so they can achieve careers in science and engineering for Qatar’s knowledge-based economy.
+Learning for a Lifetime
+We collaborate with educators across Qatar to support excellence in STEM education and cultivate curiosity and creativity to inspire students to pursue a lifetime of learning.
+Platforms
+Science & Engineering Road Show
+The Science and Engineering Road Show is a public service program sponsored by Qatar Petrochemical Company (QAPCO) and HBKU with two complementary and interlocking goals...
+View Details
+STEM Hub
+A joint initiative between HBKU and the Qatar National Research Fund (QNRF), the STEM Hub laboratory aims to promote creative applications of engineering and science toward....
+View Details
+Community Engagement, Mentorship, and Education
+Members of the STEM Outreach team work directly with the Ministry of Education and Higher Education, school groups, and commu...
+View Details

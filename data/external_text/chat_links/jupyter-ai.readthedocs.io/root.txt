@@ -1,0 +1,19 @@
+[Source: https://jupyter-ai.readthedocs.io/]
+[Title: Jupyter AI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:23:33+00:00]
+
+Jupyter AI¶
+An open source extension that connects AI agents to computational notebooks in JupyterLab.
+💬 Collaborative Chats
+Collaborate with AI personas and other humans in shared chats. Drag-and-drop attachments to share context.
+🤖 Frontier Agents
+Use Claude, Codex, GitHub Copilot, Gemini, Goose, Kiro, Mistral Vibe, OpenCode, or other agents directly in JupyterLab.
+⚡ Real-Time UI
+Watch other humans or agents edit files in real-time, powered by a new RTC backend.
+🛡️ Guardrails By Default
+Agents request permission before writing files, running commands, or using MCP tools.
+📓 Powerful Notebook Tools
+Use AI personas to write, debug, and run notebooks in JupyterLab.
+🧩 Flexible and Extensible
+Build your own AI persona or share custom MCP servers with AI personas.

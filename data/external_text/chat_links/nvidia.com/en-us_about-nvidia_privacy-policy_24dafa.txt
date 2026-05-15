@@ -1,0 +1,48 @@
+[Source: https://www.nvidia.com/en-us/about-nvidia/privacy-policy?deeplink=visiting-our-website]
+[Title: NVIDIA Privacy Policy]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+| When you visit our websites or online services, we collect your IP address, web response times, and any error message that results from your visit. |
+We use this data to ensure reliable responses from our websites. |
+We process this data as part of a contract with you to provide a service (e.g., delivering web content), and based on our legitimate interest in making and improving our products and services. |
+We never share this data. |
+| When you visit our websites or online services, we collect information about your visit such as IP address, how long you have been on the website or app, or your mouse movements. |
+Our service provider hCaptcha uses this data to verify whether user actions meet our security requirements. |
+We process your data based on our legitimate interest in protecting the service from abusive automated crawling, spam, and other forms of abuse that can harm our service or other users of our service. |
+We never share this data. |
+| When you visit our websites or online services, we collect a history of the content you have viewed. |
+We use content viewing history to understand your experience, improve our content, and customize content for you.
+If you consent, we may also use content viewing history to send customized communications to you (e.g., emailed recommendations). |
+We process content viewing history based on our legitimate interest in making and improving our content.
+We rely solely on your consent if we use content viewing history to send customized communications to you. |
+We never share this data. |
+| When you register for our events or when you request content (e.g., newsletters or white papers), we collect your contact information, including your name, email address, phone number, address, and organization affiliations. |
+We use your request history and contact information to communicate with you about your requests, and to find other individuals and organizations that may be interested in our products and services.
+If you consent, we may also use your request history and contact information to send customized communications to you (e.g., emailed recommendations). |
+We process your contact information with your consent or based on our legitimate interest in finding potential customers for our products and services.
+We rely solely on your consent if we use this information to customize our communications with you. |
+We share your request and contact information with business partners and third-party service providers so they can communicate with you about relevant products or services.
+We share your email address and phone number with Google to assess the effectiveness of our internet advertising. We share your contact information with identity enrichment providers such as 6Sense or Leadspace to obtain additional details (e.g., title, associated industries) about you.
+If you have consented to receive marketing communications or recommendations, we share obfuscated (hashed) information about you with third-party ad providers such as Google to serve interest-based ads to you and others. Learn more. |
+| When you order products, we and our service providers collect your contact information, including your name, email address, phone number, address, business affiliations, and your payment information. |
+We use your order history and contact information to communicate with you about your orders, to send you items you have ordered, and to find other individuals and organizations that may be interested in our products and services.
+If you consent, we may also use your order history and contact information to send customized communications to you (e.g., emailed recommendations).
+We use your contact and payment information to fulfill your order. |
+We process your contact and payment information as part of a contract with you (for example, to buy a product).
+We process your contact information with your consent or based on our legitimate interest in finding potential customers for our products and services.
+We rely solely on your consent if we use this information to customize our communications with you. |
+We share your contact, order, and payment information with shipping or logistics vendors, fulfillment partners, and our third-party payment processors to help fulfill your request.
+If you have consented to receive marketing communications or recommendations, we share obfuscated (hashed) information about you with third-party ad providers such as Google to serve interest-based ads to you and others. Learn more. |
+| When you submit feedback through our online services, we collect your feedback, your email address, and associated technical information such as the feedback mechanism (e.g., URL), the version of your operating system and browser, and your IP address. |
+We use this data to improve our products and services. |
+We rely solely on your consent if we collect feedback information. |
+We do not share this data unless you use GeForce NOW as an account holder with one of our GeForce NOW Alliance partners. If so, we share your ratings and feedback with your GeForce Now Alliance partner. |
+| When you interact with any of our chatbots on our web site or mobile apps we collect your messages, including the personal information included in the messages, such as your name and email address (if provided), along with the web page you are on. |
+We use this data to improve our products and services, and to support our customer service efforts. We also use your contact information to communicate with you about your requests. We store this information for purposes of record keeping and to support our customer service efforts, including to continue our chatbot communications if we end up connecting at a future date. |
+We rely solely on your consent to collect the chatbot messages. In addition, we process your personal information with your consent or based on our legitimate interest based on the nature of the processing activity. When we rely on legitimate interest, we do so to provide the chatbot services and find potential customers for our products and services (as may be permitted under applicable law). |
+If the chatbot platforms are supported by third-party vendors such as Drift, such vendors will collect and process this data, including your personal information if provided, as part of the provision of the chatbot services. These vendors will process your personal information as a data processor, and under our instructions. |
+| When you interact with our emails (e.g., open, click, unsubscribe, add other recipients), we collect information about your interactions. |
+We use email interaction data to improve how we communicate with you and others, and to find potential customers. |
+We process email interaction data based on our legitimate interest in making and improving our content, and in finding and communicating with potential customers. |
+We never share this data. |

@@ -1,0 +1,26 @@
+[Source: https://www.wipo.int/en/web/wipo-alert]
+[Title: WIPO ALERT]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:51+00:00]
+
+WIPO ALERT
+WIPO ALERT is a secure, online platform to which authorized bodies in WIPO member states can upload details of websites or apps which have been determined to infringe copyright according to national rules.
+Who can use WIPO ALERT?
+Advertisers, advertising agencies and their technical service providers can apply to become authorized users of WIPO ALERT in order to access aggregated lists of infringing websites from around the world.
+They can use this information in their automated advertising systems to avoid placing advertisements on such sites. In this way, they can avoid subsidizing copyright infringement and protect their brands from the negative reputational effect of association with illegal activities.
+Video: Watch this short video to learn why advertisers are using WIPO ALERT to improve brand safety.
+News
+-
+October 12, 2023
+-
+Two more WIPO Member States join WIPO ALERT
+October 4, 2023
+WIPO ALERT Database
+The search function is addressed to those website operators that wish to check whether their site has been listed on WIPO ALERT.
+What is WIPO’s role?
+WIPO assists its member states in the dissemination of information generated at national level.
+WIPO does not assess whether any website is infringing and does not take any responsibility for the contents of the national lists hosted on the WIPO ALERT platform.
+Find out more
+- The Building Respect for Intellectual Property Database Project (document WIPO/ACE/14/9)
+WIPO ALERT Operating Procedures Database
+In the interests of transparency, WIPO ALERT Authorized Contributors provide details of their operating procedures in compiling their lists of websites which deliberately infringe copyright.

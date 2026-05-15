@@ -1,0 +1,50 @@
+[Source: https://www.iie.org/services/research-services]
+[Title: Research Services | IIE]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:21:07+00:00]
+
+Research Services
+The Research, Evaluation and Learning (REL) Unit at the Institute of International Education (IIE) combines leading experts in academic mobility with our in-house evaluation expertise to conduct timely and relevant research studies, assessments, and impact studies. The REL Unit provides holistic research and evaluation services to domestic and international governmental agencies, non-governmental organizations, foundations, and corporations to facilitate the collection of more comprehensive and policy-relevant data on international education, and to assess the impact of programs on beneficiaries, communities, and policymaking.
+Research Capabilities
+As pioneers in the international educational exchange field, IIE has conducted research on global academic mobility trends for more than 100 years. We publish Open Doors ®, a comprehensive suite of information resources on international students and scholars in the United States and on U.S. students studying abroad for academic credit. IIE serves as the Secretariat for the Project Atlas ® global research initiative, partnering with more than 30 countries to collect and disseminate comparable student mobility data.
+We leverage our knowledge of historic trends and data when applying our expertise in research design, data collection, analysis, and global dissemination. We tailor our approach to each study we design, develop, and implement, tapping our experience with a wide range of research methodologies. Our research on academic mobility informs higher education institutions, U.S. and foreign governments, corporations, and policymakers on current U.S. and global trends in international educational exchange, providing stakeholders with an evidence base to make decisions on critical issues in the field, advocate for internationalization, and design global programs.
+Research Expertise
+Survey design, administration, and analysis
+IIE has more than 100 years of experience designing, collecting, analyzing, and disseminating survey research that provides evidence-driven insights on international educational exchange. Through the IIENetwork, we have strong, established relationships and access to more than 3,000 U.S. higher education institutions and international partners to conduct research. Our timely snapshot surveys, landscape analyses, and longitudinal studies inform data collection, decision making, and advocacy efforts of international education stakeholders.
+Qualitative data collection and analysis
+IIE recognizes the value of mixed methods research, including hearing participants’ voices and using their words to articulate and contextualize quantitative research findings. We frequently integrate qualitative data collection and analysis in research study designs, using in-depth interviews, focus groups, and case studies to complement quantitative data. IIE also employs qualitative research methods to conduct comparative and international education research on educational systems, practices, and policies around the world.
+Research Services
+Research Reports, Policy Briefs, White Papers
+IIE provides clients with a full-service research experience. Our team is prepared to draft, design, and publish research reports, insight briefs, policy briefs, and white papers to disseminate research findings to your internal office or a global audience.
+Custom Data Reports
+IIE prepares customized reports on student mobility to and from the United States and provides historical trend information and aggregated analyses using Open Doors data. We monitor trends in international student mobility by geography (state, region, metropolitan area), institution type (public/private and degree-granting classification), and target market profile (country or world region of origin, degree level, and field of study).
+Workshops and Conference Presentations
+IIE partners with colleagues from around the world to deliver workshops and conference presentations focused on strengthening the capacity to collect and analyze comprehensive data on international educational exchange and campus internationalization to U.S. and global higher education institutions, data-collection agencies, and governments.
+Areas of Expertise
+International Academic Mobility to the United States
+IIE has pioneered applied research and policy analysis in the field of international student and scholar mobility. We analyze data from multiple academic mobility information sources such as Project Atlas, UNESCO, and Open Doors – the standard reference resource for education and industry professionals on international students and scholars at U.S. higher education institutions.
+Examples of our work:
+- Open Doors Report on International Educational Exchange
+- Global Competition for Talent: A Comparative Analysis of National Strategies for Attracting International Students
+- Open Doors Special Report on International Students with Disabilities
+- Welcoming International Students at U.S. Community Colleges
+U.S. Study Abroad
+IIE has extensive experience in applied research and policy analysis related to U.S. study abroad and exchange initiatives — both for academic credit and non-credit experiential activities abroad, including work, internships, volunteering, research, and other activities. We build a comprehensive picture of U.S. study abroad specializing in analyses on institutional engagement, student profile, and activity. We analyze data from multiple information sources such as the National Center for Education Statistics, Generation Study Abroad, and Open Doors.
+Examples of our work:
+- Who’s Counting? Understanding the Landscape of Graduate Learning Overseas
+- Broadening Opportunities for Study Abroad: U.S. Government Funded Scholarship Programs
+- Supporting Pathways for First-Generation Students to Study Abroad
+COVID-19 Impact on International Educational Exchange
+IIE has monitored the effects of COVID-19 on global student mobility on U.S. higher education campuses since February 2020. Through our COVID-19 Snapshot Survey Series to U.S. higher education institutions, IIE has built a longitudinal data set recording higher education policies and decision-making through the COVID-19 pandemic on themes such as international student support, recruitment, and enrollment. Our ability to understand current trends is rooted in the longitudinal data on academic mobility housed at IIE that illuminate historical mobility patterns.
+Examples of our work:
+- New Realities for Global Student Mobility in Summer and Fall 2020
+- From Emergency Response to Planning for Future Students Mobility
+Campus Internationalization
+IIE provides data-driven research and insights for higher education leaders to make informed decisions that promote campus internationalization. Our research explores a broad range of international education activities, campus interventions, and institutional structures demonstrating promising practices for program design, new initiatives, and campus advocacy efforts.
+Examples of our work:
+- Socially Responsive Leadership for Post-Pandemic International Higher Education: Theoretical Considerations and Practical Implications
+- The Reconfiguration of the American Academic Workforce :Implications for International Scholarly Exchange
+- A Brief History of Senior International Officers on U.S. Higher Education Campuses
+Career Readiness
+Our research seeks to demonstrate the value of students’ international experiences to career readiness. Consulting resources such as the National Association of Colleges and Employers and The Professional Value of ERASMUS (VALERA) study, IIE provides research and insights on a range of experiential activities abroad.
+Examples of our work:

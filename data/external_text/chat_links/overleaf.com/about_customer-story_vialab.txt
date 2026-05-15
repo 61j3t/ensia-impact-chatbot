@@ -1,0 +1,40 @@
+[Source: https://www.overleaf.com/about/customer-story/vialab]
+[Title: Customer Stories: Vialab | Overleaf - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+Overleaf solves authoring challenges at Canadian computer science lab
+Ontario Tech’s Vialab group saves ‘significant’ time writing, editing, and collaborating.
+Overleaf is indispensable for us. We use it all the time, and we’ve found it makes life so much easier. We use it in our research, thesis writing, project proposals, and manuscripts for publication. When it comes to writing, it’s our main tool.
+—Dr. Christopher Collins, Vialab Director, Associate Professor, and Canada Research Chair in Linguistic Information Visualization
+At a glance
+Vialab, a computer science research group at Canada’s Ontario Tech University and its collaborators were using various, often incompatible, versions of LaTeX, resulting in issues compiling documents. In addition, the group managed its repository using Subversion and ran a local installation of LaTeX using the MiKTeX distribution and package manager. The entire setup ran off an internal server, a system that required lots of maintenance.
+The solutionOverleaf immediately solved the problems Vialab faced, eliminating the need to work across multiple LaTeX environments—users simply go to the website, open up a template, and start to write. Vialab no longer needs to maintain its own repository since Overleaf runs the TeX Live distribution on its servers and handles the entire process. What’s more, it can be used anywhere—whether in the lab or at a global conference—and its intuitive design means new lab students can easily pick it up. The group now says it couldn’t manage without it.
+ProductOverleaf Cloud
+Strengthening research collaboration
+Information Visualization Lab (Vialab) is a computer science research group at Ontario Tech University. The lab’s research focuses on information visualization, with special attention to text and document analysis. Other research themes include human-computer interaction, interactive surface and tabletop display interaction and applications research, and computer-supported learning.
+The lab members write and collaborate primarily in LaTeX to create influential conference papers, research proposal documentation, research notes, theses, and manuscripts for publications.
+The lab maintains a range of collaborations with other academic researchers both at Ontario Tech and beyond, as well as industrial collaborations.
+An authoring setup that wasn’t working
+Prior to using Overleaf, the lab was experiencing complications and delays related to its existing authoring setup. Vialab authors were all using different versions of LaTeX, leading to compilation issues further down the line. Collaborators had to work individually offline and leave inline comments for each other that would then appear on the rendered document, sometimes altering the layout or flow.
+In addition, the need for the lab to manage a repository and run a local installation of LaTeX required a great deal of maintenance—both to make sure the server was backed up, and to ensure that each collaborator had a suitable Integrated Development Environment (IDE) set up as a frontend to the compiler.
+The group wanted to find an alternative setup that would eliminate the need to work across multiple LaTeX environments and that could easily deal with packages relevant to the lab’s specialist typesetting requirements. They needed a solution that allowed them to work anywhere in the world, and with anyone in the world, and importantly, one that new lab students could work with straight away.
+The smart solution
+Overleaf answered all the lab’s key challenges. The platform is easy to set up and use—users go to the website, open one of more than 4,000 available templates, and start to write. There’s nothing to download or install. Users can write either in LaTeX Code Editor or Visual Editor, which provides a ‘word processor’ type environment for those new to LaTeX.
+“It’s so easy to get the students up and running,” explained Dr Christopher Collins, Director of Vialab and Associate Professor and Canada Research Chair in Linguistic Information Visualization. “They simply have to get an account, I can share my project with them, and we are up and running. Before this, I’d have had to give them a long tutorial about compiler setup and the package repository. With Overleaf, all that is already taken care of.”
+Overleaf allows Vialab and its collaborators to comment, respond, and resolve issues in real-time. By commenting directly within the platform, comments no longer interrupt the design of the paper or alter the page numbering and word count. In addition, Vialab does not need to maintain its own repository since Overleaf handles that.
+As well as enhancing collaboration within the lab, Overleaf has enabled easier external collaboration. Vialab has used Overleaf in collaborations with Napier University and St. Andrews University in Scotland, among others. The lab regularly collaborates with institutions around the US using Overleaf, and also with research centers such as SRI International, an independent nonprofit that helps take the most advanced R&D from the lab to the marketplace.
+I think it saves us significant time. If we want to start a new project from an existing one, all we have to do is duplicate it and share it with our collaborators, and it’s done.
+—Dr Christopher Collins, Vialab Director, Associate Professor, and Canada Research Chair in Linguistic Information Visualization
+Time saved every day
+Vialab now uses Overleaf daily. Students love the platform for writing theses, while the lab uses it for research and to write the papers it publishes for conferences.
+The ability to find, open and easily write using Overleaf conference templates is ‘incredibly helpful’, added Dr Collins. “We are writing collaboratively right up until the last minute. We are faced with deadlines all the time and Overleaf gives us the ability to polish right up until the last possible second.”
+Not only does Overleaf help the lab produce their papers more collaboratively, but it’s also increased efficiency.
+“I think it saves us significant time,” confirmed Dr Collins. “If we want to start a new project from an existing one, all we have to do is duplicate it and share it with our collaborators, and it’s done. Previously I would have had to duplicate the project myself, add it to the repository, and then send an email to everyone with the new link, something that often took upwards of 20 minutes. With Overleaf, I was able to duplicate and share in less than two minutes.”
+It’s no wonder Overleaf has become ‘indispensable’ to the Vialab team.
+Read more customer stories
+Discover how Overleaf is powering thousands of collaborations at one of the world’s foremost research organizations.
+The leading UK university more than quadrupled the number of institutions with which it collaborates and saw a 310% jump in new projects.
+Find out how Symplectic’s flagship research information management system went from strength to strength with Overleaf’s ‘flexible, scaleable’ authoring platform.
+Discover Overleaf for organizations
+Join over 8,900 leading businesses and research institutions writing smarter with Overleaf.

@@ -1,0 +1,7 @@
+[Source: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-machine-learning-platform]
+[Title: What is machine learning? | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+What is machine learning and how does it work?
+Machine learning, a subset of AI, uses mathematical models to help computers learn from data without direct instruction. By using algorithms to identify patterns, machine learning creates data models that make predictions. Predictions improve as more data is collected and analyzed, much like how humans learn from experience. This adaptability makes machine learning ideal for scenarios with constantly changing data or tasks, where coding solutions would be impractical.

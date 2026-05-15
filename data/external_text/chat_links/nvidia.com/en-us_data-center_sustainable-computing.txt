@@ -1,0 +1,30 @@
+[Source: https://www.nvidia.com/en-us/data-center/sustainable-computing]
+[Title: Sustainable Computing Solutions | NVIDIA]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+Ansys, Siemens Gamesa
+Save energy, lower costs, and mitigate climate change with AI and accelerated computing.
+Sustainable computing encompasses the entire lifecycle of technology, including its environmental impact. NVIDIA is helping to enable sustainable computing by providing the most energy-efficient infrastructure, empowering research and design across various industries. From weather forecasting to chip manufacturing, accelerated computing holds the potential to realize green computing objectives while saving costs.
+Sustainable computing drives continuous innovation for real-world impact.
+Enhance energy and water efficiency while minimizing waste and emissions across various industries.
+Develop new industrial materials for batteries, wind turbines, paint, and more to reduce reliance on traditional, less sustainable solutions.
+Discover new green energy sources, make planetary-scale climate predictions, mitigate wildfires, and advance drug discovery.
+Design better chips, optimize power grids, and streamline delivery routes to save energy and reduce costs.
+Maximizing AI energy efficiency starts with leaps in inference performance. Blackwell Ultra with NVFP4 delivers 4x throughput and 50x more energy efficiency per token, boosting energy cost savings across inference workloads.
+Build AI infrastructure—and a brighter future—with the market’s most energy-efficient data center technology.
+Explore a few ways NVIDIA's energy-efficient accelerated computing powers a more sustainable future.
+NVIDIA’s Earth-2 platform utilizes AI-driven weather models, such as CorrDiff and FourCastNet, to deliver ultra-high-resolution, energy-efficient weather forecasts significantly faster than traditional approaches.
+These models enable rapid, accurate prediction of extreme weather events down to the kilometer scale, supporting applications in disaster preparedness, renewable energy management, and risk assessment—often at thousands of times the speed and efficiency of previous supercomputer-based simulations.
+This technology enables governments, researchers, and industries to make more informed decisions, protecting communities and infrastructure from climate-related risks.
+Siemens Gamesa is leveraging NVIDIA’s digital twin platform—powered by Omniverse and AI frameworks like Modulus—to create highly accurate virtual models of entire wind farms. This enables rapid, real-time simulation of turbine placement and wake effects, optimizing layouts to boost energy output by up to 20% compared to previous designs and cutting simulation times from weeks to minutes.
+By accelerating this process, Siemens Gamesa can maximize clean energy generation, lower operational costs, and more effectively support the global transition to renewable power.
+Computational lithography—a core step in chip manufacturing—demands enormous computing power, and traditional CPU-based methods have become a bottleneck as workloads rapidly outpace hardware scaling.
+NVIDIA’s cuLitho leverages GPU acceleration on the Hopper™ architecture to speed up lithography by 40x, reduce energy and space requirements by up to 9x and 8x, respectively, and cut mask processing time from weeks to overnight. In partnership with leaders such as TSMC, ASML, and Synopsys, cuLitho is transforming silicon production, enabling new advanced techniques and helping to make semiconductor technologies more efficient, predictable, and cost-effective.
+Industrial computational fluid dynamics (CFD) is extremely resource- and energy-intensive, consuming approximately 25 billion CPU core hours annually. By adopting GPU acceleration and AI-powered frameworks like NVIDIA PhysicsNeMo™, leading CFD software providers and platforms now achieve up to 36x faster simulations, while drastically reducing energy use and costs compared to traditional CPU-only systems. For example, running GPU-accelerated clusters can save $19 million and 37 GWh of energy compared to equivalent CPU infrastructure, making high-fidelity CFD much more sustainable and supporting companies in their efforts to reduce carbon emissions and achieve net zero.
+The NVIDIA RAPIDS™ Accelerator for Apache Spark utilizes GPUs to accelerate end-to-end data science and analytics pipelines, enabling enterprises to complete Spark workloads up to 6x faster without code changes. This results in up to 5x lower infrastructure costs and 6x less power consumption, helping typical organizations save nearly $125 million and reduce energy use by 10 GWh compared to CPU-only solutions. By enabling scalable, efficient, and interactive analytics for use cases such as demand forecasting and fraud detection, the accelerator supports both advanced insights and sustainability goals.
+Rendering high-quality visual effects and animation is extremely resource- and energy-intensive, consuming nearly 10 billion CPU core hours annually and creating significant carbon emissions.
+By switching to NVIDIA RTX™ GPU acceleration, leading studios have achieved performance boosts of up to 46x, while reducing energy use by 10X and capital expenses by 6x compared to CPU-based render farms. This shift enables studios to deliver photorealistic scenes more quickly and more sustainably, with the potential to save the industry $900 million and 215 GWh of energy worldwide.
+Stay ahead of the rapidly evolving conversation about sustainable computing solutions and best practices for building and operating AI infrastructure.
+From liquid cooling technology to energy-efficient infrastructure, NVIDIA is creating sustainable computing solutions today to help build a better tomorrow.
+Subscribe to NVIDIA’s data center newsletter for the latest updates and news.

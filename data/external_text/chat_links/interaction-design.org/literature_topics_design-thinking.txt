@@ -1,0 +1,109 @@
+[Source: https://www.interaction-design.org/literature/topics/design-thinking]
+[Title: What is Design Thinking? — updated 2026 | IxDF]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:11+00:00]
+
+Design thinking is a non-linear, iterative process that teams use to understand users, challenge assumptions, redefine problems and create innovative solutions to prototype and test. It is most useful to tackle ill-defined or unknown problems and involves five phases: Empathize, Define, Ideate, Prototype and Test.
+Why Is Design Thinking so Important?
+“Design thinking is a human-centered approach to innovation that draws from the designer's toolkit to integrate the needs of people, the possibilities of technology, and the requirements for business success.”
+— Tim Brown, CEO of IDEO
+Design thinking fosters innovation. Companies must innovate to survive and remain competitive in a rapidly changing environment. In design thinking, cross-functional teams work together to understand user needs and create solutions that address those needs. Moreover, the design thinking process helps unearth creative solutions.
+Design teams use design thinking to tackle ill-defined/unknown problems (aka wicked problems). Alan Dix, Professor of Human-Computer Interaction, explains what wicked problems are in this video.
+Wicked problems demand teams to think outside the box, take action immediately, and constantly iterate—all hallmarks of design thinking.
+Don Norman: Father of User Experience design, author of the legendary book The Design of Everyday Things, co-founder of the Nielsen Norman Group, and former VP of the Advanced Technology Group at Apple, explains why the designer’s way of thinking is so powerful when it comes to such complex problems.
+Design thinking offers practical methods and tools that major companies like Google, Apple and Airbnb use to drive innovation. From architecture and engineering to technology and services, companies across industries have embraced the methodology to drive innovation and address complex problems.
+The End Goal of Design Thinking: Be Desirable, Feasible and Viable
+Desirability: Meet People’s Needs
+The design thinking process starts by looking at the needs, dreams and behaviors of people—the end users. The team listens with empathy to understand what people want, not what the organization thinks they want or need. The team then thinks about solutions to satisfy these needs from the end user’s point of view.
+Feasibility: Be Technologically Possible
+Once the team identifies one or more solutions, they determine whether the organization can implement them. In theory, any solution is feasible if the organization has infinite resources and time to develop the solution. However, given the team’s current (or future resources), the team evaluates if the solution is worth pursuing. The team may iterate on the solution to make it more feasible or plan to increase its resources (say, hire more people or acquire specialized machinery).
+At the beginning of the design thinking process, teams should not get too caught up in the technical implementation. If teams begin with technical constraints, they might restrict innovation.
+Viability: Generate Profits
+A desirable and technically feasible product isn’t enough. The organization must be able to generate revenues and profits from the solution. The viability lens is essential not only for commercial organizations but also for non-profits.
+Traditionally, companies begin with feasibility or viability and then try to find a problem to fit the solution and push it to the market. Design thinking reverses this process and advocates that teams begin with desirability and bring in the other two lenses later.
+The Five Stages of Design Thinking
+Stanford University’s Hasso Plattner Institute of Design, commonly known as the d.school, is renowned for its pioneering approach to design thinking. Their design process has five phases: Empathize, Define, Ideate, Prototype, and Test. These stages are not always sequential. Teams often run them in parallel, out of order, and repeat them as needed.
+Stage 1: Empathize—Research Users' Needs
+The team aims to understand the problem, typically through user research. Empathy is crucial to design thinking because it allows designers to set aside your assumptions about the world and gain insight into users and their needs.
+Stage 2: Define—State Users' Needs and Problems
+Once the team accumulates the information, they analyze the observations and synthesize them to define the core problems. These definitions are called problem statements. The team may create personas to help keep efforts human-centered.
+Stage 3: Ideate—Challenge Assumptions and Create Ideas
+With the foundation ready, teams gear up to “think outside the box.” They brainstorm alternative ways to view the problem and identify innovative solutions to the problem statement.
+Stage 4: Prototype—Start to Create Solutions
+This is an experimental phase. The aim is to identify the best possible solution for each problem. The team produces inexpensive, scaled-down versions of the product (or specific features found within the product) to investigate the ideas. This may be as simple as paper prototypes.
+Stage 5: Test—Try the Solutions Out
+The team tests these prototypes with real users to evaluate if they solve the problem. The test might throw up new insights, based on which the team might refine the prototype or even go back to the Define stage to revisit the problem.
+These stages are different modes that contribute to the entire design project rather than sequential steps. The goal is to gain a deep understanding of the users and their ideal solution/product.
+Design Thinking Frameworks
+There is no single definition or process for design thinking. The five-stage design thinking methodology described above is just one of several frameworks.
+Innovation doesn’t follow a linear path or have a clear-cut formula. Global design leaders and consultants have interpreted the abstract design process in different ways and have proposed other frameworks of design thinking.
+Head, Heart and Hand by the American Institution of Graphic Arts (AIGA)
+The Head, Heart, and Hand approach by AIGA (American Institute of Graphic Arts) is a holistic perspective on design. It integrates the intellectual, emotional, and practical aspects of the creative process.
+“Head” symbolizes the intellectual component. The team focuses on strategic thinking, problem-solving and the cognitive aspects of design. It involves research and analytical thinking to ensure that design decisions are purposeful.
+“Heart” represents the emotional dimension. It emphasizes empathy, passion, and human-centeredness. This aspect is crucial in understanding the users’ needs, desires, and experiences to ensure that designs resonate on a deeper, more personal level.
+“Hand” signifies the practical execution of ideas, the craftsmanship, and the skills necessary to turn concepts into tangible solutions. This includes the mastery of tools, techniques, and materials, as well as the ability to implement and execute design ideas effectively.
+Inspire, Ideate, Implement by IDEO
+IDEO is a leading design consultancy and has developed its own version of the design thinking framework.
+In the “Inspire” phase, the team focuses on understanding users’ needs, behaviors, and motivations. The team empathizes with people through observation and user interviews to gather deep insights.
+In the “Ideate” phase, the team synthesizes the insights gained to brainstorm a wide array of creative solutions. This stage encourages divergent thinking, where teams focus on quantity and variety of ideas over immediate practicality. The goal is to explore as many possibilities as possible without constraints.
+In the “Implement” phase, the team brings these ideas to life through prototypes. The team tests, iterates and refines these ideas based on user feedback. This stage is crucial for translating abstract concepts into tangible, viable products, services, or experiences.
+The methodology emphasizes collaboration and a multidisciplinary approach throughout each phase to ensure solutions are innovative and deeply rooted in real human needs and contexts.
+The Double Diamond by the Design Council
+In the book Designing Social Systems in a Changing World, Béla Heinrich Bánáthy, Professor at San Jose State University and UC Berkeley, created a “divergence-convergence model” diagram. The British Design Council interpreted this diagram to create the Double Diamond design process model.
+In the diverging “Discover” phase, designers gather insights and empathize with users’ needs. The team then converges in the “Define” phase to identify the problem.
+The second, solution-related diamond, begins with “Develop,” where the team brainstorms ideas. The final stage is “Deliver,” where the team tests the concepts and implements the most viable solution.
+This model balances expansive thinking with focused execution to ensure that design solutions are both creative and practical. It underscores the importance of understanding the problem thoroughly and carefully crafting the solution, making it a staple in many design and innovation processes.
+In this expanded and annotated version, the framework emphasizes four design principles:
+Be people-centered.
+Communicate (visually and inclusively).
+Collaborate and co-create.
+Iterate, iterate, iterate!
+The updated version also highlights the importance of leadership (to create an environment that allows innovation) and engagement (to connect with different stakeholders and involve them in the design process).
+Common Elements of Design Thinking Frameworks
+On the surface, design thinking frameworks look very different—they use alternative names and have different numbers of steps. However, at a fundamental level, they share several common traits.
+Start with empathy. Focus on the people to come up with solutions that work best for individuals, business, and society.
+Reframe the problem or challenge at hand. Don’t rush into a solution. Explore the problem space and look at the issue through multiple perspectives to gain a more holistic, nuanced understanding.
+Initially, employ a divergent style of thinking (analyze). In the problem space, gather as many insights as possible. In the solution space, encourage team members to generate and explore as many solutions as possible in an open, judgment-free ideation space.
+Later, employ a convergent style of thinking (synthesize). In the problem space, synthesize all data points to define the problem. In the solution space, whittle down all the ideas—isolate, combine and refine potential solutions to create more mature ideas.
+Create and test prototypes. Solutions that make it through the previous stages get tested further to remove potential issues.
+Iterate. As the team progresses through the various stages, they revisit different stages and may redefine the challenge based on new insights.
+Design Thinking Mindsets: More than a Process
+A mindset is a characteristic mental attitude that determines how one interprets and responds to situations. Design thinking mindsets are how individuals think, feel and express themselves during design thinking activities. It includes people’s expectations and orientations during a design project.
+Without the right mindset, it can be very challenging to change how we work and think.
+The key mindsets that ensure a team can successfully implement design thinking are.
+Be empathetic: Empathy is the ability to place yourself, your thinking and feelings in another person’s shoes. Design thinking begins from a deep understanding of the needs and motivations of people—the parents, neighbors, children, colleagues, and strangers who make up a community.
+Be collaborative: No one person is responsible for the outcome when you work in a team. Several great minds are always stronger than just one. Design thinking benefits from the views of multiple perspectives and lets others’ creativity bolster your own.
+Be optimistic: Be confident about achieving favorable outcomes. Design thinking is the fundamental belief that we can all create change—no matter how big a problem, how little time, or how small a budget. Designing can be a powerful process no matter what constraints exist around you.
+Embrace ambiguity: Get comfortable with ambiguous and complex situations. If you expect perfection, it is difficult to take risks, which limits your ability to create radical change. Design thinking is all about experimenting and learning by doing. It gives you the confidence to believe that new, better things are possible and that you can help make them a reality.
+Be curious: Be open to different ideas. Recognize that you are not the user.
+Reframe: Challenge and reframe assumptions associated with a given situation or problem. Don’t take problems at face value. Humans are primed to look for patterns. The unfortunate side effect of these patterns is that we form (often false and sometimes dangerous) stereotypes and assumptions. Design thinking aims to help you break through any preconceived notions and biases and reframe challenges.
+Embrace diversity: Work with and engage people with different cultural backgrounds, experiences, and ways of thinking and working. Everyone brings a unique perspective to the team. When you include diverse voices in a team, you learn from each other’s experiences, further helping you break through your assumptions.
+Make tangible: When you make ideas tangible, it is faster and easier for everyone on the team to be on the same page. For example, sketching an idea or enacting a scenario is far more convenient and easy to interpret than an elaborate presentation or document.
+Take action: Run experiments and learn from them.
+Design Thinking vs Agile Methodology
+Teams often use design thinking and agile methodologies in project management, product development, and software development. These methodologies have distinct approaches but share some common principles.
+Similarities between Design Thinking and Agile
+Iterative Process
+Both methodologies emphasize iterative development. In design thinking, teams may jump from one phase to another, not necessarily in a set cyclical or linear order. For example, on testing a prototype, teams may discover something new about their users and realize that they must redefine the problem. Agile teams iterate through development sprints.
+User-Centered
+The agile and design thinking methodologies focus on the end user. All design thinking activities—from empathizing to prototyping and testing—keep the end users front and center. Agile teams continually integrate user feedback into development cycles.
+Collaboration and Teamwork
+Both methodologies rely heavily on collaboration among cross-functional teams and encourage diverse perspectives and expertise.
+Flexibility and Adaptability
+With its focus on user research, prototyping and testing, design thinking ensures teams remain in touch with users and get continuous feedback. Similarly, agile teams monitor user feedback and refine the product in a reasonably quick time.
+In this video, Laura Klein, author of Build Better Products, describes a typical challenge designers face on agile teams. She encourages designers to get comfortable with the idea of a design not being perfect. Notice the many parallels between Laura’s advice for designers on agile teams and the mindsets of design thinking.
+Differences between Design Thinking and Agile
+While design thinking and agile teams share principles like iteration, user focus, and collaboration, they are neither interchangeable nor mutually exclusive. A team can apply both methodologies without any conflict.
+From a user experience design perspective, design thinking applies to the more abstract elements of strategy and scope. At the same time, agile is more relevant to the more concrete elements of UX: structure, skeleton and surface. For quick reference, here’s an overview of the five elements of user experience.
+Design thinking is more about exploring and defining the right problem and solution, whereas agile is about efficiently executing and delivering a product.
+Here are the key differences between design thinking and agile.
+| Design Thinking | Agile |
+Origins | It primarily originates in design and borrows from multiple disciplines, including psychology, systems thinking, and business strategy. | It primarily originates from software development and borrows from disciplines such as manufacturing and project management. |
+Primary Focus | Problem-solving and innovative solutions. | Efficient product delivery. |
+Phase of Application | Usually, toward the beginning of a project. Aims to define the problem and test and pick a solution. | Usually, after teams have a clear solution. Aims to deliver that solution and continuously iterate on the live product. |
+Structure and Documentation | Fluid process, less formal and relatively lesser documentation. | Structured and formal process with extensive documentation. |
+End Product | An idea or solution, usually with a prototype, may not be tangible. | Tangible, working product (usually software) shipped to end users. |
+Design Sprint: A Condensed Version of Design Thinking
+A design sprint is a 5-day intensive workshop where cross-functional teams aim to develop innovative solutions.
+The design sprint is a very structured version of design thinking that fits into the timeline of a sprint (a sprint is a short timeframe in which agile teams work to produce deliverables). Developed by Google Ventures, the design sprint seeks to fast-track innovation.
+In this video, user researcher Ditte Hvas Mortensen explains the design sprint in detail.

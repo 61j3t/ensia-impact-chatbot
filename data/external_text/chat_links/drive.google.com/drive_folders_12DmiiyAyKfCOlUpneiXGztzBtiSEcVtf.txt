@@ -1,0 +1,25 @@
+[Source: https://drive.google.com/drive/folders/12DmiiyAyKfCOlUpneiXGztzBtiSEcVtf]
+[Title: INAPI - Google Drive]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:11:41+00:00]
+
+Name | Date modified | File size |
+|
+|---|---|---|---|
+Brevet Documentations | Feb 12, 2024 | — | |
+Dépliant INAPI | Nov 29, 2022 | — | |
+Didacticiel OMPI | Nov 29, 2022 | — | |
+FLAYER INAPI | Nov 29, 2022 | — | |
+Flayers Inapi | Nov 29, 2022 | — | |
+Guide Brevets - Marque et Formulaire Dessin et modéle | Nov 29, 2022 | — | |
+Quelque article scientifique Proposé par l'INAPI | Nov 29, 2022 | — | |
+Textes de loi Propriété Industrielle Algérie | Nov 29, 2022 | — | |
+C'est quoi la propriété intellectuelle.pdf Shared | Oct 19, 2017 | 5.8 MB | |
+C'est quoi un CATI.pdf Shared | Feb 20, 2018 | 157 KB | |
+Lien CATI CENTER INAPI.txt Shared | Nov 27, 2023 | 49 bytes | |
+Lien Documentation sur la P.I.txt Shared | Nov 27, 2023 | 42 bytes | |
+LIEN IP DIAGNOSTIQUE de l'OMPI.txt Shared | Nov 27, 2023 | 41 bytes | |
+Lien Statistique de la P.I en Algérie.txt Shared | Nov 27, 2023 | 33 bytes | |
+Mission de l'INAPI Version Arabe.docx Shared | Mar 27, 2022 | 25 KB | |
+Mission de l'INAPI Version Française.pdf Shared | Jun 3, 2014 | 55 KB | |
+propriété industriell INAPI.pdf Shared | Jun 3, 2014 | 55 KB |

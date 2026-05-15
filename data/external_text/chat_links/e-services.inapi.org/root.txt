@@ -1,0 +1,20 @@
+[Source: https://e-services.inapi.org/]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+L’INAPI met à votre disposition un espace pour les réclamations, les rendez-vous et la satisfaction client, afin de mieux répondre à vos besoins
+Les centres CATI offrent des services locaux d'information technologique
+de qualité et d'autres
+services pour les innovateurs.
+INAPI coopère avec l’OMPI et des parties prenantes nationales pour renforcer les capacités en propriété intellectuelle...
+Découvrez les événements à venir : conférences, salons, webinaires... pour soutenir les jeunes entreprises innovantes.
+Tel : 044 19 68 66 / 044 19 64 24
+Fax : 021 73 96 44 / 021 73 55 81
+Email: info-dpitt@inapi.org
+Tel: 036 37 04 82
+Email: annexe_setif@inapi.org
+Tel: 024 79 57 59
+Email: annexe_boumerdes@inapi.org
+Tel: 042 24 59 21
+Email: inapi-oran@inapi.org

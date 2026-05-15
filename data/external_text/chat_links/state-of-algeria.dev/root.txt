@@ -1,0 +1,22 @@
+[Source: https://state-of-algeria.dev/]
+[Title: Home | The State of Software Engineering in Algeria]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:34:20+00:00]
+
+The State of Software Engineering in Algeria
+Insights from our Algeria Developer Survey in 2024
+For all Algerians
+Gain insights into the Algerian tech landscape with detailed survey results, showcasing the work and trends of Algerian software engineers both within Algeria and abroad.
+Exploring opportunities
+Uncover diverse opportunities within the Algerian tech sector through insightful survey findings, empowering strategic decision-making and fostering innovation.
+Navigating Challenges
+Gain valuable insights into the challenges facing the Algerian tech industry, equipping you with knowledge to navigate obstacles and drive positive change.
+Have a sneak peek into the report!
+Feedback and Support
+This work isn't the first of its kind in Algeria, and it might not be the perfect work Algeria deserves
+If you think we did a good job or have suggestions on how we can improve, we'd love to hear from you:
+It's just the beginning
+This work has been challenging, and taught us a lot. Now we are more ready to raise the challenge again!
+For the next editions, we plan to gather more data, get more participants, talk to more people, and to make a lot of noise!
+We hate spam as much as you do (or maybe more),
+so we're keeping this mailing list only for #dzDevSurvey24-related news

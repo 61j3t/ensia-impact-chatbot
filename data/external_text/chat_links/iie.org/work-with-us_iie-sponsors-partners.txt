@@ -1,0 +1,213 @@
+[Source: https://www.iie.org/work-with-us/iie-sponsors-partners]
+[Title: See Our Sponsors & Partners | IIE]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:21:07+00:00]
+
+See Our Sponsors & Partners
+IIE provides a wide range of services and manages or administers programs for the organizations listed below. In addition to those sponsors and funders named here, IIE is deeply grateful to the 140 foreign governments and the hundreds of colleges and universities across the United States that participate in and contribute to the success of the Fulbright Student Programs, the Hubert Humphrey Fellows Program, and the Fulbright Scholar Programs, along with the sponsoring agency, the U.S. Department of State. We would also like to thank the numerous other institutions and donors that provided various forms of support to other programs administered by IIE. Institutional sponsors include:
+U.S. Government
+- Better World Fund
+- Community College of Denver (CCD)
+- Edmonds Community College
+- Highline Community College
+- National Institute on Drug Abuse (NIDA)
+- Secondary School Admission Test Board–SSATB
+- Summit School District
+- U.S. Agency for International Development
+- U.S. Department of Defense
+- U.S. Department of Education
+- U.S. Department of State
+- U.S. Department of Treasury
+- U.S. Embassy, Croatia
+- U.S. Embassy, Ethiopia
+- U.S. Embassy, Indonesia
+- U.S. Embassy, Iraq
+- U.S. Embassy, Japan
+- U.S. Embassy, Kosovo
+- U.S. Embassy, Mexico
+- U.S. Embassy, Namibia
+- United States Institute of Peace (USIP)
+International Governments and Organizations
+- American-Indonesian Exchange Foundation (AMINEF)
+- Aspen Institute
+- Austrian-American Educational Commission
+- CampusFrance
+- Comisión Mexico Estados Unidos (COMEXUS)
+- Commission for Educational Exchange Between the United States and Nepal
+- Commission for Educational Exchange Between the United States and Peru
+- Commission for Educational Exchange Between the United States of America and Argentina
+- Commission for Educational Exchange between the United States of America and Brazil
+- Commission for Educational Exchange Between the United States of America and Colombia
+- Commission for Educational Exchange Between the United States of America and Ecuador
+- Duke Kunshan University
+- Education Above All
+- Embassy of the People’s Republic of China
+- Federal Republic of Nigeria
+- Finland-U.S. Educational Exchange Commission
+- Foundation for Educational Exchange Between Canada and the United States
+- Franco-American Commission for Educational Exchange
+- Friends of Bhutan’s Culture
+- German-American Fulbright Commission
+- Germanistic Society of America
+- Government of Aceh
+- Government of Egypt, Ministry of Finance
+- Government of Italy
+- Government of Japan, Ministry of Education, Culture, Sports, Science and Technology (MEXT)
+- Government of Luxembourg, Ministry for Higher Education and Research
+- Government of Mongolia, Ministry of Education, Culture and Science
+- Hungarian-American Commission for Educational Exchange
+- Indonesia International Education Foundation (IIEF)
+- Institute for the Training and Development of Human Resources
+- Inter-American Foundation
+- International Career and College Counseling Conference (IC3)
+- International Education Center, LEPL
+- International Executive Service Corps (IESC)
+- International Monetary Fund
+- Japan Intercultural Academy of Municipalities (JIAM)
+- Japan International Cooperation Center (JICE)
+- Japan-United States Educational Commission
+- King Abdullah University of Science and Technology
+- National Council for International Visitors
+- Netherlands America Commission for Educational Exchange
+- New Zealand-United States Educational Foundation
+- Pharos University in Alexandria
+- Population Reference Bureau, Inc.
+- Republic of Korea, Ministry of Public Administration & Security
+- Republic of Macedonia
+- Romanian-U.S. Fulbright Commission
+- The Australian-American Fulbright Commission
+- The International Labour Office
+- The World Bank
+- U.S. Educational Foundation in Greece
+- U.S. Educational Foundation in India (USIEF)
+- United Nations Capital Development Fund
+- United Nations Children’s Fund (UNICEF)
+- United States Educational Foundation in Pakistan
+- United States-India Educational Foundation
+- United States-Israel Educational Foundation
+- US-UK Fulbright Commission
+- Volunteers for Economic Growth Alliance (VEGA)
+Corporations and Corporate Foundations
+- Adobe
+- Advance Auto Parts, Inc.
+- AIG Foundation
+- AIRBNB
+- Alcoa Foundation
+- Arconic Foundation
+- Blood Systems Research Institute (BSRI)
+- Bloomberg L.P.
+- BP Exploration Libya Limited
+- Cargill Incorporated
+- CGFNS International, Inc.
+- Chemonics International Inc.
+- Chevron USA Inc.
+- Colorado International Teachers’ Exchange League
+- CONOCO
+- DKT Ethiopia
+- Esso Exploration Inc.
+- ExxonMobil Iraq Limited
+- ExxonMobil Ventures Mexico Limited
+- Fintrac, Inc.
+- First Consult PLC
+- Goldman Sachs Services Private Limited
+- Harman International
+- Harsco Corporation
+- Invensys Inc.
+- Juniper Networks, Inc.
+- L&L Products Foundation
+- Law School Admissions Council (LSAC)
+- Microsoft Corporation
+- Mobil Cepu Limited
+- Naylor, LLC
+- PepsiCo, Inc.
+- Petro-Canada
+- PT Paiton Energy
+- Qualcomm Inc.
+- Rolex SA
+- Technip FMC, Inc.
+- The Boeing Company
+- The Carnegie Corporation of New York
+- The College Board
+- The Williams Companies, Inc.
+- Toyota U.S.A.
+- Transportation Technology Center, Inc.
+- US Freightways Corporation
+Foundations
+- Acumen Fund, Inc.
+- Alfred P. Sloan Foundation
+- Al Qasimi Foundation
+- America for Bulgaria Foundation
+- AMIDEAST
+- Avery Dennison Foundation
+- Bill & Melinda Gates Foundation
+- Carnegie Corporation of New York
+- Carquest Charitable Foundation
+- Casten Family Foundation
+- Center for Applied Linguistics
+- Center on Budget and Policy Priorities
+- China Medical Board
+- Chubb Foundation
+- CNFA
+- DeSa InterAmerican Foundation
+- Dorrance Study Abroad Program, LLC
+- Dow Jones Foundation
+- East West Center in Honolulu
+- Educational Testing Service
+- Falconwood Foundation Inc.
+- FHI 360
+- Ford Foundation
+- Foundation for Scholarly Exchange in Taiwan
+- Foundation for a Smoke Free World
+- Fundacion Pedro Barrie de la Maza
+- GE Foundation
+- Horatio Alger Association
+- Hovnanian Foundation
+- Ibrahim Family Foundation
+- International Fellowships Fund (IFF)
+- Kresge Foundation
+- Lingnan Foundation
+- Lockheed Martin Corporation Foundation
+- Lyn Bracewell Phillips
+- New Field Foundation
+- New Israel Fund
+- New York University
+- Open Society Foundations
+- Phelps Dodge Foundation
+- Philippine-American Educational Foundation
+- Prometric II B.V.
+- Richard Lounsbery Foundation
+- Robert Wood Johnson Foundation
+- Rockefeller Brothers Fund
+- Rockefeller Foundation
+- RSF Social Finance
+- SAR Academy
+- SMBC Global Foundation, Inc.
+- Stavros Niarchos Foundation
+- Tamalpais Trust
+- The Andrew W. Mellon Foundation
+- The Christensen Fund
+- The David and Lucile Packard Foundation
+- The Dragon Foundation
+- The Flinn Foundation
+- The Freeman Foundation
+- The John D. and Catherine T. MacArthur Foundation
+- The MBA Tour
+- The Population Council, Inc.
+- The Russell Berrie Foundation
+- The Starr Foundation
+- The Whitaker Foundation
+- The William and Flora Hewlett Foundation
+- University of Fortaleza, Brazil
+- Vincennes University
+- Western Union Foundation
+- Winterburn Foundation
+- World Learning
+- World Wildlife Fund (WWF)
+- Yidan Prize Foundation
+Special Funds and Endowments
+- Dr. Jayant K. Deshpande
+- Frank & Lisina Hoch
+- Stanley and Marion Bergman
+contacts
+Jonah Kokodyniak
+Senior Vice President, Program Development and Partner Services

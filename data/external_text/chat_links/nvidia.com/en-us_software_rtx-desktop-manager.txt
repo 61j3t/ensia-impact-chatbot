@@ -1,0 +1,17 @@
+[Source: https://www.nvidia.com/en-us/software/rtx-desktop-manager]
+[Title: NVIDIA RTX Desktop Manager Software | NVIDIA]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+Professional workflows require the use of multiple applications and windows across several monitors whether you’re tracking financial markets, creating digital content, or designing products. And while managing your desktop is key to maximizing your productivity, not every workspace fits the way you need to work. NVIDIA RTX™ Desktop Manager software allows you to manage single or multi-monitor workspaces with ease, giving you maximum flexibility and control over your display real estate and desktops.
+Adjusting and organizing windows in my screen is a boring and often time-consuming daily task that takes time away from my work, especially when something changes in my workflow. NVIDIA RTX Desktop Manager’s simple drag and drop process saves precious minutes in my morning so I can get up and running in no time.
+– Luis Paulo F. Mesquita, Global Macro Financial Portfolio Manager
+NVIDIA RTX Desktop Manager, included with your NVIDIA RTX Enterprise/Quadro driver or downloadable as a standalone app, helps you maximize productivity by optimizing your workspace layout. It also helps you work faster through the following streamlined features and functions:
+NVIDIA Quadro View allows professionals across industries to quickly maneuver through multi-application workspaces.
+Maximize screen real estate to focus on CAD projects while easily keeping tabs on Slack, email, PRD changes, product revisions, and PLM release status.
+Create different software layouts for the various stages of production like texture editing, mocap cleanup, animation, lighting, and rendering.
+Efficiently create compelling marketing and sales collateral by partitioning dual monitor displays to simultaneously see your favorite content creation tools and full-scale architectural renders..
+Never take your eyes off the market by simultaneously keeping track of technical charts, adjusting financial models, watching live news, communicating with brokers, and executing trades—all in one view.
+Easily organize multiple status screens on a video wall to focus and manage hotspots in your security command center as situations unfold.
+Productivity doesn't end with organizing your workspace. With the new NVIDIA app, you get a full suite of GPU productivity tools in a single application to simplify time-consuming tasks. Features like tailored recommendations for driver updates, optional alerts for the latest enterprise drivers, native recording tools, and easy access to your most used applications make it easier to collaborate, work, and optimize your NVIDIA RTX professional graphics card.
+This application is available via a standalone app. Download it today and start optimizing your workspace.

@@ -1,0 +1,27 @@
+[Source: https://monday.com/features/automations]
+[Title: monday - work management software | monday.com]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:26+00:00]
+
+Discover how efficient your team can be with automations
+Focus on what matters most with these code-free monday.com automations:
+Notifications
+Date reminders
+Auto-assign tasks
+Task creation
+Custom automations
+Ready-made automations
+Handover tasks
+Explore even more automations that monday.com has to offer
+Stay up-to-date
+Instantly send emails when due dates arrive, and receive real-time updates when tasks are completed — so your team is always aligned.
+Save time with automations
+Leave repetitive work behind. Avoid unnecessary meetings, lengthy email chains, and more by setting up customizable automations within minutes.
+Customize it your own way
+Easily set up code-free automations to create the perfect workflow for every team.
+Try monday.com for your team
+14-day free trial | No credit card needed
+“We increased our project capacity significantly in a few months thanks to the 40,000+ human actions we save each month with automations.“
+Allie E. | Falker (Operations), Falkbuilt Ltd.
+Seamlessly integrate all of your favorite tools
+Continue working with your existing tools inside monday.com. Sync due dates with your Google Calendar, instantly share your Dropbox files with your entire team, and more.

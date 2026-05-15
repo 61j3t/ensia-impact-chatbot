@@ -1,0 +1,40 @@
+[Source: https://e.huawei.com/en/industries/grid]
+[Title: Intelligent Electric Power | Smart Grid Solutions | Huawei Enterprise]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:13:40+00:00]
+
+Intelligent Electric Power
+Pave a Digital Way for Global Energy Transition
+This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. Read our privacy policy>
+Enterprise products, solutions & services
+Huawei's Solutions to Empower the Future-Oriented Electric Power Systems
+The new power system is faced with 5 challenges, namely the green energy structure, flexible power grid regulation, interactive power consumption mode, energy-storage collaborative interaction with extensive distribution on the power generation-grid-load sides, and complex electricity-carbon trading system. And these can only be addressed through digital transformation.
+Huawei is committed to becoming the best transition partner for the global electric power industry. Laying a digital platform and establishing an ecosystem of industry partners — a strategy coined as platform + ecosystem — Huawei integrates innovative Information Communications Technology (ICT) and digital power platforms with best industry practices to build its solution system for the electric power industry. Based on scenario applications and the cloud-pipe-edge-pipe-device architecture, the solutions help electric power companies achieve secure, efficient, green, and sustainable development through transformation. Up to now, Huawei has deeply cooperated with nearly 200 power companies around the world and jointly built over 40 scenario-based solutions with ecological partners to pave a digital way for global energy transition and achieving carbon neutrality goals.
+Solutions
+With the ramping up of the dual-carbon strategy, digital transformation is now vital to the fulfillment of carbon peak and carbon neutrality goals. Huawei works with partners to use digital technologies to accurately sense production data, optimize production processes, and implement refined daily management, helping customers achieve safe, efficient, green, and low-carbon power generation.
+In recent years, in order to support the transformation strategy of the energy industry, the electric power industry has clearly put forward the goal of building a new power system. The business changes of the new power system source network and the digital transformation strategy of enterprises require the power grid to collect and remotely control the data of substations, new energy stations, and power distribution status in real time to realize panoramic monitoring and precise load control.
+The future power grid will evolve to the new generation power system from the technical characteristics. From the functional form, it will evolve to the energy Internet. It is an inevitable trend of power grid development to build a new power system with strong smart grids as the core, and to build a wide-area, open and shared energy Internet that integrates multi-energy conversion technologies, intelligent control technologies, and modern information technologies.
+The broadband market is in full swing. Currently, more than 170 countries have released broadband plans or light strategies. Electric power companies use self-built and self-operated or co-built and shared models to develop value-added electricity services. They use surplus power grid resources to quickly build networks at low costs, and rapidly develop services such as home broadband and leased line. Invigorate silent assets such as power optical fibers and equipment rooms to add value to business.
+As the digital transformation of the electric power industry deepens, new ICT technologies such as AI, 5G, and IoT are increasingly integrated with electric power services. The requirements for computing, storage, and network ICT infrastructure in data centers are increasing. As the data transfer hub and service bearer platform, the data center is one of the core infrastructures of electric power.
+Industry Buzz
+Intelligent Distribution Solution
+Huawei Intelligent Distribution Solution enables the rapid deployment of low-voltage distribution services on the cloud, intelligent end-to-side and O&M.
+Learn More
+Intelligent Substation O&M and Inspection
+Helping realize least-staffed, visualized, and intelligent inspection.
+Learn More
+One-Fiber Multi-Service Solution
+Fiber — a strategic asset to address key challenges of the future power system
+Learn More
+Ransomware Protection Storage
+Build the last line of defense for power data security.
+Learn More
+Expert Insight
+Load More
+News and Events
+Resource
+Load More
+Load More
+You may be Interested
+What is Smart Grid?
+Learn what a smart grid is, how it works, the benefits it brings to the electric power industry and to the environment, and more.

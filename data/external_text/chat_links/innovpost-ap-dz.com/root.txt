@@ -1,0 +1,62 @@
+[Source: https://www.innovpost-ap-dz.com/]
+[Title: INNOVPOST HACKATHON]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:21:23+00:00]
+
+Join us for the Innovpost Hackathon, an exciting 2-day event that brings together innovators, creators, and tech enthusiasts to build the future of postal services,this is an event you don’t want to miss. Let’s innovate together!
+Join us for the Innovpost Hackathon, an exciting 2-day event that brings together innovators, creators, and tech enthusiasts to build the future of postal services,this is an event you don’t want to miss. Let’s innovate together!
+This track emphasises the innovative creation of a dynamic and responsive website. Participants will harness creativity while exploring front-end and back-end technologies to design an engaging user interface and implement effective functionality.
+Engage with artificial intelligence in this track, focusing on computer vision. Innovate by developing a unique application that utilises image processing, object detection, or facial recognition, aiming to enhance security or automate image analysis creatively.
+Aimed at fostering online community engagement, this track encourages the creation of a dynamic platform that drives communication, collaboration, and interaction. Through the use of analytics and user feedback, participants will develop solutions that promote a cohesive and engaging community experience.
+Explore cutting-edge approaches in logistics by combining IoT and AI technologies. Participants will tackle challenges within inventory management, designing a solution that leverages IoT devices and intelligent algorithms to create a more efficient, streamlined system.
+Participants in this track will design a seamless solution that integrates advanced queue management capabilities. Key areas to explore include virtual queuing, appointment scheduling, predictive analytics, and customer feedback integration. Solutions should aim to maximise productivity by enabling real-time updates and swift issue resolution, even during peak hours.
+Participants will design a comprehensive platform that assists managers in identifying employee strengths, tracking their progress, and implementing tailored development plans. The goal is to cultivate a supportive environment where employees can thrive in their careers.
+Here are the locations where selected candidates will participate in person at the InnovPost hackathon on November 30th and December 1st.
+Our mentors and judges are industry leaders, innovators, and experts passionate about fostering creativity and guiding the next generation of talent. They bring a wealth of experience to help participants refine their ideas and ensure fair evaluation, making this hackathon an exciting and transformative journey for everyone involved.
+Yacine Rahmoun is the CEO of CaptureDoc, an AI-powered workflow automation company, and founder of the African Federation of Business Angels Networks (AFBAN). He is also chairman of Casbah Business Angels, an investor, and entrepreneur owning businesses across various sectors.
+Yacine started his career at Panasonic’s Speech Technology Labs in California before joining WESCO as a project engineer. Following WESCO’s acquisition by IKON, he became Engineering Manager. He later served as National Production and Technology Manager at RICOH. Yacine also co-founded TechWadi, connecting Silicon Valley and the MENA region, and served two terms as President of the Algerian American Association in Northern California.
+He holds advanced degrees from EPFL (Switzerland), Eurecom Institute (France), and UC Berkeley. A frequent speaker at global conferences, Yacine has earned multiple international awards for his contributions to AI and digital transformation.
+Dr. LASMI Hanane is an esteemed academic and professional leader with a focus on Artificial Intelligence, Analytics, and Innovation. She earned her Ph.D. in Information and Communication Technologies (ICT) from KAIST, South Korea, after a solid academic foundation at USTHB, Algeria. As a TechWomen alumna, she effectively bridges global expertise with local context, leading impactful, multidisciplinary projects.
+In her current role as Head of Innovation at Algérie Poste, Dr. LASMI oversees advanced initiatives that leverage AI and IoT to enhance operational efficiency. Her leadership is centered on adopting sustainable solutions, facilitating digital transformation, and fostering an innovation-driven culture within the organization.
+Dr. LASMI’s career is marked by her previous roles, including Deputy Manager at CUPIA, where she managed significant digital transformation projects, and Assistant Professor at KAIST, where she conducted pioneering research in analytics and artificial intelligence. Additionally, she has contributed to academia as a Co-advisor for USTHB master’s students and as a Lecturer at MDI Business School, specializing in emerging technologies and innovation management.
+Through her academic and professional endeavors, Dr. LASMI continues to advance knowledge and practice at the intersection of technology and innovation.
+Jihane Hamrouche, Digital Marketing Communication Manager at Ooredoo Algeria, has over 7 years of experience, including 5 in telecommunications. She oversees digital strategy, online campaigns, e-reputation, and influencer partnerships.
+Previously a digital communication consultant, she developed expertise in integrated campaigns and content strategies. She also supports startups through the T-Start incubator, coaching them on digital visibility and strategy.
+Passionate about digital innovation, Jihane excels in evaluating projects on communication, influence, and performance as a jury member for INNOVPOST.
+Dr. Amel Chenouf, a scientist at the Advanced Technologies Development Center (CDTA) with a PhD in Microelectronics, is an active IEEE and Women in Engineering (WiE) member. A TechWomen Alumna and co-founder of the TechWomen-TechGirls (TW-TG) Club, she also supports DZ Women in Technology (DZWIT).
+Since 2013, she has been a Startup Coach and now coordinates Algeria Innovation-Corps (I-Corps), driving innovation from labs to markets. Recognized among the “54 Notable Women in Technology in the Middle East and Africa” (2015), she has also been featured as one of Africa’s top women engineering leaders (Rising to the Top, 2021).
+Dr. Chenouf is committed to innovation, entrepreneurship, and empowering women in tech.
+Amir is an information systems security expert, certified by several international organizations and firms. As a State Engineer in Information Systems, he has built solid experience, notably at KPMG as a Senior Consultant, and at SOVAC as an IT Consultant.
+Currently a Manager at Mare Nostrum Advising Group, Amir supports clients from diverse industries in strategic missions that combine auditing, consulting, and cybersecurity compliance.
+As a trainer, he regularly conducts specialized sessions on key topics such as ISO 27001 LI & LA, ISO 22301 LI, ISO 27005, EBIOS RM, and many others.
+Holder of a degree in Economic Sciences from the Algerian University with a specialization in Finance, Currency, and Banking, he has accumulated 20 years of experience in the insurance sector. As an associate member of the Chartered Insurance Institute in London (ACII), he earned the status of Chartered Insurance Professional in 2016 from the same institute.
+Over the course of his career, he has held several key positions, including Billing Manager for a telecom operator, Insurance Underwriter, Regional Director of a commercial network (direct agencies, general agents, and brokers), and Central Director responsible for Claims and Operational Excellence. For the past 7 years, he has served as the CEO of an insurance company.
+In addition to his dual expertise in insurance and project management, he is particularly passionate about technological innovations, especially those aimed at optimizing business processes and enhancing customer experiences across various sectors.
+Exceptional skills in leading & coaching cross-functional teams with deep experience in projects management. A committed team player, self-motivated, with the ability to engage and communicate at all levels. My ambition and my inspiration is to contribute to the development of tomorrow’s leaders!
+Get ready to embark on an incredible journey! Below, you’ll find the timeline for our Hackathon, outlining all the key milestones from start to finish. Whether you’re brainstorming ideas, coding through the night, or pitching your final product, this timeline will guide you through every step of the way. Let’s innovate, collaborate, and bring those groundbreaking ideas to life!
+Participant reception and registration.
+Welcome speech - Presentation of themes and challenges.
+Webinar – Open innovation & AI.
+Kick-off workshops and technical advice.
+Brainstorming and start of project development.
+Lunch break and networking.
+Project development.
+Dinner and free time.
+Hackathon night: continuous project work.
+Progress review and mentor support.
+Lunch break.
+Project finalization and preparation of presentations.
+Project submissions.
+Project presentations in front of the jury and participants.
+Networking and conclusion of the hackathon.
+Jury deliberation.
+To fuel your passion and elevate your drive. Let the excitement begin!
+To fuel your passion and elevate your drive. Let the excitement begin!
+Find answers to common questions about the Hackathon to help you prepare and make the most of the event.
+To participate in the hackathon, you need to register online, and show up ready to collaborate and innovate.
+Will the hackathon be only in person ? No PostInnov will be in person and online !
+Bring your laptop, chargers, any tools you need for coding, and lots of enthusiasm!
+There is no specific age limit; as long as you are a student or a startup member, you are welcome to participate !
+from 3 to 5 persons.
+You don’t need to have a finished project, you can develop your idea during the hackathon, but you do need to be part of a team to participate
+Innovpost welcomes all interested individuals, including students, startup members, and enthusiasts of all levels. Participants must be at least 18 years old. Preference will be given to teams that include at least one student in their fourth year of studies or beyond, while having an innovative label is a plus for startups. Teams can consist of 3 to 5 members. The event is hybrid, inviting participants from across Algeria. All you need to bring is your creativity and passion!

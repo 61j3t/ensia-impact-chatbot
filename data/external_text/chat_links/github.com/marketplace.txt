@@ -1,0 +1,51 @@
+[Source: https://github.com/marketplace]
+[Title: Marketplace · Tools to improve your workflow · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+Enhance your workflow with extensions
+Tools from the community and partners to simplify tasks and automate processes
+Models for your every use case
+Try, test, and deploy from a wide range of model types, sizes, and specializations.DeepSeek-V3-0324
+by DeepSeek
+DeepSeek-V3-0324 demonstrates notable improvements over its predecessor, DeepSeek-V3, in several key aspects, including enhanced reasoning, improved function calling, and superior code generation capabilities.
+ModelLlama 4 Scout 17B 16E Instruct
+by Meta
+Llama 4 Scout 17B 16E Instruct is great at multi-document summarization, parsing extensive user activity for personalized tasks, and reasoning over vast codebases.
+ModelView recommended or recent marketplace listings navigation
+Imgbot
+AppA GitHub app that optimizes your images
+CodeFactor
+AppAutomated code review for humans and AI
+Automated GitHub backups so you can recover fast, stay compliant, and never lose a line of code
+Zenhub
+AppProject management that's seamlessly integrated with GitHub’s data & interface, builds powerful insights & automates tasks
+CircleCI
+AppShip trusted code with confidence. Fast feedback, flexible execution, and enterprise-grade security
+Codacy
+AppCodacy helps to build effortless code quality and security for developers
+Qlty Cloud
+AppCode quality and coverage done right
+Continuously build, test, and deploy to any platform and cloud
+Automatic test report merging for all CI and languages into a single code coverage report directly into your pull request
+Zube
+AppAn Agile project management tool that seamlessly integrates with GitHub Issues
+WakaTime
+AppMetrics, goals, and time tracking automatically generated from your programming activity
+AccessLint
+AppFind accessibility issues in your pull requests
+Test Plan Driven QA Test Management for GitHub
+CodeScene
+AppA software engineering intelligence tool tool to identify and prioritize technical debt and evaluate your efficiency
+Cirrus CI
+AppEnjoy unlimited concurrency for fast and secure development cycle
+Percy
+AppAutomated visual review platform
+Codetree
+AppLightweight project management for GitHub issues
+POEditor
+AppManage your software localization collaboratively
+Sentry
+AppReal-time, cross-platform crash reporting and error logging
+Rollbar
+AppReal-time, cross-platform crash reporting and error logging starting at $0/mo

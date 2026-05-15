@@ -1,0 +1,6 @@
+[Source: https://algeria20.com/speaker/kirouane-mohammed]
+[Title: Kirouane Mohammed - Algeria 2.0 - Le Futur Tech Algérien]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:10+00:00]
+
+Kirouane Mohammed is a developer and AI enthusiast with a deep interest in data science. A student at the École Nationale Supérieure de Statistique et d’Économie Appliquée, he specializes in merging AI with data science to create innovative, data-driven solutions. With a strong foundation in statistics and applied economics, Mohammed brings a powerful analytical approach to his work, connecting technical excellence with practical applications. His dedication to pushing the frontiers of technology drives him to continuously improve and contribute meaningfully to the tech landscape.

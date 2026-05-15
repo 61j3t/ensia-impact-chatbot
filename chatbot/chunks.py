@@ -290,15 +290,21 @@ def external_chunks() -> Iterator[dict]:
         if not body:
             continue
 
-        # Site is the first directory under EXTERNAL — e.g. "ensia_edu_dz".
+        # Site is the first directory under EXTERNAL — e.g. "ensia_edu_dz"
+        # or "chat_links". For chat_links the actual hostname is one level
+        # deeper (chat_links/<host>/<slug>.txt), so we include it in the
+        # chunk ID to avoid collisions when two different hosts both have
+        # a "_root.txt" page.
         rel = path.relative_to(EXTERNAL)
         site = rel.parts[0] if rel.parts else "unknown"
+        if site == "chat_links" and len(rel.parts) >= 3:
+            page_slug = f"{rel.parts[1]}__{path.stem}"
+        else:
+            page_slug = path.stem
         lang = headers.get("Language") or detect_language(body)
         url = headers.get("Source") or ""
         title = headers.get("Title") or ""
         modified = headers.get("Modified") or ""
-        # Slug from filename — already includes the WP id prefix.
-        page_slug = path.stem
 
         for i, piece in enumerate(split_pdf_text(body)):
             yield {

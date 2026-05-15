@@ -1,0 +1,9 @@
+[Source: https://monday.com/l]
+[Title: monday.com Legal Portal]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:26+00:00]
+
+Yes, monday.com’s Data Processing Addendum is available at the following link.
+monday.com stores data in data centers located in the US, Germany, and Australia. Data is stored in the data center closest to the location of the first user who created the account. It is important to note that some of your data may be stored in a different region by our sub-processors. To learn more about where your account is stored, please check out our “Data residency” article. Additionally, you can find information on the hosting regions of our sub-processors on our Sub-Processors Page.
+The following articles detail our commitment to compliance and investment in protecting our customers and individual data subjects: GDPR, CCPA, PIPEDA, LGPD, the Australian Privacy Act and Principles.
+monday.com provides tools to help its customers respond to privacy requests. You can check out our article on “How to manage users in your account” for more details.

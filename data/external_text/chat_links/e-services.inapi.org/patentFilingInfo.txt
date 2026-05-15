@@ -1,0 +1,35 @@
+[Source: https://e-services.inapi.org/patentFilingInfo]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+Déposer un Brevet
+Avant le dépôt de la demande de brevet, nous vous conseillons de procéder à une recherche d’antériorité, moyennant une taxe d’un montant de deux mille quatre cents dinars (2400.00 DA) par objet de recherche.
+Étapes pour déposer un brevet
+- Ouvrir un compte sur le site web de l’INAPI, ou se connecter sur votre espace si vous possédez déjà un compte.
+- Cliquez sur la rubrique brevet sur le tableau de bord, puis sur « Nouveau dépôt ».
+- Remplir les champs requis avec les informations nécessaires.
+- Insérer les documents nécessaires au dépôt du brevet tels que :
+- Mémoires descriptifs en langue nationale traduits en 2 exemplaires en langue française
+- Résumé des mémoires descriptifs
+- Les dessins, s’il y a lieu
+- Imprimer votre quittance de paiement ainsi que votre formulaire de dépôt en 4 exemplaires.
+- Effectuer le paiement :
+- À n’importe quelle agence CNEP, sur le compte INAPI : 100 00 13733 clé 7
+- Agence de domiciliation : ESSAFIR ALITTI CNEP - Code agence : 103
+- Ou par chèque directement à l’INAPI
+- Signer les 4 copies de la demande imprimée et préparer le dossier à fournir.
+- Déposer le dossier à l’INAPI Alger ou à l’annexe la plus proche de votre lieu de résidence.
+Dossier à fournir
+- Le formulaire renseigné en 4 exemplaires, dûment remplis et signés.
+- Une description claire de l’invention en langue nationale traduite en 2 exemplaires en français, comportant les revendications principales. Voir le guide : lien ici
+- Un abrégé descriptif de l’invention (maximum 15 lignes).
+- Des dessins (2 exemplaires) s’ils sont nécessaires à la compréhension de l’invention.
+- Un reçu de paiement des taxes, selon les barèmes en vigueur.
+- Un document de priorité (si priorité revendiquée), avec une copie certifiée conforme de la demande originale dans un délai de 3 mois.
+- Une cession du droit de priorité (si la priorité n’est pas au nom du déposant).
+- Un pouvoir original signé et daté en cas de représentation par un mandataire.
+Tarifs applicables
+Pour consulter les tarifs, veuillez visiter la page : Taxe Brevets
+Maintien en vigueur
+La durée du brevet d'invention est de vingt (20) ans à compter de la date du dépôt de la demande, sous réserve de l'acquittement des taxes d'enregistrement et de maintien en vigueur (annuités).

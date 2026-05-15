@@ -1,0 +1,61 @@
+[Source: https://www.djezzy.dz/particuliers/offres/forfaits-roaming-tunisie-3]
+[Title: Forfaits Roaming Tunisie]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:47:52+00:00]
+
+Téléchargez la Djezzy APP
+|
+3
+Go
+Internet
+|
+|---|
+7 JOURSVALIDITÉ |
+Pour 500 DA |
+|
+8
+Go
+Internet
+|
+|---|
+15 JOURSVALIDITÉ |
+Pour 1000 DA |
+|
+20
+Go
+Internet
+|
+|---|
+30 JOURSVALIDITÉ |
+Pour 2000 DA |
+|
+5
+Go
+Internet
+|
+|---|
+30 MinutesAppels vers Djezzy |
+10SMS émis |
+7 joursVALIDITÉ |
+Pour 1 000 DA |
+|
+12
+Go
+Internet
+|
+|---|
+40 MinutesAppels vers Djezzy |
+10SMS émis |
+30 joursVALIDITÉ |
+Pour 2 000 DA |
+|
+40
+Go
+Internet
+|
+|---|
+60 MinutesAppels vers Djezzy |
+10SMS émis |
+30 joursVALIDITÉ |
+Pour 5 000 DA |
+Pour consulter votre forfait TUNISIE, composez *720# ou bien utilisez l'application Djezzy (Androïd | iOS).

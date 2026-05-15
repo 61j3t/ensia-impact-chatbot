@@ -1,0 +1,27 @@
+[Source: https://www.wipo.int/en/web/cooperation/cooperation-hub]
+[Title: Cooperation HUB]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:51+00:00]
+
+Cooperation Hub
+WIPO’s Cooperation Hub is the space for knowledge, experience and information exchange, aimed to support effective South-South and Triangular cooperation initiatives in various fields of intellectual property (IP) and innovation.
+South-South cooperation refers to cooperation between fellow developing and least developed countries. Triangular cooperation includes a developed country or an institution, which supports South-South initiatives.
+An important goal of WIPO’s Cooperation HUB is to better communicate about existing innovations and successful projects in developing and least developed countries.
+WIPO intends to also facilitate the creation of new partnerships amongst countries and organizations, through its online matchmaking platform – South Match.
+WIPO Match
+WIPO Match is a platform that facilitates matchmaking between potential partners. Join WIPO Match if you want to collaborate with someone by sharing your expertise and, in exchange build complementary experience.
+Catalogue of DA Projects
+The online Catalogue on DA Projects and Outputs provides structured and detailed information on all Development Agenda projects, and the resources that they generate (reports, studies, guides, databases, etc.).
+The Catalogue allows users to filter their search by different criteria, which includes IP rights, IP themes, project status, key words, beneficiary countries, etc.
+IP for Impact Stories
+These stories show how WIPO is supporting entrepreneurs, inventors and creators around the world to use IP to add value to their products, support business growth, create employment and promote economic development.
+Promoters of South-South Cooperation
+WIPO work in this area is guided by our pool of South-South and Triangular cooperation promoters, who represent various developing and least developed countries. They serve as South-South promoters in their personal capacity, for a period of one year. Their role is to collaborate with WIPO and provide guidance on topics to be discussed in the annual Roundtable and other events, as well as provide support and expertise to various WIPO driven South-South and Triangular cooperation initiatives.
+WIPO’s South-South Promoters cover various professional backgrounds and represent different countries.
+Resources
+WIPO TAD
+WIPO’s Intellectual Property Technical Assistance Database
+IP ROC
+The IP Roster of Consultants
+IP Advantage
+Database of case studies on how IP works in the real world.

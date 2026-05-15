@@ -1,0 +1,49 @@
+[Source: https://www.notiverse.app/privacy]
+[Title: Privacy Policy]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:59+00:00]
+
+Privacy Policy
+Effective Date: April 27, 2025
+Notiverse (“we”, “our”, or “us”) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application (“App”).
+1. Information We Collect
+We may collect the following types of information:
+-
+Microphone Access:
+We use your microphone to allow you to record voice notes. Voice recordings are stored locally on your device and are not transmitted to our servers unless explicitly stated. -
+Camera Access:
+We use your device’s camera to allow you to take pictures for image-based notes. Images are stored locally on your device and are not shared unless you choose to back them up manually. -
+Device and Usage Data (via Firebase Analytics):
+We use Google Firebase Analytics to collect anonymous usage data (such as session duration, features used, and app performance). This helps us improve the app experience. -
+Crash Reports (via Firebase Crashlytics):
+In the event of a crash or technical issue, we collect crash data through Google Firebase Crashlytics. This information includes technical device details and crash logs, but no personally identifiable information (PII).
+2. How We Use Your Information
+We use the collected information to:
+- Provide core features like voice note-taking and photo note storage.
+- Improve app functionality, user experience, and stability.
+- Monitor app performance, diagnose technical issues, and fix bugs.
+3. Data Storage and Security
+- Notes (text, voice and images) are stored locally on your device by default.
+- Analytics and crash reports are securely transmitted and processed by Google Firebase services.
+- We implement appropriate technical and organizational measures to protect your data.
+4. Sharing of Information
+We do not sell, trade, or rent your personal information to third parties.
+However, some data (such as anonymized analytics and crash reports) may be processed by trusted third-party service providers, specifically:
+- Google Firebase Analytics (analytics)
+- Google Firebase Crashlytics (error reporting)
+These services comply with applicable data protection regulations.
+5. Permissions Required
+- Microphone: To record voice notes.
+- Camera: To capture images for notes.
+- Storage: To save recordings and images on your device.
+- Internet Access: To send anonymous analytics and crash reports (optional and non-personal).
+6. Your Privacy Rights
+You can manage your app permissions at any time through your device settings.
+You may also delete any locally stored notes manually through the app or your device storage.
+To opt-out of Firebase Analytics data collection, you can disable analytics tracking in your device settings if supported.
+7. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. Changes will be posted within the app or on our website.
+We encourage you to review this policy periodically.
+8. Contact Us
+If you have any questions or concerns about this Privacy Policy, please contact us at:
+📧 notiverse.app@gmail.com

@@ -1,0 +1,29 @@
+[Source: https://github.com/solutions/use-case/ci-cd]
+[Title: A Complete CI/CD Solution for Software Development | GitHub · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+Easy-to-set-up and simple-to-maintain CI/CD that helps your developers build more secure code from the start without sacrificing speed.
+The complete CI/CD solution
+Build, test, and deploy software with simple and secure enterprise CI/CD, all on the complete development platform.
+Streamline, secure, and deploy with confidence: automate your software delivery pipeline
+Turn code into software
+Automatically trigger builds on every commit with workflow builder.
+Secure and improve
+End-to-end testing for security, code quality, performance, and functionality.
+Ship with confidence
+Automate deployments from start to finish to one or multiple cloud providers.
+Continuous testing made simple
+Track everything from code quality to your security profile with end-to-end testing built to keep you secure and in compliance at every stage.
+Deploy software with confidence
+Seamless CI/CD deployment automation makes it simple to deliver secure software with all cloud providers so you can scale confidently.
+90%+ Fortune 100 choose GitHub
+100M+ Developers call GitHub home
+420M+ Repositories on GitHub
+Powerful CI/CD with GitHub Enterprise
+The complete developer platform to build, scale, and deliver secure software.
+Additional Resources
+DevOps tips for Engineering leaders
+6 DevOps tips to help engineering leaders deliver software at scale
+Ship secure software fast
+How developer-first supply chain security helps you secure faster

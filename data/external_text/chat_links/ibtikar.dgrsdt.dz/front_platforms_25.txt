@@ -1,0 +1,137 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/25]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+| Conception des pièces, des prototypes et systèmes mécaniques |
+1.CRM.C |
+| Ce service offre la conception de pièces, de prototypes et de systèmes mécaniques personnalisés. Cela implique la création de modèles 3D, de dessins techniques détaillés et la réalisation de prototypes pour valider leur fonctionnement. L'objectif est de fournir des solutions techniques adaptées aux besoins du client, en tenant compte des contraintes de fabrication, des normes de qualité et des exigences de performance. |
+|
+| Modélisation et simulation numérique des systèmes; |
+2.CRM.C |
+|
+| Modélisation et simulation numérique des systèmes; |
+2.CRM.C |
+| Ce service consiste à utiliser des outils informatiques pour simuler le comportement de systèmes complexes. Cela permet d'analyser, prédire et optimiser le fonctionnement des systèmes sans avoir à les construire physiquement. Cette approche est utilisée dans divers domaines pour prendre des décisions éclairées, améliorer les performances des systèmes et réduire les coûts de développement. |
+|
+| Optimisation de la conception des pièces et mécanisme. |
+3.CRM.C |
+| Ce service vise à améliorer l'efficacité, les performances et la fiabilité des composants mécaniques. Elle utilise des outils informatiques avancés pour analyser, évaluer et optimiser la conception, en tenant compte de facteurs tels que la résistance, la durabilité, la légèreté et l'efficacité énergétique. L'objectif est de proposer des solutions qui réduisent les coûts de fabrication, améliorent la performance globale du système et accélèrent le processus de développement. |
+|
+| Usinage 5 axes en tournage et fraisage |
+4.CRM.fb |
+| L'usinage 5 axes en tournage et fraisage permet la fabrication de pièces et de composants mécaniques grâce à des machines à commande numérique (CNC) hautement performantes. Cette technologie offre une grande précision et une flexibilité optimale pour réaliser des opérations d'usinage complexes. L'usinage 5 axes permet de produire des pièces avec des formes complexes, des surfaces délicates et des géométries variées, ce qui permet de répondre aux exigences spécifiques des clients en termes de qualité, de performance et de fiabilité. |
+|
+| Usinage en tournage (pieces révolutionnaires) |
+005.CRM.Fb |
+| L'usinage en tournage est une méthode de fabrication qui permet de produire des pièces en enlevant progressivement de la matière brute grâce à une rotation de la pièce et un outil de coupe. Cette technique est utilisée pour créer des pièces complexes avec des formes variées, des dimensions précises et des tolérances strictes. |
+|
+| Usinage en fraisage (pieces prismatiques) |
+006.CRM.Fb |
+| L'usinage en fraisage est une méthode de fabrication qui permet d'enlever progressivement de la matière brute d'une pièce en utilisant des fraises rotatives. Cette technique est utilisée pour créer des pièces avec des contours complexes, des géométries angulaires et des surfaces planes ou inclinées. |
+|
+| Rectification des surfaces ; |
+007.CRM.Fb |
+| Vise à améliorer la qualité et la précision des surfaces des pièces mécaniques. Grâce à l'utilisation de machines de rectification et de meules abrasives, les irrégularités, les défauts et les rugosités sont éliminés pour obtenir des surfaces planes, lisses et précises. Cette prestation permet d'améliorer la qualité et la fonctionnalité des pièces, ainsi que d'assurer leur compatibilité avec d'autres composants du système. |
+|
+| Analyse de l’état de surface |
+008.CRM.Mt |
+La prestation de service d'analyse de l'état de surface consiste à évaluer et mesurer les caractéristiques des surfaces des pièces mécaniques. Elle permet d'obtenir des informations détaillées sur l'aspect, la rugosité, la planéité et d'autres paramètres pertinents liés à l'état de surface.
+L'analyse de l'état de surface utilise des équipements de mesure spécialisés, tels que des rugosimètres, des profilomètres ou des microscopes à balayage, pour évaluer les propriétés de la surface. Ces outils mesurent des paramètres tels que la rugosité, la texture, la planéité, les défauts de surface, les ondulations et d'autres caractéristiques spécifiques.
+Cette prestation permet d'évaluer la qualité et la conformité des surfaces par rapport aux normes et aux spécifications requises. Elle est utile pour diagnostiquer les problèmes potentiels, optimiser les procédés de fabrication, améliorer les performances et la fonctionnalité des pièces, ainsi que pour assurer une compatibilité adéquate avec d'autres éléments du système.
+En résumé, l'analyse de l'état de surface est une prestation de service permettant de mesurer et d'évaluer les caractéristiques des surfaces des pièces mécaniques, fournissant des informations essentielles pour garantir la qualité, la performance et la fonctionnalité des composants. |
+|
+| Analyse de l’état de surface |
+008.CRM.Mt |
+La prestation de service d'analyse de l'état de surface consiste à évaluer et mesurer les caractéristiques des surfaces des pièces mécaniques. Elle permet d'obtenir des informations détaillées sur l'aspect, la rugosité, la planéité et d'autres paramètres pertinents liés à l'état de surface.
+L'analyse de l'état de surface utilise des équipements de mesure spécialisés, tels que des rugosimètres, des profilomètres ou des microscopes à balayage, pour évaluer les propriétés de la surface. Ces outils mesurent des paramètres tels que la rugosité, la texture, la planéité, les défauts de surface, les ondulations et d'autres caractéristiques spécifiques.
+Cette prestation permet d'évaluer la qualité et la conformité des surfaces par rapport aux normes et aux spécifications requises. Elle est utile pour diagnostiquer les problèmes potentiels, optimiser les procédés de fabrication, améliorer les performances et la fonctionnalité des pièces, ainsi que pour assurer une compatibilité adéquate avec d'autres éléments du système.
+En résumé, l'analyse de l'état de surface est une prestation de service permettant de mesurer et d'évaluer les caractéristiques des surfaces des pièces mécaniques, fournissant des informations essentielles pour garantir la qualité, la performance et la fonctionnalité des composants. |
+|
+| Acquisition des images thermiques |
+009.CRM.Mt |
+| L'acquisition des images thermiques est une prestation de service qui utilise des caméras thermiques pour capturer et analyser les variations de température, fournissant des informations précieuses pour diagnostiquer les problèmes thermiques, optimiser les performances énergétiques et améliorer l'efficacité des systèmes. |
+|
+| Reconstruction de modèle 3D |
+010.CRM.Mt |
+La prestation de service de reconstruction de modèle 3D et reverse engineering consiste à créer des modèles numériques tridimensionnels à partir d'objets physiques existants, en utilisant des techniques de numérisation et de traitement de données.
+La reconstruction de modèle 3D et reverse engineering permet de capturer la géométrie, les formes et les dimensions d'un objet physique pour créer un modèle numérique précis et exploitable. Cela peut être réalisé à l'aide de technologies telles que la numérisation laser, la photogrammétrie ou la tomographie par ordinateur.
+Une fois que le modèle 3D est créé, il peut être utilisé à des fins de conception, d'analyse, de simulation ou de fabrication. Le reverse engineering, quant à lui, consiste à utiliser le modèle 3D pour comprendre la structure interne, le fonctionnement et les caractéristiques d'un objet existant, souvent dans le but de reproduire ou de modifier cet objet.
+Cette prestation de service est couramment utilisée dans des domaines tels que l'ingénierie, la fabrication, la restauration, l'archéologie et le design. Elle permet de transformer des objets physiques en modèles numériques précis, offrant ainsi de nombreuses possibilités d'optimisation, de personnalisation et d'amélioration des produits. |
+|
+| Essai de traction/compression; |
+011.CRM.Es |
+| Est une prestation de service qui consiste à évaluer les propriétés mécaniques des matériaux en soumettant des échantillons à des forces de traction ou de compression contrôlées. Cela permet de déterminer la résistance, la durabilité et la qualité des matériaux, et d'assurer leur conformité aux exigences industrielles. |
+|
+| Essai de dureté; |
+012.CRM.Es |
+| L'essai de dureté est une prestation de service qui permet de mesurer la résistance d'un matériau à la pénétration d'une pointe ou d'un indenteur, fournissant des informations précieuses sur les propriétés mécaniques et la qualité des matériaux. |
+|
+| Essai de résilience; |
+013.CRM.Mt |
+| L'essai de résilience est une prestation de service qui consiste à mesurer la capacité d'un matériau à résister aux chocs ou aux charges soudaines, ainsi qu'à évaluer sa capacité à retrouver sa forme et sa structure initiales après une déformation. Cela permet d'évaluer la résistance et la fiabilité des matériaux soumis à des conditions de choc ou d'impact. |
+|
+| Essai de torsion a chaud |
+014.CRM.Es |
+| L'essai de torsion à chaud est une prestation de service qui permet d'évaluer la résistance d'un matériau à la torsion lorsqu'il est soumis à des températures élevées. Cela permet d'étudier le comportement du matériau dans des conditions réelles et de garantir la fiabilité et les performances des composants à haute température. |
+|
+| Essai de torsion a froid |
+015.CRM.Es |
+| L'essai de torsion à froid est une prestation de service qui permet d'évaluer la résistance d'un matériau à la torsion à des températures ambiantes ou basses. Cela permet de comprendre le comportement du matériau dans des conditions réelles et d'assurer la fiabilité et les performances des composants et des structures soumis à des charges de torsion à froid. |
+|
+| Essai de fluage |
+016.CRM.Es |
+| L'essai de fluage est une prestation de service qui permet d'évaluer le comportement d'un matériau soumis à des charges constantes à des températures élevées pendant une période prolongée. Cela permet de comprendre la déformation et la résistance à long terme du matériau, fournissant des informations essentielles pour garantir la fiabilité des composants dans des conditions de service prolongées. |
+|
+| Essai de cisaillement |
+017.CRM.Es |
+| L'essai de cisaillement est une prestation de service qui permet d'évaluer la résistance d'un matériau à la déformation ou à la rupture sous une force de cisaillement. Cela fournit des informations sur les propriétés mécaniques du matériau et permet de garantir la fiabilité et la durabilité des composants dans des applications soumises à des contraintes de cisaillement. |
+|
+| Essai de fatigue; |
+018.CRM.Es |
+| L'essai de fatigue est une prestation de service qui permet d'évaluer la résistance d'un matériau à la dégradation progressive et à la rupture sous des charges cycliques répétées. Cela fournit des informations essentielles pour garantir la durabilité et la fiabilité des composants soumis à des charges cycliques dans diverses industries. |
+|
+| Découpage à froid des éprouvettes; |
+019.CRM.Fb |
+| Le découpage à froid des éprouvettes est une prestation de service essentielle pour la préparation d'échantillons de matériau destinés à des essais mécaniques. Il garantit la précision et la conformité des échantillons découpés aux normes et aux spécifications requises, permettant ainsi une évaluation fiable des propriétés du matériau. |
+|
+| Polissage automatique; |
+020.CRM.Cr |
+| Le polissage est une prestation de service qui améliore la surface d'un matériau en lui donnant une finition lisse, brillante et exempte d'imperfections. Il contribue à l'aspect esthétique du matériau et améliore ses propriétés fonctionnelles. Le polissage est utilisé dans différentes industries pour différents types de matériaux afin d'atteindre des résultats optimaux en termes d'apparence et de performances. |
+|
+| Enrobage des échantillon à chaud |
+021.CRM.Cr |
+| L'enrobage des échantillons à chaud est une prestation de service visant à appliquer un revêtement protecteur sur des échantillons de matériau à des températures élevées. Cela améliore les propriétés du matériau et prolonge sa durée de vie dans diverses applications industrielles. Une expertise technique est nécessaire pour choisir la technique d'enrobage appropriée et assurer une exécution précise du processus. |
+|
+| Enrobage des échantillon à foid |
+022.CRM.Cr |
+| L'enrobage des échantillons à froid est une prestation de service visant à appliquer un revêtement protecteur sur des échantillons de matériau à température ambiante ou légèrement inférieure. Cela améliore les propriétés du matériau, le protège des dommages environnementaux et améliore son apparence. Une préparation adéquate et une application précise sont nécessaires pour obtenir des résultats optimaux. |
+|
+| Formation AUTOCAD |
+027.CRMEx |
+| La formation en AUTOCAD est une prestation de service qui vise à enseigner les compétences nécessaires pour utiliser efficacement le logiciel AUTOCAD dans le contexte de la conception et de la modélisation mécanique. |
+|
+| Formation en habilitation mécanique |
+028.CRM.Ex |
+| La formation en habilitation mécanique est une prestation de service qui vise à former les personnes aux règles de sécurité et aux procédures spécifiques liées au travail mécanique. Elle permet de s'assurer que les travailleurs sont qualifiés et capables de travailler en toute sécurité avec des équipements mécaniques. |
+|
+| Formation Traitement thermique |
+029.CRM.Ex |
+La formation en traitement thermique est une prestation de service qui vise à enseigner les principes et les techniques du traitement thermique des matériaux.
+Le traitement thermique est un processus utilisé pour modifier les propriétés physiques et mécaniques des matériaux, tels que la dureté, la résistance, la ductilité, la résistance à la corrosion, etc., en les soumettant à des températures contrôlées et à des cycles de refroidissement spécifiques.
+La formation en traitement thermique comprend généralement des sessions théoriques et pratiques où les participants apprennent les concepts de base du traitement thermique, les différentes techniques de chauffage et de refroidissement, les traitements thermiques couramment utilisés tels que la trempe, le revenu, la recristallisation, etc. |
+|
+| Formation Commande numérique des machines-outils |
+030.CRM.Ex |
+La formation en commande numérique des machines-outils est une prestation de service qui vise à enseigner les compétences nécessaires pour programmer, configurer et utiliser des machines-outils à commande numérique (CNC) dans un environnement industriel.
+Les machines-outils à commande numérique sont utilisées pour l'usinage de pièces métalliques ou autres matériaux en utilisant des commandes numériques précises. La formation en commande numérique des machines-outils comprend généralement des sessions théoriques et pratiques où les participants apprennent les principes fondamentaux des commandes numériques, les langages de programmation CNC, les outils de programmation, les techniques de configuration et de mise en service des machines CNC, ainsi que les bonnes pratiques de sécurité.
+Les participants apprennent à créer des programmes CNC en utilisant des langages de programmation spécifiques tels que G-code et M-code, à interpréter les dessins techniques et à les traduire en instructions de programme, à configurer les paramètres de vitesse, d'alimentation, d'outil et de fixation appropriés, et à effectuer des opérations d'usinage précises en utilisant les machines-outils CNC.
+La formation en commande numérique des machines-outils peut être adaptée aux besoins spécifiques de l'industrie ou de l'organisation, en se concentrant sur les types de machines-outils CNC utilisées et les processus d'usinage spécifiques. Elle est généralement dispensée par des formateurs qualifiés et expérimentés, et peut inclure des démonstrations pratiques, des exercices de programmation et des simulations pour renforcer l'apprentissage.
+En résumé, la formation en commande numérique des machines-outils est une prestation de service visant à enseigner les compétences nécessaires pour programmer, configurer et utiliser des machines-outils à commande numérique. Elle permet aux participants de maîtriser les principes des commandes numériques, d'acquérir des compétences de programmation CNC et d'effectuer des opérations d'usinage précises avec des machines-outils CNC. |
+|
+| Analyse vibratoire |
+31.CRM.Mt |
+Consiste à mesurer et analyser les vibrations d'un objet ou d'un système en utilisant un instrument spécialisé appelé vibromètre laser.
+Le vibromètre laser est un appareil de mesure précis et non intrusif qui utilise un faisceau laser pour détecter les vibrations d'un objet. Il enregistre les variations de déplacement, de vitesse ou d'accélération des points de mesure sur la surface de l'objet, permettant ainsi d'obtenir des données quantitatives sur les vibrations.
+L'analyse vibratoire à l'aide du vibromètre laser permet d'évaluer les performances et la stabilité des machines, d'identifier les sources de vibrations indésirables, de détecter les défauts de fonctionnement, les déséquilibres, les jeux mécaniques, les résonances ou d'autres problèmes qui pourraient affecter le bon fonctionnement du système.
+|

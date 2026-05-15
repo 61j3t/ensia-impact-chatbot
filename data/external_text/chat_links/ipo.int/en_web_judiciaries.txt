@@ -1,0 +1,56 @@
+[Source: https://www.wipo.int/en/web/judiciaries]
+[Title: Judiciaries and Intellectual Property]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:51+00:00]
+
+Judiciaries and Intellectual Property
+WIPO empowers judiciaries to fulfill their vital role in ensuring that intellectual property (IP), innovation and creative ecosystems are balanced and effective.
+The WIPO Judicial Institute and relevant WIPO sectors work with judges from around the world to create a space for dialogue and exchange of information and practices, to deliver capacity building activities, to produce in-depth resources on topics of relevance to the global judiciary, and to provide free and open access to IP-related legal knowledge to everyone through the WIPO Lex database.
+WIPO Advisory Board of Judges
+Our work is guided by an Advisory Board of Judges who represent broad geographical and technical coverage. Members serve in their personal capacity for two year terms.
+- Luis Antonio CAMARGO VERGARA, Judge, Third Tribunal Specialized in Competition and Intellectual Property, First Judicial District, Panama City, Panama
+- DU Weike, Deputy Chief Judge, Intellectual Property Court, Supreme People’s Court, Beijing, China
+- Zhanar DUISENOVA, Judge, Specialized Interdistrict Administrative Court of Astana, Kazakhstan
+- Mohammad ELZEND, Appellate Judge, Tanta High Court of Appeals; Senior Advisor, International and Cultural Cooperation Department, Ministry of Justice, Cairo, Egypt
+- Jean-Christophe GAYET, Presiding Judge, Third Section, Third Chamber, First Instance Court of Paris, France
+- Michael MANSON, Justice, Federal Court of Canada, Ottawa, Canada
+- Savvas PAPASAVVAS, Vice-President, General Court of the European Union, Luxembourg
+- Prathiba M. SINGH, Justice, High Court of Delhi, New Delhi, India
+- Mustapher Mohamed SIYANI, Principal Judge, High Court of Tanzania, Dodoma, United Republic of Tanzania
+- WOO Sungyop, Presiding Judge, Fourth Division, Intellectual Property High Court of Korea, Daejeon, Republic of Korea
+IP Judicial Structures & Procedures
+Transnational judicial dialogue on IP
+WIPO creates global platforms for exchange of experiences and expertise among national and regional judiciaries.
+WIPO IP Judges Forum
+WIPO Webinars for Judges
+IP publications and other resources for judiciaries
+WIPO provides publications and other resource tools that promote in-depth understanding of topics of relevance to the global IP judiciary.
+IP Judicial Structures & Procedures
+IP Benchbook Series
+An International Guide to Patent Case Management for Judges
+Other IP resources for judiciaries
+- When Private International Law Meets Intellectual Property Law [PDF, 679 KB]
+- WIPO Collection of Leading Judgments on Intellectual Property Rights – Members of the African Intellectual Property Organization (1997-2018) [PDF, 5 MB]
+- WIPO Collection of Leading Judgments on IP Rights – People’s Republic of China
+- Casebook on the Enforcement of Intellectual Property Rights
+- WIPO Guide on ADR options for IP Offices and Courts
+- WIPO ADR options for IP and Technology Cases pending before National Courts
+- Overview of Patent Litigation Systems (World Intellectual Property Indicators 2018) [PDF]
+- The Economic Analysis of Patent Litigation Data (Economic Research Working Paper No. 48)
+- Fomentar el diálogo judicial transnacional en materia de propiedad intelectual” in Perspectiva de los administradores de justicia en Propiedad Intelectual en América Latina (Supreme Court of Paraguay/ASIPI, 2021) [PDF]
+Judicial capacity-building initiatives on IP
+WIPO works with national judicial authorities to provide holistic and tailored capacity building support to increase the IP knowledge and skills of judges.
+The WIPO Academy offers judicial education on IP based on the Academy’s general distance learning course on IP (DL-101).
+WIPO capacity-building activities in the field of the judicial administration of intellectual property.
+WIPO Lex - IP legal information
+Through the WIPO Lex database WIPO provides free and open access to legal information on IP from around the world, including IP laws and regulations, IP-related treaties, and judicial decisions on IP.
+Browse by jurisdiction
+Search IP laws
+Search IP treaties
+WIPO-administered and other IP-related treaties
+Search IP judgments
+Topics and issues
+IP infringements routinely impact on multiple territories, resulting in questions of jurisdiction, applicable law, and enforcement and recognition of foreign judgments.
+Whilst not obligatory, there is a trend to specialize or centralize the handling of certain types of IP disputes. When is it advantageous or necessary to establish specialized IP courts?
+Litigation surrounding standard essential patents (SEPs) has gradually increased over time and expanded into new jurisdictions. The WIPO Lex SEP Case Law Collection provides access to noteworthy SEP rulings from around the world, enhancing global understanding of judicial approaches to the latest and most complex SEP legal issues.
+A curated collection of important developments and diverse judicial approaches to trade secret protection from across the globe. Access answers to key trade secrets law questions, including what qualifies as a trade secret, how protection is established, when disclosure or misappropriation occurs, lawful exceptions to trade secrets, and remedies for breach of trade secrets.

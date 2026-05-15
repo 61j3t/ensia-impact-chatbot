@@ -1,0 +1,9 @@
+[Source: https://www.hbku.edu.qa/en/office-institutional-effectiveness/policies-procedures]
+[Title: Policies & Procedures | Hamad Bin Khalifa University]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:18:51+00:00]
+
+Welcome
+This page serves as the official repository for all university policies, procedures, and related documents. Whether you're looking for policies, procedures, guidelines, forms, or templates, this site provides convenient access for all stakeholders.
+Find a Policy
+Browse policies by selecting the category below. Click on the relevant button to explore policies, procedure, guideline etc.

@@ -1,0 +1,29 @@
+[Source: https://e-services.inapi.org/inscription_dessin]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+Bordereau d'inscription Modèles (pour tous types de bordereau)
+Les étapes à suivre pour le dépôt d'un bordereau d'inscription :
+- Ouvrir un compte sur le site web de l’INAPI, ou se connecter à votre espace si vous possédez déjà un compte - Cliquez sur la rubrique dessin industriel sur le tableau de bord, puis sur inscription - Remplir les champs requis avec les informations nécessaires - Insérer les documents justificatifs nécessaires relatifs au type d’inscription demandé - Imprimer votre ordre de paiement - Effectuer le paiement au niveau d'une agence CNEP - Le paiement doit être effectuer en espèce dans une agence de CNEP (disponible dans tout le territoire national), "tout autre mode de paiement ne sera pas accepté". - Information agence CNEP INAPI - Nom de l'agence : ESSAFIR ALITTI CNEP - Code Agence : 103 - N° Compte INAPI : 100 00 13733 clé 7 -Signer les cinq copies de la demande imprimée et préparer le reste des documents (voir dossier à fournir) - Déposer votre dossier au niveau de l’INAPI Alger ou à l’annexe la plus proche de votre lieu de résidence.
+Pour faire une inscription dessin et modele cliquez ici
+Dossier à fournir d'inscription :
+- Formulaire d’inscription en 5 exemplaires
+- Reçu de paiement de la taxe d’inscription
+- Document justificatif de l’inscription selon le type d’inscription
+- Changement d’adresse
+- Personne physique : La residence pour les artisans, ou copie de registre de commerce pour ceux qui possèdent RC personne physique.
+- Personne morale : Copie de registre de commerce
+- Bordereau pour transformation ou changement de dénomination
+- Statut modificatif et copie de registre de commerce
+- Bordereau de cession
+- Contrat de cession
+- Bordereau de correction d'erreur matérielle
+- Nom erroné :
+- Personne Physique : extrait de naissance
+- Personne morale : copie du statut et copie de registre de commerce
+- Adresse erronée :
+- Personne physique : La residence pour les artisans, ou copie du registre de commerce pour ceux qui pocèdent RC personne physique.
+- Personne morale : registre de commerce et statut
+- toutefois, d'autres documents peuvent être utiles selon le type d'erreur
+- Nom erroné :

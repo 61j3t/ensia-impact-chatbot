@@ -1,0 +1,156 @@
+[Source: https://soolvit.com/smart-care-challenge-welltech]
+[Title: Smart Care challenge]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:33:45+00:00]
+
+Participer au Challenge
+Soumissions indisponibles
+Ce challenge est terminé.
+Draft saved!
+Your progress has been saved. However, please remember to complete and submit your participation, otherwise it will not be counted.
+Participation envoyée!
+Votre participation a été soumise avec succès. Bonne chance!
+Smart Care challenge
+BY FADERCO
+Le WellTech Center by FADERCO lance en exclusivité Le Smart Care challenge et ce dans le cadre du programme Algeria Startup Challenge.
+Ce challenge invite les startups et innovateurs algériens à proposer des solutions innovantes, intégrant l’intelligence artificielle et l’IoT, pour repenser les dispositifs d’hygiène et systèmes de prévisions dans les environnements professionnels, ainsi que le monitoring de la santé et de l’hygiène corporelle. L’objectif est clair : anticiper les usages, automatiser la gestion des Dispensers de papier, optimiser la consommation, et réduire l’empreinte environnementale, et stimuler l’innovation au service de la santé et de l’hygiène.
+À travers ce challenge, FADERCO réaffirme sa volonté de s’ouvrir à l’innovation ouverte, de capter les signaux du marché et de co-construire, avec les talents algériens, une hygiène plus connectée, plus durable, et résolument tournée vers l’avenir.
+Hygiène intelligente & Solutions connectées
+Les solutions attendues peuvent inclure le développement de distributeurs ou équipements d’hygiène embarquant des capteurs, capables de suivre leur état en temps réel, de s’adapter à l’usage ou de déclencher des actions automatiques.
+L’objectif est d’optimiser l’utilisation des produits, limiter les gaspillages et améliorer l’expérience utilisateur sur site.
+Les participants peuvent aussi proposer des outils de suivi et d’analyse de données (Dashboard, algorithmes prédictifs, plateformes SaaS) permettant d’anticiper les besoins de planifier les maintenances ou d’optimiser les flux.
+Ces systèmes doivent faciliter la prise de décision, automatiser la gestion et réduire les coûts liés aux opérations terrain.
+Ce volet peut inclure des solutions technologiques (capteurs, objets connectés, applications mobiles…) ou non technologiques (process innovants) permettant de suivre, encourager ou améliorer les pratiques d’hygiène corporelle dans les environnements professionnels et non professionnel.
+Suivi en temps réel de l’usage (papier, serviettes ou lingettes) via capteurs, avec Dashboard centralisé pour une gestion multisite.
+Crée des algorithmes d’IA capables de prédire les volumes de consommation par site ou selon la saisonnalité, afin d’anticiper les besoins, optimiser les réassorts et réduire les ruptures.
+Mise en place d’un système de notification intelligente (SMS, API, appli mobile) pour prévenir les opérateurs à seuil critique, évitant interventions d’urgence et gaspillages.
+Création d’un outil SaaS pour centraliser les données sur l’impact carbone, l’empreinte des consommables et les performances des dispositifs, générant des rapports ESG ou aidant à la décision RSE.
+Solutions embarquant de l’IA pour adapter la quantité de produit délivré au comportement utilisateur ou au contexte d’usage (ex: affluence, événements spéciaux, profil de consommateur).
+Critères de sélection
+L'impact et durabilité de la solution.
+L’importance du problème traité.
+La Pertinence, originalité et innovation.
+La viabilité et maturité du projet.
+Faisabilité du développement local des composants.
+La qualité de la présentation.
+L’équipe et son expertise.
+Pourquoi participer en tant que Startup ?
+- Une bourse d’accompagnement d’une valeur financière de 500 000 DZD au profit du lauréat.
+- Accès à des ressources et à l'expertise de Faderco dans le domaine.
+- Possibilité de collaboration avec Faderco et accès à son réseau de partenaires.
+- Bénéficier d’accompagnement, du réseau d’experts et l’accès à l’écosystème d’acteurs institutionnels et économiques partenaires du programme.
+Objectifs
+En bâtissant des partenariats mutuellement bénéfiques avec les startups algériennes dans une logique de co-développement et en promouvant activement les technologies Made in Algeria en faveur d’une souveraineté industrielle.
+À travers cette initiative, le WellTech Center by FADERCO vise à créer des synergies durables entre startups, experts et institutions pour faire émerger des innovations transformant durablement l’hygiène et le bien-être des consommateurs.
+Ce challenge a pour ambition d’identifier, soutenir et valoriser des startups porteuses de solutions innovantes à fort impact, capables d’accélérer la transition vers un modèle économique plus durable, inclusif et résilient.
+Highlights des lauréats des éditions précédentes
+Wildfire offers an AI and IoT-based solution for early detection of forest fires and prediction of their spread. Smart sensors monitor environmental conditions in real time, enabling rapid response and proactive management, reducing risks and minimizing potential damage to ecosystems and communities.
+Propose un poteau d’éclairage solaire qui purifie l’air en réduisant les émissions de CO₂, équivalentes à plus de 400 arbres. Il utilise des algues pour convertir le dioxyde de carbone en oxygène, tout en extrayant la biomasse pour produire du biodiesel, combinant éclairage durable et impact environnemental positif.
+C'est un calculateur intégré permettant de mesurer et visualiser vos émissions de gaz à effet de serre (GES) via un tableau de bord Power BI clair, précis et intuitif. Il facilite le suivi environnemental et la prise de décision en centralisant les données de manière accessible et compréhensible.
+AVRA est une startup innovante qui conçoit des visites virtuelles immersives à 360°, grâce à la réalité virtuelle, offrant une expérience interactive, réaliste et engageante. Elle valorise les lieux en les rendant accessibles virtuellement, facilitant la découverte, la promotion et la prise de décision à distance.
+Biofertech est une startup qui fabrique des amendements de sols durables et innovants. Elle propose des solutions écologiques pour améliorer la qualité des terres agricoles, favoriser une agriculture productive et responsable, tout en répondant aux enjeux environnementaux et de durabilité.
+Timeline
+- Appel à innovation
+- Sélection et délibération
+- Learning and Immersion Days
+- Fast Track Acceleration
+- Évènement Annuel Algeria Startup Challenge
+- Date prévue : Juin - Juillet 2025
+Appel à soumission aux entrepreneurs et aux porteurs de projets au Smart Care challenge exclusivement via la plateforme Soolvit.
+- Date prévue : Aout 2025
+Les startups et innovations soumises seront évalués selon les critères par un comité d'expert du Smart Care challenge en collaboration avec Le WellTech Center by FADERCO et ce en deux phases :
+a) Présélection et évaluation en ligne à la base du formulaire, pitch deck, etc soumis
+b) Entretiens en ligne des startups et projets plus prometteurs
+À la fin, 3 startups et projets seront sélectionnés pour le programme. - Date prévue : Septembre 2025
+Bootcamp fermé d’immersion et de formation intensive dédiés aux startups et porteurs de projets lauréats.
+Au programme : Brise-glace, activités et networking, diagnostic, ateliers de renforcement de compétences et bien plus.
+- Date prévue : Septembre - Novembre 2025
+Un soutien personnalisé pour structurer vos projets et optimiser votre stratégie.
+Elle vous prépare à l'étape finale en vous apportant un soutien ciblé pour développer votre modèle d'entreprise, accéder aux marchés et lever des fonds.
+- Date prévue : Novembre 2025
+L’aventure culminera lors de l’événement annuel de l’Algeria Startup Challenge, véritable rendez-vous de l’innovation en Algérie. Les startups finalistes s’affronteront dans une battle devant un panel d’experts, d’investisseurs et de décideurs influents. La journée sera rythmée par des conférences de haut niveau, des keynotes inspirantes, des remises de prix et la signature de partenariats stratégiques.
+Présentation de Faderco
+Le groupe FADERCO est un acteur majeur de l'économie algérienne dans le secteur FMCG dans l'hygiène corporelle et domestique en particulier l'hygiène infantile, l'hygiène féminine, l'hygiène adulte, l'hygiène de maison, et la protection sanitaire. L'intégration en amont (production de la Ouate) et en aval (Distribution) lui a permis de se développer pour devenir un groupe industriel de premier plan.
+WellTech Open Innovation Program
+Le WellTech Center, programme d'Open Innovation de FADERCO, transforme les innovations dans son secteur. Avec des objectifs stratégiques visant à promouvoir l’Open Innovation, à renforcer les liens entre éducation et entreprise, et à soutenir les porteurs de projets, le centre se concentre sur l'innovation interne et externe.
+Le WellTech Open Innovation Challenge, combine la créativité des startups avec les ressources de FADERCO pour relever des challenges majeurs, positionnant le WellTech Center comme un catalyseur d'innovation et de succès.
+Nos marques chez FADERCO
+Dans les mots de notre Président Directeur Général
+Pour plus d'informations sur FADERCO
+En savoir plusRèglement du challenge
+Ce challenge est organisé par WellTech Center, centre d’innovation du groupe industriel FADERCO SPA, et dont le siège est à Zone Industrielle des Eucalyptus, lot n° 22, route de Larbaâ -16057- ALGER – ALGERIE., et ceci dans le cadre du programme Algeria Startup Challenge 2025.
+Pour rappel, le Algeria Startup Challenge est organisé dans sa septième édition pour l’année 2025 par Leancubator, sous forme d’une multitude de challenges open innovation, parrainé par le ministère de l'Économie de la connaissance, des startups et de la microentreprise et le ministère de l’Environnement et de la qualité de vie.
+- Le Règlement a pour objet de définir les conditions et règles de la participation à cet appel.
+- La participation au Challenge implique pour tout participant l'acceptation entière et sans réserve du présent Règlement. Si vous êtes en désaccord avec les termes du Règlement, il convient de ne pas vous inscrire ni de participer au Challenge.
+1. Objet du challenge
+Cette opération est organisée sous forme d’un concours d’innovation mettant en concurrence des startups, microentreprises et chercheurs algériens, proposant des solutions innovantes et durables dans le domaine de Le Smart Care challenge en lien avec les thématiques soumises par le WellTech Center, centre d’innovation du groupe industriel FADERCO SPA
+2. Durée du challenge
+L’opération commence le 12 /06 /2025 à 11 :00 UTC+1 et se termine le 02/07/2025 à 23 :59 UTC+1. Le Challenge est accessible 24 heures sur 24 sur le site web dédié au Challenge édité par Soolvit et accessible à l’URL : https://soolvit.com/smart-care-challenge-2025 (« le Site du Challenge »), sous réserve d'éventuelles opérations de maintenance informatique ou de dysfonctionnements. Les dates et heures précitées font référence au temps universel coordonné UTC+1.
+3. Acceptation du Règlement
+Toute personne inscrite sur le Site du Challenge et au Challenge ("le Participant" ou "Vous") doit prendre connaissance et accepter expressément le Règlement. En accédant et acceptant le règlement, vous :
+- Avez conclu un contrat avec Faderco ayant force exécutoire. Étant précisé que l’inscription et la participation au Challenge n’a en aucune manière, pour effet de créer un lien de subordination entre Faderco et le Participant.
+- Acceptez de manière pleine et entière sans réserve de respecter le présent Règlement en toutes ses dispositions.
+- Le non-respect dudit Règlement entraîne l’annulation immédiate de la participation.
+4. Inscription et participation au challenge
+Pour participer à cet appel, nous devons avoir reçu votre candidature complète avant le 02 /07 /2025 à 23:59 UTC+1.
+Le participant doit pour participer au Challenge avoir créé un compte utilisateur sur le site web du Challenge, et renseigné de manière loyale et complète les informations requises, telles que son nom, prénom, adresse e-mail, etc.
+Les participants n’ayant pas justifié leurs coordonnées et identités complètes ou qui les auront fournies de façon inexacte ou mensongère seront disqualifiés, tout comme les personnes refusant les collectes, enregistrements et utilisations des informations à caractère personnel les concernant et strictement nécessaires pour les besoins de la gestion du Challenge. Les informations transmises par le Participant dans le cadre de son inscription au Challenge sont de sa responsabilité et toute erreur, anomalie, incohérence, intentionnelle ou non portant sur les informations communiquées par le Participant sont de nature à entraîner sa disqualification.
+Algeria Startup Challenge se réservant le droit de procéder à toutes les vérifications nécessaires concernant l’identité, l’adresse postale et / ou électronique des Participants.
+De même, pour participer au Challenge, le Participant doit avoir accepté le présent Règlement ainsi que les Conditions Générales d'Utilisation et la Politique de confidentialité de SOOLVIT, lors de son inscription et la création du compte utilisateur.
+L'inscription et la participation aux Challenges est entièrement gratuite, et sans obligation d’achat.
+5. Conditions de participation et présélection
+5.1 Parties éligibles au challenge
+- Startups et Micro-entreprises
+- Étudiants et chercheurs
+- Professionnels
+5.2 Niveau de maturité de la startup
+Pour cette édition, nous privilégions les startups établies, ayant déjà une présence sur le marché et un impact démontré.
+Early-stage : Startup en phase initiale avec un prototype (MVP) fonctionnel et des premières validations de marché.
+Startup établie : Solution opérationnelle, avec des premiers clients ou des utilisateurs, et une preuve de traction.
+Scale-up : Entreprise en forte croissance, avec un modèle économique éprouvé et une ambition d’expansion.
+NB : Les startups disposant de brevets, de financements, de références ou encore d'un label Startup ou Projet Innovant seront particulièrement appréciées.
+En ce qui concerne la solution proposée :
+- Une solution ambitieuse, réalisable et impactante, prête à transformer l’économie verte.
+- Répond à un besoin concret du marché algérien (au minimum) avec un fort potentiel d’adoption.
+- Qu'elle soit une solution B2B, B2C ou B2G.
+- Apporte une innovation différenciante avec une dimension technologique.
+- Être techniquement viable et adaptée aux infrastructures et à la maturité du marché.
+- S’aligne avec les principes du développement durable et de l’économie circulaire.
+- Être portée par une startup capable d’exécuter et de faire évoluer sa solution.
+5.3 Inscription & Prérequis du projet
+À l’étape de soumission, le participant doit avoir le pouvoir de représentation de sa startup et ajouter les membres de son équipe. Toute soumission de projet n’ayant pas respectée cette règle sera automatiquement annulée.
+Le participant afin de soumissionner son projet, doit :
+1/ Répondre au formulaire d’inscription de manière exhaustive, claire et en veillant à la fiabilité et l’honnêteté des réponses.
+Remarque : Il est recommandé en cas d’existence de prototype de l’insérer dans la case dédiée.
+2/ Intégrer en pièce jointe le pitch deck exhaustif et clair contenant les éléments suivants :
+- Présentation de l’équipe (Les compétences et complémentarité des fondateurs et des collaborateurs clés).
+- Présentation de la solution (La proposition de valeur, différenciation et innovation).
+- Impact et durabilité (La contribution aux objectifs de transition écologique et d’économie circulaire).
+- Étude de marché et ambitions (Taille du marché, opportunités et traction).
+- Vision produit et feuille de route (Stratégie de développement, évolutivité et prochaines étapes).
+- Business Model Canvas
+- Démonstration de la solution (Vidéo, photos ou tout autre support démontrant la faisabilité du projet).
+Remarque : la présentation peut être établie en arabe, en français ou en anglais. Une seule langue au choix.
+5.4 Sélection & Critères d’évaluation
+Le choix des projets retenus pour le programme se fait en deux (2) phases :
+Présélection en ligne : Les projets seront évalués par les membres du jury du Smart Care challenge by FADERCO selon des critères prédéfinis (vois ci-dessous). La sélection se fera sur la base des informations fournies dans le formulaire de candidature et des pièces jointes soumises.
+Entretiens hybrides : Les candidats présélectionnés participeront à une série d’entretiens où ils devront présenter leur projet, démontrer leur motivation et convaincre le jury en mettant en avant leur vision et l'impact du programme sur leur développement.
+5.5 Les critères d’évaluation
+Les startups seront évaluées à l’aide d’une grille de notation basée sur les critères détaillés ci-dessous.
+- Impact et durabilité de la solution :
+Contribution claire à la transition écologique et au développement durable.
+Effets mesurables en matière de réduction des émissions, d’économies de ressources, ou d’amélioration de la résilience environnementale.
+- L’importance du problème traité :
+Le projet répond-il à un enjeu environnemental majeur et avéré ? Existe-t-il une demande et un besoin réel sur le marché ?
+- Pertinence, originalité et innovation :
+La solution apporte-t-elle une rupture technologique ou méthodologique par rapport aux alternatives existantes ? Quel est son potentiel de différenciation et d’adoption ?
+- Viabilité et maturité du projet :
+La solution est-elle testée ou déployée sur le marché ? Quel est son potentiel d’évolution et de scalabilité ?
+- La Faisabilité de développement local des composants de la solution:
+Les composants de la solution peuvent-ils être développés ou fabriqués localement ?
+- L’équipe et son expertise :
+L’équipe possède-t-elle les compétences et l’expérience nécessaires pour porter le projet vers le succès ? Quel est son engagement envers l’impact et l’innovation durable ?
+- La qualité de la présentation :
+Un storytelling efficace, un pitch deck structuré et un design impactant, avec des informations précises, une argumentation solide et des données chiffrées.
+6. Post-Challenge :
+Les solutions qui seront sélectionnées dans ce challenge auront l’opportunité de collaborer avec le WellTech Center, centre d’innovation du groupe industriel FADERCO SPA

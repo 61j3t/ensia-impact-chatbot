@@ -1,0 +1,19 @@
+[Source: https://erasmusplus.dz/algeria-erasmus-office]
+[Title: Algeria Erasmus+ Office - National Erasmus+ Office Algeria]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:16:48+00:00]
+
+National Erasmus+ Office in Algeria
+The National Erasmus+ Office (NEO) – Algeria assists the European Commission, the European Education and Culture Executive Agency (EACEA), the national authorities and higher education institutions in the implementation of the Erasmus+ Programme. The NEO – Algeria follows closely the policy developments in Algeria in the field of Higher Education (HE) and Vocational Training and Education (VET), and Youth.
+NEO Algeria overall objective is to promote activities of the published Erasmus+ Call for Proposals but also focus its efforts on the:
+- dissemination and exploitation of project results,
+- networking activities with core stakeholders,
+- creating synergies with other EU programs and international donor activities.
+Starting the new programme (2021-2027), Algeria Erasmus+ Office is responsible for:
+- providing information about Erasmus+ opportunities
+- advising and assisting potential applicants;
+- coordinating the local team of Higher Education Reform Experts (HEREs);
+- contributing to studies and events;
+- providing support to policy dialogue;
+- maintaining contacts with the local authorities and EU delegations;
+- following policy developments in the field of higher education.

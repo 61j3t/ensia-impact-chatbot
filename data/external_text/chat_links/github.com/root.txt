@@ -1,0 +1,29 @@
+[Source: https://github.com/]
+[Title: GitHub · Change is constant. GitHub keeps you ahead. · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+The future of building happens together
+Tools and trends evolve, but collaboration endures. With GitHub, developers, agents, and code come together on one platform.
+GitHub features
+Write, test, and fix code quickly with GitHub Copilot, from simple boilerplate to complex features.
+GitHub customers
+Accelerate your entire workflow
+From your first line of code to final deployment, GitHub provides AI and automation tools to help you build and ship better software faster.
+Your AI partner everywhere. Copilot is ready to work with you at each step of the software development lifecycle.
+Duolingo boosts developer speed by 25% with GitHub Copilot
+Read customer story2025 Gartner® Magic Quadrant™ for AI Code Assistants
+Read industry reportBuilt-in application security where found means fixed
+Use AI to find and fix vulnerabilities so your team can ship more secure software faster.
+Apply fixes in seconds. Spend less time debugging and more time building features with Copilot Autofix.
+Security debt, solved. Leverage security campaigns and Copilot Autofix to reduce application vulnerabilities.
+Learn about GitHub Code SecurityDependencies you can depend on. Update vulnerable dependencies with supported fixes for breaking changes.
+Learn about DependabotYour secrets, your business. Detect, prevent, and remediate leaked secrets across your organization.
+Learn about GitHub Secret Protection70% MTTR reduction with Copilot Autofix
+8.3M secret leaks stopped in the past 12 months with push protection
+Work together, achieve more
+From planning and discussion to code review, GitHub keeps your team’s conversation and context next to your code.
+Plan with clarity. Organize everything from high-level roadmaps to everyday tasks.
+From startups to enterprises, GitHub scales with teams of any size in any industry.
+Millions of developers and businesses call GitHub home
+Whether you’re scaling your development process or just learning how to code, GitHub is where you belong. Join the world’s most widely adopted developer platform to build the technologies that shape what’s next.

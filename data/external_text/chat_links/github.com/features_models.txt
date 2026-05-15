@@ -1,0 +1,46 @@
+[Source: https://github.com/features/models]
+[Title: GitHub Models · Build AI-powered projects with industry-leading · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+Build, test, and ship AI—right from your GitHub workflow. Make direct API calls or integrate with the Azure AI SDK or any supported model SDK.
+Your AI toolbox built into GitHub
+Models, prompts, evals, and more. Everything you need to go from idea to shipped—without ever leaving GitHub.
+Pick the right model, fast
+Run side-by-side evaluations to compare outputs from industry-leading models in real time. No guesswork, just better results.
+Manage prompts like code
+Version, share, and reuse your prompts across projects. Treat AI inputs as first-class development assets, just like your source code.
+Secure by design
+Control which models your team can use, keep data and prompts private, and ensure everything runs within GitHub and Azure infrastructure.
+Building with AI, made easy
+One API key, limitless possibilities
+- Instantly access 40+ popular open source and proprietary models
+- Start building fast with plug-and-play code snippets
+- Stay in GitHub—no context switching required
+/ai/models - logos
+Prompt engineering meets version control
+Store, manage, and collaborate on AI prompts just like code, with built-in tools to track changes, preview diffs, and roll back anytime.
+No more guessing
+Build faster with structured evaluations. Score outputs on quality, relevance, or any metric you define, using custom evaluators or LLMs as judges.
+Collaborate in natural language
+Turn prompt editing into a team sport. Built on trusted pull request workflows, the natural language prompt editor makes it easy for anyone to improve prompt quality.
+Spark your next build
+From idea to deployment, GitHub Spark and GitHub Models let you move fast with the right model for the job.
+Turn your AI vision into reality with GitHub Models
+Go from prototype to production in a snap.
+Get started with GitHub Models
+GitHub Models documentation
+Learn how to set up, test, compare, and securely deploy with GitHub Models.
+Learn about billing on GitHub
+If you want to use GitHub Models beyond the free usage included in your account, you can choose to opt-in to paid usage.
+Frequently asked questions
+What is GitHub Models?
+GitHub Models brings AI directly into the developer workflow by providing access to multiple leading models through a single API key. It allows teams to manage prompts as code, run side-by-side model evaluations, and move from testing to production within the same environment they already use.
+Is GitHub Models different from GitHub Copilot?
+Yes, GitHub Models is a separate product, outside of GitHub Copilot. GitHub Models is free for everyone to get started building AI with and can be leveraged directly within GitHub.
+What is the Models playground?
+GitHub Models includes a playground where you can explore a curated selection of AI models from providers like OpenAI, Meta, and Microsoft. There you can experiment with prompts, tweak parameters (such as temperature or max tokens), and see how different models respond, all in real time.
+Can I bring my own model key?
+Yes, you can bring your own API keys (BYOK) from different providers, such as OpenAI or Azure AI. Model inference runs directly through your provider, and usage is billed and tracked through your provider account. View the GitHub BYOK documentation.
+How does GitHub Models billing work on GitHub?
+Billing for GitHub Models is designed to be flexible and to allow you to use your preferred model providers, while also providing the ability to control your spending. Model usage is powered by the Azure OpenAI Service and billed through GitHub using the same global pay-as-you-go pricing as Azure OpenAI Service. Learn more about billing for GitHub Models.

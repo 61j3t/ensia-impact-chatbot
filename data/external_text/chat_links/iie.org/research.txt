@@ -1,0 +1,7 @@
+[Source: https://www.iie.org/research]
+[Title: Research | IIE]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:21:07+00:00]
+
+Fall 2025 Snapshot on International Student Enrollment
+The Fall 2025 Snapshot on International Student Enrollment findings are based on responses from 828 U.S. higher education institutions on current patterns in international student enrollment as of fall 2025. The report, conducted by the Institute of International Education (IIE) and ten partner higher education associations, complements the Open Doors® Report on International Educational Exchange.

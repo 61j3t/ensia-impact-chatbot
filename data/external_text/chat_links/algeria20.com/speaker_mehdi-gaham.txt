@@ -1,0 +1,6 @@
+[Source: https://algeria20.com/speaker/mehdi-gaham]
+[Title: Mehdi Gaham - Algeria 2.0 - Le Futur Tech Algérien]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:10+00:00]
+
+Researcher and speaker in Artificial Intelligence, Optimization, and Industry 4.0, focused on enhancing system performance and resilience. Director of the robotics division at CDTA and member of the national committee for startup and innovation project labellisation, fostering entrepreneurship and innovation.

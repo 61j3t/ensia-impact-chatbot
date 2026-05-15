@@ -1,0 +1,70 @@
+[Source: https://developer.nvidia.com/blog/category/data-science]
+[Title: Category: Data Science | NVIDIA Technical Blog]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:05:59+00:00]
+
+Data Science
+May 07, 2026
+Model Quantization: Post-Training Quantization Using NVIDIA Model Optimizer
+Model quantization is an effective method to reduce VRAM usage and improve inference performance on consumer devices such as NVIDIA GeForce RTX GPUs. By...
+8 MIN READ
+May 07, 2026
+Real-Time Performance Monitoring and Faster Debugging with NCCL Inspector and Prometheus
+Distributed deep learning depends on fast, reliable GPU-to-GPU communication using the NVIDIA Collective Communication Library (NCCL). When training slows down,...
+7 MIN READ
+May 04, 2026
+Optimize Supply Chain Decision Systems Using NVIDIA cuOpt Agent Skills
+Modern supply chains operate under the constant pressures of fluctuating demand, volatile costs, constrained capacity, and interdependent decision-making....
+6 MIN READ
+Apr 30, 2026
+Automating GPU Kernel Translation with AI Agents: cuTile Python to cuTile.jl
+NVIDIA CUDA Tile (cuTile) is a tile-based programming model that enables developers to write GPU kernels in terms of tile-level operations—loads, stores, and...
+9 MIN READ
+Apr 28, 2026
+Scaling Biomolecular Modeling Using Context Parallelism in NVIDIA BioNeMo
+For decades, computational biology has operated under a reductionist compromise. To fit complex biological systems into the limited memory of a single GPU,...
+9 MIN READ
+Apr 28, 2026
+24/7 Simulation Loops: How Agentic AI Keeps Subsurface Engineering Moving
+The subsurface industry is at a critical point in its digital evolution. For decades, unlocking reservoir potential has relied on experts performing essential...
+8 MIN READ
+Apr 24, 2026
+Federated Learning Without the Refactoring Overhead Using NVIDIA FLARE
+Federated learning (FL) is no longer a research curiosity—it’s a practical response to a hard constraint: the most valuable data is often the least movable....
+8 MIN READ
+Apr 23, 2026
+Winning a Kaggle Competition with Generative AI–Assisted Coding
+In March 2026, three LLM agents generated over 600,000 lines of code, ran 850 experiments, and helped secure a first-place finish in a Kaggle playground...
+8 MIN READ
+Apr 20, 2026
+Run High-Throughput Reinforcement Learning Training with End-to-End FP8 Precision
+As LLMs transition from simple text generation to complex reasoning, reinforcement learning (RL) plays a central role. Algorithms like Group Relative Policy...
+9 MIN READ
+Apr 09, 2026
+Cut Checkpoint Costs with About 30 Lines of Python and NVIDIA nvCOMP
+Training LLMs requires periodic checkpoints. These full snapshots of model weights, optimizer states, and gradients are saved to storage so training can resume...
+12 MIN READ
+Apr 09, 2026
+How to Accelerate Protein Structure Prediction at Proteome-Scale
+Proteins rarely function in isolation as individual monomers. Most biological processes are governed by proteins interacting with other proteins, forming...
+10 MIN READ
+Mar 24, 2026
+Building NVIDIA Nemotron 3 Agents for Reasoning, Multimodal RAG, Voice, and Safety
+Agentic AI is an ecosystem where specialized models work together to handle planning, reasoning, retrieval, and safety guardrailing. As these systems scale,...
+10 MIN READ
+Mar 16, 2026
+Scaling Autonomous AI Agents and Workloads with NVIDIA DGX Spark
+Autonomous AI agents are driving the next wave of AI innovation. These agents must often manage long-running tasks that use multiple communication channels and...
+10 MIN READ
+Mar 16, 2026
+NVIDIA Vera CPU Delivers High Performance, Bandwidth, and Efficiency for AI Factories
+AI is evolving, and reasoning models are increasing token demand, placing new requirements on every layer of AI infrastructure. More than ever, compute must...
+9 MIN READ
+Mar 09, 2026
+CUDA 13.2 Introduces Enhanced CUDA Tile Support and New Python Features
+CUDA 13.2 arrives with a major update: NVIDIA CUDA Tile is now supported on devices of compute capability 8.X architectures (NVIDIA Ampere and NVIDIA Ada), as...
+15 MIN READ
+Mar 05, 2026
+Controlling Floating-Point Determinism in NVIDIA CCCL
+A computation is considered deterministic if multiple runs with the same input data produce the same bitwise result. While this may seem like a simple property...
+7 MIN READ

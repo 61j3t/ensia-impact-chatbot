@@ -1,0 +1,38 @@
+[Source: https://drive.google.com/]
+[Title: Google Drive: Share Files Online with Secure Cloud Storage | Google Workspace]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:11:41+00:00]
+
+Move your data and store all of your files in one place with Google Drive. AI-powered storage in the cloud helps teams collaborate in real-time, making it faster to find files and insights, backed by Google’s industry-leading data security for added protection.
+Turn files into knowledge with Gemini in Google Drive
+AI Overviews in Drive delivers instant, cited answers so you can stop digging and start finding. Ask Gemini in Drive provides grounded, detailed responses based on your content across Drive, Gmail, Calendar, and Chat—all within your control via customizable, shareable Drive projects.
+Cloud storage made easy
+Simple and scalable cloud storage for people and teams of all sizes. Upload, open, share and edit files from any device.
+Storage that grows with you
+Scale your storage effortlessly from 15GB to 5TB per user, plus the ability to request additional storage. Storage costs vary.
+Gmail attachments straight to Drive
+Save and organize Gmail attachments directly to Drive without leaving your inbox.
+Scan documents with Drive
+Quickly scan and store receipts, billing statements and more as searchable PDFs, directly from the Drive app for Android or iOS.
+Work smarter, save time
+One place to manage, access, edit, and organize your files effortlessly for a streamlined workflow.
+Your files, all in one place
+Edit and organize Google Docs, Sheets, Slides, Microsoft Office files, and PDFs in real-time. Plus, access over 100 other file types!
+Annotate PDFs
+Add and edit comments directly in the PDFs by highlighting text.
+AI-powered search
+Drive's search, powered by AI, offers speed, and reliability by quickly surfacing relevant results based on your activities.
+Get a quick overview of your file activity across Workspace in one place, empowering you to act efficiently.
+Streamlined content collaboration and workflows
+Unleash your team's full potential with seamless collaboration and effortless teamwork.
+Manage access
+Easily share files with customizable permissions (edit, comment, view). Control access further by preventing unwanted actions and setting expiration dates.
+Block ransomware proliferation with Drive for desktop
+With AI-powered virus detection seamlessly integrated into Drive for desktop, customers have real-time ransomware detection, instant file recovery, and enhanced data security. Protect your business from costly downtime and data loss.
+Experience Drive on your mobile devices
+Learn why organizations use Drive
+Curious about Google Drive?
+Take a look at our FAQs to learn more.
+Yes, you can use our migration tools and services to move your organization’s important data to Google Workspace from your current storage solutions.
+Google Workspace’s Business and Enterprise editions provide customers with flexible options to meet their storage needs. To see which plan works best for your business, please visit our plans and pricing page.
+The business version of Drive gives you more storage, stronger support, and shared drives for your team. Learn more about the various options available on the plans and pricing page.

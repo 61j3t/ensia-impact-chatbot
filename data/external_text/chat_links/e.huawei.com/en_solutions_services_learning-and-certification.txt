@@ -1,0 +1,18 @@
+[Source: https://e.huawei.com/en/solutions/services/learning-and-certification]
+[Title: Learning and Certification Service - Huawei Enterprise]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:13:40+00:00]
+
+Learning and Certification Service
+Bridge Global Wisdom, Leading the Talent Development in an Intelligent World
+This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies. Read our privacy policy>
+Enterprise products, solutions & services
+Learning and Certification Service
+Technology makes things work. And people make technology work. Talent play a key role in digital and intelligent transformation within enterprises.
+Huawei released its training services in 1997 and has since been committed to cultivating ICT talent. With over 30 years of experience, Huawei offers comprehensive talent development solutions to global customers, which involve talent planning, talent cultivation, talent assessment, and talent operations. We aim to achieve digital and intelligent transformation across industries through giving professionals more choice of training.
+To date, Huawei's Learning & Certification Services Dept has established 31 training centers worldwide, with a dedicated team of over 1300 lecturers. We have served over 1000 industry customers, empowering more than 3.5 million individuals and certifying 1 million professionals.
+Solutions
+Huawei accumulated valuable experience in areas such as trend insight, strategic execution, and digital leadership. Huawei is willing to share the essence of its corporate culture with managers at all levels of enterprises.
+The industry digital talent training service mainly targets business talents who are responsible for planning and implementing digital and intelligent transformation solutions. They should be capable of seamlessly integrating transformative thinking and tools into practical business scenarios and explore new avenues that open thereafter.
+The ICT technical training service is designed for technical talents who are responsible for developing and maintaining digital and intelligent systems, and providing O&M support for ICT infrastructure. They should possess specialized expertise in digital and intelligent technologies such as could computing big data, AI.
+Resources

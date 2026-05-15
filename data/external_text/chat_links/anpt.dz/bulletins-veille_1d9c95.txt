@@ -1,0 +1,44 @@
+[Source: https://anpt.dz/bulletins-veille?page=5]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+L'ANPT élabore des bulletins de veille périodiques dans le domaine de la sécurité des systèmes d'information et les nouvelles technologies
+Bulletins de veille technologique
+Bulletins de veille SSI
+30-04-2022
+Bulletin de veille Avril 2022
+Des chercheurs affirment que Webex surveille le microphone même lorsqu’il est coup&eacut...
+31-03-2022
+Bulletin de veille Mars 2022
+Microsoft, Samsung et NVIDIA piratés par le group Lapsu$ ! Cliquer ici pour consulter le b...
+28-02-2022
+Bulletin de veille Février 2022
+Une nouvelle technique de phishing permettant de contourner l’authentification multifactoriell...
+31-01-2022
+Bulletin de veille Janvier 2022
+Des informations d'identification volées hébergées sur VirusTotal ! Cliq...
+30-12-2021
+Bulletin du mois de Décembre 2021
+DarkWatchman : Un nouveau malware qui se cache dans le registre de Windows distribué par le b...
+30-11-2021
+Bulletin du mois de Novembre 2021
+Une photo de l'empreinte digitale, une imprimante et de la colle sont tout ce qui est requis pou...
+31-10-2021
+Bulletin de veille Octobre 2021
+Squid Games la tendace exploitée par les cybercriminels pour tirer profit des fans...
+30-09-2021
+Bulletin de veille Septembre 2021
+Les campagnes de phishing continuent de tromper même les plus vigilants d'entre nous. C...
+31-08-2021
+Bulletin de veille Août 2021
+Microsoft corrige trois vulnerabilités Zero Day très critiques. Cliquer ici pour co...
+31-07-2021
+Bulletin de veille Juillet 2021
+Juillet 2021 : Le mois des ransomwares ! Cliquer ici pour consulter le bullein du mois de Juillet...
+30-06-2021
+Bulletin de veille Juin 2021
+Le monde de jeu vidéo en danger ! Cliquer ici pour consulter le bulletin du mois de Juin.
+01-06-2021
+Bulletin de veille Mai 2021
+Nouveauté : Consultez la rubrique sur la gouvernance du cloud : importance et él&eacut...

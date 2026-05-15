@@ -1,0 +1,31 @@
+[Source: https://anpt.dz/espace-presse]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+Accueil
+À propos de nous
+Technoparcs/Incubateurs
+Services
+Projets
+Filiales
+Produits/Startups
+Contact
+Espace Presse
+Accueil
+Espace Presse
+Articles de presse
+27 diplômés du programme SAP Young Professional
+15-09-2020
+L'ANPT désignée comme point focal national de l'African App Launchpad
+15-09-2020
+Communiqués de presse
+MadrassaNet et l'ANPT soutiennent les classes d’examen durant le Coronavirus
+20-04-2020
+eTabib.dz Téléconsultation Médicale Le Nouveau Service Développé par la Startup Ibn-Hamza
+29-03-2020
+Soutien de l’ANPT à l’égard des Startups Innovantes dans le domaine des TICs
+29-03-2020
+Deux startups de l’ANPT développent des applications pour lutter contre la propagation du virus COVID-19
+16-03-2020
+Média

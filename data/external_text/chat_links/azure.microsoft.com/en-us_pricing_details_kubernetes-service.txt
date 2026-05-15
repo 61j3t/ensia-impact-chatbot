@@ -1,0 +1,87 @@
+[Source: https://azure.microsoft.com/en-us/pricing/details/kubernetes-service]
+[Title: Pricing - Azure Kubernetes Service (AKS) | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Deploy and scale containers on managed Kubernetes
+Azure Kubernetes Service (AKS) simplifies Kubernetes operations and makes it easier to build cloud-native apps that integrate AI and open-source technology.
+Start with the Free tier (No SLA) for experimentation and development and pay only for underlying resources.
+For production workloads that require a guaranteed SLA, scalable Kubernetes control plane, and a node cluster limit up to 5,000, use Standard tier (SLA).
+Long term support can also be purchased for workloads requiring more time to migrate to a new version of Kubernetes (Premium tier).
+Looking for a more managed experience? Choose AKS Automatic to deliver production-ready clusters out of the box, with automated infrastructure operations, including upgrades, node provisioning, scaling, and network configuration, and embedded best practices.
+Explore pricing options
+-
+Pay as you go
+Pay for compute capacity by the second, with no long-term commitments or upfront payments. Increase or decrease consumption on demand.
+-
+Azure savings plan for compute
+Save money across select compute services globally by committing to spend a fixed hourly amount for 1 or 3 years, unlocking lower prices until you reach your hourly commitment. Suited for dynamic workloads while accommodating for planned or unplanned changes.
+-
+Reservations
+Receive a discount on Azure services by purchasing a reservation, which is a one-year or three-year agreement to use a specific instance of a service.
+-
+Spot
+Buy unused Azure compute capacity at deep discounts to run interruptible workloads.
+Apply filters to customize pricing options to your needs.
+Prices are estimates only and are not intended as actual price quotes. Actual pricing may vary depending on the type of agreement entered with Microsoft, date of purchase, and the currency exchange rate. Prices are calculated based on US dollars and converted using London closing spot rates that are captured in the two business days prior to the last business day of the previous month end. If the two business days prior to the end of the month fall on a bank holiday in major markets, the rate setting day is generally the day immediately preceding the two business days. This rate applies to all transactions during the upcoming month. Sign in to the Azure pricing calculator to see pricing based on your current program/offer with Microsoft. Contact an Azure sales specialist for more information on pricing or to request a price quote. See frequently asked questions about Azure pricing.
+US government entities are eligible to purchase Azure Government services from a licensing solution provider with no upfront financial commitment, or directly through a pay-as-you-go online subscription.
+Important—The price in R$ is merely a reference; this is an international transaction and the final price is subject to exchange rates and the inclusion of IOF taxes. An eNF will not be issued.
+US government entities are eligible to purchase Azure Government services from a licensing solution provider with no upfront financial commitment, or directly through a pay-as-you-go online subscription.
+Important—The price in R$ is merely a reference; this is an international transaction and the final price is subject to exchange rates and the inclusion of IOF taxes. An eNF will not be issued.
+AKS pricing tier comparison
+| Azure Kubernetes Service | |||
+|---|---|---|---|
+| Automatic | Standard | ||
+| Use cases | Production workloads |
+|
+|
+| Node management | Nodes are managed for you | You create and manage nodes in node pools | |
+| Cluster node limit | Up to 5,000 | Up to 5,000* | |
+| Service Level Agreement (SLA) options | Financially backed API server uptime SLA and pod readiness SLA |
+|
+|
+| Kubernetes versioning support | Standard support, aligned with the Kubernetes community support window |
+|
+|
+| Control plane pricing | Automatic Hosted Component: $- |
+|
+|
+| Compute pricing |
+Compute charges are based on the duration and type of virtual machines launched and managed by AKS in addition to:
+|
+Compute charges are based on the duration and type of virtual machines launched and managed by AKS. |
+*Node limit is 1,000 (but not recommended at more than 10 node scale) when operating without an SLA in Free tier.
+**AKS Long Term Support can be applied to an LTS-capable Kubernetes version to provide extended support from Microsoft for a period of 2 years. LTS is only available for Standard clusters, and clusters operating with LTS will be billed at $-.
+Learn more about the differences between Automatic and Standard.
+Pricing for nodes - only pay for what you use
+To estimate the cost of the required resources, please see the Azure Kubernetes Service calculator.
+IP address options
+Every Azure Cloud service containing one or more Azure Virtual Machines is automatically assigned a free dynamic virtual IP (VIP) address. For an additional charge, you can also get:
+- Instance-level public IP addresses—A dynamic public IP address (PIP) that is assigned to a virtual machine for direct access.
+- Reserved IP addresses—A public IP address that can be reserved and used as a VIP address.
+- Load-balanced IP addresses—Additional load-balanced VIP addresses that can be assigned to an Azure Cloud Service containing one or more Azure Virtual Machines.
+Edge deployments:
+| Instance | Timing | Price |
+|---|---|---|
+| AKS Edge Essentials | Billed Monthly | $-/device/month |
+Azure pricing and purchasing options
+Connect with us directly
+Get a walkthrough of Azure pricing. Understand pricing for your cloud solution, learn about cost optimization and request a custom proposal.
+Talk to a sales specialistSee ways to purchase
+Purchase Azure services through the Azure website, a Microsoft representative, or an Azure partner.
+Explore your optionsAdditional resources
+Azure Kubernetes Service (AKS)
+Learn more about Azure Kubernetes Service (AKS) features and capabilities.
+Pricing calculator
+Estimate your expected monthly costs for using any combination of Azure products.
+SLA
+Review the Service Level Agreement for Azure Kubernetes Service (AKS).
+Documentation
+Review technical tutorials, videos, and more Azure Kubernetes Service (AKS) resources.
+Frequently asked questions
+-
+Uptime for Azure Kubernetes Service (AKS) is highly important to Azure and we have an internal goal to keep the monthly uptime percentage above 99.5% for the Kubernetes API server on the Free plan. The Kubernetes control plane load is a function of the workloads running on the cluster and the scale of the cluster. Free tier AKS clusters are not meant to run at scale (>10 nodes) or support workloads that require high availability. Standard tier provides a financially-backed service level agreement (SLA) that guarantees a higher-Kubernetes API server SLA as listed in the Standard tier SLA section and is strongly recommended for all production and at-scale deployments.
+-
+Standard tier SLA covers the availability of the Kubernetes API server, which is the entry point for Kubernetes management operations (deploy, scale, update, etc.). Agent nodes availability (covered by the existing VM SLA) covers availability of the compute instances where applications run.
+Talk to a sales specialist for a walk-through of Azure pricing. Understand pricing for your cloud solution.
+Get free cloud services and a $200 credit to explore Azure for 30 days.

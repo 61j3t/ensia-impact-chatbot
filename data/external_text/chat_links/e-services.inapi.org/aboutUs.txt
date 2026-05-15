@@ -1,0 +1,16 @@
+[Source: https://e-services.inapi.org/aboutUs]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+Placé sous la tutelle du Ministère de l'Industrie et des Mines, l'Institut National Algérien de la Propriété Industrielle (INAPI) a été érigé en établissement public à caractère industriel et commercial (EPIC) par le Décret Exécutif n° 98-69 du 21 Février 1998 dans le cadre de la restructuration de l'INAPI mère (Institut Algérien de Normalisation et de Propriété Industriel).
+L'Algérie est membre de l'Organisation Mondiale de la Propriété Intellectuelle, ce qui implique une dimension internationale de l'activité de l'INAPI exercée dans un cadre juridique très précis constitué par une législation nationale et des engagements internationaux.
+Les perspectives de travail concernent, outre la modernisation de l'Institut, notamment par le biais des nouvelles technologies de la communication et de l'information, le développement de l'information au profit des opérateurs.
+En effet, les questions de propriété industrielle demeurent assez peu maîtrisées dans le monde économique national. De même, le système national de recherche scientifique et technique doit être plus en rapport avec l'information contenue dans la bibliothèque des brevets détenue par l'INAPI. Cette bibliothèque constitue, en effet, une piste privilégiée d'accès à l'information sur l'état de la technique.
+En renforçant son intervention sur ces six axes stratégiques, l'INAPI poursuivra son action d'agent du développement de l'économie et des entreprises algériennes, en facilitant le recours à la propriété industrielle, élément clé d'une stratégie de développement économique reposant sur l'innovation :
+- Axe 1 : Améliorer le service rendu aux utilisateurs à travers la réduction des délais de traitement des demandes.
+- Axe 2 : Faciliter l'accès à l'information via un site internet inapi.org.
+- Axe 3 : Encourager le recours à la propriété industrielle afin de favoriser la croissance par l'innovation.
+- Axe 4 : Contribuer à l'amélioration de l'environnement juridique et institutionnel.
+- Axe 5 : Être un acteur central de la lutte contre la contrefaçon.
+- Axe 6 : Poursuivre sa transformation interne, d'une culture de procédures à une culture de services.

@@ -1,0 +1,36 @@
+[Source: https://developer.nvidia.com/blog/author/briantepera]
+[Title: Author: Brian Tepera | NVIDIA Technical Blog]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:05:59+00:00]
+
+Posts by Brian Tepera
+Data Science
+Nov 10, 2025
+Training XGBoost Models with GPU-Accelerated Polars DataFrames
+One of the many strengths of the PyData ecosystem is interoperability, which enables seamlessly moving data between libraries that specialize in exploratory...
+7 MIN READ
+Data Science
+Sep 17, 2025
+NVIDIA RAPIDS 25.08 Adds New Profiler for cuML, Updates to the Polars GPU Engine, Additional Algorithm Support, and More
+The 25.08 release of RAPIDS continues to push the boundaries toward making accelerated data science more accessible and scalable with the addition of several...
+9 MIN READ
+Data Science
+Jul 03, 2025
+RAPIDS Adds GPU Polars Streaming, a Unified GNN API, and Zero-Code ML Speedups
+RAPIDS, a suite of NVIDIA CUDA-X libraries for Python data science, released version 25.06, introducing exciting new features. These include a Polars GPU...
+6 MIN READ
+Data Science
+Jun 27, 2025
+How to Work with Data Exceeding VRAM in the Polars GPU Engine
+In high-stakes fields such as quant finance, algorithmic trading, and fraud detection, data practitioners frequently need to process hundreds of gigabytes (GB)...
+4 MIN READ
+Data Science
+Mar 18, 2025
+NVIDIA cuML Brings Zero Code Change Acceleration to scikit-learn
+Scikit-learn, the most widely used ML library, is popular for processing tabular data because of its simple API, diversity of algorithms, and compatibility with...
+8 MIN READ
+Data Science
+Jan 16, 2025
+Accelerating Time Series Forecasting with RAPIDS cuML
+Time series forecasting is a powerful data science technique used to predict future values based on data points from the past Open source Python libraries like...
+4 MIN READ

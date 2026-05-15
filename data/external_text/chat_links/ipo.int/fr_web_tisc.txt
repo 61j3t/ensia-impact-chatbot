@@ -1,0 +1,46 @@
+[Source: https://www.wipo.int/fr/web/tisc]
+[Title: Centres d’appui à la technologie et à l’innovation]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:51+00:00]
+
+Centres d’appui à la technologie et à l’innovation (CATI)
+Les Centres d’appui à la technologie et à l’innovation (CATI) aident les chercheurs, les inventeurs et les entrepreneurs du monde entier à libérer leur potentiel d’innovation et à protéger leurs droits de propriété intellectuelle, à les gérer et à créer de la valeur à partir de ceux-ci.
+- Accès aux bases de données sur les brevets et aux bases de données scientifiques et techniques, et fourniture d’une assistance aux fins de l’utilisation de ces bases de données
+- Recherche et des analyses en matière de propriété intellectuelle
+- Protection de la propriété intellectuelle
+- Gestion de la propriété intellectuelle
+- Concession de licences et transfert de technologie
+- Développement de nouveaux produits
+WIPO – Intellectual Property for Enterprise Growth is on LinkedIn
+Turning Waste into Opportunity
+Des noix de coco pour le changement
+TISCs database
+TISC Service Level 1
+- IP advocacy and outreach
+- Information on IP fundamentals
+- Access to online patent and non-patent resources (scientific and technical) and other IP-related publications
+- Assistance in searching and retrieving technology information
+TISC Service Level 2
+- Training in database search
+- On-demand Specialty Searches (novelty/patentability, state-of-the-art, freedom to operate, validity/invalidity)
+- Basic information on IP laws, IP Policies, Technology Transfer and commercialization strategies, IP management
+TISC Service Level 3
+- Patent application drafting
+- Patent filing and prosecution
+- Patent Landscape Reports (PLRs)
+- Monitoring Technology Trends
+- Competitor watch
+- IP Management
+- Technology Licensing
+- University-Industry Collaboration
+Les CATI en chiffres
+Exemples d’impact des CATI
+Découvrez dans quelle mesure les TISC ont un impact significatif sur la société et améliorent la vie des innovateurs et des utilisateurs de technologies à travers le monde. Partagez avec nous vos exemples sur des CATI!
+Actualités
+Ensemble de mesures de l’OMPI face à la COVID-19
+Les capacités des Centres d’appui à la technologie et à l’innovation (CATI) et d’autres structures de transfert de technologie, en particulier dans les pays en développement, à identifier et soutenir le lancement d’innovations et d’inventions pour lutter contre les pandémies vont être renforcées :
+- Élaboration de supports pédagogiques sur les brevets et la recherche sur la technologie ainsi que la concession de licences dans les domaines prophylactique, thérapeutique, bioanalytique et bio-informatique.
+- Extension des sources de référence sur les outils spécialisés dans les domaines prophylactique, thérapeutique, bioanalytique et bio-informatique et intégration de ces sources à WIPO INSPIRE.
+- Extension envisagée de l’accès gratuit et à faible coût à des outils et contenus spécialisés dans les domaines prophylactique, thérapeutique, bioanalytique et bio-informatique via les programmes d'accès à la recherche pour le développement et l’innovation (ARDI) et d'accès à l’information spécialisée en matière de brevets (ASPI).
+De nouvelles ressources destinées à une prise de décision fondée sur des données probantes seront fournies à partir de cartographies de brevets dans les domaines vaccinal, thérapeutique, bioanalytique et bio-informatique. Les données actuelles sur les inventions dans ces domaines seront mises à disposition via des portails PATENTSCOPE dédiés.
+Des conseils sur les moyens efficaces de promouvoir l’innovation pour lutter contre les pandémies seront fournis sous forme de politiques spécialisées et d’éléments de politiques disponibles via la base de données de l’OMPI sur les politiques en matière de propriété intellectuelle pour les universités.

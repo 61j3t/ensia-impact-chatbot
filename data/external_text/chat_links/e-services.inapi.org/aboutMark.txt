@@ -1,0 +1,42 @@
+[Source: https://e-services.inapi.org/aboutMark]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+À propos
+Qu'est-ce qu'une marque ?
+Une marque est le signe servant à distinguer les noms des produits ou des services d'une entreprise de ceux de ses concurrents, Elle aide le consommateur à choisir le produit ou le service qui répond à ses besoins.
+Sont considérées comme marques:
+Les signes susceptibles d'une représentation graphique notamment les mots, y compris les noms de personnes, les lettres, les chiffres, les dessins, images ou logos, les signatures, les couleurs, les slogans ou une combinaison de ces différentes formes.
+Ne sont pas considérés comme marques et ne peuvent pas être enregistrés en tant que marques
+- Les signes servant à désigner ou à décrire le produit
+- Les signes susceptibles de tromper les consommateurs quant à la nature
+- La qualité, les caractéristiques ou l'origine du produit
+- Les signes contraires à l'ordre public ou aux bonnes moeurs
+- Les signes contenant ou imitant des signes officiels d'un état
+- Les signes qui représentent la forme du produit ou de son emballage si celle-ci est directement liée à sa nature ou sa fonction
+- Les signes constitués exclusivement ou partiellement d'une indication géographique
+Comment enregistrer et protéger une marque en Algérie ?
+Pour cela, une demande d'enregistrement doit être déposée auprès de l'INAPI.
+Procédure de dépôt de marque
+Deux types de déposants sont admis
+- Déposant domicilié sur le territoire National :Personne physique ou morale; (entreprises, associations, administrations..) domiciliée en Algérie.
+- Déposant domicilié à l'étranger:Personnes physiques ou morales domiciliées à l'étranger à condition de se faire représenter par un mandataire sélectionné parmi la liste des mandataires agréés par le Ministère en charge la Propriété Industrielle en Algérie.
+Le dossier à fournir contient
+- 03 exemplaires remplis, signés et datés du formulaire officiel (www.inapi.dz).
+- Un reçu de versement des taxes au compte de l'INAPI conformément aux barèmes des taxes parafiscales en vigueur (www.inapi.dz), (le paiement par chèque peut être effectué directement à l'INAPI).
+- Un pouvoir original, signé et daté, en cas de représentation par un mandataire, et le cas échéant un document justifiant la priorité
+- D'autres documents peuvent, toutefois, être demandés.
+Qu’es qu’il faut faire avant de s’engager à la protection de sa marque ?
+Avant de Commencer Avant d’entamer la procédure de dépôt de votre marque, il est souhaitable de s’assurer de la disponibilité du nom ou signe que vous avez choisi
+Recherche d'antériorité Il est important de rechercher les marques existantes celles dont la demande d’enregistrement est en instance. Cela vous permettra de découvrir des marques similaires ou identiques à la vôtre, et de prendre une décision. Si votre marque porte atteinte aux droits d’une autre personne physique ou morale, vous ne pourrez en aucun cas l’enregistrer.
+Comment protéger sa marque à l'International ?
+Enregistrer sa marque en Algérie confère à son propriétaire une protection sur le territoire algérien.
+Pour protéger sa marque Algérienne à l'international deux voies sont possibles:
+- La voie Nationale : qui consiste à demander directement la protection auprès de/des l'office(s) du/des pays où elle est souhaitée en constituant un mandataire.
+- La voie Internationale : Le système de Madrid, géré par deux traités — l’Arrangement de Madrid et le Protocole de Madrid - administré par l’OMPI. permet de demander la protection d’une marque dans plusieurs pays membres. Cette protection peut être sollicitée aussi bien pour une marque déjà enregistrée que pour une marque en cours de dépôt, dans les pays membres du Protocole.
+Procédure à suivre:
+La demande d'extension de la protection au(x) pays désigné(s) se fait auprès de l'INAPI moyennant le paiement d'une taxe nationale de 10000 DA par chèque ou par versement au compte de l'INAPI.
+Une simulation du montant global à payer est par la suite communiquée au demandeur.
+Si ce dernier décide de poursuivre la procédure, il exprime cela aux services de l'INAPI qui remplissent le formulaire adéquat et le transmettent à l'OMPI, accompagné de l'enregistrement ou de la demande de base (National) comportant la reproduction de la marque objet de la demande.
+La durée de la protection est de dix ans renouvelable.

@@ -1,0 +1,84 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/35]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+| PLIEUSE CNC 4AXE |
+PA214 |
+Destinee pour des operation de pliage de tole.plieuse hydraulique HFE M2
+|
+| MACHINE MMT |
+MD015 |
+machine de mesure 3D et controle de les pieces
+|
+| BRAS DE MESURE 3D |
+BR713 |
+outil de mesure et scan tridimesionel par palpage et laser
+|
+| MACHINE SLS Impression 3D |
+SS118 |
+imprimante 3D procede utilise frittage de poudre par laser (poudre en plastistique)
+|
+| STRATO CONCEPTION 3D |
+SS118 |
+strato conception est un procede de fabrication additive(prototypage rapide,outillage rapide impression 3D)
+|
+| FIL A CHAUDS 4 AXES : DECOUPE FIL PROFESSIONNEL A CHAUD 3D |
+FH518 |
+machine de decoupe par fil chauffe et vous donne la possibilite de realiser des piece 3D complexes en polysterene
+|
+| PACK STRAT CUTEN 53 |
+PP518 |
+machine de decoupe du carton et de la mousse
+|
+| IMPRIMANTE 3D CONVENTIONNELLE |
+IZ818 |
+machine d impression 3D par depot de filant plastique fondu (FDM)
+|
+| TOUR À COMMANDE NUMÉRIQUE |
+TS500 |
+c est une machine d usinage des piece a commande numerique
+|
+| FRAISEUSE A BANC FIXE A COMMANDE NUMERIQUE |
+FF100 |
+fraiseuse dite a banc fixe ou le mouvement relatif piece outil se realise sur trois axes ortogonaux (eventuellement un 4 axe tourenant horizontal et \ou vertical ) l outil etant celui qui est muni de la vitesse de rotation (vitesse de coupe)
+Du a son systeme de commande c est une machine automatique a commande numerique de detourage
+La machine doit pouvoir realiser les operations de fraisage perçage taraudage alesage
+puissance totale 16.5 kw voltage 380v frequence 50hz
+|
+| TOUR CONVENTIONNEL |
+TT070 |
+machine d usinage des pieces de revolution manuel
+|
+| PERCEUSE SYDERIC |
+PS070 |
+machine de perçage manual
+|
+| GUILOTINE |
+GD200 |
+machine de decoupage de tole
+|
+| SCIE MÉCANIQUE |
+SH216 |
+une machine de decoupe de different materieux
+|
+| FIL A CHAUDS 5 AXES : DECOUPE FIL PROFESSIONNEL A CHAUD 3D |
+FM018 |
+machine de decoupe par fil chauffe vous donne la possibilite de realiser des piece 3Dcomplexes en polysterene
+|
+| FRAISEUSE UNIVERSELLE « MORKAIKO |
+FM200 |
+elles sont des machines qui combinent ler fonctions des fraiseuses horizontalales et verticales,des machine d usinage des piece
+|
+| MACHINE D’ÉLECTROÉROSIONÀ FORME. ONA |
+MO101 |
+machine d usinage par electro erosion
+|
+| TOUR PARALLÈLE |
+TM600 |
+il s agit d un tour universelle dessine pour des travaux tels que tournage exterieur et interieur cone refrentage filetage en systeme metrique whitworth modulaire diametral Le tour fait des operations de perçage dressage et mortaisage Comme caracteristiques tres importantes on peut mentionner haute degre de precision ITG et rugosite Ra 2.5 silencieux tres grande puissance rigidite et facile a manouvre
+|
+| TOUR PM |
+TC70 |
+elle est une machine outil sur le quel on peux fixer une piece que l on veux faire tourner sur elle meme selon un axe donne pour la travailler (machine de tournage de piece revolution )
+|

@@ -1,0 +1,33 @@
+[Source: https://azure.microsoft.com/en-us/products/ai-services/ai-translator]
+[Title: Azure Translator in Foundry Tools | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Break language barriers with Azure Translator
+- Accurately detect the source language, then translate text and documents across your enterprise and agentic apps using a single API.
+- Try the new flexible translation powered by neural machine translation (NMT) and foundation models like GPT-4o for tone, gender, and style customization.
+- Reflect domain-specific terminology in your translations. Define how terms are translated based on previously translated documents, and build customized translation models without machine learning expertise.
+- Build your solutions using a production-ready translation engine that powers translations across Microsoft products such as Word, Outlook, PowerPoint, Teams, Edge browser, and Visual Studio. Seamlessly scale up or down based on your translation needs.
+Explore what’s possible with Azure Translator
+Broad language coverage
+Customizable translations
+Production-ready
+Built-in security
+Embedded security and compliance
+Full-time equivalent engineers dedicated to security initiatives at Microsoft.
+Partners with specialized security expertise.
+Compliance certifications, including over 50 specific to global regions and countries.
+Get the power, control, and customization you need with flexible pricing
+Azure products work better together
+See what companies are achieving with Azure Translator
+Frequently asked questions
+-
+Azure Translator, part of the Foundry Tools suite (formerly Azure AI services and Azure Cognitive Services), is a production-grade translation service that enables real-time and batch translation across more than 100 languages. It helps developers and enterprises break language barriers by embedding translation into applications, websites, and agentic workflows using a simple REST API.
+As a Foundry Tool, Translator integrates seamlessly with your agentic AI apps and workflows, allowing you to build multilingual experiences that are scalable, secure, and customizable. Foundry Tools are designed to empower AI agents with core skills like understanding, communicating, and translating, all within a unified development platform.
+Whether you're localizing content, enabling multilingual chatbots, or translating documents, Azure Translator in Foundry Tools delivers fast, accurate results with enterprise-grade reliability.
+-
+Azure AI Translator, formerly part of Azure AI services, is now Azure Translator in Foundry Tools. This change is part of a broader platform unification under Foundry, reflecting how developers increasingly use these services as modular tools to build intelligent, agentic applications.
+Azure Translator offers the same trusted capabilities, like real-time and batch translation across 100+ languages, language detection, bilingual dictionaries, and script conversion. In addition, Translator is now a core tool within our unified agent-building Foundry platform and allows you to choose your preferred LLMs.
+This shift makes it easier for developers to discover, orchestrate, and integrate translation into modern AI workflows—whether you're building multilingual chatbots, localizing content, or enabling global collaboration.
+- Azure Translator in Foundry Tools uses a flexible, consumption-based pricing model, with a free tier for light usage and scalable options for enterprise needs. For full details, please visit the Azure Translator pricing page.
+- You can explore documentation to learn the basics of Azure Translator, or jump right in with a quickstart to start using Azure Translator for your use case: text translation, document translation, or custom translation.

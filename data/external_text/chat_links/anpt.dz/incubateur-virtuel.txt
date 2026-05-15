@@ -1,0 +1,25 @@
+[Source: https://anpt.dz/incubateur-virtuel]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+Programme VIP -Virtual Incubation Program-
+Dans le but d’accompagné les startups dans les secteurs technologiques et numériques
+ainsi que les porteurs de projets innovants, l’ANPT a lancé un nouveau modèle de
+programme d’incubation intitulé “VIP” (Virtuel Incubation Program).
+Le programme d’accompagnement ‘VIP’ permettra aux futurs entrepreneurs innovateurs,
+quel que soit leur emplacement géographique dans le pays, de bénéficier gratuitement
+d’ateliers et de formations en ligne, d’événements en ligne, ainsi que des séances
+d’accompagnement, coaching et networking virtuels, encadrés par des experts
+nationaux et internationaux.
+Le programme ‘VIP’ s’appuie sur une panoplie de plateformes numériques développées
+par l’ANPT, tel que ANPT Meet pour les rencontres en ligne, et ANPT Learn pour le
+e-learning et le e-training, avec sa bibliothèque numérique et ses formations en
+mode MOOC.
+Le programme ‘VIP’ est gratuit, et 100% en ligne à commencer de l’inscription sur
+anpt.dz, en passant par la sélection des participants et leur
+accompagnement.
+A travers le programme ‘VIP’, l’ANPT entent donner la chance à tous les porteurs de
+projets et Startup technologiques et innovants, de bénéficier gratuitement d’un
+accompagnement de qualité afin de concrétiser leurs projets, grâce au travail de son
+équipe d’incubation, aidée par des experts nationaux et internationaux.

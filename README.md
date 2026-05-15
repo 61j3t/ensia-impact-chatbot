@@ -15,7 +15,8 @@ ensia-impact-chatbot/
 │   ├── 03_merge_ocr.py                ← Merge OCR back into chat messages
 │   ├── 04_scrape_ensia_website.py     ← Pull every page/post from ensia.edu.dz (EN/AR/FR) via WP REST API
 │   ├── 05_scrape_v2v_website.py       ← Render v2v.ensia.edu.dz with Playwright/Chromium (JS-rendered SPA)
-│   └── run_pipeline.sh                ← One command: runs 01→02→03→04→05 + retrieval index build
+│   ├── 06_fetch_chat_links.py         ← Crawl URLs shared in chat: httpx + Playwright fallback, BFS up to 30 pages/host
+│   └── run_pipeline.sh                ← One command: runs 01→02→03→04→05→06 + retrieval index build
 ├── docs/
 │   └── architecture.md         ← Retrieval system architecture plan
 ├── chatbot/
@@ -49,7 +50,7 @@ ensia-impact-chatbot/
     ├── extracted_text/         ← Output of 01: PDF text + _summary.json
     ├── ocr_text/               ← Output of 02: photos.json + scanned PDFs
     ├── messages_enriched.json  ← Output of 03: chat with OCR merged
-    └── external_text/          ← Output of 04+05: scraped pages from ensia.edu.dz + v2v.ensia.edu.dz
+    └── external_text/          ← Scraped pages (04 ensia.edu.dz, 05 v2v.ensia.edu.dz, 06 chat-shared links)
 ```
 
 ## Setup

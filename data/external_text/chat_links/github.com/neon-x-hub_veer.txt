@@ -1,0 +1,332 @@
+[Source: https://github.com/neon-x-hub/veer]
+[Title: GitHub - neon-x-hub/veer: lightweight, decentralized load-balancing and service-coordination layer for HTTP servers. · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+| Package | Version | License | Downloads |
+|---|---|---|---|
+| @veerjs/server | |||
+| @veerjs/client | |||
+| @veerjs/react |
+Veer is a lightweight, decentralized load-balancing and service-coordination layer for HTTP servers. It provides adaptive client-side routing based on real-time server health and performance metrics, propagated through a fast gossip protocol. Veer works alongside existing frameworks without taking control of routing or server logic: you attach Veer middleware where you need it, and it handles the rest.
+Veer is split into three parts:
+- @veerjs/server — a small Node.js library that monitors server performance, participates in the gossip protocol, and attaches recommendation headers to outgoing responses.
+- @veerjs/client — a minimal JavaScript client that parses the recommendation headers and uses weighted-random selection to choose the optimal server for future requests.
+- @veerjs/react — a React hook built on top of the client, providing application-level request routing with automatic reactivity and fallback behavior.
+Veer is designed to keep applications responsive in distributed environments, reduce load concentration, and enable seamless multi-server setups without requiring proxies or central coordinators.
+- Motivation
+- Features
+- Overview
+- Conceptual Overview
+- Installation
+- Example Use
+- Configuration Reference
+- Client Design Patterns
+- License
+Modern distributed applications often rely on multiple backend nodes for resilience and scalability. However, routing traffic across nodes efficiently while gracefully detecting failures and adapting to cluster changes remains non-trivial.
+Existing solutions (service meshes, service registries, proxy-based load balancers, etc.) introduce significant operational overhead, rely on centralized components, or impose strict architectural patterns.
+Veer was designed to offer an alternative: a lightweight, decentralized, gossip-driven routing coordination layer that can be embedded directly into any Node.js backend or frontend client without infrastructure dependencies.
+Veer exposes a simple interface: servers periodically exchange “health/score” metadata via a gossip protocol, and clients receive lightweight routing recommendations through normal HTTP responses. No reverse proxies, no service registries, no agents, no global coordinator.
+The result is a minimal friction approach to adaptive routing.
+Each Veer-enabled server exchanges compact signed status messages with its peers. No leader election, no central coordination, and no additional infrastructure.
+The Veer client consumes routing hints (X-Veer-Recommend
+header) and updates server weights locally, always favoring healthier nodes.
+If a server receives a valid gossip packet signed with the shared secret, it automatically registers the previously unknown node into its pool.
+Nodes that stop responding naturally degrade in score and are deprioritized by both servers and clients without explicit removal or manual intervention.
+All gossip messages are signed using a shared secret to prevent false score to spread from unauthorised parties.
+Veer does not take over your HTTP framework. It simply provides middleware and handlers you can attach wherever appropriate.
+With @veerjs/client
+and the upcoming @veerjs/react
+, clients (web, mobile, desktop) can participate in the routing loop and dynamically select the optimal backend.
+Veer is built around a simple idea: push load-balancing logic to the edges, not the servers. Instead of maintaining a centralized balancer or depending on a heavy consensus system, Veer lets servers coordinate through gossip and lets clients route requests using real-time server weights.
+The system is composed of three cooperating layers:
+- Veer Server – runs inside each backend instance
+- Veer Gossip Layer – keeps all servers aware of each other
+- Veer Client – performs smart, weight-based request routing
+- Veer React Hook – automatically integrates Veer routing inside React apps
+Each backend instance initializes a Veer Context, which contains:
+- A server ID (which is basically the url of this veer instance)
+- A pool of all known nodes and their latest scores
+This context is the “source of truth” for evaluating the health and weight of each node.
+Every refreshInterval
+, each node:
+- Selects a subset of peers that their scores expired
+- Sends them its gossip payload (current weight, timestamp, signature, etc.)
+- Receives their payloads and merges/update its pool
+- Automatically discovers new nodes if they appear
+- Automatically forgets or de-weights failing nodes
+Gossip ensures eventual consistency without consensus or leader election.
+Each node calculates a score based on:
+- Event loop lag
+- CPU pressure
+- Memory condition
+- Custom metrics (future extension)
+This score is normalized and pushed to peers.
+A higher score = more capacity, which means the client is more likely to route traffic there.
+When the user attaches Veer’s vhandler
+middleware, each outgoing response receives:
+X-Veer-Recommend: http://n1;w=0.33, http://n2;w=0.29, ...
+This recommendation list is weighted and updated dynamically.
+This moves the load-balancing intelligence to the client side, so the client can choose a server he wants to request from next time.
+The client library maintains:
+- A local server list
+- A weight table
+- A random weighted selection algorithm
+Whenever the client receives an X-Veer-Recommend
+header:
+- The server list updates
+- Weights are recalculated
+- Missing nodes are added
+- Dead nodes fade out
+The next request automatically uses the best-weighted server.
+The Veer React hook:
+- Provides
+useVeer()
+- Offers a
+vfetch()
+wrapper - Auto-updates when weights change
+- Exposes diagnostics for UI indicators (optional)
+This makes Veer routing native in frontend applications.
+No leader, no consensus, no point of failure.
+Gossip propagation ensures all nodes converge over time.
+Clients pick the best server dynamically.
+Nodes joining/leaving is tolerated naturally.
+Servers with stronger performance get proportionally more traffic.
+You can install the Veer packages using npm
+:
+# Install the server package
+npm install @veerjs/server
+# Install the client package
+npm install @veerjs/client
+# Install the React hook package
+npm install @veerjs/react
+Or install all three at once:
+npm install @veerjs/server @veerjs/client @veerjs/react
+Veer works with Node.js v16+ and React v18+.
+Below is a minimal end-to-end demonstration of Veer Server, Veer Client, and the optional React Hook.
+const http = require("http");
+const express = require("express");
+const veer = require("@veerjs/server");
+const app = express();
+const server = http.createServer(app);
+const veerConfig = { ... }; // <--- you will insert the real config here
+const v = new veer(veerConfig);
+const { vmw, vhandler } = v.hooks();
+app.use(vhandler); // attach response header middleware
+app.get("/.veer/score", vmw); // score endpoint
+app.get("/", (req, res) => {
+res.json({ ok: true, msg: "Hello from Veer!" });
+});
+server.listen(5001, () => console.log("Veer demo server on 5001"));
+I will explain in the next section all the params of the config object, don't worry.
+import { VeerClient } from "@veerjs/client";
+const client = new VeerClient({
+servers: [ // The initial servers
+"http://127.0.0.1:5000",
+"http://127.0.0.1:5001",
+"http://127.0.0.1:5002"
+]
+});
+// simple usage
+(async () => {
+const res = await client.vfetch("/");
+const data = await res.json();
+console.log("Response:", data);
+})();
+The client automatically:
+- chooses a server by its weight
+- performs the request
+- reads the X-Veer-Recommend header
+- updates its local routing weights in real-time
+- The client will adapt naturally to node that emerges, without prior configuration.
+- The client uses a randomised but weighted selection algorithm, servers with lower weight may be chosen, it's just they are less likely to be so. This mitigates swarms on one server at a time by different clients.
+Below is a minimal example showing how to use @veerjs/client
+inside a React app.
+The integration consists of two parts:
+Create a provider at the root of your application. It exposes:
+weightedServers
+: sorted list of servers by weightgetTopServer()
+: returns the current best servervfetch()
+: Veer-awarefetch
+with automatic header parsing + weight updates
+// App.jsx
+import React from "react";
+import { VeerProvider } from "@veerjs/react";
+export default function App() {
+return (
+<VeerProvider servers={[
+"http://127.0.0.1:5000",
+"http://127.0.0.1:5001",
+"http://127.0.0.1:5002"
+]}>
+<HomePage />
+</VeerProvider>
+);
+}
+Inside any component, you can:
+- read server weights
+- fetch through
+vfetch()
+- display which server is currently optimal
+// HomePage.jsx
+import React, { useState } from "react";
+import { useVeer } from "@veerjs/react";
+export default function HomePage() {
+const { weightedServers, getTopServer, vfetch } = useVeer();
+const [data, setData] = useState(null);
+const load = async () => {
+const res = await vfetch("/"); // auto-selects best server!
+setData(await res.json());
+};
+return (
+<div style={{ padding: 20 }}>
+<h1>Veer React Demo</h1>
+<p>
+<strong>Current best server:</strong><br />
+{getTopServer() ? getTopServer().url : "Loading..."}
+</p>
+<p>
+<strong>Full weight table:</strong>
+</p>
+<pre>{JSON.stringify(weightedServers, null, 2)}</pre>
+<button onClick={load}>Fetch From Cluster</button>
+{data && (
+<pre style={{ marginTop: 10 }}>
+{JSON.stringify(data, null, 2)}
+</pre>
+)}
+</div>
+);
+}
+This section explains all the configuration options used when instantiating a veer
+server or client.
+const v = new veer({
+servers: {
+list: [ // can include self
+`http://localhost:5000`,
+`http://localhost:5001`,
+`http://localhost:5002`
+]
+},
+gossip: { // Gossiping mechanism configuration
+endpoint: "/.veer/score", // Endpoint on each server to fetch scores from
+me: `http://localhost:${port}`, // URL of this server
+maxElements: 20, // Max number of server entries to request from remote
+maxRecoms: 5, // Max number of server entries to be sent in the header
+jitter: 100, // Random delay (ms) added to requests to avoid spikes
+},
+security: { // Security configuration for signing gossip requests
+secret: process.env.VEER_SECRET, // Shared secret used for HMAC signatures
+window: 60000, // Validity window (ms) for timestamps to prevent replay attacks
+},
+metrics: { // Metrics collection configuration
+server: server, // Node.js HTTP/S server instance
+refresh: 2000, // How often (ms) metrics are collected
+exp: 6000, // Expiration (ms) of metrics for freshness
+},
+model: { // Server scoring model configuration
+type: "ewma", // Type of model to compute server scores (currently supports EWMA)
+config: { alpha: 0.3 }, // Model-specific options (alpha controls smoothing factor for EWMA)
+},
+});
+| Section | Field | Type | Description |
+|---|---|---|---|
+servers |
+list |
+Array<string> |
+URLs of all known servers in the cluster (including self if desired). |
+gossip |
+endpoint |
+string |
+API path used to fetch scores from other servers. |
+me |
+string |
+This server's URL, used for gossip requests and identity. | |
+maxElements |
+number |
+Maximum number of server entries to fetch from a remote server. | |
+maxRecoms |
+number |
+Maximum number of server recommendations to send in gossip headers. | |
+jitter |
+number |
+Random delay (ms) applied to outgoing gossip requests to reduce synchronized spikes. | |
+security |
+secret |
+string |
+Shared secret used to generate/verify HMAC signatures for authenticated gossip communication. |
+window |
+number |
+Maximum allowed timestamp age (ms) to prevent replay attacks. | |
+metrics |
+server |
+http.Server |
+Node.js HTTP/S server instance to monitor for metrics. |
+refresh |
+number |
+How often (ms) metrics are collected. | |
+exp |
+number |
+Expiration time (ms) after which metrics are considered stale. | |
+model |
+type |
+string |
+Scoring model type; currently supports "ewma" . |
+config |
+object |
+Model-specific configuration options (e.g., alpha for EWMA smoothing factor). |
+vfetch()
+is designed to be as lightweight as possible. While it handles weighted server selection, it doesn’t automatically refresh or retry. For larger clusters or more resilient apps, it can be beneficial to implement some of the usage patterns below. These are currently opt-in and allow you to handle dynamic server pools, failures, and load distribution more effectively.
+Veer client maintains its pool of weighted servers, but it doesn’t automatically poll for updates. You can implement a refresh loop in your app to fetch the latest weights:
+import VeerClient from "@veerjs/client";
+const client = new VeerClient({ servers: ["http://localhost:5000", "http://localhost:5001"] });
+async function refreshLoop(interval = 5000) {
+while (true) {
+try {
+// Call any lightweight endpoint to trigger pool update
+await client.vfetch("/some-endpoint");
+} catch (err) {
+console.error("Veer refresh failed:", err);
+}
+await new Promise(r => setTimeout(r, interval));
+}
+}
+// Start background refresh
+refreshLoop();
+Notes / Best Practices:
+- Use small intervals (e.g., 5–10s) for small clusters, longer for large clusters to reduce load.
+- Use a try/catch to handle temporarily unreachable servers.
+- This ensures the client pool is always fresh, especially if some servers were added dynamically.
+When making requests via vfetch
+, it’s possible a top-weight server is down. Implement a retry or fallback strategy:
+async function fetchWithFallback(path, options = {}) {
+const servers = client.weightedServers;
+for (const s of servers) {
+try {
+return await client.vfetch(path, { ...options, baseURL: s.url });
+} catch {
+continue; // try next server
+}
+}
+throw new Error("All servers unreachable");
+}
+- This makes your app tolerant to failing nodes.
+- Useful in larger clusters where failures are inevitable.
+Veer client emits events on pool updates (like "poolUpdated"
+in React hook).
+You can subscribe to updates instead of polling:
+client.on("poolUpdated", (weights) => {
+console.log("New weighted server list:", weights);
+});
+- Good for UI updates in real-time dashboards.
+- Avoids constant polling if your app can react to events.
+Veer is still evolving, and there are several exciting directions planned for the near future:
+- Multi-Regional Clusters: Introduce local cluster summaries and regional representatives to optimize gossip and scoring across geographies!
+- Custom Weight Maps: Allow fine-grained control over how each metric contributes to the server score.
+- Pluggable Math Models: Support alternative scoring models beyond EWMA for more robust or specialized use cases.
+- Optimizations for Large Clusters: Reduce network traffic, smarter freshness policies, and adaptive gossip strategies.
+- Enhanced Client Patterns: Built-in support for client-side refreshing, retries, and dynamic server pool adjustments.
+If you’re interested in contributing, you are more than welcome to open a pull request. Contributions of any kind (code, bug fixes, or documentation updates) are highly appreciated and will be reviewed carefully.
+Veer is released under the MIT License. You are free to use, modify, and distribute it in your projects.
+Thank you for exploring Veer!
+Your feedback, contributions, and experiments help make it better. Happy building with decentralized server scoring!

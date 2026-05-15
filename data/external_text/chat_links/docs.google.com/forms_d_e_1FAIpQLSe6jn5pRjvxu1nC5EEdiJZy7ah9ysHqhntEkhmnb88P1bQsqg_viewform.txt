@@ -1,0 +1,8 @@
+[Source: https://docs.google.com/forms/d/e/1FAIpQLSe6jn5pRjvxu1nC5EEdiJZy7ah9ysHqhntEkhmnb88P1bQsqg/viewform]
+[Title: ResearchCollab Survey: Help Us Build the Future of Student Research!]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:07:06+00:00]
+
+We're working on a platform called ResearchCollab to make it easier for university students to discover, join, and grow in research projects, especially those who are interested but don’t know where to start.
+This short survey will help us understand your experience, challenges, and expectations around research, mentorship, and collaboration. Your answers will guide us in building a useful and inclusive tool for our school, and hopefully beyond!
+Your responses are anonymous and used only for project development.

@@ -1,0 +1,31 @@
+[Source: https://monday.com/features/dashboards]
+[Title: monday.com | Dashboards & Reporting]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:26+00:00]
+
+AI platform
+The platform
+Products
+PLATFORM capabilities
+AI agents
+Flexible workspace
+Connectivity & tools
+AI work capabilities
+AI resources
+Solutions
+Industries
+Business applications
+Industries
+Resources
+Turn work data into real-time clarity and shorten the path from signal to action.
+Real-time dashboards and reports, AI-generated summaries, and contextual alerts surface what you need to know, when you need it.
+Transform data into live, customizable dashboards that bring clarity and guide decisions.
+Stay ahead with AI-driven insights and alerts that eliminate blind spots.
+Give leadership instant clarity on progress and priorities with key insights and AI generated summaries.
+Orchestrate complex processes across teams, tools and products
+Always-on visibility into performance, progress, and resource utilization. Instantly exportable and customizable for any audience.
+See your data exactly how you need it by easily customizing dashboards and reports from high-level overviews to detailed team graphics.
+Consolidate work data from across teams, tools, and products — creating a single source of truth your entire organization can trust.
+AI-powered summaries, portfolio reports, and risk alerts help leaders act before issues escalate, turning data into direction.
+Stay informed with scheduled reports and live dashboards that adapt as your work evolves.
+With monday sidekick and activity insights, anyone can request data in plain language.

@@ -1,0 +1,11 @@
+[Source: https://www.iie.org/services/scholarships-and-fellowships]
+[Title: Scholarships and Fellowships | IIE]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:21:07+00:00]
+
+Scholarships and Fellowships
+Established in 1919 with the founding premise that international exchange could make the world a more interconnected place, IIE has specialized in the international exchange of people and ideas. Global scholarships are of paramount importance and we manage many of the world’s most prestigious ones. Through a wide variety of educational programs sponsored by the U.S. government, corporations, foundations and foreign governments, we annually work with thousands of U.S. and international educational institutions and more than 29,000 students, scholars, and professionals around the globe.
+Inspire Intellectual & Professional Growth
+We prepare students and professionals to thrive in our global society. From our experience managing the world’s most prestigious fellowship and exchange programs, we know how to inspire intellectual and professional growth, and bring academics from different disciplines together so that knowledge and human expression thrive across borders.
+Increase Participation in STEM Education
+In today’s interconnected world, taking Science, Technology, Engineering and Mathematics (STEM) global is more important than ever. Through programs like the ExxonMobil Scholars, IIE leverages our near century of experience in the international exchange of people and ideas to meet 21st century demands for STEM students and professionals.

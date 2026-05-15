@@ -1,0 +1,108 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/23]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+| Centre d'usinage 5 axes |
+PFT1 |
+Le centre d’usinage C400 Hermle (Origine Allemagne) est un centre d'usinage dynamique d'entrée de gamme conçu pour l'usinage sur 5 axes/5 faces, avec un volume de travail 850x 700x 500 mm3. De nombreuses fonctionnalités permettent une fabrication de pièces extrêmement précise et rentable. Le centre d'usinage 5 axes est une machine-outil de pointe utilisée dans l'industrie manufacturière pour réaliser des opérations d'usinage complexes. Contrairement aux centres d'usinage traditionnels à 3 axes, cette technologie offre une liberté de mouvement accrue grâce à deux axes rotatifs supplémentaires, permettant ainsi de réaliser des opérations sur cinq faces différentes d'une pièce sans avoir à la repositionner.
+|
+| Machine de découpe à jet d'eau |
+PFT2 |
+|
+| Fraiseuse universelle |
+PFT3 |
+Fraiseuse universelle Marque Knuth, origine : Allemagne)
+La fraiseuse universelle est une machine-outil polyvalente utilisée pour réaliser une vaste gamme d'opérations d'usinage.
+|
+| Tour conventionnel |
+PFT4 |
+Tour conventionnel à barre de chariotage et filetage (Marque Knuth, origine : Allemagne)
+|
+| Machine de découpe jet d'eau |
+PFT5 |
+Machine de découpe jet d'eau avec table de découpe 2000x1000 mm. Épaisseur de découpe jusqu'à 200 mm (Marque PTV, origine : République Tchèque).
+|
+| Machine de découpe laser CNC |
+PFT6 |
+Machine de découpe laser CNC (Marque SEI Laser, origine : Italie) épaisseur jusqu’à 6 mm. Surface de travail 1200X800; Source Laser Fibre 1000 Watts; Précision de découpe ± 40μ
+|
+| Machine numérique de découpe à jet d’eau pour matériaux tendres |
+PFT7 |
+Machine numérique de découpe à jet d’eau pour matériaux tendres (aluminium, bois, polyamide, fibre de verre…) (Marque AMAX, origine : France). Surface de travail 30x30 cm
+|
+| Presse-plieuse hydraulique à commande numérique |
+PFT8 |
+Presse-plieuse hydraulique à commande numérique (Marque Jouanel, origine : France). Epaisseur de pliage 6mm pour les tôles en acier
+|
+| Cisaille guillotine hydraulique |
+PFT9 |
+Cisaille guillotine hydraulique (Marque Jouanel, origine : France)
+|
+| Plieuse manuelle |
+PFT10 |
+Plieuse manuelle (Marque Jouanel, origine : France)
+|
+| Encocheuse à angle variable formes |
+PFT11 |
+Encocheuse à angle variable formes (Marque AMADA, origine : Japon)
+|
+| Rouleuse de tôles électrique |
+PFT12 |
+Rouleuse de tôles électrique (Marque Knuth, origine : Allemagne)
+|
+| Cintreuse manuelle de profilé à galets |
+PFT13 |
+Cintreuse manuelle de profilé à galets (3 galets) (Marque Bailegh, origine : France)
+|
+| Robot de soudage laser |
+PFT14 |
+Le soudage au laser est un procédé d’assemblage utilisant un rayon laser focalisé qui est utilisé dans de nombreuses industries en raison de sa grande précision. La production d’énergie pour le soudage est alors assurée par un laser de haute puissance. La puissance du laser y est focalisée sur une petit foyer à l’aide d’un système optique. La haute densité d’énergie qui en résulte permet de faire fondre la pièce et de souder les composants. Ce procédé convient aux matériaux et aux pièces qui doivent être soudés à grande vitesse avec un cordon de soudure mince et une faible déformation thermique. Le soudage au laser est donc utilisé pour des applications de haute précision dans les secteurs les plus divers.
+|
+| Le portique d'essais sur mur |
+PFT15 |
+Le portique sert à effectuer des essais de compression suivant deux axes sur des échantillons de murs
+|
+| Rectifieuse automatique pour éprouvettes cylindriques |
+PFT16 |
+Rectifieuse automatique pour éprouvettes cylindriques (Marque 3R, France)
+|
+| Installation combinée servo-hydraulique |
+PFT17 |
+Installation combinée servo-hydraulique composée de deux bâtis d'essai
+|
+| Appareil à ultrasons |
+PFT18 |
+Appareil à ultrasons pour le contrôle non destructif du béton selon EN 12504-4
+|
+| Pachomètre à béton |
+PFT19 |
+|
+| Aéromètre à béton |
+PFT20 |
+Aéromètre à béton 8L selon EN 12350-7
+|
+| Bac complet de conservation thermostaté |
+PFT21 |
+Bac complet de conservation thermostaté de capacité 550 L
+|
+| Perméamètre |
+PFT22 |
+Perméamètre pour la mesure non destructive de la perméabilité à l’air du béton
+|
+| Machine de mesure tridimensionnelle |
+PFT23 |
+Machine de mesure tridimensionnelle optique (Marque Hexagon, origine : France)
+|
+| Bras de mesure 3D |
+PFT24 |
+Bras de mesure 3D portable 6 axes avec probing et scanning laser (Marque Hexagon, origine : France)
+|
+| granulomètre laser |
+PFT25 |
+La granulométrie laser est une technique basée sur la diffraction de la lumière, elle permet la mesure de la taille des particules, ou plus exactement de leurs rayons. La granulométrie laser permet la mesure de tailles comprises entre 0,05 et 900 µm, ce qui est bien plus précis qu'avec la technique par tamis. Elle convient donc particulièrement aux suspensions de polymères, à tout type de poudre (minérale ou non).
+|
+| Spectromètre à Micro fluorescence X compact |
+PFT26 |
+Spectromètre à Micro fluorescence X compact : La spectrométrie de fluorescence de micro-rayons X (Micro-XRF) est la méthode de choix pour l’analyse élémentaire d’échantillons non homogènes ou de forme irrégulière ainsi que de petits échantillons.
+|

@@ -1,0 +1,10 @@
+[Source: https://internships.ensia.edu.dz/recruitment/propose]
+[Title: Plateforme des Stages]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:21+00:00]
+
+Comment ça fonctionne:
+Soumettez votre offre ci-dessous. Notre équipe administrative l'examinera dans les prochains jours ouvrables. Une fois approuvée, votre offre sera visible par tous les étudiants. Vous recevrez un lien de suivi unique par e-mail pour surveiller les candidatures et gérer les candidats.
+Informations sur l'entreprise et le contact
+Vous avez déjà soumis une offre et perdu votre lien de suivi ?
+Récupérez-le ici.

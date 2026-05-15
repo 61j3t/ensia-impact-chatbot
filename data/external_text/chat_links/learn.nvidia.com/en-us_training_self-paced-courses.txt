@@ -1,0 +1,22 @@
+[Source: https://learn.nvidia.com/en-us/training/self-paced-courses]
+[Title: Self-Paced Training and Courses | NVIDIA]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:24:26+00:00]
+
+Learn anytime, anywhere, with just a computer and an internet connection.
+Whether you’re an individual looking for self-paced training or an organization wanting to bring new skills to your workforce, training from NVIDIA can help. Learn how to set up an end-to-end project in eight hours or how to apply a specific technology or development technique in two hours—anytime, anywhere, with just your computer and an internet connection. Select courses offer a certificate of competency to support career growth.
+Visit the NVIDIA Academy and advance your skills in networking and compute technologies for AI and HPC deployments. Developed and delivered by industry professionals, these courses cover everything, including NVIDIA DGX system management, NVIDIA AI Enterprise administration, Spectrum-X deployment, and best practices for AI infrastructure and operations. With both self-paced and instructor-led training, NVIDIA Academy provides hands-on experience and practical knowledge to help IT professionals, system administrators, and engineers deploy and manage NVIDIA-powered solutions efficiently.
+Many of our popular self-paced courses are offered for free. These courses have top ratings, can be completed in a day or less, and are designed for beginners, making them a great way to get started with new technologies before moving on to our more advanced courses.
+Learn from a team of technical industry experts who are passionate about developing curriculum around the latest technology trends.
+Gain hands-on experience with the most widely used, industry-standard software, tools, and frameworks.
+Learn to build deep learning, accelerated computing, and accelerated data science applications for industries, such as healthcare, robotics, manufacturing, and more.
+Build production-quality solutions with the same DLI base environment containers used in the courses, available from the NVIDIA NGC™ catalog.
+Earn an NVIDIA Deep Learning Institute certificate in select courses to demonstrate subject matter competency and support professional career growth.
+Gain real-world expertise through content designed by NVIDIA and industry experts.
+Access fully configured, GPU-accelerated servers in the cloud to complete hands-on exercises included in the training.
+Want live direct access to DLI-certified instructors? Instructor-led workshops are taught by experts, delivering industry-leading technical knowledge to drive breakthrough results for your organization.
+Request a tailored training package designed to meet your organization’s unique goals and learning needs. We’ll work with you to build customized training and certification paths to enhance your team’s skills in key areas of AI, data science, accelerated computing, and more.
+NVIDIA offers training and certification for professionals looking to enhance their skills and knowledge in the fields of AI, accelerated computing, data science, advanced networking, graphics, simulation, and more.
+Contact us to learn how we can help you achieve your goals.
+Get training news, announcements, and more from NVIDIA, including the latest information on new self-paced courses, instructor-led workshops, free training, discounts, and more. You can unsubscribe at any time.
+Browse FAQs about the NVIDIA Deep Learning Institute courses and explore how the DLI supports professional career growth.

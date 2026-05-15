@@ -1,0 +1,19 @@
+[Source: https://github.com/MarouaBouderka]
+[Title: MarouaBouderka · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+Ai & Data science final year student.
+-
+National higher school of artificial intelligence
+- Algeria
+Highlights
+- Pro
+Pinned Loading
+-
+larbi1512/WLAN-Intrusion-Detection-with-AI-
+larbi1512/WLAN-Intrusion-Detection-with-AI- Publicthis project enhances wlan security using ML models capable of detecting wireless networks attacks
+Jupyter Notebook 8
+Something went wrong, please refresh the page to try again.
+If the problem persists, check the GitHub status page or contact support.
+If the problem persists, check the GitHub status page or contact support.

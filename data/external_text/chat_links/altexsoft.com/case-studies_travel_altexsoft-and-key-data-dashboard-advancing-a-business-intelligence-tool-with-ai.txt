@@ -1,0 +1,11 @@
+[Source: https://www.altexsoft.com/case-studies/travel/altexsoft-and-key-data-dashboard-advancing-a-business-intelligence-tool-with-ai]
+[Title: AltexSoft and Key Data Dashboard: Advancing a Business Intel]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:56+00:00]
+
+Key Data Dashboard is a US-based business intelligence company that provides performance data insights for small- and medium-size vacation rentals. Its goal is to collect, analyze, and visualize the data from property management systems (PMSs) by locations and provide tourism and destination marketing organizations (DMOs) with the best, most up-to-date information about their main KPIs. The client works in partnership with over 700 property management systems, tourism groups, and DMOs in the US.
+Key Data Dashboard reached out to AltexSoft to enhance their tool with several AI-driven features. These features are aimed at more precisely analyzing key hospitality KPIs like Occupancy Rate, WAPE, Average Daily Rate, etc.
+The project’s scope was 10 man-months. It was completed by one Data Scientist.
+The technology stack of the project included Python, Keras, and TensorFlow 2.1 (for the algorithms), Flask microservices, and Databricks schedulers. The machine learning approaches included unsupervised training, content-based filtering algorithm, k-nearest neighbors algorithm, and CNN-based time-series model.
+The cooperation between the client and AltexSoft is ongoing.
+Services provided within the project framework: Data Science and Machine Learning Consulting.

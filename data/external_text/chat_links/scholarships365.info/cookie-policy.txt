@@ -1,0 +1,9 @@
+[Source: https://scholarships365.info/cookie-policy]
+[Title: Cookie Policy - Scholarships365.info]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:33:09+00:00]
+
+Cookie Policy for www.scholarships365.info Network
+This site uses cookies – small text files that are placed on your machine to help the site provide a better user experience. In general, cookies are used to retain user preferences, store information for things like shopping carts, and provide anonymized tracking data to third party applications like Google Analytics.
+As a rule, cookies will make your browsing experience better. However, you may prefer to disable cookies on this site and on others.
+The most effective way to do this is to disable cookies in your browser. We suggest consulting the Help section of your browser or taking a look at the About Cookies website which offers guidance for all modern browsers.

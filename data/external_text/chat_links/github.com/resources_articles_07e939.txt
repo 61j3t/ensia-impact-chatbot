@@ -1,0 +1,30 @@
+[Source: https://github.com/resources/articles?topic=software-development]
+[Title: GitHub Articles • Technical Guides, Developer Insights & Best Practices · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+GitHub Articles
+An introduction to innersource
+Organizations worldwide are incorporating open source methodologies into the way they build and ship their own software.
+What is prompt engineering?
+Prompt engineering is the practice of crafting effective instructions that guide AI models to produce accurate, useful results.
+What is software architecture?
+Learn how software architecture helps developers build scalable, efficient systems using best practices, key components, and common styles and patterns.
+What is open source AI?
+Open source AI offers more control, clarity, and room to build the way you want.
+What is an integrated development environment (IDE)?
+Uncover how IDEs help streamline software development and accelerate software delivery.
+What is Version Control?
+Learn how version control systems and software help track changes, support collaboration, and ensure code integrity throughout the development process.
+What is technical debt?
+Understand the impact of technical debt on software development. Learn how to manage and mitigate technical debt for long-term code quality and maintainability.
+What is software testing?
+Software testing is the systematic process of evaluating and verifying software applications to ensure they function correctly and meet specific requirements.
+What is software engineering?
+Software engineering is the job of designing, developing, testing, and maintaining software applications and systems.
+What is software development?
+Explore the world of software development in this comprehensive guide for beginners. Discover what software development is and why it matters, delve into key concepts, uncover the crucial steps in the development process, and learn how software shapes industries and technologies.
+What is the SDLC?
+Building great software is a big challenge, and development teams rely on the software development lifecycle (SDLC) to help them succeed.
+What is Platform engineering?
+Learn what platform engineering is and how it empowers developers by creating internal developer platforms, improving workflows, and reducing operational bottlenecks. Explore the benefits for developers and IT managers alike.

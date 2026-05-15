@@ -1,0 +1,49 @@
+[Source: https://ibtikar.info/]
+[Title: Science, Technology and Innovation for a sustainable development | Advance knowledge to solve Africa’s challenges, strengthen evidence-based policymaking, build research capacity, and generate sustainable solutions for inclusive socio-economic development.]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:18+00:00]
+
+Fertigation
+La thématique “La problématique de l’irrigation en zone saharienne” (fertirrigation).
+Winner: Saharan Agri platform
+Oil & Gas
+Développement de solution numérique pour l’amélioration du processus « production »
+Project winner: NEW VISION
+ICT & Mobility
+La mobilité urbaine , optimiser les transports en commun et réduire les accidents de la route .
+Groupe winner: Projet DALIL
+Biotechnology
+Innovations en Biotechnologie Pharmaceutique pour le Dév. de Thérapies Avancées.
+Winner: Cancer colorectal (RNAi)
+Desalination
+Recherche de solutions innovantes dans le traitement des eaux et le dessalement d’eau de mer.
+Winner: DZ WATER SOLUTION
+Green supply chain
+Supply chain verte et empreinte carbone, les maillons de la chaîne logistique.
+Winner: G02 (Abdelouahab Y.)
+Lamellar decantation
+Mise en place d’un système de décantation lamellaire produit localement.
+Winner: Slats local production
+Cell therapy
+Les avancées en Thérapie Cellulaire et leurs applications dans les domaines Pharmaceutiques.
+Winner: INTERLEUKINE-2
+Quality and safety of health products
+.Développement de méthodes innovantes dans les matières premières pharmaceutiques.
+Winner: Apport approche AQBD.
+Mussel proliferation and desalination
+La gestion durable de la prolifération des moules dans les systèmes de dessalement.
+Winner: Mussel valorization
+Pharmaceutical IA platform formulation
+Plateforme IA pour la R&D de formules pharmaceutiques stables et efficaces.
+Winner: G03 (AGOUILLAL F.)
+ICT and citizens' access to information
+La numérisation pour l’efficacité des services publics, et faciliter l’accès des citoyens aux informations
+Winner: هويتي HAWYATI
+Network modernisation
+Technologies et Modernisation/ optimisation des réseaux Sonelgaz.
+Groupe Winner: GEO-COLLECT
+Subsurface Drip Irrigation
+Agriculture saharienne : l’irrigation goutte à goutte enterrée, ou SDI (Subsurface Drip Irrigation)
+Salinity of irrigated soils
+La salinité des sols irrigués par pivot dans l’agriculture saharienne et ses conséquences sur les rendements.
+“Hackathons are where your crazy ideas become reality.”-Alex Kern

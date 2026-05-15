@@ -1,0 +1,112 @@
+[Source: https://state-of-algeria.dev/docs/insights/remuneration]
+[Title: Salaries & remuneration | The State of Software Engineering in Algeria]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:34:20+00:00]
+
+Salaries & remuneration
+In this section we present insights from our survey, examining salaries variation by experience and location. Salaries within the Algerian software engineering and IT sector operate in a dynamic and unregulated landscape. With the potential to range from
+Salaries in Algerian Dinar (DZD) are written in different forms in this page:
+10 000 DZD = 10K DZD = 1 Million Centimes
+Our participants' monthly salary distribution was the following:
+Remote working salaries and remuneration from freelance opportunities also varies. From few euros a month for small gigs, to much higher salaries that go beyond 60K euros a year for full-time employees.
+In this section we will also compare our findings with previous research done in 2020 and another one in 2018.
+Salaries in Algeria
+Working in Algeria
+To understand salaries better we ran a few analyses to find which parameter (location, job title and/or tech stack, years of experience, etc.) has the most influence on the salary.
+Initially, we had some questions and assumptions to answer, such as:
+- Are the developers who work in Algiers and Oran paid better than developers with the same years of experience in other Wilayas?
+- Does technology stacks influence salaries? Are backend developers paid more than mobile developers?
+- *Can we tell that years of experience are the most important factor? Are the more senior persons paid higher compared to their peers in other Wilayas?
+Interested in different correlations? Do you want us to answer a question like on of the questions above?
+In this study, we will split the findings in 5 groups:
+- Trainee or entry-level engineers (less than two years of professional experience)
+- Juniors to early mid-levels (3 to 5 years of professional experience)
+- Mid-level to early senior levels (6 to 10 years of professional experience)
+- Senior engineers
+- Executives and/or managers
+N.B: Titles in the following section are only to label participants' groups. Click here for details.
+We believe that titles and the years of experience are relative, we do believe (and see) that we can find engineers that are considered seniors with just years 5 years of experience, but we also believe that there is a global job titles inflation.
+For example, here is a breakdown of participants who labeled themselves as Mid-level
+by their years of experience:
+And those who labeled themselves Seniors
+are:
+Which means that the definition of senior and mid-level is not fully agreed upon in the community in years of experience which is why we defined our own for the sake of clarity in this survey.
+Trainees and entry-level engineers (2 years of professional experience, or less)
+Entry-level engineers who work for Algerian companies, or companies based in Algeria are paid salaries ranging between
+Some trainees do internships for free, others are getting paid salaries going from under
+Juniors to early mid-levels (3 to 5 years of professional experience)
+Engineers with 3 to 5 years of experience, and who work for Algerian companies are paid salaries going from
+Engineers who are paid high salaries going up to
+- Managers and team leaders in small startups or companies (with 6 to 10, or 11 to 20 employees).
+- Engineers who work for large companies and wear different hats (e.g. working as full-stack developers and deal with infrastructure).
+Engineers of this category are paid these high salaries in Algiers and Oran, when working remotely for Algerian companies (we don't have data where these companies are based), or in some rare cases in other Wilayas (e.g. ERP/CRM specialist in a large company in Sidi Bel Abbès).
+Mid-level to early senior levels (6 to 10 years of professional experience)
+Mid-level to early seniors who work for Algerian companies are paid salaries ranging between
+Engineers in this category, and who are paid high salaries going up to
+Engineers who are paid salaries going up to
+Senior engineers
+Engineers with 11 to 15 years of experience, and who work for Algerian companies are paid salaries going from
+Engineers in this category who are paid salaries that goes up to
+We also see that salaries in the same group goes up to
+Salaries going up to
+We see wider spread for salaries around
+These high salaries are present in the big wilayas (Oran and Algiers) for management and leadership roles, and for Governance and security.
+Executives and/or managers
+Salaries for managers also vary between
+2 of 3 participants who are paid less thn
+The high salaries (more or less than
+Head to our education and learning page to learn more.
+Working remotely for foreign companies
+Salaries for remote positions are not regulated in any form. They highly depend on the skills, years of the experience, clients' countries, type of projects/contract, and many other factors.
+According to our survey participants, Algerian engineers can get up to 85 000 Euros per year (around €7000/month).
+We calculated medians of salaries and compared them to years of experience, the results were the following:
+We observe a trend of increasing salaries up to 16+ years of experience. However, the trend changes after 16+ years where we note two main points:
+- We can not make conclusions since we only have two participants in this case (participants working remotely from Algeria with 16+ years of experience).
+- At this level of seniority a full-time remote position from Algeria might be challenging, or not the preferred solution. Read more about this case in our remote working page (TLDR; They might be freelance consultants).
+Remote workers exercise their work in different forms, 46% of the participants who work for foreign companies are full-time employees, 42% are freelancers, and 12% are part-time employees.
+To explore freelancers' income, we analysed public Algerian freelancers' data from Upwork, and we had the following:
+This data is also correlated with findings from other websites like peopleperhour (Majority of freelancers with hourly rates around 10 to €20/hour, and the median close to €40/hour).
+Perks
+Some jobs offer other perks on top of salaries, according to our survey data we have the following:
+Additionally, some jobs offer other perks, for example*:
+- Business SIM cards.
+- VTC Memberships.
+- Paid trips and holidays.
+The value of salaries
+This section looks into the value of software engineering salaries in Algeria.
+Costs of living in Algeria
+Algerian minimum wages are around
+According to 3363 entries made by 250 different participants in Numbeo (a crowd-sourced global database of quality of life data):
+- A family of four estimated monthly costs are €1,535.7 without rent.
+- A single person estimated monthly costs are €430.1 without rent.
+And according to Expatistan.com:
+- A family of four estimated monthly costs are €2,172 (rent included).
+- A single person estimated monthly costs are €869 (rent included).
+However, Numbeo and Expatistan methodologies might not reflect the average Algerian lifestyle and monthly spending.
+We asked the Association for the Protection and Guidance of Consumers and their Environment (APOCE) about the numbers and we are still waiting for numbers from them.
+Happiness index
+Low Salary
+Was only mentioned once by engineers who live in Algeria in our question about what challenges are faced in working with in IT.
+Interested in knowing more about challenges? Head to our Challenges page.
+We asked our participants On a scale from 1 to 10, how satisfied are you with your current job in the software engineering field?
+, and answers were the following:
+With a median score of 7
+, we may conclude that our participants, from Algeria specifically are mostly satisfied with their salaries, however as one of our participants wrote:
+No matter how high salary is compared to other jobs, it remains low in order to live comfortably.
+This idea was also shared by other participants who used the free text option in Challenges
+question, where lifestyle in Algeria might not let developers "enjoy their salaries".
+Evolution of salaries from research
+In a previous study done in 2018, we see the following numbers:
+| Level | Salary ranges (DZD) | Maximum (DZD) |
+|---|---|---|
+| Junior | 50K - 60K | 60K |
+| Mid-level | 50K - 70K | 75K |
+| Senior | 65K - 90K | 120K |
+Then in 2020, Assem Chelli ran a survey where the findings were the following:
+| Level | Salary ranges (DZD) | Maximum (DZD) |
+|---|---|---|
+| Junior | 50K - 70K | - |
+| Mid-level | 71K - 97K | - |
+| Senior | 90K - 120K | - |
+This was is presented by this graph (from the previous work):
+In 2024, we see a slight increase in developers salaries if we compare the results with the findings above.

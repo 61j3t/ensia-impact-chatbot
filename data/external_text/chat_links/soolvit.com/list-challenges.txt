@@ -1,0 +1,15 @@
+[Source: https://soolvit.com/list-challenges]
+[Title: Liste des challenges - Soolvit]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:33:45+00:00]
+
+Opportunities for everyone, according to your ambitions
+-
+I AM AN ENTREPRENEUR / STARTUP
+Boost your growth through co-creation opportunities, innovation, and market access.
+-
+I AM A RESEARCHER
+Transform your research work into wealth-creating businesses.
+-
+I AM A PROJECT HOLDER / STUDENT
+Turn your ideas into reality and immerse yourself in the world of opportunities.

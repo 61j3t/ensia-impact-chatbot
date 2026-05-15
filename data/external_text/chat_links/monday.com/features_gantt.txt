@@ -1,0 +1,27 @@
+[Source: https://monday.com/features/gantt]
+[Title: Gantt Software | monday.com]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:26+00:00]
+
+Plan, execute, and track your projects using a visual and flexible platform
+Drag-and-drop
+100% customizable
+Interactive timelines
+Baselines
+Task dependencies
+Critical paths
+Spot bottlenecks
+Milestones
+Keep track of your milestones
+Never miss a deadline. Easily visualize important dates, milestones, and set dependencies for your projects to make sure everything gets done on time.
+Import from Excel
+Easily turn old-fashioned spreadsheets into smart boards that you can view as Gantt charts. Put your work in context and collaborate with your entire team, seamlessly.
+Improve your team’s coordination
+Gantt, Kanban, Timeline, Workload, and other powerful views transform your data, so you can make sure your team's workflows run smoothly and efficiently.
+Everything your team needs to execute their best work
+Stay informed from anywhere
+Instantly improve team collaboration with real-time updates to everyone’s devices.
+Focus on the work that matters
+Set up any automation in seconds and leave repetitive tasks behind.
+Integrate with your favorite tools
+Connect your existing tools to monday.com and have all your work in one place.

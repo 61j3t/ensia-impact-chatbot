@@ -1,0 +1,147 @@
+[Source: https://github.com/neon-x-hub/que]
+[Title: GitHub - neon-x-hub/que: high-performance, disk-backed membership engine designed for applications that demand extremely fast lookups with minimal memory usage. · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+que |
+que
+is a high-performance, disk-backed membership engine designed for applications that demand extremely fast lookups with minimal memory usage. Instead of keeping the entire structure in RAM, que
+stores its bit-array on disk and loads only one chunk at a time—allowing it to scale gracefully to tens or hundreds of millions of entries on ordinary hardware.
+The design is filter-agnostic: although the initial implementation uses a probabilistic bit-vector (Bloom-style), the architecture is intentionally structured to support multiple filter types in future versions. Chunks, deterministic hashing, partial bit updates, and file-backed persistence are all part of the core foundation that makes que
+suitable for authentication systems, large verification workloads, and environments where reducing database traffic is a priority.
+-
+Disk-backed storage with constant memory usage Only one chunk is ever held in memory, allowing the filter to grow extremely large without increasing RAM consumption.
+-
+Chunked architecture for scalable performance Efficient loading and flushing of fixed-size chunks minimizes disk I/O and enables high-throughput workloads.
+-
+Deterministic hashing pipeline Reliable and stable hashing over user-defined attributes (email, password, username, etc.) ensures consistent membership checks.
+-
+Atomic and batch additions Add items one-by-one or in batches, both backed by chunk-aware bit operations.
+-
+Fast lookup operations Operations perform only the minimum required chunk loads; no need to traverse the full dataset.
+-
+Lightweight on-disk format
+.que
+files store configuration, chunk metadata, and the compact bit-payload in a clean, predictable structure. -
+Configurable expected size and false-positive rate The system automatically computes optimal bit-array size and hashing settings based on desired performance.
+-
+Deterministic, language-agnostic payload serialization Ensures that the same set of attributes always produces the same hash output.
+Benchmarks for a filter configured with:
+- 1,000,000 expected elements
+- 0.001 false-positive rate
+- Atomic operations (single read/write per call)
+Measured on a standard SSD:
+| Operation | Average Time |
+|---|---|
+| Addition | ~0.92-1.41 ms |
+| Addition (dangerously) | ~0.66-0.80 ms |
+| Lookup | ~0.80 ms |
+For testing benchmarks on your device, run:
+npm run demo
+Install via npm:
+npm install que-io
+This example demonstrates how to use que
+as a fast, disk-backed membership engine to verify whether a user credential pair may exist—without hitting the database every time.
+const Que = require("que-io");
+(async () => {
+// Create or load the filter
+const que = new Que({
+file: "./auth.que",
+expected: 1_000_000,
+fpr: 0.001,
+attributes: ["email", "password"], // different order results in different filters!!
+chunk: 8 * 1024 * 1024
+});
+await que.load();
+// Adding user credentials (e.g., after a successful signup)
+await que.add({
+email: "alice@example.com",
+password: "supersecret"
+});
+// Later, checking if a pair *may* exist
+// p(maybe | item ∉ set) = fpr
+const maybe = await que.test({
+email: "alice@example.com",
+password: "supersecret"
+});
+if (maybe) {
+// Credentials may exist — verify with database.
+// ...
+} else {
+console.log("Credentials definitely do not exist.");
+// Return feedback to user immediatly!
+// ...
+}
+await que.close();
+})();
+new Que(options)
+| Field | Type | Description |
+|---|---|---|
+file |
+string |
+Path to the .que file for persistent storage. |
+expected |
+number |
+Estimated number of items to be stored. Used to size the bit-array. |
+fpr |
+number |
+Target false-positive rate (e.g., 0.001 ). |
+attributes |
+string[] |
+Keys extracted from each payload for hashing. |
+chunk |
+number |
+Size in bytes for each memory-loaded chunk. Controls memory footprint. |
+Initializes the internal file structures, loads metadata, and prepares chunk management. Must be called before any operation unless auto-loaded by the constructor.
+Adds one or more items to the filter. All relevant bits are set across the necessary chunks.
+Parameters:
+-
+payloadOrArray
+— A single payload object or an array of payloads. -
+config
+— Optional configuration object:dangerously
+(boolean, defaultfalse
+) — Iftrue
+and an array of payloads is provided, all bit indices for all payloads are computed first and written in a single loop. This improves performance but sacrifices atomicity and resilience to interruptions.
+Examples:
+// Atomic addition of a single payload
+await que.add({ email: "john@example.com", password: "123" });
+// Atomic addition of multiple payloads (default behavior)
+await que.add([
+{ email: "alice@example.com", password: "abc" },
+{ email: "bob@example.com", password: "xyz" }
+]);
+// Dangerous batch mode — faster, non-atomic
+await que.add([
+{ email: "alice@example.com", password: "abc" },
+{ email: "bob@example.com", password: "xyz" }
+], { dangerously: true });
+Notes:
+- Atomic mode: Each payload is added independently; a crash affects only the current payload.
+- Dangerous mode: All indices are computed first; bits are set in a single pass. If the process crashes mid-loop, some payloads may only be partially added.
+- Sorting of indices and removal of duplicates is handled internally for performance.
+Checks whether an item may exist. Returns:
+true
+— the item may existfalse
+— the item definitely does not exist
+const exists = await que.test({ email: "john@example.com", password: "123" });
+Alias for test()
+.
+Useful for stylistic or domain-specific naming.
++It is Yoda spelling of the french Est-ce que...
+so why not
+Forces a flush of all in-memory chunks to disk.
+Usually unnecessary because writes are flushed automatically.
+Finalizes writes, flushes buffers, and releases file descriptors.
+Computes the optimal number of bits and hash functions for the given settings.
+Returns an object:
+{
+bits: <number>,
+k: <number>
+}
+Example:
+const { bits, k } = Que.calculate({ expected: 1_000_000, fpr: 0.001 });
+If you’re interested in contributing, you are more than welcome to open a pull request.
+Contributions of any kind (code, bug fixes, or documentation updates) are highly appreciated and will be reviewed carefully.
+Que is released under the MIT License. You are free to use, modify, and distribute it in your projects.
+Thank you for exploring!

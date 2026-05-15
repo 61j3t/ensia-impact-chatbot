@@ -1,0 +1,10 @@
+[Source: https://azure.microsoft.com/en-us/products/openshift]
+[Title: Azure Red Hat OpenShift | Microsoft Azure]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:01:30+00:00]
+
+Azure Red Hat OpenShift
+Run virtual machines and containers together, with enhanced security for sensitive workloads—now in general availability on a fully managed, enterprise-ready platform co-engineered by Microsoft and Red Hat.
+Full-time equivalent engineers dedicated to security initiatives at Microsoft.
+Partners with specialized security expertise.
+Compliance certifications, including over 50 specific to global regions and countries.

@@ -1,0 +1,26 @@
+[Source: https://www.iie.org/about]
+[Title: About IIE | IIE]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:21:07+00:00]
+
+About IIE
+In 1919, the founders of the Institute of International Education believed that international education could build a more secure and prosperous world. Today, we touch the lives of more than 29,000 people in 180 countries each year through the programs that we administer, helping to educate the next generation of leaders and serving as a lifeline to students, scholars, and artists around the world.
+As we look ahead to IIE’s next 100 years, we extend thanks to our partners, donors, and higher education institutions that share our commitment to deepening ties among individuals and nations. We are privileged to administer The Fulbright Program, Benjamin A. Gilman International Scholarship, the Hubert H. Humphrey Fellowship Program, and the International Visitor Leadership Program (IVLP) on behalf of the U.S. Department of State’s Bureau of Educational and Cultural Affairs (ECA). In addition, we provide support for ECA’s EducationUSA network.
+Our work with the U.S. Department of Defense (DoD) includes The Language Flagship and Boren Awards. These programs promote language learning, enabling better communication between the United States and other nations. IIE collaborates with a range of foundation, corporate, and government partners to strengthen democracies and to touch and improve countless lives.
+By supporting IIE, you are providing life-changing opportunities for students and scholars around the world.
+Our Vision
+Since its founding, IIE’s work has been inspired by the belief that a peaceful, prosperous world is driven by innovative solutions and mutual understanding.
+Leadership
+IIE is governed by a dedicated Board of Trustees, a broad group of advisory boards and an experienced executive staff that bring experience from a variety of fields.
+Our Commitment to International Education for All
+IIE’s commitment to creating a more peaceful world through exchange, now and throughout our history, is a critical part of our effort to engage thoughtfully with all of our internal and external constituents around the world, and reaffirms our deep commitment to these principles.
+Our Global Presence
+IIE was established in New York in 1919. Today, IIE has a network of 16 offices and affiliates around the world, led by more than 600 international education experts.
+Latest News
+Stay tuned for events and the latest news from IIE as it celebrates the field of International Education and furthers research.
+Commemorating a Century
+IIE’s founders believed that academic and international exchange could build a more peaceful and prosperous world. A century later, our work touches the lives of 29,000+ people in 180 countries each year.
+Medals, Fellowships, and Awards
+Through the years, IIE has established an array of honors to celebrate the achievements and leadership of individuals and organizations that have made outstanding contributions to international education.
+Centers of Excellence
+In its work around the world, IIE’s global offices and experienced staff have developed significant expertise, capabilities, and best practices in a set of core areas.

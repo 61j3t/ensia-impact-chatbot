@@ -1,0 +1,49 @@
+[Source: https://www.notiverse.app/terms]
+[Title: Terms & Conditions]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:25:59+00:00]
+
+Terms & Conditions
+Effective Date: May 1, 2025
+Welcome to Notiverse — a distraction-free, offline-first app for fast, reliable, and organized note-taking. By using the Notiverse mobile app (“App”), you agree to the following Terms and Conditions (“Terms”).
+If you do not agree with these Terms, please do not use the App.
+1. Who Can Use Notiverse
+You may use Notiverse if you are legally allowed to download and use mobile apps in your country. You do not need to create an account or provide personal information to use the App.
+2. Offline Use & Local Data Storage
+Notiverse is fully offline. All notes — text, images, and voice recordings — are stored locally on your device. We do not store your content on external servers, nor do we access your notes without your consent.
+3. App Permissions
+To function properly, Notiverse may request access to:
+- Microphone: For recording voice notes
+- Camera: For capturing photo notes
+- Storage: To save your content on your device
+- Internet: Only for optional analytics and crash reporting
+You may disable these permissions at any time via your device settings.
+4. Analytics & Crash Reporting
+We use Firebase Analytics and Crashlytics (by Google) to understand how the app is used and to improve its performance. This includes:
+- Anonymous usage data (e.g. screen views, session length)
+- Crash reports (technical error logs and device details)
+No personally identifiable information (PII) is collected or transmitted.
+For full details, see our Privacy Policy.
+5. Your Content
+All content you create in Notiverse is yours and stored locally. We do not claim ownership, share, or access your notes.
+You are responsible for managing your own data — including backups and deletions.
+6. Restrictions
+You agree not to:
+- Use the app for unlawful or harmful purposes
+- Reverse engineer, modify, or distribute the app
+- Attempt to exploit the app’s functionality in any abusive way
+7. Intellectual Property
+The Notiverse app, design, and underlying code are the property of Notiverse and its creators. You may not copy, reproduce, or distribute the app without permission.
+8. Termination
+You are free to stop using the app at any time. We may restrict access or support if misuse or violation of these terms is detected.
+Since Notiverse stores data locally, uninstalling the app may result in loss of notes if not backed up by you.
+9. Disclaimer of Warranty
+The app is provided “as is” without any guarantees. We do our best to maintain a high-quality, stable experience — but we are not liable for:
+- Data loss
+- Crashes
+- Inaccuracies or bugs
+You use Notiverse at your own risk.
+10. Updates
+We may update these Terms from time to time. We’ll notify you of significant changes in the app or via our website. By continuing to use the app, you accept the updated Terms.
+11. Contact Us
+Questions, feedback, or concerns?

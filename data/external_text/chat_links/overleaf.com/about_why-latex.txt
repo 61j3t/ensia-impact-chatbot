@@ -1,0 +1,48 @@
+[Source: https://www.overleaf.com/about/why-latex]
+[Title: Benefits of using LaTeX editing software | Overleaf - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+why LaTeX?The secret to better scientific and technical writing
+LaTeX is a powerful typesetting system that takes care of the formatting so you can focus on your content.
+What is LaTeX?
+LaTeX (pronounced either “LAY-tek” or “LAH-tek” depending on who you talk to) is a tool that lets anyone create beautifully typeset documents. It’s the code you write in when you use Overleaf’s Code Editor and it underlies what you see in our Visual Editor.
+Separate your content from the formatting
+Unlike document editors such as Microsoft Word or Google Docs, LaTeX separates the process of writing your content from the process of formatting it. This means once you’ve written the content, it’s easy to change its appearance.
+Go from plain text to polished PDF
+You write a plain text file interspersed with LaTeX commands. These commands tell a piece of software called a TeX engine how to format and typeset the document to produce a polished, typeset PDF.
+Get the benefits of LaTeX, without the code
+In Overleaf, you can use our Code Editor or Visual Editor. Whichever you choose, the effect is the same—you write the content, Overleaf and LaTeX take care of the formatting.
+LaTeX featuresFaster, simpler writing for complex documents
+Easily handles mathematics, tables, and technical content
+Thanks to its array of packages, LaTeX can typeset extremely complex mathematics, figures, tables, and technical content that other document editors struggle with.
+Beautiful formatting and lots of templates
+LaTeX turns your plain text content into organized, well-presented, and aesthetically beautiful documents. And because there’s such a dedicated community of users, there are thousands of templates ready for you to choose from.
+Better bibliographies, references, and citations
+LaTeX enables you to create ordered, highly customizable bibliographies. It also lets you label any piece of information you would like to use later for citations or as a reference.
+Highly customizable
+You can produce unique, bespoke documents thanks to LaTeX’s thousands of free add-on packages, while confident programmers can even create their own.
+LaTeX on Overleaf
+Overleaf is LaTeX, simplified. You can work collaboratively on documents, there’s no downloads or installation, and you can choose whether you work in LaTeX code or our Visual Editor.
+Visual Editor
+Our Visual Editor lets you work with LaTeX, without writing code. Insert tables and figures with a few button clicks.
+Seamless collaboration
+No more email feedback and endless versions of documents. Instead, get comments, sharing, real-time track changes, and document history directly in your LaTeX project.
+Work from anywhere
+Overleaf lives in the cloud, so there are no downloads or installations to worry about. And with support for mobile and tablet devices, you can even take it with you on the go.
+Go from beginner to TeXpert
+Learning LaTeX can feel daunting at first, but we’ve got lots of resources to help you get started.
+Templates
+Pick from thousands of free templates in our gallery—from research articles to CVs, and so much more.
+Browse templatesExample project
+Learn by doing with our example project that walks you through the LaTeX basics.
+Explore example projectVisual Editor
+Switch to our Visual Editor to edit without writing code. Switch back to Code Editor anytime to see the code behind your writing.
+Try OverleafLaTeX in a nutshell
+Learn how to start your first document and get to grips with LaTeX basics in our step-by-step intro.
+Start learningWebinars
+Get support direct from our TeXpert Support team by signing up for our live intro webinars (or watch previous ones on demand).
+Browse webinarsMore resources
+Discover hundreds of help and learning articles, tutorials, and more.
+Explore Overleaf Learn\begin
+Discover why over 25 million people worldwide trust Overleaf with their work.

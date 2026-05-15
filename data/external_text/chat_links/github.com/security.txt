@@ -1,0 +1,31 @@
+[Source: https://github.com/security]
+[Title: GitHub Security · GitHub]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:17:41+00:00]
+
+Join the companies that secure their code with GitHub
+Join the companies that secure their code with GitHub
+Security seamlessly
+integrated into your workflow
+Prevent accidental secret exposure
+Push protection automatically blocks secrets before they reach your repository, keeping code clean without disrupting workflows.
+Find and fix vulnerabilities in your code
+Address security debt in your GitHub workflow with static analysis, AI remediation, and proactive vulnerability management.
+Securing the entire
+software supply chain
+Enhance your security strategy with the GitHub Security Lab
+Learn how the lab helps secure open source by finding vulnerabilities, building tools like CodeQL, and advancing security research.
+Stay ahead of threats with the Security Advisory Database
+Access a security vulnerability database inclusive of CVEs and GitHub originated security advisories from the world of open source software.
+GitHub’s supply chain security reduces open source risks with auto-updates, dependency tracking, and build attestation.
+Learn more about supply chain securityAdopted by the world's leading organizations
+Otto Group elevates developer engagement with GitHub Advanced Security
+SPH Media tames tool sprawl and secures code with GitHub
+Postmates uses GitHub Advanced Security to catch vulnerabilities
+Resources to get started
+Discover developer-first security
+Take an in-depth look at the current state of application security.
+Explore the DevSecOps guide
+Learn how to write more secure code from the start with DevSecOps.
+Avoid AppSec pitfalls
+Explore common application security pitfalls and how to avoid them.

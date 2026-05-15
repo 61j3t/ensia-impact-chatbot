@@ -1,0 +1,18 @@
+[Source: https://e-services.inapi.org/legal]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+Ordonnances
+Depuis l'indépendance, la propriété industrielle a été confiée successivement à :
+- Ordonnance n° 66 - 86 du 28 Avril 1966 relative aux dessins et modèles
+- Ordonnance n° 76 - 65 du 16 Juillet 1976 relative aux appellations d'origine
+- Ordonnance n° 03 - 06 du 19 Joumada El Oula 1424 correspondant au 19 juillet 2003 relative aux marques
+- Ordonnance n° 03-07 du 19 Joumada El Oula 1424 correspondant au 19 juillet 2003 relative aux brevets d'invention
+- Ordonnance n° 03-08 du 19 Joumada El Oula 1424 correspondant au 19 juillet 2003 relative à la protection des schémas de configuration des circuits intégrés
+Décrets
+- Décret exécutif n° 05-275 du 26 Joumada Ethania 1426 correspondant au 2 août 2005 fixant les modalités de dépôt et de délivrance des brevets d'invention
+- Décret exécutif n° 05-276 du 26 Joumada Ethania 1426 correspondant au 2 août 2005 fixant les modalités de dépôt et d'enregistrement des schémas de configuration des circuits intégrés
+- Décret exécutif n° 05-277 du 26 Joumada Ethania 1426 correspondant au 2 août 2005 fixant les modalités de dépôt et d'enregistrement des marques
+- Décret exécutif n° 66-87 du 28 Avril 1966 portant application de l’Ordonnance n° 66 - 86 du 28 Avril 1966 relative aux dessins et modèles
+- Décret exécutif n° 76-121 du 16 Juillet 1976 relatif aux modalités d'enregistrement et de publication des appellations d'origine et fixant les taxes y afférentes

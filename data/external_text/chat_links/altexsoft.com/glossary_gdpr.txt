@@ -1,0 +1,20 @@
+[Source: https://www.altexsoft.com/glossary/gdpr]
+[Title: GDPR - AltexSoft]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:56+00:00]
+
+GDPR, or General Data Protection Regulation, is a data privacy and protection regulation in the European Union (EU) that gives individuals greater control over their personal data.
+GDPR sets rules about how businesses can collect, process, and use such personal data as
+- ID / Passport details (names, postal addresses, race, origin, biometric data);
+- contact information (email addresses, telephone numbers);
+- digital data (photographs and videos);
+- financial and payment information;
+- medical data, and so on.
+Organizations that handle EU citizens’ data must comply with GDPR to protect individual rights. Here are the key principles and provisions of GDPR.
+Data Subject rights. GDPR grants individuals the right to access their personal data, the right to rectify inaccurate data, the right to erasure (commonly known as the “right to be forgotten”), and so on.
+Consent. Organizations must obtain clear and explicit consent from individuals before collecting and processing their personal data.
+Data Protection Officer (DPO). Some organizations must appoint a Data Protection Officer responsible for ensuring compliance with GDPR.
+Data breach notification. Organizations must report data breaches to the relevant data protection authorities and affected individuals within specific timeframes.
+Privacy by design and default. GDPR encourages organizations to implement data protection measures from the outset when designing systems and processes.
+Data transfer. GDPR regulates the transfer of personal data to countries or organizations that do not provide adequate data protection.
+Penalties. For noncompliance, GDPR imposes fines of up to €20 million (around $21.6 million) or 4 percent of a company’s global annual revenue, whichever is higher.

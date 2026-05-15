@@ -1,0 +1,35 @@
+[Source: https://anpt.dz/bulletins-veille/922]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+Vulnérabilité critique de contournement de l’authentification FortiCloud SSO affectant plusieurs produits Fortinet
+L’avis de sécurité FG-IR-25-647
+publié par Fortinet décrit une vulnérabilité critique de contournement de
+l’authentification affectant plusieurs produits Fortinet utilisant le mécanisme
+FortiCloud Single Sign-On (SSO). Cette faille est due à une vérification
+incorrecte des signatures cryptographiques dans les messages d’authentification
+SAML, correspondant à la faiblesse CWE-347. Elle permet à un attaquant distant
+non authentifié de contourner le processus de connexion normal et d’accéder à
+l’interface d’administration. Bien que le FortiCloud SSO ne soit pas activé par
+défaut, il peut être automatiquement activé lors de l’enregistrement FortiCare,
+augmentant ainsi la surface d’attaque. L’impact de cette vulnérabilité est
+élevé et compromet la sécurité globale des équipements concernés.
+Les produits affectés incluent
+FortiOS, FortiProxy, FortiSwitchManager et FortiWeb, sur plusieurs versions
+majeures. Fortinet a attribué à cette faille un score CVSS critique, soulignant
+la gravité du risque. Deux identifiants CVE sont associés à cette vulnérabilité
+: CVE-2025-59718 pour les produits basés sur FortiOS et CVE-2025-59719 pour
+FortiWeb. Des informations de sécurité indiquent que la vulnérabilité a été
+activement exploitée dans la nature, ce qui augmente considérablement le niveau
+de menace. Une exploitation réussie peut mener à une compromission totale des
+équipements réseau et des données qu’ils protègent.
+Pour réduire le risque, Fortinet
+recommande d’appliquer immédiatement les mises à jour de sécurité vers les versions
+corrigées. À titre de mesure temporaire, il est conseillé de désactiver
+l’authentification FortiCloud SSO lorsqu’elle n’est pas strictement nécessaire,
+via l’interface graphique ou la ligne de commande. Les administrateurs doivent
+également auditer leurs configurations SSO et surveiller toute activité
+suspecte liée aux connexions administratives. Une réaction rapide est
+essentielle afin d’éviter toute exploitation et de garantir la sécurité de
+l’infrastructure réseau.

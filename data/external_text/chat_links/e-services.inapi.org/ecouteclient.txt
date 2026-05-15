@@ -1,0 +1,109 @@
+[Source: https://e-services.inapi.org/ecouteclient]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+INAPI - Accueil
+INAPI
+Présentation
+Historique
+Législations
+Missions
+SMQ
+NOS SERVICES
+Brevets
+Qu'est-ce qu'un brevet ?
+Pourquoi c’est important
+Déposer un brevet
+Inscriptions
+Taxes
+Rédiger un brevet
+Marques
+Recherche d'antériorité
+À propos
+Déposer une marque
+Inscriptions
+Base de données
+Marques international enregistrées en Algérie via Madrid
+Marques international enregistrées à l'étranger via Madrid
+Appellation d'origine
+Deposer une appellation d'origine
+Baréme des Taxes Appellations d'origines
+Baréme des Taxes Marque
+Dessins & Modèles
+Qu’est-ce que c’est ?
+Déposer un dessin/modèle
+Inscriptions
+Formulaires
+Conditions
+Taxes
+ÉCOUTE CLIENT
+Fiche de réclamation
+Satisfaction client
+Demande de rendez-vous
+STATISTIQUES
+BOPI
+MANDATAIRES
+EMBLEMES
+Français
+Français
+English
+العربية
+INSCRIPTION
+CONNEXION
+Menu
+INAPI
+Présentation
+Historique
+Législations
+Mission
+SMQ
+Nos Services
+Brevets
+Qu'est-ce qu'un brevet ?
+Pourquoi c’est important
+Déposer un brevet
+Inscriptions
+Taxes
+Rédiger un brevet
+Marques
+Recherche d'antériorité
+À propos
+Déposer une marque
+Inscriptions
+Base de données
+Marques international enregistrées en Algérie via Madrid
+Marques international enregistrées à l'étranger via Madrid
+Appellations d'origines
+Deposer une appellations d'origines
+Baréme des Taxes Appellations d'origines
+Baréme des Taxes Marque
+Dessins & Modèles
+Qu’est-ce que c’est ?
+Déposer un dessin
+Inscriptions
+Formulaires
+Conditions
+Taxes
+Écoute Client
+Fiche de réclamation
+Satisfaction client
+Demande de rendez-vous
+Statistiques
+BOPI
+Mandataire
+EMBLEMES
+Français
+English
+العربية
+INSCRIPTION
+CONNEXION
+Ecoute Client
+Fiche de réclamation
+Voir
+Satisfaction client
+Voir
+Demande de rendez-vous
+Voir
+📝 Donnez votre avis
+Aidez-nous à rendre ce site meilleur ! Partagez vos impressions, idées ou suggestions en cliquant ici.

@@ -1,0 +1,712 @@
+[Source: https://algeria20.com/visitors]
+[Title: Visitors - Algeria 2.0 - Le Futur Tech Algérien]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:10+00:00]
+
+Join us from November 25 to 29, 2025, for the 12th edition of Algeria 2.0, the premier event for those looking to explore the latest technology trends and prepare for the jobs of the future. Whether you’re a student, entrepreneur, or professional, Algeria 2.0 is where innovation and digital expertise come together.
+Why Attend Algeria 2.0?
+Algeria 2.0 offers you a unique opportunity to discover emerging technologies, attend expert-led conferences, and participate in hands-on workshops. This event is designed to help you:
+Learn from industry leaders
+Explore career opportunities in ICT
+Expand your professional and academic network
+Gain exclusive resources to enhance your digital skills
+A Program Packed
+with Conferences, Workshops, and Networking
+With over 280 interactive sessions, including conferences, workshops, and panel discussions, Algeria 2.0 helps you stay ahead of the curve on cutting-edge innovations. Explore key topics like artificial intelligence, cybersecurity, IoT, and more. Don’t miss this opportunity to connect with renowned experts and master the digital tools of tomorrow.
+A Program Packed
+with Conferences, Workshops, and Networking
+With over 280 interactive sessions, including conferences, workshops, and panel discussions, Algeria 2.0 helps you stay ahead of the curve on cutting-edge innovations. Explore key topics like artificial intelligence, cybersecurity, IoT, and more. Don’t miss this opportunity to connect with renowned experts and master the digital tools of tomorrow.
+A Program Packed
+with Conferences, Workshops, and Networking
+With over 280 interactive sessions, including conferences, workshops, and panel discussions, Algeria 2.0 helps you stay ahead of the curve on cutting-edge innovations. Explore key topics like artificial intelligence, cybersecurity, IoT, and more. Don’t miss this opportunity to connect with renowned experts and master the digital tools of tomorrow.
+Visionary Speakers
+0+
+Worldwide Brands
+0
+Sessions & Workshops
+0+
+Event Participants
+0+
+Algeria 2.0: An Event for Everyone
+Algeria 2.0 is the perfect event for:
+Students looking to explore digital careers and meet companies searching for fresh talent
+Startups aiming to increase visibility and form strategic partnerships
+Professionals wanting to enhance their skills and stay up to date with the latest technological trends
+Register Now for Algeria 2.0!
+Don’t miss out on this exceptional opportunity! Registration is free and open to everyone. Secure your spot now to be at the heart of technological innovation in Algeria. Click below to register and receive all the details about the program, speakers, and workshops.
+An inspiring speech on creating an inclusive and accessible digital future for all.
+business
+Digital Transformation
+Future
+Innovation
+opportunities
+Tech Ethics
+Technology
+Trends
+Where
+Conference room
+09:30 - 10:45
+Node-Red for IOT
+By Walid Boukrissa Walid Boukrissa is a senior research engineer at Algérie Télécom, , specializing in IoT and PCB design.
+Uncover the power of Node-Red in IoT with this interactive workshop! Designed for all skill levels, you'll learn to build connected applications effortlessly by arranging logical blocks rather than writing complex code. Live demos will guide you through configuring sensors, visualizing data, and automating processes. Join us to explore practical use cases and master a vital tool for efficient and rapid IoT development!
+This workshop delves deeper into React's advanced features by building a todo list. Participants will learn how to manage state using React Context and Hooks, implementing global state for seamless data sharing across components.
+Language
+Programming
+React
+Startups
+Technology
+Where
+Workshop Room 2
+09:30 - 10:45
+Digital Accessibility
+By Said Drai Entrepreneur and community & manager at itihad.group
+Learn how to create digital products that are accessible to all users, including those with disabilities.
+Accessibility
+business
+Entrepreneurship
+Future
+Innovation
+Startups
+Where
+Workshop Room 1
+09:30 - 10:45
+AI for Modern Web Applications Development, React and Nextjs
+By Mahfoudh Arous Software engineer and Full-stack developer.
+Explore the transformative power of AI tools to accelerate modern web development with React and Next.js. Discover practical strategies to integrate AI into your development process and harness the potential to increase productivity and innovation:
+● Assistants integrated into text editors (IDEs): GitHub Copilot, Codium, ...
+● Generative AI platforms: Claude, v0, phind, ChatGPT, Gemini, ...
+Entrepreneurship
+Nextjs
+React
+Social
+Startups
+Technology
+Where
+Workshop Room 2
+09:30 - 10:45
+Personal Branding for Tech Professionals
+By Naïma Abbes Brand and Communications Professional - Internal Communications Manager @Axa Assurances Algérie, working on Engagement and CSR projects.
+Learn how to build and maintain a strong personal brand in the tech industry.
+business
+Careers
+Entrepreneurship
+Personal Branding
+Project Management
+Startups
+Where
+Workshop Room 1
+09:30 - 10:45
+Technical Writing Skills
+Improve your technical writing skills for better documentation and communication.
+Skills
+Writing
+Where
+Workshop Room 2
+09:35 - 10:20
+AI and Machine Learning: Realities and Myths
+By Dr. Mohammed Chalouli Head of Strategy, Technology Watch Research and Development @ SATICOM
+Demystification of AI and machine learning, understanding their true capabilities and limitations.
+AI & ML
+business
+Startups
+Where
+Conference room
+09:35 - 10:20
+ChatGPT and Language Models
+By Kirouane Mohammed Data Scientist and Statistician, student at ENSSEA
+Exploration of ChatGPT and AI language models, their impact on digital communication.
+AI & ML
+business
+Digital Transformation
+Innovation
+Language Models
+Startups
+Where
+Conference room
+09:35 - 10:05
+Digital Transformation: Sectors and Impacts
+By BENSAAD AMINE Amine Bensaad, a seasoned ICT & Telecom Manager with 18 years of experience across international projects.
+A look at how digital transformation affects various sectors and creates new opportunities.
+business
+Digital Transformation
+Future
+Innovation
+opportunities
+Where
+Conference room
+09:35 - 10:05
+Career Development in ICT
+By Hamdi Sellami Personal Development Coach and the founder of Infinity Elevate
+Strategic advice and inspiring stories for navigating and excelling in an ICT career.
+business
+Careers
+Entrepreneurship
+Jobs
+Where
+Conference room
+10:10 - 10:40
+From Steam Engines to Artificial Intelligence
+By Tadjeddine BACHIR Tadjeddine Bachir, a graduate of the Ecole Supérieure d’Informatique, is the author of a book on e-Government in Algeria and founder of a software publishing company since 1997
+Discover how to turn your ideas into concrete actions and build your own business. Become the architect of your future by daring to step off the beaten path and write the story you want to live.
+Careers
+Innovation
+opportunities
+Startups
+Technology
+Where
+Conference room
+10:10 - 10:40
+AI in Healthcare: Innovations and Challenges
+By Sofiane OUAARI PhD candidate at the University of Tübingen and the International Max Planck Research School for Intelligent Systems
+Discussion on the revolutionary use of AI in healthcare.
+Entrepreneurs share keys to success in the digital world.
+business
+Digital Transformation
+Entrepreneurship
+Future
+Innovation
+Startups
+Technology
+Where
+Panel: Conference room
+10:10 - 10:40
+Privacy-Preserving Machine Learning
+By Sofiane OUAARI PhD candidate at the University of Tübingen and the International Max Planck Research School for Intelligent Systems
+Join us for this conference to explore the importance, as well as the "what," "how," and "why" of privacy-preserving machine learning (ppML). At the intersection of data regulations and secure machine learning systems, ppML enables us to enhance the privacy of our machine learning models against various types of privacy attacks, such as membership inference, model inversion, and data poisoning. This talk will cover multiple ppML solutions, including differential privacy, controlled representation learning, and federated learning.
+Machine Learning
+ppML
+Privacy-Preserving
+Where
+Conference room
+10:25 - 11:10
+Cybersecurity: Strategies and Innovations
+By Hamza BAROUD Cyber Security Manager At Icosnet Spa, Ghiles MAHLEB Cybersecurity consultant chez KEYSTONE
+Discussion on cybersecurity strategies and the latest innovations.
+Cybersecurity
+Innovation
+Startups
+Where
+Panel: Conference room
+10:30 - 11:45
+Cybersecurity Basics
+By Amine Belkhodja Cybersecurity Engineer | ASOC Incident Response | Top 1% TryHackMe
+Understand the fundamentals of cybersecurity.
+Cybersecurity
+Security
+Web & Mobile
+Where
+Workshop room 2
+10:30 - 11:45
+Laravel, Introduction & Best Practices
+By Mohammed Benzouache Web developer specializing in the Laravel framework at Algérie Telecom.
+This course offers an introduction to Laravel for developing robust and secure backend web applications, applying best practices and mastering key concepts through practical examples.
+Exploring the challenges and opportunities for entrepreneurs in Algeria.
+Blockchain
+Careers
+Digital Transformation
+Entrepreneurship
+Innovation
+Startups
+Technology
+Where
+Conference room
+10:45 - 11:15
+Quantum Leap: Exploring the Future of Quantum Computing
+By Yousra Farhani Founder of Quantum Africa, Quantum Computing Researcher.
+Join us on an inspiring journey into the world of quantum computing, a game-changing technology poised to redefine industries, economies, and scientific research. This talk will uncover the opportunities and challenges within the quantum landscape. We'll explore the future of quantum innovation in Algeria and across the continent, highlighting how embracing this technology can shape a brighter, more technologically empowered future. What People Will Discover:
+An introduction to the field of quantum computing: What it is, why it matters, and how it differs from classical or normal computing.
+Key opportunities and challenges in the field: From technological advancements to ethical and economic implications.
+The current state of quantum research and development.
+How individuals can get involved and join the quantum force, by expanding the use of this technology.
+business
+Careers
+Entrepreneurship
+Future
+Innovation
+Jobs
+Startups
+Technology
+Where
+Conference room
+10:45 - 11:15
+Merging Horizons : The synergy of Drones and AI
+By Embarek Mohammed Computer Engineer with a master’s degree in Visual Computing from USTHB.
+How drones and artificial intelligence (AI) work together to improve navigation, data collection, and much more.
+AI & ML
+Automation
+drones
+Where
+Conference room
+11:00 - 12:15
+Introduction to Machine Learning
+By Abdelkrim Nachef Data Scientist & AI Engineer | instructor | Consultant Associate Data Scientist Certified from Datacamp NLP | CV Pythonist
+Practical workshop to learn the basics of machine learning.
+AI & ML
+Innovation
+Machine Learning
+opportunities
+Startups
+Technology
+Where
+Workshop Room 1
+11:00 - 12:15
+Best Practices in Cybersecurity and Attack Simulation
+By Mohamed EL GADIR Cloud Application & Security Manager At Icosnet Spa
+Learn industry-standard cybersecurity practices to protect your organization.
+Cybersecurity
+Where
+Workshop room 2
+11:00 - 12:15
+Ethical AI Development
+By Ouassim Kessir Data Analyst/Scientist at Société Générale
+Explore the ethical considerations in AI development and implementation.
+AI & ML
+business
+Tech Ethics
+Where
+Workshop Room 1
+11:00 - 12:15
+Introduction to Data Science
+By Abdelrahmane Khaldi AI Engineer/ Master 2 - Ingénierie Système Intelligent/ Kaggle Expert
+Get started with the basics of data science, including data analysis and visualization.
+big data
+Cloud & Data
+Entrepreneurship
+Future
+Innovation
+Startups
+Technology
+Where
+Workshop Room 1
+11:00 - 12:15
+Big Data Technologies
+By Tarek Bouras Software Engineer at Icosnet SPA & Big Data enthusiast.
+Learn about the technologies and tools used in big data processing and analysis.
+big data
+business
+Entrepreneurship
+Startups
+Technology
+Where
+Workshop Room 2
+11:00 - 12:00
+Remote Collaboration Tools
+By Rayan Ibrahim Benatallah ML Engineer & Agentic Programmer | Custom LLM Solutions Developer | GenAI | IT Project Management | HIS University Alumnus | Lauréat Mawahub 1st Edition
+Discover and learn to use the most effective tools for remote work and collaboration.
+business
+Careers
+Entrepreneurship
+Jobs
+Project Management
+Startups
+Where
+Workshop Room 1
+11:00 - 12:15
+Building Modern Web Applications with Next.js: A Hands-On Introduction
+By Gharbi Adlene Gharbi Adlene | General Manager | GH Soft
+Dive into the world of Next.js, a React framework for building fast, SEO-friendly, and scalable web applications. This workshop is perfect for developers looking to enhance their skills with server-side rendering, dynamic routing, and API integrations. You'll learn key concepts, explore live coding demos, and create a mini-project to kickstart your Next.js journey.
+Engineering
+JavaScript
+Language
+Nextjs
+Programming
+React
+Web Development
+Where
+Workshop Room 2
+11:05 - 11:45
+Data Science and Big Data: Challenges and Opportunities
+An exploration of challenges and opportunities in the fields of data science and big data.
+big data
+Cloud & Data
+Digital Transformation
+Startups
+Technology
+Where
+Conference room
+11:15 - 12:00
+Immersion and Engagement: VR and AR in Mobile Applications
+By Meziane Dahou Founder and CEO of BrainerX, Co-founder & CTO of Kastudio
+This conference on VR and AR in mobile applications will explore how these immersive technologies can enhance user experience, boost engagement, and add interactivity. We’ll cover integration basics, practical use cases, and the essential role of VR and AR in modern apps, from retail to education. Ideal for developers and strategists, this session offers insights into driving innovation in mobile applications through VR and AR.
+AR/VR
+Startups
+Technology
+Web & Mobile
+Web Development
+Where
+Conference room
+11:20 - 12:40
+IoT and Smart Cities
+By Embarek Mohammed Computer Engineer with a master’s degree in Visual Computing from USTHB., Zakaria RABIAI Zakaria Rabiai specializes in the Internet of Things (IoT), focusing on innovation in smart cities and digital transformation.
+Discover how IoT is shaping the future of urban development.
+The Internet of Things (IoT) plays a crucial role in the development of smart cities by optimizing resource management, improving citizens' quality of life, and enhancing the sustainability of infrastructures.
+How IoT is Transforming Cities
+- The Role of IoT Solutions in Smart Cities
+- Connectivity and Security in an Urban Environment
+- Integration of Sensors and Connected Systems:
+- Real-time infrastructure monitoring
+- Benefits of IoT for Municipalities and Citizens
+IoT
+Smart Cities
+Startups
+Where
+Workshop Room 2
+11:20 - 11:50
+Startup Pitch of the ANPT’s Virtual Incubation Program
+By Nadjet AIDI Co-founder and General Manager of APSEC, Imad Eddine Ikhlef Porteur du projet PETIES / Etudiant en médecine vétérinaire , Laaouira Si Achour Fondateur de la startup NOOR ACCESSIBILITY, Yassine Azzi Fondateur de la startup ALGERIA VIRTUAL TRAVEL, Meriem Rhym Belkacem Fondatrice de la startup BIM Simplement
+Presentation of startup projects supported by ANPT's Virtual Incubation Program.
+This session will explore how decentralization and NFTs are transforming the art world by redefining concepts of ownership and authenticity.
+Through a critical and engaging lens, LASFAR (Yasser Ameur) will address the promises and contradictions of Web 3, challenging the audience to reflect on the evolving relationship between art, technology, and identity.
+Art
+Decentralization
+NFT
+Technology
+Web 3
+Where
+Conference room
+11:30 - 12:00
+Social Media and E-Marketing
+By Mehdi Tafticht Product Owner | Digital Project Manager | UI/UX Designer | Digital Consultant | Founder Kreo Agency, BEREKSI REGUIG Rabie CEO CorpoSmart Algérie, Rym Belamri Elevating SMBs with Digital Strategies | Crafting Compelling Content for Brand Success | Social Media Mastery & Community Building |, Mohamed Ramzi Ikouirene A digital marketing expert and content creator.
+Learn current strategies in social media and digital marketing.
+Digital Marketing
+Innovation
+Startups
+Where
+Conference room
+11:55 - 12:15
+Optimize and Innovate: AI as a Performance Lever for Algerian Companies
+By Mohamed Seif eddine Salhi SEO Media Smart & Organizer of ConstanTIC & BuilTEC, Digital Marketing Consultant
+This conference will explore how Algerian businesses leverage AI to enhance operational efficiency, decision-making, and resource optimization. Featuring concrete examples from local companies that have successfully integrated these technologies, the session aims to inspire and showcase the transformative potential of AI in driving innovation and performance within the Algerian market.
+AI
+Algerian Companies
+Automation
+Entrepreneurship
+Innovation
+IT
+Jobs
+Where
+Conference room
+12:00 - 12:30
+Data Analysis with Python
+By Benmalek Zohir Multiple certifications, including the Oracle OCI certification in Generative AI
+This short talk will introduce the essential steps in data analysis using Python. Participants will learn how to load, clean, and manipulate data, as well as explore techniques for visualizing insights. What participants will learn:
+● Loading data from CSV
+● Cleaning and preprocessing data
+● Data exploration and visualization using pandas and matplotlib
+● Transforming and manipulating data (filtering, grouping, aggregation) Workshop Program (30 minutes): Introduction to Data Analysis in Python (5 minutes)
+○ The importance of data analysis in Python
+○ Key libraries: pandas, matplotlib, numpy
+Data Loading & Cleaning (10 minutes)
+○ Importing data from CSV
+○ Handling missing values and inconsistencies with pandas
+Data Exploration (5 minutes)
+○ Summarizing data with pandas functions (head(), info(), etc.)
+○ Visualizing data distributions using matplotlib.pyplot
+Data Manipulation (5 minutes)
+○ Filtering and selecting data with conditions
+○ Grouping and aggregation with pandas (groupby(), agg())
+Learn the key principles of User Experience (UX) design with a hands-on demonstration on an Android mobile application.
+UI/UX Design
+Web & Mobile
+Where
+Workshop Room 2
+13:00 - 13:30
+Innovations in Startups
+By Kheireddine Boulefa CEO chez Moustachir | Investissement, Entrepreneuriat
+Discover how startups innovate and transform industries.
+Innovation
+Startups
+Technology
+Where
+Conference room
+13:00 - 13:40
+AI Meets Entrepreneurship: Driving Africa's Startup Economy
+By Abderraouf Ahmed Abla Nvidia Deep Learning Institute Ambassador | Former IBM AI Intern | Artificial Intelligence Instructor at GOMYCODE
+AI Meets Entrepreneurship: Driving Africa's Startup Economy Abderraouf will share insights on how AI is shaping the future of startups across Africa. Get ready to be inspired and empowered by his experience in both the tech and entrepreneurial worlds!
+AI
+Algerian Companies
+Startups
+Where
+Conference room
+13:00 - 13:40
+Social Impacts of Technology
+By Anis ABABSIA Co-Founder & General Manager of Zone - Brand Development Agency & Board Member of GAAN
+Discussion on how technology can be used for positive social impact and to address societal challenges.
+Social
+Where
+Conference Room
+13:30 - 14:45
+Advanced Python Programming
+By Benmalek Zohir Multiple certifications, including the Oracle OCI certification in Generative AI
+This workshop introduces advanced Python programming concepts through the creation and explanation of Retrieval-Augmented Generation (RAG) systems. Participants will learn the essential components of RAG, implement a system, and understand its applications in modern AI. What participants will learn:
+● Fundamentals of RAG systems and their applications
+● Document processing and embedding creation techniques
+● Working with vector databases (e.g., FAISS)
+● Query processing and retrieval mechanisms
+● Prompt engineering for effective RAG implementation
+● Integration with Large Language Models (LLMs) Workshop Program (1h15): Introduction to RAG Systems (10 minutes)
+○ Overview of RAG architecture
+○ Applications and benefits
+RAG System Schema (10 minutes)
+○ Detailed walkthrough of the RAG pipeline
+○ Components and their interactions
+Document Processing (10 minutes)
+○ Techniques for processing various document types
+○ Preparing data for embedding
+Mastering ROS: A Comprehensive Introduction to Advancing Your Robotics Innovations
+business
+Engineering
+Machine Learning
+Programming
+Robotics
+Where
+Workshop room 2
+13:30 - 14:45
+Create real-time AR filters
+By Dif Yousra Artificial intelligence engineer at Algérie Télécom
+Introduction to developing for virtual and augmented reality platforms.
+AR/VR
+Startups
+Web Development
+Where
+Workshop Room 1
+13:30 - 14:45
+Exploring IoT: Simulating the Future of Connectivity
+By LAOUDI Farid Cybersecurity student | President of Micro Club | Robotic instructor | Data analyst intern (Tchin-lait)
+In this interactive workshop, we will dive into the world of the Internet of Things (IoT) to explore its workings, applications, and impact across various fields. You will learn how to simulate IoT devices using practical tools, understand essential communication protocols, and create your first connected projects. This workshop is perfect for beginners and enthusiasts looking to grasp the basics of IoT and experiment with its implementation in a virtual environment. Get ready to connect the world, one sensor at a time!
+IoT
+IT
+Jobs
+Where
+Workshop Room 2
+13:30 - 14:45
+Effective Networking Strategies
+By Yacine Keddou Music, Art, And Fashion Curator, Fashion Designer ,Image Consultant ,Creative Director ,Serial Entrepreneur
+Master the art of effective networking in this digital world. An interactive workshop to build a strong network.
+By Adlene Menaï Digital Marketing Expert & Educator
+Practical workshop on SEO and digital marketing.
+Digital Marketing
+SEO
+Startups
+Where
+Workshop Room 1
+13:35 - 14:05
+Future Trends in Technology
+By Dr. Nizar Djalal Adnani Dr. Nizar Djalal Adnani Cofounder Makers Lab incubator Oran Cofounder Serious Evo (Romania)
+An overview of future trends in technology and how they could shape our world in the years to come
+Future
+Trends
+Where
+Conference room
+13:45 - 14:30
+Big Data and Its Impact on Business
+By Amir Achraf Boudour Chief Operating Officer | Business Intelligence & Marketing Product | Engineering Background
+Exploration of the impact of Big Data in the business world.
+business
+Cloud & Data
+Cloud Computing
+Where
+Conference room
+13:45 - 14:15
+Automation Technologies (IoT)
+By Zakaria RABIAI Zakaria Rabiai specializes in the Internet of Things (IoT), focusing on innovation in smart cities and digital transformation.
+The Internet of Things (IoT) plays a key role in the development of smart cities by optimizing resource management, improving citizens' quality of life, and enhancing the sustainability of infrastructures. Key aspects of IoT in smart cities:
+● How IoT is transforming cities
+● The role of an IoT solution in Smart Cities
+● Connectivity and security in an urban environment
+● Integration of sensors and connected systems: Real-time infrastructure monitoring
+● Benefits of IoT for Municipalities and Citizens
+Automation
+business
+Digital Transformation
+Innovation
+opportunities
+Technology
+Where
+Conference room
+13:45 - 14:15
+Innovation 101: Strategies and Foundations for Effective and Sustainable Management
+These topics highlight the essential aspects of innovation and innovation management, emphasizing the strategies and capabilities required to succeed in a competitive environment.
+101
+Innovation
+Management
+Sustainable
+Technology
+Where
+Conference room
+14:00 - 14:30
+Leadership and Innovation in IT
+By Fateh Eddine KEZZIM Consultant and Trainer in Entrepreneurship and Digital Transformation
+Insights on how innovative and effective leadership can transform technology companies.
+A practical workshop to master agile project management methods, essential in the dynamic IT environment.
+Agile
+business
+Entrepreneurship
+Project Management
+Startups
+Where
+Workshop Room 1
+14:00 - 15:15
+Introduction to Swift for iOS
+By Adel FOUDAD iOS Engineer with more than 7 years of experience
+Discover Swift, the powerful and intuitive programming language for iOS development, in this interactive workshop.
+business
+iOS
+Language
+Programming
+Startups
+Swift
+Technology
+Where
+Workshop Room 2
+14:10 - 14:50
+Startup Solutions: Innovating Yalidine's Logistics Together
+Join us to explore how innovative startups have partnered with Yalidine, turning logistics challenges into growth opportunities. In this panel, Yalidine and its key startup collaborators share insights on problem-solving, growth, and partnership success. Each startup, now a primary service provider for Yalidine, recounts its journey and how Yalidine’s trust and support empowered them to thrive. This session is a call to every startup ready to make an impact in logistics!
+101
+Innovation
+Management
+Sustainable
+Technology
+Where
+Conference room
+14:20 - 14:50
+AI Challenges and Opportunities
+By Mehdi Bourahla CTO and CAIO at Data Intuition, Mohamed Zaouidi CEO of Aim & Research scientist at Institute of polytechnic Paris
+A debate on the unique challenges and opportunities presented by AI in various sectors.
+Challenges and Imperatives in the Era of Artificial Intelligence.
+Psychosocial engineering is a major challenge in cybersecurity in the era of artificial intelligence. It raises many challenges to be met in order to protect systems and users against emerging threats.
+AI & ML
+Cybersecurity
+Engineering
+Psychosocial
+Where
+Conference room
+14:35 - 15:20
+Panel: Innovations in Cloud Computing
+By Mahfoud SEFTA Cloud Infrastructure & Engineering Manager At Icosnet Spa
+Discover the latest innovations in cloud computing.
+Cloud & Data
+Cloud Computing
+Digital Transformation
+Startups
+Where
+Conference room
+14:35 - 15:05
+Professional Growth Strategies
+By Adel BENSALAH Stilioo & El Hana Snacks | Entrepreneuriat | Digital Marketing | Agroalimentaire | Investissement, Amina DAOUD Entrepreneur and a passionate advocate for data innovation, Hamdi Sellami Personal Development Coach and the founder of Infinity Elevate, Chafik Chikh Advisor to the CEO of Algérie Télécom and former CEO of SATICOM
+Experts share strategies for continuous professional growth in the constantly evolving technology sector.
+business
+Careers
+Entrepreneurship
+Future
+Growth Strategies
+Innovation
+Startups
+Technology
+Where
+Panel: Conference room
+14:55 - 15:35
+Careers in ICT
+By Mouloud Khelif Founder, SPG Advisory, Embarek Mohammed Computer Engineer with a master’s degree in Visual Computing from USTHB., Karim HEMINA Karim HEMINA combines engineering excellence with technical leadership
+Discussion on opportunities and challenges in ICT careers.
+This workshop introduces the fundamentals of marketing within the energy industry, focusing on how to effectively communicate technical concepts and build a professional presence using data.
+Participants will learn practical strategies tailored for engineers, technical professionals, and entrepreneurs new to marketing.
+business
+Digital Marketing
+Entrepreneurship
+Startups
+Where
+Workshop Room 1
+15:00 - 16:15
+The magic of math
+By Hocine BOUZINA Magister in Electrical Engineering from USTHB Algeria.
+Discover how to use data science to generate social impact. A workshop on using data for good.
+big data
+business
+Cloud & Data
+Cloud Computing
+Entrepreneurship
+Future
+Innovation
+Machine Learning
+Social
+Startups
+Tech Ethics
+Technology
+Where
+Workshop Room 2
+15:05 - 15:50
+Startup Label
+By Karim Brouri CEO-Founder BRENCO, Mehdi Gaham R&D. Industry 4.0, Intelligent Automation and Robotic. NSC., Wissame Saada Wissame Saada is the Deputy Director for the Development and Promotion of Startups at the Ministry of Knowledge Economy, Startups, and Micro-enterprises.
+Are you afraid AI will take your place? In this conference, Ahmed Bachir Cherif explores how artificial intelligence is revolutionizing the creative process in design and innovation. Through practical examples and advanced tools, Ahmed demonstrates how AI facilitates innovation, accelerates design, and opens new perspectives for creators aiming to stay at the forefront of their field.
+AI & ML
+ChatGpt
+Creativity
+Digital Marketing
+Future
+Innovation
+Startups
+UI/UX Design
+Where
+Conference room
+15:30 - 16:45
+Front-End Web Development
+By Gharbi Adlene Gharbi Adlene | General Manager | GH Soft
+This workshop is an introduction to front-end web development, where we will explore the essential basics of creating a modern and interactive user interface using HTML, CSS, and JavaScript. You will learn how to structure a page, style it, and add interactive features. What participants will learn:
+● The basics of HTML, CSS, and JavaScript
+● How to create a responsive web page
+● Modern layout techniques (Flexbox, Grid)
+● How to make an interface interactive with JavaScript Workshop Program (1h15): Introduction to Front-End Development (10 minutes)
+○ Role of a front-end developer
+○ Key technologies: HTML, CSS, JavaScript
+HTML - Structuring the web page (15 minutes)
+○ Basic structure of an HTML page
+○ Introduction to HTML5 tags
+CSS - Styling and Layout (15 minutes)
+○ Basic CSS syntax
+○ Flexbox & Grid: Modern layout techniques
+JavaScript - Making the interface dynamic (15 minutes)
+○ Basics of JavaScript for front-end
+○ DOM manipulation
+Q&A & Quick Demo (15 minutes)
+○ Answering participants' questions
+○ Demonstration of a small project combining HTML, CSS, and JS
+Startups
+Web & Mobile
+Where
+Workshop Room 1
+15:30 - 16:45
+Beyond JavaScript: React Typescript Apps with Tailwind Css and Communicating with Backend Servers
+By Faiçal Bounedjar Software Engineer at @icosnet | Specializing in JS
+Take your JavaScript skills further by embracing TypeScript in React projects. In this workshop, you’ll explore the advantages of TypeScript, build beautifully styled apps with Tailwind CSS, and implement frontend backend communication to create complete, production-ready applications.
+AI & ML
+JavaScript
+Tailwind
+Where
+Workshop room 2
+16:05 - 16:30
+Closing Ceremony
+Event recap, acknowledgments, and future outlook.
+Closing
+Where
+Conference room
+16:40 - 17:00
+Artificial Intelligence and Society
+By Karim HEMINA Karim HEMINA combines engineering excellence with technical leadership
+Explore the impact of AI on society and industries.
+AI & ML
+Digital Transformation
+Innovation
+Startups
+Where
+Conference room
+9:00 - 10:00
+Opening Ceremony and Inauguration
+Official launch of the event with speeches from ministers, sponsors, and CEOs
+Opening
+Where
+Conference room
+9:00 - 9:30
+Soft Skills for IT Professionals
+By Karim HEMINA Karim HEMINA combines engineering excellence with technical leadership
+Exploration of essential non-technical skills for IT professionals in the modern world.

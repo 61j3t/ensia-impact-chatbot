@@ -1,0 +1,39 @@
+[Source: https://ibtikar.dgrsdt.dz/front/platforms/22]
+[Title: IBTIKAR]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:19:13+00:00]
+
+Address: Centre de Recherche en Technologie des Semi-conducteurs pour l’Energétique CRTSE
+Email: direction@crtse.dz
+Phone: 023 49 56 29
+Category: MESRS
+Number of services : 11
+Number of equipment : 14
+Number of prestations : 490
+Description
+The C.R.T.S.E develops disciplines that will have an impact on some socio-economic sectors. Its mission is to lead scientific research, technological innovation, valorization and post- graduate training in the field of materials science and technology and also semi-conductors devices, covering various applications areas including: energy conversion, photovoltaic and energy storage, sensing, optoelectronics and photonics. The Center actively contributes to the development of knowledge and its transformation into technological know-how and products for economic and societal development.
+| caractérisation | APC-IMS4FE/CRTSE | |
+| caracterisation | APC-250/CRTSE | |
+| caractérisation | APC -7610/CRTSE | |
+| Microscope électronique à Balayage de haute résolution | OP- FL3-DFX-iHR320/CRTSE | |
+| caractérisation | FTIR/ATR | |
+| caractérisation | MEES – 500/CRTSE | |
+| caractérisation | OP-ELX-02 C00PC | |
+| caractérisation | MEES- MTCA/CRTSE | |
+| caractérisation | PR- HL59/CRTSE | |
+| caractérisation | OP-01Oriel | |
+| caractérisation | MEES- ELX-02 /CRTSE |
+| SIMS | APC-IMS4FE/CRTSE | |
+| XPS | APC-250/CRTSE | |
+| MEB | APC -7610/CRTSE | |
+| EPMA | OP- FL3-DFX-iHR320/CRTSE | |
+| Banc Photolimzniscence | APC- 230/CRTSE | |
+| FTIR/ATR | FTIR/CRTSE | |
+| Profilomètre | MEES – 500/CRTSE | |
+| Spectrophotomètre | OP-ELX-02 C00PC | |
+| ECV | PR- PN4300 /CRTSE | |
+| Effet hall | PR- HL59/CRTSE | |
+| Ellipsomètre | MEES- ELX-02 /CRTSE | |
+| Angle de contact | MEES- MTCA/CRTSE | |
+| Simulateur solaire | OP-01Oriel | |
+| Réponse spectrale | OP- M619 |

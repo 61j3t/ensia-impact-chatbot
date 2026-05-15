@@ -1,0 +1,96 @@
+[Source: https://e-services.inapi.org/embleme]
+[Title: INAPI]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:12:31+00:00]
+
+18 Emblèmes
+Nom: DZ01
+Catégorie: embleme d'etat
+Date Circulaire: 1972-10-17
+Numéro Circulaire: 1533
+Classification:
+Nom: DZ02
+Catégorie: embleme d'état
+Date Circulaire: 1973-03-27
+Numéro Circulaire: 1655
+Classification:
+Nom: DZ03
+Catégorie: embleme d'etat
+Date Circulaire: 1973-03-27
+Numéro Circulaire: 1655
+Classification:
+Nom: DZ04
+Catégorie: embleme d'etat
+Date Circulaire: 1973-03-27
+Numéro Circulaire: 1655
+Classification:
+Nom: DZ05
+Catégorie: embleme d'etat
+Date Circulaire: 2015-01-26
+Numéro Circulaire:
+Classification: 17.03.01, 26. 01.16, 28.01, 29.01.12
+Nom: DZ6
+Catégorie: Poincons de controle
+Date Circulaire: 2015-01-26
+Numéro Circulaire:
+Classification: 17.03.01, 26. 01.16, 28.01, 29.01.13
+Nom: DZ06
+Catégorie: Poincons de controle
+Date Circulaire:
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ11
+Catégorie: embleme d'état
+Date Circulaire:
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ12
+Catégorie: embleme d'état
+Date Circulaire:
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ13
+Catégorie: embleme d'état
+Date Circulaire:
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ08
+Catégorie: Poincons de controle
+Date Circulaire:
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ09
+Catégorie: Poincons de controle
+Date Circulaire:
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ10
+Catégorie: Poincons de controle
+Date Circulaire:
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ07
+Catégorie: embleme d'état
+Date Circulaire: 2022-06-05
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ14
+Catégorie: embleme d'état
+Date Circulaire: 2023-03-29
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ15
+Catégorie: Poincons de controle
+Date Circulaire: 2023-05-28
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services
+Nom: DZ16
+Catégorie: embleme d'état
+Date Circulaire: 2025-02-12
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services.
+Nom: DZ17
+Catégorie: embleme d'état
+Date Circulaire: 2025-06-15
+Numéro Circulaire:
+Classification: Désignation de tous les produits et services.

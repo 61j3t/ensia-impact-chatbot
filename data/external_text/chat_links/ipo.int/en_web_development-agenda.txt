@@ -1,0 +1,89 @@
+[Source: https://www.wipo.int/en/web/development-agenda]
+[Title: Development Agenda for WIPO]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:51+00:00]
+
+How did WIPO Development Agenda come into existence?
+The Development Agenda was established in 2007 by WIPO Member States after four years of deliberations following the initial proposal submitted by Argentina and Brazil in 2004.
+How is the Development Agenda implemented?
+The Development Agenda was established in 2007 by WIPO Member States after four years of deliberations following the initial proposal submitted by Argentina and Brazil in 2004.
+News
+Committee on development and Intellectual Property (CDIP): Thirty-Sixth Session, CDIP/36
+Implementation through projects
+How are projects implemented?
+A support package was developed for Member State representatives, WIPO staff contributing to DA projects at any stage, and DA project evaluators.
+DA Projects: Step by Step
+Guidebook on DA Project Management [PDF]
+DA project highlights
+IP and Gastronomic Tourism
+Collective Marks as a Tool for Development
+IP and Mobile Applications
+Toolkit on Patents in the Public Domain
+IP for Creative Industries in Developing Countries
+Celebrating and Empowering IP Examiners
+Other activities
+IP and Development
+Independent review
+The 2010 WIPO General Assembly requested the CDIP to undertake an "Independent Review of the Implementation of the Development Agenda Recommendations". The report prepared by the Review Team contained 15 findings, 14 conclusions and 12 recommendations [PDF].
+The CDIP adopted 10 of those recommendations and is currently in the process of negotiating how to implement them, based on a proposal made by the Secretariat.
+DA recommendations: resources and databases
+Flexibilities in the IP system
+Technical Assistance Database
+WIPO Match
+Technology Transfer Portal
+Roster of consultants
+Patent Register Portal
+Development Agenda for WIPO
+The WIPO Development Agenda ensures that development considerations form an integral part of WIPO's work. The effective implementation of the Development Agenda, including the mainstreaming of its recommendations into our substantive programs, is a key priority. The adoption of the Development Agenda was an important milestone for WIPO.
+The Agenda was formally established by WIPO's member states in 2007, in a decision which included the adoption of 45 Development Agenda recommendations, grouped into six clusters, and the establishment of a Committee on Development and Intellectual Property (CDIP).
+Key documents
+Development Agenda (DA) Projects
+News
+Committee on development and Intellectual Property (CDIP): Thirty-Second Session, CDIP/32
+April 29 to May 3, 2024 (Geneva, Switzerland) Hybrid
+Implementation
+The actions undertaken to implement the Development Agenda recommendations range from practical projects and activities, to the application of certain principles and objectives to our work.
+Catalogue of DA Projects and Outputs
+The online searchable Catalogue provides structured and detailed information on all DA projects, reports and outputs (studies, guides, databases). The Catalogue also allows users to filter their search by different criteria, which includes IP rights, IP themes, project status, key words, etc.
+Guidebook on DA Project Management
+The Guidebook for the preparation, implementation and evaluation of DA projects provides information on the entire project lifecycle: preparation, implementation, monitoring and evaluation. The Guidebook is part of a support package prepared for Member State representatives, WIPO staff contributing to DA projects at any stage of its lifecycle, and DA project evaluators. English , Arabic , French , Spanish , Russian , Chinese .
+DA Project Highlights
+IP and Gastronomic Tourism
+Promoting the use of intellectual property (IP) in culinary traditions (food and beverages) for application in the tourism sector.
+Collective Marks as a Tool for Development
+Using a collective mark enables producers in rural areas to add value to their local products by working together.
+IP and Mobile Applications
+Improving the understanding of the potential of IP for income generation in mobile applications and empowering mobile application developers with tools for using IP in their work.
+Ongoing DA Projects
+Other activities
+In addition to practical projects, the DA recommendations are also implemented through various activities, the application of certain principles and objectives to the work of WIPO, as well as through the development of resources and databases.
+IP and Development
+Under the CDIP agenda item “IP and Development”, Member States discuss IP and development-related issues. In 2018, the CDIP agreed to discuss one topic per session and to establish a Roster of Topics , which includes proposals by Member States. The Roster is open for contributions by Member States at any time, and is being periodically updated.
+Independent review
+The 2010 WIPO General Assembly requested the CDIP to undertake an "Independent Review of the Implementation of the Development Agenda Recommendations". The report prepared by the Review Team contained 15 findings, 14 conclusions and 12 recommendations .
+The CDIP adopted 10 of those recommendations and is currently in the process of negotiating how to implement them, based on a proposal made by the Secretariat.
+Resources and databases
+Flexibilities in the IP system
+IP systems have built-in flexibilities to allow member states to implement IP laws and policies that are most suited to their national and regional circumstances and capacities. Find resources on the use and implementation of flexibilities across the different domains of IP, and details of work taking place at WIPO and in other intergovernmental organizations.
+Technical Assistance Database
+Developed under Recommendation 5, the Intellectual Property Technical Assistance Database (IP-TAD) provides information on WIPO's technical assistance activities where one or more of the beneficiaries was a developing or least developed country, or country in transition.
+WIPO Match
+WIPO Match is an online tool to match seekers of specific intellectual property (IP)-related development needs with potential providers offering resources. WIPO Match is the new name for the IP Development Matchmaking Database (IP DMD).
+Technology Transfer Portal
+Information on meetings held and documents, studies and other material prepared in the context of three Development Agenda projects on technology transfer and open collaboration.
+Roster of consultants
+Developed under Recommendation 6, the Roster of Consultants (ROC) database contains information on consultants engaged by WIPO to undertake specific IP technical assistance activities.
+Patent Register Portal
+The Patent Register Portal was developed as a result of two Development Agenda projects on IP and the public domain (Project on IP and the Public Domain and Project on the Use of Information in the Public Domain for Economic Development) which contribute to Development Agenda Recommendations 16 and 20, towards a rich and accessible public domain.
+Development Agenda for WIPO
+Key documents
+Development Agenda (DA) Projects
+News
+Committee on development and Intellectual Property (CDIP): Thirty-Second Session, CDIP/32
+Implementation
+DA Project Highlights
+Other activities
+IP and Development
+Independent review
+The 2010 WIPO General Assembly requested the CDIP to undertake an "Independent Review of the Implementation of the Development Agenda Recommendations". The report prepared by the Review Team contained 15 findings, 14 conclusions and 12 recommendations [PDF].
+The CDIP adopted 10 of those recommendations and is currently in the process of negotiating how to implement them, based on a proposal made by the Secretariat.

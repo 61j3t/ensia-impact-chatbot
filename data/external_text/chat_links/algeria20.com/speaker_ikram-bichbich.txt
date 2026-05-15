@@ -1,0 +1,6 @@
+[Source: https://algeria20.com/speaker/ikram-bichbich]
+[Title: Ikram Bichbich - Algeria 2.0 - Le Futur Tech Algérien]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:53:10+00:00]
+
+Ikram Bichbich is a junior Computer Science student at the Lebanese American University, enrolled under the prestigious MEPI Tomorrow’s Leaders Scholarship. She has a strong background in research, technology, and leadership, demonstrated through her roles as a Research Assistant at LAU, Head of the IT department at Together for Blue & Green, and an Ambassador for Google’s Women Techmakers Program. Ikram has a passion for integrating technology into solving social and environmental challenges, evident from her work as a trainer at the Youth-Led AI4 Climate Resilience and Civic Engagement Program. With experience in front-end development, STEAM education, which was manifested at her internship with World Learning Algeria, and the mentorship she got. She is committed to creating impactful solutions that empower communities.

@@ -1,0 +1,66 @@
+[Source: https://www.wipo.int/en/web/wipo-pearl]
+[Title: WIPO Pearl – WIPO's Multilingual Terminology Portal]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:22:51+00:00]
+
+WIPO Pearl – WIPO’s Multilingual Terminology Portal
+WIPO Pearl gives access to scientific and technical terms derived from patent documents. It helps promote accurate and consistent use of terms across different languages, and makes it easier to search and share scientific and technical knowledge. Find out more in our user guide.
+Linguistic Search Concept Map Search API
+Why use WIPO Pearl?
+- It's developed by experienced WIPO language experts and terminologists.
+- Features ten languages – Arabic, Chinese, English, French, German, Japanese, Korean, Portuguese, Russian and Spanish.
+- Features unique concept maps.
+- All content has been validated and given a term reliability score.
+- If there is no equivalent in the target language in the database, WIPO's machine translation engine may offer you a translation proposal.
+- It's integrated with PATENTSCOPE so you can search the entire PATENTSCOPE corpus for terms and their equivalents in other languages.
+WIPO Pearl on X
+Latest updates, how-tos, opportunities to contribute, favorite terms, and much more from the WIPO Pearl team.
+News
+Partners
+The following partners have signed a Memorandum of Understanding with WIPO to establish mutual cooperation in promoting quality and professionalism in translating, interpreting and terminology.
+The following partners have agreed a Memorandum of Understanding with WIPO and validate terms in specific domains in WIPO Pearl in their capacity as technical subject field experts.
+The following partners have collaborated with WIPO in preparing validated multilingual terminology records in specific domains:
+- Terminology Standardization Division, Translation Bureau, Government of Canada
+- General Delegation for the French Language and the Languages of France (DGLFLF)-Commission for the Enrichment of the French Language, Prime Minister, France
+Students at the following universities have collaborated with WIPO in providing multilingual terminology records in specific domains:
+- National University of Córdoba, Argentina
+- University of Applied Sciences of Upper Austria, Austria
+- University of Mons, Belgium
+- Federal University of Rio de Janeiro, Brazil
+- Federal University of Rio Grande do Sul, Brazil
+- Federal University of Uberlândia, Brazil
+- Pontificia Universidad Católica de Chile, Chile
+- China University of Petroleum Beijing, China
+- Xi'an International Studies University, China
+- Universidad del Valle, Colombia
+- ISIT, Paris, France
+- Université Grenoble Alpes, France
+- Université Savoie Mont Blanc, France
+- Johannes Gutenberg University Mainz, Germany
+- Magdeburg-Stendal University of Applied Sciences, Germany
+- Saarland University, Germany
+- University of Heidelberg, Germany
+- University of Hildesheim, Germany
+- Aristotle University of Thessaloniki, Greece
+- Budapest University of Technology and Economics, Hungary
+- Eötvös Loránd University, Budapest, Hungary
+- Dublin City University, Ireland
+- University of Bologna at Forlí, Italy
+- University of Genoa, Italy
+- University of Naples “L'Orientale”, Italy
+- Saint Joseph University, Beirut, Lebanon
+- University of Auckland, New Zealand
+- Chung-Ang University, Republic of Korea
+- Peruvian University of Applied Sciences, Peru
+- Astrakhan State University, Russian Federation
+- Herzen State Pedagogical University, Russian Federation
+- Moscow State Linguistic University, Russian Federation
+- University of Johannesburg, South Africa
+- University of Geneva, Switzerland
+- Zurich University of Applied Sciences, Switzerland
+- University of Leeds, United Kingdom
+- University of Manchester, United Kingdom
+- University of Newcastle, United Kingdom
+- University of York, United Kingdom
+- Middlebury Institute of International Studies at Monterey, United States of America
+- University of Illinois at Urbana-Champaign, United States of America

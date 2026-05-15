@@ -1,0 +1,27 @@
+[Source: https://www.overleaf.com/for/community/resources]
+[Title: Overleaf and LaTeX Resources - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+Level up your Overleaf and LaTeX skills learning resources
+Whether you’re just starting out or looking for pro tips, we’ve got guides, webinars, tutorials, and docs to help you along the way.
+live_tv
+Webinars
+Get support direct from our TeXpert Support team by signing up for our live intro webinars (or watch previous ones on demand).
+local_library
+Documentation
+Discover hundreds of help and learning articles, tutorials, and more.
+school
+Tutorials
+Whether you want a general overview of LaTeX or need to know how to do something specific like setting up tables, our tutorials help you get started.
+add_notes
+Templates
+Pick from thousands of free templates in our gallery—from research articles to CVs, and so much more.
+workspace_premium
+Premium features guide
+Find out which features you'll have access to with an Overleaf subscription — and how to get the most from them — in this comprehensive guide.
+bolt
+Quick guides
+Need a cheat sheet? Check out our handy LaTeX command sheet and keyboard shortcuts to speed up your workflow.
+Stay in the Loop
+Stay up to date with the latest Overleaf features, improvements, and tips by visiting our blog. Whether it’s product updates, helpful guides, or LaTeX insights, you’ll find plenty to explore.

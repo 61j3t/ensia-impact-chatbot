@@ -1,0 +1,44 @@
+[Source: https://www.trymito.io/blog/quantifying-mitos-impact-on-analyst-python-productivity]
+[Title: Research: Mito Increases Python Scripting Speed by 400% | Mito]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:35:34+00:00]
+
+Turn data into insights and reports 4x faster with Mito AI
+We're always on the hunt for tools that improve our efficiency at work. Tools that let us accomplish more with less time, money, and resources.
+We launched Mito three years ago to help analysts write Python code faster. And even with Mito's limited functionality at the time, our users told us it was speeding up their Python script generation. Now, a few years and many features later, we set out to quantify Mito's impact on analysts' Python productivity.
+How We Measured Productivity
+Since our goal is to understand Mito's impact on Python production, we only included individuals who met the following three criteria:
+- They've used Mito for at least one month.
+- They self-assessed that they had an excellent understanding of how to use Mito.
+- They've used Mito to build at least one work-motivated Python automation.
+In other words, this study focusses on the best case scenario for Mito to improve analyst's python efficiency.
+Measuring analyst productivity can't be reduced to a single metric, so we adopted a version of the SPACE productivity framework that GitHub uses to measure developer productivity. To that end, we made sure to adhere to the following two principles:
+- Measure the holistic analyst experience by including quantifiable performance metrics as well as qualitative, self-reported metrics about the user's perception of their performance.
+- Assess Mito's productivity effects on use cases that are representative of analysts' daily work.
+Finding 1: Mito increased the speed of Python script generation by 400%.
+We asked Mito users to create a Python script following a set of step by step instructions. They were asked to complete the task once with just a Jupyter notebook without Mito, and once with a Jupyter notebook with Mito. Users were randomly assigned to either start with the Jupyter notebook or Jupyter notebook + Mito scenario.
+The scenario was adapted from a popular Kaggle exercise and included: importing data from csv files, cleaning the data, merging datasets together, calculating new metrics, and finally creating pivot tables and graphs.
+The average time it took users to complete the excercise without Mito was 1 hour 4 minutes. With Mito, the average time was 14 minutes.
+By observing video recordings of users completing these workflows, we attribute these speed improvements to three primary factors:
+- The reduction of the number of errors users encounter while building their script
+- The reduction of the number of Google searches to find Python and Pandas syntax.
+- The ease of understanding the current state of your data through a spreadsheet interface, which allows users to verify that their code is accurate before moving on to the next step of their analysis.
+It's important to keep in mind that these users are considered Mito experts and that new Mito users should not expect the same productivity improvements. In addition, the workflow users were asked to complete was accomplishable with Mito – not all workflows are a good fit for Mito.
+Finding 2: Users were more satisfied with their work when using Mito.
+While completing the same use case, we asked users to self assess their frustration and ability to remain in flow.
+While completing the workflow without Mito, users fell out of the flow state twice on average, as compared to zero times while using Mito. And similarly, while not using Mito, users became frustrated to the point of decreasing effectivness one time on average, as compared to 0 zero times while using Mito.
+In interviews with Mito users, they attribute their ability to stay in flow to the spreadsheet interface which both allows them to generate Python code without fighting with / looking up pandas syntax, and makes it trivial to understand the current state of their data.
+"Mito combines the familiarity of Excel with the power of Python. I'm able to quickly clean up, explore, and transform large data sets ... Now, three years later, I can't imagine tackling my day-to-day work without Mito as one of my tools." – Matthew Blome, Functional Lead @ Cytiva
+What do these findings mean for you?
+Mito's goal is to help non-technical analysts lower the barrier to entry of writing Python code to automate repetitive work. This study tells us that for the right use cases and for analysts that take the time to learn Mito, Mito can dramatically improve the efficiency and satisfaction with which they build their Python automations.
+However, it's important to keep in mind that not all use cases are fully accomplishable using Mito. Mito is well-suited to automation use cases that involve tabular data, but may not be as useful on other data shapes. Future studies will aim to better understand which users and use cases are best suited for Mito.
+More Like This
+Automating Spreadsheets with Python 101
+How to tell the difference between a good and bad Python automation target.
+10 Mistakes To Look Out For When Transitioning from Excel To Python
+10 Common Mistakes for new programmers transitioning from Excel to Python
+Research shows Mito speeds up by 400%
+We're always on the hunt for tools that improve our efficiency at work. Tools that let us accomplish more with less time, money, and resources.
+3 Rules for Choosing Between SQL and Python
+Analysts at the world's top banks are automating their manual Excel work so they can spend less time creating baseline reports, and more time building new analyses that push the company forward.
+Turn data into insights and reports 4x faster with Mito AI

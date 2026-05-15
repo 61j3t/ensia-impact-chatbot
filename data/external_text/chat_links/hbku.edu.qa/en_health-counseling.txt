@@ -1,0 +1,18 @@
+[Source: https://www.hbku.edu.qa/en/health-counseling]
+[Title: Health and Counseling Center | Hamad Bin Khalifa University]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:18:51+00:00]
+
+Our Services, Your Well-being
+Counseling (In-person and Online)
+We offer confidential one-on-one counseling sessions, as well as group sessions for open discussion and sharing of experiences, all in a calm and supportive environment. Appointments are easy to schedule and can usually be booked within a week, or within 24 hours in urgent cases. Sessions are available in person or securely online (advance booking required). This service is free of charge for all HBKU students.
+Comprehensive Psychiatric Clinic
+We believe your mental health is just as important as your physical health. Under the guidance of Dr. Rudwan Abdul-Al, Senior Consultant in Psychiatry, our clinic provides the latest in evidence-based diagnosis, treatment, and follow-up for a wide range of conditions, including depression, anxiety, eating disorders, attention deficit hyperactivity disorder, and more.
+Anta Bikhair - أَنتَ بِخَير
+If you prefer to start your wellness journey privately, we offer simple, anonymous self-assessment tools, no name or email required. In just a few minutes, you can gain an overview of your mental health and receive clear, personalized recommendations for your next steps.
+Learn MorePeer Support Networks
+There is something uniquely valuable about receiving support from fellow students trained by mental health professionals. Our peer support forums provide this connection through interactive sessions held throughout the academic year. Led by trained Student Community Development Advisors in campus housing, these sessions offer a safe space to share experiences, raise awareness, and foster a campus culture where mental well-being is a shared priority.
+Health and Wellbeing Enhancement Programs
+We host workshops, events, and awareness campaigns designed to give you practical tools for managing stress, improving sleep, nurturing healthy eating habits, and building resilience, so you can thrive in both your academic and personal life.
+Digital Mental Health Library
+Looking to learn more about mental well-being or find ways to grow, reflect, and develop new skills? Our digital mental health library provides a quiet space to explore knowledge, offering carefully curated books, lectures, and articles that are accessible anytime and anywhere.

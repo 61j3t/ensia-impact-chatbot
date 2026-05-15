@@ -1,0 +1,62 @@
+[Source: https://anpt.dz/bulletins-veille/906]
+[Title: ANPT]
+[Backend: httpx]
+[Fetched: 2026-05-15T10:54:27+00:00]
+
+Mise à jour critique de janvier 2025 d'Oracle : correction de 320 vulnérabilités de sécurité
+Oracle a publié son
+Critical Patch Update Pre-Release Announcement pour janvier 2025, annonçant à
+l'avance les mises à jour de sécurité cruciales dont la publication est prévue
+pour le mardi 21 janvier 2025. Cette mise à jour devrait corriger un nombre
+important de vulnérabilités dans l'ensemble du portefeuille de produits
+d'Oracle.
+Principaux points de la
+mise à jour :
+1-
+Serveur
+de base de données Oracle
+La mise à jour
+introduit cinq nouveaux correctifs de sécurité pour le serveur de base de
+données Oracle, avec deux vulnérabilités exploitables à distance sans
+authentification. Le score de base CVSS v3.1 le plus élevé est de 7,5, ce qui
+souligne le risque potentiel pour les systèmes concernés. Les versions prises
+en charge sont Oracle Database Server 19.x, 21.x et 23.x.
+2-
+Applications
+Oracle Communications
+Avec 86 nouveaux
+correctifs de sécurité, dont 59 sont exploitables à distance, cette catégorie
+présente l'une des vulnérabilités les plus importantes. Le score CVSS maximal
+est de 9,8, ce qui reflète des risques critiques. Les produits impactés sont
+Oracle Communications Cloud Native Core, Unified Data Repository, et Session
+Border Controller.
+3-
+Oracle
+MySQL
+La mise à jour couvre
+39 nouveaux correctifs de sécurité pour les produits Oracle MySQL, dont quatre
+sont exploitables à distance. Le score CVSS le plus élevé est 9.1, affectant
+les versions 8.0.40 et antérieures de MySQL Server.
+4-
+Applications
+Oracle Financial Services
+Cette catégorie couvre
+32 vulnérabilités, dont 24 sont exploitables à distance. Le score CVSS maximal
+est de 9,8, ce qui indique de graves menaces pour des produits tels qu'Oracle
+Banking et Compliance Studio.
+5-
+Oracle
+Fusion Middleware
+Au total, 21 correctifs
+ont été publiés pour Fusion Middleware, dont 17 sont exploitables à distance.
+Des produits tels que Oracle WebLogic Server et Identity Manager sont
+concernés, avec un score CVSS allant jusqu'à 9,8.
+Les vulnérabilités les
+plus graves sont celles qui affectent Oracle Communications Applications et
+Fusion Middleware, chacune atteignant un score CVSS de 9,8. Ces vulnérabilités
+pourraient permettre à des attaquants d'exploiter des systèmes sur un réseau
+sans nécessiter d'authentification.
+« En raison de la
+menace que représente une attaque réussie, Oracle recommande vivement à ses
+clients d'appliquer les correctifs de la Critical Patch Update dès que possible
+», indique l'annonce de préversion.

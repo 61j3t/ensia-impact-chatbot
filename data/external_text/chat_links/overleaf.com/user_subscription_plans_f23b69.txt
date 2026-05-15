@@ -1,0 +1,122 @@
+[Source: https://www.overleaf.com/user/subscription/plans?plan=group&itm_referrer=footer-for-groups]
+[Title: Plans and Pricing - Overleaf, Online LaTeX Editor]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:30:39+00:00]
+
+plans and pricing
+Simple pricing for individuals and teams
+Flexible plans for everyone, from individual students and researchers to large businesses and universities.
+Free
+$0/month
+$0/month
+A great way to start writing research papers.
+- includes:
+- 1 collaborator per project— The number of people you can invite to work on a project with you. The limit is per project, so you can invite different people to each project.
+- Basic AI allowance— 5 AI uses per day across available AI tools.
+- Unlimited projects
+- Basic compile timeout— This is how much time you get to compile your project on Overleaf. You may need additional time for longer or more complex projects.
+{most popular}
+Standard
+$16.60/month
+$199/year
+$21/month
+More space to write, revise, and collaborate.
+- includes:
+- 10 collaborators per project— The number of people you can invite to work on a project with you. The limit is per project, so you can invite different people to each project.
+- Increased AI allowance— 10 AI uses per day across all AI tools.
+- AI Assistant— A LaTeX-fluent AI Assistant built into your editor.
+- 24x Basic compile timeout— This is how much time you get to compile your project on Overleaf. You may need additional time for longer or more complex projects.
+- Save an extra 10% on group licenses
+How many users do you need?
+Pro
+$33.25/month
+$399/year
+$42/month
+Best for individuals and teams collaborating on complex projects.
+- includes:
+- Unlimited collaborators per project— The number of people you can invite to work on a project with you. The limit is per project, so you can invite different people to each project.
+- Max AI allowance— Full access to every AI tool. Fair usage applies.
+- AI Assistant— A LaTeX-fluent AI Assistant built into your editor.
+- 24x Basic compile timeout— This is how much time you get to compile your project on Overleaf. You may need additional time for longer or more complex projects.
+- Save an extra 10% on group licenses
+How many users do you need?
+OrganizationsContact Sales
+Plans for 20+ users, tailored for your team, department, or entire organization.
+- All the features in other plans, plus:
+- SSO and other enterprise capabilities
+- FedRAMP® authorized (optional)
+- On-premises option (optional)
+- Global feature controls
+- Larger discounts for groups of 20+
+Student
+$8.20/month
+$98/year
+$10/month
+More space to write, revise, and collaborate.
+- includes:
+- 10 collaborators per project— The number of people you can invite to work on a project with you. The limit is per project, so you can invite different people to each project.
+- Basic AI allowance— 5 AI uses per day across available AI tools.
+- AI Assistant— A LaTeX-fluent AI Assistant built into your editor.
+- 24x Basic compile timeout— This is how much time you get to compile your project on Overleaf. You may need additional time for longer or more complex projects.
+Over 25 million users at research institutions and businesses worldwide love Overleaf
+Compare all features
+Switch plans whenever your needs change.
+| Features | OrganizationsContact Sales(opens in new tab) | ||||
+|---|---|---|---|---|---|
+Overleaf AI | |||||
+AI allowance— Built-in AI tools that support writing, editing, and LaTeX workflows. Usage is capped by a daily limit that resets every day. AI features can be disabled by individual users or managed at the group level. Fair usage applies. | Basic— 5 AI uses per day across available AI tools. | Basic— 5 AI uses per day across available AI tools. | Standard— 10 AI uses per day across all AI tools. | Max— Full access to every AI tool. Fair usage applies. | Varies by plan |
+AI Assistant— A LaTeX-fluent AI Assistant built into your editor. | Feature not included | Feature included | Feature included | Feature included | Feature included |
+Performance | |||||
+Compile timeout— The maximum time Overleaf will spend generating your PDF. Larger or more complex documents can take longer to compile. | Basic | 24x Basic | 24x Basic | 24x Basic | 24x Basic |
+Compile speed— Generate your PDF faster with increased server speed. | Fast | Fastest | Fastest | Fastest | Fastest |
+Editing and collaboration | |||||
+Collaborators per project— The number of editors and reviewers you can invite to collaborate on a project with you. The limit is per project and you can invite different people to different projects. | 1 user | 10 | 10 | Unlimited | Varies by plan |
+Number of projects | Unlimited | Unlimited | Unlimited | Unlimited | Unlimited |
+Ready-to-use templates— A library of templates to help you get started. | Feature included | Feature included | Feature included | Feature included | Feature included |
+Track changes— Make and see track changes. | Feature not included | Feature included | Feature included | Feature included | Feature included |
+Document history and version control— See full history, and restore all versions. | previous 24 hours only | Feature included | Feature included | Feature included | Feature included |
+Advanced reference search— Quickly find and insert references by author, title, year, or journal — using your own .bib files or connected reference managers. | Feature not included | Feature included | Feature included | Feature included | Feature included |
+Symbol palette— Insert math symbols with the click of a button. | Feature not included | Feature included | Feature included | Feature included | Feature included |
+Integrations | |||||
+Integrations include: | Feature not included | Feature included | Feature included | Feature included | Feature included |
+Enterprise capabilities | |||||
+SSO— SAML SSO (single sign-on) improves security and streamlines logins | Feature not included | Feature not included | Feature not included | Feature included | Feature included |
+Audit logging— Administrator access to logs of key subscription lifecycle events that can assist with troubleshooting subscription level issues | Feature not included | Feature not included | Feature included | Feature included | Feature included |
+Managed user accounts— Provides tighter management of user access and deletion and allows organizations to keep control of projects when someone leaves the organization | Feature not included | Feature not included | Feature not included | Feature included | Feature included |
+User administration and usage metrics— Dashboard for adding and removing users on a subscription, and usage metrics | Feature not included | Feature not included | Feature included | Feature included | Feature included |
+On-Premises (Server Pro) option— Host Overleaf in your own secure environment, with enhanced administrative control over projects and user access. | Feature not included | Feature not included | Feature not included | Feature not included | Feature included |
+Data & Security | |||||
+ISO Certification— Overleaf is certified in compliance with ISO/IEC 27001:2022. | Feature included | Feature included | Feature included | Feature included | Feature included |
+FedRAMP® Li-SaaS authorized solution— A standardized approach to security and risk assessment for cloud technologies and US federal agencies | Feature not included | Feature not included | Feature not included | Feature not included | Feature included |
+Global feature controls | |||||
+AI usage— Control AI usage globally for your organization | Feature not included | Feature not included | Feature included— Via Support | Feature included— Via Support | Feature included— Via Support |
+Chat— Disable chat features | Feature not included | Feature not included | Feature included— Via Support | Feature included— Via Support | Feature included— Via Support |
+Dropbox integration— Disable the Dropbox integration | Feature not included | Feature not included | Feature included— Via Support | Feature included— Via Support | Feature included— Via Support |
+Support & onboarding | |||||
+Personalized onboarding | Feature not included | Feature not included | Feature not included | Feature not included | Feature included |
+Personalized support | Feature not included | Feature not included | Feature not included | Feature not included | Feature included |
+Dedicated account manager | Feature not included | Feature not included | Feature not included | Feature not included | Feature included |
+All prices displayed are in USD. Prices may be subject to additional VAT, depending on your country.
+Overleaf is indispensable for us. We use it in our research, thesis writing, project proposals, and manuscripts for publication. When it comes to writing, it’s our main tool.
+With Overleaf, we now have a process for developing technical documentation which has virtually eliminated the time required to properly format and layout documents.
+We are writing collaboratively right up until the last minute. We are faced with deadlines all the time, and Overleaf gives us the ability to polish right up until the last possible second.
+frequently asked questionsLet’s answer your questions
+Yes, you can do this at any time by going to Account > Subscription when logged in to Overleaf. You can change plans, switch between monthly and annual billing options, or cancel to downgrade to the free plan. When canceling, your subscription will continue until the end of the billing period.
+No. Changing or canceling your plan won’t affect your projects, the only change will be to the features available to you. You can see which features are available only on paid plans in the comparison table.
+This is possible when you’re purchasing a group subscription for five or more people, or a site license. For individual subscriptions, we can only accept payment online via credit card, debit card, or PayPal.
+You can view and update the card on file by going to Account > Subscription.
+You get full access to your chosen plan during your 7-day free trial, and there’s no obligation to continue beyond the trial. Your card will be charged at the end of your trial unless you cancel before then. To cancel, go to Account > Subscription when logged in to Overleaf (the trial will continue for the full 7 days).
+A collaborator is an Editor or Reviewer that you invite to work with you on a project. So, for example, on our Standard plan you can have up to 10 people collaborating with you on any given project.
+No. Only the subscriber’s account will be upgraded. An individual Standard subscription allows you to invite 10 people per project to edit the project with you. Your collaborators can access features such as the full document history and extended compile time, but only for the project(s) they’re working on with you. If your collaborators want access to those features on their own projects, they will need to purchase their own subscription. (If you work with the same people regularly, you might find a group subscription more cost effective.)
+If you have an Overleaf subscription, then your project collaborators will have access to features like real-time track changes and document history, but only for the project(s) they’re working on with you. If your collaborators want access to those features on their own projects, they will need to purchase their own subscription. (If you work with the same people regularly, you might find a group subscription more cost effective.)
+Individual subscriptions must be purchased by the account that will be the end user. If you want to purchase a plan for someone else, you’ll need to provide them with relevant payment details to enable them to make the purchase.
+As the name suggests, the student discount is only for students at educational institutions. This includes graduate students.
+No. Individual plans can’t be transferred.
+On any of our group plans, the number of licenses refers to the number of people you can invite to join your group subscription. All of these people will have access to the plan’s paid-for features across all their projects, such as real-time track changes and document history.
+Collaborators are people that your group members may invite to work with them on their projects. So, for example, if you have a Standard group plan, the members of your group can invite up to 10 people to work with them on each of their projects. And if you have a Pro group plan, group members can invite as many people to work with them on their projects as they want.
+Our group subscriptions allow you to purchase access to our premium features for multiple people. They’re easy to manage, help save on paperwork, and allow groups of 5 or more to purchase via purchase order (PO). We also offer discounts on purchases of group subscriptions for more than 20 users; just get in touch with our Sales team.
+The educational discount for group subscriptions is for students or faculty who are using Overleaf primarily for teaching.
+You can add up to 20 licenses by going to Account > Subscription when logged into Overleaf. The cost per license will be prorated at the current per license rate, and will end with your existing renewal date.
+If you need more than 20 licenses added to your subscription, please contact the Sales team.
+You can upgrade your plan from a Standard group to a Pro group plan by going to Account > Subscription.
+If you have a group or organization subscription and you want to disable AI for all your users, you’ll need to submit a request to our Support team.

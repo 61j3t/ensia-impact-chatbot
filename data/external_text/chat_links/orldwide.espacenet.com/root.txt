@@ -1,0 +1,33 @@
+[Source: https://worldwide.espacenet.com/]
+[Title: Espacenet – patent search]
+[Backend: playwright]
+[Fetched: 2026-05-15T11:30:03+00:00]
+
+Espace
+net
+Patent search
+Office/Language
+My Espacenet
+Help
+Classification search
+Results
+Advanced search
+Feedback
+Espacenet: free access to over 160 million patent documents
+Quick access
+Pocket guide
+About Espacenet
+News
+Availability
+Online seminars and events
+Learning and help
+Pocket guide
+Changes in Espacenet
+Recorded online seminars
+More on Espacenet
+Coverage
+More on EPO data
+Terms of use
+Conditions
+Fair use charter
+Automated data retrieval

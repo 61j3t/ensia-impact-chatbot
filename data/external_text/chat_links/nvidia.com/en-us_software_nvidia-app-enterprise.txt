@@ -1,0 +1,24 @@
+[Source: https://www.nvidia.com/en-us/software/nvidia-app-enterprise]
+[Title: NVIDIA App for Enterprise | NVIDIA]
+[Backend: httpx]
+[Fetched: 2026-05-15T11:26:59+00:00]
+
+Overview
+The NVIDIA app is the ultimate companion for professionals using NVIDIA RTX™ graphics cards. Optimize your applications with a unified GPU control center, record your desktop in resolutions up to 8K, and discover the latest NVIDIA tools and software. Keep your workstation up to date with automatic alerts for new driver releases, ensuring you always have the latest features and performance enhancements at your fingertips.
+Driver Preferences
+Take the guesswork out of new driver releases with the NVIDIA app driver recommendation feature. Choose drivers based on your workflow needs, and opt in for notifications when new drivers are available, ensuring increased performance, improved stability, and access to new features. When you’re ready to update, the one-click download and installation process ensures your driver is updated, optimized, and certified for your favorite applications. And if you change your mind, easily revert to your previous driver version with the driver rollback feature, providing flexibility and control in enterprise environments.
+GPU Control Center
+Easily optimize in-app and GPU settings in one location. Customize your NVIDIA graphics settings like VSync, DSR, and Low Latency Mode. Optimize your application settings by leveraging the power of the NVIDIA cloud data center to deliver personalized graphics settings based on your system’s GPU, CPU, and display. Plus, monitor and automatically tune your GPU with a single click. Whether you’re designing complex models, rendering high-resolution scenes, or running intensive simulations, your system requires maximum performance for the optimal work experience.
+System Statistics
+Display real-time FPS and performance statistics through the newly updated NVIDIA overlay. Tailor the display to showcase critical metrics like GPU and CPU utilization as well as system latency through the system statistics feature. This ensures you can monitor and optimize your system for peak performance in demanding environments.
+NVIDIA Overlay
+Professional workflows are more interactive and collaborative than ever. The NVIDIA app offers native screen capture and up to 8K resolution desktop recording, enabling you to share work quickly. Create how-to videos to streamline training, capture debugging sessions for faster problem resolution, and accelerate product development cycles, design reviews, and more with built-in recording tools that streamline your tasks. Optimize your workflow with tools designed for modern, fast-paced professional environments.
+NVIDIA Graphics Drivers
+Download the latest NVIDIA RTX Enterprise Drivers for your applications.
+NVIDIA RTX Enterprise Drivers are finely tuned in collaboration with developers and extensively tested to deliver the best experience for your applications.
+New Driver Recommendation Feature
+The NVIDIA app for enterprise introduces driver recommendations to simplify the process of choosing the right driver for your workflows. It offers three preferences to select from: NVIDIA Recommended, Leading Edge, and Conservative.
+Next Steps
+Download the newest version of NVIDIA App for enterprise and get started today.
+Find answers to some commonly asked questions about the NVIDIA app.
+Talk to an NVIDIA product specialist about your professional needs.
