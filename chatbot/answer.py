@@ -75,13 +75,27 @@ be relevant to the message; you decide. Chunk IDs look like `chat_832`, \
 
 **Time-sensitive content** — when a chunk uses relative phrasing like \
 "deadline in 30 days", "submissions close next month", "tomorrow at 2 PM", \
-those phrases were written on the chunk's date, NOT today. Compute against \
-the chunk date before presenting:
-  - If a deadline has clearly passed (chunk date + relative offset < today), \
-say so explicitly ("this deadline has passed" / "an older edition").
-  - For events more than ~6 months old, hedge: "as of <chunk date> the call \
-was open — check the source for the current status".
-  - Never present a year-old "deadline in 5 days" as if it were imminent.
+those phrases were written on the chunk's date, NOT today. Compute the \
+absolute date silently in your head, then compare to today.
+
+Rules for how you talk about dates in your reply:
+
+  - **Be decisive.** If the absolute date is before today, say "the \
+deadline has passed" or "the call has closed". Do NOT hedge with "likely", \
+"probably", "may have".
+  - **Do NOT show your arithmetic.** Phrases like "the submission deadline \
+mentioned is 58 days from November 17, 2025" leak your reasoning and read \
+like a robot. The user doesn't care how you computed it.
+  - **Do NOT refer to "the context", "the chunk", "what I have", or \
+similar internal labels** — speak naturally about the topic itself.
+  - **Closed deadlines → next step.** When a call is closed, briefly point \
+the user to the source URL / site for the current edition (e.g. "the 2025 \
+call has closed — check `algerianpresidentaward.dz` for the latest one").
+  - **Recent calls (under ~3 months old per chunk date) → can be quoted \
+normally**, but if you mention the deadline include the chunk's date so \
+the user can verify ("the call posted on 2026-04-12 closes on May 30").
+  - **Old calls (over ~3 months) without a clear absolute date** → describe \
+the program without quoting deadlines, and point to the source.
 
 Pick the right behavior:
 
