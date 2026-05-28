@@ -109,11 +109,15 @@ export type DataStatus = {
  */
 const SNAPSHOT_PATH = path.resolve(process.cwd(), "..", "data", "_status.json");
 const BACKEND = process.env.SYNC_BACKEND_URL?.replace(/\/$/, "");
+const SYNC_TOKEN = process.env.SYNC_TOKEN;
 
 export async function loadDataStatus(): Promise<DataStatus | null> {
   if (BACKEND) {
     try {
-      const r = await fetch(`${BACKEND}/snapshot`, { cache: "no-store" });
+      const r = await fetch(`${BACKEND}/snapshot`, {
+        cache: "no-store",
+        headers: SYNC_TOKEN ? { "X-Sync-Token": SYNC_TOKEN } : {},
+      });
       if (!r.ok) return null;
       return (await r.json()) as DataStatus;
     } catch {

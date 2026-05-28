@@ -23,6 +23,7 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const BACKEND = process.env.SYNC_BACKEND_URL?.replace(/\/$/, "");
+const SYNC_TOKEN = process.env.SYNC_TOKEN;
 
 function isLocalhost(req: NextRequest): boolean {
   const xff = req.headers.get("x-forwarded-for") ?? "";
@@ -36,7 +37,10 @@ export async function POST(req: NextRequest) {
   // Production path: proxy to the HF Space sidecar.
   if (BACKEND) {
     try {
-      const r = await fetch(`${BACKEND}/sync`, { method: "POST" });
+      const r = await fetch(`${BACKEND}/sync`, {
+        method: "POST",
+        headers: SYNC_TOKEN ? { "X-Sync-Token": SYNC_TOKEN } : {},
+      });
       const body = await r.text();
       return new NextResponse(body, {
         status: r.status,

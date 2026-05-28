@@ -24,11 +24,30 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE_FILE = Path(os.environ.get("SYNC_STATE_FILE", "/tmp/ensia_sync.state.json"))
+# Shared secret the dashboard sends in X-Sync-Token. When unset (e.g. local
+# dev) we don't gate /sync — it's only the HF Space deployment that
+# needs the lock.
+SYNC_TOKEN = os.environ.get("SYNC_TOKEN")
+
+
+def _require_token(token: str | None) -> None:
+    if not SYNC_TOKEN:
+        return  # auth disabled
+    # Constant-time compare to avoid a timing oracle.
+    a = (token or "").encode()
+    b = SYNC_TOKEN.encode()
+    if len(a) != len(b):
+        raise HTTPException(status_code=401, detail="invalid token")
+    diff = 0
+    for x, y in zip(a, b):
+        diff |= x ^ y
+    if diff != 0:
+        raise HTTPException(status_code=401, detail="invalid token")
 
 app = FastAPI(title="ENSIA Impact bot sidecar")
 
@@ -70,15 +89,17 @@ async def health() -> dict:
 
 
 @app.get("/sync/status")
-async def sync_status() -> dict:
+async def sync_status(x_sync_token: str | None = Header(default=None)) -> dict:
+    _require_token(x_sync_token)
     return _read_state()
 
 
 @app.get("/snapshot")
-async def snapshot() -> dict:
+async def snapshot(x_sync_token: str | None = Header(default=None)) -> dict:
     """Expose `data/_status.json` so the Vercel dashboard can read corpus
     stats / freshness / index breakdown without bundling the file. Stage
     8 of the pipeline writes this file."""
+    _require_token(x_sync_token)
     snap = ROOT / "data" / "_status.json"
     if not snap.exists():
         raise HTTPException(status_code=404, detail="snapshot not generated yet")
@@ -86,8 +107,9 @@ async def snapshot() -> dict:
 
 
 @app.post("/sync")
-async def sync_start() -> dict:
+async def sync_start(x_sync_token: str | None = Header(default=None)) -> dict:
     """Kick off the pipeline as a detached child, return immediately."""
+    _require_token(x_sync_token)
     current = _read_state()
     if current.get("running"):
         raise HTTPException(

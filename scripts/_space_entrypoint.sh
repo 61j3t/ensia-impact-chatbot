@@ -36,8 +36,8 @@ SIDECAR_PID=$!
 # heavy models into RAM.
 sleep 1
 
-echo "▶ starting Telegram bot"
-python -m chatbot.telegram_bot &
+echo "▶ starting Telegram bot (Telethon / MTProto)"
+python -m chatbot.telegram_bot_telethon &
 BOT_PID=$!
 
 # Shut everything down on container stop.

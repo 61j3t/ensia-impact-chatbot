@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const links = [
@@ -11,6 +11,7 @@ const links = [
 
 export function Nav() {
   const pathname = usePathname();
+  const router = useRouter();
   const [open, setOpen] = useState(false);
 
   // Auto-close the mobile menu on navigation.
@@ -18,8 +19,17 @@ export function Nav() {
     setOpen(false);
   }, [pathname]);
 
+  // Hide the nav entirely on /login — the login page is its own world.
+  if (pathname === "/login") return null;
+
   const isActive = (href: string) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
+
+  async function signOut() {
+    await fetch("/api/auth/logout", { method: "POST" });
+    router.replace("/login");
+    router.refresh();
+  }
 
   return (
     <header className="sticky top-0 z-40 border-b-2 border-ink-900 bg-cream-50/85 backdrop-blur">
@@ -50,6 +60,14 @@ export function Nav() {
               {l.label}
             </Link>
           ))}
+          <button
+            type="button"
+            onClick={signOut}
+            className="nav-pill nav-pill-idle ml-1"
+            title="Sign out"
+          >
+            ↪ Sign out
+          </button>
         </nav>
 
         {/* ── mobile: hamburger ── */}
@@ -95,6 +113,13 @@ export function Nav() {
               </Link>
             );
           })}
+          <button
+            type="button"
+            onClick={signOut}
+            className="text-left rounded-2xl px-4 py-3 text-base font-semibold transition-colors border-2 border-transparent text-ink-900 hover:bg-cream-100"
+          >
+            ↪ Sign out
+          </button>
         </nav>
       </div>
 
