@@ -36,9 +36,11 @@ def _sanitize(meta: dict) -> dict:
 
 
 def load_model() -> SentenceTransformer:
-    print(f"Loading {MODEL_NAME}…")
+    from chatbot.retrieve import _best_device
+    device = _best_device()
+    print(f"Loading {MODEL_NAME} on {device}…")
     t0 = time.time()
-    model = SentenceTransformer(MODEL_NAME, device="mps")
+    model = SentenceTransformer(MODEL_NAME, device=device)
     print(f"  loaded in {time.time() - t0:.1f}s")
     return model
 

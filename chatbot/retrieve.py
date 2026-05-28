@@ -33,7 +33,25 @@ from pathlib import Path
 from typing import Any
 
 import chromadb
+import torch
 from sentence_transformers import CrossEncoder, SentenceTransformer
+
+
+def _best_device() -> str:
+    """Auto-pick a device: MPS on Apple Silicon, CUDA on Linux+GPU,
+    CPU everywhere else (HF free Spaces, generic Linux boxes). Set the
+    `ENSIA_DEVICE` env var to override (e.g. force "cpu" on a Mac for
+    debugging)."""
+    import os
+    env = os.environ.get("ENSIA_DEVICE")
+    if env:
+        return env
+    if torch.cuda.is_available():
+        return "cuda"
+    if getattr(torch.backends, "mps", None) and torch.backends.mps.is_available():
+        return "mps"
+    return "cpu"
+
 
 ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT / "chatbot/chroma_db"
@@ -57,15 +75,15 @@ class Retriever:
         db_path: Path = DB_PATH,
         model_name: str = MODEL_NAME,
         reranker_name: str = RERANKER_NAME,
-        embed_device: str = "mps",
-        rerank_device: str = "mps",
+        embed_device: str | None = None,
+        rerank_device: str | None = None,
     ):
         self._client = chromadb.PersistentClient(path=str(db_path))
         self._collection = self._client.get_collection(COLLECTION_NAME)
         self._model_name = model_name
         self._reranker_name = reranker_name
-        self._embed_device = embed_device
-        self._rerank_device = rerank_device
+        self._embed_device = embed_device or _best_device()
+        self._rerank_device = rerank_device or _best_device()
         self._model: SentenceTransformer | None = None
         self._reranker: CrossEncoder | None = None
 
