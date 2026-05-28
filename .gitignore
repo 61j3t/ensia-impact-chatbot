@@ -4,8 +4,8 @@ __pycache__/
 .venv/
 .Python
 
-# ChromaDB persistent store (regenerable from scripts/ + data/)
-chatbot/chroma_db/
+# ChromaDB persistent store — committed for deployment so HF Spaces and
+# other ephemeral hosts don't have to re-embed on every cold start.
 
 # Secrets — API keys, etc.
 .env
