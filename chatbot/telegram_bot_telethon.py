@@ -112,32 +112,56 @@ HELP = (
 # ─── helpers (lifted verbatim from telegram_bot.py where possible) ─────
 
 def _build_topic_id_map() -> dict[int, int]:
+    """Map every content msg id → its topic-thread root id, by walking
+    reply chains back to a `topic_created` service message. Mirrors the
+    logic in the legacy bot."""
     if not MESSAGES_JSON.exists():
         return {}
     try:
-        msgs = json.loads(MESSAGES_JSON.read_text())
+        raw = json.loads(MESSAGES_JSON.read_text())
     except Exception:
         return {}
+    messages = raw.get("chats", {}).get("list", [{}])[0].get("messages", [])
+    topic_ids = {m["id"] for m in messages if m.get("action") == "topic_created"}
+    by_id = {m["id"]: m for m in messages if "id" in m}
     out: dict[int, int] = {}
-    for m in msgs:
-        if "topic_id" in m and "id" in m:
-            out[int(m["id"])] = int(m["topic_id"])
+    for m in messages:
+        if m.get("type") != "message":
+            continue
+        cur = m
+        visited: set[int] = set()
+        while cur:
+            rid = cur.get("reply_to_message_id")
+            if rid is None:
+                break
+            if rid in topic_ids:
+                out[m["id"]] = rid
+                break
+            if rid in visited:
+                break
+            visited.add(rid)
+            cur = by_id.get(rid)
     return out
 
 
 def _build_pdf_msg_map() -> dict[str, int]:
+    """Map original PDF filename → the Telegram message id that posted it."""
     if not MESSAGES_JSON.exists():
         return {}
     try:
-        msgs = json.loads(MESSAGES_JSON.read_text())
+        raw = json.loads(MESSAGES_JSON.read_text())
     except Exception:
         return {}
+    messages = raw.get("chats", {}).get("list", [{}])[0].get("messages", [])
     out: dict[str, int] = {}
-    for m in msgs:
-        for f in m.get("files") or []:
-            name = f.get("file_name")
-            if name and m.get("id"):
-                out[unicodedata.normalize("NFC", name)] = int(m["id"])
+    for m in messages:
+        if m.get("type") != "message":
+            continue
+        file_field = m.get("file")
+        if not file_field or not str(file_field).lower().endswith(".pdf"):
+            continue
+        name = Path(file_field).name
+        out[unicodedata.normalize("NFC", name)] = m["id"]
     return out
 
 

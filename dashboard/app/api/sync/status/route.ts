@@ -16,11 +16,15 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const BACKEND = process.env.SYNC_BACKEND_URL?.replace(/\/$/, "");
+const SYNC_TOKEN = process.env.SYNC_TOKEN;
 
 export async function GET(_req: NextRequest) {
   if (BACKEND) {
     try {
-      const r = await fetch(`${BACKEND}/sync/status`, { cache: "no-store" });
+      const r = await fetch(`${BACKEND}/sync/status`, {
+        cache: "no-store",
+        headers: SYNC_TOKEN ? { "X-Sync-Token": SYNC_TOKEN } : {},
+      });
       const body = await r.text();
       return new NextResponse(body, {
         status: r.status,
