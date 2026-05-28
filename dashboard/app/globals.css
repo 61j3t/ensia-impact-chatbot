@@ -4,8 +4,61 @@
 
 :root {
   color-scheme: light;
+  --grid-line: rgba(14, 17, 22, 0.06);
 }
 
-html, body {
+html,
+body {
   @apply antialiased;
+}
+
+/* Subtle dotted-grid backdrop for the page — designed-on-paper feel
+   without becoming noisy. */
+body {
+  background-color: theme("colors.cream.50");
+  background-image: radial-gradient(var(--grid-line) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-position: 0 0;
+}
+
+/* Brutalist card: black border + offset solid shadow (Gumroad-ish). */
+.card-brutal {
+  @apply rounded-3xl border-2 border-ink-900 bg-white shadow-brutal;
+}
+.card-soft {
+  @apply rounded-3xl border border-ink-900/10 bg-white shadow-soft;
+}
+
+/* Tiny uppercase tracked text above big numbers. */
+.kicker {
+  @apply text-[11px] font-semibold uppercase tracking-kicker text-ink-900/55;
+}
+
+/* Display numerals use the serif so big stats read editorial. */
+.numeral {
+  @apply font-display font-semibold tabular-nums tracking-tight;
+}
+
+/* Big editorial headline reused across every page top. Scales down on
+   phones so it doesn't overflow the viewport. */
+.hero-headline {
+  @apply font-display font-semibold tracking-tight;
+  font-size: clamp(2rem, 7vw, 3.75rem);
+  line-height: 1;
+}
+
+.nav-pill {
+  @apply rounded-full px-4 py-1.5 text-sm font-medium transition-colors;
+}
+.nav-pill-idle {
+  @apply text-ink-900/70 hover:bg-ink-900/5 hover:text-ink-900;
+}
+.nav-pill-active {
+  @apply bg-ink-900 text-cream-50;
+}
+
+/* Inline coloured pill. */
+.chip {
+  @apply inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5
+         text-xs font-semibold ring-1 ring-inset;
 }

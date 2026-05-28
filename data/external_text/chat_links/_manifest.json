@@ -654,5 +654,93 @@
     "chars": 8601,
     "backend": "httpx",
     "fetched_at": "2026-05-15T14:37:54+00:00"
+  },
+  "https://ac.dz/": {
+    "host": "ac.dz",
+    "file": "data/external_text/chat_links/ac.dz/root.txt",
+    "title": "Aventure Cloudz — Algeria's First Sovereign Developer Cloud",
+    "chars": 4023,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:14:23+00:00"
+  },
+  "https://companyprogram.injaz-eldjazair.org/en": {
+    "host": "companyprogram.injaz-eldjazair.org",
+    "file": "data/external_text/chat_links/companyprogram.injaz-eldjazair.org/en.txt",
+    "title": "The new Company Program - INJAZ El Djazair - Launch Your Future company with Real Business Experience!",
+    "chars": 3027,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:14:50+00:00"
+  },
+  "https://docs.google.com/forms/d/e/1FAIpQLScgYyUzS1JwBk4VvdZ_cJJn8h1SWmqk3sGqjaQ1hHuWEqa8Dg/viewform?usp=header": {
+    "host": "docs.google.com",
+    "file": "data/external_text/chat_links/docs.google.com/forms_d_e_1FAIpQLScgYyUzS1JwBk4VvdZ_cJJn8h1SWmqk3sGqjaQ1hHuWEqa8Dg_viewform_0c156c.txt",
+    "title": "Navigui Khobztek- Become a Student Freelancer (Sidi Abdallah)",
+    "chars": 708,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:15:48+00:00"
+  },
+  "https://docs.google.com/forms/d/e/1FAIpQLSegwQB5FF20c7w5UfR4r3hle54S8ZC5J75NyEPdgjexyZ1geg/viewform": {
+    "host": "docs.google.com",
+    "file": "data/external_text/chat_links/docs.google.com/forms_d_e_1FAIpQLSegwQB5FF20c7w5UfR4r3hle54S8ZC5J75NyEPdgjexyZ1geg_viewform.txt",
+    "title": "IGNITE 2026 Student Needs & Experience Survey",
+    "chars": 592,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:15:48+00:00"
+  },
+  "https://docs.google.com/forms/d/e/1FAIpQLSep9VwjzDsPwZCYtOZh4mrrk6dZHM_uno0ZTucMb0677X3olA/viewform": {
+    "host": "docs.google.com",
+    "file": "data/external_text/chat_links/docs.google.com/forms_d_e_1FAIpQLSep9VwjzDsPwZCYtOZh4mrrk6dZHM_uno0ZTucMb0677X3olA_viewform.txt",
+    "title": "Pilot QML Workshop - African Multi-University Session.",
+    "chars": 1254,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:15:48+00:00"
+  },
+  "https://emploitic.com/entreprises/intaj-mohtawayat/offres-d-emploi/services/stagiaire-en-intelligence-artificielle-7b1a4c9ac8a08a5f929a7c74": {
+    "host": "emploitic.com",
+    "file": "data/external_text/chat_links/emploitic.com/entreprises_intaj-mohtawayat_offres-d-emploi_services_stagiaire-en-intelligence-artificielle-7b1a4c9ac8a08a5f929a7c74.txt",
+    "title": "Offre d'emploi Stagiaire en Intelligence Artificielle - Informatique, Télécom, Internet - Alger - Algérie | Emploitic",
+    "chars": 1971,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:16:03+00:00"
+  },
+  "https://entrepreneurshipworldcup.com/": {
+    "host": "entrepreneurshipworldcup.com",
+    "file": "data/external_text/chat_links/entrepreneurshipworldcup.com/root.txt",
+    "title": "Home EWC - Entrepreneurship World Cup",
+    "chars": 1637,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:16:05+00:00"
+  },
+  "https://hackathon.dz/agro-hackathon-2026": {
+    "host": "hackathon.dz",
+    "file": "data/external_text/chat_links/hackathon.dz/agro-hackathon-2026.txt",
+    "title": "Hackathon Agroalimentaire Algerie 2026 | CRAPC",
+    "chars": 5088,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:16:09+00:00"
+  },
+  "https://icosnet.com.dz/gpu-as-a-service-algerie-icosnet": {
+    "host": "icosnet.com.dz",
+    "file": "data/external_text/chat_links/icosnet.com.dz/gpu-as-a-service-algerie-icosnet.txt",
+    "title": "GPU as a Service Algérie | ICOSNET GPU NVIDIA",
+    "chars": 3291,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:16:11+00:00"
+  },
+  "https://shorturl.at/Oxmti": {
+    "host": "shorturl.at",
+    "file": "data/external_text/chat_links/shorturl.at/Oxmti.txt",
+    "title": "PITCHI | 3rd EDITION: THE ENERGY CONTINUES Tickets, Friday, April 24  •  3 PM - 8 PM | Eventbrite",
+    "chars": 1675,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:17:47+00:00"
+  },
+  "https://thehocinesaad.github.io/algerian-tech-job-market-analysis": {
+    "host": "thehocinesaad.github.io",
+    "file": "data/external_text/chat_links/thehocinesaad.github.io/algerian-tech-job-market-analysis.txt",
+    "title": "Tech Jobs Occean 🇩🇿 — Market Intelligence Dashboard",
+    "chars": 2139,
+    "backend": "httpx",
+    "fetched_at": "2026-05-20T17:18:12+00:00"
   }
 }

@@ -841,8 +841,8 @@
     "link": "https://www.ensia.edu.dz/consultations/",
     "title": "Consultations",
     "language": "en",
-    "modified": "2026-04-30T17:45:07",
-    "char_count": 384,
+    "modified": "2026-05-12T11:08:58",
+    "char_count": 436,
     "output": "data/external_text/ensia_edu_dz/en/pages/2229_consultations.txt",
     "kind": "pages"
   },
@@ -1040,19 +1040,19 @@
     "title": "Home",
     "language": "en",
     "modified": "2023-10-17T08:48:26",
-    "char_count": 1679,
+    "char_count": 2053,
     "output": "data/external_text/ensia_edu_dz/en/pages/2_home.txt",
     "kind": "pages"
   },
   {
-    "id": 11823,
-    "slug": "recruitment-notice",
-    "link": "https://www.ensia.edu.dz/recruitment-notice/",
-    "title": "Recruitment Notice",
+    "id": 11944,
+    "slug": "ensia-and-gam-assurances-partnership-agreement",
+    "link": "https://www.ensia.edu.dz/ensia-and-gam-assurances-partnership-agreement/",
+    "title": "ENSIA and GAM Assurances Partnership Agreement",
     "language": "en",
-    "modified": "2026-04-23T09:08:40",
-    "char_count": 34,
-    "output": "data/external_text/ensia_edu_dz/en/posts/11823_recruitment-notice.txt",
+    "modified": "2026-05-19T10:40:47",
+    "char_count": 586,
+    "output": "data/external_text/ensia_edu_dz/en/posts/11944_ensia-and-gam-assurances-partnership-agreement.txt",
     "kind": "posts"
   },
   {
@@ -2975,8 +2975,8 @@
     "link": "https://www.ensia.edu.dz/ar/%d8%a7%d8%b3%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa/",
     "title": "استشارات",
     "language": "ar",
-    "modified": "2026-04-30T18:09:34",
-    "char_count": 297,
+    "modified": "2026-05-12T11:19:24",
+    "char_count": 345,
     "output": "data/external_text/ensia_edu_dz/ar/pages/2246_d8_a7_d8_b3_d8_aa_d8_b4_d8_a7_d8_b1_d8_a7_d8_aa.txt",
     "kind": "pages"
   },
@@ -2986,8 +2986,8 @@
     "link": "https://www.ensia.edu.dz/ar/careers/",
     "title": "وظائف",
     "language": "ar",
-    "modified": "2023-12-12T16:51:55",
-    "char_count": 114,
+    "modified": "2026-05-06T08:58:28",
+    "char_count": 177,
     "output": "data/external_text/ensia_edu_dz/ar/pages/1416_careers.txt",
     "kind": "pages"
   },
@@ -3091,14 +3091,14 @@
     "kind": "pages"
   },
   {
-    "id": 11834,
-    "slug": "recruitment-notice",
-    "link": "https://www.ensia.edu.dz/ar/recruitment-notice/",
-    "title": "إعلان عن توظيف",
+    "id": 11952,
+    "slug": "ensia-and-gam-assurances-partnership-agreement",
+    "link": "https://www.ensia.edu.dz/ar/ensia-and-gam-assurances-partnership-agreement/",
+    "title": "اتفاقية شراكة بين المدرسة و GAM Assurances",
     "language": "ar",
-    "modified": "2026-04-23T09:42:53",
-    "char_count": 34,
-    "output": "data/external_text/ensia_edu_dz/ar/posts/11834_recruitment-notice.txt",
+    "modified": "2026-05-20T12:37:56",
+    "char_count": 403,
+    "output": "data/external_text/ensia_edu_dz/ar/posts/11952_ensia-and-gam-assurances-partnership-agreement.txt",
     "kind": "posts"
   },
   {
@@ -4999,8 +4999,8 @@
     "link": "https://www.ensia.edu.dz/fr/consultations/",
     "title": "Consultations",
     "language": "fr",
-    "modified": "2026-04-30T18:16:07",
-    "char_count": 371,
+    "modified": "2026-05-12T11:24:11",
+    "char_count": 423,
     "output": "data/external_text/ensia_edu_dz/fr/pages/2252_consultations.txt",
     "kind": "pages"
   },
@@ -5010,8 +5010,8 @@
     "link": "https://www.ensia.edu.dz/fr/offres-demploi/",
     "title": "Offres d’emploi",
     "language": "fr",
-    "modified": "2023-12-12T16:52:15",
-    "char_count": 130,
+    "modified": "2026-05-06T09:03:45",
+    "char_count": 193,
     "output": "data/external_text/ensia_edu_dz/fr/pages/1660_offres-demploi.txt",
     "kind": "pages"
   },
@@ -5137,14 +5137,14 @@
     "kind": "pages"
   },
   {
-    "id": 11828,
-    "slug": "recruitment-notice",
-    "link": "https://www.ensia.edu.dz/fr/recruitment-notice/",
-    "title": "Avis de recrutement",
+    "id": 11953,
+    "slug": "ensia-and-gam-assurances-partnership-agreement",
+    "link": "https://www.ensia.edu.dz/fr/ensia-and-gam-assurances-partnership-agreement/",
+    "title": "Accord de partenariat entre ENSIA et GAM Assurances",
     "language": "fr",
-    "modified": "2026-04-23T09:11:45",
-    "char_count": 34,
-    "output": "data/external_text/ensia_edu_dz/fr/posts/11828_recruitment-notice.txt",
+    "modified": "2026-05-20T12:37:15",
+    "char_count": 651,
+    "output": "data/external_text/ensia_edu_dz/fr/posts/11953_ensia-and-gam-assurances-partnership-agreement.txt",
     "kind": "posts"
   },
   {

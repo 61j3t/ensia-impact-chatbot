@@ -1,0 +1,48 @@
+[Source: https://icosnet.com.dz/gpu-as-a-service-algerie-icosnet]
+[Title: GPU as a Service Algérie | ICOSNET GPU NVIDIA]
+[Backend: httpx]
+[Fetched: 2026-05-20T17:16:11+00:00]
+
+Une facturation à l’heure, permettant de ne payer
+que lorsque vous utilisez les ressources GPU,
+selon les besoins de vos projets
+Accélérez vos projets IA, de machine learning et
+de calcul haute performance grâce à une
+infrastructure GPU à la demande.
+Accès à des GPU NVIDIA dédiés, offrant une
+forte puissance de calcul et des performances
+élevées, essentielles pour vos workloads lourds (IA, inférence LLM, graphisme)
+Ajustez à tout moment vos ressources (CPU, RAM, stockage) selon l’évolution de vos besoins
+Data centers Alger et Oran
+Accès via portail cloud intuitif + accès root (SSH / RDP)
+Bande passante illimitée
+IA générative & training, inférence, rendu 3D, HPC
+Provisioning rapide en quelques clics
+Alimentez votre balance du montant de votre choix en toute simplicité et en toute sécurité, avec différents moyens de paiement disponibles (cash, virement bancaire, CIB/Dahabia)
+Accédez à un portail cloud intuitif permettant le déploiement et la gestion de vos ressources GPU ainsi qu’une large gamme de services cloud (stockage, compute, réseau….)
+Sélectionnez la configuration GPU adaptée à votre besoin et lancez votre environnement en quelques clics. Selon votre usage, vous pouvez intégrer facilement les frameworks adaptés. Le tout avec une facturation flexible basée sur l’usage Pay As You Go .
+Cette offre apporte également de la flexibilité
+grâce à un large choix de configurations en compute
+et en stockage
+Hébergée localement en Algérie , l’infrastructure
+assure une meilleure latence,
+une sécurité renforcée
+La solution GPU as a Service permet d’éviter
+des investissements lourds ainsi
+que les coûts associés.
+Les ressources GPU sont provisionnées en quelques
+minutes via un portail cloud intuitif, permettant de créer
+et de gérer facilement vos environnements
+La solution GPU as a Service, basée sur des ressources
+NVIDIA, s’adapte à tous vos besoins en calcul intensif,
+allant de l’intelligence artificielle
+Profitez de 15% de remise exclusive pour les premiers utilisateurs.
+Le GPU Passthrough est une technologie qui permet d’attribuer une carte graphique physique dédiée à une machine virtuelle. Cela garantit des performances GPU quasi natives ( physique ) pour les applications exigeantes comme l’IA, le rendu 3D ou le calcul scientifique.
+• GPU partagé : les ressources d’une même carte graphique sont utilisées par plusieurs utilisateurs en même temps.
+• GPU dédié (Passthrough) : une carte graphique complète est attribuée à un seul client. Toutes les ressources du GPU sont exclusivement réservées à cet utilisateur, sans partage avec d’autres, garantissant des performances stables, constantes et optimales.
+Une fois votre VM GPU créée et déployée via le portail cloud, vous pouvez vous y connecter de plusieurs façons :
+• SSH (Linux) / RDP (Windows)
+• Ou directement via l’accès à la machine virtuelle depuis le portail cloud
+Oui. Vous pouvez démarrer, arrêter ou supprimer votre VM GPU à tout moment depuis votre portail cloud. Avec la tarification pay-as-you-go (à l’heure), vous ne payez que lorsque vous utilisez vos ressources.
+Oui. Les machines virtuelles sont prêtes à accueillir vos frameworks. Vous disposez d’un accès administrateur complet pour installer vos outils selon vos besoins : TensorFlow, PyTorch, CUDA, etc.
+Choisissez la langue du site

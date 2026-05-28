@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T14:37:54+00:00",
+  "generated_at": "2026-05-20T17:18:15+00:00",
   "hosts": [
     {
       "host": "github.com",
@@ -7,14 +7,14 @@
       "chars": 33776
     },
     {
+      "host": "docs.google.com",
+      "pages": 13,
+      "chars": 27482
+    },
+    {
       "host": "altexsoft.com",
       "pages": 1,
       "chars": 25002
-    },
-    {
-      "host": "docs.google.com",
-      "pages": 10,
-      "chars": 24928
     },
     {
       "host": "globalafricatech.com",
@@ -67,9 +67,19 @@
       "chars": 8601
     },
     {
+      "host": "hackathon.dz",
+      "pages": 1,
+      "chars": 5088
+    },
+    {
       "host": "opportunitiespedia.com",
       "pages": 1,
       "chars": 4047
+    },
+    {
+      "host": "ac.dz",
+      "pages": 1,
+      "chars": 4023
     },
     {
       "host": "algerianpresidentaward.dz",
@@ -107,9 +117,19 @@
       "chars": 3329
     },
     {
+      "host": "icosnet.com.dz",
+      "pages": 1,
+      "chars": 3291
+    },
+    {
       "host": "erasmusplus.dz",
       "pages": 1,
       "chars": 3145
+    },
+    {
+      "host": "companyprogram.injaz-eldjazair.org",
+      "pages": 1,
+      "chars": 3027
     },
     {
       "host": "iie.org",
@@ -125,6 +145,11 @@
       "host": "drive.google.com",
       "pages": 4,
       "chars": 2623
+    },
+    {
+      "host": "emploitic.com",
+      "pages": 2,
+      "chars": 2537
     },
     {
       "host": "anpt.dz",
@@ -157,6 +182,11 @@
       "chars": 2215
     },
     {
+      "host": "thehocinesaad.github.io",
+      "pages": 1,
+      "chars": 2139
+    },
+    {
       "host": "ibtikar.info",
       "pages": 1,
       "chars": 2087
@@ -177,9 +207,19 @@
       "chars": 1687
     },
     {
+      "host": "shorturl.at",
+      "pages": 1,
+      "chars": 1675
+    },
+    {
       "host": "djezzy.dz",
       "pages": 2,
       "chars": 1662
+    },
+    {
+      "host": "entrepreneurshipworldcup.com",
+      "pages": 1,
+      "chars": 1637
     },
     {
       "host": "algeria20.com",
@@ -262,11 +302,6 @@
       "chars": 690
     },
     {
-      "host": "emploitic.com",
-      "pages": 1,
-      "chars": 566
-    },
-    {
       "host": "paperswithcode.com",
       "pages": 1,
       "chars": 499
@@ -337,11 +372,6 @@
       "chars": 0
     },
     {
-      "host": "companyprogram.injaz-eldjazair.org",
-      "pages": 0,
-      "chars": 0
-    },
-    {
       "host": "competition.intl.huaweicloud.com",
       "pages": 0,
       "chars": 0
@@ -353,6 +383,11 @@
     },
     {
       "host": "digit-collector-eh2w.vercel.app",
+      "pages": 0,
+      "chars": 0
+    },
+    {
+      "host": "djezzycloud.dz",
       "pages": 0,
       "chars": 0
     },
@@ -372,12 +407,22 @@
       "chars": 0
     },
     {
+      "host": "eval-platform.scaleo.hr",
+      "pages": 0,
+      "chars": 0
+    },
+    {
       "host": "events.cnrst.dz",
       "pages": 0,
       "chars": 0
     },
     {
       "host": "forms.office.com",
+      "pages": 0,
+      "chars": 0
+    },
+    {
+      "host": "ignite26.vercel.app",
       "pages": 0,
       "chars": 0
     },
@@ -442,6 +487,11 @@
       "chars": 0
     },
     {
+      "host": "quran-reels-eta.vercel.app",
+      "pages": 0,
+      "chars": 0
+    },
+    {
       "host": "refcircle.net",
       "pages": 0,
       "chars": 0
@@ -467,6 +517,11 @@
       "chars": 0
     },
     {
+      "host": "swc-algeria.com",
+      "pages": 0,
+      "chars": 0
+    },
+    {
       "host": "theses-algerie.com",
       "pages": 0,
       "chars": 0
@@ -478,8 +533,8 @@
     }
   ],
   "totals": {
-    "hosts": 95,
-    "pages": 82,
-    "chars": 298169
+    "hosts": 106,
+    "pages": 93,
+    "chars": 323574
   }
 }

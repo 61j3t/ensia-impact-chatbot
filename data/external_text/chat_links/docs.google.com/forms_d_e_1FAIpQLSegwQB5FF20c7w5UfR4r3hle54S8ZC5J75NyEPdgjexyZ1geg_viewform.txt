@@ -1,0 +1,14 @@
+[Source: https://docs.google.com/forms/d/e/1FAIpQLSegwQB5FF20c7w5UfR4r3hle54S8ZC5J75NyEPdgjexyZ1geg/viewform]
+[Title: IGNITE 2026 Student Needs & Experience Survey]
+[Backend: httpx]
+[Fetched: 2026-05-20T17:15:48+00:00]
+
+Would you find it interesting to have some companies that will be present mainly for visibility (no clear opportunities yet)?
+*What kind of benefits would make a company more attractive to you ?
+*Would you like to receive BEFORE the event ?
+*What would improve your interaction with companies the most? (choose only important ones)
+*What should we prioritize for the venue? (choose only important ones)
+*Which features would you like?
+*Are you interested in talks/workshops during the event?
+*Which type of concepts would you like us to bring this year?
+Does this form look suspicious? Report

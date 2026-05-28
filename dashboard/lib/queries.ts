@@ -21,6 +21,26 @@ export interface User {
   query_count: number;
 }
 
+export interface ConversationSource {
+  id: string;
+  number?: number;
+  score?: number;
+  preview?: string;
+  metadata?: {
+    source_type?: string;
+    topic?: string | null;
+    sender?: string | null;
+    date?: string | null;
+    pdf_file?: string | null;
+    chunk_index?: number | null;
+    site?: string | null;
+    title?: string | null;
+    url?: string | null;
+    language?: string | null;
+    [k: string]: unknown;
+  };
+}
+
 export interface Conversation {
   chat_id: number;
   user_id: number;
@@ -28,6 +48,35 @@ export interface Conversation {
   role: "user" | "assistant";
   content: string;
   ts: Date;
+  sources: ConversationSource[] | null;
+  tg_message_id: number | null;
+  feedback?: FeedbackCounts;
+}
+
+export interface FeedbackCounts {
+  useful: number;
+  not_useful: number;
+  report: number;
+}
+
+export interface ReportRow {
+  feedback_id: number;
+  chat_id: number;
+  message_id: number;
+  user_id: number;
+  reason: string | null;
+  created_at: Date;
+  assistant_content: string | null;
+  username: string | null;
+  first_name: string | null;
+}
+
+export interface FeedbackAggregate {
+  total_rated: number;
+  useful: number;
+  not_useful: number;
+  report: number;
+  reports_with_reason: number;
 }
 
 export interface Stats {
@@ -80,17 +129,97 @@ export async function getConversationsForUser(
   limit = 100
 ): Promise<Conversation[]> {
   // Pull the most recent N rows then return them in chronological order.
+  // Order by (chat_id, turn_idx) — turn_idx is the canonical sequence.
+  // User + assistant rows for a single turn are inserted in the same
+  // transaction so their `ts` is often identical to microsecond resolution;
+  // sorting by ts alone produced apparent role-flips in the UI.
   const rows = (await sql`
-    SELECT chat_id, user_id, turn_idx, role, content, ts
+    SELECT
+      c.chat_id, c.user_id, c.turn_idx, c.role, c.content, c.ts,
+      c.sources, c.tg_message_id,
+      COALESCE(
+        jsonb_build_object(
+          'useful',     COUNT(f.id) FILTER (WHERE f.rating = 'useful'),
+          'not_useful', COUNT(f.id) FILTER (WHERE f.rating = 'not_useful'),
+          'report',     COUNT(f.id) FILTER (WHERE f.rating = 'report')
+        ),
+        '{}'::jsonb
+      ) AS feedback
     FROM (
       SELECT * FROM conversations
       WHERE user_id = ${userId}
-      ORDER BY ts DESC
+      ORDER BY turn_idx DESC
       LIMIT ${limit}
-    ) recent
-    ORDER BY ts ASC
+    ) c
+    LEFT JOIN feedback f
+      ON f.chat_id = c.chat_id AND f.message_id = c.tg_message_id
+    GROUP BY c.id, c.chat_id, c.user_id, c.turn_idx, c.role, c.content,
+             c.ts, c.sources, c.tg_message_id
+    ORDER BY c.chat_id ASC, c.turn_idx ASC
   `) as unknown as Conversation[];
   return rows;
+}
+
+export async function getFeedbackAggregate(): Promise<FeedbackAggregate> {
+  const [row] = (await sql`
+    SELECT
+      COUNT(*)::int                                          AS total_rated,
+      COUNT(*) FILTER (WHERE rating = 'useful')::int         AS useful,
+      COUNT(*) FILTER (WHERE rating = 'not_useful')::int     AS not_useful,
+      COUNT(*) FILTER (WHERE rating = 'report')::int         AS report,
+      COUNT(*) FILTER (WHERE rating = 'report' AND reason IS NOT NULL)::int
+                                                             AS reports_with_reason
+    FROM feedback
+  `) as unknown as FeedbackAggregate[];
+  return row ?? {
+    total_rated: 0,
+    useful: 0,
+    not_useful: 0,
+    report: 0,
+    reports_with_reason: 0,
+  };
+}
+
+export async function getRecentReports(limit = 10): Promise<ReportRow[]> {
+  return (await sql`
+    SELECT
+      f.id AS feedback_id, f.chat_id, f.message_id, f.user_id,
+      f.reason, f.created_at,
+      c.content AS assistant_content,
+      u.username, u.first_name
+    FROM feedback f
+    LEFT JOIN conversations c
+      ON c.chat_id = f.chat_id AND c.tg_message_id = f.message_id
+    LEFT JOIN users u ON u.user_id = f.user_id
+    WHERE f.rating = 'report'
+    ORDER BY f.created_at DESC
+    LIMIT ${limit}
+  `) as unknown as ReportRow[];
+}
+
+export async function getMostDislikedAnswers(limit = 5): Promise<
+  { content: string; not_useful: number; ts: Date; user_id: number }[]
+> {
+  return (await sql`
+    SELECT c.content,
+           COUNT(f.id)::int AS not_useful,
+           MIN(c.ts) AS ts,
+           c.user_id
+    FROM conversations c
+    JOIN feedback f
+      ON f.chat_id = c.chat_id
+      AND f.message_id = c.tg_message_id
+      AND f.rating = 'not_useful'
+    WHERE c.role = 'assistant'
+    GROUP BY c.id, c.content, c.user_id
+    ORDER BY not_useful DESC, MIN(c.ts) DESC
+    LIMIT ${limit}
+  `) as unknown as {
+    content: string;
+    not_useful: number;
+    ts: Date;
+    user_id: number;
+  }[];
 }
 
 export async function getQueriesPerDay(
@@ -107,43 +236,3 @@ export async function getQueriesPerDay(
   return rows;
 }
 
-export async function getLanguageDistribution(): Promise<
-  { language: string; count: number }[]
-> {
-  const rows = (await sql`
-    SELECT COALESCE(NULLIF(language_code, ''), 'unknown') AS language,
-           COUNT(*)::int AS count
-    FROM users
-    WHERE is_bot = FALSE
-    GROUP BY language
-    ORDER BY count DESC
-  `) as unknown as { language: string; count: number }[];
-  return rows;
-}
-
-export async function getTopUsers(limit = 5): Promise<User[]> {
-  return (await sql`
-    SELECT user_id, username, first_name, last_name, language_code, is_bot,
-           joined_at, last_active_at, query_count
-    FROM users
-    WHERE is_bot = FALSE
-    ORDER BY query_count DESC
-    LIMIT ${limit}
-  `) as unknown as User[];
-}
-
-export async function getRecentActivity(limit = 12): Promise<
-  (Conversation & { username: string | null; first_name: string | null })[]
-> {
-  return (await sql`
-    SELECT c.chat_id, c.user_id, c.turn_idx, c.role, c.content, c.ts,
-           u.username, u.first_name
-    FROM conversations c
-    LEFT JOIN users u ON u.user_id = c.user_id
-    ORDER BY c.ts DESC
-    LIMIT ${limit}
-  `) as unknown as (Conversation & {
-    username: string | null;
-    first_name: string | null;
-  })[];
-}

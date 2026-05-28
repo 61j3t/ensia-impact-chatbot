@@ -1,0 +1,44 @@
+[Source: https://emploitic.com/entreprises/intaj-mohtawayat/offres-d-emploi/services/stagiaire-en-intelligence-artificielle-7b1a4c9ac8a08a5f929a7c74]
+[Title: Offre d'emploi Stagiaire en Intelligence Artificielle - Informatique, Télécom, Internet - Alger - Algérie | Emploitic]
+[Backend: httpx]
+[Fetched: 2026-05-20T17:16:03+00:00]
+
+Lieu de travail
+Alger
+Secteur d'activité
+Informatique, Télécom, Internet
+Date d'expiration
+06 juin
+Niveau de poste
+Stagiaire / Etudiant
+Nombre de postes
+1 poste ouvert
+Type de contrat
+Stage – Temps Partiel
+Niveau d'étude (diplome)
+TS Bac +2 | Licence (LMD), Bac + 3
+INTAJ est une entreprise spécialisée dans la création et le développement de solutions numériques avancées, centrée sur l’intelligence artificielle (IA) et l’innovation technologique.
+Elle conçoit des applications, plateformes digitales et outils d’automatisation pour accompagner les entreprises dans leur transformation digitale.
+INTAJ se positionne comme un acteur clé du futur numérique.
+Dans le cadre de ses projets innovants, INTAJ propose un stage en intelligence artificielle destiné à un(e) étudiant(e) passionné(e) par les nouvelles technologies et la data.
+Vous participerez au développement de solutions basées sur l’IA et contribuerez à des projets concrets (automatisation, analyse de données, modèles intelligents)
+Participer au développement de solutions basées sur l’IA
+Travailler sur des modèles simples de machine learning
+Contribuer à l’analyse et au traitement des données
+Aider à l’intégration de fonctionnalités IA dans des applications web
+Tester et améliorer les performances des modèles
+Collaborer avec l’équipe de développement
+Étudiant(e) en informatique, data science ou intelligence artificielle
+Notions en Python
+Connaissances de base en machine learning (souhaité)
+Esprit logique et curiosité scientifique
+Motivation et envie d’apprendre
+Travail sur des projets IA concrets et innovants
+Encadrement technique et accompagnement
+Expérience professionnelle enrichissante
+Possibilité d’embauche à la fin du stage
+Emploitic est un établissement de placement agréé par l'état et par l'ANEM sur la wilaya d'Alger. Cette annonce est diffusée à titre informatif et promotionnel
+Informatique, Télécom, Internet
+PME/PMI
+Alger, Algérie
+D'autres opportunités qui pourraient t'intéresser

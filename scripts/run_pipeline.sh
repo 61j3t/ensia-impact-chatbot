@@ -24,27 +24,36 @@ if [[ "${1:-}" == "--rebuild" ]]; then
     REBUILD_FLAG="--rebuild"
 fi
 
-echo "▶ 1/7  Extract text from PDFs"
+# Optional stage 0: pull new messages from Telegram via Telethon. Skipped
+# if the credentials aren't set — for users who maintain their data with
+# manual Telegram Desktop exports, nothing changes.
+if [[ -n "${TELEGRAM_API_ID:-}" ]] || grep -qE '^TELEGRAM_API_ID=.+' .env 2>/dev/null; then
+    echo "▶ 0/8  Sync new messages from Telegram"
+    "$PY" scripts/00_telegram_sync.py
+    echo
+fi
+
+echo "▶ 1/8  Extract text from PDFs"
 "$PY" scripts/01_extract_pdfs.py
 
 echo
-echo "▶ 2/7  OCR photo-only messages and scanned PDFs"
+echo "▶ 2/8  OCR photo-only messages and scanned PDFs"
 "$PY" scripts/02_ocr_images.py $REBUILD_FLAG
 
 echo
-echo "▶ 3/7  Merge OCR text into chat messages"
+echo "▶ 3/8  Merge OCR text into chat messages"
 "$PY" scripts/03_merge_ocr.py
 
 echo
-echo "▶ 4/7  Scrape ensia.edu.dz (WordPress REST API)"
+echo "▶ 4/8  Scrape ensia.edu.dz (WordPress REST API)"
 "$PY" scripts/04_scrape_ensia_website.py $REBUILD_FLAG
 
 echo
-echo "▶ 5/7  Scrape v2v.ensia.edu.dz (Playwright headless Chromium)"
+echo "▶ 5/8  Scrape v2v.ensia.edu.dz (Playwright headless Chromium)"
 "$PY" scripts/05_scrape_v2v_website.py $REBUILD_FLAG
 
 echo
-echo "▶ 6/7  Crawl chat-shared links (multi-page, httpx + Playwright fallback)"
+echo "▶ 6/8  Crawl chat-shared links (multi-page, httpx + Playwright fallback)"
 "$PY" scripts/06_fetch_chat_links.py $REBUILD_FLAG
 
 # If any source data is newer than the index, force a rebuild so the
@@ -69,8 +78,12 @@ elif [[ -f "$INDEX_FILE" ]]; then
 fi
 
 echo
-echo "▶ 7/7  Build / refresh retrieval index"
+echo "▶ 7/8  Build / refresh retrieval index"
 "$PY" -m chatbot.index $INDEX_REBUILD
+
+echo
+echo "▶ 8/8  Write data status snapshot for the dashboard"
+"$PY" scripts/07_status_snapshot.py
 
 echo
 echo "✓ Pipeline complete. Try a query:"

@@ -1,7 +1,7 @@
 [Source: https://www.ensia.edu.dz/fr/consultations/]
 [Title: Consultations]
 [Language: fr]
-[Modified: 2026-04-30T18:16:07]
+[Modified: 2026-05-12T11:24:11]
 
 Annonce pour consultations
 
@@ -11,7 +11,13 @@ Consultation
 
 Attribution provisoire
 
+Consultation 08
+
+Consultation 07
+
 Consultation 06
+
+Consultation 05′
 
 Consultation 05
 

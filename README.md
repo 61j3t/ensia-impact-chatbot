@@ -10,13 +10,15 @@ Opportunities, Companies, Q&A, etc.).
 ensia-impact-chatbot/
 ├── eda.ipynb                   ← Exploratory data analysis (start here)
 ├── scripts/
+│   ├── 00_telegram_sync.py            ← (optional) Pull new messages directly from Telegram via Telethon (MTProto)
 │   ├── 01_extract_pdfs.py             ← Extract text from native-text PDFs
 │   ├── 02_ocr_images.py               ← OCR photo-only messages + scanned PDFs (incremental)
 │   ├── 03_merge_ocr.py                ← Merge OCR back into chat messages
 │   ├── 04_scrape_ensia_website.py     ← Pull every page/post from ensia.edu.dz (EN/AR/FR) via WP REST API
 │   ├── 05_scrape_v2v_website.py       ← Render v2v.ensia.edu.dz with Playwright/Chromium (JS-rendered SPA)
 │   ├── 06_fetch_chat_links.py         ← Crawl URLs shared in chat: httpx + Playwright fallback, BFS up to 30 pages/host
-│   └── run_pipeline.sh                ← One command: runs 01→02→03→04→05→06 + retrieval index build
+│   ├── 07_status_snapshot.py          ← Write data/_status.json (corpus stats + freshness for the dashboard)
+│   └── run_pipeline.sh                ← One command: runs 01→02→03→04→05→06 + index build + status snapshot
 ├── docs/
 │   └── architecture.md         ← Retrieval system architecture plan
 ├── chatbot/
@@ -170,7 +172,7 @@ See `docs/architecture.md` for the full pipeline diagram and component details.
 
 ## Dashboard
 
-A read-only Next.js 15 app at `dashboard/` that displays everything Postgres has stored: total / active users, queries per day, languages, top users, recent activity, and a per-user transcript reader.
+A read-only Next.js 15 app at `dashboard/` that displays everything Postgres has stored: total / active users, queries per day, languages, top users, recent activity, and a per-user transcript reader. The `/data` route also shows a corpus status report (messages, PDFs, scraped sites, index chunks) with freshness badges, sourced from `data/_status.json` written by `scripts/07_status_snapshot.py` (final stage of the pipeline).
 
 ```bash
 cd dashboard

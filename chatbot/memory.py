@@ -62,6 +62,30 @@ CREATE TABLE IF NOT EXISTS conversations (
 
 CREATE INDEX IF NOT EXISTS idx_conv_recent
     ON conversations (chat_id, user_id, turn_idx DESC);
+
+-- Per-turn citations payload. NULL for user turns and for assistant turns
+-- with no sources (small talk, refusals). Shape mirrors
+-- chatbot.answer._format_sources output (id, number, score, metadata, preview).
+ALTER TABLE conversations ADD COLUMN IF NOT EXISTS sources JSONB;
+
+-- Telegram message_id of the bot's outgoing reply. Lets us link inline-
+-- keyboard feedback callbacks back to the assistant turn that produced
+-- them. NULL for user turns and for any historical row that predates
+-- this column.
+ALTER TABLE conversations ADD COLUMN IF NOT EXISTS tg_message_id BIGINT;
+
+CREATE TABLE IF NOT EXISTS feedback (
+    id          BIGSERIAL PRIMARY KEY,
+    chat_id     BIGINT NOT NULL,
+    message_id  BIGINT NOT NULL,   -- bot's reply tg msg id
+    user_id     BIGINT NOT NULL,
+    rating      TEXT NOT NULL CHECK (rating IN ('useful','not_useful','report')),
+    reason      TEXT,              -- only populated for 'report'
+    created_at  TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    UNIQUE (chat_id, message_id, user_id)
+);
+CREATE INDEX IF NOT EXISTS idx_feedback_msg
+    ON feedback (chat_id, message_id);
 """
 
 
@@ -157,14 +181,23 @@ class ConversationMemory:
                     (chat_id, user_id),
                 )
                 next_idx = cur.fetchone()["maxi"] + 1
+                from psycopg.types.json import Jsonb
                 rows = [
-                    (chat_id, user_id, next_idx + i, t["role"], t["content"])
+                    (
+                        chat_id,
+                        user_id,
+                        next_idx + i,
+                        t["role"],
+                        t["content"],
+                        Jsonb(t["sources"]) if t.get("sources") else None,
+                        t.get("tg_message_id"),
+                    )
                     for i, t in enumerate(turns)
                 ]
                 cur.executemany(
                     "INSERT INTO conversations "
-                    "(chat_id, user_id, turn_idx, role, content) "
-                    "VALUES (%s, %s, %s, %s, %s)",
+                    "(chat_id, user_id, turn_idx, role, content, sources, tg_message_id) "
+                    "VALUES (%s, %s, %s, %s, %s, %s, %s)",
                     rows,
                 )
 
@@ -194,6 +227,81 @@ class ConversationMemory:
         return list(reversed(
             [{"role": r["role"], "content": r["content"]} for r in rows]
         ))
+
+    # ─── feedback (inline-keyboard ratings) ─────────────────────────────
+
+    def set_feedback(
+        self,
+        chat_id: int,
+        message_id: int,
+        user_id: int,
+        rating: str,
+    ) -> str:
+        """Record (or toggle) a feedback click. Re-tapping the same rating
+        a user already gave for that bot reply *removes* it — gives the
+        UI a natural "undo" without a separate button. Returns one of:
+            'useful'      — newly applied
+            'not_useful'  — newly applied
+            'report'      — newly applied (caller should ask for reason)
+            'updated'     — rating changed from another value
+            'removed'     — toggled off
+        """
+        assert rating in ("useful", "not_useful", "report"), rating
+        with self._conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT id, rating FROM feedback "
+                    "WHERE chat_id=%s AND message_id=%s AND user_id=%s",
+                    (chat_id, message_id, user_id),
+                )
+                existing = cur.fetchone()
+                if existing and existing["rating"] == rating:
+                    cur.execute(
+                        "DELETE FROM feedback WHERE id=%s", (existing["id"],)
+                    )
+                    return "removed"
+                if existing:
+                    cur.execute(
+                        "UPDATE feedback SET rating=%s, reason=NULL, "
+                        "created_at=NOW() WHERE id=%s",
+                        (rating, existing["id"]),
+                    )
+                    return "updated"
+                cur.execute(
+                    "INSERT INTO feedback (chat_id, message_id, user_id, rating) "
+                    "VALUES (%s, %s, %s, %s)",
+                    (chat_id, message_id, user_id, rating),
+                )
+                return rating
+
+    def pending_report(
+        self, chat_id: int, user_id: int, max_age_minutes: float = 10.0
+    ) -> tuple[int, int] | None:
+        """If this user recently tapped 🚩 Report and hasn't yet sent a
+        reason, return (feedback_id, bot_reply_message_id) so the bot can
+        treat their next message as the reason. Otherwise None."""
+        cutoff = datetime.now(timezone.utc) - timedelta(minutes=max_age_minutes)
+        with self._conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT id, message_id FROM feedback "
+                    "WHERE chat_id=%s AND user_id=%s AND rating='report' "
+                    "AND reason IS NULL AND created_at >= %s "
+                    "ORDER BY created_at DESC LIMIT 1",
+                    (chat_id, user_id, cutoff),
+                )
+                row = cur.fetchone()
+        if row is None:
+            return None
+        return row["id"], row["message_id"]
+
+    def add_report_reason(self, feedback_id: int, reason: str) -> None:
+        with self._conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "UPDATE feedback SET reason=%s WHERE id=%s",
+                    (reason, feedback_id),
+                )
 
     def reset(self, chat_id: int, user_id: int) -> int:
         """Wipe conversation history for this (chat, user). User row stays."""

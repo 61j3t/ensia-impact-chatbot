@@ -31875,6 +31875,2103 @@
       ],
       "text": "",
       "text_entities": []
+     },
+     {
+      "id": 1423,
+      "type": "message",
+      "date": "2026-03-30T16:49:10",
+      "date_unixtime": "1774889350",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "🚀 New Release: Djezzy Cloud\n\nDjezzy Cloud has recently been launched, bringing a local cloud solution to Algeria 🇩🇿\n\n- Local cloud for lower latency & compliance\n- Scalable computing resources (IaaS)\n- Secure data hosting within Algeria\n- Ideal for AI projects, startups, developers\n\n🌐 A great step forward for the local tech ecosystem, offering a an alternative to global cloud providers.\n\n🔗 Learn more: \nhttps://www.djezzycloud.dz/",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🚀 New Release: Djezzy Cloud\n\nDjezzy Cloud has recently been launched, bringing a local cloud solution to Algeria 🇩🇿\n\n- Local cloud for lower latency & compliance\n- Scalable computing resources (IaaS)\n- Secure data hosting within Algeria\n- Ideal for AI projects, startups, developers\n\n🌐 A great step forward for the local tech ecosystem, offering a an alternative to global cloud providers.\n\n🔗 Learn more: \nhttps"
+       },
+       {
+        "type": "link",
+        "text": "://www.djezzycloud.dz/"
+       }
+      ],
+      "reply_to_message_id": 285,
+      "photo": "photos/photo_1423@2026-03-30T16:49:10.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "🚀 New Release: Djezzy Cloud\n\nDjezzy Cloud has recently been launched, bringing a local cloud solution to Algeria 🇩🇿\n\n- Local cloud for lower latency & compliance\n- Scalable computing resources (IaaS)\n- Secure data hosting within Algeria\n- Ideal for AI projects, startups, developers\n\n🌐 A great step forward for the local tech ecosystem, offering a an alternative to global cloud providers.\n\n🔗 Learn more: \nhttps://www.djezzycloud.dz/",
+      "text_source": "original"
+     },
+     {
+      "id": 1425,
+      "type": "message",
+      "date": "2026-04-01T20:37:00",
+      "date_unixtime": "1775075820",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "New updates and features are now live on the Brendex website 🚀 \n\nhttps://www.brendex.net/⁠\n\nMake sure to check it out and support the team behind it, they truly deserve it 🙏\n\nLinkedIn:\nhttps://www.linkedin.com/company/brendex/⁠\n\nInstagram:\nhttps://www.instagram.com/brendex.algeria/⁠",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "New updates and features are now live on the Brendex website 🚀 \n\nh"
+       },
+       {
+        "type": "link",
+        "text": "ttps://www.brendex.net/⁠"
+       },
+       {
+        "type": "plain",
+        "text": "\n\nMake sure to check it out and support the team behind it, they truly deserve it 🙏\n\nLinkedIn:\nht"
+       },
+       {
+        "type": "link",
+        "text": "tps://www.linkedin.com/company/brendex/⁠\n"
+       },
+       {
+        "type": "plain",
+        "text": "\nInstagram:\nht"
+       },
+       {
+        "type": "link",
+        "text": "tps://www.instagram.com/brendex.algeria/⁠"
+       }
+      ],
+      "reply_to_message_id": 1344,
+      "original_text": "New updates and features are now live on the Brendex website 🚀 \n\nhttps://www.brendex.net/⁠\n\nMake sure to check it out and support the team behind it, they truly deserve it 🙏\n\nLinkedIn:\nhttps://www.linkedin.com/company/brendex/⁠\n\nInstagram:\nhttps://www.instagram.com/brendex.algeria/⁠",
+      "text_source": "original"
+     },
+     {
+      "id": 1429,
+      "type": "message",
+      "date": "2026-04-08T20:22:15",
+      "date_unixtime": "1775679735",
+      "from": "Hachem",
+      "from_id": "user5373613985",
+      "text": "Selamun Aleykum everyone, I came across this AI Internship at Intaj opportunity this morning and they reached out to me in the same day, but I couldnt agree with them since they require staying in Algiers for some time in the summer.\n\nAnd since there is a chance and they are actually recruiting I wanted to share this opportunity with you, all what I know is: \n-  It is an on-site offer\n- You should be able to stay in Algiers even in the summer\n- The internship period is 3 months\n\nGood Luck.\n🔗 https://emploitic.com/entreprises/intaj-mohtawayat/offres-d-emploi/services/stagiaire-en-intelligence-artificielle-7b1a4c9ac8a08a5f929a7c74",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Selamun Aleykum everyone, I came across this "
+       },
+       {
+        "type": "bold",
+        "text": "AI Internship"
+       },
+       {
+        "type": "plain",
+        "text": " at "
+       },
+       {
+        "type": "bold",
+        "text": "Intaj"
+       },
+       {
+        "type": "plain",
+        "text": " opportunity this morning and they reached out to me in the same day, but I couldnt agree with them since they require staying in Algiers for some time in the summer.\n\nAnd since there is a chance and they are actually recruiting I wanted to share this opportunity with you, all what I know is: \n-  It is an "
+       },
+       {
+        "type": "bold",
+        "text": "on-site"
+       },
+       {
+        "type": "plain",
+        "text": " offer\n- You should be able to stay in Algiers even in the summer\n- The internship period is "
+       },
+       {
+        "type": "bold",
+        "text": "3 months"
+       },
+       {
+        "type": "plain",
+        "text": "\n\nGood Luck.\n🔗 h"
+       },
+       {
+        "type": "link",
+        "text": "ttps://emploitic.com/entreprises/intaj-mohtawayat/offres-d-emploi/services/stagiaire-en-intelligence-artificielle-7b1a4c9ac8a08a5f929a7c74"
+       }
+      ],
+      "reply_to_message_id": 240,
+      "original_text": "Selamun Aleykum everyone, I came across this AI Internship at Intaj opportunity this morning and they reached out to me in the same day, but I couldnt agree with them since they require staying in Algiers for some time in the summer.\n\nAnd since there is a chance and they are actually recruiting I wanted to share this opportunity with you, all what I know is: \n-  It is an on-site offer\n- You should be able to stay in Algiers even in the summer\n- The internship period is 3 months\n\nGood Luck.\n🔗 https://emploitic.com/entreprises/intaj-mohtawayat/offres-d-emploi/services/stagiaire-en-intelligence-artificielle-7b1a4c9ac8a08a5f929a7c74",
+      "text_source": "original"
+     },
+     {
+      "id": 1431,
+      "type": "message",
+      "date": "2026-04-10T13:55:24",
+      "date_unixtime": "1775829324",
+      "from": "Malak Yasmine 🏔️",
+      "from_id": "user1909045118",
+      "text": "Hey everyone! We are launching Navigui, a new platform that connects residents/ employers who need help with university students who want flexible, part-time work.\n\nWhether you're good at math (tutoring), can build websites, or just don't mind helping someone carry boxes or run errands— whatever you can do, people in the Sidi Abdallah pole are ready to pay for your time.\n\n🚀 We are launching our exclusive pilot this week. Be the first to get access to local, paying gigs on your own schedule. You don't have to keep waiting for la bourse every time.\n\n\nHow to join the launch list: Just fill out this quick form: https://docs.google.com/forms/d/e/1FAIpQLScgYyUzS1JwBk4VvdZ_cJJn8h1SWmqk3sGqjaQ1hHuWEqa8Dg/viewform?usp=header\n\n(Note: To keep the platform 100% secure and exclusive to students, please sign up using your university email if you can, e.g., @ensia.edu.dz).",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Hey everyone! We are launching Navigui, a new platform that connects residents/ employers who need help with university students who want flexible, part-time work.\n\nWhether you're good at math (tutoring), can build websites, or just don't mind helping someone carry boxes or run errands— whatever you can do, people in the Sidi Abdallah pole are ready to pay for your time.\n\n🚀 We are launching our exclusive pilot this week. Be the first to get access to local, paying gigs on your own schedule. You don't have to keep waiting for la bourse every time.\n\n\nHow to join the launch list: Just fill out this quick form: h"
+       },
+       {
+        "type": "link",
+        "text": "ttps://docs.google.com/forms/d/e/1FAIpQLScgYyUzS1JwBk4VvdZ_cJJn8h1SWmqk3sGqjaQ1hHuWEqa8Dg/viewform?usp=header\n"
+       },
+       {
+        "type": "plain",
+        "text": "\n(Note: To keep the platform 100% secure and exclusive to students, please sign up using your university email if you can, e.g., @"
+       },
+       {
+        "type": "mention",
+        "text": "ensia."
+       },
+       {
+        "type": "plain",
+        "text": "edu.dz)."
+       }
+      ],
+      "reply_to_message_id": 240,
+      "original_text": "Hey everyone! We are launching Navigui, a new platform that connects residents/ employers who need help with university students who want flexible, part-time work.\n\nWhether you're good at math (tutoring), can build websites, or just don't mind helping someone carry boxes or run errands— whatever you can do, people in the Sidi Abdallah pole are ready to pay for your time.\n\n🚀 We are launching our exclusive pilot this week. Be the first to get access to local, paying gigs on your own schedule. You don't have to keep waiting for la bourse every time.\n\n\nHow to join the launch list: Just fill out this quick form: https://docs.google.com/forms/d/e/1FAIpQLScgYyUzS1JwBk4VvdZ_cJJn8h1SWmqk3sGqjaQ1hHuWEqa8Dg/viewform?usp=header\n\n(Note: To keep the platform 100% secure and exclusive to students, please sign up using your university email if you can, e.g., @ensia.edu.dz).",
+      "text_source": "original"
+     },
+     {
+      "id": 1433,
+      "type": "message",
+      "date": "2026-04-13T16:35:49",
+      "date_unixtime": "1776098149",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "The Ignite event is returning soon 🔥\n\nThe EBEC Club, in partnership with the ENSIA University Business Liaison Office, will bring together companies, startups, and research centers.\n\nOur goal is to offer students valuable opportunities: internships, final-year projects, job offers, networking, and more.\n\nWe’re working to level up this new edition with fresh ideas 🚀\n\nHelp us improve it by sharing your feedback and expectations through this survey:\nhttps://docs.google.com/forms/d/e/1FAIpQLSegwQB5FF20c7w5UfR4r3hle54S8ZC5J75NyEPdgjexyZ1geg/viewform",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "The Ignite event is returning soon 🔥\n\nThe EBEC Club, in partnership with the ENSIA University Business Liaison Office, will bring together companies, startups, and research centers.\n\nOur goal is to offer students valuable opportunities: internships, final-year projects, job offers, networking, and more.\n\nWe’re working to level up this new edition with fresh ideas 🚀\n\nHelp us improve it by sharing your feedback and expectations through this survey:\nht"
+       },
+       {
+        "type": "link",
+        "text": "tps://docs.google.com/forms/d/e/1FAIpQLSegwQB5FF20c7w5UfR4r3hle54S8ZC5J75NyEPdgjexyZ1geg/viewform"
+       }
+      ],
+      "reply_to_message_id": 240,
+      "original_text": "The Ignite event is returning soon 🔥\n\nThe EBEC Club, in partnership with the ENSIA University Business Liaison Office, will bring together companies, startups, and research centers.\n\nOur goal is to offer students valuable opportunities: internships, final-year projects, job offers, networking, and more.\n\nWe’re working to level up this new edition with fresh ideas 🚀\n\nHelp us improve it by sharing your feedback and expectations through this survey:\nhttps://docs.google.com/forms/d/e/1FAIpQLSegwQB5FF20c7w5UfR4r3hle54S8ZC5J75NyEPdgjexyZ1geg/viewform",
+      "text_source": "original"
+     },
+     {
+      "id": 1434,
+      "type": "message",
+      "date": "2026-04-13T21:45:51",
+      "date_unixtime": "1776116751",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "📊 Algerian Tech Job Market Insights 🇩🇿\n\nExplore this interactive analysis 👇\nhttps://thehocinesaad.github.io/algerian-tech-job-market-analysis/\n\nThis project provides a clear snapshot of the tech job market in Algeria based on real job postings and trends.\n\n🎯 Useful for students & job seekers to understand the current tech market in Algeria.",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "📊 Algerian Tech Job Market Insights 🇩🇿\n\nExplore this interactive analysis 👇\nhttp"
+       },
+       {
+        "type": "link",
+        "text": "s://thehocinesaad.github.io/algerian-tech-job-market-analysis/\n\nTh"
+       },
+       {
+        "type": "plain",
+        "text": "is project provides a clear snapshot of the tech job market in Algeria based on real job postings and trends.\n\n🎯 Useful for students & job seekers to understand the current tech market in Algeria."
+       }
+      ],
+      "reply_to_message_id": 240,
+      "photo": "photos/photo_1434@2026-04-13T21:45:51.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "📊 Algerian Tech Job Market Insights 🇩🇿\n\nExplore this interactive analysis 👇\nhttps://thehocinesaad.github.io/algerian-tech-job-market-analysis/\n\nThis project provides a clear snapshot of the tech job market in Algeria based on real job postings and trends.\n\n🎯 Useful for students & job seekers to understand the current tech market in Algeria.",
+      "text_source": "original"
+     },
+     {
+      "id": 1436,
+      "type": "message",
+      "date": "2026-04-14T22:27:51",
+      "date_unixtime": "1776205671",
+      "from": "Riad Doukha",
+      "from_id": "user5432572062",
+      "text": "🚀 PITCHI: YOUR STAGE AWAITS!\n​ETC Club x The Hive x Djazairia Incubator are bringing you a massive pitching event this April!\n​If you have a project idea, this is your moment to shine in front of a jury of experts and a live audience. \nNot pitching? The networking sessions alone are worth the trip!\n​📅 Friday, April 24th\n🕑 15:00\n📍 Djazairia Incubator\n​Links to Join:\n🔗 Apply to pitch your project: https://shorturl.at/y5hem\n🔗 Join as Audience: https://shorturl.at/Oxmti\n​💡 ETC Advantages:\nETC is taking 10 attendees and 1-2 school projects, to join the group:\n​1️⃣ Fill out the form.\n2️⃣ Once confirmed, send the screenshot to ETC Instagram.\n3️⃣ Selection is First-Come, First-Served!\n​Everyone else is still highly encouraged to attend and participate in the networking! See you there! ✨",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🚀 PITCHI: YOUR STAGE AWAITS!\n​ETC Club x The Hive x Djazairia Incubator are bringing you a massive pitching event this April!\n​If you have a project idea, this is your moment to shine in front of a jury of experts and a live audience. \nNot pitching? The networking sessions alone are worth the trip!\n​📅 Friday, April 24th\n🕑 15:00\n📍 Djazairia Incubator\n​Links to Join:\n🔗 Apply to pitch your project: https"
+       },
+       {
+        "type": "link",
+        "text": "://shorturl.at/y5hem\n🔗 Jo"
+       },
+       {
+        "type": "plain",
+        "text": "in as Audience: https:"
+       },
+       {
+        "type": "link",
+        "text": "//shorturl.at/Oxmti\n​💡 ET"
+       },
+       {
+        "type": "plain",
+        "text": "C Advantages:\nETC is taking 10 attendees and 1-2 school projects, to join the group:\n​1️⃣ Fill out the form.\n2️⃣ Once confirmed, send the screenshot to ETC Instagram.\n3️⃣ Selection is First-Come, First-Served!\n​Everyone else is still highly encouraged to attend and participate in the networking! See you there! ✨"
+       }
+      ],
+      "reply_to_message_id": 618,
+      "photo": "photos/photo_1436@2026-04-14T22:27:51.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "🚀 PITCHI: YOUR STAGE AWAITS!\n​ETC Club x The Hive x Djazairia Incubator are bringing you a massive pitching event this April!\n​If you have a project idea, this is your moment to shine in front of a jury of experts and a live audience. \nNot pitching? The networking sessions alone are worth the trip!\n​📅 Friday, April 24th\n🕑 15:00\n📍 Djazairia Incubator\n​Links to Join:\n🔗 Apply to pitch your project: https://shorturl.at/y5hem\n🔗 Join as Audience: https://shorturl.at/Oxmti\n​💡 ETC Advantages:\nETC is taking 10 attendees and 1-2 school projects, to join the group:\n​1️⃣ Fill out the form.\n2️⃣ Once confirmed, send the screenshot to ETC Instagram.\n3️⃣ Selection is First-Come, First-Served!\n​Everyone else is still highly encouraged to attend and participate in the networking! See you there! ✨",
+      "text_source": "original"
+     },
+     {
+      "id": 1437,
+      "type": "message",
+      "date": "2026-04-15T12:45:07",
+      "date_unixtime": "1776257107",
+      "from": "Sara",
+      "from_id": "user5281788468",
+      "text": "Salam everyone,\nWe are a group of students working on a project focused on creating a digital platform that helps students showcase their projects and make them more visible, useful, and impactful. \n\nCurrently, we are starting by focusing on Final Year (PFE) projects.\n\nWe would really appreciate it if you could take a few minutes to fill out this short survey. Your feedback will help us understand students’ needs and design a better solution.\n\nLink to the form: https://forms.gle/JT7USSrUvVuLA7JG8\n\nThank you for your time",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Salam everyone,\nWe are a group of students working on a project focused on creating a digital platform that helps students showcase their projects and make them more visible, useful, and impactful. \n\nCurrently, we are starting by focusing on Final Year (PFE) projects.\n\nWe would really appreciate it if you could take a few minutes to fill out this short survey. Your feedback will help us understand students’ needs and design a better solution.\n\nLink to the form: "
+       },
+       {
+        "type": "link",
+        "text": "https://forms.gle/JT7USSrUvVuLA7JG8"
+       },
+       {
+        "type": "plain",
+        "text": "\n\nThank you for your time"
+       }
+      ],
+      "reply_to_message_id": 865,
+      "original_text": "Salam everyone,\nWe are a group of students working on a project focused on creating a digital platform that helps students showcase their projects and make them more visible, useful, and impactful. \n\nCurrently, we are starting by focusing on Final Year (PFE) projects.\n\nWe would really appreciate it if you could take a few minutes to fill out this short survey. Your feedback will help us understand students’ needs and design a better solution.\n\nLink to the form: https://forms.gle/JT7USSrUvVuLA7JG8\n\nThank you for your time",
+      "text_source": "original"
+     },
+     {
+      "id": 1438,
+      "type": "message",
+      "date": "2026-04-15T13:03:17",
+      "date_unixtime": "1776258197",
+      "from": "Nour",
+      "from_id": "user5684517693",
+      "text": "https://amphitheatre-gps.vercel.app/",
+      "text_entities": [
+       {
+        "type": "link",
+        "text": "https://amphitheatre-gps.vercel.app/"
+       }
+      ],
+      "reply_to_message_id": 949,
+      "original_text": "https://amphitheatre-gps.vercel.app/",
+      "text_source": "original"
+     },
+     {
+      "id": 1439,
+      "type": "message",
+      "date": "2026-04-15T13:04:48",
+      "date_unixtime": "1776258288",
+      "from": "Nour",
+      "from_id": "user5684517693",
+      "text": "Good afternoon everyone, we would appreciate your contribution to this project of GPS student localization… we have insufficient data about amphi 8 for those attending Pr. Adjerid’s talk, your help is greatly appreciated !",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Good afternoon everyone, we would appreciate your contribution to this project of GPS student localization… we have insufficient data about amphi 8 for those attending Pr. Adjerid’s talk, your help is greatly appreciated !"
+       }
+      ],
+      "reply_to_message_id": 949,
+      "original_text": "Good afternoon everyone, we would appreciate your contribution to this project of GPS student localization… we have insufficient data about amphi 8 for those attending Pr. Adjerid’s talk, your help is greatly appreciated !",
+      "text_source": "original"
+     },
+     {
+      "id": 1440,
+      "type": "message",
+      "date": "2026-04-15T13:05:29",
+      "date_unixtime": "1776258329",
+      "from": "Nour",
+      "from_id": "user5684517693",
+      "text": "For those who get a data fetch error, please open the link from browser, it’s a telegram issue.",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "For those who get a data fetch error, please open the link from browser, it’s a telegram issue."
+       }
+      ],
+      "reply_to_message_id": 949,
+      "original_text": "For those who get a data fetch error, please open the link from browser, it’s a telegram issue.",
+      "text_source": "original"
+     },
+     {
+      "id": 1443,
+      "type": "service",
+      "date": "2026-04-15T16:40:16",
+      "date_unixtime": "1776271216",
+      "actor": "Mely",
+      "actor_id": "user6825180647",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1444,
+      "type": "service",
+      "date": "2026-04-15T16:41:13",
+      "date_unixtime": "1776271273",
+      "actor": "Sarah Boukellal",
+      "actor_id": "user6955055290",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1445,
+      "type": "service",
+      "date": "2026-04-15T16:54:58",
+      "date_unixtime": "1776272098",
+      "actor": "temim_ moo",
+      "actor_id": "user5107557643",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1446,
+      "type": "service",
+      "date": "2026-04-15T16:55:02",
+      "date_unixtime": "1776272102",
+      "actor": "Skander Gr",
+      "actor_id": "user7808744050",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1447,
+      "type": "service",
+      "date": "2026-04-15T17:02:10",
+      "date_unixtime": "1776272530",
+      "actor": "Zineddine Guedj",
+      "actor_id": "user1915892761",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1448,
+      "type": "service",
+      "date": "2026-04-15T17:02:56",
+      "date_unixtime": "1776272576",
+      "actor": "Ah Med",
+      "actor_id": "user5487421635",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1449,
+      "type": "service",
+      "date": "2026-04-15T17:03:30",
+      "date_unixtime": "1776272610",
+      "actor": "Touhaa✨️",
+      "actor_id": "user8376977176",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1450,
+      "type": "service",
+      "date": "2026-04-15T17:08:21",
+      "date_unixtime": "1776272901",
+      "actor": "Nazim",
+      "actor_id": "user5057195766",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1451,
+      "type": "service",
+      "date": "2026-04-15T17:17:02",
+      "date_unixtime": "1776273422",
+      "actor": "Se Rine",
+      "actor_id": "user5667810429",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1452,
+      "type": "service",
+      "date": "2026-04-15T17:45:19",
+      "date_unixtime": "1776275119",
+      "actor": "Ab dou",
+      "actor_id": "user1672500665",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1453,
+      "type": "service",
+      "date": "2026-04-15T17:46:49",
+      "date_unixtime": "1776275209",
+      "actor": "Meriem",
+      "actor_id": "user7153370212",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1454,
+      "type": "service",
+      "date": "2026-04-15T17:51:54",
+      "date_unixtime": "1776275514",
+      "actor": "Mohamed",
+      "actor_id": "user6581971424",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1455,
+      "type": "service",
+      "date": "2026-04-15T18:07:04",
+      "date_unixtime": "1776276424",
+      "actor": ".",
+      "actor_id": "user8010104796",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1456,
+      "type": "service",
+      "date": "2026-04-15T18:09:51",
+      "date_unixtime": "1776276591",
+      "actor": "Ranime",
+      "actor_id": "user5488419011",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1457,
+      "type": "service",
+      "date": "2026-04-15T18:11:47",
+      "date_unixtime": "1776276707",
+      "actor": "habib habib",
+      "actor_id": "user6339331583",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1458,
+      "type": "service",
+      "date": "2026-04-15T18:22:22",
+      "date_unixtime": "1776277342",
+      "actor": "Abdenour Bouaziz",
+      "actor_id": "user8240359644",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1459,
+      "type": "service",
+      "date": "2026-04-15T18:23:23",
+      "date_unixtime": "1776277403",
+      "actor": "Imad",
+      "actor_id": "user5597298980",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1460,
+      "type": "service",
+      "date": "2026-04-15T18:26:26",
+      "date_unixtime": "1776277586",
+      "actor": "Hiba 🤍✨",
+      "actor_id": "user5721671005",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1461,
+      "type": "service",
+      "date": "2026-04-15T18:39:21",
+      "date_unixtime": "1776278361",
+      "actor": "Mohamed Chouaib HAMIDI",
+      "actor_id": "user8371999085",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1462,
+      "type": "service",
+      "date": "2026-04-15T19:09:56",
+      "date_unixtime": "1776280196",
+      "actor": "Ahmed",
+      "actor_id": "user5347376625",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1463,
+      "type": "service",
+      "date": "2026-04-15T19:51:39",
+      "date_unixtime": "1776282699",
+      "actor": "Med ..",
+      "actor_id": "user1956225700",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1464,
+      "type": "service",
+      "date": "2026-04-15T19:54:23",
+      "date_unixtime": "1776282863",
+      "actor": "Babouche Soumia",
+      "actor_id": "user6228084572",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1465,
+      "type": "service",
+      "date": "2026-04-15T19:57:40",
+      "date_unixtime": "1776283060",
+      "actor": "Ah Med",
+      "actor_id": "user5487421635",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "oumene ndr"
+      ]
+     },
+     {
+      "id": 1466,
+      "type": "service",
+      "date": "2026-04-15T19:58:06",
+      "date_unixtime": "1776283086",
+      "actor": "Ah Med",
+      "actor_id": "user5487421635",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "1Houssem Mb2"
+      ]
+     },
+     {
+      "id": 1467,
+      "type": "service",
+      "date": "2026-04-15T20:01:08",
+      "date_unixtime": "1776283268",
+      "actor": "Ayoub GHOUL",
+      "actor_id": "user6345564805",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1468,
+      "type": "service",
+      "date": "2026-04-15T20:05:18",
+      "date_unixtime": "1776283518",
+      "actor": "Ayoub GHOUL",
+      "actor_id": "user6345564805",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Walid Neggaz"
+      ]
+     },
+     {
+      "id": 1469,
+      "type": "service",
+      "date": "2026-04-15T20:24:04",
+      "date_unixtime": "1776284644",
+      "actor": "Youcef Makdoud",
+      "actor_id": "user6583325363",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1470,
+      "type": "service",
+      "date": "2026-04-15T20:36:13",
+      "date_unixtime": "1776285373",
+      "actor": "Ayoub GHOUL",
+      "actor_id": "user6345564805",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Oussama ⵣ Zeroual"
+      ]
+     },
+     {
+      "id": 1471,
+      "type": "service",
+      "date": "2026-04-15T20:49:28",
+      "date_unixtime": "1776286168",
+      "actor": "Baya",
+      "actor_id": "user8274380597",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1472,
+      "type": "service",
+      "date": "2026-04-15T22:02:02",
+      "date_unixtime": "1776290522",
+      "actor": "Hanane",
+      "actor_id": "user8217631134",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1473,
+      "type": "service",
+      "date": "2026-04-16T06:41:52",
+      "date_unixtime": "1776321712",
+      "actor": "Cellia Ham",
+      "actor_id": "user6331226798",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1474,
+      "type": "service",
+      "date": "2026-04-16T08:51:00",
+      "date_unixtime": "1776329460",
+      "actor": "𝓐𝔂𝓪",
+      "actor_id": "user6610286619",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1475,
+      "type": "service",
+      "date": "2026-04-16T11:43:04",
+      "date_unixtime": "1776339784",
+      "actor": "Zaki Am",
+      "actor_id": "user6238676193",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1476,
+      "type": "message",
+      "date": "2026-04-16T15:40:59",
+      "date_unixtime": "1776354059",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "We are happy to announce that Anais Daoud from our school is among the winners of the second edition of the Algerian President's Award for the Best Innovative Researcher 🎉🏆",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "We are happy to announce that Anais Daoud from our school is among the winners of the second edition of the Algerian President's Award for the Best Innovative Researcher 🎉🏆"
+       }
+      ],
+      "reply_to_message_id": 1235,
+      "photo": "photos/photo_1476@2026-04-16T15:40:59.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "We are happy to announce that Anais Daoud from our school is among the winners of the second edition of the Algerian President's Award for the Best Innovative Researcher 🎉🏆",
+      "text_source": "original"
+     },
+     {
+      "id": 1477,
+      "type": "service",
+      "date": "2026-04-16T15:50:30",
+      "date_unixtime": "1776354630",
+      "actor": "A.Aymen",
+      "actor_id": "user2128983992",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1478,
+      "type": "service",
+      "date": "2026-04-16T17:09:56",
+      "date_unixtime": "1776359396",
+      "actor": "Meriemm",
+      "actor_id": "user2004912982",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1479,
+      "type": "service",
+      "date": "2026-04-16T22:53:14",
+      "date_unixtime": "1776379994",
+      "actor": "Redha Cherifi",
+      "actor_id": "user7607730887",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1480,
+      "type": "message",
+      "date": "2026-04-17T10:13:33",
+      "date_unixtime": "1776420813",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "Great news 🎉\n\nThe school will organize a Poster Session in June 2026 for all final-year projects.\n\nThe event aims to allow faculty members to discover conducted work, provide feedback, and give students from other years the opportunity to explore projects and engage in discussions with presenters.",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Great news 🎉\n\nThe school will organize a Poster Session in June 2026 for all final-year projects.\n\nThe event aims to allow faculty members to discover conducted work, provide feedback, and give students from other years the opportunity to explore projects and engage in discussions with presenters."
+       }
+      ],
+      "reply_to_message_id": 1343,
+      "original_text": "Great news 🎉\n\nThe school will organize a Poster Session in June 2026 for all final-year projects.\n\nThe event aims to allow faculty members to discover conducted work, provide feedback, and give students from other years the opportunity to explore projects and engage in discussions with presenters.",
+      "text_source": "original"
+     },
+     {
+      "id": 1481,
+      "type": "message",
+      "date": "2026-04-18T08:06:39",
+      "date_unixtime": "1776499599",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "📢 Announcement\n\n🚀 6 teams from the V2V Incubator will be pitching their projects today in front of investors and ACF!\n\nParticipating Teams: Nroho, Riglo, Notivers, Brendex, Sonex, Baina.ai\n\nYou’re invited to attend and benefit from this valuable experience.\n\n📍 Conference Room - School of Mathematics",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "📢 Announcement\n\n🚀 6 teams from the V2V Incubator will be pitching their projects today in front of investors and ACF!\n\nParticipating Teams: Nroho, Riglo, Notivers, Brendex, Sonex, Ba"
+       },
+       {
+        "type": "link",
+        "text": "ina.ai\n\n"
+       },
+       {
+        "type": "plain",
+        "text": "You’re invited to attend and benefit from this valuable experience.\n\n📍 Conference Room - School of Mathematics"
+       }
+      ],
+      "reply_to_message_id": 805,
+      "original_text": "📢 Announcement\n\n🚀 6 teams from the V2V Incubator will be pitching their projects today in front of investors and ACF!\n\nParticipating Teams: Nroho, Riglo, Notivers, Brendex, Sonex, Baina.ai\n\nYou’re invited to attend and benefit from this valuable experience.\n\n📍 Conference Room - School of Mathematics",
+      "text_source": "original"
+     },
+     {
+      "id": 1482,
+      "type": "message",
+      "date": "2026-04-18T09:40:04",
+      "date_unixtime": "1776505204",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "The recent survey for feedback and suggestions on Ignite 2026 has received 66 responses.\n\nThe answers to this question confirm the previously estimated career path preferences of ENSIA students.",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "The recent survey for feedback and suggestions on Ignite 2026 has received 66 responses.\n\nThe answers to this question confirm the previously estimated career path preferences of ENSIA students."
+       }
+      ],
+      "reply_to_message_id": 1017,
+      "photo": "photos/photo_1482@2026-04-18T09:40:04.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "The recent survey for feedback and suggestions on Ignite 2026 has received 66 responses.\n\nThe answers to this question confirm the previously estimated career path preferences of ENSIA students.",
+      "text_source": "original"
+     },
+     {
+      "id": 1483,
+      "type": "message",
+      "date": "2026-04-18T16:50:46",
+      "date_unixtime": "1776531046",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "Happy to share that Nroho and Riglo received investment proposals today! 👏\n\nTo the other teams: keep pushing, refining, and believing in your ideas - your moment is coming 💪",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Happy to share that Nroho and Riglo received investment proposals today! 👏\n\nTo the other teams: keep pushing, refining, and believing in your ideas - your moment is coming 💪"
+       }
+      ],
+      "reply_to_message_id": 1481,
+      "original_text": "Happy to share that Nroho and Riglo received investment proposals today! 👏\n\nTo the other teams: keep pushing, refining, and believing in your ideas - your moment is coming 💪",
+      "text_source": "original"
+     },
+     {
+      "id": 1484,
+      "type": "message",
+      "date": "2026-04-18T18:24:37",
+      "date_unixtime": "1776536677",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "🚀 WATERTECH Program 🌊\n\nHave an idea to solve water challenges in Algeria? This is your chance.\n\n👥 Open to: Students, engineers, entrepreneurs — anyone with an idea\n\n💡 All stages: idea, prototype, or startup\n\n🎯 Get support to build, develop, and scale your project\n\n⏳ Deadline: May 8, 2026\n\n👉 Apply here: https://docs.google.com/forms/d/e/1FAIpQLSeSbS3djVRSWxO8kC9wuiAhnw1lL1gDvay1LqhAZRMzVIDLQg/viewform",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🚀 WATERTECH Program 🌊\n\nHave an idea to solve water challenges in Algeria? This is your chance.\n\n👥 Open to: Students, engineers, entrepreneurs — anyone with an idea\n\n💡 All stages: idea, prototype, or startup\n\n🎯 Get support to build, develop, and scale your project\n\n⏳ Deadline: May 8, 2026\n\n👉 Apply here: https:"
+       },
+       {
+        "type": "link",
+        "text": "//docs.google.com/forms/d/e/1FAIpQLSeSbS3djVRSWxO8kC9wuiAhnw1lL1gDvay1LqhAZRMzVIDLQg/viewform"
+       }
+      ],
+      "reply_to_message_id": 238,
+      "photo": "photos/photo_1484@2026-04-18T18:24:37.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "🚀 WATERTECH Program 🌊\n\nHave an idea to solve water challenges in Algeria? This is your chance.\n\n👥 Open to: Students, engineers, entrepreneurs — anyone with an idea\n\n💡 All stages: idea, prototype, or startup\n\n🎯 Get support to build, develop, and scale your project\n\n⏳ Deadline: May 8, 2026\n\n👉 Apply here: https://docs.google.com/forms/d/e/1FAIpQLSeSbS3djVRSWxO8kC9wuiAhnw1lL1gDvay1LqhAZRMzVIDLQg/viewform",
+      "text_source": "original"
+     },
+     {
+      "id": 1485,
+      "type": "message",
+      "date": "2026-04-18T20:47:50",
+      "date_unixtime": "1776545270",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "Today marked the launch of the first AI & Cybersecurity startup cluster at the University Hub of the Scientific Pole.\n\nThe cluster includes 12 operational startups, each having a dedicated spot, two are from our school: Nroho and Riglo.\n\nAmong the startups are also Intaj Mohtwayat (AI) and CyberEars (Cybersecurity).\n\nThe full list will be shared soon inchallah.",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Today marked the launch of the first AI & Cybersecurity startup cluster at the University Hub of the Scientific Pole.\n\nThe cluster includes 12 operational startups, each having a dedicated spot, two are from our school: Nroho and Riglo.\n\nAmong the startups are also Intaj Mohtwayat (AI) and CyberEars (Cybersecurity).\n\nThe full list will be shared soon inchallah."
+       }
+      ],
+      "reply_to_message_id": 805,
+      "photo": "photos/photo_1485@2026-04-18T20:47:50.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "Today marked the launch of the first AI & Cybersecurity startup cluster at the University Hub of the Scientific Pole.\n\nThe cluster includes 12 operational startups, each having a dedicated spot, two are from our school: Nroho and Riglo.\n\nAmong the startups are also Intaj Mohtwayat (AI) and CyberEars (Cybersecurity).\n\nThe full list will be shared soon inchallah.",
+      "text_source": "original"
+     },
+     {
+      "id": 1486,
+      "type": "service",
+      "date": "2026-04-19T12:28:47",
+      "date_unixtime": "1776601727",
+      "actor": "𝓩𝓪𝓴𝓪𝓻𝓲𝓪 𝓜𝓮𝓴𝓴𝓲 👨‍💻",
+      "actor_id": "user5147313191",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Mohamed Idriss"
+      ]
+     },
+     {
+      "id": 1487,
+      "type": "message",
+      "date": "2026-04-19T14:15:04",
+      "date_unixtime": "1776608104",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "📊 Among the Ignite 2026 survey questions:\n\nThe responses show which benefits make companies more attractive to candidates.\n\nWe will share these insights and ask companies in the application form if they can offer them.\n\nStay tuned - more ideas and concepts will be implemented for this edition 🚀",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "📊 Among the Ignite 2026 survey questions:\n\nThe responses show which benefits make companies more attractive to candidates.\n\nWe will share these insights and ask companies in the application form if they can offer them.\n\nStay tuned - more ideas and concepts will be implemented for this edition 🚀"
+       }
+      ],
+      "reply_to_message_id": 1433,
+      "photo": "photos/photo_1487@2026-04-19T14:15:04.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "📊 Among the Ignite 2026 survey questions:\n\nThe responses show which benefits make companies more attractive to candidates.\n\nWe will share these insights and ask companies in the application form if they can offer them.\n\nStay tuned - more ideas and concepts will be implemented for this edition 🚀",
+      "text_source": "original"
+     },
+     {
+      "id": 1488,
+      "type": "message",
+      "date": "2026-04-19T18:07:12",
+      "date_unixtime": "1776622032",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "",
+      "text_entities": [],
+      "reply_to_message_id": 273,
+      "photo": "photos/photo_1488@2026-04-19T18:07:12.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "",
+      "text_source": "original"
+     },
+     {
+      "id": 1489,
+      "type": "message",
+      "date": "2026-04-19T20:32:27",
+      "date_unixtime": "1776630747",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "🚀 Agro Hackathon 2026 is here!\n\nA national 48h hackathon dedicated to agrifood innovation 🌱\n\n📍 Tipaza\n📅 May 21–23, 2026\n\nOpen to students, developers, researchers & project holders.\n\n💡 Build innovative solutions & pitch in front of experts and investors.\n\n🗓 Deadline: April 30, 2026\n👉 Apply here: https://hackathon.dz/agro-hackathon-2026",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🚀 Agro Hackathon 2026 is here!\n\nA national 48h hackathon dedicated to agrifood innovation 🌱\n\n📍 Tipaza\n📅 May 21–23, 2026\n\nOpen to students, developers, researchers & project holders.\n\n💡 Build innovative solutions & pitch in front of experts and investors.\n\n🗓 Deadline: April 30, 2026\n👉 Apply here: https:/"
+       },
+       {
+        "type": "link",
+        "text": "/hackathon.dz/agro-hackathon-2026"
+       }
+      ],
+      "reply_to_message_id": 618,
+      "photo": "photos/photo_1489@2026-04-19T20:32:27.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "🚀 Agro Hackathon 2026 is here!\n\nA national 48h hackathon dedicated to agrifood innovation 🌱\n\n📍 Tipaza\n📅 May 21–23, 2026\n\nOpen to students, developers, researchers & project holders.\n\n💡 Build innovative solutions & pitch in front of experts and investors.\n\n🗓 Deadline: April 30, 2026\n👉 Apply here: https://hackathon.dz/agro-hackathon-2026",
+      "text_source": "original"
+     },
+     {
+      "id": 1490,
+      "type": "service",
+      "date": "2026-04-20T21:20:00",
+      "date_unixtime": "1776720000",
+      "actor": "Hiba",
+      "actor_id": "user6663141012",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Doha Dekra"
+      ]
+     },
+     {
+      "id": 1493,
+      "type": "message",
+      "date": "2026-04-21T14:55:17",
+      "date_unixtime": "1776783317",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "Congratulations to the Let’s Rank team on receiving the Innovative Label Project from the Ministry of Startups 👏\n\nLet’s keep supporting the team on their journey! 🙏",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Congratulations to the Let’s Rank team on receiving the Innovative Label Project from the Ministry of Startups 👏\n\nLet’s keep supporting the team on their journey! 🙏"
+       }
+      ],
+      "reply_to_message_id": 1338,
+      "original_text": "Congratulations to the Let’s Rank team on receiving the Innovative Label Project from the Ministry of Startups 👏\n\nLet’s keep supporting the team on their journey! 🙏",
+      "text_source": "original"
+     },
+     {
+      "id": 1494,
+      "type": "message",
+      "date": "2026-04-22T15:23:33",
+      "date_unixtime": "1776871413",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "ICOSNET launches the first GPU as a Service in Algeria 🇩🇿 \n\nhttps://icosnet.com.dz/gpu-as-a-service-algerie-icosnet/\n\nAccess high-performance NVIDIA GPUs without hardware investment.\n\nIdeal for AI, Machine Learning, 3D, and Big Data.\n\nA great step for startups, researchers, and tech companies.",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "ICOSNET launches the first "
+       },
+       {
+        "type": "bold",
+        "text": "GPU as a Service"
+       },
+       {
+        "type": "plain",
+        "text": " in Algeria 🇩🇿 \n\nht"
+       },
+       {
+        "type": "link",
+        "text": "tps://icosnet.com.dz/gpu-as-a-service-algerie-icosnet/\n\n"
+       },
+       {
+        "type": "plain",
+        "text": "Access high-performance NVIDIA GPUs without hardware investment.\n\nIdeal for AI, Machine Learning, 3D, and Big Data.\n\nA great step for startups, researchers, and tech companies."
+       }
+      ],
+      "reply_to_message_id": 285,
+      "photo": "photos/photo_1494@2026-04-22T15:23:33.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "ICOSNET launches the first GPU as a Service in Algeria 🇩🇿 \n\nhttps://icosnet.com.dz/gpu-as-a-service-algerie-icosnet/\n\nAccess high-performance NVIDIA GPUs without hardware investment.\n\nIdeal for AI, Machine Learning, 3D, and Big Data.\n\nA great step for startups, researchers, and tech companies.",
+      "text_source": "original"
+     },
+     {
+      "id": 1495,
+      "type": "service",
+      "date": "2026-04-22T16:16:37",
+      "date_unixtime": "1776874597",
+      "actor": "Wissal Edd",
+      "actor_id": "user5492406237",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Aya Maram"
+      ]
+     },
+     {
+      "id": 1496,
+      "type": "message",
+      "date": "2026-04-22T20:59:12",
+      "date_unixtime": "1776891552",
+      "from": "ابو عبيدة ابن الجراح",
+      "from_id": "user5370138167",
+      "text": "As Dr.Sami recently published on his social media, we should have talented content creators from our school who can truly impress and inspire—making everyone say, “Wow, these students are brilliant!”\nI’m delighted to share with you the first YouTube video by our friend Mohamed Redha Cherifi, a first-year student, who has done an magnificent  job simplifying and explaining the entire statistics course in just 9 minutes. \nI sincerely hope you’ll take a moment to watch his work and support him so he can continue creating more high-quality content in the future.\nhttps://www.youtube.com/watch?v=8YBTHtYtUs4",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "As Dr.Sami recently published on his social media, we should have talented content creators from our school who can truly impress and inspire—making everyone say, “Wow, these students are brilliant!”\nI’m delighted to share with you the first YouTube video by our friend Mohamed Redha Cherifi, a first-year student, who has done an magnificent  job simplifying and explaining the entire statistics course in just 9 minutes. \nI sincerely hope you’ll take a moment to watch his work and support him so he can continue creating more high-quality content in the future.\n"
+       },
+       {
+        "type": "link",
+        "text": "https://www.youtube.com/watch?v=8YBTHtYtUs4"
+       }
+      ],
+      "reply_to_message_id": 949,
+      "original_text": "As Dr.Sami recently published on his social media, we should have talented content creators from our school who can truly impress and inspire—making everyone say, “Wow, these students are brilliant!”\nI’m delighted to share with you the first YouTube video by our friend Mohamed Redha Cherifi, a first-year student, who has done an magnificent  job simplifying and explaining the entire statistics course in just 9 minutes. \nI sincerely hope you’ll take a moment to watch his work and support him so he can continue creating more high-quality content in the future.\nhttps://www.youtube.com/watch?v=8YBTHtYtUs4",
+      "text_source": "original"
+     },
+     {
+      "id": 1502,
+      "type": "message",
+      "date": "2026-04-23T19:54:55",
+      "date_unixtime": "1776974095",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "We would like to introduce another incubated team — Ween 🌱:\n\nAn AI-powered restaurant recommendation platform tailored to your taste, budget, and location 🍽.\n\nPlease support the team as they start their journey:\n\nInstagram:\nhttps://www.instagram.com/ween_acc/\n\nLinkedIn:\nhttps://www.linkedin.com/company/ween-app/",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "We would like to introduce another incubated team — Ween 🌱:\n\nAn AI-powered restaurant recommendation platform tailored to your taste, budget, and location 🍽.\n\nPlease support the team as they start their journey:\n\nInstagram:\nht"
+       },
+       {
+        "type": "link",
+        "text": "tps://www.instagram.com/ween_acc/\n\n"
+       },
+       {
+        "type": "plain",
+        "text": "LinkedIn:\nht"
+       },
+       {
+        "type": "link",
+        "text": "tps://www.linkedin.com/company/ween-app/"
+       }
+      ],
+      "reply_to_message_id": 805,
+      "original_text": "We would like to introduce another incubated team — Ween 🌱:\n\nAn AI-powered restaurant recommendation platform tailored to your taste, budget, and location 🍽.\n\nPlease support the team as they start their journey:\n\nInstagram:\nhttps://www.instagram.com/ween_acc/\n\nLinkedIn:\nhttps://www.linkedin.com/company/ween-app/",
+      "text_source": "original"
+     },
+     {
+      "id": 1504,
+      "type": "message",
+      "date": "2026-04-25T12:50:55",
+      "date_unixtime": "1777121455",
+      "from": "Abdessamed",
+      "from_id": "user7058857845",
+      "text": "https://www.linkedin.com/posts/61j3t_the-algiers-stock-exchange-la-bourse-dalger-sgbv-ugcPost-7453762302090080256-MUIr",
+      "text_entities": [
+       {
+        "type": "link",
+        "text": "https://www.linkedin.com/posts/61j3t_the-algiers-stock-exchange-la-bourse-dalger-sgbv-ugcPost-7453762302090080256-MUIr"
+       }
+      ],
+      "reply_to_message_id": 949,
+      "original_text": "https://www.linkedin.com/posts/61j3t_the-algiers-stock-exchange-la-bourse-dalger-sgbv-ugcPost-7453762302090080256-MUIr",
+      "text_source": "original"
+     },
+     {
+      "id": 1507,
+      "type": "message",
+      "date": "2026-04-25T17:00:54",
+      "date_unixtime": "1777136454",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "Check out this beautiful app developed by our student, Eyad Mahmoudi 👏\n\n https://quran-reels-eta.vercel.app/\n\n✨ What you can do:\n- Select any Surah and verse\n- Choose your favorite reciter\n- Pick a background image\n- Generate a reel with audio and authentic Uthmani text\n\nA simple yet powerful way to reflect, share, and spread meaningful reminders in a modern format 🌙\n\nFeel free to share your feedback with him to help improve it further 🙏",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Check out this beautiful app developed by our student, "
+       },
+       {
+        "type": "mention_name",
+        "text": "Eyad"
+       },
+       {
+        "type": "plain",
+        "text": " Mahmoudi 👏\n\n h"
+       },
+       {
+        "type": "link",
+        "text": "ttps://quran-reels-eta.vercel.app/\n"
+       },
+       {
+        "type": "plain",
+        "text": "\n✨ What you can do:\n- Select any Surah and verse\n- Choose your favorite reciter\n- Pick a background image\n- Generate a reel with audio and a"
+       },
+       {
+        "type": "bold",
+        "text": "uthentic Uthmani text\n"
+       },
+       {
+        "type": "plain",
+        "text": "\nA simple yet powerful way to reflect, share, and spread meaningful reminders in a modern format 🌙\n\nFeel free to share your feedback with him to help improve it further 🙏"
+       }
+      ],
+      "reply_to_message_id": 949,
+      "original_text": "Check out this beautiful app developed by our student, Eyad Mahmoudi 👏\n\n https://quran-reels-eta.vercel.app/\n\n✨ What you can do:\n- Select any Surah and verse\n- Choose your favorite reciter\n- Pick a background image\n- Generate a reel with audio and authentic Uthmani text\n\nA simple yet powerful way to reflect, share, and spread meaningful reminders in a modern format 🌙\n\nFeel free to share your feedback with him to help improve it further 🙏",
+      "text_source": "original"
+     },
+     {
+      "id": 1509,
+      "type": "service",
+      "date": "2026-04-29T23:44:23",
+      "date_unixtime": "1777506263",
+      "actor": "1Houssem Mb2",
+      "actor_id": "user1239428225",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Ousserir Med amine"
+      ]
+     },
+     {
+      "id": 1510,
+      "type": "service",
+      "date": "2026-04-29T23:45:00",
+      "date_unixtime": "1777506300",
+      "actor": "1Houssem Mb2",
+      "actor_id": "user1239428225",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Daghri Djaber"
+      ]
+     },
+     {
+      "id": 1511,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Ouksil Sayad"
+      ]
+     },
+     {
+      "id": 1512,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Lina Lbr"
+      ]
+     },
+     {
+      "id": 1513,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Hamza"
+      ]
+     },
+     {
+      "id": 1514,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Hassib Tib"
+      ]
+     },
+     {
+      "id": 1515,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "zikou"
+      ]
+     },
+     {
+      "id": 1516,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Karim Dj"
+      ]
+     },
+     {
+      "id": 1517,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Oussama"
+      ]
+     },
+     {
+      "id": 1518,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Mouadh"
+      ]
+     },
+     {
+      "id": 1519,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "𝐒𝐚𝐜𝐢❤️‍🔥"
+      ]
+     },
+     {
+      "id": 1520,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Chakib"
+      ]
+     },
+     {
+      "id": 1521,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": []
+     },
+     {
+      "id": 1522,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Chaibi Dylane Axel"
+      ]
+     },
+     {
+      "id": 1523,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "طوير محمد الأمين"
+      ]
+     },
+     {
+      "id": 1524,
+      "type": "service",
+      "date": "2026-04-30T11:34:10",
+      "date_unixtime": "1777548850",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Yassine"
+      ]
+     },
+     {
+      "id": 1525,
+      "type": "service",
+      "date": "2026-04-30T11:34:11",
+      "date_unixtime": "1777548851",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "C.H"
+      ]
+     },
+     {
+      "id": 1526,
+      "type": "service",
+      "date": "2026-04-30T11:34:11",
+      "date_unixtime": "1777548851",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "A__B"
+      ]
+     },
+     {
+      "id": 1527,
+      "type": "service",
+      "date": "2026-04-30T11:34:11",
+      "date_unixtime": "1777548851",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "raouf Lounis"
+      ]
+     },
+     {
+      "id": 1528,
+      "type": "service",
+      "date": "2026-04-30T11:34:11",
+      "date_unixtime": "1777548851",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Lyna"
+      ]
+     },
+     {
+      "id": 1529,
+      "type": "message",
+      "date": "2026-04-30T13:00:04",
+      "date_unixtime": "1777554004",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "The new version of the internships platform is now LIVE! 🚀\n\nhttps://internships.ensia.edu.dz/\n\nIt includes many enhancements and dedicated sections for:\n\n- Job offers 💼\n- Internships 🎓\n- Final-year projects 📊\n- And much more ✨\n\nThe platform will be used during Ignite event to gather all opportunities and facilitate applications.\n\nMany thanks to Professor Tibermacine for developing it 🙏\n\nTake time to test it and report any issues before we begin collecting opportunities.",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "The new version of the internships platform is now LIVE! 🚀\n\nh"
+       },
+       {
+        "type": "link",
+        "text": "ttps://internships.ensia.edu.dz/\n"
+       },
+       {
+        "type": "plain",
+        "text": "\nIt includes many enhancements and dedicated sections for:\n\n- Job offers 💼\n- Internships 🎓\n- Final-year projects 📊\n- And much more ✨\n\nThe platform will be used during Ignite event to gather all opportunities and facilitate applications.\n\nMany thanks to Professor Tibermacine for developing it 🙏\n\nTake time to test it and report any issues before we begin collecting opportunities."
+       }
+      ],
+      "reply_to_message_id": 240,
+      "original_text": "The new version of the internships platform is now LIVE! 🚀\n\nhttps://internships.ensia.edu.dz/\n\nIt includes many enhancements and dedicated sections for:\n\n- Job offers 💼\n- Internships 🎓\n- Final-year projects 📊\n- And much more ✨\n\nThe platform will be used during Ignite event to gather all opportunities and facilitate applications.\n\nMany thanks to Professor Tibermacine for developing it 🙏\n\nTake time to test it and report any issues before we begin collecting opportunities.",
+      "text_source": "original"
+     },
+     {
+      "id": 1530,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Ilyes Halimi"
+      ]
+     },
+     {
+      "id": 1531,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Abdennour Guerroudj"
+      ]
+     },
+     {
+      "id": 1532,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Sir Mirak"
+      ]
+     },
+     {
+      "id": 1533,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Anes ."
+      ]
+     },
+     {
+      "id": 1534,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "A B"
+      ]
+     },
+     {
+      "id": 1535,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "alaeddine atamna"
+      ]
+     },
+     {
+      "id": 1536,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Seif Allah SAIDOUN"
+      ]
+     },
+     {
+      "id": 1537,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Mourad"
+      ]
+     },
+     {
+      "id": 1538,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       ". Salah"
+      ]
+     },
+     {
+      "id": 1539,
+      "type": "service",
+      "date": "2026-04-30T17:59:41",
+      "date_unixtime": "1777571981",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Islam Mibarki"
+      ]
+     },
+     {
+      "id": 1540,
+      "type": "message",
+      "date": "2026-04-30T19:03:08",
+      "date_unixtime": "1777575788",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "800 members so far!\n\nIt looks like we got a final push from @Djonas23 down the home stretch 🚀\n\nThe ENSIA Impact form is still open, feel free to share your feedback to help us improve the server 🙏 \n\nhttps://forms.gle/DZfUwcUNgGb9EQS37\n\nLet’s keep growing and strengthening the ENSIA Impact community together 🤝",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "800 members so far!\n\nIt looks like we got a final push from "
+       },
+       {
+        "type": "mention",
+        "text": "@Djonas23"
+       },
+       {
+        "type": "plain",
+        "text": " down the home stretch 🚀\n\nThe ENSIA Impact form is still open, feel free to share your feedback to help us improve the server 🙏 \n\nht"
+       },
+       {
+        "type": "link",
+        "text": "tps://forms.gle/DZfUwcUNgGb9EQS37\n\n"
+       },
+       {
+        "type": "plain",
+        "text": "Let’s keep growing and strengthening the ENSIA Impact community together 🤝"
+       }
+      ],
+      "reply_to_message_id": 835,
+      "original_text": "800 members so far!\n\nIt looks like we got a final push from @Djonas23 down the home stretch 🚀\n\nThe ENSIA Impact form is still open, feel free to share your feedback to help us improve the server 🙏 \n\nhttps://forms.gle/DZfUwcUNgGb9EQS37\n\nLet’s keep growing and strengthening the ENSIA Impact community together 🤝",
+      "text_source": "original"
+     },
+     {
+      "id": 1542,
+      "type": "service",
+      "date": "2026-04-30T22:58:08",
+      "date_unixtime": "1777589888",
+      "actor": "Younes",
+      "actor_id": "user1241396867",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Nayfa"
+      ]
+     },
+     {
+      "id": 1543,
+      "type": "service",
+      "date": "2026-05-01T01:11:19",
+      "date_unixtime": "1777597879",
+      "actor": "Manel",
+      "actor_id": "user7462776519",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "R_Z"
+      ]
+     },
+     {
+      "id": 1544,
+      "type": "service",
+      "date": "2026-05-01T10:51:34",
+      "date_unixtime": "1777632694",
+      "actor": "Nesrine Abdelhak",
+      "actor_id": "user8374370449",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1545,
+      "type": "message",
+      "date": "2026-05-01T16:10:29",
+      "date_unixtime": "1777651829",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "🚀 Online Quantum Computing Workshop\n\nCo-organized by Xanadu (Canada) and the Africa Quantum Consortium.\n\n🔬 What to expect:\n- Main concepts in quantum algorithms\n- Overview of quantum machine learning\n- Hands-on sessions using PennyLane\n\n🎯 Who can apply?\nMaster’s and PhD students, as well as early-career researchers in relevant fields\n\nYou can indicate your preferred date:\n- Wednesday, June 3, 2026\n- Friday, June 5, 2026\n\n📝 Registration:\nhttps://docs.google.com/forms/d/e/1FAIpQLSep9VwjzDsPwZCYtOZh4mrrk6dZHM_uno0ZTucMb0677X3olA/viewform",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🚀 Online Quantum Computing Workshop\n\nCo-organized by Xanadu (Canada) and the Africa Quantum Consortium.\n\n🔬 What to expect:\n- Main concepts in quantum algorithms\n- Overview of quantum machine learning\n- Hands-on sessions using PennyLane\n\n🎯 Who can apply?\nMaster’s and PhD students, as well as early-career researchers in relevant fields\n\nYou can indicate your preferred date:\n- Wednesday, June 3, 2026\n- Friday, June 5, 2026\n\n📝 Registration:\nhttp"
+       },
+       {
+        "type": "link",
+        "text": "s://docs.google.com/forms/d/e/1FAIpQLSep9VwjzDsPwZCYtOZh4mrrk6dZHM_uno0ZTucMb0677X3olA/viewform"
+       }
+      ],
+      "reply_to_message_id": 562,
+      "photo": "photos/photo_1545@2026-05-01T16:10:29.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "🚀 Online Quantum Computing Workshop\n\nCo-organized by Xanadu (Canada) and the Africa Quantum Consortium.\n\n🔬 What to expect:\n- Main concepts in quantum algorithms\n- Overview of quantum machine learning\n- Hands-on sessions using PennyLane\n\n🎯 Who can apply?\nMaster’s and PhD students, as well as early-career researchers in relevant fields\n\nYou can indicate your preferred date:\n- Wednesday, June 3, 2026\n- Friday, June 5, 2026\n\n📝 Registration:\nhttps://docs.google.com/forms/d/e/1FAIpQLSep9VwjzDsPwZCYtOZh4mrrk6dZHM_uno0ZTucMb0677X3olA/viewform",
+      "text_source": "original"
+     },
+     {
+      "id": 1546,
+      "type": "message",
+      "date": "2026-05-01T19:16:34",
+      "date_unixtime": "1777662994",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "🚀 Aventure Cloudz 🇩🇿\n\nAlgeria Venture launched Aventure Cloudz.\n\nPowered by Djezzy & Taubyte.\n\nThe first Algerian sovereign developer cloud, built for the AI era — where humans + AI agents build and deploy apps locally.\n\n🔗 https://ac.dz/⁠\n☁️ Hosted in Algeria\n⚡ Full-stack platform\n🤖 AI-native",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🚀 Aventure Cloudz 🇩🇿\n\nAlgeria Venture launched Aventure Cloudz.\n\nPowered by Djezzy & Taubyte.\n\nThe first Algerian sovereign developer cloud, built for the AI era — where humans + AI agents build and deploy apps locally.\n\n🔗 http"
+       },
+       {
+        "type": "link",
+        "text": "s://ac.dz/⁠\n☁️"
+       },
+       {
+        "type": "plain",
+        "text": " Hosted in Algeria\n⚡ Full-stack platform\n🤖 AI-native"
+       }
+      ],
+      "reply_to_message_id": 285,
+      "photo": "photos/photo_1546@2026-05-01T19:16:34.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "🚀 Aventure Cloudz 🇩🇿\n\nAlgeria Venture launched Aventure Cloudz.\n\nPowered by Djezzy & Taubyte.\n\nThe first Algerian sovereign developer cloud, built for the AI era — where humans + AI agents build and deploy apps locally.\n\n🔗 https://ac.dz/⁠\n☁️ Hosted in Algeria\n⚡ Full-stack platform\n🤖 AI-native",
+      "text_source": "original"
+     },
+     {
+      "id": 1547,
+      "type": "service",
+      "date": "2026-05-01T20:24:35",
+      "date_unixtime": "1777667075",
+      "actor": "𝕴𝖘𝖗𝖆𝖆",
+      "actor_id": "user5539837572",
+      "action": "join_group_by_link",
+      "text": "",
+      "text_entities": []
+     },
+     {
+      "id": 1548,
+      "type": "service",
+      "date": "2026-05-01T21:52:33",
+      "date_unixtime": "1777672353",
+      "actor": "طوير محمد الأمين",
+      "actor_id": "user7087547046",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Abd Kr"
+      ]
+     },
+     {
+      "id": 1549,
+      "type": "service",
+      "date": "2026-05-01T23:16:08",
+      "date_unixtime": "1777677368",
+      "actor": "AA",
+      "actor_id": "user2027095774",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Zaki Mohamed Djahoudi"
+      ]
+     },
+     {
+      "id": 1550,
+      "type": "message",
+      "date": "2026-05-03T11:49:34",
+      "date_unixtime": "1777808974",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "🚀 Entrepreneurship World Cup 2026\n\nUnder the High Patronage of the Ministry of Knowledge Economy and Startups.\n\nThe Entrepreneurship World Cup is one of the world’s largest startup competitions — now open to Algerian entrepreneurs.\n\n🌍 191 countries\n👥 420,000+ participants\n🏆 $1M in prizes\n🚀 Global Finals in Riyadh\n\nOpen to all stages: Idea, Early, Growth, and AI startups.\n\n👉 Apply now: \nhttps://entrepreneurshipworldcup.com/",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🚀 Entrepreneurship World Cup 2026\n\nUnder the High Patronage of the Ministry of Knowledge Economy and Startups.\n\nThe Entrepreneurship World Cup is one of the world’s largest startup competitions — now open to Algerian entrepreneurs.\n\n🌍 191 countries\n👥 420,000+ participants\n🏆 $1M in prizes\n🚀 Global Finals in Riyadh\n\nOpen to all stages: Idea, Early, Growth, and AI startups.\n\n👉 Apply now: \nhttps:"
+       },
+       {
+        "type": "link",
+        "text": "//entrepreneurshipworldcup.com/"
+       }
+      ],
+      "reply_to_message_id": 238,
+      "photo": "photos/photo_1550@2026-05-03T11:49:34.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "🚀 Entrepreneurship World Cup 2026\n\nUnder the High Patronage of the Ministry of Knowledge Economy and Startups.\n\nThe Entrepreneurship World Cup is one of the world’s largest startup competitions — now open to Algerian entrepreneurs.\n\n🌍 191 countries\n👥 420,000+ participants\n🏆 $1M in prizes\n🚀 Global Finals in Riyadh\n\nOpen to all stages: Idea, Early, Growth, and AI startups.\n\n👉 Apply now: \nhttps://entrepreneurshipworldcup.com/",
+      "text_source": "original"
+     },
+     {
+      "id": 1553,
+      "type": "service",
+      "date": "2026-05-07T00:00:56",
+      "date_unixtime": "1778112056",
+      "actor": "Ahmed Boudiaf",
+      "actor_id": "user6008174654",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Elias Imloul"
+      ]
+     },
+     {
+      "id": 1554,
+      "type": "service",
+      "date": "2026-05-07T00:05:34",
+      "date_unixtime": "1778112334",
+      "actor": "Sara",
+      "actor_id": "user5281788468",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Tasnim",
+       "Chéraze Beggas",
+       "kahina",
+       "​ℛ𝒶𝓃𝒾𝒶",
+       "Feriel Bendjaima"
+      ]
+     },
+     {
+      "id": 1555,
+      "type": "message",
+      "date": "2026-05-09T08:10:14",
+      "date_unixtime": "1778314214",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "🚀 We are proud to announce that Nroho was part of the Algerian delegation at the Algerian–Turkish Business Forum in Ankara.\n\nAlongside startups such as Volz, Intaj Mohtawayat, and Cybears, the team explored opportunities in innovation, mobility, investment, and collaboration.\n\nWe hope the dedication and growth of the Nroho team inspire other teams to persist and keep pushing forward 🙏",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🚀 We are proud to announce that Nroho was part of the Algerian delegation at the Algerian–Turkish Business Forum in Ankara.\n\nAlongside startups such as Volz, Intaj Mohtawayat, and Cybears, the team explored opportunities in innovation, mobility, investment, and collaboration.\n\nWe hope the dedication and growth of the Nroho team inspire other teams to persist and keep pushing forward 🙏"
+       }
+      ],
+      "reply_to_message_id": 805,
+      "photo": "photos/photo_1555@2026-05-09T08:10:14.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "🚀 We are proud to announce that Nroho was part of the Algerian delegation at the Algerian–Turkish Business Forum in Ankara.\n\nAlongside startups such as Volz, Intaj Mohtawayat, and Cybears, the team explored opportunities in innovation, mobility, investment, and collaboration.\n\nWe hope the dedication and growth of the Nroho team inspire other teams to persist and keep pushing forward 🙏",
+      "text_source": "original"
+     },
+     {
+      "id": 1556,
+      "type": "message",
+      "date": "2026-05-11T21:30:11",
+      "date_unixtime": "1778535011",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "Salam everyone,\n\nWe previously identified 5 main career paths in AI/Computer Science:\n\n👨‍💼 Engineer in a company\n🚀 Startup founder\n🧪 Research / PhD\n💻 Freelancer\n📊 Consultant\n\nMany students are unsure about their direction, so we’re organizing a discussion panel during Ignite with experts from each path to guide you and answer your questions.\n\n📄 Fill in the form with your questions:\nhttps://forms.gle/9stqfu4XhCfcumXZ8\n\n🔎 Discover the experts:\nhttps://www.instagram.com/p/DYNnvBkDgLy/?igsh=OG9lZmhvbTllcmFy",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Salam everyone,\n\nWe previously identified 5 main career paths in AI/Computer Science:\n\n👨‍💼 Engineer in a company\n🚀 Startup founder\n🧪 Research / PhD\n💻 Freelancer\n📊 Consultant\n\nMany students are unsure about their direction, so we’re organizing a discussion panel during Ignite with experts from each path to guide you and answer your questions.\n\n📄 Fill in the form with your questions:\nhttps:/"
+       },
+       {
+        "type": "link",
+        "text": "/forms.gle/9stqfu4XhCfcumXZ8\n\n🔎 Dis"
+       },
+       {
+        "type": "plain",
+        "text": "cover the experts:\nhttps://"
+       },
+       {
+        "type": "link",
+        "text": "www.instagram.com/p/DYNnvBkDgLy/?igsh=OG9lZmhvbTllcmFy"
+       }
+      ],
+      "reply_to_message_id": 3,
+      "original_text": "Salam everyone,\n\nWe previously identified 5 main career paths in AI/Computer Science:\n\n👨‍💼 Engineer in a company\n🚀 Startup founder\n🧪 Research / PhD\n💻 Freelancer\n📊 Consultant\n\nMany students are unsure about their direction, so we’re organizing a discussion panel during Ignite with experts from each path to guide you and answer your questions.\n\n📄 Fill in the form with your questions:\nhttps://forms.gle/9stqfu4XhCfcumXZ8\n\n🔎 Discover the experts:\nhttps://www.instagram.com/p/DYNnvBkDgLy/?igsh=OG9lZmhvbTllcmFy",
+      "text_source": "original"
+     },
+     {
+      "id": 1557,
+      "type": "message",
+      "date": "2026-05-12T20:15:07",
+      "date_unixtime": "1778616907",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "🔥 The Ignite website is now live:\n\nhttps://ignite26.vercel.app/\n\nThere are more than 80 institutions:\n• 30+ startups\n• 40+ companies\n• 10+ research centers\n\nThere are various offers and opportunities:\n• Internships\n• Job offers \n• Final year projects \n\nSome are offering various benefits:\n• Access to resources and training\n• Paid internships\n• Transportation and housing support\n• Meals / Lunch\n• Etc.\n\nThere is also a feedback form on the website where you can share your previous job and internship experiences to help others discover great opportunities 🙏",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🔥 The Ignite website is now live:\n\nh"
+       },
+       {
+        "type": "link",
+        "text": "ttps://ignite26.vercel.app/\n"
+       },
+       {
+        "type": "plain",
+        "text": "\nThere are more than 80 institutions:\n• 30+ startups\n• 40+ companies\n• 10+ research centers\n\nThere are various offers and opportunities:\n• Internships\n• Job offers \n• Final year projects \n\nSome are offering various benefits:\n• Access to resources and training\n• Paid internships\n• Transportation and housing support\n• Meals / Lunch\n• Etc.\n\nThere is also a feedback form on the website where you can share your previous job and internship experiences to help others discover great opportunities 🙏"
+       }
+      ],
+      "reply_to_message_id": 240,
+      "original_text": "🔥 The Ignite website is now live:\n\nhttps://ignite26.vercel.app/\n\nThere are more than 80 institutions:\n• 30+ startups\n• 40+ companies\n• 10+ research centers\n\nThere are various offers and opportunities:\n• Internships\n• Job offers \n• Final year projects \n\nSome are offering various benefits:\n• Access to resources and training\n• Paid internships\n• Transportation and housing support\n• Meals / Lunch\n• Etc.\n\nThere is also a feedback form on the website where you can share your previous job and internship experiences to help others discover great opportunities 🙏",
+      "text_source": "original"
+     },
+     {
+      "id": 1558,
+      "type": "service",
+      "date": "2026-05-12T23:27:26",
+      "date_unixtime": "1778628446",
+      "actor": "Hiba",
+      "actor_id": "user6663141012",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       ".ll"
+      ]
+     },
+     {
+      "id": 1559,
+      "type": "service",
+      "date": "2026-05-12T23:33:17",
+      "date_unixtime": "1778628797",
+      "actor": "Hiba",
+      "actor_id": "user6663141012",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "بِلاغيث تَسنيم آلاء 𓂆 🔻"
+      ]
+     },
+     {
+      "id": 1560,
+      "type": "service",
+      "date": "2026-05-13T12:52:27",
+      "date_unixtime": "1778676747",
+      "actor": "Abderrahmane Houri",
+      "actor_id": "user8136412924",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Mohamed Al Amine"
+      ]
+     },
+     {
+      "id": 1561,
+      "type": "service",
+      "date": "2026-05-13T13:02:52",
+      "date_unixtime": "1778677372",
+      "actor": "Mohamed Al Amine",
+      "actor_id": "user6628906281",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Danil"
+      ]
+     },
+     {
+      "id": 1562,
+      "type": "service",
+      "date": "2026-05-13T13:12:25",
+      "date_unixtime": "1778677945",
+      "actor": "طوير محمد الأمين",
+      "actor_id": "user7087547046",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "يونس"
+      ]
+     },
+     {
+      "id": 1563,
+      "type": "service",
+      "date": "2026-05-13T13:39:55",
+      "date_unixtime": "1778679595",
+      "actor": "Ayoub GHOUL",
+      "actor_id": "user6345564805",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Adel whynot"
+      ]
+     },
+     {
+      "id": 1564,
+      "type": "message",
+      "date": "2026-05-13T14:05:58",
+      "date_unixtime": "1778681158",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "Salam all,\n\nThe number of institutions participating in Ignite has exceeded 90 companies, startups, and research centers.\n\nFor those who have project ideas they’ve been working on that involve such institutions, don’t miss the opportunity to conduct surveys or short interviews during the event to gather feedback, validate your ideas, and build valuable connections 🙏",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Salam all,\n\nThe number of institutions participating in Ignite has exceeded 90 companies, startups, and research centers.\n\nFor those who have project ideas they’ve been working on that involve such institutions, don’t miss the opportunity to conduct surveys or short interviews during the event to gather feedback, validate your ideas, and build valuable connections 🙏"
+       }
+      ],
+      "reply_to_message_id": 337,
+      "original_text": "Salam all,\n\nThe number of institutions participating in Ignite has exceeded 90 companies, startups, and research centers.\n\nFor those who have project ideas they’ve been working on that involve such institutions, don’t miss the opportunity to conduct surveys or short interviews during the event to gather feedback, validate your ideas, and build valuable connections 🙏",
+      "text_source": "original"
+     },
+     {
+      "id": 1565,
+      "type": "message",
+      "date": "2026-05-14T17:57:24",
+      "date_unixtime": "1778781444",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "Salam all,\n\nThe partnership between our school and GAM Assurances has been officially formalized.\n\nThey will be present at the Ignite event and have expressed their readiness to sponsor future school activities.",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Salam all,\n\nThe partnership between our school and GAM Assurances has been officially formalized.\n\nThey will be present at the Ignite event and have expressed their readiness to sponsor future school activities."
+       }
+      ],
+      "reply_to_message_id": 1213,
+      "original_text": "Salam all,\n\nThe partnership between our school and GAM Assurances has been officially formalized.\n\nThey will be present at the Ignite event and have expressed their readiness to sponsor future school activities.",
+      "text_source": "original"
+     },
+     {
+      "id": 1566,
+      "type": "message",
+      "date": "2026-05-16T10:39:49",
+      "date_unixtime": "1778927989",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "Salam all,\n\nPlease note that many of the institutions present today have already submitted their offers (internships, final year projects, and job offers) on the school platform.\n\nYou can browse the available opportunities and submit your application directly:\ninternships.ensia.edu.dz",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Salam all,\n\nPlease note that many of the institutions present today have already submitted their offers (internships, final year projects, and job offers) on the school platform.\n\nYou can browse the available opportunities and submit your application directly:\n"
+       },
+       {
+        "type": "link",
+        "text": "internships.ensia.edu.dz"
+       }
+      ],
+      "reply_to_message_id": 240,
+      "photo": "photos/photo_1566@2026-05-16T10:39:49.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "Salam all,\n\nPlease note that many of the institutions present today have already submitted their offers (internships, final year projects, and job offers) on the school platform.\n\nYou can browse the available opportunities and submit your application directly:\ninternships.ensia.edu.dz",
+      "text_source": "original"
+     },
+     {
+      "id": 1570,
+      "type": "message",
+      "date": "2026-05-16T17:41:43",
+      "date_unixtime": "1778953303",
+      "from": "Abdelhak Chellal",
+      "from_id": "user2054340912",
+      "text": "Hello everyone 👋\n\nWe are conducting an evaluation study for our Final Year Project and would really appreciate your help.\n\nYou’ll evaluate report sections (human-written or AI-generated) on criteria like quality, presentation, visualization, and human-likeness using a simple 5-point scale.\n\n* It only takes a few minutes.\n* Please use a laptop for better PDF readability.\n\nYour honest feedback is very important for evaluating and improving our system. We truly appreciate your time and support 🙏\n\nHere is the link: https://eval-platform.scaleo.hr/evaluate",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "Hello everyone 👋\n\nWe are conducting an evaluation study for our Final Year Project and would really appreciate your help.\n\nYou’ll evaluate report sections (human-written or AI-generated) on criteria like quality, presentation, visualization, and human-likeness using a simple 5-point scale.\n\n* It only takes a few minutes.\n* Please use a laptop for better PDF readability.\n\nYour honest feedback is very important for evaluating and improving our system. We truly appreciate your time and support 🙏\n\nHere is the link: ht"
+       },
+       {
+        "type": "link",
+        "text": "tps://eval-platform.scaleo.hr/evaluate"
+       }
+      ],
+      "original_text": "Hello everyone 👋\n\nWe are conducting an evaluation study for our Final Year Project and would really appreciate your help.\n\nYou’ll evaluate report sections (human-written or AI-generated) on criteria like quality, presentation, visualization, and human-likeness using a simple 5-point scale.\n\n* It only takes a few minutes.\n* Please use a laptop for better PDF readability.\n\nYour honest feedback is very important for evaluating and improving our system. We truly appreciate your time and support 🙏\n\nHere is the link: https://eval-platform.scaleo.hr/evaluate",
+      "text_source": "original"
+     },
+     {
+      "id": 1571,
+      "type": "service",
+      "date": "2026-05-18T12:22:33",
+      "date_unixtime": "1779106953",
+      "actor": "Abdessamed",
+      "actor_id": "user7058857845",
+      "action": "invite_members",
+      "text": "",
+      "text_entities": [],
+      "members": [
+       "Samu"
+      ]
+     },
+     {
+      "id": 1572,
+      "type": "message",
+      "date": "2026-05-18T18:15:16",
+      "date_unixtime": "1779128116",
+      "from": null,
+      "from_id": "channel2482670091",
+      "text": "🚀 Startup World Cup Algeria\n\nApplications are open for the Startup World Cup Algeria 2026 🇩🇿\n\nThis is a startup pitching competition where entrepreneurs present their innovative ideas.\n\n🏆 Winners will represent Algeria in San Francisco at the finale\n⏳ Deadline: 03 June 2026\n🔗 https://swc-algeria.com",
+      "text_entities": [
+       {
+        "type": "plain",
+        "text": "🚀 Startup World Cup Algeria\n\nApplications are open for the Startup World Cup Algeria 2026 🇩🇿\n\nThis is a startup pitching competition where entrepreneurs present their innovative ideas.\n\n🏆 Winners will represent Algeria in San Francisco at the finale\n⏳ Deadline: 03 June 2026\n🔗 https"
+       },
+       {
+        "type": "link",
+        "text": "://swc-algeria.com"
+       }
+      ],
+      "reply_to_message_id": 239,
+      "photo": "photos/photo_1572@2026-05-18T18:15:16.jpg",
+      "width": 0,
+      "height": 0,
+      "original_text": "🚀 Startup World Cup Algeria\n\nApplications are open for the Startup World Cup Algeria 2026 🇩🇿\n\nThis is a startup pitching competition where entrepreneurs present their innovative ideas.\n\n🏆 Winners will represent Algeria in San Francisco at the finale\n⏳ Deadline: 03 June 2026\n🔗 https://swc-algeria.com",
+      "text_source": "original"
      }
     ]
    }

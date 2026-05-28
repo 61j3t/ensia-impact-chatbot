@@ -1,0 +1,36 @@
+[Source: https://ac.dz/]
+[Title: Aventure Cloudz — Algeria's First Sovereign Developer Cloud]
+[Backend: httpx]
+[Fetched: 2026-05-20T17:14:23+00:00]
+
+Live on ac.dz
+Aventure Cloudz: Algeria's First Sovereign Developer Cloud
+Aventure Cloudz is a sovereign developer cloud for Algerian teams building modern applications, AI products, and digital services. The platform helps humans and coding agents build, ship, and run software together while keeping infrastructure, data residency, and operational control in Algeria.
+Example apps built on Aventure Cloudz
+Aventure Cloudz can host complete apps created from a single AI prompt, including a lightweight forms product, a browser game, and a banking data dashboard.
+- Tauforms: create forms, choose question types, publish a public fill page, and keep the owner secret in the browser.
+- Tour game: a small stacking game with name entry, difficulty, sound control, score tracking, and previous runs.
+- Banking Data Dashboard: live ECB exchange rates with pair filters, return stats, volatility, charts, and a Taubyte API proxy.
+About Aventure Cloudz
+Aventure Cloudz brings together Algeria Venture, Djezzy, and Taubyte around one mission: give Algerian builders the cloud stack they still have to rent abroad. The strategic partnership was signed on April 29, 2026, at Djezzy headquarters in Algiers by Boumediene Senouci, CEO of Djezzy; Lyes Abdoun, CEO of A-Venture; and Samy Fodil, CEO of Taubyte.
+The service is designed for startups, developers, enterprises, and public-sector-aligned innovation programs that need a local path to deploy software. Aventure Cloudz keeps capability, data, and momentum in the country while offering familiar developer workflows for teams that already use global cloud platforms.
+Cloud Services
+The platform plans to support serverless functions, databases, object storage, messaging, websites, domains, and AI workflows. Developers can use Git-based deployment, custom domains, TLS, managed storage, and event-driven services to move from local development to production with less operational overhead.
+- Serverless functions for backend code and APIs.
+- Databases including key-value, document, SQL, and vector stores.
+- S3-compatible object storage for assets, media, archives, and backups.
+- Real-time pub/sub and event streams for applications and automations.
+- Static and dynamic websites with custom domains and TLS.
+- AI workflows for teams using coding agents in the software lifecycle.
+Pricing Packs
+Aventure Cloudz early access includes three published packs. Starter is listed at 2,500 DZD per month with 2 websites, 1,000,000 function requests, 45,000 vCPU-seconds, 90,000 GB-seconds, 256 MB memory per invocation, 1 KV database, 1 object storage bucket, and 1 GB total storage. Pro is listed at 9,000 DZD per month with 8 websites, 4,000,000 requests, 220,000 vCPU-seconds, 500,000 GB-seconds, 512 MB memory, 3 KV databases, 3 storage buckets, and 5 GB total storage. Premium is listed at 20,000 DZD per month with 20 websites, 12,000,000 requests, 900,000 vCPU-seconds, 2,200,000 GB-seconds, 1,024 MB memory, 10 KV databases, 10 storage buckets, and 10 GB total storage.
+Compare all features at /pricing. Subscriptions are handled by Djezzy, our KYC and payment partner — start at /redirect.
+Partners and Trust Signals
+Aventure Cloudz is backed by Algeria Venture, Djezzy, and Taubyte. Algeria Venture anchors the project inside the national innovation ecosystem. Djezzy contributes local telecommunications infrastructure and operational experience. Taubyte powers the full-stack cloud platform for humans and machines.
+For contact, email contact@ac.dz. AI crawlers can also read llms.txt, AI summary JSON, AI FAQ JSON, and AI service JSON.
+In the news
+- APS: Algeria Venture lance une plateforme de cloud souverain destinée aux développeurs
+- Algerie Eco: Djezzy et Taubyte s'unissent sous l'egide de Algeria Venture
+- TechAfrica News: Djezzy unveils AI cloud platform with Algeria Venture and Taubyte
+- Ecofin Agency: Algeria's sovereign cloud push targets tech jobs for young developers
+- AlgeriaTech: AventureCloudz, la premiere plateforme cloud IA git-native d'Algerie

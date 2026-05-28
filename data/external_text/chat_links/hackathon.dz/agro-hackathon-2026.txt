@@ -1,0 +1,122 @@
+[Source: https://hackathon.dz/agro-hackathon-2026]
+[Title: Hackathon Agroalimentaire Algerie 2026 | CRAPC]
+[Backend: httpx]
+[Fetched: 2026-05-20T17:16:09+00:00]
+
+Agrifood Hackathon — CRAPC & INAPI
+Hackathon
+Agroalimentaire
+Algérie 2026
+21 - 23 Mai 2026 — Tipaza, Algérie
+Sahara & Sky — “Reinventing the Food Experience”
+Hackathon national de 48h dédié à l'innovation agroalimentaire. Organisé par le CRAPC en co-organisation avec l'INAPI, en partenariat avec l'OMPI, CRAPC EXPERTISE, l'ANVREDET, CATRING AIR ALGÉRIE et TAYBA DATES.
+Le hackathon commence dans
+Organisateurs & Partenaires Institutionnels
+MESRS
+Ministère de l'Enseignement Supérieur et de la Recherche Scientifique
+Ministère des Startups
+Ministère de l'Économie de la Connaissance, des Startups et des Micro-entreprises
+Ministère de l'Industrie
+Ministère de l'Industrie et de la Production Pharmaceutique
+Ministère des Transports
+Ministère des Transports
+DGRSDT
+Direction Générale de la Recherche Scientifique et du Développement Technologique
+NCCFIUE
+Commission Nationale de Coordination et de Suivi de l'Innovation et des Incubateurs Universitaires
+CRAPC
+Centre de Recherche Scientifique et Technique en Analyses Physico-Chimiques
+CRAPC EXPERTISE
+CRAPC EXPERTISE
+Incubateur
+Incubateur CRAPC
+INAPI
+Institut National Algérien de la Propriété Industrielle
+ANVREDET
+Agence Nationale de Valorisation des Résultats de la Recherche et du Développement Technologique
+OMPI
+Organisation Mondiale de la Propriété Intellectuelle
+CATRING AIR ALGÉRIE
+CATRING AIR ALGÉRIE
+TAYBA DATES
+TAYBA DATES
+Objectifs du Hackathon
+Valoriser la Recherche
+Valoriser les résultats de la recherche scientifique et les brevets algériens en agroalimentaire, en collaboration avec les différents opérateurs économiques.
+Identifier les Projets
+Identifier les projets à fort potentiel économique susceptibles d'être valorisés sous forme de startups, spin-offs ou PME.
+Stimuler l'Innovation
+Stimuler l'innovation et la créativité chez les porteurs de projets.
+Encourager l'Entrepreneuriat
+Encourager l'entrepreneuriat, le travail collaboratif et l'esprit d'équipe.
+Renforcer la Coopération
+Renforcer la coopération entre universités, centres de recherche et partenaires socio-économiques.
+Thématiques du Hackathon
+Partenaire : Air Algerie
+Air Food Innovation
+Innovation alimentaire pour le transport aérien
+Concevoir des produits alimentaires innovants, sains et adaptés aux contraintes du transport aérien : menus à bord, conditionnement, conservation et expérience passager.
+Partenaire : Air Algerie
+Air Food Innovation
+Traçabilité intelligente et logistique des repas aériens
+Développer des solutions intelligentes de traçabilité, suivi logistique et gestion des flux de catering, depuis la préparation au sol jusqu'au service à bord.
+Partenaire : TAIBA DATTE
+Sahara Food Innovation
+Produits à base de lait de chamelle et de sirop de dattes
+Valoriser les ressources sahariennes en créant des produits agroalimentaires innovants à base de lait de chamelle et de sirop de dattes : aliments fonctionnels, à haute valeur nutritionnelle, durables et à fort potentiel d'exportation.
+Chaque équipe peut choisir 1 ou 2 thématiques maximum. Les volets A et B de la Thématique 1 comptent comme une seule thématique.
+Qui peut participer ?
+Public Cible
+Startups labellisées
+En agroalimentaire, chimie, biologie et agronomie
+Porteurs de projets innovants
+Porteurs de projets innovants en agroalimentaire (avec prototype ou preuve de concept)
+Projets brevetés
+Projets labellisés startup ou portant un brevet déposé
+Professionnels
+Développeurs, ingénieurs, designers UX/UI, marketeurs et managers
+Chercheurs
+Chercheurs et porteurs de projets universitaires
+Évaluation
+Critères de Présélection
+Intérêt du projet
+Le projet répond-il à un besoin réel et pertinent dans le secteur agroalimentaire ?
+Originalité et Innovation
+Le projet apporte-t-il une solution réellement nouvelle et différentielle ?
+Maturité du Projet (TRL)
+Évaluée selon le degré de maturation technologique, sur la base de l'échelle TRL (Technology Readiness Level).
+Faisabilité Technique
+La solution est-elle techniquement réalisable dans le contexte algérien ?
+Complémentarité de l'Équipe
+L'équipe rassemble-t-elle les compétences nécessaires ?
+Impact Socioéconomique
+Quelle valeur ajoutée le projet crée-t-il pour le secteur et la société ?
+Dates clés
+Calendrier
+Lancement
+Lancement officiel du hackathon et ouverture des inscriptions
+Fin des inscriptions
+Date limite de dépôt des candidatures
+Présélection
+Évaluation des dossiers par le comité scientifique
+Annonce des équipes sélectionnées
+Publication de la liste des équipes sélectionnées
+Déroulement du Hackathon
+48h en présentiel au siège CRAPC, Tipaza
+Grande Finale & Pitch
+Présentations finales et remise des prix
+Hébergement
+Hébergement pris en charge pour tous les projets présélectionnés.
+3 prix par thématique
+Récompenses
+Trois (03) projets seront primés par thématique
+Prix du Meilleur Projet
+- Cadeau sponsorisé
+- Accompagnement personnalisé par l'accélérateur du CRAPC et un acteur industriel
+Prix de l'Innovation
+- Incubation de projet
+- Mentorat dédié
+Prix du Public
+- Attribué sur la base du vote du public
+Pour Tous Les Finalistes
+Présentation devant des investisseurs algériens et internationaux

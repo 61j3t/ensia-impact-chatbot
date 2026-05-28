@@ -1,0 +1,16 @@
+[Source: https://docs.google.com/forms/d/e/1FAIpQLSep9VwjzDsPwZCYtOZh4mrrk6dZHM_uno0ZTucMb0677X3olA/viewform]
+[Title: Pilot QML Workshop - African Multi-University Session.]
+[Backend: httpx]
+[Fetched: 2026-05-20T17:15:48+00:00]
+
+This workshop, presented by Xanadu and the Africa Quantum Consortium (AQC), focuses on the practical integration of quantum circuits into machine learning pipelines using PennyLane. While PennyLane now supports advanced algorithms like QSVT and resource estimation, this session is tailored specifically for those interested in Quantum Machine Learning (QML).
+What You Will Learn:
+PennyLane Introduction: A brief guide to the leading library for differentiable programming and quantum research.
+Hybrid Architectures: How to treat quantum circuits as differentiable nodes within standard ML workflows.
+Fourier Interpretations: A sample demonstration of how Variational Quantum Algorithms (VQAs) can be interpreted in terms of Fourier series.
+Advanced Directions: A glimpse into the role of Fourier analysis in modern QML research, with curated resources for further study.
+Please indicate which date works best for your schedule:
+Wednesday, June 3, 2026
+Friday, June 5, 2026
+Note: Please submit your response by May 14 to finalize the Date for internal approval. Most preferred date will be picked.
+You automatically register for the event by filling this form, and will still have the opportunity to attend even if your preferred date is not settled for.

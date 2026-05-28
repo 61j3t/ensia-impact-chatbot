@@ -1,0 +1,72 @@
+[Source: https://entrepreneurshipworldcup.com/]
+[Title: Home EWC - Entrepreneurship World Cup]
+[Backend: httpx]
+[Fetched: 2026-05-20T17:16:05+00:00]
+
+Empowering entrepreneurs. Increasing innovation
+Join the world’s most ambitious entrepreneurial competition.
+Why Participate
+Investor Access
+Connect with VCs and corporate partners
+Market Entry
+Soft-landing support for scaling in Saudi Arabia & MENA Region
+Mentorship
+1:1 sessions with industry leaders
+Global Stage
+Compete in Riyadh at the EWC Global Finals
+$1M Prizes
+Equity-free cash awards across 12 winners
+EWC Journey
+Applications Open
+Startups apply globally across tracks: Idea, Early, Growth, and Artificial Intelligence
+EWC Selection
+Top startups selected based on innovation, scalability, and impact.
+Virtual Bootcamp
+Top 250 startups receive mentorship, pitch training, and investor prep.
+EWC 100 Selection
+Top 100 advance to the Global Finals.
+Global Finals in Riyadh
+Finalists compete live for a share of $1 million.
+Who Can Apply?
+EWC is open to startups at all stages. No matter where you are in your journey, there is a place for you.
+Idea Stage
+- Entrepreneurs with a concept or prototype
+- Looking to validate and build
+Early Stage
+- Startups with a product in market
+- Generating early revenue
+- Seeking traction
+Growth Stage
+- Established companies
+- Scaling operations
+- Expanding into new markets
+Global Reward
+Early Stage
+Grand Prize
+$200,000
+Runner Up
+$150,000
+3rd Place
+$90,000
+4th Place
+$50,000
+Growth Stage
+Grand Prize
+$160,000
+Runner Up
+$100,000
+Idea Stage
+Grand Prize
+$30,000
+Runner Up
+$20,000
+AI Sub-Tracks
+Specialized prizes for cutting-edge innovation
+AI Infrastructure & Platforms
+$50,000
+Smart Manufacturing & Mobility
+$50,000
+Energy, Water & Sustainable Systems
+$50,000
+Gaming & Immersive Tech
+$50,000

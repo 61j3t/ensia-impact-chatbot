@@ -29,16 +29,20 @@ export function relTime(d: Date | string): string {
   return `${Math.floor(month / 12)} yr ago`;
 }
 
-/** Local date+time, short. */
+/** Date+time formatted in a fixed locale + UTC to avoid SSR/CSR
+ *  hydration mismatches. The server's locale and timezone usually differ
+ *  from the user's browser, which produced text-content drift inside the
+ *  rendered tree (turns list, freshness tooltips, etc.). */
 export function dateTime(d: Date | string): string {
   const date = typeof d === "string" ? new Date(d) : d;
-  return date.toLocaleString(undefined, {
+  return date.toLocaleString("en-US", {
     year: "numeric",
     month: "short",
     day: "numeric",
     hour: "2-digit",
     minute: "2-digit",
-  });
+    timeZone: "UTC",
+  }) + " UTC";
 }
 
 /** YYYY-MM-DD, useful for the activity feed groupings. */

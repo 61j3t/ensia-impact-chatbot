@@ -32,10 +32,16 @@ import unicodedata
 from pathlib import Path
 
 from dotenv import load_dotenv
-from telegram import Update
+from telegram import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    ReactionTypeEmoji,
+    Update,
+)
 from telegram.constants import ChatAction, ChatType, ParseMode
 from telegram.ext import (
     Application,
+    CallbackQueryHandler,
     CommandHandler,
     ContextTypes,
     MessageHandler,
@@ -187,12 +193,21 @@ def _pretty_pdf_name(pdf_file_meta: str | None) -> str:
 
 
 WELCOME = (
-    "Salam 👋  I'm the ENSIA Impact assistant.\n\n"
-    "Ask me anything about content shared in the ENSIA Impact Telegram "
-    "server — startups, internships, decree 1275, the incubator/CDE, "
-    "events, and more.\n\n"
-    "I answer in English, French, or Arabic. I'll cite my sources, and "
-    "I'll tell you when I don't know."
+    "Salam 👋  I'm the *ENSIA Impact* assistant.\n\n"
+    "I answer questions grounded in everything shared on the ENSIA Impact "
+    "Telegram server — chat messages, PDFs, OCR'd images, plus the "
+    "official ensia.edu.dz and v2v.ensia.edu.dz pages and every link "
+    "students have shared.\n\n"
+    "*Things you can ask:*\n"
+    "• Which companies has ENSIA partnered with?\n"
+    "• What projects are currently incubated at the CDE?\n"
+    "• Why join the incubator — what does it offer?\n"
+    "• What types of final-year projects exist and how do I pick one?\n"
+    "• How do I register a startup under décret 1275?\n"
+    "• Quels événements arrivent ce mois-ci?\n"
+    "• ما هي شروط الانضمام إلى الحاضنة؟\n\n"
+    "I reply in English, French, or Arabic; I cite my sources; and I'll "
+    "say so when I don't know. Hit /help for usage tips."
 )
 
 HELP = (
@@ -213,7 +228,7 @@ HELP = (
 # ─── handlers ───────────────────────────────────────────────────────────────
 
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.effective_message.reply_text(WELCOME)
+    await update.effective_message.reply_text(WELCOME, parse_mode=ParseMode.MARKDOWN)
 
 
 async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -276,6 +291,36 @@ async def on_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
     if not text:
         return
 
+    # If this user just tapped 🚩 Report and hasn't given a reason yet,
+    # treat the next text message as the reason instead of a query.
+    if _memory is not None and update.effective_user is not None:
+        try:
+            pending = await asyncio.to_thread(
+                _memory.pending_report,
+                update.effective_chat.id,
+                update.effective_user.id,
+            )
+        except Exception:
+            logger.exception("pending_report check failed")
+            pending = None
+        if pending is not None:
+            feedback_id, _reported_msg = pending
+            try:
+                await asyncio.to_thread(
+                    _memory.add_report_reason, feedback_id, text[:500],
+                )
+                await msg.reply_text(
+                    "🙏 Thanks — your report has been saved."
+                )
+                logger.info(
+                    "report reason saved for feedback id %d by user %d",
+                    feedback_id, update.effective_user.id,
+                )
+                return
+            except Exception:
+                logger.exception("add_report_reason failed")
+                # Fall through and treat it as a normal query.
+
     await _handle_query(update, context, text)
 
 
@@ -304,6 +349,22 @@ async def _handle_query(update: Update, context: ContextTypes.DEFAULT_TYPE, quer
     _last_query_time[user_id] = now
 
     logger.info("query from @%s in chat %s: %r", username, chat_id, query[:80])
+
+    # React with 🤔 on the user's message so they get instant acknowledgement
+    # that we picked it up — useful when the LLM takes a few seconds. The
+    # reaction is cleared right before we send the reply (see below). Best-
+    # effort: a missing/unsupported chat shouldn't block the answer flow.
+    incoming_msg = update.effective_message
+    reaction_set = False
+    try:
+        await context.bot.set_message_reaction(
+            chat_id=chat_id,
+            message_id=incoming_msg.message_id,
+            reaction=[ReactionTypeEmoji(emoji="🤔")],
+        )
+        reaction_set = True
+    except Exception:
+        logger.debug("set_message_reaction failed", exc_info=True)
 
     # Record / refresh the user's metadata + bump their query counter.
     # Best-effort: a Postgres outage shouldn't prevent answering.
@@ -343,6 +404,7 @@ async def _handle_query(update: Update, context: ContextTypes.DEFAULT_TYPE, quer
     except Exception:
         logger.exception("answer() failed")
         typing_task.cancel()
+        await _clear_reaction(context, chat_id, incoming_msg.message_id, reaction_set)
         await update.effective_message.reply_text(
             "Something went wrong on my side. Try again in a moment."
         )
@@ -369,14 +431,32 @@ async def _handle_query(update: Update, context: ContextTypes.DEFAULT_TYPE, quer
     # Telegram caps a single message at 4096 chars; trim defensively.
     if len(reply) > 4000:
         reply = reply[:4000].rstrip() + "…"
+
+    # Attach the feedback keyboard to every real answer. Refusals get a
+    # 👎 / 🚩 keyboard so users can still flag a bad refusal (no 👍 — no
+    # answer to be useful), but small talk and rate-limit replies don't
+    # get a keyboard at all (those go through reply_text directly).
+    keyboard = _feedback_keyboard(refusal=bool(result.get("refused")))
+
+    sent_msg = None
     try:
-        await update.effective_message.reply_text(
-            reply, parse_mode=ParseMode.HTML, disable_web_page_preview=True
+        sent_msg = await update.effective_message.reply_text(
+            reply,
+            parse_mode=ParseMode.HTML,
+            disable_web_page_preview=True,
+            reply_markup=keyboard,
         )
     except Exception:
         logger.exception("HTML send failed; retrying as plain text")
-        plain = f"{result['answer']}\n\nSources: " + ", ".join(s["id"] for s in result["sources"])
-        await update.effective_message.reply_text(plain[:4000])
+        plain = f"{result['answer']}\n\nSources: " + ", ".join(
+            s["id"] for s in result.get("sources") or []
+        )
+        sent_msg = await update.effective_message.reply_text(
+            plain[:4000], reply_markup=keyboard
+        )
+
+    # Reply has landed — clear the 🤔 thinking reaction.
+    await _clear_reaction(context, chat_id, incoming_msg.message_id, reaction_set)
 
     # Persist the exchange to memory only when the bot actually answered.
     # We skip refusals (hard refuse, LLM timeout, "can't find") so they
@@ -385,10 +465,131 @@ async def _handle_query(update: Update, context: ContextTypes.DEFAULT_TYPE, quer
         try:
             _memory.add_turns(chat_id, user_id, [
                 {"role": "user", "content": query},
-                {"role": "assistant", "content": result["answer"]},
+                {
+                    "role": "assistant",
+                    "content": result["answer"],
+                    "sources": result.get("sources") or None,
+                    "tg_message_id": sent_msg.message_id if sent_msg else None,
+                },
             ])
         except Exception:
             logger.exception("memory.add_turns failed")
+
+
+# ─── inline feedback keyboard ──────────────────────────────────────────────
+
+# callback_data is capped at 64 bytes by Telegram; "fb:useful" etc. fits
+# easily. We don't need to encode chat/message ids — those come from the
+# CallbackQuery itself.
+_CB_USEFUL = "fb:useful"
+_CB_NOT_USEFUL = "fb:not_useful"
+_CB_REPORT = "fb:report"
+
+
+def _feedback_keyboard(refusal: bool = False) -> InlineKeyboardMarkup:
+    """Three-button row attached under every assistant reply. On refusal
+    we hide 👍 (nothing to be useful about) but keep 👎 / 🚩."""
+    row = []
+    if not refusal:
+        row.append(InlineKeyboardButton("👍 Useful", callback_data=_CB_USEFUL))
+    row.append(InlineKeyboardButton("👎 Not useful", callback_data=_CB_NOT_USEFUL))
+    row.append(InlineKeyboardButton("🚩 Report", callback_data=_CB_REPORT))
+    return InlineKeyboardMarkup([row])
+
+
+_RATING_LABEL = {
+    "useful": "👍 Marked useful",
+    "not_useful": "👎 Marked not useful",
+    "report": "🚩 Reported — reply with a short reason (or ignore to skip)",
+    "updated": "✓ Updated",
+    "removed": "↩ Cleared",
+}
+
+
+async def on_feedback(
+    update: Update, context: ContextTypes.DEFAULT_TYPE
+) -> None:
+    """Handle taps on the 👍 / 👎 / 🚩 buttons under bot replies."""
+    cq = update.callback_query
+    if cq is None or not cq.data or not cq.data.startswith("fb:"):
+        return
+    rating = cq.data.split(":", 1)[1]
+    if rating not in ("useful", "not_useful", "report"):
+        await cq.answer("Unknown feedback type")
+        return
+
+    user_id = cq.from_user.id
+    chat_id = cq.message.chat.id
+    message_id = cq.message.message_id
+
+    if _memory is None:
+        await cq.answer("Feedback storage unavailable", show_alert=False)
+        return
+
+    try:
+        outcome = await asyncio.to_thread(
+            _memory.set_feedback, chat_id, message_id, user_id, rating,
+        )
+    except Exception:
+        logger.exception("set_feedback failed")
+        await cq.answer("Couldn't record that — try again", show_alert=False)
+        return
+
+    label = _RATING_LABEL.get(outcome) or _RATING_LABEL.get(rating, "✓")
+    # Toast popup on the user's client.
+    await cq.answer(label)
+
+    # Replace the keyboard with the current state: pressed button gets a
+    # leading "✓". Toggling off restores the full unchecked keyboard.
+    if outcome == "removed":
+        await cq.edit_message_reply_markup(
+            reply_markup=_feedback_keyboard(refusal=False)
+        )
+    else:
+        await cq.edit_message_reply_markup(
+            reply_markup=_keyboard_with_active(rating)
+        )
+
+    logger.info(
+        "feedback %s by user %d on (chat=%d msg=%d): outcome=%s",
+        rating, user_id, chat_id, message_id, outcome,
+    )
+
+
+def _keyboard_with_active(active: str) -> InlineKeyboardMarkup:
+    """Show which rating the user gave — leading ✓ on the chosen button."""
+    def lbl(text: str, key: str) -> str:
+        return f"✓ {text}" if key == active else text
+    return InlineKeyboardMarkup([[
+        InlineKeyboardButton(
+            lbl("👍 Useful", "useful"), callback_data=_CB_USEFUL,
+        ),
+        InlineKeyboardButton(
+            lbl("👎 Not useful", "not_useful"), callback_data=_CB_NOT_USEFUL,
+        ),
+        InlineKeyboardButton(
+            lbl("🚩 Report", "report"), callback_data=_CB_REPORT,
+        ),
+    ]])
+
+
+async def _clear_reaction(
+    context: ContextTypes.DEFAULT_TYPE,
+    chat_id: int,
+    message_id: int,
+    was_set: bool,
+) -> None:
+    """Remove the 🤔 reaction the bot left on the user's message at the
+    start of a turn. No-op when the reaction couldn't be set in the first
+    place (e.g. an older chat that doesn't allow bot reactions)."""
+    if not was_set:
+        return
+    try:
+        await context.bot.set_message_reaction(
+            chat_id=chat_id, message_id=message_id, reaction=[]
+        )
+    except Exception:
+        logger.debug("clear_message_reaction failed", exc_info=True)
 
 
 async def _keep_typing(context: ContextTypes.DEFAULT_TYPE, chat_id: int) -> None:
@@ -401,11 +602,31 @@ async def _keep_typing(context: ContextTypes.DEFAULT_TYPE, chat_id: int) -> None
         return
 
 
+def _fmt_tokens(n: int) -> str:
+    """Compact token counts for the footer: 12345 -> '12k', 980 -> '980'."""
+    if n >= 1_000_000:
+        return f"{n / 1_000_000:.1f}M"
+    if n >= 1_000:
+        return f"{n / 1_000:.0f}k"
+    return str(n)
+
+
 def _format_reply(result: dict, elapsed_s: float) -> str:
     """Render the answer + sources block as HTML for Telegram."""
     answer_text = html.escape(result["answer"])
     parts = [answer_text]
-    timing_line = f"<i>⏱ {elapsed_s:.1f}s</i>"
+
+    # Footer: wall-clock + context-window fill, like Claude's "X% of
+    # context used" indicator. tokens / max_input_tokens for the model.
+    used = result.get("context_tokens") or 0
+    cap = result.get("context_max")
+    ctx_bit = ""
+    if used > 0 and cap:
+        pct = round(used / cap * 100)
+        ctx_bit = f" · 🧠 {pct}% ({_fmt_tokens(used)}/{_fmt_tokens(cap)})"
+    elif used > 0:
+        ctx_bit = f" · 🧠 {_fmt_tokens(used)} tokens"
+    timing_line = f"<i>⏱ {elapsed_s:.1f}s{ctx_bit}</i>"
 
     if result["refused"]:
         parts.append("\n" + timing_line)
@@ -517,6 +738,7 @@ def main() -> None:
     app.add_handler(CommandHandler("ask", cmd_ask))
     app.add_handler(CommandHandler("reset", cmd_reset))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_message))
+    app.add_handler(CallbackQueryHandler(on_feedback, pattern=r"^fb:"))
     app.add_error_handler(on_error)
 
     logger.info("Bot starting (long-polling). Ctrl-C to stop.")

@@ -1,7 +1,7 @@
 [Source: https://www.ensia.edu.dz/consultations/]
 [Title: Consultations]
 [Language: en]
-[Modified: 2026-04-30T17:45:07]
+[Modified: 2026-05-12T11:08:58]
 
 Advertisement for Consultations
 
@@ -11,7 +11,13 @@ Consultation
 
 Provisional Allocation
 
+Consultation 08
+
+Consultation 07
+
 Consultation 06
+
+Consultation 05′
 
 Consultation 05
 

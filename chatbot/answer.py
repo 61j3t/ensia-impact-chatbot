@@ -269,6 +269,36 @@ def _chunk_label(metadata: dict) -> str:
     return "unknown source"
 
 
+def _measure_context(model: str, messages: list[dict]) -> tuple[int, int | None]:
+    """Return (tokens_used, max_input_tokens) for this LLM call.
+
+    `tokens_used` is best-effort: LiteLLM's token_counter handles each
+    supported provider via its native tokenizer; if it errors out (rare
+    but happens for unfamiliar models) we approximate at ~4 chars per
+    token, which is close enough for a progress badge.
+
+    `max_input_tokens` comes from LiteLLM's `model_cost` dict. If we
+    can't look it up the second element is None and the bot just won't
+    show a percentage."""
+    used = 0
+    try:
+        used = litellm.token_counter(model=model, messages=messages)
+    except Exception:
+        used = sum(len(m.get("content", "")) for m in messages) // 4
+
+    max_input: int | None = None
+    try:
+        info = litellm.get_model_info(model)
+        max_input = (
+            info.get("max_input_tokens")
+            or info.get("max_tokens")
+            or None
+        )
+    except Exception:
+        max_input = None
+    return used, max_input
+
+
 def _build_context(hits: list[dict], max_chars_per_chunk: int = 1500) -> str:
     """Render retrieved chunks into a context block the LLM can read.
 
@@ -403,6 +433,13 @@ def answer(
     messages.extend(history)
     messages.append({"role": "user", "content": user_message})
 
+    # Context-fill estimate: how much of the model's input window we're
+    # using on this turn. Counted across system + history + context +
+    # query — i.e. the actual payload going to the LLM. Best-effort:
+    # LiteLLM doesn't know every model's window, so we fall back to a
+    # rough chars/4 estimate when token_counter / get_model_info fail.
+    ctx_tokens, ctx_max = _measure_context(model, messages)
+
     # ── LLM call (with timeout to bound worst-case latency) ──────────────
     t1 = time.monotonic()
     try:
@@ -426,6 +463,8 @@ def answer(
             "top_score": top_score,
             "tier": "llm_timeout",
             "sources": [],
+            "context_tokens": ctx_tokens,
+            "context_max": ctx_max,
             "timings": {"rewrite": rewrite_s, "retrieval": retrieval_s,
                         "answer": time.monotonic() - t1},
         }
@@ -451,6 +490,8 @@ def answer(
         "tier": tier,
         "has_citations": has_citations,
         "sources": surfaced_sources,
+        "context_tokens": ctx_tokens,
+        "context_max": ctx_max,
         "timings": {"rewrite": rewrite_s, "retrieval": retrieval_s, "answer": answer_s},
     }
 

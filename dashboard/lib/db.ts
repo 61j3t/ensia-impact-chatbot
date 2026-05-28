@@ -28,8 +28,25 @@ export const sql =
   globalThis.__ensiaSql ??
   postgres(dsn, {
     max: 5,
-    idle_timeout: 30,
+    // `idle_timeout` triggers a Node "TimeoutNegativeWarning" in dev when
+    // a connection has been idle longer than the configured value (timer
+    // math goes negative; Node clamps to 1ms). The pool max already caps
+    // connections, so we just let them sit.
     prepare: false,
+    // postgres.js returns BIGINT as a string by default to preserve
+    // precision beyond Number.MAX_SAFE_INTEGER. Telegram user_ids and
+    // chat_ids are well within JS safe-int range (10–13 digits), so we
+    // parse them as Number — otherwise `u.user_id === Number(params.user)`
+    // comparisons in the conversations page fail silently and the page
+    // falls back to the first user.
+    types: {
+      bigint: {
+        to: 20,
+        from: [20],
+        serialize: (x: number | bigint) => x.toString(),
+        parse: (x: string) => Number(x),
+      },
+    },
   });
 
 if (process.env.NODE_ENV !== "production") globalThis.__ensiaSql = sql;

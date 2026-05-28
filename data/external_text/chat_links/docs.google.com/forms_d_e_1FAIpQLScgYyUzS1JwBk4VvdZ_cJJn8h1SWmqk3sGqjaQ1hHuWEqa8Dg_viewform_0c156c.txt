@@ -1,0 +1,10 @@
+[Source: https://docs.google.com/forms/d/e/1FAIpQLScgYyUzS1JwBk4VvdZ_cJJn8h1SWmqk3sGqjaQ1hHuWEqa8Dg/viewform?usp=header]
+[Title: Navigui Khobztek- Become a Student Freelancer (Sidi Abdallah)]
+[Backend: httpx]
+[Fetched: 2026-05-20T17:15:48+00:00]
+
+Welcome to Navigui! 🚀 > We are building Algeria’s first verified student-freelance marketplace, starting right here in the Sidi Abdallah Pole.
+Whether you want to offer tutoring, build a website or help residents with daily tasks, Navigui connects you directly with local jobs so you can earn money on your own schedule.
+🔒 SECURITY NOTICE: To build a high-trust platform for our clients, this pilot is strictly limited to verified university students. You MUST use your official university email (e.g., @ensia.edu.dz) to register. >
+Tell us what skills you have below, and we will start matching you with local opportunities!
+YOU CAN ANSWER IN DARJA/ARABIC/FRENCH/ENGLISH, WHATEVER FEELS COMFORTABLE IS OK :)

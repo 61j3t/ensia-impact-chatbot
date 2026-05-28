@@ -53,3 +53,9 @@ playwright==1.59.0
 # via DATABASE_URL (set in .env). Postgres itself runs in Docker —
 # `docker compose up postgres -d`.
 psycopg[binary]==3.3.4
+
+# ── Telegram sync ───────────────────────────────────────────────────────
+# MTProto client for pulling new messages directly from the group via a
+# user account (Bot API can't read full topic history). Used only by
+# scripts/00_telegram_sync.py; not needed to run the bot itself.
+telethon==1.40.0
