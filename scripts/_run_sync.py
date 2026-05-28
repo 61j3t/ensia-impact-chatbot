@@ -111,7 +111,81 @@ def main() -> int:
         exitCode=exit_code,
         endedAt=_now(),
     )
+
+    # ── HF Space persistence shim ───────────────────────────────────────
+    # The HF Space filesystem is ephemeral: every container restart wipes
+    # whatever the pipeline wrote. To make sync results actually stick we
+    # commit + push the data deltas back to the Space's own git repo.
+    # The next time the Space starts (immediately, since pushing main
+    # triggers a rebuild), the fresh container clones the updated repo.
+    #
+    # Gated on HF_WRITE_TOKEN — set only on the HF Space deployment. On a
+    # local laptop the variable is unset and this is a no-op, so local
+    # runs don't accidentally git-push anything.
+    if exit_code == 0 and os.environ.get("HF_WRITE_TOKEN"):
+        try:
+            _hf_commit_back()
+        except Exception:
+            # Don't fail the whole sync just because we couldn't push —
+            # the bot already has the updated data in its container; the
+            # data only disappears on the next restart.
+            import traceback
+            err = traceback.format_exc()
+            write_state(error=f"git push failed (sync data is OK in-memory): {err[:300]}")
     return exit_code
+
+
+def _hf_commit_back() -> None:
+    """Commit the pipeline's data deltas + push to the HF Space repo.
+
+    Only the directories that the pipeline writes are staged — code
+    files are never touched here, even if the workspace has uncommitted
+    edits from some operator poking around.
+    """
+    import shlex
+
+    token = os.environ["HF_WRITE_TOKEN"]
+    repo = os.environ.get("HF_SPACE_REPO", "61j3t/ensia-impact-bot")
+    remote = f"https://61j3t:{token}@huggingface.co/spaces/{repo}"
+
+    def run(*cmd: str) -> tuple[int, str]:
+        p = subprocess.run(
+            cmd, cwd=str(ROOT), capture_output=True, text=True, timeout=120,
+        )
+        return p.returncode, (p.stdout or "") + (p.stderr or "")
+
+    # Identify ourselves so the commits don't show up as "unknown".
+    run("git", "config", "user.email", "sync@ensia-impact-bot")
+    run("git", "config", "user.name", "ensia-bot-sync")
+
+    # Stage only the data the pipeline produces. Adding the whole repo
+    # would also stage `data/.telethon.session` and other accidents.
+    paths = [
+        "data/result.json",
+        "data/messages_enriched.json",
+        "data/external_text/",
+        "data/extracted_text/",
+        "data/ocr_text/",
+        "data/_status.json",
+        "chatbot/chroma_db/",
+    ]
+    for p in paths:
+        run("git", "add", "-A", "--", p)
+
+    # Bail cleanly if there's nothing to commit (e.g. a no-op re-sync).
+    code, _out = run("git", "diff", "--cached", "--quiet")
+    if code == 0:
+        return  # no changes staged
+
+    msg = f"sync: pipeline run @ {_now()}"
+    code, out = run("git", "commit", "-m", msg)
+    if code != 0:
+        raise RuntimeError(f"commit failed: {out[:500]}")
+
+    # Push to whichever branch we're on (typically main on HF Spaces).
+    code, out = run("git", "push", remote, "HEAD:main")
+    if code != 0:
+        raise RuntimeError(f"push failed: {out[:500]}")
 
 
 if __name__ == "__main__":
