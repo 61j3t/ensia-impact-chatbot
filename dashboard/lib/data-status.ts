@@ -103,12 +103,23 @@ export type DataStatus = {
 };
 
 /**
- * The snapshot lives at `<repo>/data/_status.json`. The dashboard runs from
- * `<repo>/dashboard`, so we go up one level.
+ * In production (Vercel) the snapshot file lives on the bot's HF Space —
+ * the sidecar exposes it at `${SYNC_BACKEND_URL}/snapshot`. Locally it's
+ * the file at `<repo>/data/_status.json`. Same shape either way.
  */
 const SNAPSHOT_PATH = path.resolve(process.cwd(), "..", "data", "_status.json");
+const BACKEND = process.env.SYNC_BACKEND_URL?.replace(/\/$/, "");
 
 export async function loadDataStatus(): Promise<DataStatus | null> {
+  if (BACKEND) {
+    try {
+      const r = await fetch(`${BACKEND}/snapshot`, { cache: "no-store" });
+      if (!r.ok) return null;
+      return (await r.json()) as DataStatus;
+    } catch {
+      return null;
+    }
+  }
   try {
     const raw = await fs.readFile(SNAPSHOT_PATH, "utf8");
     return JSON.parse(raw) as DataStatus;

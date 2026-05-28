@@ -74,6 +74,17 @@ async def sync_status() -> dict:
     return _read_state()
 
 
+@app.get("/snapshot")
+async def snapshot() -> dict:
+    """Expose `data/_status.json` so the Vercel dashboard can read corpus
+    stats / freshness / index breakdown without bundling the file. Stage
+    8 of the pipeline writes this file."""
+    snap = ROOT / "data" / "_status.json"
+    if not snap.exists():
+        raise HTTPException(status_code=404, detail="snapshot not generated yet")
+    return json.loads(snap.read_text())
+
+
 @app.post("/sync")
 async def sync_start() -> dict:
     """Kick off the pipeline as a detached child, return immediately."""

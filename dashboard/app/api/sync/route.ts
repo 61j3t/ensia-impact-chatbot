@@ -1,14 +1,17 @@
 /**
- * POST /api/sync — kick off scripts/_run_sync.py as a fully detached
- * child. The wrapper writes state to /tmp/ensia_sync.state.json — that
- * file is the source of truth, and survives Next.js hot-reloads.
+ * POST /api/sync — kick off the pipeline.
  *
- * We deliberately do NOT stream output back. The dashboard polls the
- * status endpoint at /api/sync/status — that's the same code path
- * whether the user just clicked Sync, refreshed the page mid-run, or
- * opened a second tab.
+ *   • Production (Vercel): proxies to the HF Space sidecar at
+ *     `${SYNC_BACKEND_URL}/sync`. The sidecar spawns `_run_sync.py`
+ *     server-side and writes state to its own filesystem.
  *
- * Security: localhost-only (see `isLocalhost`).
+ *   • Local dev (no SYNC_BACKEND_URL set): spawns the wrapper directly
+ *     as a detached child. Survives Next.js hot-reloads.
+ *
+ * Either path returns immediately with `{ok, pid}`. The dashboard polls
+ * `/api/sync/status` to drive the stage stepper.
+ *
+ * Security: when running locally, localhost-only.
  */
 import { spawn } from "child_process";
 import { NextRequest, NextResponse } from "next/server";
@@ -19,6 +22,8 @@ import { REPO_ROOT, readState } from "@/lib/sync-state";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+const BACKEND = process.env.SYNC_BACKEND_URL?.replace(/\/$/, "");
+
 function isLocalhost(req: NextRequest): boolean {
   const xff = req.headers.get("x-forwarded-for") ?? "";
   const firstHop = xff.split(",")[0]?.trim();
@@ -28,6 +33,24 @@ function isLocalhost(req: NextRequest): boolean {
 }
 
 export async function POST(req: NextRequest) {
+  // Production path: proxy to the HF Space sidecar.
+  if (BACKEND) {
+    try {
+      const r = await fetch(`${BACKEND}/sync`, { method: "POST" });
+      const body = await r.text();
+      return new NextResponse(body, {
+        status: r.status,
+        headers: { "Content-Type": r.headers.get("content-type") ?? "application/json" },
+      });
+    } catch (e) {
+      return NextResponse.json(
+        { error: "sidecar unreachable", detail: String(e) },
+        { status: 502 },
+      );
+    }
+  }
+
+  // Local dev path: spawn the wrapper directly.
   if (!isLocalhost(req)) {
     return new Response("forbidden (localhost only)", { status: 403 });
   }
@@ -40,8 +63,6 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  // Spawn the wrapper detached and unref it — survives dev-server
-  // hot-reloads, dashboard restarts, even the user closing the tab.
   const child = spawn(
     path.join(REPO_ROOT, ".venv/bin/python"),
     ["scripts/_run_sync.py"],
