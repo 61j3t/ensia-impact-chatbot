@@ -24,7 +24,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException, Header
+from fastapi import Body, FastAPI, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -86,6 +86,68 @@ def _read_state() -> dict:
 async def health() -> dict:
     """Simple health probe used by HF's container monitor."""
     return {"ok": True, "service": "ensia-impact-bot/sidecar"}
+
+
+# ── /ask: stress-test endpoint ─────────────────────────────────────────
+#
+# Runs the bot's answer pipeline against an arbitrary query without
+# going through Telegram (no cooldown, no reactions, no bot-user
+# upserts). Used by eval/stress_test.py.
+#
+# Lazy-loaded: the FIRST request after a container start takes ~60s
+# (BGE-M3 + reranker load on CPU). Subsequent calls are ~3-5s on
+# cpu-basic. Models stay resident, adding ~4.6 GB to the container's
+# RAM usage. Token-protected like every other sidecar endpoint.
+
+_RETRIEVER = None
+_RETRIEVER_LOCK = None
+
+
+def _get_retriever():
+    """Lazy singleton — instantiated on first /ask call."""
+    global _RETRIEVER
+    if _RETRIEVER is None:
+        from chatbot.retrieve import Retriever
+        _RETRIEVER = Retriever()
+        # Warm up the lazy embedder/reranker so the first real query
+        # doesn't pay the full cold-start cost.
+        _RETRIEVER.search("hello", k=1, rerank=True)
+    return _RETRIEVER
+
+
+@app.post("/ask")
+async def ask(
+    payload: dict = Body(...),
+    x_sync_token: str | None = Header(default=None),
+) -> dict:
+    """Run the bot's answer pipeline on an arbitrary query.
+
+    Body: `{"query": "...", "rerank": true (optional)}`.
+
+    Returns the answer text, sources, timings, and context-fill metric.
+    Bypasses memory writes — the stress test shouldn't pollute Neon
+    with synthetic data."""
+    _require_token(x_sync_token)
+    query = (payload.get("query") or "").strip()
+    if not query:
+        raise HTTPException(status_code=400, detail="missing query")
+
+    import asyncio
+    from chatbot.answer import answer
+
+    retriever = await asyncio.to_thread(_get_retriever)
+    result = await asyncio.to_thread(answer, query, retriever=retriever, history=[])
+
+    return {
+        "answer": result["answer"],
+        "refused": result.get("refused"),
+        "tier": result.get("tier"),
+        "top_score": result.get("top_score"),
+        "context_tokens": result.get("context_tokens"),
+        "context_max": result.get("context_max"),
+        "num_sources": len(result.get("sources") or []),
+        "timings": result.get("timings"),
+    }
 
 
 @app.get("/sync/status")
