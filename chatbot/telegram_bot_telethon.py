@@ -99,6 +99,8 @@ HELP = (
     "• In a __direct message__: just type your question.\n"
     "• In a __group__: mention me, reply to one of my messages, or use "
     "`/ask <your question>`.\n"
+    "• If my answer feels off, retry with `/deep <your question>` — "
+    "it's slower (~15 s) but more careful for ambiguous questions.\n"
     "• I remember the last few exchanges so follow-ups like \"and how do "
     "I apply?\" work. Use /reset to clear memory.\n\n"
     "Examples:\n"
@@ -279,7 +281,9 @@ def _format_reply(result: dict, elapsed_s: float) -> str:
 
 # ─── core handler logic ────────────────────────────────────────────────
 
-async def _handle_query(client: TelegramClient, event, query: str) -> None:
+async def _handle_query(
+    client: TelegramClient, event, query: str, *, rerank: bool = False,
+) -> None:
     chat_id = event.chat_id
     sender = await event.get_sender()
     user_id = sender.id if sender else 0
@@ -340,6 +344,7 @@ async def _handle_query(client: TelegramClient, event, query: str) -> None:
         async with client.action(chat_id, "typing"):
             result = await asyncio.to_thread(
                 answer, query, retriever=_retriever, history=history,
+                rerank=rerank,
             )
     except Exception:
         logger.exception("answer() failed")
@@ -490,6 +495,17 @@ async def _run() -> None:
         if not m:
             return
         await _handle_query(client, event, m.group(1).strip())
+
+    # ── /deep <query> — opt-in slow + accurate path ──────────────────
+    # Runs the same pipeline but with rerank=True. ~10-15x slower on
+    # cpu-basic; useful for ambiguous questions where the default
+    # dense-only retrieval misses the right chunk.
+    @client.on(events.NewMessage(pattern=r"^/deep(?:@\w+)?\s+(.+)$"))
+    async def on_deep(event):
+        m = re.match(r"^/deep(?:@\w+)?\s+(.+)$", event.raw_text, re.DOTALL)
+        if not m:
+            return
+        await _handle_query(client, event, m.group(1).strip(), rerank=True)
 
     # ── plain text in DM, or @mention / reply in groups ───────────────
     @client.on(events.NewMessage(incoming=True))

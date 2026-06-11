@@ -381,8 +381,9 @@ def answer(
     model: str | None = None,
     retriever: Retriever | None = None,
     history: list[dict] | None = None,
+    rerank: bool = False,
 ) -> dict[str, Any]:
-    """Generate an answer for `query` using retrieve → reranker → LLM.
+    """Generate an answer for `query` using retrieve → (optional) rerank → LLM.
 
     The LLM is the router: every non-error path goes through it. The
     SYSTEM_PROMPT instructs it to handle four cases — small talk,
@@ -399,6 +400,12 @@ def answer(
     Returns a dict with timings: {rewrite, retrieval, answer}, all in
     seconds. The `tier` field reports the retrieval confidence band
     (high/mid/low) but has no effect on routing — it's informational.
+
+    `rerank` defaults to False: ablation on the eval set showed the
+    cross-encoder reranker only flips 2 of 44 non-adversarial queries
+    while costing ~16 s/query on HF cpu-basic. Users who want the slow,
+    more accurate pass can opt in via the bot's /deep command, which
+    sets rerank=True.
     """
     model = model or DEFAULT_MODEL
     retriever = retriever or Retriever()
@@ -414,7 +421,7 @@ def answer(
 
     # ── Retrieve always; pass whatever we get to the LLM ─────────────────
     t0 = time.monotonic()
-    hits = retriever.search(retrieval_query, k=k, rerank=True)
+    hits = retriever.search(retrieval_query, k=k, rerank=rerank)
     retrieval_s = time.monotonic() - t0
     top_score = hits[0]["score"] if hits else 0.0
     sources = _format_sources(hits)
