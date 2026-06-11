@@ -300,42 +300,57 @@ async def _handle_query(
 
     logger.info("query from @%s in chat %s: %r", username, chat_id, query[:80])
 
-    # Upsert user + bump counter.
-    if _memory is not None and sender is not None:
-        try:
-            _memory.upsert_user(
-                user_id=sender.id,
-                username=sender.username,
-                first_name=sender.first_name,
-                last_name=sender.last_name,
-                language_code=getattr(sender, "lang_code", None),
-                is_bot=bool(sender.bot),
-            )
-            _memory.increment_query_count(sender.id)
-        except Exception:
-            logger.exception("memory upsert failed")
+    # ── React + run DB work in parallel ────────────────────────────────
+    # The 🤔 reaction is the user-visible "we got your message" signal,
+    # and it doesn't depend on anything in Postgres. Earlier code did
+    # three sequential DB calls (upsert + counter + history) BEFORE the
+    # reaction — when Neon was paused (5-min idle autopause on the free
+    # tier) the user could wait 3-4s before seeing 🤔.
+    #
+    # Fix: fire the reaction first, then run DB work concurrently via
+    # `asyncio.gather` so the bot is back on the event loop ASAP. The
+    # psycopg calls are sync, so they're shoved into a thread via
+    # `asyncio.to_thread` to keep them off the loop.
 
-    # History.
-    history: list[dict] = []
-    if _memory is not None:
+    t_react = time.monotonic()
+    reaction_task = asyncio.create_task(
+        _set_thinking_reaction(client, event)
+    )
+
+    def _db_work() -> list[dict]:
+        if _memory is None:
+            return []
+        if sender is not None:
+            try:
+                _memory.upsert_user(
+                    user_id=sender.id,
+                    username=sender.username,
+                    first_name=sender.first_name,
+                    last_name=sender.last_name,
+                    language_code=getattr(sender, "lang_code", None),
+                    is_bot=bool(sender.bot),
+                )
+                _memory.increment_query_count(sender.id)
+            except Exception:
+                logger.exception("memory upsert failed")
         try:
-            history = _memory.recent_turns(
-                chat_id, user_id, n=HISTORY_TURNS, max_age_hours=HISTORY_TTL_HOURS,
+            return _memory.recent_turns(
+                chat_id, user_id,
+                n=HISTORY_TURNS, max_age_hours=HISTORY_TTL_HOURS,
             )
         except Exception:
             logger.exception("memory.recent_turns failed; proceeding without")
+            return []
 
-    # 🤔 reaction on the incoming message.
-    reaction_set = False
-    try:
-        await client(SendReactionRequest(
-            peer=await event.get_input_chat(),
-            msg_id=event.message.id,
-            reaction=[ReactionEmoji(emoticon="🤔")],
-        ))
-        reaction_set = True
-    except Exception:
-        logger.debug("reaction failed", exc_info=True)
+    db_task = asyncio.create_task(asyncio.to_thread(_db_work))
+
+    reaction_set, history = await asyncio.gather(
+        reaction_task, db_task, return_exceptions=False,
+    )
+    logger.info(
+        "react+db done in %.2fs (reaction=%s, history=%d)",
+        time.monotonic() - t_react, bool(reaction_set), len(history),
+    )
 
     # Typing indicator while we work — Telethon `client.action` is a
     # context manager that loops the typing event for us.
@@ -397,6 +412,21 @@ async def _handle_query(
             ])
         except Exception:
             logger.exception("memory.add_turns failed")
+
+
+async def _set_thinking_reaction(client, event) -> bool:
+    """Best-effort 🤔 on the user's message. Returns True if set, False
+    on any failure (very old chats can disallow bot reactions)."""
+    try:
+        await client(SendReactionRequest(
+            peer=await event.get_input_chat(),
+            msg_id=event.message.id,
+            reaction=[ReactionEmoji(emoticon="🤔")],
+        ))
+        return True
+    except Exception:
+        logger.debug("reaction failed", exc_info=True)
+        return False
 
 
 async def _clear_reaction(client, event, was_set: bool):
