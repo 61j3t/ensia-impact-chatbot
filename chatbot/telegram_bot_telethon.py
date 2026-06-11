@@ -69,6 +69,12 @@ _memory: ConversationMemory | None = None
 _bot_username: str | None = None
 _topic_id_by_msg: dict[int, int] = {}
 _msg_id_by_pdf_name: dict[str, int] = {}
+# Map a chunk's `pdf_file` metadata (the .txt name produced by
+# 01_extract_pdfs.py, e.g. "Arrêté_1275.txt") → the original PDF name +
+# the Telegram message id that shared it. Built at startup from
+# messages_enriched.json so we can show users `Arrêté 1275.pdf` (not
+# `.txt`) and deep-link to where the file was originally posted.
+_pdf_meta_by_txt: dict[str, dict] = {}
 _last_query_time: dict[int, float] = {}
 
 HISTORY_TURNS = 5
@@ -178,6 +184,46 @@ def _msg_id_for_pdf(name: str) -> int | None:
     return _msg_id_by_pdf_name.get(unicodedata.normalize("NFC", name))
 
 
+def _build_pdf_txt_meta_map() -> dict[str, dict]:
+    """Map the chunk's `pdf_file` metadata (a .txt name) → the original
+    .pdf filename + the Telegram message id that shared it.
+
+    The chunks store the EXTRACTED txt name (e.g. `Arrêté_1275.txt`)
+    produced by `01_extract_pdfs.py`, which NFC-normalises the PDF stem
+    and replaces non-word chars with `_`. We replay that transform here
+    to derive the same key from `messages_enriched.json`, so citations
+    can render the user-friendly original name + a deep link.
+    """
+    if not MESSAGES_JSON.exists():
+        return {}
+    try:
+        raw = json.loads(MESSAGES_JSON.read_text())
+    except Exception:
+        return {}
+    messages = raw.get("chats", {}).get("list", [{}])[0].get("messages", [])
+    out: dict[str, dict] = {}
+    for m in messages:
+        if m.get("type") != "message":
+            continue
+        file_field = m.get("file")
+        if not file_field or not str(file_field).lower().endswith(".pdf"):
+            continue
+        pdf_name = Path(file_field).name
+        stem = unicodedata.normalize("NFC", Path(pdf_name).stem)
+        # SAME transformation 01_extract_pdfs.py uses: \w-allowed, rest → _.
+        stem = re.sub(r"[^\w\-]+", "_", stem, flags=re.UNICODE).strip("_")
+        txt_key = unicodedata.normalize("NFC", stem + ".txt")
+        out[txt_key] = {"original": pdf_name, "message_id": m["id"]}
+    return out
+
+
+def _pdf_meta(txt_name: str) -> dict | None:
+    """Look up `{original, message_id}` for a chunk's pdf_file txt name."""
+    if not txt_name:
+        return None
+    return _pdf_meta_by_txt.get(unicodedata.normalize("NFC", txt_name))
+
+
 def _fmt_tokens(n: int) -> str:
     if n >= 1_000_000:
         return f"{n / 1_000_000:.1f}M"
@@ -268,12 +314,22 @@ def _format_reply(result: dict, elapsed_s: float) -> str:
                 else:
                     parts.append(f"{tag} 🌐 {title}")
             else:  # pdf
-                pdf_name = md.get("pdf_file") or "?"
-                pdf_msg_id = _msg_id_for_pdf(pdf_name)
-                if pdf_msg_id is not None:
-                    parts.append(f"{tag} 📄 [{pdf_name}]({_telegram_link(pdf_msg_id)})")
+                txt_name = md.get("pdf_file") or "?"
+                info = _pdf_meta(txt_name)
+                if info:
+                    # Show the ORIGINAL .pdf name (not the .txt extraction
+                    # artifact) and deep-link to the chat message that
+                    # posted it.
+                    display = info["original"]
+                    parts.append(
+                        f"{tag} 📄 [{display}]({_telegram_link(info['message_id'])})"
+                    )
                 else:
-                    parts.append(f"{tag} 📄 {pdf_name}")
+                    # Fallback: best-effort prettify by replacing _ with
+                    # spaces and showing it as .pdf so the user never
+                    # sees `.txt` artifacts.
+                    pretty = txt_name.replace("_", " ").rsplit(".", 1)[0] + ".pdf"
+                    parts.append(f"{tag} 📄 {pretty}")
 
     parts.append("\n" + timing_line)
     return "\n".join(parts)
@@ -470,7 +526,7 @@ async def _setup_client() -> TelegramClient:
 
 
 async def _run() -> None:
-    global _retriever, _memory, _topic_id_by_msg, _msg_id_by_pdf_name
+    global _retriever, _memory, _topic_id_by_msg, _msg_id_by_pdf_name, _pdf_meta_by_txt
 
     logger.info("Building topic-link map…")
     _topic_id_by_msg = _build_topic_id_map()
@@ -478,6 +534,9 @@ async def _run() -> None:
 
     _msg_id_by_pdf_name = _build_pdf_msg_map()
     logger.info("PDF→msg map: %d PDFs linkable", len(_msg_id_by_pdf_name))
+
+    _pdf_meta_by_txt = _build_pdf_txt_meta_map()
+    logger.info("PDF txt→meta map: %d entries", len(_pdf_meta_by_txt))
 
     _memory = ConversationMemory()
     safe_dsn = re.sub(r":[^:@/]+@", ":***@", _memory.dsn)
