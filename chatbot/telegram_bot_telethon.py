@@ -43,8 +43,13 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from telethon import Button, TelegramClient, events
+from telethon.tl.functions.bots import SetBotCommandsRequest
 from telethon.tl.functions.messages import SendReactionRequest
-from telethon.tl.types import ReactionEmoji
+from telethon.tl.types import (
+    BotCommand,
+    BotCommandScopeDefault,
+    ReactionEmoji,
+)
 
 from chatbot.answer import answer
 from chatbot.memory import ConversationMemory
@@ -522,6 +527,28 @@ async def _setup_client() -> TelegramClient:
     global _bot_username
     _bot_username = me.username
     logger.info("Bot identity: @%s (id=%d)", me.username, me.id)
+
+    # Register the bot's commands so Telegram clients render a "Menu"
+    # button next to the input field listing them. Setting at the
+    # "default" scope makes them visible everywhere (DMs + groups).
+    # Telegram caps descriptions at 256 chars; keep them under ~64 for
+    # the inline menu to read cleanly.
+    commands = [
+        BotCommand(command="start", description="Welcome message + example questions"),
+        BotCommand(command="help", description="How to use the bot"),
+        BotCommand(command="ask", description="Ask a question (works in groups)"),
+        BotCommand(command="deep", description="Slow but more careful answer for ambiguous questions"),
+        BotCommand(command="reset", description="Clear my memory of this conversation"),
+    ]
+    try:
+        await client(SetBotCommandsRequest(
+            scope=BotCommandScopeDefault(),
+            lang_code="",
+            commands=commands,
+        ))
+        logger.info("Registered %d bot commands with Telegram", len(commands))
+    except Exception:
+        logger.exception("SetBotCommandsRequest failed (non-fatal)")
     return client
 
 
