@@ -413,20 +413,97 @@ async def _handle_query(
         time.monotonic() - t_react, bool(reaction_set), len(history),
     )
 
-    # Typing indicator while we work — Telethon `client.action` is a
-    # context manager that loops the typing event for us.
+    # ── Streaming reply ────────────────────────────────────────────────
+    # Send a placeholder immediately so the user has a target message to
+    # watch. The LLM call runs in a thread; tokens arrive via a callback
+    # that hops back onto the event loop via call_soon_threadsafe and a
+    # queue. A throttled editor task drains the queue and edits the
+    # placeholder at most once per second so we don't trip Telegram's
+    # edit rate-limit. When the LLM finishes we do one final edit with
+    # the FORMATTED answer (renumbered citations + sources + footer)
+    # and attach the feedback keyboard.
     t_start = time.monotonic()
+    loop = asyncio.get_running_loop()
+    stream_queue: asyncio.Queue = asyncio.Queue()
+
+    sent_msg = None
+    try:
+        sent_msg = await event.reply("▌", parse_mode=None, link_preview=False)
+    except Exception:
+        logger.exception("placeholder send failed")
+        await _clear_reaction(client, event, reaction_set)
+        await event.reply("Something went wrong on my side. Try again in a moment.")
+        return
+
+    async def _edit_loop():
+        """Drains the queue, edits the placeholder at most ~1×/s.
+
+        The queue carries the running `full_text`; sentinel None means
+        the LLM call finished and the final-format edit is coming next."""
+        last_text = ""
+        last_edit_at = 0.0
+        EDIT_INTERVAL_S = 1.0
+        EDIT_CHAR_DELTA = 250
+        while True:
+            full = await stream_queue.get()
+            if full is None:  # sentinel — answer() returned
+                return
+            # Drain to the latest available chunk so we don't lag.
+            while not stream_queue.empty():
+                try:
+                    nxt = stream_queue.get_nowait()
+                except asyncio.QueueEmpty:
+                    break
+                if nxt is None:
+                    return
+                full = nxt
+            now = time.monotonic()
+            if (
+                full == last_text
+                or (now - last_edit_at < EDIT_INTERVAL_S
+                    and len(full) - len(last_text) < EDIT_CHAR_DELTA)
+            ):
+                continue
+            # Truncate defensively to Telegram's 4096-char cap. Strip
+            # parse_mode during streaming so half-rendered markdown
+            # (open `**` etc.) doesn't 400 on edit.
+            display = full[:4000] + " ▌" if len(full) <= 4000 else full[:4000].rstrip() + "…"
+            try:
+                await sent_msg.edit(display, parse_mode=None, link_preview=False)
+                last_text = full
+                last_edit_at = now
+            except Exception:
+                logger.debug("stream edit failed", exc_info=True)
+
+    def _on_chunk(_delta: str, full: str) -> None:
+        # Runs in the answer() thread — hop to the asyncio loop.
+        try:
+            loop.call_soon_threadsafe(stream_queue.put_nowait, full)
+        except RuntimeError:
+            pass  # loop closed — nothing to do
+
+    edit_task = asyncio.create_task(_edit_loop())
     try:
         async with client.action(chat_id, "typing"):
             result = await asyncio.to_thread(
                 answer, query, retriever=_retriever, history=history,
-                rerank=rerank,
+                rerank=rerank, stream_callback=_on_chunk,
             )
     except Exception:
         logger.exception("answer() failed")
+        await stream_queue.put(None)  # let edit loop exit cleanly
+        await edit_task
         await _clear_reaction(client, event, reaction_set)
-        await event.reply("Something went wrong on my side. Try again in a moment.")
+        try:
+            await sent_msg.edit("Something went wrong on my side. Try again in a moment.")
+        except Exception:
+            await event.reply("Something went wrong on my side. Try again in a moment.")
         return
+
+    # Tell the edit loop we're done; let it drain.
+    await stream_queue.put(None)
+    await edit_task
+
     elapsed_s = time.monotonic() - t_start
     timings = result.get("timings") or {}
 
@@ -445,17 +522,19 @@ async def _handle_query(
         reply_text = reply_text[:4000].rstrip() + "…"
 
     keyboard = _feedback_keyboard(refusal=bool(result.get("refused")))
-    sent_msg = None
     try:
-        sent_msg = await event.reply(
+        await sent_msg.edit(
             reply_text,
             parse_mode="md",
             buttons=keyboard,
             link_preview=False,
         )
     except Exception:
-        logger.exception("markdown send failed; retrying as plain")
-        sent_msg = await event.reply(reply_text, buttons=keyboard, link_preview=False)
+        logger.exception("final markdown edit failed; retrying as plain")
+        try:
+            await sent_msg.edit(reply_text, buttons=keyboard, link_preview=False)
+        except Exception:
+            logger.exception("final edit failed entirely")
 
     await _clear_reaction(client, event, reaction_set)
 

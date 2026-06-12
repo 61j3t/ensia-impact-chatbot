@@ -382,6 +382,7 @@ def answer(
     retriever: Retriever | None = None,
     history: list[dict] | None = None,
     rerank: bool = False,
+    stream_callback: Any = None,
 ) -> dict[str, Any]:
     """Generate an answer for `query` using retrieve → (optional) rerank → LLM.
 
@@ -406,6 +407,13 @@ def answer(
     while costing ~16 s/query on HF cpu-basic. Users who want the slow,
     more accurate pass can opt in via the bot's /deep command, which
     sets rerank=True.
+
+    `stream_callback`, if provided, is invoked with `(delta, full_text)`
+    on every streamed chunk from the LLM. It runs in the calling thread
+    (this function is sync), so callers using asyncio must marshal to
+    their event loop via `loop.call_soon_threadsafe`. The returned
+    `answer` field is the FINAL text (with citation renumbering and the
+    refusal scrubber applied) — same as the non-streaming path.
     """
     model = model or DEFAULT_MODEL
     retriever = retriever or Retriever()
@@ -450,12 +458,43 @@ def answer(
     # ── LLM call (with timeout to bound worst-case latency) ──────────────
     t1 = time.monotonic()
     try:
-        response = litellm.completion(
-            model=model,
-            messages=messages,
-            temperature=0.2,
-            timeout=LLM_TIMEOUT_S,
-        )
+        if stream_callback is not None:
+            # Streaming path. We collect deltas, surface them live via
+            # the callback, and join into the same `answer_text` shape
+            # the non-streaming path produces so the rest of this
+            # function doesn't have to branch.
+            response = litellm.completion(
+                model=model,
+                messages=messages,
+                temperature=0.2,
+                timeout=LLM_TIMEOUT_S,
+                stream=True,
+            )
+            chunks: list[str] = []
+            for piece in response:
+                delta = ""
+                try:
+                    delta = piece.choices[0].delta.content or ""
+                except Exception:
+                    pass
+                if not delta:
+                    continue
+                chunks.append(delta)
+                try:
+                    stream_callback(delta, "".join(chunks))
+                except Exception:
+                    # The callback is best-effort UI plumbing — never let
+                    # it kill the LLM read loop.
+                    pass
+            answer_text = "".join(chunks).strip()
+        else:
+            response = litellm.completion(
+                model=model,
+                messages=messages,
+                temperature=0.2,
+                timeout=LLM_TIMEOUT_S,
+            )
+            answer_text = response.choices[0].message.content.strip()
     except litellm.exceptions.Timeout:
         return {
             "query": query,
@@ -476,7 +515,6 @@ def answer(
                         "answer": time.monotonic() - t1},
         }
     answer_s = time.monotonic() - t1
-    answer_text = response.choices[0].message.content.strip()
 
     # The LLM decides whether sources are relevant: if it cited any chunks,
     # we surface the sources block; otherwise (small talk, redirect, etc.)
