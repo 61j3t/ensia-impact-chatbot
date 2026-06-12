@@ -329,9 +329,11 @@ small talk** — ignore the CONTEXT.
 2. SERVER QUESTION the CONTEXT actually answers:
    Answer using only the CONTEXT. **Cite chunks inline as [chunk_id]** right \
 after the claim they support, e.g. "[chat_832]", "[pdf_ENSIA_3]", \
-"[ext_ensia_edu_dz_11406_incubator_0]". A URL or domain name mentioned in \
-the reply (e.g. for the user to visit) does NOT replace the citation — \
-every factual claim that came from the CONTEXT still needs its [chunk_id].
+"[ext_ensia_edu_dz_11406_incubator_0]". **Each citation gets its own pair \
+of brackets — write `[chat_832] [pdf_ENSIA_3]`, NEVER \
+`[chat_832, pdf_ENSIA_3]`.** A URL or domain name mentioned in the reply \
+(e.g. for the user to visit) does NOT replace the citation — every factual \
+claim that came from the CONTEXT still needs its [chunk_id].
 
 3. SERVER QUESTION the CONTEXT does NOT cover:
    Say you don't have specific info on that yet, and suggest related server \
@@ -366,7 +368,17 @@ def _system_prompt() -> str:
 # Allows dots and dashes in the body of the ID so we match chat_links
 # chunks whose host directory keeps the original dot (e.g.
 # "ext_chat_links_erasmusplus.dz__overview-and-objectives_0").
-_CITATION_RE = re.compile(r"\[((?:chat|pdf|ext)_[\w.\-]+)\]")
+#
+# Also matches comma-separated groups inside a single bracket, e.g.
+# `[chat_42, pdf_X_0]` — some models (Gemini in particular) like to
+# combine citations that way. The renumber pass splits these out into
+# `[1] [2]` so the rendered text doesn't leak raw chunk IDs.
+_CHUNK_ID_RE = re.compile(r"(?:chat|pdf|ext)_[\w.\-]+")
+_CITATION_RE = re.compile(
+    r"\[\s*"
+    rf"({_CHUNK_ID_RE.pattern}(?:\s*,\s*{_CHUNK_ID_RE.pattern})*)"
+    r"\s*\]"
+)
 
 # Phrases that strongly indicate the LLM is refusing rather than answering,
 # even when it cited chunks. If any of these appear in the answer, we strip
@@ -429,14 +441,26 @@ def _renumber_citations(
     sources_by_id = {s["id"]: s for s in sources}
     cite_to_num: dict[str, int] = {}
 
+    # First pass — walk every citation group (single or comma-split),
+    # assign sequential numbers to each known chunk in first-seen order.
     for m in _CITATION_RE.finditer(answer_text):
-        cid = m.group(1)
-        if cid in sources_by_id and cid not in cite_to_num:
-            cite_to_num[cid] = len(cite_to_num) + 1
+        for cid in [p.strip() for p in m.group(1).split(",")]:
+            if cid in sources_by_id and cid not in cite_to_num:
+                cite_to_num[cid] = len(cite_to_num) + 1
 
     def _sub(m):
-        cid = m.group(1)
-        return f"[{cite_to_num[cid]}]" if cid in cite_to_num else m.group(0)
+        ids = [p.strip() for p in m.group(1).split(",")]
+        # Render the group as adjacent numbered brackets ([1] [2]). IDs
+        # that didn't match any source pass through unchanged inside
+        # their own bracket — the LLM was told not to invent IDs, but
+        # we don't want to silently delete unrecognised ones either.
+        out = []
+        for cid in ids:
+            if cid in cite_to_num:
+                out.append(f"[{cite_to_num[cid]}]")
+            else:
+                out.append(f"[{cid}]")
+        return " ".join(out)
 
     rewritten = _CITATION_RE.sub(_sub, answer_text)
 
