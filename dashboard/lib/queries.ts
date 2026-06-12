@@ -50,6 +50,9 @@ export interface Conversation {
   ts: Date;
   sources: ConversationSource[] | null;
   tg_message_id: number | null;
+  /** LiteLLM model string that actually answered the turn. NULL on
+   * user turns and on rows inserted before this column existed. */
+  model_used: string | null;
   feedback?: FeedbackCounts;
 }
 
@@ -136,7 +139,7 @@ export async function getConversationsForUser(
   const rows = (await sql`
     SELECT
       c.chat_id, c.user_id, c.turn_idx, c.role, c.content, c.ts,
-      c.sources, c.tg_message_id,
+      c.sources, c.tg_message_id, c.model_used,
       COALESCE(
         jsonb_build_object(
           'useful',     COUNT(f.id) FILTER (WHERE f.rating = 'useful'),
@@ -154,7 +157,7 @@ export async function getConversationsForUser(
     LEFT JOIN feedback f
       ON f.chat_id = c.chat_id AND f.message_id = c.tg_message_id
     GROUP BY c.id, c.chat_id, c.user_id, c.turn_idx, c.role, c.content,
-             c.ts, c.sources, c.tg_message_id
+             c.ts, c.sources, c.tg_message_id, c.model_used
     ORDER BY c.chat_id ASC, c.turn_idx ASC
   `) as unknown as Conversation[];
   return rows;

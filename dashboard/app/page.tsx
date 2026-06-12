@@ -11,6 +11,7 @@ import { StatCard } from "@/components/StatCard";
 import { QueriesChart } from "@/components/QueriesChart";
 import { SourcesList } from "@/components/SourcesList";
 import { FeedbackBadges } from "@/components/FeedbackBadges";
+import { ModelBadge } from "@/components/ModelBadge";
 
 export const dynamic = "force-dynamic";
 
@@ -232,7 +233,10 @@ export default async function HomePage({
                           </div>
                           {t.role === "assistant" && (
                             <>
-                              <FeedbackBadges feedback={t.feedback} />
+                              <div className="mt-2 flex flex-wrap items-center gap-2">
+                                <ModelBadge model={t.model_used} />
+                                <FeedbackBadges feedback={t.feedback} />
+                              </div>
                               <SourcesList sources={t.sources} />
                             </>
                           )}

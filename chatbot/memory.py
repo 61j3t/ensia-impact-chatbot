@@ -79,6 +79,12 @@ ALTER TABLE conversations ADD COLUMN IF NOT EXISTS cleared_at TIMESTAMPTZ;
 -- this column.
 ALTER TABLE conversations ADD COLUMN IF NOT EXISTS tg_message_id BIGINT;
 
+-- Which LLM actually answered this turn. NULL on user turns and on
+-- assistant turns from before this column existed. Useful for spotting
+-- in the dashboard when the bot fell back from the primary model to a
+-- secondary one (Groq instead of Gemini, etc.).
+ALTER TABLE conversations ADD COLUMN IF NOT EXISTS model_used TEXT;
+
 CREATE TABLE IF NOT EXISTS feedback (
     id          BIGSERIAL PRIMARY KEY,
     chat_id     BIGINT NOT NULL,
@@ -196,13 +202,14 @@ class ConversationMemory:
                         t["content"],
                         Jsonb(t["sources"]) if t.get("sources") else None,
                         t.get("tg_message_id"),
+                        t.get("model_used"),
                     )
                     for i, t in enumerate(turns)
                 ]
                 cur.executemany(
                     "INSERT INTO conversations "
-                    "(chat_id, user_id, turn_idx, role, content, sources, tg_message_id) "
-                    "VALUES (%s, %s, %s, %s, %s, %s, %s)",
+                    "(chat_id, user_id, turn_idx, role, content, sources, tg_message_id, model_used) "
+                    "VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
                     rows,
                 )
 

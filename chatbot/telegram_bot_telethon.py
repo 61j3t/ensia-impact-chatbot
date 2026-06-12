@@ -548,6 +548,7 @@ async def _handle_query(
                     "content": result["answer"],
                     "sources": result.get("sources") or None,
                     "tg_message_id": sent_msg.id if sent_msg else None,
+                    "model_used": result.get("model_used"),
                 },
             ])
         except Exception:
