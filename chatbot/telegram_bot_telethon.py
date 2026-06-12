@@ -428,7 +428,10 @@ async def _handle_query(
 
     sent_msg = None
     try:
-        sent_msg = await event.reply("▌", parse_mode=None, link_preview=False)
+        # 💭 (thought balloon) reads as "thinking" while we wait for the
+        # LLM's first token. Replaced with the actual text + a typing
+        # cursor by the editor loop once tokens start arriving.
+        sent_msg = await event.reply("💭", parse_mode=None, link_preview=False)
     except Exception:
         logger.exception("placeholder send failed")
         await _clear_reaction(client, event, reaction_set)
