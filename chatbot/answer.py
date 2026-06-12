@@ -57,17 +57,27 @@ load_dotenv(ROOT / ".env")
 logger = logging.getLogger(__name__)
 
 DEFAULT_MODEL = os.getenv("CHATBOT_LLM_MODEL", "gemini/gemini-2.5-flash")
-# Fallback chain tried in order after the primary's retries are
-# exhausted. Mix providers so a Groq outage and a Gemini outage are
-# independent risks. Override via CHATBOT_FALLBACK_MODELS=a,b,c.
+# Fallback chain tried in order after the primary fails. We interleave
+# providers (Gemini → Groq → Gemini → Groq) so a single-provider outage
+# doesn't take out two attempts in a row. Override via
+# CHATBOT_FALLBACK_MODELS=a,b,c.
 FALLBACK_MODELS: list[str] = [
     m.strip()
     for m in os.getenv(
         "CHATBOT_FALLBACK_MODELS",
-        "gemini/gemini-2.0-flash,groq/llama-3.3-70b-versatile,groq/llama-3.1-8b-instant",
+        "groq/llama-3.3-70b-versatile,gemini/gemini-2.0-flash,groq/llama-3.1-8b-instant",
     ).split(",")
     if m.strip()
 ]
+
+# Per-model rate-limit cooldown: when a model returns 429 we record
+# `model → unix_ts_until_which_we_skip`. Subsequent requests skip the
+# model entirely (and don't waste retries trying it) until the timestamp
+# passes. 60s matches Gemini free tier's RPM reset window; Groq's 429
+# usually clears within 10-15s but the longer cooldown is fine — it just
+# means we use the other provider for the duration.
+_model_cooldown_until: dict[str, float] = {}
+RATE_LIMIT_COOLDOWN_S = float(os.getenv("CHATBOT_RATE_LIMIT_COOLDOWN_S", "60"))
 HARD_REFUSAL_THRESHOLD = 0.20
 SOFT_REFUSAL_THRESHOLD = 0.50
 
@@ -107,16 +117,27 @@ def _user_message_for_llm_error(exc: Exception) -> str:
     )
 
 
+def _is_cooled_down(model: str) -> bool:
+    return _model_cooldown_until.get(model, 0.0) > time.monotonic()
+
+
+def _set_cooldown(model: str, seconds: float = RATE_LIMIT_COOLDOWN_S) -> None:
+    _model_cooldown_until[model] = time.monotonic() + seconds
+
+
 def _llm_attempt_specs(
     primary: str,
     fallbacks: list[str],
 ) -> list[tuple[str, float]]:
     """3 + N attempts: primary 3× with backoff, then each fallback once.
 
-    Transient overload incidents (Groq over-capacity, Gemini 429) clear
-    within ~2-3s for the same model, so 0.5 + 1.5s backoff catches most
-    without making the bot feel hung. Cross-provider fallbacks cover
-    longer outages."""
+    The primary retries cover transient overloads (e.g. Groq/Gemini
+    `ServiceUnavailableError` or `Timeout`) that often clear within a
+    couple seconds. `RateLimitError` is handled differently in the
+    runners: instead of retrying the same model (which would burn more
+    of its rate budget), we record it as cooled-down and advance to
+    the next model immediately. So under sustained load the chain
+    naturally shifts to whichever provider still has headroom."""
     specs: list[tuple[str, float]] = [
         (primary, 0.0),
         (primary, 0.5),
@@ -136,11 +157,26 @@ def _complete_llm_with_retry(
 ) -> tuple[str, str]:
     """Non-streaming LLM call with retry + fallback.
 
-    Returns `(answer_text, model_used)`. Propagates the LAST transient
+    Iterates the attempt chain. Two flavors of skip:
+      • A model with an active cooldown (from a recent RateLimitError)
+        is skipped — but only if some other chain member is fresh.
+      • A model that gets rate-limited DURING this request is added
+        to a per-request skip-set so we don't retry it on a later
+        chain entry with the same name.
+
+    Returns `(answer_text, model_used)`. Propagates the last transient
     exception if every attempt fails; the caller turns that into a
     user-friendly refusal."""
+    specs = _llm_attempt_specs(primary_model, FALLBACK_MODELS)
+    fresh_exists = any(not _is_cooled_down(m) for m, _ in specs)
+    rate_limited_now: set[str] = set()
     last_exc: Exception | None = None
-    for m, delay in _llm_attempt_specs(primary_model, FALLBACK_MODELS):
+    for m, delay in specs:
+        if m in rate_limited_now:
+            continue
+        if fresh_exists and _is_cooled_down(m):
+            logger.info("Skip %s (cooled down from prior 429)", m)
+            continue
         if delay:
             time.sleep(delay)
         try:
@@ -149,13 +185,20 @@ def _complete_llm_with_retry(
                 temperature=temperature, timeout=timeout,
             )
             return r.choices[0].message.content.strip(), m
+        except litellm.exceptions.RateLimitError as e:
+            last_exc = e
+            _set_cooldown(m)
+            rate_limited_now.add(m)
+            logger.warning(
+                "RateLimit on %s — cooled down for %.0fs",
+                m, RATE_LIMIT_COOLDOWN_S,
+            )
         except _TRANSIENT_LLM_ERRORS as e:
             last_exc = e
             logger.warning(
                 "LLM completion failed on %s (%s): %s",
                 m, type(e).__name__, str(e)[:120],
             )
-            continue
     assert last_exc is not None  # unreachable: attempts list is non-empty
     raise last_exc
 
@@ -176,8 +219,16 @@ def _stream_llm_with_retry(
     and let the caller surface a refusal.
 
     Returns `(final_text, model_used)`."""
+    specs = _llm_attempt_specs(primary_model, FALLBACK_MODELS)
+    fresh_exists = any(not _is_cooled_down(m) for m, _ in specs)
+    rate_limited_now: set[str] = set()
     last_exc: Exception | None = None
-    for m, delay in _llm_attempt_specs(primary_model, FALLBACK_MODELS):
+    for m, delay in specs:
+        if m in rate_limited_now:
+            continue
+        if fresh_exists and _is_cooled_down(m):
+            logger.info("Skip %s (cooled down from prior 429)", m)
+            continue
         if delay:
             time.sleep(delay)
         chunks: list[str] = []
@@ -202,6 +253,17 @@ def _stream_llm_with_retry(
                     # UI plumbing; never let it kill the read loop.
                     pass
             return "".join(chunks).strip(), m
+        except litellm.exceptions.RateLimitError as e:
+            last_exc = e
+            _set_cooldown(m)
+            rate_limited_now.add(m)
+            logger.warning(
+                "Stream RateLimit on %s — cooled down for %.0fs",
+                m, RATE_LIMIT_COOLDOWN_S,
+            )
+            if chunks:
+                # Already streamed — caller will surface refusal.
+                raise
         except _TRANSIENT_LLM_ERRORS as e:
             last_exc = e
             logger.warning(
@@ -209,11 +271,7 @@ def _stream_llm_with_retry(
                 m, type(e).__name__, str(e)[:120],
             )
             if chunks:
-                # The user has already seen partial text — don't retry,
-                # propagate so the caller can write a refusal in its
-                # place.
                 raise
-            continue
     assert last_exc is not None
     raise last_exc
 
