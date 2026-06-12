@@ -56,10 +56,18 @@ ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
 logger = logging.getLogger(__name__)
 
-DEFAULT_MODEL = os.getenv("CHATBOT_LLM_MODEL", "groq/llama-3.3-70b-versatile")
-# Used when the primary model exhausts its retries. Smaller, lighter, on
-# the same provider — usually stays available when the 70b is throttled.
-FALLBACK_MODEL = os.getenv("CHATBOT_FALLBACK_MODEL", "groq/llama-3.1-8b-instant")
+DEFAULT_MODEL = os.getenv("CHATBOT_LLM_MODEL", "gemini/gemini-2.5-flash")
+# Fallback chain tried in order after the primary's retries are
+# exhausted. Mix providers so a Groq outage and a Gemini outage are
+# independent risks. Override via CHATBOT_FALLBACK_MODELS=a,b,c.
+FALLBACK_MODELS: list[str] = [
+    m.strip()
+    for m in os.getenv(
+        "CHATBOT_FALLBACK_MODELS",
+        "gemini/gemini-2.0-flash,groq/llama-3.3-70b-versatile,groq/llama-3.1-8b-instant",
+    ).split(",")
+    if m.strip()
+]
 HARD_REFUSAL_THRESHOLD = 0.20
 SOFT_REFUSAL_THRESHOLD = 0.50
 
@@ -99,16 +107,24 @@ def _user_message_for_llm_error(exc: Exception) -> str:
     )
 
 
-def _llm_attempt_specs(primary: str, fallback: str) -> list[tuple[str, float]]:
-    """4 attempts: primary 3× with backoff, then fallback once.
-    Groq's overload incidents typically clear within 2-3s, so 0.5 + 1.5s
-    backoff catches most of them without making the bot feel hung."""
-    return [
+def _llm_attempt_specs(
+    primary: str,
+    fallbacks: list[str],
+) -> list[tuple[str, float]]:
+    """3 + N attempts: primary 3× with backoff, then each fallback once.
+
+    Transient overload incidents (Groq over-capacity, Gemini 429) clear
+    within ~2-3s for the same model, so 0.5 + 1.5s backoff catches most
+    without making the bot feel hung. Cross-provider fallbacks cover
+    longer outages."""
+    specs: list[tuple[str, float]] = [
         (primary, 0.0),
         (primary, 0.5),
         (primary, 1.5),
-        (fallback, 0.5),
     ]
+    for fb in fallbacks:
+        specs.append((fb, 0.5))
+    return specs
 
 
 def _complete_llm_with_retry(
@@ -124,7 +140,7 @@ def _complete_llm_with_retry(
     exception if every attempt fails; the caller turns that into a
     user-friendly refusal."""
     last_exc: Exception | None = None
-    for m, delay in _llm_attempt_specs(primary_model, FALLBACK_MODEL):
+    for m, delay in _llm_attempt_specs(primary_model, FALLBACK_MODELS):
         if delay:
             time.sleep(delay)
         try:
@@ -161,7 +177,7 @@ def _stream_llm_with_retry(
 
     Returns `(final_text, model_used)`."""
     last_exc: Exception | None = None
-    for m, delay in _llm_attempt_specs(primary_model, FALLBACK_MODEL):
+    for m, delay in _llm_attempt_specs(primary_model, FALLBACK_MODELS):
         if delay:
             time.sleep(delay)
         chunks: list[str] = []
@@ -619,7 +635,7 @@ def answer(
     except _TRANSIENT_LLM_ERRORS as e:
         logger.warning(
             "LLM unavailable after %d attempts: %s",
-            len(_llm_attempt_specs(model, FALLBACK_MODEL)),
+            len(_llm_attempt_specs(model, FALLBACK_MODELS)),
             type(e).__name__,
         )
         return {
