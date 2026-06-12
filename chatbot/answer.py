@@ -39,6 +39,7 @@ CLI:
 from __future__ import annotations
 
 import argparse
+import logging
 import os
 import re
 import time
@@ -53,10 +54,153 @@ from chatbot.retrieve import Retriever
 
 ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
+logger = logging.getLogger(__name__)
 
 DEFAULT_MODEL = os.getenv("CHATBOT_LLM_MODEL", "groq/llama-3.3-70b-versatile")
+# Used when the primary model exhausts its retries. Smaller, lighter, on
+# the same provider — usually stays available when the 70b is throttled.
+FALLBACK_MODEL = os.getenv("CHATBOT_FALLBACK_MODEL", "groq/llama-3.1-8b-instant")
 HARD_REFUSAL_THRESHOLD = 0.20
 SOFT_REFUSAL_THRESHOLD = 0.50
+
+# Transient errors we retry on. Anything else propagates immediately so
+# we don't hide real bugs behind retries.
+_TRANSIENT_LLM_ERRORS: tuple[type[Exception], ...] = (
+    litellm.exceptions.ServiceUnavailableError,
+    litellm.exceptions.RateLimitError,
+    litellm.exceptions.InternalServerError,
+    litellm.exceptions.Timeout,
+    litellm.exceptions.APIConnectionError,
+)
+
+
+def _user_message_for_llm_error(exc: Exception) -> str:
+    """User-friendly text for a transient LLM error that exhausted retries."""
+    if isinstance(exc, litellm.exceptions.ServiceUnavailableError):
+        return (
+            "The model is over capacity right now — please try again "
+            "in a few seconds."
+        )
+    if isinstance(exc, litellm.exceptions.RateLimitError):
+        return (
+            "I've hit the model's rate limit. Try again in a moment "
+            "(or use a shorter question)."
+        )
+    if isinstance(exc, litellm.exceptions.Timeout):
+        return (
+            "The model took too long to respond. Try again in a moment."
+        )
+    if isinstance(exc, litellm.exceptions.APIConnectionError):
+        return (
+            "Couldn't reach the model service. Try again in a moment."
+        )
+    return (
+        "The model is temporarily unavailable. Try again in a moment."
+    )
+
+
+def _llm_attempt_specs(primary: str, fallback: str) -> list[tuple[str, float]]:
+    """4 attempts: primary 3× with backoff, then fallback once.
+    Groq's overload incidents typically clear within 2-3s, so 0.5 + 1.5s
+    backoff catches most of them without making the bot feel hung."""
+    return [
+        (primary, 0.0),
+        (primary, 0.5),
+        (primary, 1.5),
+        (fallback, 0.5),
+    ]
+
+
+def _complete_llm_with_retry(
+    primary_model: str,
+    messages: list[dict],
+    *,
+    temperature: float,
+    timeout: float,
+) -> tuple[str, str]:
+    """Non-streaming LLM call with retry + fallback.
+
+    Returns `(answer_text, model_used)`. Propagates the LAST transient
+    exception if every attempt fails; the caller turns that into a
+    user-friendly refusal."""
+    last_exc: Exception | None = None
+    for m, delay in _llm_attempt_specs(primary_model, FALLBACK_MODEL):
+        if delay:
+            time.sleep(delay)
+        try:
+            r = litellm.completion(
+                model=m, messages=messages,
+                temperature=temperature, timeout=timeout,
+            )
+            return r.choices[0].message.content.strip(), m
+        except _TRANSIENT_LLM_ERRORS as e:
+            last_exc = e
+            logger.warning(
+                "LLM completion failed on %s (%s): %s",
+                m, type(e).__name__, str(e)[:120],
+            )
+            continue
+    assert last_exc is not None  # unreachable: attempts list is non-empty
+    raise last_exc
+
+
+def _stream_llm_with_retry(
+    primary_model: str,
+    messages: list[dict],
+    stream_callback: Any,
+    *,
+    temperature: float,
+    timeout: float,
+) -> tuple[str, str]:
+    """Streaming LLM call with retry + fallback.
+
+    Only retries when NO chunks have been delivered to the user yet —
+    once we've started streaming text, retrying would replace partial
+    output with the new attempt's output (confusing) so we propagate
+    and let the caller surface a refusal.
+
+    Returns `(final_text, model_used)`."""
+    last_exc: Exception | None = None
+    for m, delay in _llm_attempt_specs(primary_model, FALLBACK_MODEL):
+        if delay:
+            time.sleep(delay)
+        chunks: list[str] = []
+        try:
+            resp = litellm.completion(
+                model=m, messages=messages,
+                temperature=temperature, timeout=timeout,
+                stream=True,
+            )
+            for piece in resp:
+                delta = ""
+                try:
+                    delta = piece.choices[0].delta.content or ""
+                except Exception:
+                    pass
+                if not delta:
+                    continue
+                chunks.append(delta)
+                try:
+                    stream_callback(delta, "".join(chunks))
+                except Exception:
+                    # UI plumbing; never let it kill the read loop.
+                    pass
+            return "".join(chunks).strip(), m
+        except _TRANSIENT_LLM_ERRORS as e:
+            last_exc = e
+            logger.warning(
+                "LLM stream failed on %s (%s): %s",
+                m, type(e).__name__, str(e)[:120],
+            )
+            if chunks:
+                # The user has already seen partial text — don't retry,
+                # propagate so the caller can write a refusal in its
+                # place.
+                raise
+            continue
+    assert last_exc is not None
+    raise last_exc
+
 
 SYSTEM_PROMPT_TEMPLATE = """\
 You are the assistant for the ENSIA Impact community — a Telegram group for \
@@ -455,59 +599,40 @@ def answer(
     # rough chars/4 estimate when token_counter / get_model_info fail.
     ctx_tokens, ctx_max = _measure_context(model, messages)
 
-    # ── LLM call (with timeout to bound worst-case latency) ──────────────
+    # ── LLM call with retry + fallback ──────────────────────────────────
+    # Wraps the actual call so a transient Groq incident (over-capacity,
+    # 429, internal 500) doesn't get surfaced to the user as a generic
+    # error. 4 attempts total: primary 3× with backoff, then a lighter
+    # fallback model on the same provider.
     t1 = time.monotonic()
+    model_used = model
     try:
         if stream_callback is not None:
-            # Streaming path. We collect deltas, surface them live via
-            # the callback, and join into the same `answer_text` shape
-            # the non-streaming path produces so the rest of this
-            # function doesn't have to branch.
-            response = litellm.completion(
-                model=model,
-                messages=messages,
-                temperature=0.2,
-                timeout=LLM_TIMEOUT_S,
-                stream=True,
+            answer_text, model_used = _stream_llm_with_retry(
+                model, messages, stream_callback,
+                temperature=0.2, timeout=LLM_TIMEOUT_S,
             )
-            chunks: list[str] = []
-            for piece in response:
-                delta = ""
-                try:
-                    delta = piece.choices[0].delta.content or ""
-                except Exception:
-                    pass
-                if not delta:
-                    continue
-                chunks.append(delta)
-                try:
-                    stream_callback(delta, "".join(chunks))
-                except Exception:
-                    # The callback is best-effort UI plumbing — never let
-                    # it kill the LLM read loop.
-                    pass
-            answer_text = "".join(chunks).strip()
         else:
-            response = litellm.completion(
-                model=model,
-                messages=messages,
-                temperature=0.2,
-                timeout=LLM_TIMEOUT_S,
+            answer_text, model_used = _complete_llm_with_retry(
+                model, messages, temperature=0.2, timeout=LLM_TIMEOUT_S,
             )
-            answer_text = response.choices[0].message.content.strip()
-    except litellm.exceptions.Timeout:
+    except _TRANSIENT_LLM_ERRORS as e:
+        logger.warning(
+            "LLM unavailable after %d attempts: %s",
+            len(_llm_attempt_specs(model, FALLBACK_MODEL)),
+            type(e).__name__,
+        )
         return {
             "query": query,
             "retrieval_query": retrieval_query if retrieval_query != query else None,
-            "answer": (
-                "I'm having trouble reaching the model right now — please try "
-                "again in a moment."
-            ),
+            "answer": _user_message_for_llm_error(e),
             "refused": True,
-            "refusal_reason": f"LLM timeout after {LLM_TIMEOUT_S}s",
+            "refusal_reason": f"{type(e).__name__}: {str(e)[:200]}",
             "model": model,
+            "model_used": None,
             "top_score": top_score,
-            "tier": "llm_timeout",
+            "tier": "llm_unavailable",
+            "has_citations": False,
             "sources": [],
             "context_tokens": ctx_tokens,
             "context_max": ctx_max,
@@ -531,6 +656,10 @@ def answer(
         "refused": False,
         "refusal_reason": None,
         "model": model,
+        # `model_used` differs from `model` when the fallback model
+        # actually answered. Useful for monitoring how often the primary
+        # is unavailable.
+        "model_used": model_used,
         "top_score": top_score,
         "tier": tier,
         "has_citations": has_citations,
