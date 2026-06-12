@@ -68,6 +68,11 @@ CREATE INDEX IF NOT EXISTS idx_conv_recent
 -- chatbot.answer._format_sources output (id, number, score, metadata, preview).
 ALTER TABLE conversations ADD COLUMN IF NOT EXISTS sources JSONB;
 
+-- When a user calls /reset we mark their prior turns with a timestamp
+-- instead of deleting them, so the LLM's history queries skip past
+-- turns while the dashboard still shows the full audit trail.
+ALTER TABLE conversations ADD COLUMN IF NOT EXISTS cleared_at TIMESTAMPTZ;
+
 -- Telegram message_id of the bot's outgoing reply. Lets us link inline-
 -- keyboard feedback callbacks back to the assistant turn that produced
 -- them. NULL for user turns and for any historical row that predates
@@ -218,6 +223,7 @@ class ConversationMemory:
                     SELECT role, content
                     FROM conversations
                     WHERE chat_id=%s AND user_id=%s AND ts >= %s
+                      AND cleared_at IS NULL
                     ORDER BY turn_idx DESC
                     LIMIT %s
                     """,
@@ -304,11 +310,22 @@ class ConversationMemory:
                 )
 
     def reset(self, chat_id: int, user_id: int) -> int:
-        """Wipe conversation history for this (chat, user). User row stays."""
+        """Soft-reset the LLM's view of this (chat, user)'s history.
+
+        From the bot's perspective the conversation is gone — `recent_turns`
+        filters out anything with `cleared_at` set, so the next message
+        starts a fresh thread. From the admin's perspective the rows are
+        still in Postgres with a timestamp marking when they were cleared,
+        so the dashboard can show the complete audit trail and feedback
+        rows never end up orphaned.
+
+        Returns the number of turns the user's reset newly marked (i.e.
+        already-cleared turns from a previous reset aren't re-counted)."""
         with self._conn() as conn:
             with conn.cursor() as cur:
                 cur.execute(
-                    "DELETE FROM conversations WHERE chat_id=%s AND user_id=%s",
+                    "UPDATE conversations SET cleared_at = NOW() "
+                    "WHERE chat_id=%s AND user_id=%s AND cleared_at IS NULL",
                     (chat_id, user_id),
                 )
                 return cur.rowcount
