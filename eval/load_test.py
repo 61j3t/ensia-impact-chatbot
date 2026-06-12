@@ -94,6 +94,8 @@ async def _one_request(
             "elapsed": elapsed,
             "status": 200,
             "tier": body.get("tier"),
+            "model_used": body.get("model_used"),
+            "refused": body.get("refused"),
             "ctx_tokens": body.get("context_tokens"),
             "num_sources": body.get("num_sources"),
             "timings": body.get("timings") or {},
@@ -179,6 +181,25 @@ def _report(results: list[dict], wall: float, workers: int) -> None:
         for s in stages:
             vals = [t["timings"].get(s, 0.0) for t in timed if t["timings"]]
             print(f"    {s:10s} {statistics.mean(vals):.2f}")
+        print()
+
+    # Model breakdown — which member of the fallback chain answered
+    # each request? Tells us whether the primary held up or we fell
+    # back to Gemini-2.0 / Groq.
+    from collections import Counter as _Counter
+    models = _Counter(r.get("model_used") or "unknown" for r in ok)
+    if models:
+        print("  Model used")
+        for m, n in models.most_common():
+            pct = n / len(ok) * 100
+            print(f"    {m:40s} {n:4d}  ({pct:5.1f}%)")
+        print()
+
+    # Refusal breakdown — when the bot says "model unavailable" or
+    # similar, it's a refusal at our layer (not Telegram).
+    refused = sum(1 for r in ok if r.get("refused"))
+    if refused:
+        print(f"  Soft refusals (incl. all-fallbacks-exhausted): {refused}/{len(ok)}")
         print()
 
     if bad:

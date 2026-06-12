@@ -122,11 +122,16 @@ async def ask(
 ) -> dict:
     """Run the bot's answer pipeline on an arbitrary query.
 
-    Body: `{"query": "...", "rerank": true (optional)}`.
+    Body: `{
+        "query":   "...",
+        "rerank":  true     # optional, defaults to False
+        "model":   "...",   # optional, overrides CHATBOT_LLM_MODEL
+        "history": [...]    # optional, [{role, content}, ...]
+    }`.
 
-    Returns the answer text, sources, timings, and context-fill metric.
-    Bypasses memory writes — the stress test shouldn't pollute Neon
-    with synthetic data."""
+    Returns the answer text, model_used, sources count, timings, and the
+    context-fill metric. Bypasses memory writes — load/stress tests
+    shouldn't pollute Neon with synthetic data."""
     _require_token(x_sync_token)
     query = (payload.get("query") or "").strip()
     if not query:
@@ -136,11 +141,20 @@ async def ask(
     from chatbot.answer import answer
 
     retriever = await asyncio.to_thread(_get_retriever)
-    result = await asyncio.to_thread(answer, query, retriever=retriever, history=[])
+    kwargs = {
+        "retriever": retriever,
+        "history": payload.get("history") or [],
+        "rerank": bool(payload.get("rerank", False)),
+    }
+    if payload.get("model"):
+        kwargs["model"] = payload["model"]
+    result = await asyncio.to_thread(answer, query, **kwargs)
 
     return {
         "answer": result["answer"],
         "refused": result.get("refused"),
+        "model": result.get("model"),
+        "model_used": result.get("model_used"),
         "tier": result.get("tier"),
         "top_score": result.get("top_score"),
         "context_tokens": result.get("context_tokens"),
