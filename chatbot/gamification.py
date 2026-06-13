@@ -184,9 +184,9 @@ def format_me_card(stats: dict, earned: list[Badge]) -> str:
     lines.append(f"**🏆 Badges ({len(earned)} / {len(BADGES)})**")
     if earned:
         for b in earned:
-            lines.append(f"  {b.emoji} {b.name} — _{b.description}_")
+            lines.append(f"  {b.emoji} {b.name} — __{b.description}__")
     else:
-        lines.append("  _no badges yet — ask a question to start!_")
+        lines.append("  __no badges yet — ask a question to start!__")
     lines.append("")
 
     topics = stats.get("top_topics") or []
@@ -198,6 +198,6 @@ def format_me_card(stats: dict, earned: list[Badge]) -> str:
     # Subtle nudge — what's the NEXT unearned badge that's closest?
     unearned = [b for b in BADGES if not b.earned(stats)]
     if unearned:
-        lines.append(f"_Next up:_ {unearned[0].emoji} **{unearned[0].name}** — {unearned[0].description.lower()}")
+        lines.append(f"__Next up:__ {unearned[0].emoji} **{unearned[0].name}** — {unearned[0].description.lower()}")
 
     return "\n".join(lines)
