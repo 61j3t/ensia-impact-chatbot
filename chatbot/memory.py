@@ -383,10 +383,10 @@ class ConversationMemory:
                         COUNT(*) FILTER (WHERE role='user' AND EXTRACT(hour FROM ts) BETWEEN 5 AND 7) AS morn_q,
                         COUNT(*) FILTER (
                             WHERE role='assistant'
-                            AND sources::text LIKE '%"source_type": "pdf"%'
+                            AND sources::text LIKE %s
                         ) AS pdf_cited
                     FROM conversations WHERE user_id=%s""",
-                    (user_id,),
+                    ('%"source_type": "pdf"%', user_id),
                 )
                 counts = cur.fetchone()
 
