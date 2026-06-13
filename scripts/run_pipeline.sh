@@ -16,8 +16,24 @@
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
-PY=".venv/bin/python"
-[[ -x "$PY" ]] || { echo "✗ .venv not found — create one and pip install -r requirements.txt" >&2; exit 1; }
+
+# Resolve the Python interpreter: prefer the local .venv when present
+# (dev machines), fall back to system python in container environments
+# (HF Space Docker image, which doesn't use virtualenvs). Override by
+# exporting PY=/path/to/python before invoking.
+if [[ -z "${PY:-}" ]]; then
+    if [[ -x ".venv/bin/python" ]]; then
+        PY=".venv/bin/python"
+    elif command -v python >/dev/null 2>&1; then
+        PY="$(command -v python)"
+    elif command -v python3 >/dev/null 2>&1; then
+        PY="$(command -v python3)"
+    else
+        echo "✗ no Python interpreter found (tried .venv, python, python3)" >&2
+        exit 1
+    fi
+fi
+echo "Using Python: $PY"
 
 REBUILD_FLAG=""
 if [[ "${1:-}" == "--rebuild" ]]; then
