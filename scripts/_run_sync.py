@@ -154,6 +154,12 @@ def _hf_commit_back() -> None:
         )
         return p.returncode, (p.stdout or "") + (p.stderr or "")
 
+    # `.git` was created by Docker's build process (root) but the
+    # runtime user is `user` (UID 1000), so git's "dubious ownership"
+    # check rejects every operation. Mark /app as safe before doing
+    # anything else.
+    run("git", "config", "--global", "--add", "safe.directory", str(ROOT))
+
     # Identify ourselves so the commits don't show up as "unknown".
     run("git", "config", "user.email", "sync@ensia-impact-bot")
     run("git", "config", "user.name", "ensia-bot-sync")
