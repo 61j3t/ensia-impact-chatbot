@@ -136,81 +136,50 @@ def main() -> int:
 
 
 def _hf_commit_back() -> None:
-    """Commit the pipeline's data deltas + push to the HF Space repo.
+    """Upload the pipeline's data deltas to the HF Space repo via the
+    huggingface_hub Hub API.
 
-    Only the directories that the pipeline writes are staged — code
-    files are never touched here, even if the workspace has uncommitted
-    edits from some operator poking around.
-    """
-    import shlex
+    Earlier versions drove `git push` from inside the container, but
+    pushing LFS-tracked files (chroma_db) needs LFS auth that plain
+    git Basic-auth doesn't satisfy ("This repository uses Git LFS"
+    error). `HfApi.upload_folder` talks the Hub's own multipart
+    protocol, which handles LFS transparently and does delta uploads
+    so unchanged blobs aren't re-shipped."""
+    from huggingface_hub import HfApi
 
     token = os.environ["HF_WRITE_TOKEN"]
-    repo = os.environ.get("HF_SPACE_REPO", "61j3t/ensia-impact-bot")
-    remote = f"https://61j3t:{token}@huggingface.co/spaces/{repo}"
+    repo_id = os.environ.get("HF_SPACE_REPO", "61j3t/ensia-impact-bot")
 
-    def run(*cmd: str) -> tuple[int, str]:
-        p = subprocess.run(
-            cmd, cwd=str(ROOT), capture_output=True, text=True, timeout=120,
-        )
-        return p.returncode, (p.stdout or "") + (p.stderr or "")
-
-    # `.git` was created by Docker's build process (root) but the
-    # runtime user is `user` (UID 1000), so git's "dubious ownership"
-    # check rejects every operation. Mark /app as safe before doing
-    # anything else.
-    run("git", "config", "--global", "--add", "safe.directory", str(ROOT))
-
-    # Identify ourselves so the commits don't show up as "unknown".
-    run("git", "config", "user.email", "sync@ensia-impact-bot")
-    run("git", "config", "user.name", "ensia-bot-sync")
-
-    # Stage only the data the pipeline produces. Adding the whole repo
-    # would also stage `data/.telethon.session` and other accidents.
-    paths = [
+    # Restrict to the directories the pipeline actually writes —
+    # uploading the whole repo would risk shipping a .telethon.session
+    # or some other secret accidentally left in /app.
+    allow_patterns = [
         "data/result.json",
         "data/messages_enriched.json",
-        "data/external_text/",
-        "data/extracted_text/",
-        "data/ocr_text/",
+        "data/external_text/**",
+        "data/extracted_text/**",
+        "data/ocr_text/**",
         "data/_status.json",
-        "chatbot/chroma_db/",
+        "chatbot/chroma_db/**",
     ]
-    for p in paths:
-        run("git", "add", "-A", "--", p)
-
-    # Bail cleanly if there's nothing to commit (e.g. a no-op re-sync).
-    code, _out = run("git", "diff", "--cached", "--quiet")
-    if code == 0:
-        return  # no changes staged
-
-    msg = f"sync: pipeline run @ {_now()}"
-    code, out = run("git", "commit", "-m", msg)
-    if code != 0:
-        raise RuntimeError(f"commit failed: {out[:500]}")
-
-    # Push via a credential header injected per-command. Passing the
-    # credentialed URL as a positional arg to `git push` triggers git's
-    # credential-helper lookup ("fatal: unable to get credentials") on
-    # the HF container because there's no askpass. The cleaner pattern
-    # is to leave the remote URL clean and inject auth via an extra
-    # HTTP header for this one invocation.
-    #
-    # GIT_TERMINAL_PROMPT=0 prevents any interactive fallback.
-    push_env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
-    import base64
-    basic = base64.b64encode(f"61j3t:{token}".encode()).decode()
-    push_args = [
-        "git",
-        "-c", f"http.extraheader=Authorization: Basic {basic}",
-        "push",
-        f"https://huggingface.co/spaces/{repo}",
-        "HEAD:main",
+    ignore_patterns = [
+        # Defense in depth — never ship secrets / session files.
+        "**/.telethon*",
+        "**/.env",
+        "**/__pycache__/**",
     ]
-    p = subprocess.run(push_args, cwd=str(ROOT), capture_output=True,
-                       text=True, timeout=180, env=push_env)
-    if p.returncode != 0:
-        out_combined = (p.stdout or "") + (p.stderr or "")
-        raise RuntimeError(f"push failed: {out_combined[:500]}")
+
+    api = HfApi(token=token)
+    commit_info = api.upload_folder(
+        folder_path=str(ROOT),
+        repo_id=repo_id,
+        repo_type="space",
+        commit_message=f"sync: pipeline run @ {_now()}",
+        allow_patterns=allow_patterns,
+        ignore_patterns=ignore_patterns,
+    )
+    # Persist enough info that a later inspection can pinpoint the run.
+    write_state(commit_url=getattr(commit_info, "commit_url", None))
 
 
 if __name__ == "__main__":
