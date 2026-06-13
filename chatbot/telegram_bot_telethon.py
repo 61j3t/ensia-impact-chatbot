@@ -288,7 +288,7 @@ def _format_reply(result: dict, elapsed_s: float) -> str:
         ctx_bit = f" · 🧠 {pct}% ({_fmt_tokens(used)}/{_fmt_tokens(cap)})"
     elif used > 0:
         ctx_bit = f" · 🧠 {_fmt_tokens(used)} tokens"
-    timing_line = f"_⏱ {elapsed_s:.1f}s{ctx_bit}_"
+    timing_line = f"__⏱ {elapsed_s:.1f}s{ctx_bit}__"
 
     if result.get("refused"):
         parts.append("\n" + timing_line)
@@ -570,7 +570,7 @@ async def _handle_query(
                     await asyncio.to_thread(_memory.set_badges, user_id, new_keys)
                     # Send a small congratulatory note. Multiple badges
                     # combined onto one message to keep it un-spammy.
-                    lines = [f"{b.emoji} **{b.name}** — _{b.description}_" for b in fresh]
+                    lines = [f"{b.emoji} **{b.name}** — __{b.description}__" for b in fresh]
                     await event.reply(
                         "🎉 New badge"
                         + ("s" if len(fresh) > 1 else "")
