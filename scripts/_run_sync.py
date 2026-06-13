@@ -188,10 +188,29 @@ def _hf_commit_back() -> None:
     if code != 0:
         raise RuntimeError(f"commit failed: {out[:500]}")
 
-    # Push to whichever branch we're on (typically main on HF Spaces).
-    code, out = run("git", "push", remote, "HEAD:main")
-    if code != 0:
-        raise RuntimeError(f"push failed: {out[:500]}")
+    # Push via a credential header injected per-command. Passing the
+    # credentialed URL as a positional arg to `git push` triggers git's
+    # credential-helper lookup ("fatal: unable to get credentials") on
+    # the HF container because there's no askpass. The cleaner pattern
+    # is to leave the remote URL clean and inject auth via an extra
+    # HTTP header for this one invocation.
+    #
+    # GIT_TERMINAL_PROMPT=0 prevents any interactive fallback.
+    push_env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
+    import base64
+    basic = base64.b64encode(f"61j3t:{token}".encode()).decode()
+    push_args = [
+        "git",
+        "-c", f"http.extraheader=Authorization: Basic {basic}",
+        "push",
+        f"https://huggingface.co/spaces/{repo}",
+        "HEAD:main",
+    ]
+    p = subprocess.run(push_args, cwd=str(ROOT), capture_output=True,
+                       text=True, timeout=180, env=push_env)
+    if p.returncode != 0:
+        out_combined = (p.stdout or "") + (p.stderr or "")
+        raise RuntimeError(f"push failed: {out_combined[:500]}")
 
 
 if __name__ == "__main__":
