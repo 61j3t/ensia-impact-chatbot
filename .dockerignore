@@ -2,7 +2,13 @@
 # in spirit, but Docker reads this independently. Keeping it tight makes
 # the HF Space build faster and shrinks the image.
 
-.git/
+# NB: we deliberately KEEP `.git/` in the image so the sync wrapper
+# (scripts/_run_sync.py) can `git commit && git push` the data deltas
+# back to the HF Space repo — that's how pipeline runs survive the
+# ephemeral filesystem. On HF Space builds, the build context IS a
+# clone of the Space repo, so the .git included is correctly pointed
+# at huggingface.co/spaces/<user>/<space>.
+# .git/
 .venv/
 .idea/
 .vscode/
