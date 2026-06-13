@@ -47,6 +47,12 @@ python-telegram-bot[ext]==22.7
 # Chromium via Playwright. Install the browser separately after pip:
 #   .venv/bin/python -m playwright install chromium
 playwright==1.59.0
+# trafilatura extracts the main text from arbitrary HTML pages —
+# used by 06_fetch_chat_links.py to clean up scraped chat URLs.
+trafilatura==1.12.2
+# BeautifulSoup is used by 04 (WordPress REST parse) and 06 (HTML
+# fallback before trafilatura).
+beautifulsoup4==4.12.3
 
 # ── Database ────────────────────────────────────────────────────────────
 # Postgres for conversation memory + the user registry. The bot connects
