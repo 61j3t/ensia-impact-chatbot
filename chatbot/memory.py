@@ -85,6 +85,20 @@ ALTER TABLE conversations ADD COLUMN IF NOT EXISTS tg_message_id BIGINT;
 -- secondary one (Groq instead of Gemini, etc.).
 ALTER TABLE conversations ADD COLUMN IF NOT EXISTS model_used TEXT;
 
+-- Whether the user invoked /deep on this turn. Lets us award the
+-- "Deep Diver" gamification badge without scanning text.
+ALTER TABLE conversations ADD COLUMN IF NOT EXISTS rerank BOOLEAN NOT NULL DEFAULT FALSE;
+
+-- ── Gamification ──────────────────────────────────────────────────
+-- Personal stats: streak counters + earned-badge keys. Computed lazily
+-- on /me and refreshed on every successful answer. Don't reset on the
+-- user's /reset — those are about behaviour over time, not the current
+-- conversation memory.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS current_streak INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS best_streak INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS last_streak_date DATE;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS badges JSONB NOT NULL DEFAULT '[]'::jsonb;
+
 CREATE TABLE IF NOT EXISTS feedback (
     id          BIGSERIAL PRIMARY KEY,
     chat_id     BIGINT NOT NULL,
@@ -203,13 +217,14 @@ class ConversationMemory:
                         Jsonb(t["sources"]) if t.get("sources") else None,
                         t.get("tg_message_id"),
                         t.get("model_used"),
+                        bool(t.get("rerank")),
                     )
                     for i, t in enumerate(turns)
                 ]
                 cur.executemany(
                     "INSERT INTO conversations "
-                    "(chat_id, user_id, turn_idx, role, content, sources, tg_message_id, model_used) "
-                    "VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
+                    "(chat_id, user_id, turn_idx, role, content, sources, tg_message_id, model_used, rerank) "
+                    "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
                     rows,
                 )
 
@@ -307,6 +322,135 @@ class ConversationMemory:
         if row is None:
             return None
         return row["id"], row["message_id"]
+
+    # ─── gamification ───────────────────────────────────────────────────
+
+    def update_streak(self, user_id: int) -> dict:
+        """Bump the user's streak. Counts at most once per UTC day.
+
+        Returns {current, best} so the caller can show 'you just hit
+        N days!' if relevant."""
+        with self._conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT current_streak, best_streak, last_streak_date "
+                    "FROM users WHERE user_id=%s",
+                    (user_id,),
+                )
+                row = cur.fetchone()
+                if row is None:
+                    return {"current": 0, "best": 0}
+                today = datetime.now(timezone.utc).date()
+                last = row["last_streak_date"]
+                cur_streak = row["current_streak"] or 0
+                best = row["best_streak"] or 0
+                if last == today:
+                    return {"current": cur_streak, "best": best}
+                if last is not None and (today - last).days == 1:
+                    cur_streak += 1
+                else:
+                    cur_streak = 1
+                best = max(best, cur_streak)
+                cur.execute(
+                    "UPDATE users SET current_streak=%s, best_streak=%s, "
+                    "last_streak_date=%s WHERE user_id=%s",
+                    (cur_streak, best, today, user_id),
+                )
+                return {"current": cur_streak, "best": best}
+
+    def get_user_stats(self, user_id: int) -> dict:
+        """Bundle everything /me needs in one round-trip."""
+        with self._conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "SELECT user_id, username, first_name, last_name, "
+                    "language_code, joined_at, last_active_at, query_count, "
+                    "current_streak, best_streak, badges "
+                    "FROM users WHERE user_id=%s",
+                    (user_id,),
+                )
+                u = cur.fetchone()
+                if u is None:
+                    return {}
+
+                # Counts from conversations.
+                cur.execute(
+                    """SELECT
+                        COUNT(*) FILTER (WHERE role='user' AND cleared_at IS NULL OR role='user') AS total_q,
+                        COUNT(*) FILTER (WHERE role='user' AND ts >= NOW() - INTERVAL '7 days') AS week_q,
+                        COUNT(*) FILTER (WHERE role='user' AND rerank=TRUE) AS deep_q,
+                        COUNT(*) FILTER (WHERE role='user' AND EXTRACT(hour FROM ts) BETWEEN 0 AND 4) AS night_q,
+                        COUNT(*) FILTER (WHERE role='user' AND EXTRACT(hour FROM ts) BETWEEN 5 AND 7) AS morn_q,
+                        COUNT(*) FILTER (
+                            WHERE role='assistant'
+                            AND sources::text LIKE '%"source_type": "pdf"%'
+                        ) AS pdf_cited
+                    FROM conversations WHERE user_id=%s""",
+                    (user_id,),
+                )
+                counts = cur.fetchone()
+
+                # Languages detected from queries.
+                cur.execute(
+                    "SELECT content FROM conversations "
+                    "WHERE user_id=%s AND role='user'",
+                    (user_id,),
+                )
+                queries = [r["content"] for r in cur.fetchall()]
+
+                # Helpful votes given by this user.
+                cur.execute(
+                    "SELECT COUNT(*) AS n FROM feedback "
+                    "WHERE user_id=%s AND rating='useful'",
+                    (user_id,),
+                )
+                helpful_votes = cur.fetchone()["n"]
+
+                # Top topics from the assistant turns the user got.
+                cur.execute(
+                    """SELECT s->'metadata'->>'topic' AS topic, COUNT(*) AS n
+                       FROM conversations,
+                            jsonb_array_elements(COALESCE(sources, '[]'::jsonb)) AS s
+                       WHERE user_id=%s
+                         AND role='assistant'
+                         AND s->'metadata'->>'topic' IS NOT NULL
+                         AND s->'metadata'->>'topic' <> ''
+                       GROUP BY topic
+                       ORDER BY n DESC LIMIT 3""",
+                    (user_id,),
+                )
+                top_topics = [r["topic"] for r in cur.fetchall()]
+
+        return {
+            "user_id": u["user_id"],
+            "first_name": u["first_name"],
+            "last_name": u["last_name"],
+            "username": u["username"],
+            "joined_at": u["joined_at"],
+            "last_active_at": u["last_active_at"],
+            "query_count": u["query_count"] or 0,
+            "current_streak": u["current_streak"] or 0,
+            "best_streak": u["best_streak"] or 0,
+            "badges": u["badges"] or [],
+            "total_q": counts["total_q"] or 0,
+            "week_q": counts["week_q"] or 0,
+            "deep_q": counts["deep_q"] or 0,
+            "night_q": counts["night_q"] or 0,
+            "morn_q": counts["morn_q"] or 0,
+            "pdf_cited": counts["pdf_cited"] or 0,
+            "helpful_votes": helpful_votes or 0,
+            "queries": queries,
+            "top_topics": top_topics,
+        }
+
+    def set_badges(self, user_id: int, badge_keys: list[str]) -> None:
+        from psycopg.types.json import Jsonb
+        with self._conn() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    "UPDATE users SET badges=%s WHERE user_id=%s",
+                    (Jsonb(badge_keys), user_id),
+                )
 
     def add_report_reason(self, feedback_id: int, reason: str) -> None:
         with self._conn() as conn:

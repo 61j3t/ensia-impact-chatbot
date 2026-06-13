@@ -545,7 +545,7 @@ async def _handle_query(
     if _memory is not None and not result.get("refused"):
         try:
             _memory.add_turns(chat_id, user_id, [
-                {"role": "user", "content": query},
+                {"role": "user", "content": query, "rerank": rerank},
                 {
                     "role": "assistant",
                     "content": result["answer"],
@@ -556,6 +556,31 @@ async def _handle_query(
             ])
         except Exception:
             logger.exception("memory.add_turns failed")
+
+        # Gamification: streak bump + check for newly earned badges.
+        # All best-effort — never block the user on this.
+        try:
+            await asyncio.to_thread(_memory.update_streak, user_id)
+            stats = await asyncio.to_thread(_memory.get_user_stats, user_id)
+            if stats:
+                from chatbot.gamification import newly_earned, BADGES
+                fresh = newly_earned(stats, stats.get("badges") or [])
+                if fresh:
+                    new_keys = (stats.get("badges") or []) + [b.key for b in fresh]
+                    await asyncio.to_thread(_memory.set_badges, user_id, new_keys)
+                    # Send a small congratulatory note. Multiple badges
+                    # combined onto one message to keep it un-spammy.
+                    lines = [f"{b.emoji} **{b.name}** — _{b.description}_" for b in fresh]
+                    await event.reply(
+                        "🎉 New badge"
+                        + ("s" if len(fresh) > 1 else "")
+                        + " unlocked!\n\n" + "\n".join(lines)
+                        + "\n\nSee all your badges with /me.",
+                        parse_mode="md",
+                        link_preview=False,
+                    )
+        except Exception:
+            logger.exception("gamification update failed")
 
 
 async def _set_thinking_reaction(client, event) -> bool:
@@ -622,6 +647,7 @@ async def _setup_client() -> TelegramClient:
         BotCommand(command="ask", description="Ask a question (works in groups)"),
         BotCommand(command="deep", description="Slow but more careful answer for ambiguous questions"),
         BotCommand(command="reset", description="Clear my memory of this conversation"),
+        BotCommand(command="me", description="My stats: questions, streak, badges"),
     ]
     try:
         await client(SetBotCommandsRequest(
@@ -705,6 +731,41 @@ async def _run() -> None:
         if not m:
             return
         await _handle_query(client, event, m.group(1).strip(), rerank=True)
+
+    # ── /me — personal stats card ─────────────────────────────────────
+    @client.on(events.NewMessage(pattern=r"^/me(?:@\w+)?$"))
+    async def on_me(event):
+        if _memory is None:
+            await event.reply("Stats unavailable right now.")
+            return
+        sender = await event.get_sender()
+        if sender is None:
+            return
+        try:
+            stats = await asyncio.to_thread(_memory.get_user_stats, sender.id)
+        except Exception:
+            logger.exception("get_user_stats failed")
+            await event.reply("Couldn't fetch your stats — try again in a moment.")
+            return
+        if not stats:
+            await event.reply(
+                "I don't have any record of you yet — ask me a question first!"
+            )
+            return
+        from chatbot.gamification import evaluate_badges, format_me_card
+        earned = evaluate_badges(stats)
+        # Backfill in case the user has badges we never persisted (e.g.
+        # they qualified before this code shipped). Don't notify on
+        # backfill — they probably already saw the data.
+        if [b.key for b in earned] != (stats.get("badges") or []):
+            try:
+                await asyncio.to_thread(
+                    _memory.set_badges, sender.id, [b.key for b in earned]
+                )
+            except Exception:
+                logger.exception("set_badges (backfill) failed")
+        text = format_me_card(stats, earned)
+        await event.reply(text, parse_mode="md", link_preview=False)
 
     # ── plain text in DM, or @mention / reply in groups ───────────────
     @client.on(events.NewMessage(incoming=True))

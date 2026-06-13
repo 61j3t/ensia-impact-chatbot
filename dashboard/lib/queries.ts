@@ -3,7 +3,8 @@
  *
  * Schema is owned by chatbot/memory.py (Python side):
  *   users(user_id PK, username, first_name, last_name, language_code,
- *         is_bot, joined_at, last_active_at, query_count)
+ *         is_bot, joined_at, last_active_at, query_count,
+ *         current_streak, best_streak, badges)
  *   conversations(id, chat_id, user_id, turn_idx, role, content, ts,
  *                 UNIQUE(chat_id, user_id, turn_idx))
  */
@@ -19,6 +20,9 @@ export interface User {
   joined_at: Date;
   last_active_at: Date;
   query_count: number;
+  current_streak: number;
+  best_streak: number;
+  badges: string[];
 }
 
 export interface ConversationSource {
@@ -111,7 +115,7 @@ export async function getStats(): Promise<Stats> {
 export async function getUsers(): Promise<User[]> {
   return (await sql`
     SELECT user_id, username, first_name, last_name, language_code, is_bot,
-           joined_at, last_active_at, query_count
+           joined_at, last_active_at, query_count, current_streak, best_streak, COALESCE(badges, '[]'::jsonb) AS badges
     FROM users
     ORDER BY query_count DESC, last_active_at DESC
   `) as unknown as User[];
@@ -120,7 +124,7 @@ export async function getUsers(): Promise<User[]> {
 export async function getUser(userId: number): Promise<User | null> {
   const rows = (await sql`
     SELECT user_id, username, first_name, last_name, language_code, is_bot,
-           joined_at, last_active_at, query_count
+           joined_at, last_active_at, query_count, current_streak, best_streak, COALESCE(badges, '[]'::jsonb) AS badges
     FROM users
     WHERE user_id = ${userId}
   `) as unknown as User[];

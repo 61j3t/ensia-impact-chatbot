@@ -12,6 +12,7 @@ import { QueriesChart } from "@/components/QueriesChart";
 import { SourcesList } from "@/components/SourcesList";
 import { FeedbackBadges } from "@/components/FeedbackBadges";
 import { ModelBadge } from "@/components/ModelBadge";
+import { BadgeShelf } from "@/components/BadgeShelf";
 
 export const dynamic = "force-dynamic";
 
@@ -186,6 +187,14 @@ export default async function HomePage({
                     small
                   />
                 </div>
+              </div>
+
+              <div className="p-4 sm:p-5 border-b border-ink-900/10">
+                <BadgeShelf
+                  earned={selected.badges}
+                  currentStreak={selected.current_streak}
+                  bestStreak={selected.best_streak}
+                />
               </div>
 
               <div className="p-4 sm:p-5">
