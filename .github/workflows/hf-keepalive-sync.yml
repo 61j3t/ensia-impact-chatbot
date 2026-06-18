@@ -1,0 +1,55 @@
+name: HF Space keepalive + nightly sync
+
+on:
+  schedule:
+    # Keepalive every 25 min so HF doesn't sleep the Space.
+    # Free CPU Spaces sleep after ~48h of HTTP inactivity, but we
+    # over-ping to stay safely awake and keep cold-start latency at zero.
+    - cron: "*/25 * * * *"
+    # Nightly sync at 03:00 UTC.
+    - cron: "0 3 * * *"
+  workflow_dispatch:  # also runnable on demand from the Actions tab
+
+concurrency:
+  group: hf-keepalive-sync
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    # Lightweight ping job that fires on every cron tick.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wake / keep Space warm
+        run: |
+          set -euo pipefail
+          # GET / on the sidecar — no auth, just enough to bump the
+          # idle timer. --max-time 90 covers a cold start if we
+          # happen to catch it asleep.
+          code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 90 \
+                 https://61j3t-ensia-impact-bot.hf.space/)
+          echo "ping http=$code"
+          # 200 = up, anything else we treat as a soft failure (we'll
+          # retry on the next tick rather than failing the workflow).
+          test "$code" = "200" || echo "::warning::keepalive returned $code"
+
+  sync:
+    # Only on the 03:00 schedule (or manual dispatch). Skip on the
+    # 25-minute keepalive ticks.
+    if: github.event.schedule == '0 3 * * *' || github.event_name == 'workflow_dispatch'
+    needs: ping
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger /sync
+        env:
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${SYNC_TOKEN}" ]; then
+            echo "::error::SYNC_TOKEN secret is not set"
+            exit 1
+          fi
+          resp=$(curl -sS -X POST \
+                  -H "X-Sync-Token: ${SYNC_TOKEN}" \
+                  --max-time 30 \
+                  https://61j3t-ensia-impact-bot.hf.space/sync)
+          echo "sync response: ${resp}"
