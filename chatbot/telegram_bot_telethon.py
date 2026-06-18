@@ -95,7 +95,7 @@ WELCOME = (
     "students have shared.\n\n"
     "**Things you can ask:**\n"
     "• Which companies has ENSIA partnered with?\n"
-    "• What projects are currently incubated at the CDE?\n"
+    "• What projects are currently incubated at the V2V Incubator?\n"
     "• Why join the incubator — what does it offer?\n"
     "• What types of final-year projects exist and how do I pick one?\n"
     "• How do I register a startup under décret 1275?\n"
