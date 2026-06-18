@@ -33,9 +33,9 @@ jobs:
           test "$code" = "200" || echo "::warning::keepalive returned $code"
 
   sync:
-    # Only on the 03:00 schedule (or manual dispatch). Skip on the
-    # 25-minute keepalive ticks.
-    if: github.event.schedule == '0 3 * * *' || github.event_name == 'workflow_dispatch'
+    # Only on the 03:00 schedule. Manual dispatch + the 25-min
+    # keepalive ticks just ping and exit.
+    if: github.event.schedule == '0 3 * * *'
     needs: ping
     runs-on: ubuntu-latest
     steps:
@@ -45,8 +45,10 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "${SYNC_TOKEN}" ]; then
-            echo "::error::SYNC_TOKEN secret is not set"
-            exit 1
+            # Don't fail the workflow — keepalive is the load-bearing
+            # part. Surface a warning so it's visible in the run log.
+            echo "::warning::SYNC_TOKEN secret is not set; skipping nightly /sync"
+            exit 0
           fi
           resp=$(curl -sS -X POST \
                   -H "X-Sync-Token: ${SYNC_TOKEN}" \
