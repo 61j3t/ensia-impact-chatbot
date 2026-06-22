@@ -1,12 +1,17 @@
 """Retrieve top-k chunks from the ChromaDB index for a given query.
 
-Two-stage retrieval:
-  1. Dense retrieval (BGE-M3) returns a candidate pool of CANDIDATE_POOL
-     chunks (default 20).
-  2. If rerank=True (the default), bge-reranker-v2-m3 cross-encodes each
-     (query, candidate) pair and re-orders. The reranker can model the
-     query-document relationship more precisely than dot-product on
-     pre-computed embeddings.
+Hybrid + rerank + diversify pipeline:
+  1. Dense (BGE-M3) and BM25 lexical rankings are computed in parallel.
+  2. The two rankings are fused with reciprocal-rank-fusion (RRF) into
+     a single candidate pool — semantic + keyword-density both vote.
+     This pulls entity-dense chunks (e.g. bullet lists of partner
+     companies) that dense alone misses when the surrounding text
+     doesn't lexically resemble the query.
+  3. If rerank=True, bge-reranker-v2-m3 cross-encodes the (query, doc)
+     pair and re-orders. Reranker only sees what fusion surfaced —
+     hence the fusion step matters.
+  4. Diversification trims to k, capping chunks per document and per
+     source site so one page can't monopolise context.
 
 Usage from code:
     from chatbot.retrieve import Retriever
@@ -29,11 +34,13 @@ is cheap.
 from __future__ import annotations
 
 import argparse
+import re
 from pathlib import Path
 from typing import Any
 
 import chromadb
 import torch
+from rank_bm25 import BM25Okapi
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
 
@@ -72,6 +79,59 @@ MAX_PER_SITE = 2  # at most this many chunks from the same site
 # driver of compute time. 512 keeps full chat messages and the most
 # salient slice of long PDF chunks.
 RERANK_MAX_TOKENS = 512
+# Reciprocal-rank-fusion constant. 60 is the classic value from Cormack
+# et al.; tweaking it changes how aggressively top ranks are weighted
+# vs. tail. Stick to 60 unless evals say otherwise.
+RRF_K = 60
+# How many candidates each individual ranker (dense, BM25) contributes
+# to the fusion. Slightly bigger than CANDIDATE_POOL so a doc that's
+# only ranked by one of the two still has a chance to surface.
+PER_RANKER_POOL = 60
+
+
+_WORD_RE = re.compile(r"\w+", re.UNICODE)
+
+
+def _tokenize(text: str) -> list[str]:
+    """Cheap word-level tokenizer that's friendly to en/fr/ar. We rely
+    on \\w+ which Unicode-aware: it keeps Arabic letters, French
+    diacritics, digits — everything we need for keyword matching.
+    Punctuation, whitespace, and emojis are dropped."""
+    return _WORD_RE.findall((text or "").lower())
+
+
+def _match_where(meta: dict[str, Any] | None, where: dict[str, Any]) -> bool:
+    """Tiny subset of Chroma's `where` operators — enough to mirror the
+    filters this module emits ($eq on simple fields, $and over clauses).
+    Used to post-filter BM25 hits so they obey the same filter the
+    chroma query already applied to dense hits."""
+    if meta is None:
+        return False
+    # {$and: [clause, clause, ...]}
+    if "$and" in where:
+        return all(_match_where(meta, c) for c in where["$and"])
+    # {<field>: {$eq: value}} or {<field>: value}
+    for field, cond in where.items():
+        if field.startswith("$"):
+            continue
+        if isinstance(cond, dict) and "$eq" in cond:
+            if meta.get(field) != cond["$eq"]:
+                return False
+        elif meta.get(field) != cond:
+            return False
+    return True
+
+
+def _rrf_merge(rankings: list[list[str]], k: int = RRF_K) -> dict[str, float]:
+    """Reciprocal-rank-fusion. Each ranker contributes 1/(k+rank) per
+    doc it ranks; we sum across rankers. Robust to scale differences
+    between rankers (cosine ~0–1 vs BM25 unbounded) — only ranks
+    matter."""
+    scores: dict[str, float] = {}
+    for ranked in rankings:
+        for rank, doc_id in enumerate(ranked):
+            scores[doc_id] = scores.get(doc_id, 0.0) + 1.0 / (k + rank + 1)
+    return scores
 
 
 def _diversify(
@@ -133,6 +193,15 @@ class Retriever:
         self._rerank_device = rerank_device or _best_device()
         self._model: SentenceTransformer | None = None
         self._reranker: CrossEncoder | None = None
+        # BM25 index — lazily populated by _bm25_lazy(). We hold the
+        # full corpus in memory (~1.6M chars at current scale) so
+        # candidates surfaced ONLY by BM25 (not by dense) can still be
+        # turned into result dicts without a second chroma round-trip.
+        self._bm25: BM25Okapi | None = None
+        self._bm25_ids: list[str] = []
+        self._bm25_docs: list[str] = []
+        self._bm25_metas: list[dict[str, Any]] = []
+        self._bm25_idx_by_id: dict[str, int] = {}
 
     def _model_lazy(self) -> SentenceTransformer:
         if self._model is None:
@@ -147,6 +216,19 @@ class Retriever:
                 max_length=RERANK_MAX_TOKENS,
             )
         return self._reranker
+
+    def _bm25_lazy(self) -> BM25Okapi:
+        """Build the BM25 index over the entire chroma collection on
+        first use. ~1s for our corpus; held for the process lifetime."""
+        if self._bm25 is None:
+            data = self._collection.get(include=["documents", "metadatas"])
+            self._bm25_ids = data["ids"]
+            self._bm25_docs = data["documents"]
+            self._bm25_metas = data["metadatas"]
+            self._bm25_idx_by_id = {id_: i for i, id_ in enumerate(self._bm25_ids)}
+            tokenized = [_tokenize(d) for d in self._bm25_docs]
+            self._bm25 = BM25Okapi(tokenized)
+        return self._bm25
 
     def search(
         self,
@@ -188,33 +270,74 @@ class Retriever:
         elif len(clauses) > 1:
             where = {"$and": clauses}
 
-        # Stage 1: dense retrieval. Always pull the full candidate pool
-        # so the diversification pass has room to drop near-duplicates.
-        n_dense = max(candidate_pool, k)
+        # Stage 1a: dense retrieval. Pull a wide pool so RRF fusion has
+        # range to work with.
+        n_per_ranker = max(PER_RANKER_POOL, candidate_pool, k)
         embedding = self._model_lazy().encode(
             [query],
             normalize_embeddings=True,
             show_progress_bar=False,
         )[0].tolist()
-        result = self._collection.query(
+        dense_result = self._collection.query(
             query_embeddings=[embedding],
-            n_results=n_dense,
+            n_results=n_per_ranker,
             where=where,
             include=["documents", "metadatas", "distances"],
         )
+        dense_ids = list(dense_result["ids"][0])
+        dense_lookup: dict[str, dict[str, Any]] = {}
+        for i, doc_id in enumerate(dense_ids):
+            dense_lookup[doc_id] = {
+                "id": doc_id,
+                "text": dense_result["documents"][0][i],
+                "metadata": dense_result["metadatas"][0][i],
+                "dense_score": 1.0 - dense_result["distances"][0][i],
+            }
 
-        candidates = []
-        for i in range(len(result["ids"][0])):
-            distance = result["distances"][0][i]
-            candidates.append({
-                "id": result["ids"][0][i],
-                "score": 1.0 - distance,           # placeholder, may be overwritten
-                "dense_score": 1.0 - distance,
-                "text": result["documents"][0][i],
-                "metadata": result["metadatas"][0][i],
-            })
+        # Stage 1b: BM25 lexical retrieval over the full corpus.
+        bm25 = self._bm25_lazy()
+        tokens = _tokenize(query)
+        bm25_ids: list[str] = []
+        if tokens:
+            scores = bm25.get_scores(tokens)
+            # Argsort descending; keep only positive-scoring docs (zero
+            # = no token overlap, not informative).
+            order = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
+            for i in order[:n_per_ranker]:
+                if scores[i] <= 0:
+                    break
+                doc_id = self._bm25_ids[i]
+                # Apply chroma-style `where` filter post-hoc to BM25
+                # results so the two paths agree on filtering.
+                if where is not None and not _match_where(self._bm25_metas[i], where):
+                    continue
+                bm25_ids.append(doc_id)
 
-        # Stage 2 (optional): cross-encoder rerank.
+        # Stage 1c: fuse the two rankings with RRF.
+        fused = _rrf_merge([dense_ids, bm25_ids])
+        # Materialise into candidate dicts. Prefer dense_lookup for
+        # text+metadata; fall back to the BM25 corpus for docs only
+        # surfaced by BM25.
+        candidates: list[dict[str, Any]] = []
+        for doc_id, fused_score in sorted(fused.items(), key=lambda kv: kv[1], reverse=True):
+            if doc_id in dense_lookup:
+                c = dict(dense_lookup[doc_id])
+            else:
+                idx = self._bm25_idx_by_id.get(doc_id)
+                if idx is None:
+                    continue
+                c = {
+                    "id": doc_id,
+                    "text": self._bm25_docs[idx],
+                    "metadata": self._bm25_metas[idx],
+                    "dense_score": 0.0,
+                }
+            c["score"] = fused_score
+            candidates.append(c)
+            if len(candidates) >= candidate_pool:
+                break
+
+        # Stage 2 (optional): cross-encoder rerank on the fused pool.
         if rerank and len(candidates) > 1:
             pairs = [(query, c["text"]) for c in candidates]
             rerank_scores = self._reranker_lazy().predict(pairs, show_progress_bar=False)

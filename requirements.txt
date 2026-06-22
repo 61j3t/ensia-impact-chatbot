@@ -28,6 +28,11 @@ pillow==12.2.0
 # sentence-transformers pulls in torch, transformers, tokenizers, huggingface-hub.
 sentence-transformers==5.4.1
 chromadb==1.5.8
+# Lexical/BM25 layer for hybrid retrieval. Tiny pure-Python lib (~1 file).
+# Combined with the dense BGE-M3 score via reciprocal-rank-fusion to surface
+# entity-dense chunks (e.g. bulleted lists of partner companies) that dense
+# alone misses.
+rank-bm25==0.2.2
 
 # ── Optional: faster HF Hub downloads (chunked, parallel) ───────────────
 # Enable with HF_HUB_ENABLE_HF_TRANSFER=1.
