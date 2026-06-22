@@ -58,15 +58,62 @@ DB_PATH = ROOT / "chatbot/chroma_db"
 COLLECTION_NAME = "ensia"
 MODEL_NAME = "BAAI/bge-m3"
 RERANKER_NAME = "BAAI/bge-reranker-v2-m3"
-# Candidate pool fed to the reranker. Smaller = faster, marginally lower
-# recall. With our corpus, 10 is enough — the missed-source @20 cases all
-# also missed @10 in the k-sweep.
-CANDIDATE_POOL = 10
+# Candidate pool fed to the reranker AND to the diversification pass.
+# Bigger pool gives diversification room to drop near-duplicates from
+# the same page/site and still fill k. Reranking 30 cross-encoder
+# pairs adds ~50ms on CPU — negligible for the recall it buys.
+CANDIDATE_POOL = 30
+# Diversification caps applied after rerank (or after dense if no
+# rerank). Keeps a single page from monopolising the context.
+MAX_PER_DOC = 1   # one chunk per (url | pdf_file | message_id)
+MAX_PER_SITE = 2  # at most this many chunks from the same site
 # Cap input length the reranker tokenizes per (query, doc) pair. Default
 # for bge-reranker-v2-m3 is 8192 — overkill for our chunks and the main
 # driver of compute time. 512 keeps full chat messages and the most
 # salient slice of long PDF chunks.
 RERANK_MAX_TOKENS = 512
+
+
+def _diversify(
+    candidates: list[dict[str, Any]],
+    k: int,
+    max_per_doc: int = MAX_PER_DOC,
+    max_per_site: int = MAX_PER_SITE,
+) -> list[dict[str, Any]]:
+    """Walk candidates in current score order and keep up to k while
+    enforcing two caps:
+      • max_per_doc per (url | pdf_file | message_id) — same document
+        contributes at most this many chunks (default 1).
+      • max_per_site per site — at most this many chunks share a site
+        key (default 2). Chat messages don't have a site, so they're
+        only bounded by the per-doc cap.
+    Caller passes a sorted list; this preserves order and just skips
+    candidates that exceed a cap."""
+    out: list[dict[str, Any]] = []
+    doc_count: dict[str, int] = {}
+    site_count: dict[str, int] = {}
+    for c in candidates:
+        md = c.get("metadata") or {}
+        # Pick the first non-empty document identifier. Empty means
+        # we can't dedup → let it through (rare edge case).
+        doc_key = (
+            (md.get("url") or "").strip()
+            or (md.get("pdf_file") or "").strip()
+            or str(md.get("message_id") or "").strip()
+        )
+        site_key = (md.get("site") or "").strip()
+        if doc_key and doc_count.get(doc_key, 0) >= max_per_doc:
+            continue
+        if site_key and site_count.get(site_key, 0) >= max_per_site:
+            continue
+        if doc_key:
+            doc_count[doc_key] = doc_count.get(doc_key, 0) + 1
+        if site_key:
+            site_count[site_key] = site_count.get(site_key, 0) + 1
+        out.append(c)
+        if len(out) >= k:
+            break
+    return out
 
 
 class Retriever:
@@ -141,8 +188,9 @@ class Retriever:
         elif len(clauses) > 1:
             where = {"$and": clauses}
 
-        # Stage 1: dense retrieval. Pull more than k if reranking is on.
-        n_dense = max(candidate_pool, k) if rerank else k
+        # Stage 1: dense retrieval. Always pull the full candidate pool
+        # so the diversification pass has room to drop near-duplicates.
+        n_dense = max(candidate_pool, k)
         embedding = self._model_lazy().encode(
             [query],
             normalize_embeddings=True,
@@ -166,16 +214,19 @@ class Retriever:
                 "metadata": result["metadatas"][0][i],
             })
 
-        if not rerank or len(candidates) <= 1:
-            return candidates[:k]
+        # Stage 2 (optional): cross-encoder rerank.
+        if rerank and len(candidates) > 1:
+            pairs = [(query, c["text"]) for c in candidates]
+            rerank_scores = self._reranker_lazy().predict(pairs, show_progress_bar=False)
+            for c, s in zip(candidates, rerank_scores):
+                c["score"] = float(s)
+            candidates.sort(key=lambda c: c["score"], reverse=True)
 
-        # Stage 2: cross-encoder rerank.
-        pairs = [(query, c["text"]) for c in candidates]
-        rerank_scores = self._reranker_lazy().predict(pairs, show_progress_bar=False)
-        for c, s in zip(candidates, rerank_scores):
-            c["score"] = float(s)
-        candidates.sort(key=lambda c: c["score"], reverse=True)
-        return candidates[:k]
+        # Stage 3 (always): diversify-then-truncate. Walks the ranked
+        # list in order and skips candidates that exceed the per-doc /
+        # per-site caps. Ensures no single page or website monopolises
+        # the final k results.
+        return _diversify(candidates, k)
 
 
 def _format_hit(hit: dict, max_chars: int = 200) -> str:
