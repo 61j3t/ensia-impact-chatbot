@@ -1,13 +1,12 @@
-name: HF Space keepalive + nightly sync
+name: HF Space keepalive + adaptive sync
 
 on:
   schedule:
-    # Keepalive every 25 min so HF doesn't sleep the Space.
-    # Free CPU Spaces sleep after ~48h of HTTP inactivity, but we
-    # over-ping to stay safely awake and keep cold-start latency at zero.
+    # Every 25 min: ping (keeps Space awake) + maybe-sync (if last
+    # sync commit is >23h old). GH Actions cron is unreliable for
+    # exact times — we ride the high-frequency keepalive instead of
+    # a fragile "at 03:00 UTC" tick.
     - cron: "*/25 * * * *"
-    # Nightly sync at 03:00 UTC.
-    - cron: "0 3 * * *"
   workflow_dispatch:  # also runnable on demand from the Actions tab
 
 concurrency:
@@ -15,43 +14,60 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  ping:
-    # Lightweight ping job that fires on every cron tick.
+  keepalive:
     runs-on: ubuntu-latest
+    env:
+      SPACE_URL: https://61j3t-ensia-impact-bot.hf.space
+      SPACE_API: https://huggingface.co/api/spaces/61j3t/ensia-impact-bot
+      SYNC_MIN_AGE_HOURS: 23  # fire sync if last sync was ≥ this long ago
     steps:
       - name: Wake / keep Space warm
         run: |
           set -euo pipefail
-          # GET / on the sidecar — no auth, just enough to bump the
-          # idle timer. --max-time 90 covers a cold start if we
-          # happen to catch it asleep.
-          code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 90 \
-                 https://61j3t-ensia-impact-bot.hf.space/)
+          # GET / on the sidecar — no auth, bumps the idle timer.
+          # --max-time 90 covers cold-start if we caught it asleep.
+          code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 90 "$SPACE_URL/")
           echo "ping http=$code"
-          # 200 = up, anything else we treat as a soft failure (we'll
-          # retry on the next tick rather than failing the workflow).
           test "$code" = "200" || echo "::warning::keepalive returned $code"
 
-  sync:
-    # Only on the 03:00 schedule. Manual dispatch + the 25-min
-    # keepalive ticks just ping and exit.
-    if: github.event.schedule == '0 3 * * *'
-    needs: ping
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger /sync
+      - name: Trigger /sync if last sync is stale
         env:
           SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
           set -euo pipefail
-          if [ -z "${SYNC_TOKEN}" ]; then
-            # Don't fail the workflow — keepalive is the load-bearing
-            # part. Surface a warning so it's visible in the run log.
-            echo "::warning::SYNC_TOKEN secret is not set; skipping nightly /sync"
+          # Find the most recent commit on the HF Space whose title
+          # starts with "sync:" — the wrapper writes commits in that
+          # shape after a successful pipeline run.
+          last_sync_iso=$(curl -s --max-time 20 "$SPACE_API/commits/main?limit=30" \
+            | python3 -c "
+          import json, sys
+          for c in json.load(sys.stdin):
+              if (c.get('title') or '').startswith('sync:'):
+                  print(c['date']); break
+          ")
+          if [ -z "$last_sync_iso" ]; then
+            echo "no prior sync commit found — treating as stale"
+            age_hours=99999
+          else
+            age_hours=$(python3 -c "
+          import datetime
+          last = datetime.datetime.fromisoformat('$last_sync_iso'.replace('Z','+00:00'))
+          now  = datetime.datetime.now(datetime.timezone.utc)
+          print(int((now - last).total_seconds() // 3600))
+          ")
+            echo "last sync at $last_sync_iso ($age_hours h ago)"
+          fi
+
+          if [ "$age_hours" -lt "$SYNC_MIN_AGE_HOURS" ]; then
+            echo "sync not yet due (need ≥ $SYNC_MIN_AGE_HOURS h)"
             exit 0
           fi
-          resp=$(curl -sS -X POST \
-                  -H "X-Sync-Token: ${SYNC_TOKEN}" \
-                  --max-time 30 \
-                  https://61j3t-ensia-impact-bot.hf.space/sync)
-          echo "sync response: ${resp}"
+          if [ -z "$SYNC_TOKEN" ]; then
+            echo "::warning::sync is stale but SYNC_TOKEN secret is not set; skipping"
+            exit 0
+          fi
+
+          echo "triggering /sync…"
+          resp=$(curl -sS -X POST -H "X-Sync-Token: $SYNC_TOKEN" \
+                 --max-time 30 "$SPACE_URL/sync")
+          echo "sync response: $resp"
