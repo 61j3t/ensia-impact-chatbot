@@ -557,6 +557,51 @@ def _build_context(hits: list[dict], max_chars_per_chunk: int = 1500) -> str:
     return "\n\n---\n\n".join(parts)
 
 
+def _quick_complete(
+    messages: list[dict],
+    primary: str,
+    *,
+    timeout: float,
+    max_tokens: int,
+    temperature: float = 0.0,
+) -> str | None:
+    """Small auxiliary LLM call (query rewrite, translation) that survives
+    a rate-limited primary. Tries primary then fallbacks, once each,
+    skipping models currently on cooldown when a fresh one exists.
+    Fail-fast — no per-model retries (these calls are cheap and
+    latency-sensitive). Returns the stripped text, or None if every model
+    fails. Without this, a 429 on the primary (frequent on Gemini's free
+    tier) silently disables the rewrite/translation entirely."""
+    chain = [primary] + [m for m in FALLBACK_MODELS if m != primary]
+    fresh_exists = any(not _is_cooled_down(m) for m in chain)
+    for m in chain:
+        if fresh_exists and _is_cooled_down(m):
+            continue
+        try:
+            r = litellm.completion(
+                model=m, messages=messages,
+                temperature=temperature, timeout=timeout, max_tokens=max_tokens,
+            )
+            out = (r.choices[0].message.content or "").strip()
+            if out:
+                return out
+        except litellm.exceptions.RateLimitError:
+            _set_cooldown(m)
+        except _TRANSIENT_LLM_ERRORS:
+            continue
+        except Exception:
+            continue
+    return None
+
+
+def _strip_wrapping_quotes(text: str) -> str:
+    if (text.startswith('"') and text.endswith('"')) or (
+        text.startswith("'") and text.endswith("'")
+    ):
+        return text[1:-1].strip()
+    return text
+
+
 def _rewrite_for_retrieval(
     query: str,
     history: list[dict],
@@ -577,26 +622,16 @@ def _rewrite_for_retrieval(
         f"Conversation:\n{history_text}\n\n"
         f"New message: {query}\n\nStandalone query:"
     )
-    try:
-        response = litellm.completion(
-            model=model,
-            messages=[
-                {"role": "system", "content": REWRITER_SYSTEM_PROMPT},
-                {"role": "user", "content": user_msg},
-            ],
-            temperature=0.0,
-            timeout=REWRITER_TIMEOUT_S,
-            max_tokens=REWRITER_MAX_TOKENS,
-        )
-        rewritten = (response.choices[0].message.content or "").strip()
-        # Strip surrounding quotes if the model added them anyway.
-        if (rewritten.startswith('"') and rewritten.endswith('"')) or (
-            rewritten.startswith("'") and rewritten.endswith("'")
-        ):
-            rewritten = rewritten[1:-1].strip()
-        return rewritten or query
-    except Exception:
+    rewritten = _quick_complete(
+        [
+            {"role": "system", "content": REWRITER_SYSTEM_PROMPT},
+            {"role": "user", "content": user_msg},
+        ],
+        model, timeout=REWRITER_TIMEOUT_S, max_tokens=REWRITER_MAX_TOKENS,
+    )
+    if not rewritten:
         return query
+    return _strip_wrapping_quotes(rewritten) or query
 
 
 # Arabic block + common French diacritics/markers. Cheap signal for "this
@@ -631,28 +666,19 @@ def _translate_to_english(query: str, model: str) -> str | None:
 
     Returns None if translation fails, is empty, or comes back unchanged —
     the caller then just retrieves with the original query."""
-    try:
-        response = litellm.completion(
-            model=model,
-            messages=[
-                {"role": "system", "content": TRANSLATOR_SYSTEM_PROMPT},
-                {"role": "user", "content": query},
-            ],
-            temperature=0.0,
-            timeout=TRANSLATOR_TIMEOUT_S,
-            max_tokens=TRANSLATOR_MAX_TOKENS,
-        )
-        out = (response.choices[0].message.content or "").strip()
-        if (out.startswith('"') and out.endswith('"')) or (
-            out.startswith("'") and out.endswith("'")
-        ):
-            out = out[1:-1].strip()
-        if not out or out.strip().lower() == query.strip().lower():
-            return None
-        return out
-    except Exception:
-        logger.debug("query translation failed; retrieving original only", exc_info=True)
+    out = _quick_complete(
+        [
+            {"role": "system", "content": TRANSLATOR_SYSTEM_PROMPT},
+            {"role": "user", "content": query},
+        ],
+        model, timeout=TRANSLATOR_TIMEOUT_S, max_tokens=TRANSLATOR_MAX_TOKENS,
+    )
+    if not out:
         return None
+    out = _strip_wrapping_quotes(out)
+    if not out or out.strip().lower() == query.strip().lower():
+        return None
+    return out
 
 
 def _format_sources(hits: list[dict], max_preview_chars: int = 160) -> list[dict]:
