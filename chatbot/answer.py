@@ -724,14 +724,23 @@ def answer(
     else:
         retrieval_query = query
 
-    # Multilingual expansion: if the query isn't English, also retrieve
-    # against its English translation. Our corpus is majority-English, and
-    # BGE-M3 ranks same-language chunks well above cross-language ones, so
-    # an Arabic/French query alone systematically under-retrieves the
-    # English content. The translation gets fused in via RRF.
+    # Assemble the retrieval query set, fused via RRF in search(). The
+    # rewrite helps follow-ups, but it can over-narrow or even translate
+    # a self-contained question (injecting unrelated context), so we
+    # never let it REPLACE the user's words:
+    #   - retrieval_query (rewritten standalone) — the primary
+    #   - the original query, whenever the rewrite changed it — so the
+    #     user's actual intent always gets a vote
+    #   - an English translation of the ORIGINAL when it's non-English.
+    #     Detection is on the ORIGINAL (not the rewrite, which may have
+    #     already anglicised it): our corpus is majority-English and
+    #     BGE-M3 ranks same-language chunks above cross-language ones, so
+    #     a non-English query otherwise under-retrieves the English half.
     extra_queries: list[str] = []
-    if _looks_non_english(retrieval_query):
-        translated = _translate_to_english(retrieval_query, model)
+    if query.strip() and query.strip() != retrieval_query.strip():
+        extra_queries.append(query)
+    if _looks_non_english(query):
+        translated = _translate_to_english(query, model)
         if translated:
             extra_queries.append(translated)
     rewrite_s = time.monotonic() - t_rw
