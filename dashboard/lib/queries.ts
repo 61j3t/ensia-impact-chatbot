@@ -57,6 +57,11 @@ export interface Conversation {
   /** LiteLLM model string that actually answered the turn. NULL on
    * user turns and on rows inserted before this column existed. */
   model_used: string | null;
+  /** True when the bot declined this exchange (off-topic / out-of-scope
+   * / small talk). Both the user turn and assistant turn are flagged.
+   * Persisted so the transcript matches query_count, but excluded from
+   * the LLM's conversation memory. */
+  refused: boolean;
   feedback?: FeedbackCounts;
 }
 
@@ -143,7 +148,7 @@ export async function getConversationsForUser(
   const rows = (await sql`
     SELECT
       c.chat_id, c.user_id, c.turn_idx, c.role, c.content, c.ts,
-      c.sources, c.tg_message_id, c.model_used,
+      c.sources, c.tg_message_id, c.model_used, c.refused,
       COALESCE(
         jsonb_build_object(
           'useful',     COUNT(f.id) FILTER (WHERE f.rating = 'useful'),
@@ -161,7 +166,7 @@ export async function getConversationsForUser(
     LEFT JOIN feedback f
       ON f.chat_id = c.chat_id AND f.message_id = c.tg_message_id
     GROUP BY c.id, c.chat_id, c.user_id, c.turn_idx, c.role, c.content,
-             c.ts, c.sources, c.tg_message_id, c.model_used
+             c.ts, c.sources, c.tg_message_id, c.model_used, c.refused
     ORDER BY c.chat_id ASC, c.turn_idx ASC
   `) as unknown as Conversation[];
   return rows;

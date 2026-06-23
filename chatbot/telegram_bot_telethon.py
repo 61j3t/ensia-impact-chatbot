@@ -541,24 +541,31 @@ async def _handle_query(
 
     await _clear_reaction(client, event, reaction_set)
 
-    # Persist on success only.
-    if _memory is not None and not result.get("refused"):
+    # Persist every exchange — including refusals — so the dashboard
+    # transcript always matches query_count. Refused turns are flagged
+    # so recent_turns() keeps them out of the LLM's follow-up context
+    # and stats/badges ignore them.
+    refused = bool(result.get("refused"))
+    if _memory is not None:
         try:
             _memory.add_turns(chat_id, user_id, [
-                {"role": "user", "content": query, "rerank": rerank},
+                {"role": "user", "content": query, "rerank": rerank, "refused": refused},
                 {
                     "role": "assistant",
                     "content": result["answer"],
                     "sources": result.get("sources") or None,
                     "tg_message_id": sent_msg.id if sent_msg else None,
                     "model_used": result.get("model_used"),
+                    "refused": refused,
                 },
             ])
         except Exception:
             logger.exception("memory.add_turns failed")
 
-        # Gamification: streak bump + check for newly earned badges.
-        # All best-effort — never block the user on this.
+    # Gamification: streak bump + check for newly earned badges. Only on
+    # a real (non-refused) answer — never reward declined/off-topic
+    # messages. All best-effort — never block the user on this.
+    if _memory is not None and not refused:
         try:
             await asyncio.to_thread(_memory.update_streak, user_id)
             stats = await asyncio.to_thread(_memory.get_user_stats, user_id)

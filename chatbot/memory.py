@@ -89,6 +89,13 @@ ALTER TABLE conversations ADD COLUMN IF NOT EXISTS model_used TEXT;
 -- "Deep Diver" gamification badge without scanning text.
 ALTER TABLE conversations ADD COLUMN IF NOT EXISTS rerank BOOLEAN NOT NULL DEFAULT FALSE;
 
+-- Whether this exchange was refused (off-topic / out-of-scope / small
+-- talk the bot declined to ground). Marked on BOTH the user turn and
+-- the assistant turn. The dashboard surfaces these (so query_count
+-- always has a matching transcript) but recent_turns() skips them so
+-- a refused exchange never pollutes the LLM's follow-up context.
+ALTER TABLE conversations ADD COLUMN IF NOT EXISTS refused BOOLEAN NOT NULL DEFAULT FALSE;
+
 -- ── Gamification ──────────────────────────────────────────────────
 -- Personal stats: streak counters + earned-badge keys. Computed lazily
 -- on /me and refreshed on every successful answer. Don't reset on the
@@ -218,13 +225,14 @@ class ConversationMemory:
                         t.get("tg_message_id"),
                         t.get("model_used"),
                         bool(t.get("rerank")),
+                        bool(t.get("refused")),
                     )
                     for i, t in enumerate(turns)
                 ]
                 cur.executemany(
                     "INSERT INTO conversations "
-                    "(chat_id, user_id, turn_idx, role, content, sources, tg_message_id, model_used, rerank) "
-                    "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
+                    "(chat_id, user_id, turn_idx, role, content, sources, tg_message_id, model_used, rerank, refused) "
+                    "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
                     rows,
                 )
 
@@ -246,6 +254,7 @@ class ConversationMemory:
                     FROM conversations
                     WHERE chat_id=%s AND user_id=%s AND ts >= %s
                       AND cleared_at IS NULL
+                      AND refused IS NOT TRUE
                     ORDER BY turn_idx DESC
                     LIMIT %s
                     """,
@@ -373,16 +382,20 @@ class ConversationMemory:
                 if u is None:
                     return {}
 
-                # Counts from conversations.
+                # Counts from conversations. Refused turns are persisted
+                # (so the dashboard transcript matches query_count) but
+                # never count toward stats or badges — the user's
+                # guardrail: don't reward off-topic / declined messages.
                 cur.execute(
                     """SELECT
-                        COUNT(*) FILTER (WHERE role='user' AND cleared_at IS NULL OR role='user') AS total_q,
-                        COUNT(*) FILTER (WHERE role='user' AND ts >= NOW() - INTERVAL '7 days') AS week_q,
-                        COUNT(*) FILTER (WHERE role='user' AND rerank=TRUE) AS deep_q,
-                        COUNT(*) FILTER (WHERE role='user' AND EXTRACT(hour FROM ts) BETWEEN 0 AND 4) AS night_q,
-                        COUNT(*) FILTER (WHERE role='user' AND EXTRACT(hour FROM ts) BETWEEN 5 AND 7) AS morn_q,
+                        COUNT(*) FILTER (WHERE role='user' AND refused IS NOT TRUE) AS total_q,
+                        COUNT(*) FILTER (WHERE role='user' AND refused IS NOT TRUE AND ts >= NOW() - INTERVAL '7 days') AS week_q,
+                        COUNT(*) FILTER (WHERE role='user' AND refused IS NOT TRUE AND rerank=TRUE) AS deep_q,
+                        COUNT(*) FILTER (WHERE role='user' AND refused IS NOT TRUE AND EXTRACT(hour FROM ts) BETWEEN 0 AND 4) AS night_q,
+                        COUNT(*) FILTER (WHERE role='user' AND refused IS NOT TRUE AND EXTRACT(hour FROM ts) BETWEEN 5 AND 7) AS morn_q,
                         COUNT(*) FILTER (
                             WHERE role='assistant'
+                            AND refused IS NOT TRUE
                             AND sources::text LIKE %s
                         ) AS pdf_cited
                     FROM conversations WHERE user_id=%s""",
@@ -390,10 +403,10 @@ class ConversationMemory:
                 )
                 counts = cur.fetchone()
 
-                # Languages detected from queries.
+                # Languages detected from queries (real ones only).
                 cur.execute(
                     "SELECT content FROM conversations "
-                    "WHERE user_id=%s AND role='user'",
+                    "WHERE user_id=%s AND role='user' AND refused IS NOT TRUE",
                     (user_id,),
                 )
                 queries = [r["content"] for r in cur.fetchall()]

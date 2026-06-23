@@ -217,21 +217,33 @@ export default async function HomePage({
                         <div
                           className={
                             "rounded-2xl px-4 py-3 border-2 " +
-                            (t.role === "user"
+                            (t.refused
+                              ? "border-dashed border-ink-900/20 bg-cream-100/60 opacity-75"
+                              : t.role === "user"
                               ? "border-ocean-500/40 bg-ocean-50"
                               : "border-ink-900/15 bg-cream-50")
                           }
                         >
                           <div className="flex justify-between items-baseline mb-1.5">
-                            <span
-                              className={
-                                "text-[11px] font-semibold uppercase tracking-kicker " +
-                                (t.role === "user"
-                                  ? "text-ocean-600"
-                                  : "text-ink-900/55")
-                              }
-                            >
-                              {t.role}
+                            <span className="flex items-center gap-2">
+                              <span
+                                className={
+                                  "text-[11px] font-semibold uppercase tracking-kicker " +
+                                  (t.role === "user"
+                                    ? "text-ocean-600"
+                                    : "text-ink-900/55")
+                                }
+                              >
+                                {t.role}
+                              </span>
+                              {t.refused && (
+                                <span
+                                  className="chip bg-cream-100 text-ink-900/55 ring-ink-900/10 uppercase"
+                                  title="The bot declined this message (off-topic / out-of-scope). Stored for the record, but not used as conversation memory."
+                                >
+                                  declined
+                                </span>
+                              )}
                             </span>
                             <span className="text-xs text-ink-900/40 font-mono">
                               {dateTime(t.ts)}
