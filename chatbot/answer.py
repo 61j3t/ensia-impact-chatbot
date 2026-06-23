@@ -599,6 +599,62 @@ def _rewrite_for_retrieval(
         return query
 
 
+# Arabic block + common French diacritics/markers. Cheap signal for "this
+# query isn't English" — we don't need precise language ID, just whether
+# to spend a translation call. A query with any Arabic codepoint, or
+# French-specific characters, is treated as non-English.
+_ARABIC_RE = re.compile(r"[؀-ۿ]")
+_FRENCH_RE = re.compile(r"[àâäéèêëîïôöùûüçœ]", re.IGNORECASE)
+
+TRANSLATOR_SYSTEM_PROMPT = """\
+You translate a user's search query into English for a retrieval system.
+
+Output ONLY the English translation of the query — no quotes, no labels, no \
+explanation. Keep proper nouns (ENSIA, V2V, Sonatrach, décret 1275, etc.) \
+as-is. If the query is already English, output it unchanged.\
+"""
+TRANSLATOR_TIMEOUT_S = 8
+TRANSLATOR_MAX_TOKENS = 120
+
+
+def _looks_non_english(text: str) -> bool:
+    """True if the text contains Arabic codepoints or French-specific
+    characters — i.e. it's worth a translation pass to also retrieve
+    against the (majority-English) corpus."""
+    return bool(_ARABIC_RE.search(text) or _FRENCH_RE.search(text))
+
+
+def _translate_to_english(query: str, model: str) -> str | None:
+    """Best-effort English translation of a non-English query, used as a
+    second retrieval ranking so the English half of the corpus gets a
+    fair vote (BGE-M3 otherwise ranks same-language chunks far higher).
+
+    Returns None if translation fails, is empty, or comes back unchanged —
+    the caller then just retrieves with the original query."""
+    try:
+        response = litellm.completion(
+            model=model,
+            messages=[
+                {"role": "system", "content": TRANSLATOR_SYSTEM_PROMPT},
+                {"role": "user", "content": query},
+            ],
+            temperature=0.0,
+            timeout=TRANSLATOR_TIMEOUT_S,
+            max_tokens=TRANSLATOR_MAX_TOKENS,
+        )
+        out = (response.choices[0].message.content or "").strip()
+        if (out.startswith('"') and out.endswith('"')) or (
+            out.startswith("'") and out.endswith("'")
+        ):
+            out = out[1:-1].strip()
+        if not out or out.strip().lower() == query.strip().lower():
+            return None
+        return out
+    except Exception:
+        logger.debug("query translation failed; retrieving original only", exc_info=True)
+        return None
+
+
 def _format_sources(hits: list[dict], max_preview_chars: int = 160) -> list[dict]:
     out = []
     for h in hits:
@@ -667,11 +723,25 @@ def answer(
         retrieval_query = _rewrite_for_retrieval(query, history, model)
     else:
         retrieval_query = query
+
+    # Multilingual expansion: if the query isn't English, also retrieve
+    # against its English translation. Our corpus is majority-English, and
+    # BGE-M3 ranks same-language chunks well above cross-language ones, so
+    # an Arabic/French query alone systematically under-retrieves the
+    # English content. The translation gets fused in via RRF.
+    extra_queries: list[str] = []
+    if _looks_non_english(retrieval_query):
+        translated = _translate_to_english(retrieval_query, model)
+        if translated:
+            extra_queries.append(translated)
     rewrite_s = time.monotonic() - t_rw
 
     # ── Retrieve always; pass whatever we get to the LLM ─────────────────
     t0 = time.monotonic()
-    hits = retriever.search(retrieval_query, k=k, rerank=rerank)
+    hits = retriever.search(
+        retrieval_query, k=k, rerank=rerank,
+        extra_queries=extra_queries or None,
+    )
     retrieval_s = time.monotonic() - t0
     top_score = hits[0]["score"] if hits else 0.0
     sources = _format_sources(hits)

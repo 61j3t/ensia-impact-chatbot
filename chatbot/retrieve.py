@@ -230,6 +230,51 @@ class Retriever:
             self._bm25 = BM25Okapi(tokenized)
         return self._bm25
 
+    def _rank_one_query(
+        self, query: str, where: dict | None, n: int
+    ) -> tuple[list[str], list[str], dict[str, dict[str, Any]]]:
+        """Dense + BM25 rankings for one query string. Returns
+        (dense_ids, bm25_ids, lookup), where lookup maps doc_id → a
+        candidate dict (text + metadata + dense_score) for every id the
+        dense search returned. BM25-only ids are materialised by the
+        caller from the in-memory corpus."""
+        embedding = self._model_lazy().encode(
+            [query], normalize_embeddings=True, show_progress_bar=False,
+        )[0].tolist()
+        dense_result = self._collection.query(
+            query_embeddings=[embedding],
+            n_results=n,
+            where=where,
+            include=["documents", "metadatas", "distances"],
+        )
+        dense_ids = list(dense_result["ids"][0])
+        lookup: dict[str, dict[str, Any]] = {}
+        for i, doc_id in enumerate(dense_ids):
+            lookup[doc_id] = {
+                "id": doc_id,
+                "text": dense_result["documents"][0][i],
+                "metadata": dense_result["metadatas"][0][i],
+                "dense_score": 1.0 - dense_result["distances"][0][i],
+            }
+
+        bm25 = self._bm25_lazy()
+        tokens = _tokenize(query)
+        bm25_ids: list[str] = []
+        if tokens:
+            scores = bm25.get_scores(tokens)
+            # Argsort descending; keep only positive-scoring docs (zero
+            # = no token overlap, not informative).
+            order = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
+            for i in order[:n]:
+                if scores[i] <= 0:
+                    break
+                # Apply chroma-style `where` filter post-hoc so BM25 and
+                # dense agree on filtering.
+                if where is not None and not _match_where(self._bm25_metas[i], where):
+                    continue
+                bm25_ids.append(self._bm25_ids[i])
+        return dense_ids, bm25_ids, lookup
+
     def search(
         self,
         query: str,
@@ -240,18 +285,24 @@ class Retriever:
         topic: str | None = None,
         source_type: str | None = None,
         language: str | None = None,
+        extra_queries: list[str] | None = None,
     ) -> list[dict[str, Any]]:
         """Return top-k results sorted by similarity (highest first).
 
-        With rerank=True (default): fetch `candidate_pool` from dense search,
-        then re-score with the cross-encoder reranker, then return top-k.
-        With rerank=False: pure dense retrieval, top-k from ChromaDB directly.
+        Pipeline: for the main query (and any `extra_queries`), compute a
+        dense + BM25 ranking; RRF-fuse them all; optionally cross-encoder
+        rerank against the original query; diversify; return top-k.
+
+        `extra_queries` exists for multilingual expansion: the caller can
+        pass e.g. an English translation of an Arabic query so the
+        English half of the corpus — which BGE-M3 otherwise ranks below
+        same-language chunks — gets a fair vote via RRF.
 
         Result dict shape:
             {
               "id":          str,
-              "score":        float,   # reranker logit if reranked, else cosine similarity
-              "dense_score":  float,   # always present (cosine similarity from dense)
+              "score":        float,   # reranker logit if reranked, else RRF score
+              "dense_score":  float,   # cosine similarity from dense (0.0 if BM25-only)
               "text":         str,
               "metadata":     dict,
             }
@@ -270,58 +321,39 @@ class Retriever:
         elif len(clauses) > 1:
             where = {"$and": clauses}
 
-        # Stage 1a: dense retrieval. Pull a wide pool so RRF fusion has
-        # range to work with.
+        # De-dup the query set: original first, then any distinct extras.
+        queries = [query]
+        for q in extra_queries or []:
+            if q and q.strip() and q.strip() != query.strip() and q not in queries:
+                queries.append(q)
+
+        # Stage 1: dense + BM25 ranking per query. Pull a wide pool so RRF
+        # fusion has range to work with.
         n_per_ranker = max(PER_RANKER_POOL, candidate_pool, k)
-        embedding = self._model_lazy().encode(
-            [query],
-            normalize_embeddings=True,
-            show_progress_bar=False,
-        )[0].tolist()
-        dense_result = self._collection.query(
-            query_embeddings=[embedding],
-            n_results=n_per_ranker,
-            where=where,
-            include=["documents", "metadatas", "distances"],
-        )
-        dense_ids = list(dense_result["ids"][0])
-        dense_lookup: dict[str, dict[str, Any]] = {}
-        for i, doc_id in enumerate(dense_ids):
-            dense_lookup[doc_id] = {
-                "id": doc_id,
-                "text": dense_result["documents"][0][i],
-                "metadata": dense_result["metadatas"][0][i],
-                "dense_score": 1.0 - dense_result["distances"][0][i],
-            }
+        rankings: list[list[str]] = []
+        merged_lookup: dict[str, dict[str, Any]] = {}
+        for q in queries:
+            dense_ids, bm25_ids, lookup = self._rank_one_query(q, where, n_per_ranker)
+            rankings.append(dense_ids)
+            rankings.append(bm25_ids)
+            for doc_id, c in lookup.items():
+                # Keep the strongest dense_score seen for this id across
+                # the query variants.
+                if (
+                    doc_id not in merged_lookup
+                    or c["dense_score"] > merged_lookup[doc_id]["dense_score"]
+                ):
+                    merged_lookup[doc_id] = c
 
-        # Stage 1b: BM25 lexical retrieval over the full corpus.
-        bm25 = self._bm25_lazy()
-        tokens = _tokenize(query)
-        bm25_ids: list[str] = []
-        if tokens:
-            scores = bm25.get_scores(tokens)
-            # Argsort descending; keep only positive-scoring docs (zero
-            # = no token overlap, not informative).
-            order = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
-            for i in order[:n_per_ranker]:
-                if scores[i] <= 0:
-                    break
-                doc_id = self._bm25_ids[i]
-                # Apply chroma-style `where` filter post-hoc to BM25
-                # results so the two paths agree on filtering.
-                if where is not None and not _match_where(self._bm25_metas[i], where):
-                    continue
-                bm25_ids.append(doc_id)
-
-        # Stage 1c: fuse the two rankings with RRF.
-        fused = _rrf_merge([dense_ids, bm25_ids])
-        # Materialise into candidate dicts. Prefer dense_lookup for
-        # text+metadata; fall back to the BM25 corpus for docs only
-        # surfaced by BM25.
+        # Stage 2: fuse every ranking with RRF, then materialise the top
+        # candidate_pool into candidate dicts. Prefer merged_lookup for
+        # text+metadata; fall back to the in-memory BM25 corpus for docs
+        # only surfaced lexically.
+        fused = _rrf_merge(rankings)
         candidates: list[dict[str, Any]] = []
         for doc_id, fused_score in sorted(fused.items(), key=lambda kv: kv[1], reverse=True):
-            if doc_id in dense_lookup:
-                c = dict(dense_lookup[doc_id])
+            if doc_id in merged_lookup:
+                c = dict(merged_lookup[doc_id])
             else:
                 idx = self._bm25_idx_by_id.get(doc_id)
                 if idx is None:
@@ -337,7 +369,10 @@ class Retriever:
             if len(candidates) >= candidate_pool:
                 break
 
-        # Stage 2 (optional): cross-encoder rerank on the fused pool.
+        # Stage 3 (optional): cross-encoder rerank on the fused pool. We
+        # rerank against the ORIGINAL query — faithful to what the user
+        # asked; bge-reranker-v2-m3 is multilingual and scores
+        # cross-language pairs fine.
         if rerank and len(candidates) > 1:
             pairs = [(query, c["text"]) for c in candidates]
             rerank_scores = self._reranker_lazy().predict(pairs, show_progress_bar=False)
@@ -345,7 +380,7 @@ class Retriever:
                 c["score"] = float(s)
             candidates.sort(key=lambda c: c["score"], reverse=True)
 
-        # Stage 3 (always): diversify-then-truncate. Walks the ranked
+        # Stage 4 (always): diversify-then-truncate. Walks the ranked
         # list in order and skips candidates that exceed the per-doc /
         # per-site caps. Ensures no single page or website monopolises
         # the final k results.
