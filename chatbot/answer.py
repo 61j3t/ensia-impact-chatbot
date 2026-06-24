@@ -349,7 +349,9 @@ them to ask about server topics. **Be tolerant** — if a question is even \
 plausibly server-related, treat it as case 3 instead of this one. **No \
 brackets in this case either.**
 
-LANGUAGE: respond in the user's language (English / French / Arabic / mixed).
+LANGUAGE: reply in the language of the CURRENT user message (the latest one), \
+even if earlier messages in the conversation used a different language. Match \
+the user's switch immediately — English / French / Arabic.
 TONE: warm but concise. Two or three sentences is usually enough.
 NEVER make up [chunk_id] citations. Only cite IDs that appear in the \
 CONTEXT, and only in case 2 above.
@@ -659,6 +661,20 @@ def _looks_non_english(text: str) -> bool:
     return bool(_ARABIC_RE.search(text) or _FRENCH_RE.search(text))
 
 
+def _response_lang_directive(query: str) -> str:
+    """Explicit response-language instruction for the CURRENT query, so an
+    earlier-turn language (e.g. a prior Arabic question still in history)
+    doesn't bleed into the reply. Script-based and conservative: Arabic
+    codepoints → Arabic; French diacritics → French; otherwise English.
+    Accentless French is the one miss — rare, and the strengthened system
+    prompt still nudges the model to match."""
+    if _ARABIC_RE.search(query):
+        return "Respond in Arabic."
+    if _FRENCH_RE.search(query):
+        return "Respond in French."
+    return "Respond in English."
+
+
 def _translate_to_english(query: str, model: str) -> str | None:
     """Best-effort English translation of a non-English query, used as a
     second retrieval ranking so the English half of the corpus gets a
@@ -789,7 +805,15 @@ def answer(
         tier = "low"
 
     context_block = _build_context(hits) if hits else "(no relevant content found)"
-    user_message = f"CONTEXT:\n{context_block}\n\nUSER MESSAGE: {query}"
+    # Trailing language directive keyed on the CURRENT query (not the
+    # conversation history) — otherwise an earlier Arabic turn makes the
+    # model answer a later English question in Arabic. Last line the model
+    # reads, so it carries weight.
+    user_message = (
+        f"CONTEXT:\n{context_block}\n\n"
+        f"USER MESSAGE: {query}\n\n"
+        f"({_response_lang_directive(query)})"
+    )
 
     messages = [{"role": "system", "content": _system_prompt()}]
     messages.extend(history)
