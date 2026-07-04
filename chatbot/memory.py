@@ -605,6 +605,12 @@ class ConversationMemory:
 
 import logging as _logging
 
+# Loggers whose WARNINGs are known benign noise — kept out of the events
+# table so it stays signal-only. (They still print to stdout.) The HF Hub
+# "set HF_TOKEN for higher rate limits" nag fires on every model load;
+# urllib3/httpx retries are transient network chatter.
+_EVENT_IGNORE_LOGGERS = ("huggingface_hub", "urllib3", "httpx", "httpcore", "filelock")
+
 
 class PostgresLogHandler(_logging.Handler):
     """Mirror WARNING+ log records into the events table so failures
@@ -624,6 +630,9 @@ class PostgresLogHandler(_logging.Handler):
 
     def emit(self, record: _logging.LogRecord) -> None:
         if self._in_emit:
+            return
+        name = record.name or ""
+        if any(name == n or name.startswith(n + ".") for n in _EVENT_IGNORE_LOGGERS):
             return
         self._in_emit = True
         try:
