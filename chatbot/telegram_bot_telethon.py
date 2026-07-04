@@ -557,6 +557,11 @@ async def _handle_query(
                     "tg_message_id": sent_msg.id if sent_msg else None,
                     "model_used": result.get("model_used"),
                     "refused": refused,
+                    # Telemetry — persisted so latency / retrieval quality
+                    # are queryable without scraping ephemeral logs.
+                    "latency_ms": int(elapsed_s * 1000),
+                    "tier": result.get("tier"),
+                    "top_score": result.get("top_score"),
                 },
             ])
         except Exception:
@@ -684,6 +689,16 @@ async def _run() -> None:
     _memory = ConversationMemory()
     safe_dsn = re.sub(r":[^:@/]+@", ":***@", _memory.dsn)
     logger.info("Conversation memory ready (postgres %s)", safe_dsn)
+
+    # Mirror WARNING+ logs into Postgres so failures survive HF's frequent
+    # restarts (stdout logs are ephemeral). Attach to the root logger so
+    # every module's warnings/exceptions are captured. Prune old rows once
+    # at startup as the retention guard.
+    from chatbot.memory import PostgresLogHandler
+    _db_log_handler = PostgresLogHandler(_memory)
+    logging.getLogger().addHandler(_db_log_handler)
+    pruned = _memory.prune_events(keep_days=30)
+    logger.info("DB log handler attached (pruned %d old events)", pruned)
 
     logger.info("Loading retriever (BGE-M3 + reranker)…")
     _retriever = Retriever()

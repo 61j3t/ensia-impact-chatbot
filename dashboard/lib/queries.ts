@@ -248,3 +248,66 @@ export async function getQueriesPerDay(
   return rows;
 }
 
+// ─── Operational health (events + latency telemetry) ──────────────────
+
+export interface EventRow {
+  id: number;
+  ts: Date;
+  level: string;
+  logger: string | null;
+  message: string;
+  exc_info: string | null;
+}
+
+export interface HealthSummary {
+  errors24h: number;
+  warns24h: number;
+  answers24h: number;
+  p50_ms: number | null;
+  p95_ms: number | null;
+  max_ms: number | null;
+  geminiShare: number | null; // 0..1 of answers on the primary in 24h
+}
+
+export async function getRecentEvents(limit = 50): Promise<EventRow[]> {
+  return (await sql`
+    SELECT id, ts, level, logger, message, exc_info
+    FROM events
+    ORDER BY ts DESC
+    LIMIT ${limit}
+  `) as unknown as EventRow[];
+}
+
+export async function getHealthSummary(): Promise<HealthSummary> {
+  const [row] = (await sql`
+    SELECT
+      (SELECT COUNT(*)::int FROM events
+         WHERE level IN ('ERROR','CRITICAL') AND ts > NOW() - INTERVAL '24 hours') AS errors_24h,
+      (SELECT COUNT(*)::int FROM events
+         WHERE level = 'WARNING' AND ts > NOW() - INTERVAL '24 hours')             AS warns_24h,
+      (SELECT COUNT(*)::int FROM conversations
+         WHERE role='assistant' AND ts > NOW() - INTERVAL '24 hours')              AS answers_24h,
+      (SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY latency_ms) FROM conversations
+         WHERE role='assistant' AND latency_ms IS NOT NULL AND ts > NOW() - INTERVAL '24 hours') AS p50_ms,
+      (SELECT PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY latency_ms) FROM conversations
+         WHERE role='assistant' AND latency_ms IS NOT NULL AND ts > NOW() - INTERVAL '24 hours') AS p95_ms,
+      (SELECT MAX(latency_ms) FROM conversations
+         WHERE role='assistant' AND ts > NOW() - INTERVAL '24 hours')              AS max_ms,
+      (SELECT AVG(CASE WHEN model_used LIKE 'gemini%' THEN 1.0 ELSE 0.0 END) FROM conversations
+         WHERE role='assistant' AND model_used IS NOT NULL AND ts > NOW() - INTERVAL '24 hours') AS gemini_share
+  `) as unknown as {
+    errors_24h: number; warns_24h: number; answers_24h: number;
+    p50_ms: number | null; p95_ms: number | null; max_ms: number | null;
+    gemini_share: number | null;
+  }[];
+  return {
+    errors24h: row.errors_24h,
+    warns24h: row.warns_24h,
+    answers24h: row.answers_24h,
+    p50_ms: row.p50_ms != null ? Math.round(row.p50_ms) : null,
+    p95_ms: row.p95_ms != null ? Math.round(row.p95_ms) : null,
+    max_ms: row.max_ms,
+    geminiShare: row.gemini_share != null ? Number(row.gemini_share) : null,
+  };
+}
+

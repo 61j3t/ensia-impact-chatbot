@@ -5,6 +5,8 @@ import {
   getUsers,
   getUser,
   getConversationsForUser,
+  getHealthSummary,
+  getRecentEvents,
 } from "@/lib/queries";
 import { userDisplayName, dateTime, relTime } from "@/lib/format";
 import { StatCard } from "@/components/StatCard";
@@ -13,6 +15,7 @@ import { SourcesList } from "@/components/SourcesList";
 import { FeedbackBadges } from "@/components/FeedbackBadges";
 import { ModelBadge } from "@/components/ModelBadge";
 import { BadgeShelf } from "@/components/BadgeShelf";
+import { HealthPanel } from "@/components/HealthPanel";
 
 export const dynamic = "force-dynamic";
 
@@ -32,10 +35,12 @@ export default async function HomePage({
   searchParams: Promise<{ user?: string }>;
 }) {
   const params = await searchParams;
-  const [stats, queriesPerDay, users] = await Promise.all([
+  const [stats, queriesPerDay, users, health, events] = await Promise.all([
     getStats(),
     getQueriesPerDay(30),
     getUsers(),
+    getHealthSummary(),
+    getRecentEvents(50),
   ]);
   const realUsers = users.filter((u) => !u.is_bot);
 
@@ -104,6 +109,9 @@ export default async function HomePage({
           <QueriesChart data={queriesPerDay} />
         </div>
       </section>
+
+      {/* ─── System health (errors + latency + events) ─── */}
+      <HealthPanel health={health} events={events} />
 
       {/* ─── User list + transcript reader ─── */}
       <div className="grid grid-cols-1 md:grid-cols-[320px,1fr] gap-4 md:gap-5">

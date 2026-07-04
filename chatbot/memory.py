@@ -24,6 +24,7 @@ the docker-compose `postgres` service published on localhost:5433
 from __future__ import annotations
 
 import os
+import re
 from contextlib import contextmanager
 from datetime import datetime, timedelta, timezone
 from typing import Iterable
@@ -35,6 +36,28 @@ DEFAULT_DSN = os.getenv(
     "DATABASE_URL",
     "postgresql://ensia:ensia@localhost:5433/ensia_bot",
 )
+
+# Redact anything that looks like a credential before persisting a log
+# line to the events table. Tracebacks and error strings can embed the
+# DATABASE_URL, API keys, or bearer tokens; the events table is readable
+# from the dashboard, so scrub first.
+_SECRET_PATTERNS = [
+    re.compile(r"\b[a-z][a-z0-9+.\-]*://[^\s/@]+:[^\s/@]+@", re.I),  # user:pass@ in any URL
+    re.compile(r"\b(sk|hf|gsk|xoxb|ghp|glpat)[-_][A-Za-z0-9\-_]{8,}"),  # common key prefixes
+    re.compile(r"(?i)\b(authorization|api[_-]?key|token|password|secret)\b\s*[:=]\s*\S+"),
+]
+
+
+def _scrub_secrets(text: str | None) -> str | None:
+    """Best-effort redaction of credentials embedded in a log message or
+    traceback before it lands in the (dashboard-readable) events table."""
+    if not text:
+        return text
+    out = text
+    out = _SECRET_PATTERNS[0].sub(lambda m: m.group(0).split("://")[0] + "://***:***@", out)
+    out = _SECRET_PATTERNS[1].sub("***", out)
+    out = _SECRET_PATTERNS[2].sub(r"\1=***", out)
+    return out
 
 _SCHEMA = """
 CREATE TABLE IF NOT EXISTS users (
@@ -96,6 +119,13 @@ ALTER TABLE conversations ADD COLUMN IF NOT EXISTS rerank BOOLEAN NOT NULL DEFAU
 -- a refused exchange never pollutes the LLM's follow-up context.
 ALTER TABLE conversations ADD COLUMN IF NOT EXISTS refused BOOLEAN NOT NULL DEFAULT FALSE;
 
+-- Per-answer telemetry (set on the assistant turn). Previously only in
+-- the ephemeral HF logs; persisted here so latency / retrieval-quality
+-- are queryable across restarts (p95 latency, slowest queries, tier mix).
+ALTER TABLE conversations ADD COLUMN IF NOT EXISTS latency_ms INTEGER;
+ALTER TABLE conversations ADD COLUMN IF NOT EXISTS tier TEXT;
+ALTER TABLE conversations ADD COLUMN IF NOT EXISTS top_score REAL;
+
 -- ── Gamification ──────────────────────────────────────────────────
 -- Personal stats: streak counters + earned-badge keys. Computed lazily
 -- on /me and refreshed on every successful answer. Don't reset on the
@@ -118,6 +148,21 @@ CREATE TABLE IF NOT EXISTS feedback (
 );
 CREATE INDEX IF NOT EXISTS idx_feedback_msg
     ON feedback (chat_id, message_id);
+
+-- Structured operational log. A logging.Handler mirrors every WARNING+
+-- record here (crashes, rate-limits, failed edits, etc.) so failures
+-- survive the Space's frequent restarts — HF stdout logs are ephemeral
+-- and rotate within hours. NOT a raw stdout tee: INFO chatter (litellm,
+-- uvicorn) is deliberately excluded to keep this table small and useful.
+CREATE TABLE IF NOT EXISTS events (
+    id          BIGSERIAL PRIMARY KEY,
+    ts          TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    level       TEXT NOT NULL,        -- WARNING / ERROR / CRITICAL
+    logger      TEXT,                 -- e.g. ensia.bot.telethon
+    message     TEXT NOT NULL,        -- formatted log message (secrets scrubbed)
+    exc_info    TEXT                  -- traceback, if the record had one
+);
+CREATE INDEX IF NOT EXISTS idx_events_ts ON events (ts DESC);
 """
 
 
@@ -226,13 +271,17 @@ class ConversationMemory:
                         t.get("model_used"),
                         bool(t.get("rerank")),
                         bool(t.get("refused")),
+                        t.get("latency_ms"),
+                        t.get("tier"),
+                        t.get("top_score"),
                     )
                     for i, t in enumerate(turns)
                 ]
                 cur.executemany(
                     "INSERT INTO conversations "
-                    "(chat_id, user_id, turn_idx, role, content, sources, tg_message_id, model_used, rerank, refused) "
-                    "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
+                    "(chat_id, user_id, turn_idx, role, content, sources, tg_message_id, "
+                    "model_used, rerank, refused, latency_ms, tier, top_score) "
+                    "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
                     rows,
                 )
 
@@ -465,6 +514,65 @@ class ConversationMemory:
                     (Jsonb(badge_keys), user_id),
                 )
 
+    # ─── events / operational log ───────────────────────────────────────
+
+    def record_event(
+        self,
+        level: str,
+        message: str,
+        *,
+        logger: str | None = None,
+        exc_info: str | None = None,
+    ) -> None:
+        """Persist one structured log event. Best-effort: any failure is
+        swallowed so logging can never break or stall the caller. Secrets
+        are scrubbed before insert (the events table is dashboard-visible)."""
+        try:
+            with self._conn() as conn:
+                with conn.cursor() as cur:
+                    cur.execute(
+                        "INSERT INTO events (level, logger, message, exc_info) "
+                        "VALUES (%s, %s, %s, %s)",
+                        (
+                            (level or "")[:16],
+                            (logger or None),
+                            _scrub_secrets(message) or "",
+                            _scrub_secrets(exc_info),
+                        ),
+                    )
+        except Exception:
+            pass  # logging must never raise
+
+    def recent_events(self, limit: int = 100, level: str | None = None) -> list[dict]:
+        """Most recent events, newest first. Optional exact-level filter."""
+        with self._conn() as conn:
+            with conn.cursor() as cur:
+                if level:
+                    cur.execute(
+                        "SELECT id, ts, level, logger, message, exc_info FROM events "
+                        "WHERE level=%s ORDER BY ts DESC LIMIT %s",
+                        (level, limit),
+                    )
+                else:
+                    cur.execute(
+                        "SELECT id, ts, level, logger, message, exc_info FROM events "
+                        "ORDER BY ts DESC LIMIT %s",
+                        (limit,),
+                    )
+                return cur.fetchall()
+
+    def prune_events(self, keep_days: int = 30) -> int:
+        """Delete events older than keep_days. Retention guard so a runaway
+        error loop can't fill Neon's free tier. Returns rows deleted."""
+        try:
+            cutoff = datetime.now(timezone.utc) - timedelta(days=keep_days)
+            with self._conn() as conn:
+                with conn.cursor() as cur:
+                    cur.execute("DELETE FROM events WHERE ts < %s", (cutoff,))
+                    return cur.rowcount
+        except Exception:
+            return 0
+
     def add_report_reason(self, feedback_id: int, reason: str) -> None:
         with self._conn() as conn:
             with conn.cursor() as cur:
@@ -493,3 +601,42 @@ class ConversationMemory:
                     (chat_id, user_id),
                 )
                 return cur.rowcount
+
+
+import logging as _logging
+
+
+class PostgresLogHandler(_logging.Handler):
+    """Mirror WARNING+ log records into the events table so failures
+    survive the Space's frequent restarts. Attach once at startup:
+
+        handler = PostgresLogHandler(memory)
+        logging.getLogger().addHandler(handler)
+
+    Every write is best-effort (record_event swallows its own errors),
+    and a re-entrancy guard stops a DB-layer warning logged during the
+    insert from recursing forever."""
+
+    def __init__(self, memory: "ConversationMemory", level: int = _logging.WARNING):
+        super().__init__(level=level)
+        self._memory = memory
+        self._in_emit = False
+
+    def emit(self, record: _logging.LogRecord) -> None:
+        if self._in_emit:
+            return
+        self._in_emit = True
+        try:
+            exc_text = None
+            if record.exc_info:
+                exc_text = self.format(record) if self.formatter else _logging.Formatter().formatException(record.exc_info)
+            self._memory.record_event(
+                record.levelname,
+                record.getMessage(),
+                logger=record.name,
+                exc_info=exc_text,
+            )
+        except Exception:
+            pass
+        finally:
+            self._in_emit = False
