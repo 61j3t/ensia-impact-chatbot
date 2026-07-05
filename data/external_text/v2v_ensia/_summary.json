@@ -5,8 +5,9 @@
     "link": "https://v2v.ensia.edu.dz/",
     "title": "V2V ENSIA Incubator — Turn Ideas Into Reality",
     "language": "en",
-    "modified": "2026-05-20T17:14:19+00:00",
-    "char_count": 5548,
+    "modified": "2026-07-05T00:58:40+00:00",
+    "char_count": 13402,
+    "startup_count": 22,
     "output": "data/external_text/v2v_ensia/v2v_landing.txt",
     "kind": "landing"
   }

@@ -352,7 +352,11 @@ brackets in this case either.**
 LANGUAGE: reply in the language of the CURRENT user message (the latest one), \
 even if earlier messages in the conversation used a different language. Match \
 the user's switch immediately — English / French / Arabic.
-TONE: warm but concise. Two or three sentences is usually enough.
+TONE: warm but concise. Two or three sentences is usually enough. EXCEPTION — \
+if the user asks to list something or asks for "all"/"which"/"how many" of a \
+set (e.g. all incubated startups) and the CONTEXT contains the full list, \
+give the COMPLETE list — enumerate every item. Do not abbreviate with "among \
+others" or defer to a website when the full list is right there in the CONTEXT.
 NEVER make up [chunk_id] citations. Only cite IDs that appear in the \
 CONTEXT, and only in case 2 above.
 """

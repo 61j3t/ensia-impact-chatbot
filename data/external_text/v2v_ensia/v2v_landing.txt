@@ -1,7 +1,9 @@
 [Source: https://v2v.ensia.edu.dz/]
 [Title: V2V ENSIA Incubator — Turn Ideas Into Reality]
 [Language: en]
-[Modified: 2026-05-20T17:14:19+00:00]
+[Modified: 2026-07-05T00:58:40+00:00]
+
+V2V Incubator — full list of all 22 incubated startups (the complete cohort of incubated projects / startups / teams): Nroho, RIGLO, Brendex, LetsRank, Notiverse, Stylna, PharmAi, Darna Eco, SONEX, Ween?, Roomies, Swapie, WORB, BIDZ, DataDz, Medoria, Stationi, Apex analytics, HomeHub, Navigui, Ratee, DzairAI.
 
 About
 Offers
@@ -174,7 +176,138 @@ Brendex
 
 Brendex is a SaaS that helps brands analyze their social media performance, track progress, and benchmark against competitors.
 
-Show all startups
+STARTUP TEAM
+
+LetsRank
+
+Run your pitch events with confidence using smart scoring, real-time analytics, and live ranking.
+
+STARTUP TEAM
+
+Notiverse
+
+Notiverse is a smart, mobile-first note-taking app designed to organize your thoughts automatically. By understanding your schedule, it instantly sorts notes, images, and voice recordings into the right context. With powerful AI search, offline functionality, and a clean, fast capture experience, Notiverse helps students and professionals find what they need effortlessly. It's organization without the effort.
+
+Learn more
+
+STARTUP TEAM
+
+Stylna
+
+Stylna is an intelligent fashion platform targeting consumers and sellers who seek a more personalized and sustainable shopping experience. The project addresses key challenges of online shopping, such as poor clothing choices, lack of inspiration, and textile waste. Through artificial intelligence, Stylna provides smart recommendations, complete outfit suggestions, and visual discovery tools. The platform brings together new, second-hand, and rental clothing, while encouraging collaboration between sellers and users. Stylna innovates by combining technology, creativity, and sustainability to transform how people discover, wear, and reuse fashion.
+
+Learn more
+
+STARTUP TEAM
+
+PharmAi
+
+A smart platform that help pharmacists and distributors in drugs management.
+
+STARTUP TEAM
+
+Darna Eco
+
+Darna Eco is a smart platform that helps households monitor and optimize their water, electricity, and gas consumption. By tracking daily routines and using AI-based estimations, the app provides personalized insights, cost-saving recommendations, and alerts to reduce waste. In the future, Darna Eco will integrate IoT sensors for real-time monitoring and connect users with verified technicians for maintenance, making consumption management simpler, more efficient, and environmentally friendly.
+
+Learn more
+
+STARTUP TEAM
+
+SONEX
+
+SONEX is eco-friendly urban delivery services that uses bicycles in dense areas, to make urban deliveries faster, cheaper, greener and more flexible, offering more job opportunities and protecting our environment.
+
+STARTUP TEAM
+
+Ween?
+
+Ween? is a digital platform (mobile application and website) that connects restaurants with customers in a single, intelligent ecosystem. The platform allows users to discover nearby restaurants, view menus, prices, and locations, read and write reviews and ratings, order food online, or reserve tables for special occasions. Ween? aims to simplify food discovery and ordering for customers while providing restaurants with greater visibility, customer engagement, and business growth opportunities.
+
+Learn more
+R
+
+STARTUP TEAM
+
+Roomies
+
+A social media app to overcome doomscrolling.
+
+STARTUP TEAM
+
+Swapie
+
+Swapie is a skill-exchange platform where people trade services using points instead of money, making help accessible, fair, and affordable for everyone.
+
+STARTUP TEAM
+
+WORB
+
+AI weather forecasting for farmers, we help farmers and governments improve yield and reduce costs by limiting the effect of unpredictable weather with fast, cheap and accurate AI forecasts.
+
+STARTUP TEAM
+
+BIDZ
+
+BIDZ is a digital platform for buying and selling cars (at the moment) through transparent auctions, focused on trust, simplicity, and fair pricing.
+
+STARTUP TEAM
+
+DataDz
+
+DataDZ is a sovereign Algerian platform providing a secure, domestic ecosystem for AI data labeling and annotation. To ensure full digital sovereignty and compliance with national laws, the entire data lifecycle from secure upload to final delivery remains physically within Algeria. The service connects local organizations and researchers with verified domestic annotators, facilitating tasks like image identification and text classification while processing all payments in DZD through local channels. By localizing this industry, DataDZ creates digital employment, preserves local dialects, and ensures that sensitive administrative data stays under national jurisdiction.
+
+Learn more
+
+STARTUP TEAM
+
+Medoria
+
+Medoria is an AI-based medical simulation platform designed to help students practice diagnosis and patient interaction before entering hospitals. It offers realistic virtual patients, structured clinical workflows, and personalized feedback to improve confidence and decision-making.
+
+Learn more
+
+STARTUP TEAM
+
+Stationi
+
+Stationi is a smart parking management system project based on computer vision and artificial intelligence. It detects vehicles, reads license plates, and tracks entry and exit movements in a parking lot.
+
+STARTUP TEAM
+
+Apex analytics
+
+APEX Analytics is a football intelligence startup dedicated to democratizing elite-level data by making professional tactical insights affordable and accessible. The core technology focuses on extracting high-fidelity tracking data from a single-camera setup, using advanced computer vision for precise player and ball detections without the need for expensive multi-camera infrastructure. By lowering the barrier to entry, the platform aims to empower youth development programs and academies to utilize prescriptive intelligence for talent spotting and player progression. The focus is on identifying build-up patterns, defensive structures, and transition vulnerabilities to provide a professional scouting framework at every level of the game. Currently preparing for its initial launch.
+
+Learn more
+
+STARTUP TEAM
+
+HomeHub
+
+HomeHub is a digital platform that helps users design, build, furnish, and maintain their homes in Algeria. It connects homeowners, architects, interior designers, construction professionals, cleaning services, and suppliers in one trusted ecosystem. HomeHub ensures verified professionals, quality materials, secure transactions, and transparent reviews. Revenue comes from service commissions, professional subscriptions, and supplier advertising. Future AI features will offer personalized project recommendations, cost planning, smart matching, and secure authentication, improving efficiency and trust for all users.
+
+Learn more
+
+STARTUP TEAM
+
+Navigui
+
+Navigui is a dual-sided job marketplace mobile application that connects Algerian university students with part-time job opportunities and employers seeking flexible workforce solutions.
+
+STARTUP TEAM
+
+Ratee
+
+An app where users rate products (groceries, cosmetics, supplements..), users can scan the codebar of a product, to see what are the reviews of the community about it, sharing their reviews and opinions.
+
+STARTUP TEAM
+
+DzairAI
+
+The all in one platform for all related Algerian AI news and resources.
+
+Show top 3 startups
 Learn More
 
 Expect to hear from us, arrange your tailored discovery call for our startup incubator.
@@ -220,3 +353,23 @@ Instagram
 LinkedIn
 
 © 2026 V2V ENSiA. All rights reserved.
+
+Frequently Asked Questions
+
+01. What is V2V?
+V2V is ENSiA's AI-focused incubator that helps students turn their AI ideas into concrete, impactful projects.
+
+02. Who can apply to the incubator?
+Any student or team of students with innovative AI ideas and a passion for solving real-world problems can apply. We welcome participants from all academic backgrounds and skill levels.
+
+03. What support do selected teams receive?
+Selected teams receive mentorship from industry experts, access to resources and tools, networking opportunities, workspace, and guidance throughout their development journey.
+
+04. How does the selection process work?
+Applications are reviewed by our expert panel based on innovation, feasibility, impact potential, and team capability. Shortlisted teams are invited for interviews before final selection.
+
+05. How are startups evaluated?
+Startups are evaluated on multiple criteria including innovation, market potential, technical feasibility, team composition, social impact, and scalability of the solution.
+
+06. Do I need a complete product to apply?
+No, you don't need a complete product. We accept applications at the idea stage, but having a prototype or MVP demonstrates commitment and increases your chances of selection.
